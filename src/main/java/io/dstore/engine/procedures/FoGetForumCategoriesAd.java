@@ -13,17 +13,17 @@ public final class FoGetForumCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
      */
     boolean hasPredecessorForumCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPredecessorForumCategoryId();
+    io.dstore.Values.integerValue getPredecessorForumCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPredecessorForumCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPredecessorForumCategoryIdOrBuilder();
 
     /**
      * <code>optional bool predecessor_forum_category_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class FoGetForumCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (predecessorForumCategoryId_ != null) {
                 subBuilder = predecessorForumCategoryId_.toBuilder();
               }
-              predecessorForumCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              predecessorForumCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predecessorForumCategoryId_);
                 predecessorForumCategoryId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class FoGetForumCategoriesAd {
     }
 
     public static final int PREDECESSOR_FORUM_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue predecessorForumCategoryId_;
+    private io.dstore.Values.integerValue predecessorForumCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
      */
     public boolean hasPredecessorForumCategoryId() {
       return predecessorForumCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPredecessorForumCategoryId() {
-      return predecessorForumCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorForumCategoryId_;
+    public io.dstore.Values.integerValue getPredecessorForumCategoryId() {
+      return predecessorForumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorForumCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPredecessorForumCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPredecessorForumCategoryIdOrBuilder() {
       return getPredecessorForumCategoryId();
     }
 
@@ -368,29 +368,29 @@ public final class FoGetForumCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue predecessorForumCategoryId_ = null;
+      private io.dstore.Values.integerValue predecessorForumCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predecessorForumCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorForumCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
       public boolean hasPredecessorForumCategoryId() {
         return predecessorForumCategoryIdBuilder_ != null || predecessorForumCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPredecessorForumCategoryId() {
+      public io.dstore.Values.integerValue getPredecessorForumCategoryId() {
         if (predecessorForumCategoryIdBuilder_ == null) {
-          return predecessorForumCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorForumCategoryId_;
+          return predecessorForumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorForumCategoryId_;
         } else {
           return predecessorForumCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
-      public Builder setPredecessorForumCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPredecessorForumCategoryId(io.dstore.Values.integerValue value) {
         if (predecessorForumCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class FoGetForumCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
       public Builder setPredecessorForumCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (predecessorForumCategoryIdBuilder_ == null) {
           predecessorForumCategoryId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class FoGetForumCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
-      public Builder mergePredecessorForumCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePredecessorForumCategoryId(io.dstore.Values.integerValue value) {
         if (predecessorForumCategoryIdBuilder_ == null) {
           if (predecessorForumCategoryId_ != null) {
             predecessorForumCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(predecessorForumCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(predecessorForumCategoryId_).mergeFrom(value).buildPartial();
           } else {
             predecessorForumCategoryId_ = value;
           }
@@ -436,7 +436,7 @@ public final class FoGetForumCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
       public Builder clearPredecessorForumCategoryId() {
         if (predecessorForumCategoryIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class FoGetForumCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPredecessorForumCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPredecessorForumCategoryIdBuilder() {
         
         onChanged();
         return getPredecessorForumCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredecessorForumCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredecessorForumCategoryIdOrBuilder() {
         if (predecessorForumCategoryIdBuilder_ != null) {
           return predecessorForumCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return predecessorForumCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorForumCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : predecessorForumCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predecessor_forum_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPredecessorForumCategoryIdFieldBuilder() {
         if (predecessorForumCategoryIdBuilder_ == null) {
           predecessorForumCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPredecessorForumCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class FoGetForumCategoriesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Forum-Kategorie
@@ -806,24 +806,24 @@ public final class FoGetForumCategoriesAd {
        */
       boolean hasForumCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Forum-Kategorie
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getForumCategoryId();
+      io.dstore.Values.integerValue getForumCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Forum-Kategorie
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getForumCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
@@ -831,24 +831,24 @@ public final class FoGetForumCategoriesAd {
        */
       boolean hasCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCategoryDescription();
+      io.dstore.Values.stringValue getCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
@@ -856,24 +856,24 @@ public final class FoGetForumCategoriesAd {
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSortNo();
+      io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+       * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
        *
        * <pre>
        * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
@@ -881,21 +881,21 @@ public final class FoGetForumCategoriesAd {
        */
       boolean hasContainsCategoriesOrForums();
       /**
-       * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+       * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
        *
        * <pre>
        * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getContainsCategoriesOrForums();
+      io.dstore.Values.integerValue getContainsCategoriesOrForums();
       /**
-       * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+       * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
        *
        * <pre>
        * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getContainsCategoriesOrForumsOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getContainsCategoriesOrForumsOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetForumCategories_Ad.Response.Row}
@@ -942,11 +942,11 @@ public final class FoGetForumCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (forumCategoryId_ != null) {
                   subBuilder = forumCategoryId_.toBuilder();
                 }
-                forumCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                forumCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumCategoryId_);
                   forumCategoryId_ = subBuilder.buildPartial();
@@ -955,11 +955,11 @@ public final class FoGetForumCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (categoryDescription_ != null) {
                   subBuilder = categoryDescription_.toBuilder();
                 }
-                categoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryDescription_);
                   categoryDescription_ = subBuilder.buildPartial();
@@ -968,11 +968,11 @@ public final class FoGetForumCategoriesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -981,11 +981,11 @@ public final class FoGetForumCategoriesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (containsCategoriesOrForums_ != null) {
                   subBuilder = containsCategoriesOrForums_.toBuilder();
                 }
-                containsCategoriesOrForums_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                containsCategoriesOrForums_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(containsCategoriesOrForums_);
                   containsCategoriesOrForums_ = subBuilder.buildPartial();
@@ -1027,9 +1027,9 @@ public final class FoGetForumCategoriesAd {
       }
 
       public static final int FORUM_CATEGORY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue forumCategoryId_;
+      private io.dstore.Values.integerValue forumCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Forum-Kategorie
@@ -1039,30 +1039,30 @@ public final class FoGetForumCategoriesAd {
         return forumCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Forum-Kategorie
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getForumCategoryId() {
-        return forumCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+      public io.dstore.Values.integerValue getForumCategoryId() {
+        return forumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Forum-Kategorie
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
         return getForumCategoryId();
       }
 
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue categoryDescription_;
+      private io.dstore.Values.stringValue categoryDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
@@ -1072,30 +1072,30 @@ public final class FoGetForumCategoriesAd {
         return categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCategoryDescription() {
-        return categoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+      public io.dstore.Values.stringValue getCategoryDescription() {
+        return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue sortNo_;
+      private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
@@ -1105,30 +1105,30 @@ public final class FoGetForumCategoriesAd {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.Values.integerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int CONTAINS_CATEGORIES_OR_FORUMS_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue containsCategoriesOrForums_;
+      private io.dstore.Values.integerValue containsCategoriesOrForums_;
       /**
-       * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+       * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
        *
        * <pre>
        * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
@@ -1138,23 +1138,23 @@ public final class FoGetForumCategoriesAd {
         return containsCategoriesOrForums_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+       * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
        *
        * <pre>
        * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getContainsCategoriesOrForums() {
-        return containsCategoriesOrForums_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : containsCategoriesOrForums_;
+      public io.dstore.Values.integerValue getContainsCategoriesOrForums() {
+        return containsCategoriesOrForums_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : containsCategoriesOrForums_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+       * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
        *
        * <pre>
        * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getContainsCategoriesOrForumsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getContainsCategoriesOrForumsOrBuilder() {
         return getContainsCategoriesOrForums();
       }
 
@@ -1474,11 +1474,11 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue forumCategoryId_ = null;
+        private io.dstore.Values.integerValue forumCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
@@ -1488,27 +1488,27 @@ public final class FoGetForumCategoriesAd {
           return forumCategoryIdBuilder_ != null || forumCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getForumCategoryId() {
+        public io.dstore.Values.integerValue getForumCategoryId() {
           if (forumCategoryIdBuilder_ == null) {
-            return forumCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+            return forumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
           } else {
             return forumCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
-        public Builder setForumCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setForumCategoryId(io.dstore.Values.integerValue value) {
           if (forumCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1522,14 +1522,14 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
         public Builder setForumCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (forumCategoryIdBuilder_ == null) {
             forumCategoryId_ = builderForValue.build();
             onChanged();
@@ -1540,17 +1540,17 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
-        public Builder mergeForumCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeForumCategoryId(io.dstore.Values.integerValue value) {
           if (forumCategoryIdBuilder_ == null) {
             if (forumCategoryId_ != null) {
               forumCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(forumCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(forumCategoryId_).mergeFrom(value).buildPartial();
             } else {
               forumCategoryId_ = value;
             }
@@ -1562,7 +1562,7 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
@@ -1580,45 +1580,45 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getForumCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getForumCategoryIdBuilder() {
           
           onChanged();
           return getForumCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
           if (forumCategoryIdBuilder_ != null) {
             return forumCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return forumCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue forum_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Forum-Kategorie
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getForumCategoryIdFieldBuilder() {
           if (forumCategoryIdBuilder_ == null) {
             forumCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getForumCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -1627,11 +1627,11 @@ public final class FoGetForumCategoriesAd {
           return forumCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue categoryDescription_ = null;
+        private io.dstore.Values.stringValue categoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
@@ -1641,27 +1641,27 @@ public final class FoGetForumCategoriesAd {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCategoryDescription() {
+        public io.dstore.Values.stringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
-            return categoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+            return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
           } else {
             return categoryDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
-        public Builder setCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1675,14 +1675,14 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
         public Builder setCategoryDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescription_ = builderForValue.build();
             onChanged();
@@ -1693,17 +1693,17 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
-        public Builder mergeCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (categoryDescription_ != null) {
               categoryDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
             } else {
               categoryDescription_ = value;
             }
@@ -1715,7 +1715,7 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
@@ -1733,45 +1733,45 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
           
           onChanged();
           return getCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
             return categoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return categoryDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCategoryDescriptionFieldBuilder() {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1780,11 +1780,11 @@ public final class FoGetForumCategoriesAd {
           return categoryDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue sortNo_ = null;
+        private io.dstore.Values.integerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
@@ -1794,27 +1794,27 @@ public final class FoGetForumCategoriesAd {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSortNo() {
+        public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
-        public Builder setSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1828,14 +1828,14 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
         public Builder setSortNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -1846,17 +1846,17 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
-        public Builder mergeSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -1868,7 +1868,7 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
@@ -1886,45 +1886,45 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "ForumCategoryID" innerhalb aller Kategorien, die "&#64;PredecessorForumCategoryID" untergeordnet sind - falls dieser Parameter mit "NULL" angegeben wurde, "ForumCategoryID" also eine "Hauptkategorie" ist, steht hier immer "0"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -1933,11 +1933,11 @@ public final class FoGetForumCategoriesAd {
           return sortNoBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue containsCategoriesOrForums_ = null;
+        private io.dstore.Values.integerValue containsCategoriesOrForums_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> containsCategoriesOrForumsBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> containsCategoriesOrForumsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
@@ -1947,27 +1947,27 @@ public final class FoGetForumCategoriesAd {
           return containsCategoriesOrForumsBuilder_ != null || containsCategoriesOrForums_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getContainsCategoriesOrForums() {
+        public io.dstore.Values.integerValue getContainsCategoriesOrForums() {
           if (containsCategoriesOrForumsBuilder_ == null) {
-            return containsCategoriesOrForums_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : containsCategoriesOrForums_;
+            return containsCategoriesOrForums_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : containsCategoriesOrForums_;
           } else {
             return containsCategoriesOrForumsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
-        public Builder setContainsCategoriesOrForums(io.dstore.engine.Values.integerValue value) {
+        public Builder setContainsCategoriesOrForums(io.dstore.Values.integerValue value) {
           if (containsCategoriesOrForumsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1981,14 +1981,14 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
         public Builder setContainsCategoriesOrForums(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (containsCategoriesOrForumsBuilder_ == null) {
             containsCategoriesOrForums_ = builderForValue.build();
             onChanged();
@@ -1999,17 +1999,17 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
-        public Builder mergeContainsCategoriesOrForums(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeContainsCategoriesOrForums(io.dstore.Values.integerValue value) {
           if (containsCategoriesOrForumsBuilder_ == null) {
             if (containsCategoriesOrForums_ != null) {
               containsCategoriesOrForums_ =
-                io.dstore.engine.Values.integerValue.newBuilder(containsCategoriesOrForums_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(containsCategoriesOrForums_).mergeFrom(value).buildPartial();
             } else {
               containsCategoriesOrForums_ = value;
             }
@@ -2021,7 +2021,7 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
@@ -2039,45 +2039,45 @@ public final class FoGetForumCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getContainsCategoriesOrForumsBuilder() {
+        public io.dstore.Values.integerValue.Builder getContainsCategoriesOrForumsBuilder() {
           
           onChanged();
           return getContainsCategoriesOrForumsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getContainsCategoriesOrForumsOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getContainsCategoriesOrForumsOrBuilder() {
           if (containsCategoriesOrForumsBuilder_ != null) {
             return containsCategoriesOrForumsBuilder_.getMessageOrBuilder();
           } else {
             return containsCategoriesOrForums_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : containsCategoriesOrForums_;
+                io.dstore.Values.integerValue.getDefaultInstance() : containsCategoriesOrForums_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue contains_categories_or_forums = 10004;</code>
+         * <code>optional .dstore.values.integerValue contains_categories_or_forums = 10004;</code>
          *
          * <pre>
          * Gibt an, ob "ForumCategoryID" Foren und/oder Kategorien zugeordnet sind."0" : Enthält weder Unterkategorien noch Foren"1" : Enthält nur Unterkategorien"2" : Enthält nur Foren"3" : Enthält sowohl Foren als auch Unterkategorien
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getContainsCategoriesOrForumsFieldBuilder() {
           if (containsCategoriesOrForumsBuilder_ == null) {
             containsCategoriesOrForumsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getContainsCategoriesOrForums(),
                     getParentForChildren(),
                     isClean());
@@ -3647,28 +3647,26 @@ public final class FoGetForumCategoriesAd {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/fo_GetForumCa" +
       "tegories_Ad.proto\022&dstore.engine.fo_GetF" +
-      "orumCategories_Ad\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\204\001\n\nParameters\022I\n\035pre" +
-      "decessor_forum_category_id\030\001 \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022+\n\"predeces" +
-      "sor_forum_category_id_null\030\351\007 \001(\010\"\220\004\n\010Re" +
-      "sponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.er",
-      "ror.Error\022H\n\020meta_information\030\002 \003(\0132..ds" +
-      "tore.engine.metainformation.MetaInformat" +
-      "ion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
-      "sage.Message\022A\n\003row\030\004 \003(\01324.dstore.engin" +
-      "e.fo_GetForumCategories_Ad.Response.Row\032" +
-      "\232\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\021forum_catego" +
-      "ry_id\030\221N \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\022@\n\024category_description\030\222N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0224\n\007so" +
-      "rt_no\030\223N \001(\0132\".dstore.engine.values.inte",
-      "gerValue\022J\n\035contains_categories_or_forum" +
-      "s\030\224N \001(\0132\".dstore.engine.values.integerV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "orumCategories_Ad\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"}\n\nParameters\022B\n\035predecessor" +
+      "_forum_category_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022+\n\"predecessor_forum_categ" +
+      "ory_id_null\030\351\007 \001(\010\"\364\003\n\010Response\022)\n\005error" +
+      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me",
+      "ta_information\030\002 \003(\0132..dstore.engine.met" +
+      "ainformation.MetaInformation\022/\n\007message\030" +
+      "\003 \003(\0132\036.dstore.engine.message.Message\022A\n" +
+      "\003row\030\004 \003(\01324.dstore.engine.fo_GetForumCa" +
+      "tegories_Ad.Response.Row\032\376\001\n\003Row\022\017\n\006row_" +
+      "id\030\220N \001(\005\0227\n\021forum_category_id\030\221N \001(\0132\033." +
+      "dstore.values.integerValue\0229\n\024category_d" +
+      "escription\030\222N \001(\0132\032.dstore.values.string" +
+      "Value\022-\n\007sort_no\030\223N \001(\0132\033.dstore.values." +
+      "integerValue\022C\n\035contains_categories_or_f",
+      "orums\030\224N \001(\0132\033.dstore.values.integerValu" +
+      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3681,7 +3679,7 @@ public final class FoGetForumCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3704,7 +3702,7 @@ public final class FoGetForumCategoriesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetForumCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ForumCategoryId", "CategoryDescription", "SortNo", "ContainsCategoriesOrForums", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

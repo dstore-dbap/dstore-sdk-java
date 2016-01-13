@@ -13,17 +13,17 @@ public final class MiResetBatchJobAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getProcedureName();
+    io.dstore.Values.stringValue getProcedureName();
     /**
-     * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
      * <code>optional bool procedure_name_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class MiResetBatchJobAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (procedureName_ != null) {
                 subBuilder = procedureName_.toBuilder();
               }
-              procedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureName_);
                 procedureName_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class MiResetBatchJobAd {
     }
 
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue procedureName_;
+    private io.dstore.Values.stringValue procedureName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getProcedureName() {
-      return procedureName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : procedureName_;
+    public io.dstore.Values.stringValue getProcedureName() {
+      return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
     }
 
@@ -368,29 +368,29 @@ public final class MiResetBatchJobAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue procedureName_ = null;
+      private io.dstore.Values.stringValue procedureName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> procedureNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getProcedureName() {
+      public io.dstore.Values.stringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
-          return procedureName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : procedureName_;
+          return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
         } else {
           return procedureNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
-      public Builder setProcedureName(io.dstore.engine.Values.stringValue value) {
+      public Builder setProcedureName(io.dstore.Values.stringValue value) {
         if (procedureNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (procedureNameBuilder_ == null) {
           procedureName_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
-      public Builder mergeProcedureName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
         if (procedureNameBuilder_ == null) {
           if (procedureName_ != null) {
             procedureName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
           } else {
             procedureName_ = value;
           }
@@ -436,7 +436,7 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getProcedureNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
         
         onChanged();
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
           return procedureNameBuilder_.getMessageOrBuilder();
         } else {
           return procedureName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : procedureName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getProcedureNameFieldBuilder() {
         if (procedureNameBuilder_ == null) {
           procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getProcedureName(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class MiResetBatchJobAd {
     java.lang.String[] descriptorData = {
       "\n2dstore/engine/procedures/mi_ResetBatch" +
       "Job_Ad.proto\022!dstore.engine.mi_ResetBatc" +
-      "hJob_Ad\032\032dstore/engine/values.proto\032\031dst" +
-      "ore/engine/error.proto\032\033dstore/engine/me" +
-      "ssage.proto\032#dstore/engine/metainformati" +
-      "on.proto\"e\n\nParameters\0229\n\016procedure_name" +
-      "\030\001 \001(\0132!.dstore.engine.values.stringValu" +
-      "e\022\034\n\023procedure_name_null\030\351\007 \001(\010\"\206\002\n\010Resp" +
-      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
-      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto",
-      "re.engine.metainformation.MetaInformatio" +
-      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022<\n\003row\030\004 \003(\0132/.dstore.engine." +
-      "mi_ResetBatchJob_Ad.Response.Row\032\026\n\003Row\022" +
-      "\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "hJob_Ad\032\023dstore/values.proto\032\031dstore/eng" +
+      "ine/error.proto\032\033dstore/engine/message.p" +
+      "roto\032#dstore/engine/metainformation.prot" +
+      "o\"^\n\nParameters\0222\n\016procedure_name\030\001 \001(\0132" +
+      "\032.dstore.values.stringValue\022\034\n\023procedure" +
+      "_name_null\030\351\007 \001(\010\"\206\002\n\010Response\022)\n\005error\030" +
+      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
+      "a_information\030\002 \003(\0132..dstore.engine.meta",
+      "information.MetaInformation\022/\n\007message\030\003" +
+      " \003(\0132\036.dstore.engine.message.Message\022<\n\003" +
+      "row\030\004 \003(\0132/.dstore.engine.mi_ResetBatchJ" +
+      "ob_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001" +
+      "(\005B\035\n\033io.dstore.engine.proceduresb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class MiResetBatchJobAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class MiResetBatchJobAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ResetBatchJob_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

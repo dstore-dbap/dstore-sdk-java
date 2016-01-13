@@ -13,17 +13,17 @@ public final class ImGetSimpleProductInfoPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
      */
     boolean hasProductTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getProductTreeNodeId();
+    io.dstore.Values.integerValue getProductTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool product_tree_node_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGetSimpleProductInfoPu {
     boolean getProductTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
      */
     boolean hasInformationIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getInformationIdList();
+    io.dstore.Values.stringValue getInformationIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getInformationIdListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getInformationIdListOrBuilder();
 
     /**
      * <code>optional bool information_id_list_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImGetSimpleProductInfoPu {
     boolean getInformationIdListNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+     * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
      */
     boolean hasTypeOfInformation();
     /**
-     * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+     * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getTypeOfInformation();
+    io.dstore.Values.integerValue getTypeOfInformation();
     /**
-     * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+     * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTypeOfInformationOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTypeOfInformationOrBuilder();
 
     /**
      * <code>optional bool type_of_information_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class ImGetSimpleProductInfoPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (productTreeNodeId_ != null) {
                 subBuilder = productTreeNodeId_.toBuilder();
               }
-              productTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              productTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(productTreeNodeId_);
                 productTreeNodeId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class ImGetSimpleProductInfoPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (informationIdList_ != null) {
                 subBuilder = informationIdList_.toBuilder();
               }
-              informationIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              informationIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationIdList_);
                 informationIdList_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class ImGetSimpleProductInfoPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (typeOfInformation_ != null) {
                 subBuilder = typeOfInformation_.toBuilder();
               }
-              typeOfInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              typeOfInformation_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(typeOfInformation_);
                 typeOfInformation_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class ImGetSimpleProductInfoPu {
     }
 
     public static final int PRODUCT_TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue productTreeNodeId_;
+    private io.dstore.Values.integerValue productTreeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
      */
     public boolean hasProductTreeNodeId() {
       return productTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getProductTreeNodeId() {
-      return productTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
+    public io.dstore.Values.integerValue getProductTreeNodeId() {
+      return productTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder() {
       return getProductTreeNodeId();
     }
 
@@ -216,23 +216,23 @@ public final class ImGetSimpleProductInfoPu {
     }
 
     public static final int INFORMATION_ID_LIST_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue informationIdList_;
+    private io.dstore.Values.stringValue informationIdList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
      */
     public boolean hasInformationIdList() {
       return informationIdList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getInformationIdList() {
-      return informationIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : informationIdList_;
+    public io.dstore.Values.stringValue getInformationIdList() {
+      return informationIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationIdList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getInformationIdListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getInformationIdListOrBuilder() {
       return getInformationIdList();
     }
 
@@ -246,23 +246,23 @@ public final class ImGetSimpleProductInfoPu {
     }
 
     public static final int TYPE_OF_INFORMATION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue typeOfInformation_;
+    private io.dstore.Values.integerValue typeOfInformation_;
     /**
-     * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+     * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
      */
     public boolean hasTypeOfInformation() {
       return typeOfInformation_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+     * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getTypeOfInformation() {
-      return typeOfInformation_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : typeOfInformation_;
+    public io.dstore.Values.integerValue getTypeOfInformation() {
+      return typeOfInformation_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : typeOfInformation_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+     * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTypeOfInformationOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTypeOfInformationOrBuilder() {
       return getTypeOfInformation();
     }
 
@@ -570,29 +570,29 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue productTreeNodeId_ = null;
+      private io.dstore.Values.integerValue productTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> productTreeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> productTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
       public boolean hasProductTreeNodeId() {
         return productTreeNodeIdBuilder_ != null || productTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getProductTreeNodeId() {
+      public io.dstore.Values.integerValue getProductTreeNodeId() {
         if (productTreeNodeIdBuilder_ == null) {
-          return productTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
+          return productTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
         } else {
           return productTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
-      public Builder setProductTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setProductTreeNodeId(io.dstore.Values.integerValue value) {
         if (productTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
       public Builder setProductTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (productTreeNodeIdBuilder_ == null) {
           productTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
-      public Builder mergeProductTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeProductTreeNodeId(io.dstore.Values.integerValue value) {
         if (productTreeNodeIdBuilder_ == null) {
           if (productTreeNodeId_ != null) {
             productTreeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(productTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(productTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             productTreeNodeId_ = value;
           }
@@ -638,7 +638,7 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
       public Builder clearProductTreeNodeId() {
         if (productTreeNodeIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getProductTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getProductTreeNodeIdBuilder() {
         
         onChanged();
         return getProductTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder() {
         if (productTreeNodeIdBuilder_ != null) {
           return productTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return productTreeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue product_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue product_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getProductTreeNodeIdFieldBuilder() {
         if (productTreeNodeIdBuilder_ == null) {
           productTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getProductTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue informationIdList_ = null;
+      private io.dstore.Values.stringValue informationIdList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> informationIdListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationIdListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
       public boolean hasInformationIdList() {
         return informationIdListBuilder_ != null || informationIdList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getInformationIdList() {
+      public io.dstore.Values.stringValue getInformationIdList() {
         if (informationIdListBuilder_ == null) {
-          return informationIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : informationIdList_;
+          return informationIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationIdList_;
         } else {
           return informationIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
-      public Builder setInformationIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder setInformationIdList(io.dstore.Values.stringValue value) {
         if (informationIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
       public Builder setInformationIdList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (informationIdListBuilder_ == null) {
           informationIdList_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
-      public Builder mergeInformationIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeInformationIdList(io.dstore.Values.stringValue value) {
         if (informationIdListBuilder_ == null) {
           if (informationIdList_ != null) {
             informationIdList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(informationIdList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(informationIdList_).mergeFrom(value).buildPartial();
           } else {
             informationIdList_ = value;
           }
@@ -781,7 +781,7 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
       public Builder clearInformationIdList() {
         if (informationIdListBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getInformationIdListBuilder() {
+      public io.dstore.Values.stringValue.Builder getInformationIdListBuilder() {
         
         onChanged();
         return getInformationIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInformationIdListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInformationIdListOrBuilder() {
         if (informationIdListBuilder_ != null) {
           return informationIdListBuilder_.getMessageOrBuilder();
         } else {
           return informationIdList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : informationIdList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : informationIdList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue information_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInformationIdListFieldBuilder() {
         if (informationIdListBuilder_ == null) {
           informationIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInformationIdList(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue typeOfInformation_ = null;
+      private io.dstore.Values.integerValue typeOfInformation_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> typeOfInformationBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> typeOfInformationBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
       public boolean hasTypeOfInformation() {
         return typeOfInformationBuilder_ != null || typeOfInformation_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getTypeOfInformation() {
+      public io.dstore.Values.integerValue getTypeOfInformation() {
         if (typeOfInformationBuilder_ == null) {
-          return typeOfInformation_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : typeOfInformation_;
+          return typeOfInformation_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : typeOfInformation_;
         } else {
           return typeOfInformationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
-      public Builder setTypeOfInformation(io.dstore.engine.Values.integerValue value) {
+      public Builder setTypeOfInformation(io.dstore.Values.integerValue value) {
         if (typeOfInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
       public Builder setTypeOfInformation(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (typeOfInformationBuilder_ == null) {
           typeOfInformation_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
-      public Builder mergeTypeOfInformation(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTypeOfInformation(io.dstore.Values.integerValue value) {
         if (typeOfInformationBuilder_ == null) {
           if (typeOfInformation_ != null) {
             typeOfInformation_ =
-              io.dstore.engine.Values.integerValue.newBuilder(typeOfInformation_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(typeOfInformation_).mergeFrom(value).buildPartial();
           } else {
             typeOfInformation_ = value;
           }
@@ -924,7 +924,7 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
       public Builder clearTypeOfInformation() {
         if (typeOfInformationBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class ImGetSimpleProductInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTypeOfInformationBuilder() {
+      public io.dstore.Values.integerValue.Builder getTypeOfInformationBuilder() {
         
         onChanged();
         return getTypeOfInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTypeOfInformationOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTypeOfInformationOrBuilder() {
         if (typeOfInformationBuilder_ != null) {
           return typeOfInformationBuilder_.getMessageOrBuilder();
         } else {
           return typeOfInformation_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : typeOfInformation_;
+              io.dstore.Values.integerValue.getDefaultInstance() : typeOfInformation_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue type_of_information = 3;</code>
+       * <code>optional .dstore.values.integerValue type_of_information = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTypeOfInformationFieldBuilder() {
         if (typeOfInformationBuilder_ == null) {
           typeOfInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTypeOfInformation(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class ImGetSimpleProductInfoPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        *
        * <pre>
        * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
@@ -1294,24 +1294,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        *
        * <pre>
        * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTreeNodeId();
+      io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        *
        * <pre>
        * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
@@ -1319,24 +1319,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+      io.dstore.Values.integerValue getNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        *
        * <pre>
        * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
@@ -1344,24 +1344,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        *
        * <pre>
        * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        *
        * <pre>
        * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
@@ -1369,24 +1369,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getValueId();
+      io.dstore.Values.integerValue getValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
@@ -1394,24 +1394,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSortNo();
+      io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+       * <code>optional .dstore.values.stringValue details = 20001;</code>
        *
        * <pre>
        * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
@@ -1419,24 +1419,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasDetails();
       /**
-       * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+       * <code>optional .dstore.values.stringValue details = 20001;</code>
        *
        * <pre>
        * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDetails();
+      io.dstore.Values.stringValue getDetails();
       /**
-       * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+       * <code>optional .dstore.values.stringValue details = 20001;</code>
        *
        * <pre>
        * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDetailsOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDetailsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+       * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
        *
        * <pre>
        * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
@@ -1444,24 +1444,24 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasBinaryPropertyValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+       * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
        *
        * <pre>
        * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBinaryPropertyValueId();
+      io.dstore.Values.integerValue getBinaryPropertyValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+       * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
        *
        * <pre>
        * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBinaryPropertyValueIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBinaryPropertyValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
        *
        * <pre>
        * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
@@ -1469,21 +1469,21 @@ public final class ImGetSimpleProductInfoPu {
        */
       boolean hasBinaryCodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
        *
        * <pre>
        * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBinaryCodeId();
+      io.dstore.Values.integerValue getBinaryCodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
        *
        * <pre>
        * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetSimpleProductInfo_Pu.Response.Row}
@@ -1530,11 +1530,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -1543,11 +1543,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -1556,11 +1556,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1569,11 +1569,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -1582,11 +1582,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1595,11 +1595,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 160010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (details_ != null) {
                   subBuilder = details_.toBuilder();
                 }
-                details_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                details_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(details_);
                   details_ = subBuilder.buildPartial();
@@ -1608,11 +1608,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 240010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (binaryPropertyValueId_ != null) {
                   subBuilder = binaryPropertyValueId_.toBuilder();
                 }
-                binaryPropertyValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                binaryPropertyValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryPropertyValueId_);
                   binaryPropertyValueId_ = subBuilder.buildPartial();
@@ -1621,11 +1621,11 @@ public final class ImGetSimpleProductInfoPu {
                 break;
               }
               case 240018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -1667,9 +1667,9 @@ public final class ImGetSimpleProductInfoPu {
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue treeNodeId_;
+      private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        *
        * <pre>
        * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
@@ -1679,30 +1679,30 @@ public final class ImGetSimpleProductInfoPu {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        *
        * <pre>
        * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.Values.integerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
        *
        * <pre>
        * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.Values.integerValue nodeCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
@@ -1712,30 +1712,30 @@ public final class ImGetSimpleProductInfoPu {
         return nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        *
        * <pre>
        * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
@@ -1745,30 +1745,30 @@ public final class ImGetSimpleProductInfoPu {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        *
        * <pre>
        * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+       * <code>optional .dstore.values.stringValue value = 10003;</code>
        *
        * <pre>
        * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue valueId_;
+      private io.dstore.Values.integerValue valueId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
@@ -1778,30 +1778,30 @@ public final class ImGetSimpleProductInfoPu {
         return valueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.Values.integerValue getValueId() {
+        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue sortNo_;
+      private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
@@ -1811,30 +1811,30 @@ public final class ImGetSimpleProductInfoPu {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.Values.integerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int DETAILS_FIELD_NUMBER = 20001;
-      private io.dstore.engine.Values.stringValue details_;
+      private io.dstore.Values.stringValue details_;
       /**
-       * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+       * <code>optional .dstore.values.stringValue details = 20001;</code>
        *
        * <pre>
        * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
@@ -1844,30 +1844,30 @@ public final class ImGetSimpleProductInfoPu {
         return details_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+       * <code>optional .dstore.values.stringValue details = 20001;</code>
        *
        * <pre>
        * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDetails() {
-        return details_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : details_;
+      public io.dstore.Values.stringValue getDetails() {
+        return details_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : details_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+       * <code>optional .dstore.values.stringValue details = 20001;</code>
        *
        * <pre>
        * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDetailsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDetailsOrBuilder() {
         return getDetails();
       }
 
       public static final int BINARY_PROPERTY_VALUE_ID_FIELD_NUMBER = 30001;
-      private io.dstore.engine.Values.integerValue binaryPropertyValueId_;
+      private io.dstore.Values.integerValue binaryPropertyValueId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+       * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
        *
        * <pre>
        * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
@@ -1877,30 +1877,30 @@ public final class ImGetSimpleProductInfoPu {
         return binaryPropertyValueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+       * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
        *
        * <pre>
        * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBinaryPropertyValueId() {
-        return binaryPropertyValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryPropertyValueId_;
+      public io.dstore.Values.integerValue getBinaryPropertyValueId() {
+        return binaryPropertyValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryPropertyValueId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+       * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
        *
        * <pre>
        * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
         return getBinaryPropertyValueId();
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 30002;
-      private io.dstore.engine.Values.integerValue binaryCodeId_;
+      private io.dstore.Values.integerValue binaryCodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
        *
        * <pre>
        * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
@@ -1910,23 +1910,23 @@ public final class ImGetSimpleProductInfoPu {
         return binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
        *
        * <pre>
        * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.Values.integerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
        *
        * <pre>
        * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
@@ -2330,11 +2330,11 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+        private io.dstore.Values.integerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
@@ -2344,27 +2344,27 @@ public final class ImGetSimpleProductInfoPu {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTreeNodeId() {
+        public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
-        public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2378,14 +2378,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
         public Builder setTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -2396,17 +2396,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
-        public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -2418,7 +2418,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
@@ -2436,45 +2436,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
          *
          * <pre>
          * "&#64;ProductTreeNodeID" oder die "TreeNodeID" eines direkten Nachfolgers
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2483,11 +2483,11 @@ public final class ImGetSimpleProductInfoPu {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
@@ -2497,27 +2497,27 @@ public final class ImGetSimpleProductInfoPu {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.Values.integerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
-        public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2531,14 +2531,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2549,17 +2549,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -2571,7 +2571,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
@@ -2589,45 +2589,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID eines in "&#64;InformationIDList" angegebenen Merkmals.Hinweis : Jede "TreeNodeID - NodeCharacteristicID"-Kombination ist eindeutig, eine Sortierung findet ausdrücklich NICHT statt, es werden nur Datensätze geliefert, bei denen "Value" NICHT "NULL" ist !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2636,11 +2636,11 @@ public final class ImGetSimpleProductInfoPu {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
@@ -2650,27 +2650,27 @@ public final class ImGetSimpleProductInfoPu {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2684,14 +2684,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2702,17 +2702,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2724,7 +2724,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
@@ -2742,45 +2742,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10003;</code>
+         * <code>optional .dstore.values.stringValue value = 10003;</code>
          *
          * <pre>
          * Aktuelle, direkte, nicht rekursiv ausgewertete und auch nicht "formatierte" Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal "NodeCharacteristicID". Hinweis : Datums-Eigenschaften haben daher dasFormat "mm.dd.yyyy" !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2789,11 +2789,11 @@ public final class ImGetSimpleProductInfoPu {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue valueId_ = null;
+        private io.dstore.Values.integerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
@@ -2803,27 +2803,27 @@ public final class ImGetSimpleProductInfoPu {
           return valueIdBuilder_ != null || valueId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getValueId() {
+        public io.dstore.Values.integerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public Builder setValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder setValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2837,14 +2837,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
         public Builder setValueId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -2855,17 +2855,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public Builder mergeValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -2877,7 +2877,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
@@ -2895,45 +2895,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -2942,11 +2942,11 @@ public final class ImGetSimpleProductInfoPu {
           return valueIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue sortNo_ = null;
+        private io.dstore.Values.integerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
@@ -2956,27 +2956,27 @@ public final class ImGetSimpleProductInfoPu {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSortNo() {
+        public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
-        public Builder setSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2990,14 +2990,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
         public Builder setSortNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -3008,17 +3008,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
-        public Builder mergeSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -3030,7 +3030,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
@@ -3048,45 +3048,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge von "Value" innerhalb aller Werte zum Merkmal "NodeCharacteristicID", wobei gilt : eine größere "SortNo" bedeutet eine höhere Priorisierung (d.h. es muß quasi eine absteigende Sortierung angewandt werden).
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -3095,11 +3095,11 @@ public final class ImGetSimpleProductInfoPu {
           return sortNoBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue details_ = null;
+        private io.dstore.Values.stringValue details_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> detailsBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
@@ -3109,27 +3109,27 @@ public final class ImGetSimpleProductInfoPu {
           return detailsBuilder_ != null || details_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDetails() {
+        public io.dstore.Values.stringValue getDetails() {
           if (detailsBuilder_ == null) {
-            return details_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : details_;
+            return details_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : details_;
           } else {
             return detailsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
-        public Builder setDetails(io.dstore.engine.Values.stringValue value) {
+        public Builder setDetails(io.dstore.Values.stringValue value) {
           if (detailsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3143,14 +3143,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
         public Builder setDetails(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (detailsBuilder_ == null) {
             details_ = builderForValue.build();
             onChanged();
@@ -3161,17 +3161,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
-        public Builder mergeDetails(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDetails(io.dstore.Values.stringValue value) {
           if (detailsBuilder_ == null) {
             if (details_ != null) {
               details_ =
-                io.dstore.engine.Values.stringValue.newBuilder(details_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(details_).mergeFrom(value).buildPartial();
             } else {
               details_ = value;
             }
@@ -3183,7 +3183,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
@@ -3201,45 +3201,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDetailsBuilder() {
+        public io.dstore.Values.stringValue.Builder getDetailsBuilder() {
           
           onChanged();
           return getDetailsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDetailsOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDetailsOrBuilder() {
           if (detailsBuilder_ != null) {
             return detailsBuilder_.getMessageOrBuilder();
           } else {
             return details_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : details_;
+                io.dstore.Values.stringValue.getDefaultInstance() : details_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue details = 20001;</code>
+         * <code>optional .dstore.values.stringValue details = 20001;</code>
          *
          * <pre>
          * "ValueDetails", die zur aktuellen, direkten (nicht rekursiv ausgewerteten) Eigenschaft des zur "TreeNodeID" zugehörigen Artikel-Elementes zum Merkmal "NodeCharacteristicID" hinterlegt ist.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDetailsFieldBuilder() {
           if (detailsBuilder_ == null) {
             detailsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDetails(),
                     getParentForChildren(),
                     isClean());
@@ -3248,11 +3248,11 @@ public final class ImGetSimpleProductInfoPu {
           return detailsBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue binaryPropertyValueId_ = null;
+        private io.dstore.Values.integerValue binaryPropertyValueId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryPropertyValueIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryPropertyValueIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
@@ -3262,27 +3262,27 @@ public final class ImGetSimpleProductInfoPu {
           return binaryPropertyValueIdBuilder_ != null || binaryPropertyValueId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBinaryPropertyValueId() {
+        public io.dstore.Values.integerValue getBinaryPropertyValueId() {
           if (binaryPropertyValueIdBuilder_ == null) {
-            return binaryPropertyValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryPropertyValueId_;
+            return binaryPropertyValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryPropertyValueId_;
           } else {
             return binaryPropertyValueIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
-        public Builder setBinaryPropertyValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBinaryPropertyValueId(io.dstore.Values.integerValue value) {
           if (binaryPropertyValueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3296,14 +3296,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
         public Builder setBinaryPropertyValueId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (binaryPropertyValueIdBuilder_ == null) {
             binaryPropertyValueId_ = builderForValue.build();
             onChanged();
@@ -3314,17 +3314,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
-        public Builder mergeBinaryPropertyValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBinaryPropertyValueId(io.dstore.Values.integerValue value) {
           if (binaryPropertyValueIdBuilder_ == null) {
             if (binaryPropertyValueId_ != null) {
               binaryPropertyValueId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(binaryPropertyValueId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(binaryPropertyValueId_).mergeFrom(value).buildPartial();
             } else {
               binaryPropertyValueId_ = value;
             }
@@ -3336,7 +3336,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
@@ -3354,45 +3354,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBinaryPropertyValueIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBinaryPropertyValueIdBuilder() {
           
           onChanged();
           return getBinaryPropertyValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
           if (binaryPropertyValueIdBuilder_ != null) {
             return binaryPropertyValueIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryPropertyValueId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryPropertyValueId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : binaryPropertyValueId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_property_value_id = 30001;</code>
+         * <code>optional .dstore.values.integerValue binary_property_value_id = 30001;</code>
          *
          * <pre>
          * ID einer Eigenschaft von "Binaries", die in "&#64;InformationIDList" angegeben wurde. Hinweis : Zu einer "TreeNodeID - BinaryCharacteristicValueID"-Kombination kann es MEHRERE Datensätze geben, eine Sortierung findet ausdrücklich NICHT statt !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryPropertyValueIdFieldBuilder() {
           if (binaryPropertyValueIdBuilder_ == null) {
             binaryPropertyValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryPropertyValueId(),
                     getParentForChildren(),
                     isClean());
@@ -3401,11 +3401,11 @@ public final class ImGetSimpleProductInfoPu {
           return binaryPropertyValueIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.Values.integerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
@@ -3415,27 +3415,27 @@ public final class ImGetSimpleProductInfoPu {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBinaryCodeId() {
+        public io.dstore.Values.integerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
-        public Builder setBinaryCodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3449,14 +3449,14 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
         public Builder setBinaryCodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -3467,17 +3467,17 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
-        public Builder mergeBinaryCodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -3489,7 +3489,7 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
@@ -3507,45 +3507,45 @@ public final class ImGetSimpleProductInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 30002;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 30002;</code>
          *
          * <pre>
          * ID eines "Binaries", das dem zur "TreeNodeID" zugehörigen Artikel-Element zugewiesen ist und die Eigenschaft "BinaryPropertyValueID" besitzt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5115,38 +5115,36 @@ public final class ImGetSimpleProductInfoPu {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/im_GetSimpleP" +
       "roductInfo_Pu.proto\022(dstore.engine.im_Ge" +
-      "tSimpleProductInfo_Pu\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"\271\002\n\nParameters\022@\n" +
-      "\024product_tree_node_id\030\001 \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\022\"\n\031product_tree_" +
-      "node_id_null\030\351\007 \001(\010\022>\n\023information_id_li" +
-      "st\030\002 \001(\0132!.dstore.engine.values.stringVa",
-      "lue\022!\n\030information_id_list_null\030\352\007 \001(\010\022?" +
-      "\n\023type_of_information\030\003 \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\022!\n\030type_of_infor" +
-      "mation_null\030\353\007 \001(\010\"\352\005\n\010Response\022)\n\005error" +
-      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
-      "ta_information\030\002 \003(\0132..dstore.engine.met" +
-      "ainformation.MetaInformation\022/\n\007message\030" +
-      "\003 \003(\0132\036.dstore.engine.message.Message\022C\n" +
-      "\003row\030\004 \003(\01326.dstore.engine.im_GetSimpleP" +
-      "roductInfo_Pu.Response.Row\032\362\003\n\003Row\022\017\n\006ro",
-      "w_id\030\220N \001(\005\0229\n\014tree_node_id\030\221N \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022C\n\026node_c" +
-      "haracteristic_id\030\222N \001(\0132\".dstore.engine." +
-      "values.integerValue\0221\n\005value\030\223N \001(\0132!.ds" +
-      "tore.engine.values.stringValue\0225\n\010value_" +
-      "id\030\224N \001(\0132\".dstore.engine.values.integer" +
-      "Value\0224\n\007sort_no\030\225N \001(\0132\".dstore.engine." +
-      "values.integerValue\0224\n\007details\030\241\234\001 \001(\0132!" +
-      ".dstore.engine.values.stringValue\022F\n\030bin" +
-      "ary_property_value_id\030\261\352\001 \001(\0132\".dstore.e",
-      "ngine.values.integerValue\022<\n\016binary_code" +
-      "_id\030\262\352\001 \001(\0132\".dstore.engine.values.integ" +
-      "erValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "tSimpleProductInfo_Pu\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"\244\002\n\nParameters\0229\n\024produc" +
+      "t_tree_node_id\030\001 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\"\n\031product_tree_node_id_null\030\351" +
+      "\007 \001(\010\0227\n\023information_id_list\030\002 \001(\0132\032.dst" +
+      "ore.values.stringValue\022!\n\030information_id",
+      "_list_null\030\352\007 \001(\010\0228\n\023type_of_information" +
+      "\030\003 \001(\0132\033.dstore.values.integerValue\022!\n\030t" +
+      "ype_of_information_null\030\353\007 \001(\010\"\262\005\n\010Respo" +
+      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
+      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
+      "e.engine.metainformation.MetaInformation" +
+      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
+      "e.Message\022C\n\003row\030\004 \003(\01326.dstore.engine.i" +
+      "m_GetSimpleProductInfo_Pu.Response.Row\032\272" +
+      "\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014tree_node_id\030",
+      "\221N \001(\0132\033.dstore.values.integerValue\022<\n\026n" +
+      "ode_characteristic_id\030\222N \001(\0132\033.dstore.va" +
+      "lues.integerValue\022*\n\005value\030\223N \001(\0132\032.dsto" +
+      "re.values.stringValue\022.\n\010value_id\030\224N \001(\013" +
+      "2\033.dstore.values.integerValue\022-\n\007sort_no" +
+      "\030\225N \001(\0132\033.dstore.values.integerValue\022-\n\007" +
+      "details\030\241\234\001 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022?\n\030binary_property_value_id\030\261\352\001 \001(\0132" +
+      "\033.dstore.values.integerValue\0225\n\016binary_c" +
+      "ode_id\030\262\352\001 \001(\0132\033.dstore.values.integerVa",
+      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5159,7 +5157,7 @@ public final class ImGetSimpleProductInfoPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5182,7 +5180,7 @@ public final class ImGetSimpleProductInfoPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetSimpleProductInfo_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TreeNodeId", "NodeCharacteristicId", "Value", "ValueId", "SortNo", "Details", "BinaryPropertyValueId", "BinaryCodeId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

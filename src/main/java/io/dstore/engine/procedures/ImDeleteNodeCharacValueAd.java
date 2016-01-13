@@ -13,17 +13,17 @@ public final class ImDeleteNodeCharacValueAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
     boolean hasValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getValueId();
+    io.dstore.Values.integerValue getValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
     /**
      * <code>optional bool value_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class ImDeleteNodeCharacValueAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (valueId_ != null) {
                 subBuilder = valueId_.toBuilder();
               }
-              valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueId_);
                 valueId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class ImDeleteNodeCharacValueAd {
     }
 
     public static final int VALUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue valueId_;
+    private io.dstore.Values.integerValue valueId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
     public boolean hasValueId() {
       return valueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getValueId() {
-      return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+    public io.dstore.Values.integerValue getValueId() {
+      return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
       return getValueId();
     }
 
@@ -368,29 +368,29 @@ public final class ImDeleteNodeCharacValueAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue valueId_ = null;
+      private io.dstore.Values.integerValue valueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public boolean hasValueId() {
         return valueIdBuilder_ != null || valueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getValueId() {
+      public io.dstore.Values.integerValue getValueId() {
         if (valueIdBuilder_ == null) {
-          return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+          return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
         } else {
           return valueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public Builder setValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder setValueId(io.dstore.Values.integerValue value) {
         if (valueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class ImDeleteNodeCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public Builder setValueId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (valueIdBuilder_ == null) {
           valueId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class ImDeleteNodeCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public Builder mergeValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeValueId(io.dstore.Values.integerValue value) {
         if (valueIdBuilder_ == null) {
           if (valueId_ != null) {
             valueId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
           } else {
             valueId_ = value;
           }
@@ -436,7 +436,7 @@ public final class ImDeleteNodeCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public Builder clearValueId() {
         if (valueIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class ImDeleteNodeCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getValueIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
         
         onChanged();
         return getValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         if (valueIdBuilder_ != null) {
           return valueIdBuilder_.getMessageOrBuilder();
         } else {
           return valueId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueIdFieldBuilder() {
         if (valueIdBuilder_ == null) {
           valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueId(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class ImDeleteNodeCharacValueAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/im_DeleteNode" +
       "CharacValue_Ad.proto\022)dstore.engine.im_D" +
-      "eleteNodeCharacValue_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"Z\n\nParameters\0224" +
-      "\n\010value_id\030\001 \001(\0132\".dstore.engine.values." +
-      "integerValue\022\026\n\rvalue_id_null\030\351\007 \001(\010\"\216\002\n" +
-      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
-      ".error.Error\022H\n\020meta_information\030\002 \003(\0132.",
-      ".dstore.engine.metainformation.MetaInfor" +
-      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
-      "message.Message\022D\n\003row\030\004 \003(\01327.dstore.en" +
-      "gine.im_DeleteNodeCharacValue_Ad.Respons" +
-      "e.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "eleteNodeCharacValue_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"S\n\nParameters\022-\n\010value" +
+      "_id\030\001 \001(\0132\033.dstore.values.integerValue\022\026" +
+      "\n\rvalue_id_null\030\351\007 \001(\010\"\216\002\n\010Response\022)\n\005e" +
+      "rror\030\001 \001(\0132\032.dstore.engine.error.Error\022H" +
+      "\n\020meta_information\030\002 \003(\0132..dstore.engine",
+      ".metainformation.MetaInformation\022/\n\007mess" +
+      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
+      "e\022D\n\003row\030\004 \003(\01327.dstore.engine.im_Delete" +
+      "NodeCharacValue_Ad.Response.Row\032\026\n\003Row\022\017" +
+      "\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proc" +
+      "eduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class ImDeleteNodeCharacValueAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class ImDeleteNodeCharacValueAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_DeleteNodeCharacValue_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

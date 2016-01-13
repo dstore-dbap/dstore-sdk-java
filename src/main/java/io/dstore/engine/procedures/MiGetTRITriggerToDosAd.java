@@ -13,17 +13,17 @@ public final class MiGetTRITriggerToDosAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTriggerId();
+    io.dstore.Values.integerValue getTriggerId();
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTriggerIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
      * <code>optional bool trigger_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetTRITriggerToDosAd {
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
      */
     boolean hasWorkStepNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getWorkStepNo();
+    io.dstore.Values.integerValue getWorkStepNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getWorkStepNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder();
 
     /**
      * <code>optional bool work_step_no_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class MiGetTRITriggerToDosAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (triggerId_ != null) {
                 subBuilder = triggerId_.toBuilder();
               }
-              triggerId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              triggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(triggerId_);
                 triggerId_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class MiGetTRITriggerToDosAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (workStepNo_ != null) {
                 subBuilder = workStepNo_.toBuilder();
               }
-              workStepNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              workStepNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(workStepNo_);
                 workStepNo_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class MiGetTRITriggerToDosAd {
     }
 
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue triggerId_;
+    private io.dstore.Values.integerValue triggerId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTriggerId() {
-      return triggerId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : triggerId_;
+    public io.dstore.Values.integerValue getTriggerId() {
+      return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
     }
 
@@ -179,23 +179,23 @@ public final class MiGetTRITriggerToDosAd {
     }
 
     public static final int WORK_STEP_NO_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue workStepNo_;
+    private io.dstore.Values.integerValue workStepNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
      */
     public boolean hasWorkStepNo() {
       return workStepNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getWorkStepNo() {
-      return workStepNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : workStepNo_;
+    public io.dstore.Values.integerValue getWorkStepNo() {
+      return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
       return getWorkStepNo();
     }
 
@@ -469,29 +469,29 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue triggerId_ = null;
+      private io.dstore.Values.integerValue triggerId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> triggerIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTriggerId() {
+      public io.dstore.Values.integerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
-          return triggerId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : triggerId_;
+          return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
         } else {
           return triggerIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public Builder setTriggerId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTriggerId(io.dstore.Values.integerValue value) {
         if (triggerIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (triggerIdBuilder_ == null) {
           triggerId_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public Builder mergeTriggerId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
         if (triggerIdBuilder_ == null) {
           if (triggerId_ != null) {
             triggerId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
           } else {
             triggerId_ = value;
           }
@@ -537,7 +537,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTriggerIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
         
         onChanged();
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
           return triggerIdBuilder_.getMessageOrBuilder();
         } else {
           return triggerId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : triggerId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
           triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue workStepNo_ = null;
+      private io.dstore.Values.integerValue workStepNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> workStepNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> workStepNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
       public boolean hasWorkStepNo() {
         return workStepNoBuilder_ != null || workStepNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getWorkStepNo() {
+      public io.dstore.Values.integerValue getWorkStepNo() {
         if (workStepNoBuilder_ == null) {
-          return workStepNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : workStepNo_;
+          return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
         } else {
           return workStepNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
-      public Builder setWorkStepNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setWorkStepNo(io.dstore.Values.integerValue value) {
         if (workStepNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
       public Builder setWorkStepNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (workStepNoBuilder_ == null) {
           workStepNo_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
-      public Builder mergeWorkStepNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeWorkStepNo(io.dstore.Values.integerValue value) {
         if (workStepNoBuilder_ == null) {
           if (workStepNo_ != null) {
             workStepNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
           } else {
             workStepNo_ = value;
           }
@@ -680,7 +680,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
       public Builder clearWorkStepNo() {
         if (workStepNoBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getWorkStepNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getWorkStepNoBuilder() {
         
         onChanged();
         return getWorkStepNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
         if (workStepNoBuilder_ != null) {
           return workStepNoBuilder_.getMessageOrBuilder();
         } else {
           return workStepNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : workStepNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getWorkStepNoFieldBuilder() {
         if (workStepNoBuilder_ == null) {
           workStepNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getWorkStepNo(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class MiGetTRITriggerToDosAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
        *
        * <pre>
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
@@ -1050,24 +1050,24 @@ public final class MiGetTRITriggerToDosAd {
        */
       boolean hasIterationList();
       /**
-       * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
        *
        * <pre>
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getIterationList();
+      io.dstore.Values.stringValue getIterationList();
       /**
-       * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
        *
        * <pre>
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getIterationListOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
        *
        * <pre>
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
@@ -1075,24 +1075,24 @@ public final class MiGetTRITriggerToDosAd {
        */
       boolean hasToDoNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
        *
        * <pre>
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getToDoNo();
+      io.dstore.Values.integerValue getToDoNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
        *
        * <pre>
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getToDoNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getToDoNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+       * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
        *
        * <pre>
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
@@ -1100,21 +1100,21 @@ public final class MiGetTRITriggerToDosAd {
        */
       boolean hasProcCall();
       /**
-       * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+       * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
        *
        * <pre>
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getProcCall();
+      io.dstore.Values.stringValue getProcCall();
       /**
-       * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+       * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
        *
        * <pre>
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getProcCallOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getProcCallOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerToDos_Ad.Response.Row}
@@ -1161,11 +1161,11 @@ public final class MiGetTRITriggerToDosAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (iterationList_ != null) {
                   subBuilder = iterationList_.toBuilder();
                 }
-                iterationList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                iterationList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(iterationList_);
                   iterationList_ = subBuilder.buildPartial();
@@ -1174,11 +1174,11 @@ public final class MiGetTRITriggerToDosAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (toDoNo_ != null) {
                   subBuilder = toDoNo_.toBuilder();
                 }
-                toDoNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                toDoNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toDoNo_);
                   toDoNo_ = subBuilder.buildPartial();
@@ -1187,11 +1187,11 @@ public final class MiGetTRITriggerToDosAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (procCall_ != null) {
                   subBuilder = procCall_.toBuilder();
                 }
-                procCall_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                procCall_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procCall_);
                   procCall_ = subBuilder.buildPartial();
@@ -1233,9 +1233,9 @@ public final class MiGetTRITriggerToDosAd {
       }
 
       public static final int ITERATION_LIST_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue iterationList_;
+      private io.dstore.Values.stringValue iterationList_;
       /**
-       * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
        *
        * <pre>
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
@@ -1245,30 +1245,30 @@ public final class MiGetTRITriggerToDosAd {
         return iterationList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
        *
        * <pre>
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getIterationList() {
-        return iterationList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : iterationList_;
+      public io.dstore.Values.stringValue getIterationList() {
+        return iterationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
        *
        * <pre>
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getIterationListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder() {
         return getIterationList();
       }
 
       public static final int TO_DO_NO_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue toDoNo_;
+      private io.dstore.Values.integerValue toDoNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
        *
        * <pre>
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
@@ -1278,30 +1278,30 @@ public final class MiGetTRITriggerToDosAd {
         return toDoNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
        *
        * <pre>
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getToDoNo() {
-        return toDoNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toDoNo_;
+      public io.dstore.Values.integerValue getToDoNo() {
+        return toDoNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toDoNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
        *
        * <pre>
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getToDoNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getToDoNoOrBuilder() {
         return getToDoNo();
       }
 
       public static final int PROC_CALL_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue procCall_;
+      private io.dstore.Values.stringValue procCall_;
       /**
-       * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+       * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
        *
        * <pre>
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
@@ -1311,23 +1311,23 @@ public final class MiGetTRITriggerToDosAd {
         return procCall_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+       * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
        *
        * <pre>
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getProcCall() {
-        return procCall_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : procCall_;
+      public io.dstore.Values.stringValue getProcCall() {
+        return procCall_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procCall_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+       * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
        *
        * <pre>
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getProcCallOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getProcCallOrBuilder() {
         return getProcCall();
       }
 
@@ -1626,11 +1626,11 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue iterationList_ = null;
+        private io.dstore.Values.stringValue iterationList_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> iterationListBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> iterationListBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
@@ -1640,27 +1640,27 @@ public final class MiGetTRITriggerToDosAd {
           return iterationListBuilder_ != null || iterationList_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getIterationList() {
+        public io.dstore.Values.stringValue getIterationList() {
           if (iterationListBuilder_ == null) {
-            return iterationList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : iterationList_;
+            return iterationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
           } else {
             return iterationListBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
-        public Builder setIterationList(io.dstore.engine.Values.stringValue value) {
+        public Builder setIterationList(io.dstore.Values.stringValue value) {
           if (iterationListBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1674,14 +1674,14 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
         public Builder setIterationList(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (iterationListBuilder_ == null) {
             iterationList_ = builderForValue.build();
             onChanged();
@@ -1692,17 +1692,17 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
-        public Builder mergeIterationList(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeIterationList(io.dstore.Values.stringValue value) {
           if (iterationListBuilder_ == null) {
             if (iterationList_ != null) {
               iterationList_ =
-                io.dstore.engine.Values.stringValue.newBuilder(iterationList_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(iterationList_).mergeFrom(value).buildPartial();
             } else {
               iterationList_ = value;
             }
@@ -1714,7 +1714,7 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
@@ -1732,45 +1732,45 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getIterationListBuilder() {
+        public io.dstore.Values.stringValue.Builder getIterationListBuilder() {
           
           onChanged();
           return getIterationListFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getIterationListOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder() {
           if (iterationListBuilder_ != null) {
             return iterationListBuilder_.getMessageOrBuilder();
           } else {
             return iterationList_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : iterationList_;
+                io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
          *
          * <pre>
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getIterationListFieldBuilder() {
           if (iterationListBuilder_ == null) {
             iterationListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getIterationList(),
                     getParentForChildren(),
                     isClean());
@@ -1779,11 +1779,11 @@ public final class MiGetTRITriggerToDosAd {
           return iterationListBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue toDoNo_ = null;
+        private io.dstore.Values.integerValue toDoNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> toDoNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toDoNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
@@ -1793,27 +1793,27 @@ public final class MiGetTRITriggerToDosAd {
           return toDoNoBuilder_ != null || toDoNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getToDoNo() {
+        public io.dstore.Values.integerValue getToDoNo() {
           if (toDoNoBuilder_ == null) {
-            return toDoNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toDoNo_;
+            return toDoNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toDoNo_;
           } else {
             return toDoNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
-        public Builder setToDoNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setToDoNo(io.dstore.Values.integerValue value) {
           if (toDoNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1827,14 +1827,14 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
         public Builder setToDoNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (toDoNoBuilder_ == null) {
             toDoNo_ = builderForValue.build();
             onChanged();
@@ -1845,17 +1845,17 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
-        public Builder mergeToDoNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeToDoNo(io.dstore.Values.integerValue value) {
           if (toDoNoBuilder_ == null) {
             if (toDoNo_ != null) {
               toDoNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(toDoNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(toDoNo_).mergeFrom(value).buildPartial();
             } else {
               toDoNo_ = value;
             }
@@ -1867,7 +1867,7 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
@@ -1885,45 +1885,45 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getToDoNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getToDoNoBuilder() {
           
           onChanged();
           return getToDoNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getToDoNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getToDoNoOrBuilder() {
           if (toDoNoBuilder_ != null) {
             return toDoNoBuilder_.getMessageOrBuilder();
           } else {
             return toDoNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : toDoNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : toDoNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_do_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue to_do_no = 10002;</code>
          *
          * <pre>
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getToDoNoFieldBuilder() {
           if (toDoNoBuilder_ == null) {
             toDoNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getToDoNo(),
                     getParentForChildren(),
                     isClean());
@@ -1932,11 +1932,11 @@ public final class MiGetTRITriggerToDosAd {
           return toDoNoBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue procCall_ = null;
+        private io.dstore.Values.stringValue procCall_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> procCallBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procCallBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
@@ -1946,27 +1946,27 @@ public final class MiGetTRITriggerToDosAd {
           return procCallBuilder_ != null || procCall_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getProcCall() {
+        public io.dstore.Values.stringValue getProcCall() {
           if (procCallBuilder_ == null) {
-            return procCall_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : procCall_;
+            return procCall_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procCall_;
           } else {
             return procCallBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
-        public Builder setProcCall(io.dstore.engine.Values.stringValue value) {
+        public Builder setProcCall(io.dstore.Values.stringValue value) {
           if (procCallBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1980,14 +1980,14 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
         public Builder setProcCall(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (procCallBuilder_ == null) {
             procCall_ = builderForValue.build();
             onChanged();
@@ -1998,17 +1998,17 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
-        public Builder mergeProcCall(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeProcCall(io.dstore.Values.stringValue value) {
           if (procCallBuilder_ == null) {
             if (procCall_ != null) {
               procCall_ =
-                io.dstore.engine.Values.stringValue.newBuilder(procCall_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(procCall_).mergeFrom(value).buildPartial();
             } else {
               procCall_ = value;
             }
@@ -2020,7 +2020,7 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
@@ -2038,45 +2038,45 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getProcCallBuilder() {
+        public io.dstore.Values.stringValue.Builder getProcCallBuilder() {
           
           onChanged();
           return getProcCallFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getProcCallOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getProcCallOrBuilder() {
           if (procCallBuilder_ != null) {
             return procCallBuilder_.getMessageOrBuilder();
           } else {
             return procCall_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : procCall_;
+                io.dstore.Values.stringValue.getDefaultInstance() : procCall_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue proc_call = 10003;</code>
+         * <code>optional .dstore.values.stringValue proc_call = 10003;</code>
          *
          * <pre>
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getProcCallFieldBuilder() {
           if (procCallBuilder_ == null) {
             procCallBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getProcCall(),
                     getParentForChildren(),
                     isClean());
@@ -3646,27 +3646,25 @@ public final class MiGetTRITriggerToDosAd {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/mi_GetTRITrig" +
       "gerToDos_Ad.proto\022&dstore.engine.mi_GetT" +
-      "RITriggerToDos_Ad\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\264\001\n\nParameters\0226\n\ntri" +
-      "gger_id\030\001 \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022\030\n\017trigger_id_null\030\351\007 \001(\010\0228\n\014w" +
-      "ork_step_no\030\002 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\032\n\021work_step_no_null\030\352\007 \001(",
-      "\010\"\266\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.e" +
-      "ngine.error.Error\022H\n\020meta_information\030\002 " +
-      "\003(\0132..dstore.engine.metainformation.Meta" +
-      "Information\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
-      "gine.message.Message\022A\n\003row\030\004 \003(\01324.dsto" +
-      "re.engine.mi_GetTRITriggerToDos_Ad.Respo" +
-      "nse.Row\032\300\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022:\n\016iter" +
-      "ation_list\030\221N \001(\0132!.dstore.engine.values" +
-      ".stringValue\0225\n\010to_do_no\030\222N \001(\0132\".dstore" +
-      ".engine.values.integerValue\0225\n\tproc_call",
-      "\030\223N \001(\0132!.dstore.engine.values.stringVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "RITriggerToDos_Ad\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"\246\001\n\nParameters\022/\n\ntrigger_id" +
+      "\030\001 \001(\0132\033.dstore.values.integerValue\022\030\n\017t" +
+      "rigger_id_null\030\351\007 \001(\010\0221\n\014work_step_no\030\002 " +
+      "\001(\0132\033.dstore.values.integerValue\022\032\n\021work" +
+      "_step_no_null\030\352\007 \001(\010\"\241\003\n\010Response\022)\n\005err",
+      "or\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020" +
+      "meta_information\030\002 \003(\0132..dstore.engine.m" +
+      "etainformation.MetaInformation\022/\n\007messag" +
+      "e\030\003 \003(\0132\036.dstore.engine.message.Message\022" +
+      "A\n\003row\030\004 \003(\01324.dstore.engine.mi_GetTRITr" +
+      "iggerToDos_Ad.Response.Row\032\253\001\n\003Row\022\017\n\006ro" +
+      "w_id\030\220N \001(\005\0223\n\016iteration_list\030\221N \001(\0132\032.d" +
+      "store.values.stringValue\022.\n\010to_do_no\030\222N " +
+      "\001(\0132\033.dstore.values.integerValue\022.\n\tproc" +
+      "_call\030\223N \001(\0132\032.dstore.values.stringValue",
+      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3679,7 +3677,7 @@ public final class MiGetTRITriggerToDosAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3702,7 +3700,7 @@ public final class MiGetTRITriggerToDosAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerToDos_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IterationList", "ToDoNo", "ProcCall", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

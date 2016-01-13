@@ -13,17 +13,17 @@ public final class MiGetLocales {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCountryId();
+    io.dstore.Values.integerValue getCountryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
 
     /**
      * <code>optional bool country_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetLocales {
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiGetLocales {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
      */
     boolean hasGetNamesInLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getGetNamesInLanguageId();
+    io.dstore.Values.integerValue getGetNamesInLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGetNamesInLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGetNamesInLanguageIdOrBuilder();
 
     /**
      * <code>optional bool get_names_in_language_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class MiGetLocales {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (countryId_ != null) {
                 subBuilder = countryId_.toBuilder();
               }
-              countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(countryId_);
                 countryId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class MiGetLocales {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class MiGetLocales {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (getNamesInLanguageId_ != null) {
                 subBuilder = getNamesInLanguageId_.toBuilder();
               }
-              getNamesInLanguageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              getNamesInLanguageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getNamesInLanguageId_);
                 getNamesInLanguageId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class MiGetLocales {
     }
 
     public static final int COUNTRY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue countryId_;
+    private io.dstore.Values.integerValue countryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCountryId() {
-      return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+    public io.dstore.Values.integerValue getCountryId() {
+      return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
     }
 
@@ -216,23 +216,23 @@ public final class MiGetLocales {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -246,23 +246,23 @@ public final class MiGetLocales {
     }
 
     public static final int GET_NAMES_IN_LANGUAGE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue getNamesInLanguageId_;
+    private io.dstore.Values.integerValue getNamesInLanguageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
      */
     public boolean hasGetNamesInLanguageId() {
       return getNamesInLanguageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getGetNamesInLanguageId() {
-      return getNamesInLanguageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getNamesInLanguageId_;
+    public io.dstore.Values.integerValue getGetNamesInLanguageId() {
+      return getNamesInLanguageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getNamesInLanguageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGetNamesInLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGetNamesInLanguageIdOrBuilder() {
       return getGetNamesInLanguageId();
     }
 
@@ -570,29 +570,29 @@ public final class MiGetLocales {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue countryId_ = null;
+      private io.dstore.Values.integerValue countryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> countryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCountryId() {
+      public io.dstore.Values.integerValue getCountryId() {
         if (countryIdBuilder_ == null) {
-          return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+          return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
         } else {
           return countryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public Builder setCountryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCountryId(io.dstore.Values.integerValue value) {
         if (countryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       public Builder setCountryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (countryIdBuilder_ == null) {
           countryId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public Builder mergeCountryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCountryId(io.dstore.Values.integerValue value) {
         if (countryIdBuilder_ == null) {
           if (countryId_ != null) {
             countryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
           } else {
             countryId_ = value;
           }
@@ -638,7 +638,7 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCountryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
         
         onChanged();
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
           return countryIdBuilder_.getMessageOrBuilder();
         } else {
           return countryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCountryIdFieldBuilder() {
         if (countryIdBuilder_ == null) {
           countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCountryId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class MiGetLocales {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -781,7 +781,7 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class MiGetLocales {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue getNamesInLanguageId_ = null;
+      private io.dstore.Values.integerValue getNamesInLanguageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> getNamesInLanguageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getNamesInLanguageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
       public boolean hasGetNamesInLanguageId() {
         return getNamesInLanguageIdBuilder_ != null || getNamesInLanguageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getGetNamesInLanguageId() {
+      public io.dstore.Values.integerValue getGetNamesInLanguageId() {
         if (getNamesInLanguageIdBuilder_ == null) {
-          return getNamesInLanguageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getNamesInLanguageId_;
+          return getNamesInLanguageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getNamesInLanguageId_;
         } else {
           return getNamesInLanguageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
-      public Builder setGetNamesInLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setGetNamesInLanguageId(io.dstore.Values.integerValue value) {
         if (getNamesInLanguageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
       public Builder setGetNamesInLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (getNamesInLanguageIdBuilder_ == null) {
           getNamesInLanguageId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
-      public Builder mergeGetNamesInLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGetNamesInLanguageId(io.dstore.Values.integerValue value) {
         if (getNamesInLanguageIdBuilder_ == null) {
           if (getNamesInLanguageId_ != null) {
             getNamesInLanguageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(getNamesInLanguageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(getNamesInLanguageId_).mergeFrom(value).buildPartial();
           } else {
             getNamesInLanguageId_ = value;
           }
@@ -924,7 +924,7 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
       public Builder clearGetNamesInLanguageId() {
         if (getNamesInLanguageIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class MiGetLocales {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGetNamesInLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getGetNamesInLanguageIdBuilder() {
         
         onChanged();
         return getGetNamesInLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGetNamesInLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGetNamesInLanguageIdOrBuilder() {
         if (getNamesInLanguageIdBuilder_ != null) {
           return getNamesInLanguageIdBuilder_.getMessageOrBuilder();
         } else {
           return getNamesInLanguageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : getNamesInLanguageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : getNamesInLanguageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_names_in_language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue get_names_in_language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGetNamesInLanguageIdFieldBuilder() {
         if (getNamesInLanguageIdBuilder_ == null) {
           getNamesInLanguageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGetNamesInLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class MiGetLocales {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
        *
        * <pre>
        * ID eines Landes
@@ -1294,24 +1294,24 @@ public final class MiGetLocales {
        */
       boolean hasCountryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
        *
        * <pre>
        * ID eines Landes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCountryId();
+      io.dstore.Values.integerValue getCountryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
        *
        * <pre>
        * ID eines Landes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
@@ -1319,24 +1319,24 @@ public final class MiGetLocales {
        */
       boolean hasCountryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCountryDescription();
+      io.dstore.Values.stringValue getCountryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCountryDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCountryDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -1344,24 +1344,24 @@ public final class MiGetLocales {
        */
       boolean hasLanguageSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLanguageSymbol();
+      io.dstore.Values.stringValue getLanguageSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLanguageSymbolOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
        *
        * <pre>
        * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
@@ -1369,24 +1369,24 @@ public final class MiGetLocales {
        */
       boolean hasLocaleId();
       /**
-       * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
        *
        * <pre>
        * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLocaleId();
+      io.dstore.Values.integerValue getLocaleId();
       /**
-       * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
        *
        * <pre>
        * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLocaleIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLocaleIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -1394,24 +1394,24 @@ public final class MiGetLocales {
        */
       boolean hasCountryDescrInGivenLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCountryDescrInGivenLanguage();
+      io.dstore.Values.stringValue getCountryDescrInGivenLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCountryDescrInGivenLanguageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCountryDescrInGivenLanguageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+       * <code>optional .dstore.values.stringValue language = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Sprache (in der "DefaultLanguageID")
@@ -1419,24 +1419,24 @@ public final class MiGetLocales {
        */
       boolean hasLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+       * <code>optional .dstore.values.stringValue language = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Sprache (in der "DefaultLanguageID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLanguage();
+      io.dstore.Values.stringValue getLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+       * <code>optional .dstore.values.stringValue language = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Sprache (in der "DefaultLanguageID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLanguageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+       * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
@@ -1444,24 +1444,24 @@ public final class MiGetLocales {
        */
       boolean hasLanguageInLocaleLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+       * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLanguageInLocaleLanguage();
+      io.dstore.Values.stringValue getLanguageInLocaleLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+       * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLanguageInLocaleLanguageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLanguageInLocaleLanguageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+       * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -1469,24 +1469,24 @@ public final class MiGetLocales {
        */
       boolean hasLanguageInGivenLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+       * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLanguageInGivenLanguage();
+      io.dstore.Values.stringValue getLanguageInGivenLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+       * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLanguageInGivenLanguageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLanguageInGivenLanguageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+       * <code>optional .dstore.values.stringValue country_code = 10009;</code>
        *
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -1494,24 +1494,24 @@ public final class MiGetLocales {
        */
       boolean hasCountryCode();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+       * <code>optional .dstore.values.stringValue country_code = 10009;</code>
        *
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCountryCode();
+      io.dstore.Values.stringValue getCountryCode();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+       * <code>optional .dstore.values.stringValue country_code = 10009;</code>
        *
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCountryCodeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCountryCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
@@ -1519,24 +1519,24 @@ public final class MiGetLocales {
        */
       boolean hasCountryDescrInLocaleLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCountryDescrInLocaleLanguage();
+      io.dstore.Values.stringValue getCountryDescrInLocaleLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCountryDescrInLocaleLanguageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCountryDescrInLocaleLanguageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10011;</code>
        *
        * <pre>
        * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
@@ -1544,21 +1544,21 @@ public final class MiGetLocales {
        */
       boolean hasLanguageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10011;</code>
        *
        * <pre>
        * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLanguageId();
+      io.dstore.Values.integerValue getLanguageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10011;</code>
        *
        * <pre>
        * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetLocales.Response.Row}
@@ -1605,11 +1605,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (countryId_ != null) {
                   subBuilder = countryId_.toBuilder();
                 }
-                countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryId_);
                   countryId_ = subBuilder.buildPartial();
@@ -1618,11 +1618,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (countryDescription_ != null) {
                   subBuilder = countryDescription_.toBuilder();
                 }
-                countryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                countryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescription_);
                   countryDescription_ = subBuilder.buildPartial();
@@ -1631,11 +1631,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (languageSymbol_ != null) {
                   subBuilder = languageSymbol_.toBuilder();
                 }
-                languageSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                languageSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageSymbol_);
                   languageSymbol_ = subBuilder.buildPartial();
@@ -1644,11 +1644,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (localeId_ != null) {
                   subBuilder = localeId_.toBuilder();
                 }
-                localeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                localeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(localeId_);
                   localeId_ = subBuilder.buildPartial();
@@ -1657,11 +1657,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (countryDescrInGivenLanguage_ != null) {
                   subBuilder = countryDescrInGivenLanguage_.toBuilder();
                 }
-                countryDescrInGivenLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                countryDescrInGivenLanguage_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescrInGivenLanguage_);
                   countryDescrInGivenLanguage_ = subBuilder.buildPartial();
@@ -1670,11 +1670,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                language_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -1683,11 +1683,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (languageInLocaleLanguage_ != null) {
                   subBuilder = languageInLocaleLanguage_.toBuilder();
                 }
-                languageInLocaleLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                languageInLocaleLanguage_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageInLocaleLanguage_);
                   languageInLocaleLanguage_ = subBuilder.buildPartial();
@@ -1696,11 +1696,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (languageInGivenLanguage_ != null) {
                   subBuilder = languageInGivenLanguage_.toBuilder();
                 }
-                languageInGivenLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                languageInGivenLanguage_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageInGivenLanguage_);
                   languageInGivenLanguage_ = subBuilder.buildPartial();
@@ -1709,11 +1709,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (countryCode_ != null) {
                   subBuilder = countryCode_.toBuilder();
                 }
-                countryCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                countryCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryCode_);
                   countryCode_ = subBuilder.buildPartial();
@@ -1722,11 +1722,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (countryDescrInLocaleLanguage_ != null) {
                   subBuilder = countryDescrInLocaleLanguage_.toBuilder();
                 }
-                countryDescrInLocaleLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                countryDescrInLocaleLanguage_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescrInLocaleLanguage_);
                   countryDescrInLocaleLanguage_ = subBuilder.buildPartial();
@@ -1735,11 +1735,11 @@ public final class MiGetLocales {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -1781,9 +1781,9 @@ public final class MiGetLocales {
       }
 
       public static final int COUNTRY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue countryId_;
+      private io.dstore.Values.integerValue countryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
        *
        * <pre>
        * ID eines Landes
@@ -1793,30 +1793,30 @@ public final class MiGetLocales {
         return countryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
        *
        * <pre>
        * ID eines Landes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCountryId() {
-        return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+      public io.dstore.Values.integerValue getCountryId() {
+        return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
        *
        * <pre>
        * ID eines Landes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
         return getCountryId();
       }
 
       public static final int COUNTRY_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue countryDescription_;
+      private io.dstore.Values.stringValue countryDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
@@ -1826,30 +1826,30 @@ public final class MiGetLocales {
         return countryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCountryDescription() {
-        return countryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescription_;
+      public io.dstore.Values.stringValue getCountryDescription() {
+        return countryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCountryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCountryDescriptionOrBuilder() {
         return getCountryDescription();
       }
 
       public static final int LANGUAGE_SYMBOL_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue languageSymbol_;
+      private io.dstore.Values.stringValue languageSymbol_;
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -1859,30 +1859,30 @@ public final class MiGetLocales {
         return languageSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLanguageSymbol() {
-        return languageSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageSymbol_;
+      public io.dstore.Values.stringValue getLanguageSymbol() {
+        return languageSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
         return getLanguageSymbol();
       }
 
       public static final int LOCALE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue localeId_;
+      private io.dstore.Values.integerValue localeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
        *
        * <pre>
        * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
@@ -1892,30 +1892,30 @@ public final class MiGetLocales {
         return localeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
        *
        * <pre>
        * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLocaleId() {
-        return localeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : localeId_;
+      public io.dstore.Values.integerValue getLocaleId() {
+        return localeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : localeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
        *
        * <pre>
        * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLocaleIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLocaleIdOrBuilder() {
         return getLocaleId();
       }
 
       public static final int COUNTRY_DESCR_IN_GIVEN_LANGUAGE_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue countryDescrInGivenLanguage_;
+      private io.dstore.Values.stringValue countryDescrInGivenLanguage_;
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -1925,30 +1925,30 @@ public final class MiGetLocales {
         return countryDescrInGivenLanguage_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCountryDescrInGivenLanguage() {
-        return countryDescrInGivenLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescrInGivenLanguage_;
+      public io.dstore.Values.stringValue getCountryDescrInGivenLanguage() {
+        return countryDescrInGivenLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescrInGivenLanguage_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCountryDescrInGivenLanguageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCountryDescrInGivenLanguageOrBuilder() {
         return getCountryDescrInGivenLanguage();
       }
 
       public static final int LANGUAGE_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue language_;
+      private io.dstore.Values.stringValue language_;
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+       * <code>optional .dstore.values.stringValue language = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Sprache (in der "DefaultLanguageID")
@@ -1958,30 +1958,30 @@ public final class MiGetLocales {
         return language_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+       * <code>optional .dstore.values.stringValue language = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Sprache (in der "DefaultLanguageID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLanguage() {
-        return language_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : language_;
+      public io.dstore.Values.stringValue getLanguage() {
+        return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+       * <code>optional .dstore.values.stringValue language = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Sprache (in der "DefaultLanguageID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLanguageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
         return getLanguage();
       }
 
       public static final int LANGUAGE_IN_LOCALE_LANGUAGE_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue languageInLocaleLanguage_;
+      private io.dstore.Values.stringValue languageInLocaleLanguage_;
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+       * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
@@ -1991,30 +1991,30 @@ public final class MiGetLocales {
         return languageInLocaleLanguage_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+       * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLanguageInLocaleLanguage() {
-        return languageInLocaleLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageInLocaleLanguage_;
+      public io.dstore.Values.stringValue getLanguageInLocaleLanguage() {
+        return languageInLocaleLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageInLocaleLanguage_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+       * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLanguageInLocaleLanguageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLanguageInLocaleLanguageOrBuilder() {
         return getLanguageInLocaleLanguage();
       }
 
       public static final int LANGUAGE_IN_GIVEN_LANGUAGE_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.stringValue languageInGivenLanguage_;
+      private io.dstore.Values.stringValue languageInGivenLanguage_;
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+       * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -2024,30 +2024,30 @@ public final class MiGetLocales {
         return languageInGivenLanguage_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+       * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLanguageInGivenLanguage() {
-        return languageInGivenLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageInGivenLanguage_;
+      public io.dstore.Values.stringValue getLanguageInGivenLanguage() {
+        return languageInGivenLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageInGivenLanguage_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+       * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLanguageInGivenLanguageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLanguageInGivenLanguageOrBuilder() {
         return getLanguageInGivenLanguage();
       }
 
       public static final int COUNTRY_CODE_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue countryCode_;
+      private io.dstore.Values.stringValue countryCode_;
       /**
-       * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+       * <code>optional .dstore.values.stringValue country_code = 10009;</code>
        *
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -2057,30 +2057,30 @@ public final class MiGetLocales {
         return countryCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+       * <code>optional .dstore.values.stringValue country_code = 10009;</code>
        *
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCountryCode() {
-        return countryCode_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryCode_;
+      public io.dstore.Values.stringValue getCountryCode() {
+        return countryCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+       * <code>optional .dstore.values.stringValue country_code = 10009;</code>
        *
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCountryCodeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCountryCodeOrBuilder() {
         return getCountryCode();
       }
 
       public static final int COUNTRY_DESCR_IN_LOCALE_LANGUAGE_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.stringValue countryDescrInLocaleLanguage_;
+      private io.dstore.Values.stringValue countryDescrInLocaleLanguage_;
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
@@ -2090,30 +2090,30 @@ public final class MiGetLocales {
         return countryDescrInLocaleLanguage_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCountryDescrInLocaleLanguage() {
-        return countryDescrInLocaleLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescrInLocaleLanguage_;
+      public io.dstore.Values.stringValue getCountryDescrInLocaleLanguage() {
+        return countryDescrInLocaleLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescrInLocaleLanguage_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+       * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCountryDescrInLocaleLanguageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCountryDescrInLocaleLanguageOrBuilder() {
         return getCountryDescrInLocaleLanguage();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.integerValue languageId_;
+      private io.dstore.Values.integerValue languageId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10011;</code>
        *
        * <pre>
        * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
@@ -2123,23 +2123,23 @@ public final class MiGetLocales {
         return languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10011;</code>
        *
        * <pre>
        * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.Values.integerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10011;</code>
        *
        * <pre>
        * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
@@ -2606,11 +2606,11 @@ public final class MiGetLocales {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue countryId_ = null;
+        private io.dstore.Values.integerValue countryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> countryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
@@ -2620,27 +2620,27 @@ public final class MiGetLocales {
           return countryIdBuilder_ != null || countryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCountryId() {
+        public io.dstore.Values.integerValue getCountryId() {
           if (countryIdBuilder_ == null) {
-            return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+            return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
           } else {
             return countryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
-        public Builder setCountryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCountryId(io.dstore.Values.integerValue value) {
           if (countryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2654,14 +2654,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
         public Builder setCountryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (countryIdBuilder_ == null) {
             countryId_ = builderForValue.build();
             onChanged();
@@ -2672,17 +2672,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
-        public Builder mergeCountryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCountryId(io.dstore.Values.integerValue value) {
           if (countryIdBuilder_ == null) {
             if (countryId_ != null) {
               countryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
             } else {
               countryId_ = value;
             }
@@ -2694,7 +2694,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
@@ -2712,45 +2712,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCountryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
           
           onChanged();
           return getCountryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
           if (countryIdBuilder_ != null) {
             return countryIdBuilder_.getMessageOrBuilder();
           } else {
             return countryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
          *
          * <pre>
          * ID eines Landes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCountryIdFieldBuilder() {
           if (countryIdBuilder_ == null) {
             countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCountryId(),
                     getParentForChildren(),
                     isClean());
@@ -2759,11 +2759,11 @@ public final class MiGetLocales {
           return countryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue countryDescription_ = null;
+        private io.dstore.Values.stringValue countryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> countryDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
@@ -2773,27 +2773,27 @@ public final class MiGetLocales {
           return countryDescriptionBuilder_ != null || countryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCountryDescription() {
+        public io.dstore.Values.stringValue getCountryDescription() {
           if (countryDescriptionBuilder_ == null) {
-            return countryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescription_;
+            return countryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescription_;
           } else {
             return countryDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
-        public Builder setCountryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCountryDescription(io.dstore.Values.stringValue value) {
           if (countryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2807,14 +2807,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
         public Builder setCountryDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (countryDescriptionBuilder_ == null) {
             countryDescription_ = builderForValue.build();
             onChanged();
@@ -2825,17 +2825,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
-        public Builder mergeCountryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCountryDescription(io.dstore.Values.stringValue value) {
           if (countryDescriptionBuilder_ == null) {
             if (countryDescription_ != null) {
               countryDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(countryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(countryDescription_).mergeFrom(value).buildPartial();
             } else {
               countryDescription_ = value;
             }
@@ -2847,7 +2847,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
@@ -2865,45 +2865,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCountryDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCountryDescriptionBuilder() {
           
           onChanged();
           return getCountryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCountryDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCountryDescriptionOrBuilder() {
           if (countryDescriptionBuilder_ != null) {
             return countryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return countryDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : countryDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" (in der "DefaultLanguageID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCountryDescriptionFieldBuilder() {
           if (countryDescriptionBuilder_ == null) {
             countryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCountryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2912,11 +2912,11 @@ public final class MiGetLocales {
           return countryDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue languageSymbol_ = null;
+        private io.dstore.Values.stringValue languageSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> languageSymbolBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageSymbolBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -2926,27 +2926,27 @@ public final class MiGetLocales {
           return languageSymbolBuilder_ != null || languageSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLanguageSymbol() {
+        public io.dstore.Values.stringValue getLanguageSymbol() {
           if (languageSymbolBuilder_ == null) {
-            return languageSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageSymbol_;
+            return languageSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
           } else {
             return languageSymbolBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public Builder setLanguageSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder setLanguageSymbol(io.dstore.Values.stringValue value) {
           if (languageSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2960,14 +2960,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
         public Builder setLanguageSymbol(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (languageSymbolBuilder_ == null) {
             languageSymbol_ = builderForValue.build();
             onChanged();
@@ -2978,17 +2978,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public Builder mergeLanguageSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLanguageSymbol(io.dstore.Values.stringValue value) {
           if (languageSymbolBuilder_ == null) {
             if (languageSymbol_ != null) {
               languageSymbol_ =
-                io.dstore.engine.Values.stringValue.newBuilder(languageSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(languageSymbol_).mergeFrom(value).buildPartial();
             } else {
               languageSymbol_ = value;
             }
@@ -3000,7 +3000,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -3018,45 +3018,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLanguageSymbolBuilder() {
+        public io.dstore.Values.stringValue.Builder getLanguageSymbolBuilder() {
           
           onChanged();
           return getLanguageSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
           if (languageSymbolBuilder_ != null) {
             return languageSymbolBuilder_.getMessageOrBuilder();
           } else {
             return languageSymbol_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : languageSymbol_;
+                io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10003;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLanguageSymbolFieldBuilder() {
           if (languageSymbolBuilder_ == null) {
             languageSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLanguageSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -3065,11 +3065,11 @@ public final class MiGetLocales {
           return languageSymbolBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue localeId_ = null;
+        private io.dstore.Values.integerValue localeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> localeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> localeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
@@ -3079,27 +3079,27 @@ public final class MiGetLocales {
           return localeIdBuilder_ != null || localeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLocaleId() {
+        public io.dstore.Values.integerValue getLocaleId() {
           if (localeIdBuilder_ == null) {
-            return localeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : localeId_;
+            return localeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : localeId_;
           } else {
             return localeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
-        public Builder setLocaleId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLocaleId(io.dstore.Values.integerValue value) {
           if (localeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3113,14 +3113,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
         public Builder setLocaleId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (localeIdBuilder_ == null) {
             localeId_ = builderForValue.build();
             onChanged();
@@ -3131,17 +3131,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
-        public Builder mergeLocaleId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLocaleId(io.dstore.Values.integerValue value) {
           if (localeIdBuilder_ == null) {
             if (localeId_ != null) {
               localeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(localeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(localeId_).mergeFrom(value).buildPartial();
             } else {
               localeId_ = value;
             }
@@ -3153,7 +3153,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
@@ -3171,45 +3171,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLocaleIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLocaleIdBuilder() {
           
           onChanged();
           return getLocaleIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLocaleIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLocaleIdOrBuilder() {
           if (localeIdBuilder_ != null) {
             return localeIdBuilder_.getMessageOrBuilder();
           } else {
             return localeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : localeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : localeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue locale_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue locale_id = 10004;</code>
          *
          * <pre>
          * ID eines "locale"-Eintrags - der einfach die Zuordnung eines Landes (-&gt; "CountryID") zu einer Sprache (-&gt; "LanguageID") darstellt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLocaleIdFieldBuilder() {
           if (localeIdBuilder_ == null) {
             localeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLocaleId(),
                     getParentForChildren(),
                     isClean());
@@ -3218,11 +3218,11 @@ public final class MiGetLocales {
           return localeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue countryDescrInGivenLanguage_ = null;
+        private io.dstore.Values.stringValue countryDescrInGivenLanguage_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> countryDescrInGivenLanguageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryDescrInGivenLanguageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -3232,27 +3232,27 @@ public final class MiGetLocales {
           return countryDescrInGivenLanguageBuilder_ != null || countryDescrInGivenLanguage_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCountryDescrInGivenLanguage() {
+        public io.dstore.Values.stringValue getCountryDescrInGivenLanguage() {
           if (countryDescrInGivenLanguageBuilder_ == null) {
-            return countryDescrInGivenLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescrInGivenLanguage_;
+            return countryDescrInGivenLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescrInGivenLanguage_;
           } else {
             return countryDescrInGivenLanguageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public Builder setCountryDescrInGivenLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder setCountryDescrInGivenLanguage(io.dstore.Values.stringValue value) {
           if (countryDescrInGivenLanguageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3266,14 +3266,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
         public Builder setCountryDescrInGivenLanguage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (countryDescrInGivenLanguageBuilder_ == null) {
             countryDescrInGivenLanguage_ = builderForValue.build();
             onChanged();
@@ -3284,17 +3284,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public Builder mergeCountryDescrInGivenLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCountryDescrInGivenLanguage(io.dstore.Values.stringValue value) {
           if (countryDescrInGivenLanguageBuilder_ == null) {
             if (countryDescrInGivenLanguage_ != null) {
               countryDescrInGivenLanguage_ =
-                io.dstore.engine.Values.stringValue.newBuilder(countryDescrInGivenLanguage_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(countryDescrInGivenLanguage_).mergeFrom(value).buildPartial();
             } else {
               countryDescrInGivenLanguage_ = value;
             }
@@ -3306,7 +3306,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -3324,45 +3324,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCountryDescrInGivenLanguageBuilder() {
+        public io.dstore.Values.stringValue.Builder getCountryDescrInGivenLanguageBuilder() {
           
           onChanged();
           return getCountryDescrInGivenLanguageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCountryDescrInGivenLanguageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCountryDescrInGivenLanguageOrBuilder() {
           if (countryDescrInGivenLanguageBuilder_ != null) {
             return countryDescrInGivenLanguageBuilder_.getMessageOrBuilder();
           } else {
             return countryDescrInGivenLanguage_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescrInGivenLanguage_;
+                io.dstore.Values.stringValue.getDefaultInstance() : countryDescrInGivenLanguage_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_given_language = 10005;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_given_language = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCountryDescrInGivenLanguageFieldBuilder() {
           if (countryDescrInGivenLanguageBuilder_ == null) {
             countryDescrInGivenLanguageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCountryDescrInGivenLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -3371,11 +3371,11 @@ public final class MiGetLocales {
           return countryDescrInGivenLanguageBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue language_ = null;
+        private io.dstore.Values.stringValue language_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> languageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
@@ -3385,27 +3385,27 @@ public final class MiGetLocales {
           return languageBuilder_ != null || language_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLanguage() {
+        public io.dstore.Values.stringValue getLanguage() {
           if (languageBuilder_ == null) {
-            return language_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : language_;
+            return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
           } else {
             return languageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
-        public Builder setLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder setLanguage(io.dstore.Values.stringValue value) {
           if (languageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3419,14 +3419,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
         public Builder setLanguage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (languageBuilder_ == null) {
             language_ = builderForValue.build();
             onChanged();
@@ -3437,17 +3437,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
-        public Builder mergeLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLanguage(io.dstore.Values.stringValue value) {
           if (languageBuilder_ == null) {
             if (language_ != null) {
               language_ =
-                io.dstore.engine.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
             } else {
               language_ = value;
             }
@@ -3459,7 +3459,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
@@ -3477,45 +3477,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLanguageBuilder() {
+        public io.dstore.Values.stringValue.Builder getLanguageBuilder() {
           
           onChanged();
           return getLanguageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLanguageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
           if (languageBuilder_ != null) {
             return languageBuilder_.getMessageOrBuilder();
           } else {
             return language_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : language_;
+                io.dstore.Values.stringValue.getDefaultInstance() : language_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10006;</code>
+         * <code>optional .dstore.values.stringValue language = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Sprache (in der "DefaultLanguageID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLanguageFieldBuilder() {
           if (languageBuilder_ == null) {
             languageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -3524,11 +3524,11 @@ public final class MiGetLocales {
           return languageBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue languageInLocaleLanguage_ = null;
+        private io.dstore.Values.stringValue languageInLocaleLanguage_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> languageInLocaleLanguageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageInLocaleLanguageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
@@ -3538,27 +3538,27 @@ public final class MiGetLocales {
           return languageInLocaleLanguageBuilder_ != null || languageInLocaleLanguage_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLanguageInLocaleLanguage() {
+        public io.dstore.Values.stringValue getLanguageInLocaleLanguage() {
           if (languageInLocaleLanguageBuilder_ == null) {
-            return languageInLocaleLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageInLocaleLanguage_;
+            return languageInLocaleLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageInLocaleLanguage_;
           } else {
             return languageInLocaleLanguageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
-        public Builder setLanguageInLocaleLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder setLanguageInLocaleLanguage(io.dstore.Values.stringValue value) {
           if (languageInLocaleLanguageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3572,14 +3572,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
         public Builder setLanguageInLocaleLanguage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (languageInLocaleLanguageBuilder_ == null) {
             languageInLocaleLanguage_ = builderForValue.build();
             onChanged();
@@ -3590,17 +3590,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
-        public Builder mergeLanguageInLocaleLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLanguageInLocaleLanguage(io.dstore.Values.stringValue value) {
           if (languageInLocaleLanguageBuilder_ == null) {
             if (languageInLocaleLanguage_ != null) {
               languageInLocaleLanguage_ =
-                io.dstore.engine.Values.stringValue.newBuilder(languageInLocaleLanguage_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(languageInLocaleLanguage_).mergeFrom(value).buildPartial();
             } else {
               languageInLocaleLanguage_ = value;
             }
@@ -3612,7 +3612,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
@@ -3630,45 +3630,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLanguageInLocaleLanguageBuilder() {
+        public io.dstore.Values.stringValue.Builder getLanguageInLocaleLanguageBuilder() {
           
           onChanged();
           return getLanguageInLocaleLanguageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLanguageInLocaleLanguageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLanguageInLocaleLanguageOrBuilder() {
           if (languageInLocaleLanguageBuilder_ != null) {
             return languageInLocaleLanguageBuilder_.getMessageOrBuilder();
           } else {
             return languageInLocaleLanguage_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : languageInLocaleLanguage_;
+                io.dstore.Values.stringValue.getDefaultInstance() : languageInLocaleLanguage_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_locale_language = 10007;</code>
+         * <code>optional .dstore.values.stringValue language_in_locale_language = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der Sprache "LanguageID" selbst
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLanguageInLocaleLanguageFieldBuilder() {
           if (languageInLocaleLanguageBuilder_ == null) {
             languageInLocaleLanguageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLanguageInLocaleLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -3677,11 +3677,11 @@ public final class MiGetLocales {
           return languageInLocaleLanguageBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue languageInGivenLanguage_ = null;
+        private io.dstore.Values.stringValue languageInGivenLanguage_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> languageInGivenLanguageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageInGivenLanguageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -3691,27 +3691,27 @@ public final class MiGetLocales {
           return languageInGivenLanguageBuilder_ != null || languageInGivenLanguage_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLanguageInGivenLanguage() {
+        public io.dstore.Values.stringValue getLanguageInGivenLanguage() {
           if (languageInGivenLanguageBuilder_ == null) {
-            return languageInGivenLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageInGivenLanguage_;
+            return languageInGivenLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageInGivenLanguage_;
           } else {
             return languageInGivenLanguageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public Builder setLanguageInGivenLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder setLanguageInGivenLanguage(io.dstore.Values.stringValue value) {
           if (languageInGivenLanguageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3725,14 +3725,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
         public Builder setLanguageInGivenLanguage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (languageInGivenLanguageBuilder_ == null) {
             languageInGivenLanguage_ = builderForValue.build();
             onChanged();
@@ -3743,17 +3743,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public Builder mergeLanguageInGivenLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLanguageInGivenLanguage(io.dstore.Values.stringValue value) {
           if (languageInGivenLanguageBuilder_ == null) {
             if (languageInGivenLanguage_ != null) {
               languageInGivenLanguage_ =
-                io.dstore.engine.Values.stringValue.newBuilder(languageInGivenLanguage_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(languageInGivenLanguage_).mergeFrom(value).buildPartial();
             } else {
               languageInGivenLanguage_ = value;
             }
@@ -3765,7 +3765,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
@@ -3783,45 +3783,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLanguageInGivenLanguageBuilder() {
+        public io.dstore.Values.stringValue.Builder getLanguageInGivenLanguageBuilder() {
           
           onChanged();
           return getLanguageInGivenLanguageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLanguageInGivenLanguageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLanguageInGivenLanguageOrBuilder() {
           if (languageInGivenLanguageBuilder_ != null) {
             return languageInGivenLanguageBuilder_.getMessageOrBuilder();
           } else {
             return languageInGivenLanguage_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : languageInGivenLanguage_;
+                io.dstore.Values.stringValue.getDefaultInstance() : languageInGivenLanguage_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_in_given_language = 10008;</code>
+         * <code>optional .dstore.values.stringValue language_in_given_language = 10008;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID" in der durch "&#64;GetNamesInLanguageID" angegebenen Sprache. Falls "NULL" für besagten Parameter angegeben wurde, wird hier immer "NULL" zurückgegeben !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLanguageInGivenLanguageFieldBuilder() {
           if (languageInGivenLanguageBuilder_ == null) {
             languageInGivenLanguageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLanguageInGivenLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -3830,11 +3830,11 @@ public final class MiGetLocales {
           return languageInGivenLanguageBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue countryCode_ = null;
+        private io.dstore.Values.stringValue countryCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> countryCodeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -3844,27 +3844,27 @@ public final class MiGetLocales {
           return countryCodeBuilder_ != null || countryCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCountryCode() {
+        public io.dstore.Values.stringValue getCountryCode() {
           if (countryCodeBuilder_ == null) {
-            return countryCode_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryCode_;
+            return countryCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryCode_;
           } else {
             return countryCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public Builder setCountryCode(io.dstore.engine.Values.stringValue value) {
+        public Builder setCountryCode(io.dstore.Values.stringValue value) {
           if (countryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3878,14 +3878,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
         public Builder setCountryCode(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (countryCodeBuilder_ == null) {
             countryCode_ = builderForValue.build();
             onChanged();
@@ -3896,17 +3896,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public Builder mergeCountryCode(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCountryCode(io.dstore.Values.stringValue value) {
           if (countryCodeBuilder_ == null) {
             if (countryCode_ != null) {
               countryCode_ =
-                io.dstore.engine.Values.stringValue.newBuilder(countryCode_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(countryCode_).mergeFrom(value).buildPartial();
             } else {
               countryCode_ = value;
             }
@@ -3918,7 +3918,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -3936,45 +3936,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCountryCodeBuilder() {
+        public io.dstore.Values.stringValue.Builder getCountryCodeBuilder() {
           
           onChanged();
           return getCountryCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCountryCodeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCountryCodeOrBuilder() {
           if (countryCodeBuilder_ != null) {
             return countryCodeBuilder_.getMessageOrBuilder();
           } else {
             return countryCode_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : countryCode_;
+                io.dstore.Values.stringValue.getDefaultInstance() : countryCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_code = 10009;</code>
+         * <code>optional .dstore.values.stringValue country_code = 10009;</code>
          *
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCountryCodeFieldBuilder() {
           if (countryCodeBuilder_ == null) {
             countryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCountryCode(),
                     getParentForChildren(),
                     isClean());
@@ -3983,11 +3983,11 @@ public final class MiGetLocales {
           return countryCodeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue countryDescrInLocaleLanguage_ = null;
+        private io.dstore.Values.stringValue countryDescrInLocaleLanguage_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> countryDescrInLocaleLanguageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryDescrInLocaleLanguageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
@@ -3997,27 +3997,27 @@ public final class MiGetLocales {
           return countryDescrInLocaleLanguageBuilder_ != null || countryDescrInLocaleLanguage_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCountryDescrInLocaleLanguage() {
+        public io.dstore.Values.stringValue getCountryDescrInLocaleLanguage() {
           if (countryDescrInLocaleLanguageBuilder_ == null) {
-            return countryDescrInLocaleLanguage_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescrInLocaleLanguage_;
+            return countryDescrInLocaleLanguage_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescrInLocaleLanguage_;
           } else {
             return countryDescrInLocaleLanguageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
-        public Builder setCountryDescrInLocaleLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder setCountryDescrInLocaleLanguage(io.dstore.Values.stringValue value) {
           if (countryDescrInLocaleLanguageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4031,14 +4031,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
         public Builder setCountryDescrInLocaleLanguage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (countryDescrInLocaleLanguageBuilder_ == null) {
             countryDescrInLocaleLanguage_ = builderForValue.build();
             onChanged();
@@ -4049,17 +4049,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
-        public Builder mergeCountryDescrInLocaleLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCountryDescrInLocaleLanguage(io.dstore.Values.stringValue value) {
           if (countryDescrInLocaleLanguageBuilder_ == null) {
             if (countryDescrInLocaleLanguage_ != null) {
               countryDescrInLocaleLanguage_ =
-                io.dstore.engine.Values.stringValue.newBuilder(countryDescrInLocaleLanguage_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(countryDescrInLocaleLanguage_).mergeFrom(value).buildPartial();
             } else {
               countryDescrInLocaleLanguage_ = value;
             }
@@ -4071,7 +4071,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
@@ -4089,45 +4089,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCountryDescrInLocaleLanguageBuilder() {
+        public io.dstore.Values.stringValue.Builder getCountryDescrInLocaleLanguageBuilder() {
           
           onChanged();
           return getCountryDescrInLocaleLanguageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCountryDescrInLocaleLanguageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCountryDescrInLocaleLanguageOrBuilder() {
           if (countryDescrInLocaleLanguageBuilder_ != null) {
             return countryDescrInLocaleLanguageBuilder_.getMessageOrBuilder();
           } else {
             return countryDescrInLocaleLanguage_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : countryDescrInLocaleLanguage_;
+                io.dstore.Values.stringValue.getDefaultInstance() : countryDescrInLocaleLanguage_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue country_descr_in_locale_language = 10010;</code>
+         * <code>optional .dstore.values.stringValue country_descr_in_locale_language = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Landes "CountryID" in der Sprache "LanguageID", also quasi der "locale"-Sprache
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCountryDescrInLocaleLanguageFieldBuilder() {
           if (countryDescrInLocaleLanguageBuilder_ == null) {
             countryDescrInLocaleLanguageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCountryDescrInLocaleLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -4136,11 +4136,11 @@ public final class MiGetLocales {
           return countryDescrInLocaleLanguageBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue languageId_ = null;
+        private io.dstore.Values.integerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
@@ -4150,27 +4150,27 @@ public final class MiGetLocales {
           return languageIdBuilder_ != null || languageId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLanguageId() {
+        public io.dstore.Values.integerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
-        public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4184,14 +4184,14 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
         public Builder setLanguageId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -4202,17 +4202,17 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
-        public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -4224,7 +4224,7 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
@@ -4242,45 +4242,45 @@ public final class MiGetLocales {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10011;</code>
          *
          * <pre>
          * ID einer Sprache, die zusammen mit "CountryID" einen "locale"-Eintrag darstellt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -5849,43 +5849,40 @@ public final class MiGetLocales {
   static {
     java.lang.String[] descriptorData = {
       "\n,dstore/engine/procedures/mi_GetLocales" +
-      ".proto\022\033dstore.engine.mi_GetLocales\032\032dst" +
-      "ore/engine/values.proto\032\031dstore/engine/e" +
-      "rror.proto\032\033dstore/engine/message.proto\032" +
-      "#dstore/engine/metainformation.proto\"\240\002\n" +
-      "\nParameters\0226\n\ncountry_id\030\001 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022\030\n\017country_i" +
-      "d_null\030\351\007 \001(\010\0227\n\013language_id\030\002 \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022\031\n\020langua" +
-      "ge_id_null\030\352\007 \001(\010\022D\n\030get_names_in_langua",
-      "ge_id\030\003 \001(\0132\".dstore.engine.values.integ" +
-      "erValue\022&\n\035get_names_in_language_id_null" +
-      "\030\353\007 \001(\010\"\306\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\0226\n\003row\030\004 \003(\0132" +
-      ").dstore.engine.mi_GetLocales.Response.R" +
-      "ow\032\333\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\ncountry_i" +
-      "d\030\221N \001(\0132\".dstore.engine.values.integerV",
-      "alue\022?\n\023country_description\030\222N \001(\0132!.dst" +
-      "ore.engine.values.stringValue\022;\n\017languag" +
-      "e_symbol\030\223N \001(\0132!.dstore.engine.values.s" +
-      "tringValue\0226\n\tlocale_id\030\224N \001(\0132\".dstore." +
-      "engine.values.integerValue\022K\n\037country_de" +
-      "scr_in_given_language\030\225N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\0224\n\010language\030\226N \001" +
-      "(\0132!.dstore.engine.values.stringValue\022G\n" +
-      "\033language_in_locale_language\030\227N \001(\0132!.ds" +
-      "tore.engine.values.stringValue\022F\n\032langua",
-      "ge_in_given_language\030\230N \001(\0132!.dstore.eng" +
-      "ine.values.stringValue\0228\n\014country_code\030\231" +
-      "N \001(\0132!.dstore.engine.values.stringValue" +
-      "\022L\n country_descr_in_locale_language\030\232N " +
-      "\001(\0132!.dstore.engine.values.stringValue\0228" +
-      "\n\013language_id\030\233N \001(\0132\".dstore.engine.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      ".proto\022\033dstore.engine.mi_GetLocales\032\023dst" +
+      "ore/values.proto\032\031dstore/engine/error.pr" +
+      "oto\032\033dstore/engine/message.proto\032#dstore" +
+      "/engine/metainformation.proto\"\213\002\n\nParame" +
+      "ters\022/\n\ncountry_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022\030\n\017country_id_null\030\351\007 \001(\010\022" +
+      "0\n\013language_id\030\002 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\031\n\020language_id_null\030\352\007 \001(\010\022=\n\030" +
+      "get_names_in_language_id\030\003 \001(\0132\033.dstore.",
+      "values.integerValue\022&\n\035get_names_in_lang" +
+      "uage_id_null\030\353\007 \001(\010\"\371\006\n\010Response\022)\n\005erro" +
+      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
+      "eta_information\030\002 \003(\0132..dstore.engine.me" +
+      "tainformation.MetaInformation\022/\n\007message" +
+      "\030\003 \003(\0132\036.dstore.engine.message.Message\0226" +
+      "\n\003row\030\004 \003(\0132).dstore.engine.mi_GetLocale" +
+      "s.Response.Row\032\216\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
+      "0\n\ncountry_id\030\221N \001(\0132\033.dstore.values.int" +
+      "egerValue\0228\n\023country_description\030\222N \001(\0132",
+      "\032.dstore.values.stringValue\0224\n\017language_" +
+      "symbol\030\223N \001(\0132\032.dstore.values.stringValu" +
+      "e\022/\n\tlocale_id\030\224N \001(\0132\033.dstore.values.in" +
+      "tegerValue\022D\n\037country_descr_in_given_lan" +
+      "guage\030\225N \001(\0132\032.dstore.values.stringValue" +
+      "\022-\n\010language\030\226N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022@\n\033language_in_locale_language\030\227" +
+      "N \001(\0132\032.dstore.values.stringValue\022?\n\032lan" +
+      "guage_in_given_language\030\230N \001(\0132\032.dstore." +
+      "values.stringValue\0221\n\014country_code\030\231N \001(",
+      "\0132\032.dstore.values.stringValue\022E\n country" +
+      "_descr_in_locale_language\030\232N \001(\0132\032.dstor" +
+      "e.values.stringValue\0221\n\013language_id\030\233N \001" +
+      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
+      "tore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5898,7 +5895,7 @@ public final class MiGetLocales {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5921,7 +5918,7 @@ public final class MiGetLocales {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetLocales_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CountryId", "CountryDescription", "LanguageSymbol", "LocaleId", "CountryDescrInGivenLanguage", "Language", "LanguageInLocaleLanguage", "LanguageInGivenLanguage", "CountryCode", "CountryDescrInLocaleLanguage", "LanguageId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

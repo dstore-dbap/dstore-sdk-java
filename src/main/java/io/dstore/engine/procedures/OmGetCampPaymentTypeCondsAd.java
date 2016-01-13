@@ -13,17 +13,17 @@ public final class OmGetCampPaymentTypeCondsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getConditionId();
+    io.dstore.Values.integerValue getConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class OmGetCampPaymentTypeCondsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class OmGetCampPaymentTypeCondsAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue conditionId_;
+    private io.dstore.Values.integerValue conditionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -368,29 +368,29 @@ public final class OmGetCampPaymentTypeCondsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue conditionId_ = null;
+      private io.dstore.Values.integerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getConditionId() {
+      public io.dstore.Values.integerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public Builder setConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class OmGetCampPaymentTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class OmGetCampPaymentTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public Builder mergeConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -436,7 +436,7 @@ public final class OmGetCampPaymentTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class OmGetCampPaymentTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class OmGetCampPaymentTypeCondsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
        *
        * <pre>
        * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
@@ -806,24 +806,24 @@ public final class OmGetCampPaymentTypeCondsAd {
        */
       boolean hasFilterByPaymentTypeIds();
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
        *
        * <pre>
        * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFilterByPaymentTypeIds();
+      io.dstore.Values.stringValue getFilterByPaymentTypeIds();
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
        *
        * <pre>
        * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
        *
        * <pre>
        * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
@@ -831,24 +831,24 @@ public final class OmGetCampPaymentTypeCondsAd {
        */
       boolean hasConditionId();
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
        *
        * <pre>
        * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getConditionId();
+      io.dstore.Values.integerValue getConditionId();
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
        *
        * <pre>
        * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
        *
        * <pre>
        * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
@@ -856,21 +856,21 @@ public final class OmGetCampPaymentTypeCondsAd {
        */
       boolean hasNegateFilter();
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
        *
        * <pre>
        * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getNegateFilter();
+      io.dstore.Values.booleanValue getNegateFilter();
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
        *
        * <pre>
        * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampPaymentTypeConds_Ad.Response.Row}
@@ -917,11 +917,11 @@ public final class OmGetCampPaymentTypeCondsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (filterByPaymentTypeIds_ != null) {
                   subBuilder = filterByPaymentTypeIds_.toBuilder();
                 }
-                filterByPaymentTypeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                filterByPaymentTypeIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filterByPaymentTypeIds_);
                   filterByPaymentTypeIds_ = subBuilder.buildPartial();
@@ -930,11 +930,11 @@ public final class OmGetCampPaymentTypeCondsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (conditionId_ != null) {
                   subBuilder = conditionId_.toBuilder();
                 }
-                conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionId_);
                   conditionId_ = subBuilder.buildPartial();
@@ -943,11 +943,11 @@ public final class OmGetCampPaymentTypeCondsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (negateFilter_ != null) {
                   subBuilder = negateFilter_.toBuilder();
                 }
-                negateFilter_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                negateFilter_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(negateFilter_);
                   negateFilter_ = subBuilder.buildPartial();
@@ -989,9 +989,9 @@ public final class OmGetCampPaymentTypeCondsAd {
       }
 
       public static final int FILTER_BY_PAYMENT_TYPE_IDS_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue filterByPaymentTypeIds_;
+      private io.dstore.Values.stringValue filterByPaymentTypeIds_;
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
        *
        * <pre>
        * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
@@ -1001,30 +1001,30 @@ public final class OmGetCampPaymentTypeCondsAd {
         return filterByPaymentTypeIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
        *
        * <pre>
        * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFilterByPaymentTypeIds() {
-        return filterByPaymentTypeIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
+      public io.dstore.Values.stringValue getFilterByPaymentTypeIds() {
+        return filterByPaymentTypeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
        *
        * <pre>
        * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
         return getFilterByPaymentTypeIds();
       }
 
       public static final int CONDITION_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue conditionId_;
+      private io.dstore.Values.integerValue conditionId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
        *
        * <pre>
        * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
@@ -1034,30 +1034,30 @@ public final class OmGetCampPaymentTypeCondsAd {
         return conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
        *
        * <pre>
        * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getConditionId() {
-        return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+      public io.dstore.Values.integerValue getConditionId() {
+        return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
        *
        * <pre>
        * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
       }
 
       public static final int NEGATE_FILTER_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.booleanValue negateFilter_;
+      private io.dstore.Values.booleanValue negateFilter_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
        *
        * <pre>
        * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
@@ -1067,23 +1067,23 @@ public final class OmGetCampPaymentTypeCondsAd {
         return negateFilter_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
        *
        * <pre>
        * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getNegateFilter() {
-        return negateFilter_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilter_;
+      public io.dstore.Values.booleanValue getNegateFilter() {
+        return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
        *
        * <pre>
        * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
         return getNegateFilter();
       }
 
@@ -1382,11 +1382,11 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue filterByPaymentTypeIds_ = null;
+        private io.dstore.Values.stringValue filterByPaymentTypeIds_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> filterByPaymentTypeIdsBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByPaymentTypeIdsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
@@ -1396,27 +1396,27 @@ public final class OmGetCampPaymentTypeCondsAd {
           return filterByPaymentTypeIdsBuilder_ != null || filterByPaymentTypeIds_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFilterByPaymentTypeIds() {
+        public io.dstore.Values.stringValue getFilterByPaymentTypeIds() {
           if (filterByPaymentTypeIdsBuilder_ == null) {
-            return filterByPaymentTypeIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
+            return filterByPaymentTypeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
           } else {
             return filterByPaymentTypeIdsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
-        public Builder setFilterByPaymentTypeIds(io.dstore.engine.Values.stringValue value) {
+        public Builder setFilterByPaymentTypeIds(io.dstore.Values.stringValue value) {
           if (filterByPaymentTypeIdsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1430,14 +1430,14 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
         public Builder setFilterByPaymentTypeIds(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (filterByPaymentTypeIdsBuilder_ == null) {
             filterByPaymentTypeIds_ = builderForValue.build();
             onChanged();
@@ -1448,17 +1448,17 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
-        public Builder mergeFilterByPaymentTypeIds(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFilterByPaymentTypeIds(io.dstore.Values.stringValue value) {
           if (filterByPaymentTypeIdsBuilder_ == null) {
             if (filterByPaymentTypeIds_ != null) {
               filterByPaymentTypeIds_ =
-                io.dstore.engine.Values.stringValue.newBuilder(filterByPaymentTypeIds_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(filterByPaymentTypeIds_).mergeFrom(value).buildPartial();
             } else {
               filterByPaymentTypeIds_ = value;
             }
@@ -1470,7 +1470,7 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
@@ -1488,45 +1488,45 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFilterByPaymentTypeIdsBuilder() {
+        public io.dstore.Values.stringValue.Builder getFilterByPaymentTypeIdsBuilder() {
           
           onChanged();
           return getFilterByPaymentTypeIdsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
           if (filterByPaymentTypeIdsBuilder_ != null) {
             return filterByPaymentTypeIdsBuilder_.getMessageOrBuilder();
           } else {
             return filterByPaymentTypeIds_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
+                io.dstore.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filter_by_payment_type_ids = 10001;</code>
+         * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 10001;</code>
          *
          * <pre>
          * Liste von "PaymentTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Zahlungsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFilterByPaymentTypeIdsFieldBuilder() {
           if (filterByPaymentTypeIdsBuilder_ == null) {
             filterByPaymentTypeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFilterByPaymentTypeIds(),
                     getParentForChildren(),
                     isClean());
@@ -1535,11 +1535,11 @@ public final class OmGetCampPaymentTypeCondsAd {
           return filterByPaymentTypeIdsBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue conditionId_ = null;
+        private io.dstore.Values.integerValue conditionId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> conditionIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
@@ -1549,27 +1549,27 @@ public final class OmGetCampPaymentTypeCondsAd {
           return conditionIdBuilder_ != null || conditionId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getConditionId() {
+        public io.dstore.Values.integerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
-            return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+            return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
           } else {
             return conditionIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
-        public Builder setConditionId(io.dstore.engine.Values.integerValue value) {
+        public Builder setConditionId(io.dstore.Values.integerValue value) {
           if (conditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1583,14 +1583,14 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
         public Builder setConditionId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (conditionIdBuilder_ == null) {
             conditionId_ = builderForValue.build();
             onChanged();
@@ -1601,17 +1601,17 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
-        public Builder mergeConditionId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeConditionId(io.dstore.Values.integerValue value) {
           if (conditionIdBuilder_ == null) {
             if (conditionId_ != null) {
               conditionId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
             } else {
               conditionId_ = value;
             }
@@ -1623,7 +1623,7 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
@@ -1641,45 +1641,45 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getConditionIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
           
           onChanged();
           return getConditionIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
             return conditionIdBuilder_.getMessageOrBuilder();
           } else {
             return conditionId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
          *
          * <pre>
          * ID einer "Zahlungsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getConditionIdFieldBuilder() {
           if (conditionIdBuilder_ == null) {
             conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -1688,11 +1688,11 @@ public final class OmGetCampPaymentTypeCondsAd {
           return conditionIdBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue negateFilter_ = null;
+        private io.dstore.Values.booleanValue negateFilter_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> negateFilterBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
@@ -1702,27 +1702,27 @@ public final class OmGetCampPaymentTypeCondsAd {
           return negateFilterBuilder_ != null || negateFilter_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getNegateFilter() {
+        public io.dstore.Values.booleanValue getNegateFilter() {
           if (negateFilterBuilder_ == null) {
-            return negateFilter_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilter_;
+            return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
           } else {
             return negateFilterBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
-        public Builder setNegateFilter(io.dstore.engine.Values.booleanValue value) {
+        public Builder setNegateFilter(io.dstore.Values.booleanValue value) {
           if (negateFilterBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1736,14 +1736,14 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
         public Builder setNegateFilter(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (negateFilterBuilder_ == null) {
             negateFilter_ = builderForValue.build();
             onChanged();
@@ -1754,17 +1754,17 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
-        public Builder mergeNegateFilter(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeNegateFilter(io.dstore.Values.booleanValue value) {
           if (negateFilterBuilder_ == null) {
             if (negateFilter_ != null) {
               negateFilter_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(negateFilter_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(negateFilter_).mergeFrom(value).buildPartial();
             } else {
               negateFilter_ = value;
             }
@@ -1776,7 +1776,7 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
@@ -1794,45 +1794,45 @@ public final class OmGetCampPaymentTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getNegateFilterBuilder() {
+        public io.dstore.Values.booleanValue.Builder getNegateFilterBuilder() {
           
           onChanged();
           return getNegateFilterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
           if (negateFilterBuilder_ != null) {
             return negateFilterBuilder_.getMessageOrBuilder();
           } else {
             return negateFilter_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilter_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue negate_filter = 10003;</code>
+         * <code>optional .dstore.values.booleanValue negate_filter = 10003;</code>
          *
          * <pre>
          * Gibt an, ob eine der in "FilterByPaymentTypeIDs" angegebenen Zahlungsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getNegateFilterFieldBuilder() {
           if (negateFilterBuilder_ == null) {
             negateFilterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getNegateFilter(),
                     getParentForChildren(),
                     isClean());
@@ -3402,25 +3402,24 @@ public final class OmGetCampPaymentTypeCondsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/om_GetCampPay" +
       "mentTypeConds_Ad.proto\022+dstore.engine.om" +
-      "_GetCampPaymentTypeConds_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"b\n\nParamete" +
-      "rs\0228\n\014condition_id\030\001 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022\032\n\021condition_id_nul" +
-      "l\030\351\007 \001(\010\"\320\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
-      "store.engine.error.Error\022H\n\020meta_informa",
-      "tion\030\002 \003(\0132..dstore.engine.metainformati" +
-      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
-      "tore.engine.message.Message\022F\n\003row\030\004 \003(\013" +
-      "29.dstore.engine.om_GetCampPaymentTypeCo" +
-      "nds_Ad.Response.Row\032\325\001\n\003Row\022\017\n\006row_id\030\220N" +
-      " \001(\005\022F\n\032filter_by_payment_type_ids\030\221N \001(" +
-      "\0132!.dstore.engine.values.stringValue\0229\n\014" +
-      "condition_id\030\222N \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022:\n\rnegate_filter\030\223N \001(\0132" +
-      "\".dstore.engine.values.booleanValueB\035\n\033i",
-      "o.dstore.engine.proceduresb\006proto3"
+      "_GetCampPaymentTypeConds_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"[\n\nParameters\0221\n\014c" +
+      "ondition_id\030\001 \001(\0132\033.dstore.values.intege" +
+      "rValue\022\032\n\021condition_id_null\030\351\007 \001(\010\"\273\003\n\010R" +
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d",
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022F\n\003row\030\004 \003(\01329.dstore.engi" +
+      "ne.om_GetCampPaymentTypeConds_Ad.Respons" +
+      "e.Row\032\300\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\032filter" +
+      "_by_payment_type_ids\030\221N \001(\0132\032.dstore.val" +
+      "ues.stringValue\0222\n\014condition_id\030\222N \001(\0132\033" +
+      ".dstore.values.integerValue\0223\n\rnegate_fi" +
+      "lter\030\223N \001(\0132\033.dstore.values.booleanValue" +
+      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3433,7 +3432,7 @@ public final class OmGetCampPaymentTypeCondsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3456,7 +3455,7 @@ public final class OmGetCampPaymentTypeCondsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampPaymentTypeConds_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "FilterByPaymentTypeIds", "ConditionId", "NegateFilter", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

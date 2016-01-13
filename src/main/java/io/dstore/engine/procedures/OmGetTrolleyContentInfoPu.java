@@ -13,17 +13,17 @@ public final class OmGetTrolleyContentInfoPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetTrolleyContentInfoPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
      */
     boolean hasHTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getHTreeNodeId();
+    io.dstore.Values.integerValue getHTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool h_tree_node_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmGetTrolleyContentInfoPu {
     boolean getHTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getInformationTypeId();
+    io.dstore.Values.integerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class OmGetTrolleyContentInfoPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class OmGetTrolleyContentInfoPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (hTreeNodeId_ != null) {
                 subBuilder = hTreeNodeId_.toBuilder();
               }
-              hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hTreeNodeId_);
                 hTreeNodeId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class OmGetTrolleyContentInfoPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class OmGetTrolleyContentInfoPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -216,23 +216,23 @@ public final class OmGetTrolleyContentInfoPu {
     }
 
     public static final int H_TREE_NODE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue hTreeNodeId_;
+    private io.dstore.Values.integerValue hTreeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
      */
     public boolean hasHTreeNodeId() {
       return hTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getHTreeNodeId() {
-      return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+    public io.dstore.Values.integerValue getHTreeNodeId() {
+      return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
       return getHTreeNodeId();
     }
 
@@ -246,23 +246,23 @@ public final class OmGetTrolleyContentInfoPu {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue informationTypeId_;
+    private io.dstore.Values.integerValue informationTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.Values.integerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -570,29 +570,29 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -638,7 +638,7 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue hTreeNodeId_ = null;
+      private io.dstore.Values.integerValue hTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getHTreeNodeId() {
+      public io.dstore.Values.integerValue getHTreeNodeId() {
         if (hTreeNodeIdBuilder_ == null) {
-          return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+          return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
         } else {
           return hTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
-      public Builder setHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
         if (hTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
       public Builder setHTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (hTreeNodeIdBuilder_ == null) {
           hTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
-      public Builder mergeHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
         if (hTreeNodeIdBuilder_ == null) {
           if (hTreeNodeId_ != null) {
             hTreeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             hTreeNodeId_ = value;
           }
@@ -781,7 +781,7 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
       public Builder clearHTreeNodeId() {
         if (hTreeNodeIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
         
         onChanged();
         return getHTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         if (hTreeNodeIdBuilder_ != null) {
           return hTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return hTreeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getHTreeNodeIdFieldBuilder() {
         if (hTreeNodeIdBuilder_ == null) {
           hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getHTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue informationTypeId_ = null;
+      private io.dstore.Values.integerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getInformationTypeId() {
+      public io.dstore.Values.integerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public Builder setInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -924,7 +924,7 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class OmGetTrolleyContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class OmGetTrolleyContentInfoPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -1294,24 +1294,24 @@ public final class OmGetTrolleyContentInfoPu {
        */
       boolean hasVisitorId();
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getVisitorId();
+      io.dstore.Values.integerValue getVisitorId();
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getVisitorIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
@@ -1319,24 +1319,24 @@ public final class OmGetTrolleyContentInfoPu {
        */
       boolean hasInformationTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getInformationTypeId();
+      io.dstore.Values.integerValue getInformationTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
@@ -1344,24 +1344,24 @@ public final class OmGetTrolleyContentInfoPu {
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getHTreeNodeId();
+      io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.stringValue information = 10004;</code>
        *
        * <pre>
        * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
@@ -1369,21 +1369,21 @@ public final class OmGetTrolleyContentInfoPu {
        */
       boolean hasInformation();
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.stringValue information = 10004;</code>
        *
        * <pre>
        * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getInformation();
+      io.dstore.Values.stringValue getInformation();
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.stringValue information = 10004;</code>
        *
        * <pre>
        * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTrolleyContentInfo_Pu.Response.Row}
@@ -1430,11 +1430,11 @@ public final class OmGetTrolleyContentInfoPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (visitorId_ != null) {
                   subBuilder = visitorId_.toBuilder();
                 }
-                visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                visitorId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorId_);
                   visitorId_ = subBuilder.buildPartial();
@@ -1443,11 +1443,11 @@ public final class OmGetTrolleyContentInfoPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -1456,11 +1456,11 @@ public final class OmGetTrolleyContentInfoPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -1469,11 +1469,11 @@ public final class OmGetTrolleyContentInfoPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -1515,9 +1515,9 @@ public final class OmGetTrolleyContentInfoPu {
       }
 
       public static final int VISITOR_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue visitorId_;
+      private io.dstore.Values.integerValue visitorId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -1527,30 +1527,30 @@ public final class OmGetTrolleyContentInfoPu {
         return visitorId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getVisitorId() {
-        return visitorId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorId_;
+      public io.dstore.Values.integerValue getVisitorId() {
+        return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
         return getVisitorId();
       }
 
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue informationTypeId_;
+      private io.dstore.Values.integerValue informationTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
@@ -1560,30 +1560,30 @@ public final class OmGetTrolleyContentInfoPu {
         return informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getInformationTypeId() {
-        return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+      public io.dstore.Values.integerValue getInformationTypeId() {
+        return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue hTreeNodeId_;
+      private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
@@ -1593,30 +1593,30 @@ public final class OmGetTrolleyContentInfoPu {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.Values.integerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int INFORMATION_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue information_;
+      private io.dstore.Values.stringValue information_;
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.stringValue information = 10004;</code>
        *
        * <pre>
        * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
@@ -1626,23 +1626,23 @@ public final class OmGetTrolleyContentInfoPu {
         return information_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.stringValue information = 10004;</code>
        *
        * <pre>
        * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getInformation() {
-        return information_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+      public io.dstore.Values.stringValue getInformation() {
+        return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.stringValue information = 10004;</code>
        *
        * <pre>
        * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
       }
 
@@ -1962,11 +1962,11 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue visitorId_ = null;
+        private io.dstore.Values.integerValue visitorId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visitorIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -1976,27 +1976,27 @@ public final class OmGetTrolleyContentInfoPu {
           return visitorIdBuilder_ != null || visitorId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getVisitorId() {
+        public io.dstore.Values.integerValue getVisitorId() {
           if (visitorIdBuilder_ == null) {
-            return visitorId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorId_;
+            return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
           } else {
             return visitorIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public Builder setVisitorId(io.dstore.engine.Values.integerValue value) {
+        public Builder setVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2010,14 +2010,14 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
         public Builder setVisitorId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (visitorIdBuilder_ == null) {
             visitorId_ = builderForValue.build();
             onChanged();
@@ -2028,17 +2028,17 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public Builder mergeVisitorId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
             if (visitorId_ != null) {
               visitorId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
             } else {
               visitorId_ = value;
             }
@@ -2050,7 +2050,7 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -2068,45 +2068,45 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getVisitorIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
           
           onChanged();
           return getVisitorIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
           if (visitorIdBuilder_ != null) {
             return visitorIdBuilder_.getMessageOrBuilder();
           } else {
             return visitorId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisitorIdFieldBuilder() {
           if (visitorIdBuilder_ == null) {
             visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisitorId(),
                     getParentForChildren(),
                     isClean());
@@ -2115,11 +2115,11 @@ public final class OmGetTrolleyContentInfoPu {
           return visitorIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue informationTypeId_ = null;
+        private io.dstore.Values.integerValue informationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
@@ -2129,27 +2129,27 @@ public final class OmGetTrolleyContentInfoPu {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getInformationTypeId() {
+        public io.dstore.Values.integerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
-            return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+            return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
           } else {
             return informationTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
-        public Builder setInformationTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2163,14 +2163,14 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
         public Builder setInformationTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (informationTypeIdBuilder_ == null) {
             informationTypeId_ = builderForValue.build();
             onChanged();
@@ -2181,17 +2181,17 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
-        public Builder mergeInformationTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (informationTypeId_ != null) {
               informationTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
             } else {
               informationTypeId_ = value;
             }
@@ -2203,7 +2203,7 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
@@ -2221,45 +2221,45 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getInformationTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
           
           onChanged();
           return getInformationTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
             return informationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return informationTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
             informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2268,11 +2268,11 @@ public final class OmGetTrolleyContentInfoPu {
           return informationTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.Values.integerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
@@ -2282,27 +2282,27 @@ public final class OmGetTrolleyContentInfoPu {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getHTreeNodeId() {
+        public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
-        public Builder setHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2316,14 +2316,14 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
         public Builder setHTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -2334,17 +2334,17 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
-        public Builder mergeHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -2356,7 +2356,7 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
@@ -2374,45 +2374,45 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "&#64;UniqueID" in seinen Warenkorb gelegt hat (siehe Anmerkung in der Beschreibung !)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2421,11 +2421,11 @@ public final class OmGetTrolleyContentInfoPu {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue information_ = null;
+        private io.dstore.Values.stringValue information_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> informationBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
@@ -2435,27 +2435,27 @@ public final class OmGetTrolleyContentInfoPu {
           return informationBuilder_ != null || information_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getInformation() {
+        public io.dstore.Values.stringValue getInformation() {
           if (informationBuilder_ == null) {
-            return information_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+            return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
           } else {
             return informationBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
-        public Builder setInformation(io.dstore.engine.Values.stringValue value) {
+        public Builder setInformation(io.dstore.Values.stringValue value) {
           if (informationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2469,14 +2469,14 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
         public Builder setInformation(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (informationBuilder_ == null) {
             information_ = builderForValue.build();
             onChanged();
@@ -2487,17 +2487,17 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
-        public Builder mergeInformation(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeInformation(io.dstore.Values.stringValue value) {
           if (informationBuilder_ == null) {
             if (information_ != null) {
               information_ =
-                io.dstore.engine.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
             } else {
               information_ = value;
             }
@@ -2509,7 +2509,7 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
@@ -2527,45 +2527,45 @@ public final class OmGetTrolleyContentInfoPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getInformationBuilder() {
+        public io.dstore.Values.stringValue.Builder getInformationBuilder() {
           
           onChanged();
           return getInformationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
             return informationBuilder_.getMessageOrBuilder();
           } else {
             return information_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+                io.dstore.Values.stringValue.getDefaultInstance() : information_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.stringValue information = 10004;</code>
          *
          * <pre>
          * Die zur Position "HTreeNodeID" vom Warenkorb des Besuchers "VisitorID" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
             informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
                     isClean());
@@ -4135,31 +4135,30 @@ public final class OmGetTrolleyContentInfoPu {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/om_GetTrolley" +
       "ContentInfo_Pu.proto\022)dstore.engine.om_G" +
-      "etTrolleyContentInfo_Pu\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\231\002\n\nParameters\022" +
-      "4\n\tunique_id\030\001 \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022\027\n\016unique_id_null\030\351\007 \001(\010\022:" +
-      "\n\016h_tree_node_id\030\002 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\034\n\023h_tree_node_id_nul",
-      "l\030\352\007 \001(\010\022?\n\023information_type_id\030\003 \001(\0132\"." +
-      "dstore.engine.values.integerValue\022!\n\030inf" +
-      "ormation_type_id_null\030\353\007 \001(\010\"\200\004\n\010Respons" +
-      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
-      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
-      "engine.metainformation.MetaInformation\022/" +
-      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
-      "Message\022D\n\003row\030\004 \003(\01327.dstore.engine.om_" +
-      "GetTrolleyContentInfo_Pu.Response.Row\032\207\002" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\nvisitor_id\030\221N ",
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      "@\n\023information_type_id\030\222N \001(\0132\".dstore.e" +
-      "ngine.values.integerValue\022;\n\016h_tree_node" +
-      "_id\030\223N \001(\0132\".dstore.engine.values.intege" +
-      "rValue\0227\n\013information\030\224N \001(\0132!.dstore.en" +
-      "gine.values.stringValueB\035\n\033io.dstore.eng" +
-      "ine.proceduresb\006proto3"
+      "etTrolleyContentInfo_Pu\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\204\002\n\nParameters\022-\n\tuniq" +
+      "ue_id\030\001 \001(\0132\032.dstore.values.stringValue\022" +
+      "\027\n\016unique_id_null\030\351\007 \001(\010\0223\n\016h_tree_node_" +
+      "id\030\002 \001(\0132\033.dstore.values.integerValue\022\034\n" +
+      "\023h_tree_node_id_null\030\352\007 \001(\010\0228\n\023informati",
+      "on_type_id\030\003 \001(\0132\033.dstore.values.integer" +
+      "Value\022!\n\030information_type_id_null\030\353\007 \001(\010" +
+      "\"\344\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
+      "gine.error.Error\022H\n\020meta_information\030\002 \003" +
+      "(\0132..dstore.engine.metainformation.MetaI" +
+      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
+      "ine.message.Message\022D\n\003row\030\004 \003(\01327.dstor" +
+      "e.engine.om_GetTrolleyContentInfo_Pu.Res" +
+      "ponse.Row\032\353\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\nvi" +
+      "sitor_id\030\221N \001(\0132\033.dstore.values.integerV",
+      "alue\0229\n\023information_type_id\030\222N \001(\0132\033.dst" +
+      "ore.values.integerValue\0224\n\016h_tree_node_i" +
+      "d\030\223N \001(\0132\033.dstore.values.integerValue\0220\n" +
+      "\013information\030\224N \001(\0132\032.dstore.values.stri" +
+      "ngValueB\035\n\033io.dstore.engine.proceduresb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4172,7 +4171,7 @@ public final class OmGetTrolleyContentInfoPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4195,7 +4194,7 @@ public final class OmGetTrolleyContentInfoPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleyContentInfo_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VisitorId", "InformationTypeId", "HTreeNodeId", "Information", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

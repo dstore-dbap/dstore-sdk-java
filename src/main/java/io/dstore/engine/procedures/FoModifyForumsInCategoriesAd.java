@@ -13,17 +13,17 @@ public final class FoModifyForumsInCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
      */
     boolean hasForumCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getForumCategoryId();
+    io.dstore.Values.integerValue getForumCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getForumCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder();
 
     /**
      * <code>optional bool forum_category_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class FoModifyForumsInCategoriesAd {
     boolean getForumCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getForumId();
+    io.dstore.Values.integerValue getForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class FoModifyForumsInCategoriesAd {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+     * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
      */
     boolean hasMoveSortNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+     * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getMoveSortNo();
+    io.dstore.Values.integerValue getMoveSortNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+     * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMoveSortNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getMoveSortNoOrBuilder();
 
     /**
      * <code>optional bool move_sort_no_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class FoModifyForumsInCategoriesAd {
     boolean getMoveSortNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+     * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
      */
     boolean hasRemoveForumIdFromCategory();
     /**
-     * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+     * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getRemoveForumIdFromCategory();
+    io.dstore.Values.booleanValue getRemoveForumIdFromCategory();
     /**
-     * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+     * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getRemoveForumIdFromCategoryOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getRemoveForumIdFromCategoryOrBuilder();
 
     /**
      * <code>optional bool remove_forum_id_from_category_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class FoModifyForumsInCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (forumCategoryId_ != null) {
                 subBuilder = forumCategoryId_.toBuilder();
               }
-              forumCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              forumCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumCategoryId_);
                 forumCategoryId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class FoModifyForumsInCategoriesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class FoModifyForumsInCategoriesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (moveSortNo_ != null) {
                 subBuilder = moveSortNo_.toBuilder();
               }
-              moveSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              moveSortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(moveSortNo_);
                 moveSortNo_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class FoModifyForumsInCategoriesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (removeForumIdFromCategory_ != null) {
                 subBuilder = removeForumIdFromCategory_.toBuilder();
               }
-              removeForumIdFromCategory_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              removeForumIdFromCategory_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(removeForumIdFromCategory_);
                 removeForumIdFromCategory_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class FoModifyForumsInCategoriesAd {
     }
 
     public static final int FORUM_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue forumCategoryId_;
+    private io.dstore.Values.integerValue forumCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
      */
     public boolean hasForumCategoryId() {
       return forumCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getForumCategoryId() {
-      return forumCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+    public io.dstore.Values.integerValue getForumCategoryId() {
+      return forumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
       return getForumCategoryId();
     }
 
@@ -253,23 +253,23 @@ public final class FoModifyForumsInCategoriesAd {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue forumId_;
+    private io.dstore.Values.integerValue forumId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.Values.integerValue getForumId() {
+      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -283,23 +283,23 @@ public final class FoModifyForumsInCategoriesAd {
     }
 
     public static final int MOVE_SORT_NO_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue moveSortNo_;
+    private io.dstore.Values.integerValue moveSortNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+     * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
      */
     public boolean hasMoveSortNo() {
       return moveSortNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+     * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getMoveSortNo() {
-      return moveSortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : moveSortNo_;
+    public io.dstore.Values.integerValue getMoveSortNo() {
+      return moveSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : moveSortNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+     * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMoveSortNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getMoveSortNoOrBuilder() {
       return getMoveSortNo();
     }
 
@@ -313,23 +313,23 @@ public final class FoModifyForumsInCategoriesAd {
     }
 
     public static final int REMOVE_FORUM_ID_FROM_CATEGORY_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue removeForumIdFromCategory_;
+    private io.dstore.Values.booleanValue removeForumIdFromCategory_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+     * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
      */
     public boolean hasRemoveForumIdFromCategory() {
       return removeForumIdFromCategory_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+     * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getRemoveForumIdFromCategory() {
-      return removeForumIdFromCategory_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : removeForumIdFromCategory_;
+    public io.dstore.Values.booleanValue getRemoveForumIdFromCategory() {
+      return removeForumIdFromCategory_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : removeForumIdFromCategory_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+     * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getRemoveForumIdFromCategoryOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getRemoveForumIdFromCategoryOrBuilder() {
       return getRemoveForumIdFromCategory();
     }
 
@@ -671,29 +671,29 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue forumCategoryId_ = null;
+      private io.dstore.Values.integerValue forumCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
       public boolean hasForumCategoryId() {
         return forumCategoryIdBuilder_ != null || forumCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getForumCategoryId() {
+      public io.dstore.Values.integerValue getForumCategoryId() {
         if (forumCategoryIdBuilder_ == null) {
-          return forumCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+          return forumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
         } else {
           return forumCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
-      public Builder setForumCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setForumCategoryId(io.dstore.Values.integerValue value) {
         if (forumCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
       public Builder setForumCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (forumCategoryIdBuilder_ == null) {
           forumCategoryId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
-      public Builder mergeForumCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeForumCategoryId(io.dstore.Values.integerValue value) {
         if (forumCategoryIdBuilder_ == null) {
           if (forumCategoryId_ != null) {
             forumCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(forumCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(forumCategoryId_).mergeFrom(value).buildPartial();
           } else {
             forumCategoryId_ = value;
           }
@@ -739,7 +739,7 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
       public Builder clearForumCategoryId() {
         if (forumCategoryIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getForumCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getForumCategoryIdBuilder() {
         
         onChanged();
         return getForumCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
         if (forumCategoryIdBuilder_ != null) {
           return forumCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return forumCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumCategoryIdFieldBuilder() {
         if (forumCategoryIdBuilder_ == null) {
           forumCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue forumId_ = null;
+      private io.dstore.Values.integerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getForumId() {
+      public io.dstore.Values.integerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
-      public Builder setForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder setForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
       public Builder setForumId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
-      public Builder mergeForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -882,7 +882,7 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue moveSortNo_ = null;
+      private io.dstore.Values.integerValue moveSortNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> moveSortNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> moveSortNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
       public boolean hasMoveSortNo() {
         return moveSortNoBuilder_ != null || moveSortNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getMoveSortNo() {
+      public io.dstore.Values.integerValue getMoveSortNo() {
         if (moveSortNoBuilder_ == null) {
-          return moveSortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : moveSortNo_;
+          return moveSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : moveSortNo_;
         } else {
           return moveSortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
-      public Builder setMoveSortNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setMoveSortNo(io.dstore.Values.integerValue value) {
         if (moveSortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
       public Builder setMoveSortNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (moveSortNoBuilder_ == null) {
           moveSortNo_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
-      public Builder mergeMoveSortNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeMoveSortNo(io.dstore.Values.integerValue value) {
         if (moveSortNoBuilder_ == null) {
           if (moveSortNo_ != null) {
             moveSortNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(moveSortNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(moveSortNo_).mergeFrom(value).buildPartial();
           } else {
             moveSortNo_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
       public Builder clearMoveSortNo() {
         if (moveSortNoBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMoveSortNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getMoveSortNoBuilder() {
         
         onChanged();
         return getMoveSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMoveSortNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMoveSortNoOrBuilder() {
         if (moveSortNoBuilder_ != null) {
           return moveSortNoBuilder_.getMessageOrBuilder();
         } else {
           return moveSortNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : moveSortNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : moveSortNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue move_sort_no = 3;</code>
+       * <code>optional .dstore.values.integerValue move_sort_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMoveSortNoFieldBuilder() {
         if (moveSortNoBuilder_ == null) {
           moveSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMoveSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue removeForumIdFromCategory_ = null;
+      private io.dstore.Values.booleanValue removeForumIdFromCategory_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> removeForumIdFromCategoryBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> removeForumIdFromCategoryBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
       public boolean hasRemoveForumIdFromCategory() {
         return removeForumIdFromCategoryBuilder_ != null || removeForumIdFromCategory_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getRemoveForumIdFromCategory() {
+      public io.dstore.Values.booleanValue getRemoveForumIdFromCategory() {
         if (removeForumIdFromCategoryBuilder_ == null) {
-          return removeForumIdFromCategory_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : removeForumIdFromCategory_;
+          return removeForumIdFromCategory_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : removeForumIdFromCategory_;
         } else {
           return removeForumIdFromCategoryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
-      public Builder setRemoveForumIdFromCategory(io.dstore.engine.Values.booleanValue value) {
+      public Builder setRemoveForumIdFromCategory(io.dstore.Values.booleanValue value) {
         if (removeForumIdFromCategoryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
       public Builder setRemoveForumIdFromCategory(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (removeForumIdFromCategoryBuilder_ == null) {
           removeForumIdFromCategory_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
-      public Builder mergeRemoveForumIdFromCategory(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeRemoveForumIdFromCategory(io.dstore.Values.booleanValue value) {
         if (removeForumIdFromCategoryBuilder_ == null) {
           if (removeForumIdFromCategory_ != null) {
             removeForumIdFromCategory_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(removeForumIdFromCategory_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(removeForumIdFromCategory_).mergeFrom(value).buildPartial();
           } else {
             removeForumIdFromCategory_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
       public Builder clearRemoveForumIdFromCategory() {
         if (removeForumIdFromCategoryBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class FoModifyForumsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getRemoveForumIdFromCategoryBuilder() {
+      public io.dstore.Values.booleanValue.Builder getRemoveForumIdFromCategoryBuilder() {
         
         onChanged();
         return getRemoveForumIdFromCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getRemoveForumIdFromCategoryOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getRemoveForumIdFromCategoryOrBuilder() {
         if (removeForumIdFromCategoryBuilder_ != null) {
           return removeForumIdFromCategoryBuilder_.getMessageOrBuilder();
         } else {
           return removeForumIdFromCategory_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : removeForumIdFromCategory_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : removeForumIdFromCategory_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue remove_forum_id_from_category = 4;</code>
+       * <code>optional .dstore.values.booleanValue remove_forum_id_from_category = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getRemoveForumIdFromCategoryFieldBuilder() {
         if (removeForumIdFromCategoryBuilder_ == null) {
           removeForumIdFromCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getRemoveForumIdFromCategory(),
                   getParentForChildren(),
                   isClean());
@@ -3399,28 +3399,27 @@ public final class FoModifyForumsInCategoriesAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/fo_ModifyForu" +
       "msInCategories_Ad.proto\022,dstore.engine.f" +
-      "o_ModifyForumsInCategories_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\210\003\n\nParam" +
-      "eters\022=\n\021forum_category_id\030\001 \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022\037\n\026forum_ca" +
-      "tegory_id_null\030\351\007 \001(\010\0224\n\010forum_id\030\002 \001(\0132" +
-      "\".dstore.engine.values.integerValue\022\026\n\rf",
-      "orum_id_null\030\352\007 \001(\010\0228\n\014move_sort_no\030\003 \001(" +
-      "\0132\".dstore.engine.values.integerValue\022\032\n" +
-      "\021move_sort_no_null\030\353\007 \001(\010\022I\n\035remove_foru" +
-      "m_id_from_category\030\004 \001(\0132\".dstore.engine" +
-      ".values.booleanValue\022+\n\"remove_forum_id_" +
-      "from_category_null\030\354\007 \001(\010\"\221\002\n\010Response\022)" +
-      "\n\005error\030\001 \001(\0132\032.dstore.engine.error.Erro" +
-      "r\022H\n\020meta_information\030\002 \003(\0132..dstore.eng" +
-      "ine.metainformation.MetaInformation\022/\n\007m" +
-      "essage\030\003 \003(\0132\036.dstore.engine.message.Mes",
-      "sage\022G\n\003row\030\004 \003(\0132:.dstore.engine.fo_Mod" +
-      "ifyForumsInCategories_Ad.Response.Row\032\026\n" +
-      "\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "o_ModifyForumsInCategories_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\354\002\n\nParameters\0226" +
+      "\n\021forum_category_id\030\001 \001(\0132\033.dstore.value" +
+      "s.integerValue\022\037\n\026forum_category_id_null" +
+      "\030\351\007 \001(\010\022-\n\010forum_id\030\002 \001(\0132\033.dstore.value" +
+      "s.integerValue\022\026\n\rforum_id_null\030\352\007 \001(\010\0221",
+      "\n\014move_sort_no\030\003 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\032\n\021move_sort_no_null\030\353\007 \001(\010\022B\n" +
+      "\035remove_forum_id_from_category\030\004 \001(\0132\033.d" +
+      "store.values.booleanValue\022+\n\"remove_foru" +
+      "m_id_from_category_null\030\354\007 \001(\010\"\221\002\n\010Respo" +
+      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
+      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
+      "e.engine.metainformation.MetaInformation" +
+      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
+      "e.Message\022G\n\003row\030\004 \003(\0132:.dstore.engine.f",
+      "o_ModifyForumsInCategories_Ad.Response.R" +
+      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore." +
+      "engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3433,7 +3432,7 @@ public final class FoModifyForumsInCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3456,7 +3455,7 @@ public final class FoModifyForumsInCategoriesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_ModifyForumsInCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

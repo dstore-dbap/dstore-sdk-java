@@ -13,17 +13,17 @@ public final class FoGetPostingVisibilities {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+     * <code>optional .dstore.values.integerValue visible = 1;</code>
      */
     boolean hasVisible();
     /**
-     * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+     * <code>optional .dstore.values.integerValue visible = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getVisible();
+    io.dstore.Values.integerValue getVisible();
     /**
-     * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+     * <code>optional .dstore.values.integerValue visible = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder();
 
     /**
      * <code>optional bool visible_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class FoGetPostingVisibilities {
     boolean getVisibleNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+     * <code>optional .dstore.values.integerValue visible_get = 2;</code>
      */
     boolean hasVisibleGet();
     /**
-     * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+     * <code>optional .dstore.values.integerValue visible_get = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getVisibleGet();
+    io.dstore.Values.integerValue getVisibleGet();
     /**
-     * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+     * <code>optional .dstore.values.integerValue visible_get = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getVisibleGetOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getVisibleGetOrBuilder();
 
     /**
      * <code>optional bool visible_get_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class FoGetPostingVisibilities {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (visible_ != null) {
                 subBuilder = visible_.toBuilder();
               }
-              visible_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              visible_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visible_);
                 visible_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class FoGetPostingVisibilities {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (visibleGet_ != null) {
                 subBuilder = visibleGet_.toBuilder();
               }
-              visibleGet_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              visibleGet_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visibleGet_);
                 visibleGet_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class FoGetPostingVisibilities {
     }
 
     public static final int VISIBLE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue visible_;
+    private io.dstore.Values.integerValue visible_;
     /**
-     * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+     * <code>optional .dstore.values.integerValue visible = 1;</code>
      */
     public boolean hasVisible() {
       return visible_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+     * <code>optional .dstore.values.integerValue visible = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getVisible() {
-      return visible_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+    public io.dstore.Values.integerValue getVisible() {
+      return visible_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visible_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+     * <code>optional .dstore.values.integerValue visible = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder() {
       return getVisible();
     }
 
@@ -179,23 +179,23 @@ public final class FoGetPostingVisibilities {
     }
 
     public static final int VISIBLE_GET_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue visibleGet_;
+    private io.dstore.Values.integerValue visibleGet_;
     /**
-     * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+     * <code>optional .dstore.values.integerValue visible_get = 2;</code>
      */
     public boolean hasVisibleGet() {
       return visibleGet_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+     * <code>optional .dstore.values.integerValue visible_get = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getVisibleGet() {
-      return visibleGet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
+    public io.dstore.Values.integerValue getVisibleGet() {
+      return visibleGet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibleGet_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+     * <code>optional .dstore.values.integerValue visible_get = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
       return getVisibleGet();
     }
 
@@ -469,29 +469,29 @@ public final class FoGetPostingVisibilities {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue visible_ = null;
+      private io.dstore.Values.integerValue visible_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibleBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibleBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
       public boolean hasVisible() {
         return visibleBuilder_ != null || visible_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getVisible() {
+      public io.dstore.Values.integerValue getVisible() {
         if (visibleBuilder_ == null) {
-          return visible_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+          return visible_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visible_;
         } else {
           return visibleBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
-      public Builder setVisible(io.dstore.engine.Values.integerValue value) {
+      public Builder setVisible(io.dstore.Values.integerValue value) {
         if (visibleBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
       public Builder setVisible(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (visibleBuilder_ == null) {
           visible_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
-      public Builder mergeVisible(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeVisible(io.dstore.Values.integerValue value) {
         if (visibleBuilder_ == null) {
           if (visible_ != null) {
             visible_ =
-              io.dstore.engine.Values.integerValue.newBuilder(visible_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(visible_).mergeFrom(value).buildPartial();
           } else {
             visible_ = value;
           }
@@ -537,7 +537,7 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
       public Builder clearVisible() {
         if (visibleBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getVisibleBuilder() {
+      public io.dstore.Values.integerValue.Builder getVisibleBuilder() {
         
         onChanged();
         return getVisibleFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder() {
         if (visibleBuilder_ != null) {
           return visibleBuilder_.getMessageOrBuilder();
         } else {
           return visible_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+              io.dstore.Values.integerValue.getDefaultInstance() : visible_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 1;</code>
+       * <code>optional .dstore.values.integerValue visible = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisibleFieldBuilder() {
         if (visibleBuilder_ == null) {
           visibleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisible(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class FoGetPostingVisibilities {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue visibleGet_ = null;
+      private io.dstore.Values.integerValue visibleGet_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibleGetBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibleGetBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
       public boolean hasVisibleGet() {
         return visibleGetBuilder_ != null || visibleGet_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getVisibleGet() {
+      public io.dstore.Values.integerValue getVisibleGet() {
         if (visibleGetBuilder_ == null) {
-          return visibleGet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
+          return visibleGet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibleGet_;
         } else {
           return visibleGetBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
-      public Builder setVisibleGet(io.dstore.engine.Values.integerValue value) {
+      public Builder setVisibleGet(io.dstore.Values.integerValue value) {
         if (visibleGetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
       public Builder setVisibleGet(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (visibleGetBuilder_ == null) {
           visibleGet_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
-      public Builder mergeVisibleGet(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeVisibleGet(io.dstore.Values.integerValue value) {
         if (visibleGetBuilder_ == null) {
           if (visibleGet_ != null) {
             visibleGet_ =
-              io.dstore.engine.Values.integerValue.newBuilder(visibleGet_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(visibleGet_).mergeFrom(value).buildPartial();
           } else {
             visibleGet_ = value;
           }
@@ -680,7 +680,7 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
       public Builder clearVisibleGet() {
         if (visibleGetBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class FoGetPostingVisibilities {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getVisibleGetBuilder() {
+      public io.dstore.Values.integerValue.Builder getVisibleGetBuilder() {
         
         onChanged();
         return getVisibleGetFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
         if (visibleGetBuilder_ != null) {
           return visibleGetBuilder_.getMessageOrBuilder();
         } else {
           return visibleGet_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
+              io.dstore.Values.integerValue.getDefaultInstance() : visibleGet_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 2;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisibleGetFieldBuilder() {
         if (visibleGetBuilder_ == null) {
           visibleGetBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisibleGet(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class FoGetPostingVisibilities {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung des Status "Visible"
@@ -1050,24 +1050,24 @@ public final class FoGetPostingVisibilities {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung des Status "Visible"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung des Status "Visible"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+       * <code>optional .dstore.values.integerValue visible = 10002;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
@@ -1075,24 +1075,24 @@ public final class FoGetPostingVisibilities {
        */
       boolean hasVisible();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+       * <code>optional .dstore.values.integerValue visible = 10002;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getVisible();
+      io.dstore.Values.integerValue getVisible();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+       * <code>optional .dstore.values.integerValue visible = 10002;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+       * <code>optional .dstore.values.stringValue visibility = 10003;</code>
        *
        * <pre>
        * Bezeichnung für den Status "Visible"
@@ -1100,24 +1100,24 @@ public final class FoGetPostingVisibilities {
        */
       boolean hasVisibility();
       /**
-       * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+       * <code>optional .dstore.values.stringValue visibility = 10003;</code>
        *
        * <pre>
        * Bezeichnung für den Status "Visible"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getVisibility();
+      io.dstore.Values.stringValue getVisibility();
       /**
-       * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+       * <code>optional .dstore.values.stringValue visibility = 10003;</code>
        *
        * <pre>
        * Bezeichnung für den Status "Visible"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getVisibilityOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getVisibilityOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1125,21 +1125,21 @@ public final class FoGetPostingVisibilities {
        */
       boolean hasVisibleGet();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getVisibleGet();
+      io.dstore.Values.integerValue getVisibleGet();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getVisibleGetOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getVisibleGetOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetPostingVisibilities.Response.Row}
@@ -1186,11 +1186,11 @@ public final class FoGetPostingVisibilities {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1199,11 +1199,11 @@ public final class FoGetPostingVisibilities {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (visible_ != null) {
                   subBuilder = visible_.toBuilder();
                 }
-                visible_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                visible_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visible_);
                   visible_ = subBuilder.buildPartial();
@@ -1212,11 +1212,11 @@ public final class FoGetPostingVisibilities {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (visibility_ != null) {
                   subBuilder = visibility_.toBuilder();
                 }
-                visibility_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                visibility_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visibility_);
                   visibility_ = subBuilder.buildPartial();
@@ -1225,11 +1225,11 @@ public final class FoGetPostingVisibilities {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (visibleGet_ != null) {
                   subBuilder = visibleGet_.toBuilder();
                 }
-                visibleGet_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                visibleGet_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visibleGet_);
                   visibleGet_ = subBuilder.buildPartial();
@@ -1271,9 +1271,9 @@ public final class FoGetPostingVisibilities {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung des Status "Visible"
@@ -1283,30 +1283,30 @@ public final class FoGetPostingVisibilities {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung des Status "Visible"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung des Status "Visible"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int VISIBLE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue visible_;
+      private io.dstore.Values.integerValue visible_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+       * <code>optional .dstore.values.integerValue visible = 10002;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
@@ -1316,30 +1316,30 @@ public final class FoGetPostingVisibilities {
         return visible_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+       * <code>optional .dstore.values.integerValue visible = 10002;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getVisible() {
-        return visible_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+      public io.dstore.Values.integerValue getVisible() {
+        return visible_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visible_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+       * <code>optional .dstore.values.integerValue visible = 10002;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder() {
         return getVisible();
       }
 
       public static final int VISIBILITY_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue visibility_;
+      private io.dstore.Values.stringValue visibility_;
       /**
-       * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+       * <code>optional .dstore.values.stringValue visibility = 10003;</code>
        *
        * <pre>
        * Bezeichnung für den Status "Visible"
@@ -1349,30 +1349,30 @@ public final class FoGetPostingVisibilities {
         return visibility_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+       * <code>optional .dstore.values.stringValue visibility = 10003;</code>
        *
        * <pre>
        * Bezeichnung für den Status "Visible"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getVisibility() {
-        return visibility_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : visibility_;
+      public io.dstore.Values.stringValue getVisibility() {
+        return visibility_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : visibility_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+       * <code>optional .dstore.values.stringValue visibility = 10003;</code>
        *
        * <pre>
        * Bezeichnung für den Status "Visible"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getVisibilityOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getVisibilityOrBuilder() {
         return getVisibility();
       }
 
       public static final int VISIBLE_GET_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue visibleGet_;
+      private io.dstore.Values.integerValue visibleGet_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1382,23 +1382,23 @@ public final class FoGetPostingVisibilities {
         return visibleGet_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getVisibleGet() {
-        return visibleGet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
+      public io.dstore.Values.integerValue getVisibleGet() {
+        return visibleGet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibleGet_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+       * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
         return getVisibleGet();
       }
 
@@ -1718,11 +1718,11 @@ public final class FoGetPostingVisibilities {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
@@ -1732,27 +1732,27 @@ public final class FoGetPostingVisibilities {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1766,14 +1766,14 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1784,17 +1784,17 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -1806,7 +1806,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
@@ -1824,45 +1824,45 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung des Status "Visible"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1871,11 +1871,11 @@ public final class FoGetPostingVisibilities {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue visible_ = null;
+        private io.dstore.Values.integerValue visible_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibleBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibleBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
@@ -1885,27 +1885,27 @@ public final class FoGetPostingVisibilities {
           return visibleBuilder_ != null || visible_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getVisible() {
+        public io.dstore.Values.integerValue getVisible() {
           if (visibleBuilder_ == null) {
-            return visible_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+            return visible_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visible_;
           } else {
             return visibleBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
-        public Builder setVisible(io.dstore.engine.Values.integerValue value) {
+        public Builder setVisible(io.dstore.Values.integerValue value) {
           if (visibleBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1919,14 +1919,14 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
         public Builder setVisible(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (visibleBuilder_ == null) {
             visible_ = builderForValue.build();
             onChanged();
@@ -1937,17 +1937,17 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
-        public Builder mergeVisible(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeVisible(io.dstore.Values.integerValue value) {
           if (visibleBuilder_ == null) {
             if (visible_ != null) {
               visible_ =
-                io.dstore.engine.Values.integerValue.newBuilder(visible_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(visible_).mergeFrom(value).buildPartial();
             } else {
               visible_ = value;
             }
@@ -1959,7 +1959,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
@@ -1977,45 +1977,45 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getVisibleBuilder() {
+        public io.dstore.Values.integerValue.Builder getVisibleBuilder() {
           
           onChanged();
           return getVisibleFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder() {
           if (visibleBuilder_ != null) {
             return visibleBuilder_.getMessageOrBuilder();
           } else {
             return visible_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+                io.dstore.Values.integerValue.getDefaultInstance() : visible_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10002;</code>
+         * <code>optional .dstore.values.integerValue visible = 10002;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings" - abgebildet in der gleichnamigen Spalte der Tabelle "ForumPostings"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisibleFieldBuilder() {
           if (visibleBuilder_ == null) {
             visibleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisible(),
                     getParentForChildren(),
                     isClean());
@@ -2024,11 +2024,11 @@ public final class FoGetPostingVisibilities {
           return visibleBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue visibility_ = null;
+        private io.dstore.Values.stringValue visibility_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> visibilityBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> visibilityBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
@@ -2038,27 +2038,27 @@ public final class FoGetPostingVisibilities {
           return visibilityBuilder_ != null || visibility_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getVisibility() {
+        public io.dstore.Values.stringValue getVisibility() {
           if (visibilityBuilder_ == null) {
-            return visibility_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : visibility_;
+            return visibility_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : visibility_;
           } else {
             return visibilityBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
-        public Builder setVisibility(io.dstore.engine.Values.stringValue value) {
+        public Builder setVisibility(io.dstore.Values.stringValue value) {
           if (visibilityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2072,14 +2072,14 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
         public Builder setVisibility(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (visibilityBuilder_ == null) {
             visibility_ = builderForValue.build();
             onChanged();
@@ -2090,17 +2090,17 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
-        public Builder mergeVisibility(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeVisibility(io.dstore.Values.stringValue value) {
           if (visibilityBuilder_ == null) {
             if (visibility_ != null) {
               visibility_ =
-                io.dstore.engine.Values.stringValue.newBuilder(visibility_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(visibility_).mergeFrom(value).buildPartial();
             } else {
               visibility_ = value;
             }
@@ -2112,7 +2112,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
@@ -2130,45 +2130,45 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getVisibilityBuilder() {
+        public io.dstore.Values.stringValue.Builder getVisibilityBuilder() {
           
           onChanged();
           return getVisibilityFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getVisibilityOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getVisibilityOrBuilder() {
           if (visibilityBuilder_ != null) {
             return visibilityBuilder_.getMessageOrBuilder();
           } else {
             return visibility_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : visibility_;
+                io.dstore.Values.stringValue.getDefaultInstance() : visibility_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue visibility = 10003;</code>
+         * <code>optional .dstore.values.stringValue visibility = 10003;</code>
          *
          * <pre>
          * Bezeichnung für den Status "Visible"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getVisibilityFieldBuilder() {
           if (visibilityBuilder_ == null) {
             visibilityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getVisibility(),
                     getParentForChildren(),
                     isClean());
@@ -2177,11 +2177,11 @@ public final class FoGetPostingVisibilities {
           return visibilityBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue visibleGet_ = null;
+        private io.dstore.Values.integerValue visibleGet_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibleGetBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibleGetBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2191,27 +2191,27 @@ public final class FoGetPostingVisibilities {
           return visibleGetBuilder_ != null || visibleGet_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getVisibleGet() {
+        public io.dstore.Values.integerValue getVisibleGet() {
           if (visibleGetBuilder_ == null) {
-            return visibleGet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
+            return visibleGet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibleGet_;
           } else {
             return visibleGetBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
-        public Builder setVisibleGet(io.dstore.engine.Values.integerValue value) {
+        public Builder setVisibleGet(io.dstore.Values.integerValue value) {
           if (visibleGetBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2225,14 +2225,14 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
         public Builder setVisibleGet(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (visibleGetBuilder_ == null) {
             visibleGet_ = builderForValue.build();
             onChanged();
@@ -2243,17 +2243,17 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
-        public Builder mergeVisibleGet(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeVisibleGet(io.dstore.Values.integerValue value) {
           if (visibleGetBuilder_ == null) {
             if (visibleGet_ != null) {
               visibleGet_ =
-                io.dstore.engine.Values.integerValue.newBuilder(visibleGet_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(visibleGet_).mergeFrom(value).buildPartial();
             } else {
               visibleGet_ = value;
             }
@@ -2265,7 +2265,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2283,45 +2283,45 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getVisibleGetBuilder() {
+        public io.dstore.Values.integerValue.Builder getVisibleGetBuilder() {
           
           onChanged();
           return getVisibleGetFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getVisibleGetOrBuilder() {
           if (visibleGetBuilder_ != null) {
             return visibleGetBuilder_.getMessageOrBuilder();
           } else {
             return visibleGet_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
+                io.dstore.Values.integerValue.getDefaultInstance() : visibleGet_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
+         * <code>optional .dstore.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisibleGetFieldBuilder() {
           if (visibleGetBuilder_ == null) {
             visibleGetBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisibleGet(),
                     getParentForChildren(),
                     isClean());
@@ -3891,28 +3891,27 @@ public final class FoGetPostingVisibilities {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/fo_GetPosting" +
       "Visibilities.proto\022\'dstore.engine.fo_Get" +
-      "PostingVisibilities\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\254\001\n\nParameters\0223\n\007v" +
-      "isible\030\001 \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\022\025\n\014visible_null\030\351\007 \001(\010\0227\n\013visib" +
-      "le_get\030\002 \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\022\031\n\020visible_get_null\030\352\007 \001(\010\"\356\003\n\010",
-      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
-      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
-      "dstore.engine.metainformation.MetaInform" +
-      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
-      "essage.Message\022B\n\003row\030\004 \003(\01325.dstore.eng" +
-      "ine.fo_GetPostingVisibilities.Response.R" +
-      "ow\032\367\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\013descripti" +
-      "on\030\221N \001(\0132!.dstore.engine.values.stringV" +
-      "alue\0224\n\007visible\030\222N \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\0226\n\nvisibility\030\223N \001(\0132",
-      "!.dstore.engine.values.stringValue\0228\n\013vi" +
-      "sible_get\030\224N \001(\0132\".dstore.engine.values." +
-      "integerValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "PostingVisibilities\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"\236\001\n\nParameters\022,\n\007visible\030" +
+      "\001 \001(\0132\033.dstore.values.integerValue\022\025\n\014vi" +
+      "sible_null\030\351\007 \001(\010\0220\n\013visible_get\030\002 \001(\0132\033" +
+      ".dstore.values.integerValue\022\031\n\020visible_g" +
+      "et_null\030\352\007 \001(\010\"\322\003\n\010Response\022)\n\005error\030\001 \001",
+      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
+      "nformation\030\002 \003(\0132..dstore.engine.metainf" +
+      "ormation.MetaInformation\022/\n\007message\030\003 \003(" +
+      "\0132\036.dstore.engine.message.Message\022B\n\003row" +
+      "\030\004 \003(\01325.dstore.engine.fo_GetPostingVisi" +
+      "bilities.Response.Row\032\333\001\n\003Row\022\017\n\006row_id\030" +
+      "\220N \001(\005\0220\n\013description\030\221N \001(\0132\032.dstore.va" +
+      "lues.stringValue\022-\n\007visible\030\222N \001(\0132\033.dst" +
+      "ore.values.integerValue\022/\n\nvisibility\030\223N" +
+      " \001(\0132\032.dstore.values.stringValue\0221\n\013visi",
+      "ble_get\030\224N \001(\0132\033.dstore.values.integerVa" +
+      "lueB\035\n\033io.dstore.engine.proceduresb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3925,7 +3924,7 @@ public final class FoGetPostingVisibilities {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3948,7 +3947,7 @@ public final class FoGetPostingVisibilities {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingVisibilities_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "Visible", "Visibility", "VisibleGet", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

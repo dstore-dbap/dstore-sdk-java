@@ -2422,18 +2422,17 @@ public final class MiDeadlockTestAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/mi_DeadlockTe" +
       "st_Ad.proto\022 dstore.engine.mi_DeadlockTe" +
-      "st_Ad\032\032dstore/engine/values.proto\032\031dstor" +
-      "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"\014\n\nParameters\"\205\002\n\010Response\022)\n\005err" +
-      "or\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020" +
-      "meta_information\030\002 \003(\0132..dstore.engine.m" +
-      "etainformation.MetaInformation\022/\n\007messag" +
-      "e\030\003 \003(\0132\036.dstore.engine.message.Message\022",
-      ";\n\003row\030\004 \003(\0132..dstore.engine.mi_Deadlock" +
-      "Test_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N" +
-      " \001(\005B\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "st_Ad\032\023dstore/values.proto\032\031dstore/engin" +
+      "e/error.proto\032\033dstore/engine/message.pro" +
+      "to\032#dstore/engine/metainformation.proto\"" +
+      "\014\n\nParameters\"\205\002\n\010Response\022)\n\005error\030\001 \001(" +
+      "\0132\032.dstore.engine.error.Error\022H\n\020meta_in" +
+      "formation\030\002 \003(\0132..dstore.engine.metainfo" +
+      "rmation.MetaInformation\022/\n\007message\030\003 \003(\013" +
+      "2\036.dstore.engine.message.Message\022;\n\003row\030",
+      "\004 \003(\0132..dstore.engine.mi_DeadlockTest_Ad" +
+      ".Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n" +
+      "\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2446,7 +2445,7 @@ public final class MiDeadlockTestAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2469,7 +2468,7 @@ public final class MiDeadlockTestAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_DeadlockTest_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

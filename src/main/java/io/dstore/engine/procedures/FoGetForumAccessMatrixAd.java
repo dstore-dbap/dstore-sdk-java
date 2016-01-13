@@ -13,17 +13,17 @@ public final class FoGetForumAccessMatrixAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getForumId();
+    io.dstore.Values.integerValue getForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class FoGetForumAccessMatrixAd {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+     * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
      */
     boolean hasCheckPersonAccess();
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+     * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getCheckPersonAccess();
+    io.dstore.Values.booleanValue getCheckPersonAccess();
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+     * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getCheckPersonAccessOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getCheckPersonAccessOrBuilder();
 
     /**
      * <code>optional bool check_person_access_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class FoGetForumAccessMatrixAd {
     boolean getCheckPersonAccessNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+     * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
      */
     boolean hasGroupOrPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+     * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getGroupOrPersonId();
+    io.dstore.Values.integerValue getGroupOrPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+     * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGroupOrPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGroupOrPersonIdOrBuilder();
 
     /**
      * <code>optional bool group_or_person_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class FoGetForumAccessMatrixAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class FoGetForumAccessMatrixAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (checkPersonAccess_ != null) {
                 subBuilder = checkPersonAccess_.toBuilder();
               }
-              checkPersonAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              checkPersonAccess_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkPersonAccess_);
                 checkPersonAccess_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class FoGetForumAccessMatrixAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (groupOrPersonId_ != null) {
                 subBuilder = groupOrPersonId_.toBuilder();
               }
-              groupOrPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              groupOrPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupOrPersonId_);
                 groupOrPersonId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class FoGetForumAccessMatrixAd {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue forumId_;
+    private io.dstore.Values.integerValue forumId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.Values.integerValue getForumId() {
+      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -216,23 +216,23 @@ public final class FoGetForumAccessMatrixAd {
     }
 
     public static final int CHECK_PERSON_ACCESS_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue checkPersonAccess_;
+    private io.dstore.Values.booleanValue checkPersonAccess_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+     * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
      */
     public boolean hasCheckPersonAccess() {
       return checkPersonAccess_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+     * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getCheckPersonAccess() {
-      return checkPersonAccess_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkPersonAccess_;
+    public io.dstore.Values.booleanValue getCheckPersonAccess() {
+      return checkPersonAccess_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkPersonAccess_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+     * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getCheckPersonAccessOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getCheckPersonAccessOrBuilder() {
       return getCheckPersonAccess();
     }
 
@@ -246,23 +246,23 @@ public final class FoGetForumAccessMatrixAd {
     }
 
     public static final int GROUP_OR_PERSON_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue groupOrPersonId_;
+    private io.dstore.Values.integerValue groupOrPersonId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+     * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
      */
     public boolean hasGroupOrPersonId() {
       return groupOrPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+     * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getGroupOrPersonId() {
-      return groupOrPersonId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupOrPersonId_;
+    public io.dstore.Values.integerValue getGroupOrPersonId() {
+      return groupOrPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupOrPersonId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+     * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGroupOrPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGroupOrPersonIdOrBuilder() {
       return getGroupOrPersonId();
     }
 
@@ -570,29 +570,29 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue forumId_ = null;
+      private io.dstore.Values.integerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getForumId() {
+      public io.dstore.Values.integerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
-      public Builder setForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder setForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
       public Builder setForumId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
-      public Builder mergeForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -638,7 +638,7 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue checkPersonAccess_ = null;
+      private io.dstore.Values.booleanValue checkPersonAccess_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> checkPersonAccessBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkPersonAccessBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
       public boolean hasCheckPersonAccess() {
         return checkPersonAccessBuilder_ != null || checkPersonAccess_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getCheckPersonAccess() {
+      public io.dstore.Values.booleanValue getCheckPersonAccess() {
         if (checkPersonAccessBuilder_ == null) {
-          return checkPersonAccess_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkPersonAccess_;
+          return checkPersonAccess_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkPersonAccess_;
         } else {
           return checkPersonAccessBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
-      public Builder setCheckPersonAccess(io.dstore.engine.Values.booleanValue value) {
+      public Builder setCheckPersonAccess(io.dstore.Values.booleanValue value) {
         if (checkPersonAccessBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
       public Builder setCheckPersonAccess(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (checkPersonAccessBuilder_ == null) {
           checkPersonAccess_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
-      public Builder mergeCheckPersonAccess(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeCheckPersonAccess(io.dstore.Values.booleanValue value) {
         if (checkPersonAccessBuilder_ == null) {
           if (checkPersonAccess_ != null) {
             checkPersonAccess_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(checkPersonAccess_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(checkPersonAccess_).mergeFrom(value).buildPartial();
           } else {
             checkPersonAccess_ = value;
           }
@@ -781,7 +781,7 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
       public Builder clearCheckPersonAccess() {
         if (checkPersonAccessBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getCheckPersonAccessBuilder() {
+      public io.dstore.Values.booleanValue.Builder getCheckPersonAccessBuilder() {
         
         onChanged();
         return getCheckPersonAccessFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCheckPersonAccessOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getCheckPersonAccessOrBuilder() {
         if (checkPersonAccessBuilder_ != null) {
           return checkPersonAccessBuilder_.getMessageOrBuilder();
         } else {
           return checkPersonAccess_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkPersonAccess_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : checkPersonAccess_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_person_access = 2;</code>
+       * <code>optional .dstore.values.booleanValue check_person_access = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCheckPersonAccessFieldBuilder() {
         if (checkPersonAccessBuilder_ == null) {
           checkPersonAccessBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCheckPersonAccess(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue groupOrPersonId_ = null;
+      private io.dstore.Values.integerValue groupOrPersonId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> groupOrPersonIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupOrPersonIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
       public boolean hasGroupOrPersonId() {
         return groupOrPersonIdBuilder_ != null || groupOrPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getGroupOrPersonId() {
+      public io.dstore.Values.integerValue getGroupOrPersonId() {
         if (groupOrPersonIdBuilder_ == null) {
-          return groupOrPersonId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupOrPersonId_;
+          return groupOrPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupOrPersonId_;
         } else {
           return groupOrPersonIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
-      public Builder setGroupOrPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setGroupOrPersonId(io.dstore.Values.integerValue value) {
         if (groupOrPersonIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
       public Builder setGroupOrPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (groupOrPersonIdBuilder_ == null) {
           groupOrPersonId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
-      public Builder mergeGroupOrPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGroupOrPersonId(io.dstore.Values.integerValue value) {
         if (groupOrPersonIdBuilder_ == null) {
           if (groupOrPersonId_ != null) {
             groupOrPersonId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(groupOrPersonId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(groupOrPersonId_).mergeFrom(value).buildPartial();
           } else {
             groupOrPersonId_ = value;
           }
@@ -924,7 +924,7 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
       public Builder clearGroupOrPersonId() {
         if (groupOrPersonIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class FoGetForumAccessMatrixAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGroupOrPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getGroupOrPersonIdBuilder() {
         
         onChanged();
         return getGroupOrPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGroupOrPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGroupOrPersonIdOrBuilder() {
         if (groupOrPersonIdBuilder_ != null) {
           return groupOrPersonIdBuilder_.getMessageOrBuilder();
         } else {
           return groupOrPersonId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : groupOrPersonId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : groupOrPersonId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_or_person_id = 3;</code>
+       * <code>optional .dstore.values.integerValue group_or_person_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGroupOrPersonIdFieldBuilder() {
         if (groupOrPersonIdBuilder_ == null) {
           groupOrPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGroupOrPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class FoGetForumAccessMatrixAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
@@ -1294,24 +1294,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasGroupDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getGroupDescription();
+      io.dstore.Values.stringValue getGroupDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getGroupDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
        *
        * <pre>
        * ID eines Zugriffsrechtes
@@ -1319,24 +1319,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasAccessLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
        *
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getAccessLevelId();
+      io.dstore.Values.integerValue getAccessLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
        *
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getAccessLevelIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
@@ -1344,24 +1344,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
        *
        * <pre>
        * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
@@ -1369,24 +1369,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasForumId();
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
        *
        * <pre>
        * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getForumId();
+      io.dstore.Values.integerValue getForumId();
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
        *
        * <pre>
        * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+       * <code>optional .dstore.values.booleanValue access = 10005;</code>
        *
        * <pre>
        * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
@@ -1394,24 +1394,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasAccess();
       /**
-       * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+       * <code>optional .dstore.values.booleanValue access = 10005;</code>
        *
        * <pre>
        * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getAccess();
+      io.dstore.Values.booleanValue getAccess();
       /**
-       * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+       * <code>optional .dstore.values.booleanValue access = 10005;</code>
        *
        * <pre>
        * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getAccessOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getAccessOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10006;</code>
        *
        * <pre>
        * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
@@ -1419,24 +1419,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasGroupId();
       /**
-       * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10006;</code>
        *
        * <pre>
        * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getGroupId();
+      io.dstore.Values.integerValue getGroupId();
       /**
-       * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10006;</code>
        *
        * <pre>
        * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getGroupIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 20003;</code>
        *
        * <pre>
        * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
@@ -1444,24 +1444,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 20003;</code>
        *
        * <pre>
        * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPersonId();
+      io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 20003;</code>
        *
        * <pre>
        * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+       * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
        *
        * <pre>
        * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
@@ -1469,24 +1469,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasAnonymousAccess();
       /**
-       * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+       * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
        *
        * <pre>
        * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getAnonymousAccess();
+      io.dstore.Values.booleanValue getAnonymousAccess();
       /**
-       * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+       * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
        *
        * <pre>
        * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getAnonymousAccessOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getAnonymousAccessOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+       * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
        *
        * <pre>
        * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
@@ -1494,24 +1494,24 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasGroupAccess();
       /**
-       * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+       * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
        *
        * <pre>
        * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getGroupAccess();
+      io.dstore.Values.booleanValue getGroupAccess();
       /**
-       * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+       * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
        *
        * <pre>
        * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getGroupAccessOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getGroupAccessOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+       * <code>optional .dstore.values.integerValue access_type = 20008;</code>
        *
        * <pre>
        * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
@@ -1519,21 +1519,21 @@ public final class FoGetForumAccessMatrixAd {
        */
       boolean hasAccessType();
       /**
-       * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+       * <code>optional .dstore.values.integerValue access_type = 20008;</code>
        *
        * <pre>
        * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getAccessType();
+      io.dstore.Values.integerValue getAccessType();
       /**
-       * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+       * <code>optional .dstore.values.integerValue access_type = 20008;</code>
        *
        * <pre>
        * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getAccessTypeOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getAccessTypeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetForumAccessMatrix_Ad.Response.Row}
@@ -1580,11 +1580,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (groupDescription_ != null) {
                   subBuilder = groupDescription_.toBuilder();
                 }
-                groupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                groupDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupDescription_);
                   groupDescription_ = subBuilder.buildPartial();
@@ -1593,11 +1593,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (accessLevelId_ != null) {
                   subBuilder = accessLevelId_.toBuilder();
                 }
-                accessLevelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                accessLevelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessLevelId_);
                   accessLevelId_ = subBuilder.buildPartial();
@@ -1606,11 +1606,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1619,11 +1619,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -1632,11 +1632,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (access_ != null) {
                   subBuilder = access_.toBuilder();
                 }
-                access_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                access_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(access_);
                   access_ = subBuilder.buildPartial();
@@ -1645,11 +1645,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (groupId_ != null) {
                   subBuilder = groupId_.toBuilder();
                 }
-                groupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                groupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupId_);
                   groupId_ = subBuilder.buildPartial();
@@ -1658,11 +1658,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 160026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1671,11 +1671,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 160034: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (anonymousAccess_ != null) {
                   subBuilder = anonymousAccess_.toBuilder();
                 }
-                anonymousAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                anonymousAccess_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(anonymousAccess_);
                   anonymousAccess_ = subBuilder.buildPartial();
@@ -1684,11 +1684,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 160058: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (groupAccess_ != null) {
                   subBuilder = groupAccess_.toBuilder();
                 }
-                groupAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                groupAccess_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupAccess_);
                   groupAccess_ = subBuilder.buildPartial();
@@ -1697,11 +1697,11 @@ public final class FoGetForumAccessMatrixAd {
                 break;
               }
               case 160066: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (accessType_ != null) {
                   subBuilder = accessType_.toBuilder();
                 }
-                accessType_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                accessType_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessType_);
                   accessType_ = subBuilder.buildPartial();
@@ -1743,9 +1743,9 @@ public final class FoGetForumAccessMatrixAd {
       }
 
       public static final int GROUP_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue groupDescription_;
+      private io.dstore.Values.stringValue groupDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
@@ -1755,30 +1755,30 @@ public final class FoGetForumAccessMatrixAd {
         return groupDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getGroupDescription() {
-        return groupDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : groupDescription_;
+      public io.dstore.Values.stringValue getGroupDescription() {
+        return groupDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue group_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
         return getGroupDescription();
       }
 
       public static final int ACCESS_LEVEL_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue accessLevelId_;
+      private io.dstore.Values.integerValue accessLevelId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
        *
        * <pre>
        * ID eines Zugriffsrechtes
@@ -1788,30 +1788,30 @@ public final class FoGetForumAccessMatrixAd {
         return accessLevelId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
        *
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getAccessLevelId() {
-        return accessLevelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accessLevelId_;
+      public io.dstore.Values.integerValue getAccessLevelId() {
+        return accessLevelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
        *
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
         return getAccessLevelId();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
@@ -1821,30 +1821,30 @@ public final class FoGetForumAccessMatrixAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int FORUM_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue forumId_;
+      private io.dstore.Values.integerValue forumId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
        *
        * <pre>
        * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
@@ -1854,30 +1854,30 @@ public final class FoGetForumAccessMatrixAd {
         return forumId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
        *
        * <pre>
        * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getForumId() {
-        return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+      public io.dstore.Values.integerValue getForumId() {
+        return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
        *
        * <pre>
        * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
       }
 
       public static final int ACCESS_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.booleanValue access_;
+      private io.dstore.Values.booleanValue access_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+       * <code>optional .dstore.values.booleanValue access = 10005;</code>
        *
        * <pre>
        * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
@@ -1887,30 +1887,30 @@ public final class FoGetForumAccessMatrixAd {
         return access_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+       * <code>optional .dstore.values.booleanValue access = 10005;</code>
        *
        * <pre>
        * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getAccess() {
-        return access_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : access_;
+      public io.dstore.Values.booleanValue getAccess() {
+        return access_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : access_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+       * <code>optional .dstore.values.booleanValue access = 10005;</code>
        *
        * <pre>
        * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getAccessOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getAccessOrBuilder() {
         return getAccess();
       }
 
       public static final int GROUP_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue groupId_;
+      private io.dstore.Values.integerValue groupId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10006;</code>
        *
        * <pre>
        * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
@@ -1920,30 +1920,30 @@ public final class FoGetForumAccessMatrixAd {
         return groupId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10006;</code>
        *
        * <pre>
        * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getGroupId() {
-        return groupId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupId_;
+      public io.dstore.Values.integerValue getGroupId() {
+        return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue group_id = 10006;</code>
        *
        * <pre>
        * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGroupIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
         return getGroupId();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 20003;
-      private io.dstore.engine.Values.integerValue personId_;
+      private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 20003;</code>
        *
        * <pre>
        * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
@@ -1953,30 +1953,30 @@ public final class FoGetForumAccessMatrixAd {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 20003;</code>
        *
        * <pre>
        * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.Values.integerValue getPersonId() {
+        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 20003;</code>
        *
        * <pre>
        * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int ANONYMOUS_ACCESS_FIELD_NUMBER = 20004;
-      private io.dstore.engine.Values.booleanValue anonymousAccess_;
+      private io.dstore.Values.booleanValue anonymousAccess_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+       * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
        *
        * <pre>
        * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
@@ -1986,30 +1986,30 @@ public final class FoGetForumAccessMatrixAd {
         return anonymousAccess_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+       * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
        *
        * <pre>
        * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getAnonymousAccess() {
-        return anonymousAccess_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : anonymousAccess_;
+      public io.dstore.Values.booleanValue getAnonymousAccess() {
+        return anonymousAccess_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : anonymousAccess_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+       * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
        *
        * <pre>
        * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getAnonymousAccessOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getAnonymousAccessOrBuilder() {
         return getAnonymousAccess();
       }
 
       public static final int GROUP_ACCESS_FIELD_NUMBER = 20007;
-      private io.dstore.engine.Values.booleanValue groupAccess_;
+      private io.dstore.Values.booleanValue groupAccess_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+       * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
        *
        * <pre>
        * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
@@ -2019,30 +2019,30 @@ public final class FoGetForumAccessMatrixAd {
         return groupAccess_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+       * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
        *
        * <pre>
        * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getGroupAccess() {
-        return groupAccess_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : groupAccess_;
+      public io.dstore.Values.booleanValue getGroupAccess() {
+        return groupAccess_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : groupAccess_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+       * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
        *
        * <pre>
        * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getGroupAccessOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getGroupAccessOrBuilder() {
         return getGroupAccess();
       }
 
       public static final int ACCESS_TYPE_FIELD_NUMBER = 20008;
-      private io.dstore.engine.Values.integerValue accessType_;
+      private io.dstore.Values.integerValue accessType_;
       /**
-       * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+       * <code>optional .dstore.values.integerValue access_type = 20008;</code>
        *
        * <pre>
        * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
@@ -2052,23 +2052,23 @@ public final class FoGetForumAccessMatrixAd {
         return accessType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+       * <code>optional .dstore.values.integerValue access_type = 20008;</code>
        *
        * <pre>
        * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getAccessType() {
-        return accessType_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accessType_;
+      public io.dstore.Values.integerValue getAccessType() {
+        return accessType_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessType_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+       * <code>optional .dstore.values.integerValue access_type = 20008;</code>
        *
        * <pre>
        * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getAccessTypeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getAccessTypeOrBuilder() {
         return getAccessType();
       }
 
@@ -2514,11 +2514,11 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue groupDescription_ = null;
+        private io.dstore.Values.stringValue groupDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> groupDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> groupDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
@@ -2528,27 +2528,27 @@ public final class FoGetForumAccessMatrixAd {
           return groupDescriptionBuilder_ != null || groupDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getGroupDescription() {
+        public io.dstore.Values.stringValue getGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
-            return groupDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : groupDescription_;
+            return groupDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
           } else {
             return groupDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
-        public Builder setGroupDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setGroupDescription(io.dstore.Values.stringValue value) {
           if (groupDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2562,14 +2562,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
         public Builder setGroupDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (groupDescriptionBuilder_ == null) {
             groupDescription_ = builderForValue.build();
             onChanged();
@@ -2580,17 +2580,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
-        public Builder mergeGroupDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeGroupDescription(io.dstore.Values.stringValue value) {
           if (groupDescriptionBuilder_ == null) {
             if (groupDescription_ != null) {
               groupDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(groupDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(groupDescription_).mergeFrom(value).buildPartial();
             } else {
               groupDescription_ = value;
             }
@@ -2602,7 +2602,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
@@ -2620,45 +2620,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getGroupDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getGroupDescriptionBuilder() {
           
           onChanged();
           return getGroupDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
           if (groupDescriptionBuilder_ != null) {
             return groupDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return groupDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : groupDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue group_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue group_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getGroupDescriptionFieldBuilder() {
           if (groupDescriptionBuilder_ == null) {
             groupDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getGroupDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2667,11 +2667,11 @@ public final class FoGetForumAccessMatrixAd {
           return groupDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue accessLevelId_ = null;
+        private io.dstore.Values.integerValue accessLevelId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> accessLevelIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
@@ -2681,27 +2681,27 @@ public final class FoGetForumAccessMatrixAd {
           return accessLevelIdBuilder_ != null || accessLevelId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getAccessLevelId() {
+        public io.dstore.Values.integerValue getAccessLevelId() {
           if (accessLevelIdBuilder_ == null) {
-            return accessLevelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accessLevelId_;
+            return accessLevelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
           } else {
             return accessLevelIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
-        public Builder setAccessLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder setAccessLevelId(io.dstore.Values.integerValue value) {
           if (accessLevelIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2715,14 +2715,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
         public Builder setAccessLevelId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (accessLevelIdBuilder_ == null) {
             accessLevelId_ = builderForValue.build();
             onChanged();
@@ -2733,17 +2733,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
-        public Builder mergeAccessLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeAccessLevelId(io.dstore.Values.integerValue value) {
           if (accessLevelIdBuilder_ == null) {
             if (accessLevelId_ != null) {
               accessLevelId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(accessLevelId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(accessLevelId_).mergeFrom(value).buildPartial();
             } else {
               accessLevelId_ = value;
             }
@@ -2755,7 +2755,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
@@ -2773,45 +2773,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getAccessLevelIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getAccessLevelIdBuilder() {
           
           onChanged();
           return getAccessLevelIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
           if (accessLevelIdBuilder_ != null) {
             return accessLevelIdBuilder_.getMessageOrBuilder();
           } else {
             return accessLevelId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : accessLevelId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue access_level_id = 10002;</code>
          *
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getAccessLevelIdFieldBuilder() {
           if (accessLevelIdBuilder_ == null) {
             accessLevelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getAccessLevelId(),
                     getParentForChildren(),
                     isClean());
@@ -2820,11 +2820,11 @@ public final class FoGetForumAccessMatrixAd {
           return accessLevelIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
@@ -2834,27 +2834,27 @@ public final class FoGetForumAccessMatrixAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2868,14 +2868,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2886,17 +2886,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2908,7 +2908,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
@@ -2926,45 +2926,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2973,11 +2973,11 @@ public final class FoGetForumAccessMatrixAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue forumId_ = null;
+        private io.dstore.Values.integerValue forumId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
@@ -2987,27 +2987,27 @@ public final class FoGetForumAccessMatrixAd {
           return forumIdBuilder_ != null || forumId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getForumId() {
+        public io.dstore.Values.integerValue getForumId() {
           if (forumIdBuilder_ == null) {
-            return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+            return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
           } else {
             return forumIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
-        public Builder setForumId(io.dstore.engine.Values.integerValue value) {
+        public Builder setForumId(io.dstore.Values.integerValue value) {
           if (forumIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3021,14 +3021,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
         public Builder setForumId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (forumIdBuilder_ == null) {
             forumId_ = builderForValue.build();
             onChanged();
@@ -3039,17 +3039,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
-        public Builder mergeForumId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeForumId(io.dstore.Values.integerValue value) {
           if (forumIdBuilder_ == null) {
             if (forumId_ != null) {
               forumId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
             } else {
               forumId_ = value;
             }
@@ -3061,7 +3061,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
@@ -3079,45 +3079,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getForumIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
           
           onChanged();
           return getForumIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
             return forumIdBuilder_.getMessageOrBuilder();
           } else {
             return forumId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10004;</code>
          *
          * <pre>
          * ID eines Forums - also entweder "&#64;ForumID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID eines Forums, für das "GroupID" explizit Zugriffsrechte besitzt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getForumIdFieldBuilder() {
           if (forumIdBuilder_ == null) {
             forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getForumId(),
                     getParentForChildren(),
                     isClean());
@@ -3126,11 +3126,11 @@ public final class FoGetForumAccessMatrixAd {
           return forumIdBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue access_ = null;
+        private io.dstore.Values.booleanValue access_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> accessBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> accessBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
@@ -3140,27 +3140,27 @@ public final class FoGetForumAccessMatrixAd {
           return accessBuilder_ != null || access_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getAccess() {
+        public io.dstore.Values.booleanValue getAccess() {
           if (accessBuilder_ == null) {
-            return access_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : access_;
+            return access_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : access_;
           } else {
             return accessBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
-        public Builder setAccess(io.dstore.engine.Values.booleanValue value) {
+        public Builder setAccess(io.dstore.Values.booleanValue value) {
           if (accessBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3174,14 +3174,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
         public Builder setAccess(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (accessBuilder_ == null) {
             access_ = builderForValue.build();
             onChanged();
@@ -3192,17 +3192,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
-        public Builder mergeAccess(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeAccess(io.dstore.Values.booleanValue value) {
           if (accessBuilder_ == null) {
             if (access_ != null) {
               access_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(access_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(access_).mergeFrom(value).buildPartial();
             } else {
               access_ = value;
             }
@@ -3214,7 +3214,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
@@ -3232,45 +3232,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getAccessBuilder() {
+        public io.dstore.Values.booleanValue.Builder getAccessBuilder() {
           
           onChanged();
           return getAccessFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getAccessOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getAccessOrBuilder() {
           if (accessBuilder_ != null) {
             return accessBuilder_.getMessageOrBuilder();
           } else {
             return access_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : access_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : access_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue access = 10005;</code>
+         * <code>optional .dstore.values.booleanValue access = 10005;</code>
          *
          * <pre>
          * "0" Die Gruppe "GroupID" hat das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID" NICHT"1" Die Gruppe "GroupID" BESITZT das Zugriffsrecht "AccessLevelID" für das Forum "&#64;ForumID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getAccessFieldBuilder() {
           if (accessBuilder_ == null) {
             accessBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getAccess(),
                     getParentForChildren(),
                     isClean());
@@ -3279,11 +3279,11 @@ public final class FoGetForumAccessMatrixAd {
           return accessBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue groupId_ = null;
+        private io.dstore.Values.integerValue groupId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> groupIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
@@ -3293,27 +3293,27 @@ public final class FoGetForumAccessMatrixAd {
           return groupIdBuilder_ != null || groupId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getGroupId() {
+        public io.dstore.Values.integerValue getGroupId() {
           if (groupIdBuilder_ == null) {
-            return groupId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupId_;
+            return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
           } else {
             return groupIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
-        public Builder setGroupId(io.dstore.engine.Values.integerValue value) {
+        public Builder setGroupId(io.dstore.Values.integerValue value) {
           if (groupIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3327,14 +3327,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
         public Builder setGroupId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (groupIdBuilder_ == null) {
             groupId_ = builderForValue.build();
             onChanged();
@@ -3345,17 +3345,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
-        public Builder mergeGroupId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeGroupId(io.dstore.Values.integerValue value) {
           if (groupIdBuilder_ == null) {
             if (groupId_ != null) {
               groupId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(groupId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(groupId_).mergeFrom(value).buildPartial();
             } else {
               groupId_ = value;
             }
@@ -3367,7 +3367,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
@@ -3385,45 +3385,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getGroupIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getGroupIdBuilder() {
           
           onChanged();
           return getGroupIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getGroupIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
           if (groupIdBuilder_ != null) {
             return groupIdBuilder_.getMessageOrBuilder();
           } else {
             return groupId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : groupId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue group_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue group_id = 10006;</code>
          *
          * <pre>
          * ID einer Personen-Gruppe - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder aber die ID einer Gruppe, für die EXPLIZIT Zugriffsrechte für das Forum "&#64;ForumID" existieren
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getGroupIdFieldBuilder() {
           if (groupIdBuilder_ == null) {
             groupIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getGroupId(),
                     getParentForChildren(),
                     isClean());
@@ -3432,11 +3432,11 @@ public final class FoGetForumAccessMatrixAd {
           return groupIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue personId_ = null;
+        private io.dstore.Values.integerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
@@ -3446,27 +3446,27 @@ public final class FoGetForumAccessMatrixAd {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPersonId() {
+        public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
-        public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3480,14 +3480,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
         public Builder setPersonId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -3498,17 +3498,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
-        public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -3520,7 +3520,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
@@ -3538,45 +3538,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 20003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 20003;</code>
          *
          * <pre>
          * ID einer Person - also entweder "&#64;GroupOrPersonID" oder eine ID, die in "tempdb.dbo.OneID" übergeben wurde, oder die ID einer Person, für die explizit Zugriffsrechte für "&#64;ForumID" vergeben sind
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -3585,11 +3585,11 @@ public final class FoGetForumAccessMatrixAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue anonymousAccess_ = null;
+        private io.dstore.Values.booleanValue anonymousAccess_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> anonymousAccessBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> anonymousAccessBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
@@ -3599,27 +3599,27 @@ public final class FoGetForumAccessMatrixAd {
           return anonymousAccessBuilder_ != null || anonymousAccess_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getAnonymousAccess() {
+        public io.dstore.Values.booleanValue getAnonymousAccess() {
           if (anonymousAccessBuilder_ == null) {
-            return anonymousAccess_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : anonymousAccess_;
+            return anonymousAccess_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : anonymousAccess_;
           } else {
             return anonymousAccessBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
-        public Builder setAnonymousAccess(io.dstore.engine.Values.booleanValue value) {
+        public Builder setAnonymousAccess(io.dstore.Values.booleanValue value) {
           if (anonymousAccessBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3633,14 +3633,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
         public Builder setAnonymousAccess(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (anonymousAccessBuilder_ == null) {
             anonymousAccess_ = builderForValue.build();
             onChanged();
@@ -3651,17 +3651,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
-        public Builder mergeAnonymousAccess(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeAnonymousAccess(io.dstore.Values.booleanValue value) {
           if (anonymousAccessBuilder_ == null) {
             if (anonymousAccess_ != null) {
               anonymousAccess_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(anonymousAccess_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(anonymousAccess_).mergeFrom(value).buildPartial();
             } else {
               anonymousAccess_ = value;
             }
@@ -3673,7 +3673,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
@@ -3691,45 +3691,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getAnonymousAccessBuilder() {
+        public io.dstore.Values.booleanValue.Builder getAnonymousAccessBuilder() {
           
           onChanged();
           return getAnonymousAccessFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getAnonymousAccessOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getAnonymousAccessOrBuilder() {
           if (anonymousAccessBuilder_ != null) {
             return anonymousAccessBuilder_.getMessageOrBuilder();
           } else {
             return anonymousAccess_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : anonymousAccess_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : anonymousAccess_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue anonymous_access = 20004;</code>
+         * <code>optional .dstore.values.booleanValue anonymous_access = 20004;</code>
          *
          * <pre>
          * "0" : Die anonyme Person ("PersonID = 0") besitzt das Zugriffsrecht "AccessLevelID" NICHT"1" : Die anonyme Person ("PersonID = 0") BESITZT das Zugriffsrecht "AccessLevelID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getAnonymousAccessFieldBuilder() {
           if (anonymousAccessBuilder_ == null) {
             anonymousAccessBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getAnonymousAccess(),
                     getParentForChildren(),
                     isClean());
@@ -3738,11 +3738,11 @@ public final class FoGetForumAccessMatrixAd {
           return anonymousAccessBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue groupAccess_ = null;
+        private io.dstore.Values.booleanValue groupAccess_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> groupAccessBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> groupAccessBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
@@ -3752,27 +3752,27 @@ public final class FoGetForumAccessMatrixAd {
           return groupAccessBuilder_ != null || groupAccess_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getGroupAccess() {
+        public io.dstore.Values.booleanValue getGroupAccess() {
           if (groupAccessBuilder_ == null) {
-            return groupAccess_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : groupAccess_;
+            return groupAccess_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : groupAccess_;
           } else {
             return groupAccessBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
-        public Builder setGroupAccess(io.dstore.engine.Values.booleanValue value) {
+        public Builder setGroupAccess(io.dstore.Values.booleanValue value) {
           if (groupAccessBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3786,14 +3786,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
         public Builder setGroupAccess(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (groupAccessBuilder_ == null) {
             groupAccess_ = builderForValue.build();
             onChanged();
@@ -3804,17 +3804,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
-        public Builder mergeGroupAccess(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeGroupAccess(io.dstore.Values.booleanValue value) {
           if (groupAccessBuilder_ == null) {
             if (groupAccess_ != null) {
               groupAccess_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(groupAccess_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(groupAccess_).mergeFrom(value).buildPartial();
             } else {
               groupAccess_ = value;
             }
@@ -3826,7 +3826,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
@@ -3844,45 +3844,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getGroupAccessBuilder() {
+        public io.dstore.Values.booleanValue.Builder getGroupAccessBuilder() {
           
           onChanged();
           return getGroupAccessFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getGroupAccessOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getGroupAccessOrBuilder() {
           if (groupAccessBuilder_ != null) {
             return groupAccessBuilder_.getMessageOrBuilder();
           } else {
             return groupAccess_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : groupAccess_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : groupAccess_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue group_access = 20007;</code>
+         * <code>optional .dstore.values.booleanValue group_access = 20007;</code>
          *
          * <pre>
          * "0" : Es gibt KEINE Gruppe, der die Person zugeordnet ist, die das Zugriffsrecht "AccessLevelID" hat"1" : Die Person ist in wenigstens einer Gruppe, die das Zugriffsrecht "AccessLevelID" hat
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getGroupAccessFieldBuilder() {
           if (groupAccessBuilder_ == null) {
             groupAccessBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getGroupAccess(),
                     getParentForChildren(),
                     isClean());
@@ -3891,11 +3891,11 @@ public final class FoGetForumAccessMatrixAd {
           return groupAccessBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue accessType_ = null;
+        private io.dstore.Values.integerValue accessType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> accessTypeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
@@ -3905,27 +3905,27 @@ public final class FoGetForumAccessMatrixAd {
           return accessTypeBuilder_ != null || accessType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getAccessType() {
+        public io.dstore.Values.integerValue getAccessType() {
           if (accessTypeBuilder_ == null) {
-            return accessType_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accessType_;
+            return accessType_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessType_;
           } else {
             return accessTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
-        public Builder setAccessType(io.dstore.engine.Values.integerValue value) {
+        public Builder setAccessType(io.dstore.Values.integerValue value) {
           if (accessTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3939,14 +3939,14 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
         public Builder setAccessType(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (accessTypeBuilder_ == null) {
             accessType_ = builderForValue.build();
             onChanged();
@@ -3957,17 +3957,17 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
-        public Builder mergeAccessType(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeAccessType(io.dstore.Values.integerValue value) {
           if (accessTypeBuilder_ == null) {
             if (accessType_ != null) {
               accessType_ =
-                io.dstore.engine.Values.integerValue.newBuilder(accessType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(accessType_).mergeFrom(value).buildPartial();
             } else {
               accessType_ = value;
             }
@@ -3979,7 +3979,7 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
@@ -3997,45 +3997,45 @@ public final class FoGetForumAccessMatrixAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getAccessTypeBuilder() {
+        public io.dstore.Values.integerValue.Builder getAccessTypeBuilder() {
           
           onChanged();
           return getAccessTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getAccessTypeOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getAccessTypeOrBuilder() {
           if (accessTypeBuilder_ != null) {
             return accessTypeBuilder_.getMessageOrBuilder();
           } else {
             return accessType_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : accessType_;
+                io.dstore.Values.integerValue.getDefaultInstance() : accessType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_type = 20008;</code>
+         * <code>optional .dstore.values.integerValue access_type = 20008;</code>
          *
          * <pre>
          * Diese Rückgabespalte gibt an, ob die Person "PersonID" das Zugriffsrecht "AccessLevelID" besitzt (oder eben nicht) und wodurch sie das Recht erhalten hat..."1" : Direkt"2" : Über eine Gruppe"3" : Über die anonyme Person"4" : Keine Berechtigung
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getAccessTypeFieldBuilder() {
           if (accessTypeBuilder_ == null) {
             accessTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getAccessType(),
                     getParentForChildren(),
                     isClean());
@@ -5605,40 +5605,37 @@ public final class FoGetForumAccessMatrixAd {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/fo_GetForumAc" +
       "cessMatrix_Ad.proto\022(dstore.engine.fo_Ge" +
-      "tForumAccessMatrix_Ad\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"\240\002\n\nParameters\0224\n" +
-      "\010forum_id\030\001 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022\026\n\rforum_id_null\030\351\007 \001(\010\022?\n\023c" +
-      "heck_person_access\030\002 \001(\0132\".dstore.engine" +
-      ".values.booleanValue\022!\n\030check_person_acc",
-      "ess_null\030\352\007 \001(\010\022>\n\022group_or_person_id\030\003 " +
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      " \n\027group_or_person_id_null\030\353\007 \001(\010\"\327\006\n\010Re" +
-      "sponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.er" +
-      "ror.Error\022H\n\020meta_information\030\002 \003(\0132..ds" +
-      "tore.engine.metainformation.MetaInformat" +
-      "ion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
-      "sage.Message\022C\n\003row\030\004 \003(\01326.dstore.engin" +
-      "e.fo_GetForumAccessMatrix_Ad.Response.Ro" +
-      "w\032\337\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\022=\n\021group_desc",
-      "ription\030\221N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022<\n\017access_level_id\030\222N \001(\0132\".ds" +
-      "tore.engine.values.integerValue\0227\n\013descr" +
-      "iption\030\223N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\0225\n\010forum_id\030\224N \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\0223\n\006access\030\225N \001(\013" +
-      "2\".dstore.engine.values.booleanValue\0225\n\010" +
-      "group_id\030\226N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0227\n\tperson_id\030\243\234\001 \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022>\n\020anonymou",
-      "s_access\030\244\234\001 \001(\0132\".dstore.engine.values." +
-      "booleanValue\022:\n\014group_access\030\247\234\001 \001(\0132\".d" +
-      "store.engine.values.booleanValue\0229\n\013acce" +
-      "ss_type\030\250\234\001 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "tForumAccessMatrix_Ad\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"\213\002\n\nParameters\022-\n\010forum_" +
+      "id\030\001 \001(\0132\033.dstore.values.integerValue\022\026\n" +
+      "\rforum_id_null\030\351\007 \001(\010\0228\n\023check_person_ac" +
+      "cess\030\002 \001(\0132\033.dstore.values.booleanValue\022" +
+      "!\n\030check_person_access_null\030\352\007 \001(\010\0227\n\022gr",
+      "oup_or_person_id\030\003 \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022 \n\027group_or_person_id_null\030\353" +
+      "\007 \001(\010\"\221\006\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
+      "re.engine.error.Error\022H\n\020meta_informatio" +
+      "n\030\002 \003(\0132..dstore.engine.metainformation." +
+      "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor" +
+      "e.engine.message.Message\022C\n\003row\030\004 \003(\01326." +
+      "dstore.engine.fo_GetForumAccessMatrix_Ad" +
+      ".Response.Row\032\231\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226" +
+      "\n\021group_description\030\221N \001(\0132\032.dstore.valu",
+      "es.stringValue\0225\n\017access_level_id\030\222N \001(\013" +
+      "2\033.dstore.values.integerValue\0220\n\013descrip" +
+      "tion\030\223N \001(\0132\032.dstore.values.stringValue\022" +
+      ".\n\010forum_id\030\224N \001(\0132\033.dstore.values.integ" +
+      "erValue\022,\n\006access\030\225N \001(\0132\033.dstore.values" +
+      ".booleanValue\022.\n\010group_id\030\226N \001(\0132\033.dstor" +
+      "e.values.integerValue\0220\n\tperson_id\030\243\234\001 \001" +
+      "(\0132\033.dstore.values.integerValue\0227\n\020anony" +
+      "mous_access\030\244\234\001 \001(\0132\033.dstore.values.bool" +
+      "eanValue\0223\n\014group_access\030\247\234\001 \001(\0132\033.dstor",
+      "e.values.booleanValue\0222\n\013access_type\030\250\234\001" +
+      " \001(\0132\033.dstore.values.integerValueB\035\n\033io." +
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5651,7 +5648,7 @@ public final class FoGetForumAccessMatrixAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5674,7 +5671,7 @@ public final class FoGetForumAccessMatrixAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetForumAccessMatrix_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "GroupDescription", "AccessLevelId", "Description", "ForumId", "Access", "GroupId", "PersonId", "AnonymousAccess", "GroupAccess", "AccessType", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

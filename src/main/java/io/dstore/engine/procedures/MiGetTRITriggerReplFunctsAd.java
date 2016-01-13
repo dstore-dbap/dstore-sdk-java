@@ -13,17 +13,17 @@ public final class MiGetTRITriggerReplFunctsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTriggerId();
+    io.dstore.Values.integerValue getTriggerId();
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTriggerIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
      * <code>optional bool trigger_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetTRITriggerReplFunctsAd {
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+     * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
      */
     boolean hasFunctionDefinitionLIKE();
     /**
-     * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+     * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getFunctionDefinitionLIKE();
+    io.dstore.Values.stringValue getFunctionDefinitionLIKE();
     /**
-     * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+     * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getFunctionDefinitionLIKEOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getFunctionDefinitionLIKEOrBuilder();
 
     /**
      * <code>optional bool function_definition_l_i_k_e_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiGetTRITriggerReplFunctsAd {
     boolean getFunctionDefinitionLIKENull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+     * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
      */
     boolean hasReplacementFunction();
     /**
-     * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+     * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getReplacementFunction();
+    io.dstore.Values.stringValue getReplacementFunction();
     /**
-     * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+     * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getReplacementFunctionOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getReplacementFunctionOrBuilder();
 
     /**
      * <code>optional bool replacement_function_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class MiGetTRITriggerReplFunctsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (triggerId_ != null) {
                 subBuilder = triggerId_.toBuilder();
               }
-              triggerId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              triggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(triggerId_);
                 triggerId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class MiGetTRITriggerReplFunctsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (functionDefinitionLIKE_ != null) {
                 subBuilder = functionDefinitionLIKE_.toBuilder();
               }
-              functionDefinitionLIKE_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              functionDefinitionLIKE_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(functionDefinitionLIKE_);
                 functionDefinitionLIKE_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class MiGetTRITriggerReplFunctsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (replacementFunction_ != null) {
                 subBuilder = replacementFunction_.toBuilder();
               }
-              replacementFunction_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              replacementFunction_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(replacementFunction_);
                 replacementFunction_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
 
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue triggerId_;
+    private io.dstore.Values.integerValue triggerId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTriggerId() {
-      return triggerId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : triggerId_;
+    public io.dstore.Values.integerValue getTriggerId() {
+      return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
     }
 
@@ -216,23 +216,23 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
 
     public static final int FUNCTION_DEFINITION_L_I_K_E_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue functionDefinitionLIKE_;
+    private io.dstore.Values.stringValue functionDefinitionLIKE_;
     /**
-     * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+     * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
      */
     public boolean hasFunctionDefinitionLIKE() {
       return functionDefinitionLIKE_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+     * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getFunctionDefinitionLIKE() {
-      return functionDefinitionLIKE_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : functionDefinitionLIKE_;
+    public io.dstore.Values.stringValue getFunctionDefinitionLIKE() {
+      return functionDefinitionLIKE_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : functionDefinitionLIKE_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+     * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getFunctionDefinitionLIKEOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getFunctionDefinitionLIKEOrBuilder() {
       return getFunctionDefinitionLIKE();
     }
 
@@ -246,23 +246,23 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
 
     public static final int REPLACEMENT_FUNCTION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue replacementFunction_;
+    private io.dstore.Values.stringValue replacementFunction_;
     /**
-     * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+     * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
      */
     public boolean hasReplacementFunction() {
       return replacementFunction_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+     * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getReplacementFunction() {
-      return replacementFunction_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : replacementFunction_;
+    public io.dstore.Values.stringValue getReplacementFunction() {
+      return replacementFunction_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : replacementFunction_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+     * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getReplacementFunctionOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getReplacementFunctionOrBuilder() {
       return getReplacementFunction();
     }
 
@@ -570,29 +570,29 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue triggerId_ = null;
+      private io.dstore.Values.integerValue triggerId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> triggerIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTriggerId() {
+      public io.dstore.Values.integerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
-          return triggerId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : triggerId_;
+          return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
         } else {
           return triggerIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public Builder setTriggerId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTriggerId(io.dstore.Values.integerValue value) {
         if (triggerIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (triggerIdBuilder_ == null) {
           triggerId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public Builder mergeTriggerId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
         if (triggerIdBuilder_ == null) {
           if (triggerId_ != null) {
             triggerId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
           } else {
             triggerId_ = value;
           }
@@ -638,7 +638,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTriggerIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
         
         onChanged();
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
           return triggerIdBuilder_.getMessageOrBuilder();
         } else {
           return triggerId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : triggerId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
           triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue functionDefinitionLIKE_ = null;
+      private io.dstore.Values.stringValue functionDefinitionLIKE_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> functionDefinitionLIKEBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> functionDefinitionLIKEBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
       public boolean hasFunctionDefinitionLIKE() {
         return functionDefinitionLIKEBuilder_ != null || functionDefinitionLIKE_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getFunctionDefinitionLIKE() {
+      public io.dstore.Values.stringValue getFunctionDefinitionLIKE() {
         if (functionDefinitionLIKEBuilder_ == null) {
-          return functionDefinitionLIKE_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : functionDefinitionLIKE_;
+          return functionDefinitionLIKE_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : functionDefinitionLIKE_;
         } else {
           return functionDefinitionLIKEBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
-      public Builder setFunctionDefinitionLIKE(io.dstore.engine.Values.stringValue value) {
+      public Builder setFunctionDefinitionLIKE(io.dstore.Values.stringValue value) {
         if (functionDefinitionLIKEBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
       public Builder setFunctionDefinitionLIKE(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (functionDefinitionLIKEBuilder_ == null) {
           functionDefinitionLIKE_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
-      public Builder mergeFunctionDefinitionLIKE(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeFunctionDefinitionLIKE(io.dstore.Values.stringValue value) {
         if (functionDefinitionLIKEBuilder_ == null) {
           if (functionDefinitionLIKE_ != null) {
             functionDefinitionLIKE_ =
-              io.dstore.engine.Values.stringValue.newBuilder(functionDefinitionLIKE_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(functionDefinitionLIKE_).mergeFrom(value).buildPartial();
           } else {
             functionDefinitionLIKE_ = value;
           }
@@ -781,7 +781,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
       public Builder clearFunctionDefinitionLIKE() {
         if (functionDefinitionLIKEBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getFunctionDefinitionLIKEBuilder() {
+      public io.dstore.Values.stringValue.Builder getFunctionDefinitionLIKEBuilder() {
         
         onChanged();
         return getFunctionDefinitionLIKEFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFunctionDefinitionLIKEOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFunctionDefinitionLIKEOrBuilder() {
         if (functionDefinitionLIKEBuilder_ != null) {
           return functionDefinitionLIKEBuilder_.getMessageOrBuilder();
         } else {
           return functionDefinitionLIKE_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : functionDefinitionLIKE_;
+              io.dstore.Values.stringValue.getDefaultInstance() : functionDefinitionLIKE_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition_l_i_k_e = 2;</code>
+       * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFunctionDefinitionLIKEFieldBuilder() {
         if (functionDefinitionLIKEBuilder_ == null) {
           functionDefinitionLIKEBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFunctionDefinitionLIKE(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue replacementFunction_ = null;
+      private io.dstore.Values.stringValue replacementFunction_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> replacementFunctionBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> replacementFunctionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
       public boolean hasReplacementFunction() {
         return replacementFunctionBuilder_ != null || replacementFunction_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getReplacementFunction() {
+      public io.dstore.Values.stringValue getReplacementFunction() {
         if (replacementFunctionBuilder_ == null) {
-          return replacementFunction_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : replacementFunction_;
+          return replacementFunction_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : replacementFunction_;
         } else {
           return replacementFunctionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
-      public Builder setReplacementFunction(io.dstore.engine.Values.stringValue value) {
+      public Builder setReplacementFunction(io.dstore.Values.stringValue value) {
         if (replacementFunctionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
       public Builder setReplacementFunction(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (replacementFunctionBuilder_ == null) {
           replacementFunction_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
-      public Builder mergeReplacementFunction(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeReplacementFunction(io.dstore.Values.stringValue value) {
         if (replacementFunctionBuilder_ == null) {
           if (replacementFunction_ != null) {
             replacementFunction_ =
-              io.dstore.engine.Values.stringValue.newBuilder(replacementFunction_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(replacementFunction_).mergeFrom(value).buildPartial();
           } else {
             replacementFunction_ = value;
           }
@@ -924,7 +924,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
       public Builder clearReplacementFunction() {
         if (replacementFunctionBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class MiGetTRITriggerReplFunctsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getReplacementFunctionBuilder() {
+      public io.dstore.Values.stringValue.Builder getReplacementFunctionBuilder() {
         
         onChanged();
         return getReplacementFunctionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getReplacementFunctionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getReplacementFunctionOrBuilder() {
         if (replacementFunctionBuilder_ != null) {
           return replacementFunctionBuilder_.getMessageOrBuilder();
         } else {
           return replacementFunction_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : replacementFunction_;
+              io.dstore.Values.stringValue.getDefaultInstance() : replacementFunction_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replacement_function = 3;</code>
+       * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getReplacementFunctionFieldBuilder() {
         if (replacementFunctionBuilder_ == null) {
           replacementFunctionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getReplacementFunction(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
@@ -1294,24 +1294,24 @@ public final class MiGetTRITriggerReplFunctsAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+       * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
        *
        * <pre>
        * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
@@ -1319,24 +1319,24 @@ public final class MiGetTRITriggerReplFunctsAd {
        */
       boolean hasFunctionDefinition();
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+       * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
        *
        * <pre>
        * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFunctionDefinition();
+      io.dstore.Values.stringValue getFunctionDefinition();
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+       * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
        *
        * <pre>
        * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+       * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
        *
        * <pre>
        * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
@@ -1344,21 +1344,21 @@ public final class MiGetTRITriggerReplFunctsAd {
        */
       boolean hasReplaceString();
       /**
-       * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+       * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
        *
        * <pre>
        * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getReplaceString();
+      io.dstore.Values.stringValue getReplaceString();
       /**
-       * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+       * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
        *
        * <pre>
        * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getReplaceStringOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getReplaceStringOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response.Row}
@@ -1405,11 +1405,11 @@ public final class MiGetTRITriggerReplFunctsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1418,11 +1418,11 @@ public final class MiGetTRITriggerReplFunctsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (functionDefinition_ != null) {
                   subBuilder = functionDefinition_.toBuilder();
                 }
-                functionDefinition_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                functionDefinition_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(functionDefinition_);
                   functionDefinition_ = subBuilder.buildPartial();
@@ -1431,11 +1431,11 @@ public final class MiGetTRITriggerReplFunctsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (replaceString_ != null) {
                   subBuilder = replaceString_.toBuilder();
                 }
-                replaceString_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                replaceString_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(replaceString_);
                   replaceString_ = subBuilder.buildPartial();
@@ -1477,9 +1477,9 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
@@ -1489,30 +1489,30 @@ public final class MiGetTRITriggerReplFunctsAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int FUNCTION_DEFINITION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue functionDefinition_;
+      private io.dstore.Values.stringValue functionDefinition_;
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+       * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
        *
        * <pre>
        * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
@@ -1522,30 +1522,30 @@ public final class MiGetTRITriggerReplFunctsAd {
         return functionDefinition_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+       * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
        *
        * <pre>
        * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFunctionDefinition() {
-        return functionDefinition_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : functionDefinition_;
+      public io.dstore.Values.stringValue getFunctionDefinition() {
+        return functionDefinition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : functionDefinition_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+       * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
        *
        * <pre>
        * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder() {
         return getFunctionDefinition();
       }
 
       public static final int REPLACE_STRING_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue replaceString_;
+      private io.dstore.Values.stringValue replaceString_;
       /**
-       * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+       * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
        *
        * <pre>
        * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
@@ -1555,23 +1555,23 @@ public final class MiGetTRITriggerReplFunctsAd {
         return replaceString_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+       * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
        *
        * <pre>
        * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getReplaceString() {
-        return replaceString_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : replaceString_;
+      public io.dstore.Values.stringValue getReplaceString() {
+        return replaceString_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : replaceString_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+       * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
        *
        * <pre>
        * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getReplaceStringOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getReplaceStringOrBuilder() {
         return getReplaceString();
       }
 
@@ -1870,11 +1870,11 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
@@ -1884,27 +1884,27 @@ public final class MiGetTRITriggerReplFunctsAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1918,14 +1918,14 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1936,17 +1936,17 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -1958,7 +1958,7 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
@@ -1976,45 +1976,45 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bei Standard-Funktionen eine genaue Erläuterung, durch was "FunctionDefinition" in einem "TRI-Ausdruck" ersetzt wird. Bei "Custom"-Funktionen KANN hier ebenfalls eine Beschreibung hinterlegt sein, die dann i.d.R. Erläuterungen zum "ReplaceString" enthält.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2023,11 +2023,11 @@ public final class MiGetTRITriggerReplFunctsAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue functionDefinition_ = null;
+        private io.dstore.Values.stringValue functionDefinition_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> functionDefinitionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> functionDefinitionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
@@ -2037,27 +2037,27 @@ public final class MiGetTRITriggerReplFunctsAd {
           return functionDefinitionBuilder_ != null || functionDefinition_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFunctionDefinition() {
+        public io.dstore.Values.stringValue getFunctionDefinition() {
           if (functionDefinitionBuilder_ == null) {
-            return functionDefinition_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : functionDefinition_;
+            return functionDefinition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : functionDefinition_;
           } else {
             return functionDefinitionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
-        public Builder setFunctionDefinition(io.dstore.engine.Values.stringValue value) {
+        public Builder setFunctionDefinition(io.dstore.Values.stringValue value) {
           if (functionDefinitionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2071,14 +2071,14 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
         public Builder setFunctionDefinition(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (functionDefinitionBuilder_ == null) {
             functionDefinition_ = builderForValue.build();
             onChanged();
@@ -2089,17 +2089,17 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
-        public Builder mergeFunctionDefinition(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFunctionDefinition(io.dstore.Values.stringValue value) {
           if (functionDefinitionBuilder_ == null) {
             if (functionDefinition_ != null) {
               functionDefinition_ =
-                io.dstore.engine.Values.stringValue.newBuilder(functionDefinition_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(functionDefinition_).mergeFrom(value).buildPartial();
             } else {
               functionDefinition_ = value;
             }
@@ -2111,7 +2111,7 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
@@ -2129,45 +2129,45 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFunctionDefinitionBuilder() {
+        public io.dstore.Values.stringValue.Builder getFunctionDefinitionBuilder() {
           
           onChanged();
           return getFunctionDefinitionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder() {
           if (functionDefinitionBuilder_ != null) {
             return functionDefinitionBuilder_.getMessageOrBuilder();
           } else {
             return functionDefinition_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : functionDefinition_;
+                io.dstore.Values.stringValue.getDefaultInstance() : functionDefinition_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue function_definition = 10002;</code>
+         * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          *
          * <pre>
          * Vollständige Definition der Funktion : umschließende "#" (kennzeichnet alle Funktionen), Funktionsname sowie ein (optionaler) "LIKE"-Ausdruck für erlaubte Argumente (d.h. es können "pattern" - kleine Untermenge von regulären Ausdrücken- vorkommen)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFunctionDefinitionFieldBuilder() {
           if (functionDefinitionBuilder_ == null) {
             functionDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFunctionDefinition(),
                     getParentForChildren(),
                     isClean());
@@ -2176,11 +2176,11 @@ public final class MiGetTRITriggerReplFunctsAd {
           return functionDefinitionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue replaceString_ = null;
+        private io.dstore.Values.stringValue replaceString_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> replaceStringBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> replaceStringBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
@@ -2190,27 +2190,27 @@ public final class MiGetTRITriggerReplFunctsAd {
           return replaceStringBuilder_ != null || replaceString_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getReplaceString() {
+        public io.dstore.Values.stringValue getReplaceString() {
           if (replaceStringBuilder_ == null) {
-            return replaceString_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : replaceString_;
+            return replaceString_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : replaceString_;
           } else {
             return replaceStringBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
-        public Builder setReplaceString(io.dstore.engine.Values.stringValue value) {
+        public Builder setReplaceString(io.dstore.Values.stringValue value) {
           if (replaceStringBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2224,14 +2224,14 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
         public Builder setReplaceString(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (replaceStringBuilder_ == null) {
             replaceString_ = builderForValue.build();
             onChanged();
@@ -2242,17 +2242,17 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
-        public Builder mergeReplaceString(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeReplaceString(io.dstore.Values.stringValue value) {
           if (replaceStringBuilder_ == null) {
             if (replaceString_ != null) {
               replaceString_ =
-                io.dstore.engine.Values.stringValue.newBuilder(replaceString_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(replaceString_).mergeFrom(value).buildPartial();
             } else {
               replaceString_ = value;
             }
@@ -2264,7 +2264,7 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
@@ -2282,45 +2282,45 @@ public final class MiGetTRITriggerReplFunctsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getReplaceStringBuilder() {
+        public io.dstore.Values.stringValue.Builder getReplaceStringBuilder() {
           
           onChanged();
           return getReplaceStringFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getReplaceStringOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getReplaceStringOrBuilder() {
           if (replaceStringBuilder_ != null) {
             return replaceStringBuilder_.getMessageOrBuilder();
           } else {
             return replaceString_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : replaceString_;
+                io.dstore.Values.stringValue.getDefaultInstance() : replaceString_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue replace_string = 10003;</code>
+         * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          *
          * <pre>
          * Immer "NULL" bei Standard-Funktionen. Bei "Custom"-Funktionen hingegen steht hier NIE "NULL", sondern die Zeichenkette, durch die ein Vorkommen von "FunctionDefinition" im "TRI-Ausdruck" ersetzt wird.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getReplaceStringFieldBuilder() {
           if (replaceStringBuilder_ == null) {
             replaceStringBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getReplaceString(),
                     getParentForChildren(),
                     isClean());
@@ -3890,30 +3890,29 @@ public final class MiGetTRITriggerReplFunctsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/mi_GetTRITrig" +
       "gerReplFuncts_Ad.proto\022+dstore.engine.mi" +
-      "_GetTRITriggerReplFuncts_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\266\002\n\nParamet" +
-      "ers\0226\n\ntrigger_id\030\001 \001(\0132\".dstore.engine." +
-      "values.integerValue\022\030\n\017trigger_id_null\030\351" +
-      "\007 \001(\010\022F\n\033function_definition_l_i_k_e\030\002 \001" +
-      "(\0132!.dstore.engine.values.stringValue\022)\n",
-      " function_definition_l_i_k_e_null\030\352\007 \001(\010" +
-      "\022?\n\024replacement_function\030\003 \001(\0132!.dstore." +
-      "engine.values.stringValue\022\"\n\031replacement" +
-      "_function_null\030\353\007 \001(\010\"\307\003\n\010Response\022)\n\005er" +
-      "ror\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n" +
-      "\020meta_information\030\002 \003(\0132..dstore.engine." +
-      "metainformation.MetaInformation\022/\n\007messa" +
-      "ge\030\003 \003(\0132\036.dstore.engine.message.Message" +
-      "\022F\n\003row\030\004 \003(\01329.dstore.engine.mi_GetTRIT" +
-      "riggerReplFuncts_Ad.Response.Row\032\314\001\n\003Row",
-      "\022\017\n\006row_id\030\220N \001(\005\0227\n\013description\030\221N \001(\0132" +
-      "!.dstore.engine.values.stringValue\022?\n\023fu" +
-      "nction_definition\030\222N \001(\0132!.dstore.engine" +
-      ".values.stringValue\022:\n\016replace_string\030\223N" +
-      " \001(\0132!.dstore.engine.values.stringValueB" +
-      "\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "_GetTRITriggerReplFuncts_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\241\002\n\nParameters\022/\n\n" +
+      "trigger_id\030\001 \001(\0132\033.dstore.values.integer" +
+      "Value\022\030\n\017trigger_id_null\030\351\007 \001(\010\022?\n\033funct" +
+      "ion_definition_l_i_k_e\030\002 \001(\0132\032.dstore.va" +
+      "lues.stringValue\022)\n function_definition_",
+      "l_i_k_e_null\030\352\007 \001(\010\0228\n\024replacement_funct" +
+      "ion\030\003 \001(\0132\032.dstore.values.stringValue\022\"\n" +
+      "\031replacement_function_null\030\353\007 \001(\010\"\262\003\n\010Re" +
+      "sponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.er" +
+      "ror.Error\022H\n\020meta_information\030\002 \003(\0132..ds" +
+      "tore.engine.metainformation.MetaInformat" +
+      "ion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
+      "sage.Message\022F\n\003row\030\004 \003(\01329.dstore.engin" +
+      "e.mi_GetTRITriggerReplFuncts_Ad.Response" +
+      ".Row\032\267\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013descrip",
+      "tion\030\221N \001(\0132\032.dstore.values.stringValue\022" +
+      "8\n\023function_definition\030\222N \001(\0132\032.dstore.v" +
+      "alues.stringValue\0223\n\016replace_string\030\223N \001" +
+      "(\0132\032.dstore.values.stringValueB\035\n\033io.dst" +
+      "ore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3926,7 +3925,7 @@ public final class MiGetTRITriggerReplFunctsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3949,7 +3948,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "FunctionDefinition", "ReplaceString", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

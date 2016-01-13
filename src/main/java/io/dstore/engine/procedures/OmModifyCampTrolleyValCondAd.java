@@ -13,17 +13,17 @@ public final class OmModifyCampTrolleyValCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+     * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
      */
     boolean hasFromTrolleyValue();
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+     * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
      */
-    io.dstore.engine.Values.decimalValue getFromTrolleyValue();
+    io.dstore.Values.decimalValue getFromTrolleyValue();
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+     * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder();
 
     /**
      * <code>optional bool from_trolley_value_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyCampTrolleyValCondAd {
     boolean getFromTrolleyValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+     * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
      */
     boolean hasToTrolleyValue();
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+     * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
      */
-    io.dstore.engine.Values.decimalValue getToTrolleyValue();
+    io.dstore.Values.decimalValue getToTrolleyValue();
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+     * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder();
 
     /**
      * <code>optional bool to_trolley_value_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyCampTrolleyValCondAd {
     boolean getToTrolleyValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
      */
     boolean hasDeleteTrolleyValueCondition();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getDeleteTrolleyValueCondition();
+    io.dstore.Values.booleanValue getDeleteTrolleyValueCondition();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteTrolleyValueConditionOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteTrolleyValueConditionOrBuilder();
 
     /**
      * <code>optional bool delete_trolley_value_condition_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class OmModifyCampTrolleyValCondAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (fromTrolleyValue_ != null) {
                 subBuilder = fromTrolleyValue_.toBuilder();
               }
-              fromTrolleyValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              fromTrolleyValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromTrolleyValue_);
                 fromTrolleyValue_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class OmModifyCampTrolleyValCondAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (toTrolleyValue_ != null) {
                 subBuilder = toTrolleyValue_.toBuilder();
               }
-              toTrolleyValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              toTrolleyValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toTrolleyValue_);
                 toTrolleyValue_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class OmModifyCampTrolleyValCondAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteTrolleyValueCondition_ != null) {
                 subBuilder = deleteTrolleyValueCondition_.toBuilder();
               }
-              deleteTrolleyValueCondition_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              deleteTrolleyValueCondition_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteTrolleyValueCondition_);
                 deleteTrolleyValueCondition_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class OmModifyCampTrolleyValCondAd {
     }
 
     public static final int FROM_TROLLEY_VALUE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.decimalValue fromTrolleyValue_;
+    private io.dstore.Values.decimalValue fromTrolleyValue_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+     * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
      */
     public boolean hasFromTrolleyValue() {
       return fromTrolleyValue_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+     * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
      */
-    public io.dstore.engine.Values.decimalValue getFromTrolleyValue() {
-      return fromTrolleyValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
+    public io.dstore.Values.decimalValue getFromTrolleyValue() {
+      return fromTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+     * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder() {
       return getFromTrolleyValue();
     }
 
@@ -216,23 +216,23 @@ public final class OmModifyCampTrolleyValCondAd {
     }
 
     public static final int TO_TROLLEY_VALUE_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.decimalValue toTrolleyValue_;
+    private io.dstore.Values.decimalValue toTrolleyValue_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+     * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
      */
     public boolean hasToTrolleyValue() {
       return toTrolleyValue_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+     * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
      */
-    public io.dstore.engine.Values.decimalValue getToTrolleyValue() {
-      return toTrolleyValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
+    public io.dstore.Values.decimalValue getToTrolleyValue() {
+      return toTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+     * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder() {
       return getToTrolleyValue();
     }
 
@@ -246,23 +246,23 @@ public final class OmModifyCampTrolleyValCondAd {
     }
 
     public static final int DELETE_TROLLEY_VALUE_CONDITION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue deleteTrolleyValueCondition_;
+    private io.dstore.Values.booleanValue deleteTrolleyValueCondition_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
      */
     public boolean hasDeleteTrolleyValueCondition() {
       return deleteTrolleyValueCondition_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDeleteTrolleyValueCondition() {
-      return deleteTrolleyValueCondition_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteTrolleyValueCondition_;
+    public io.dstore.Values.booleanValue getDeleteTrolleyValueCondition() {
+      return deleteTrolleyValueCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTrolleyValueCondition_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteTrolleyValueConditionOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteTrolleyValueConditionOrBuilder() {
       return getDeleteTrolleyValueCondition();
     }
 
@@ -570,29 +570,29 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue fromTrolleyValue_ = null;
+      private io.dstore.Values.decimalValue fromTrolleyValue_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> fromTrolleyValueBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromTrolleyValueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
       public boolean hasFromTrolleyValue() {
         return fromTrolleyValueBuilder_ != null || fromTrolleyValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
-      public io.dstore.engine.Values.decimalValue getFromTrolleyValue() {
+      public io.dstore.Values.decimalValue getFromTrolleyValue() {
         if (fromTrolleyValueBuilder_ == null) {
-          return fromTrolleyValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
+          return fromTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
         } else {
           return fromTrolleyValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
-      public Builder setFromTrolleyValue(io.dstore.engine.Values.decimalValue value) {
+      public Builder setFromTrolleyValue(io.dstore.Values.decimalValue value) {
         if (fromTrolleyValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
       public Builder setFromTrolleyValue(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (fromTrolleyValueBuilder_ == null) {
           fromTrolleyValue_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
-      public Builder mergeFromTrolleyValue(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeFromTrolleyValue(io.dstore.Values.decimalValue value) {
         if (fromTrolleyValueBuilder_ == null) {
           if (fromTrolleyValue_ != null) {
             fromTrolleyValue_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(fromTrolleyValue_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(fromTrolleyValue_).mergeFrom(value).buildPartial();
           } else {
             fromTrolleyValue_ = value;
           }
@@ -638,7 +638,7 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
       public Builder clearFromTrolleyValue() {
         if (fromTrolleyValueBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getFromTrolleyValueBuilder() {
+      public io.dstore.Values.decimalValue.Builder getFromTrolleyValueBuilder() {
         
         onChanged();
         return getFromTrolleyValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder() {
         if (fromTrolleyValueBuilder_ != null) {
           return fromTrolleyValueBuilder_.getMessageOrBuilder();
         } else {
           return fromTrolleyValue_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_trolley_value = 1;</code>
+       * <code>optional .dstore.values.decimalValue from_trolley_value = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getFromTrolleyValueFieldBuilder() {
         if (fromTrolleyValueBuilder_ == null) {
           fromTrolleyValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getFromTrolleyValue(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue toTrolleyValue_ = null;
+      private io.dstore.Values.decimalValue toTrolleyValue_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> toTrolleyValueBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toTrolleyValueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
       public boolean hasToTrolleyValue() {
         return toTrolleyValueBuilder_ != null || toTrolleyValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
-      public io.dstore.engine.Values.decimalValue getToTrolleyValue() {
+      public io.dstore.Values.decimalValue getToTrolleyValue() {
         if (toTrolleyValueBuilder_ == null) {
-          return toTrolleyValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
+          return toTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
         } else {
           return toTrolleyValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
-      public Builder setToTrolleyValue(io.dstore.engine.Values.decimalValue value) {
+      public Builder setToTrolleyValue(io.dstore.Values.decimalValue value) {
         if (toTrolleyValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
       public Builder setToTrolleyValue(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (toTrolleyValueBuilder_ == null) {
           toTrolleyValue_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
-      public Builder mergeToTrolleyValue(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeToTrolleyValue(io.dstore.Values.decimalValue value) {
         if (toTrolleyValueBuilder_ == null) {
           if (toTrolleyValue_ != null) {
             toTrolleyValue_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(toTrolleyValue_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(toTrolleyValue_).mergeFrom(value).buildPartial();
           } else {
             toTrolleyValue_ = value;
           }
@@ -781,7 +781,7 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
       public Builder clearToTrolleyValue() {
         if (toTrolleyValueBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getToTrolleyValueBuilder() {
+      public io.dstore.Values.decimalValue.Builder getToTrolleyValueBuilder() {
         
         onChanged();
         return getToTrolleyValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder() {
         if (toTrolleyValueBuilder_ != null) {
           return toTrolleyValueBuilder_.getMessageOrBuilder();
         } else {
           return toTrolleyValue_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_trolley_value = 2;</code>
+       * <code>optional .dstore.values.decimalValue to_trolley_value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getToTrolleyValueFieldBuilder() {
         if (toTrolleyValueBuilder_ == null) {
           toTrolleyValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getToTrolleyValue(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue deleteTrolleyValueCondition_ = null;
+      private io.dstore.Values.booleanValue deleteTrolleyValueCondition_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteTrolleyValueConditionBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteTrolleyValueConditionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
       public boolean hasDeleteTrolleyValueCondition() {
         return deleteTrolleyValueConditionBuilder_ != null || deleteTrolleyValueCondition_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDeleteTrolleyValueCondition() {
+      public io.dstore.Values.booleanValue getDeleteTrolleyValueCondition() {
         if (deleteTrolleyValueConditionBuilder_ == null) {
-          return deleteTrolleyValueCondition_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteTrolleyValueCondition_;
+          return deleteTrolleyValueCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTrolleyValueCondition_;
         } else {
           return deleteTrolleyValueConditionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
-      public Builder setDeleteTrolleyValueCondition(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDeleteTrolleyValueCondition(io.dstore.Values.booleanValue value) {
         if (deleteTrolleyValueConditionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
       public Builder setDeleteTrolleyValueCondition(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteTrolleyValueConditionBuilder_ == null) {
           deleteTrolleyValueCondition_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
-      public Builder mergeDeleteTrolleyValueCondition(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDeleteTrolleyValueCondition(io.dstore.Values.booleanValue value) {
         if (deleteTrolleyValueConditionBuilder_ == null) {
           if (deleteTrolleyValueCondition_ != null) {
             deleteTrolleyValueCondition_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(deleteTrolleyValueCondition_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(deleteTrolleyValueCondition_).mergeFrom(value).buildPartial();
           } else {
             deleteTrolleyValueCondition_ = value;
           }
@@ -924,7 +924,7 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
       public Builder clearDeleteTrolleyValueCondition() {
         if (deleteTrolleyValueConditionBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteTrolleyValueConditionBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteTrolleyValueConditionBuilder() {
         
         onChanged();
         return getDeleteTrolleyValueConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteTrolleyValueConditionOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteTrolleyValueConditionOrBuilder() {
         if (deleteTrolleyValueConditionBuilder_ != null) {
           return deleteTrolleyValueConditionBuilder_.getMessageOrBuilder();
         } else {
           return deleteTrolleyValueCondition_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteTrolleyValueCondition_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : deleteTrolleyValueCondition_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_trolley_value_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_trolley_value_condition = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteTrolleyValueConditionFieldBuilder() {
         if (deleteTrolleyValueConditionBuilder_ == null) {
           deleteTrolleyValueConditionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteTrolleyValueCondition(),
                   getParentForChildren(),
                   isClean());
@@ -1146,17 +1146,17 @@ public final class OmModifyCampTrolleyValCondAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getConditionId();
+    io.dstore.Values.integerValue getConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ModifyCampTrolleyValCond_Ad.Response}
@@ -1237,11 +1237,11 @@ public final class OmModifyCampTrolleyValCondAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -1785,23 +1785,23 @@ public final class OmModifyCampTrolleyValCondAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue conditionId_;
+    private io.dstore.Values.integerValue conditionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -3028,29 +3028,29 @@ public final class OmModifyCampTrolleyValCondAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue conditionId_ = null;
+      private io.dstore.Values.integerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getConditionId() {
+      public io.dstore.Values.integerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public Builder setConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3064,10 +3064,10 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       public Builder setConditionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -3078,13 +3078,13 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public Builder mergeConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -3096,7 +3096,7 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -3110,33 +3110,33 @@ public final class OmModifyCampTrolleyValCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -3228,28 +3228,27 @@ public final class OmModifyCampTrolleyValCondAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_ModifyCamp" +
       "TrolleyValCond_Ad.proto\022,dstore.engine.o" +
-      "m_ModifyCampTrolleyValCond_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\306\002\n\nParam" +
-      "eters\022>\n\022from_trolley_value\030\001 \001(\0132\".dsto" +
-      "re.engine.values.decimalValue\022 \n\027from_tr" +
-      "olley_value_null\030\351\007 \001(\010\022<\n\020to_trolley_va" +
-      "lue\030\002 \001(\0132\".dstore.engine.values.decimal",
-      "Value\022\036\n\025to_trolley_value_null\030\352\007 \001(\010\022J\n" +
-      "\036delete_trolley_value_condition\030\003 \001(\0132\"." +
-      "dstore.engine.values.booleanValue\022,\n#del" +
-      "ete_trolley_value_condition_null\030\353\007 \001(\010\"" +
-      "\313\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.eng" +
-      "ine.error.Error\022H\n\020meta_information\030\002 \003(" +
-      "\0132..dstore.engine.metainformation.MetaIn" +
-      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
-      "ne.message.Message\022G\n\003row\030\004 \003(\0132:.dstore" +
-      ".engine.om_ModifyCampTrolleyValCond_Ad.R",
-      "esponse.Row\0228\n\014condition_id\030e \001(\0132\".dsto" +
-      "re.engine.values.integerValue\032\026\n\003Row\022\017\n\006" +
-      "row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "m_ModifyCampTrolleyValCond_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\261\002\n\nParameters\0227" +
+      "\n\022from_trolley_value\030\001 \001(\0132\033.dstore.valu" +
+      "es.decimalValue\022 \n\027from_trolley_value_nu" +
+      "ll\030\351\007 \001(\010\0225\n\020to_trolley_value\030\002 \001(\0132\033.ds" +
+      "tore.values.decimalValue\022\036\n\025to_trolley_v",
+      "alue_null\030\352\007 \001(\010\022C\n\036delete_trolley_value" +
+      "_condition\030\003 \001(\0132\033.dstore.values.boolean" +
+      "Value\022,\n#delete_trolley_value_condition_" +
+      "null\030\353\007 \001(\010\"\304\002\n\010Response\022)\n\005error\030\001 \001(\0132" +
+      "\032.dstore.engine.error.Error\022H\n\020meta_info" +
+      "rmation\030\002 \003(\0132..dstore.engine.metainform" +
+      "ation.MetaInformation\022/\n\007message\030\003 \003(\0132\036" +
+      ".dstore.engine.message.Message\022G\n\003row\030\004 " +
+      "\003(\0132:.dstore.engine.om_ModifyCampTrolley" +
+      "ValCond_Ad.Response.Row\0221\n\014condition_id\030",
+      "e \001(\0132\033.dstore.values.integerValue\032\026\n\003Ro" +
+      "w\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.p" +
+      "roceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3262,7 +3261,7 @@ public final class OmModifyCampTrolleyValCondAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3285,7 +3284,7 @@ public final class OmModifyCampTrolleyValCondAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampTrolleyValCond_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class MiUpdateVisitorPropertiesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiUpdateVisitorPropertiesPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+     * <code>optional .dstore.values.integerValue country_id = 2;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+     * <code>optional .dstore.values.integerValue country_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getCountryId();
+    io.dstore.Values.integerValue getCountryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+     * <code>optional .dstore.values.integerValue country_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
 
     /**
      * <code>optional bool country_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiUpdateVisitorPropertiesPu {
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiUpdateVisitorPropertiesPu {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 4;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getCurrencyId();
+    io.dstore.Values.integerValue getCurrencyId();
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
      * <code>optional bool currency_id_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class MiUpdateVisitorPropertiesPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class MiUpdateVisitorPropertiesPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (countryId_ != null) {
                 subBuilder = countryId_.toBuilder();
               }
-              countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(countryId_);
                 countryId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class MiUpdateVisitorPropertiesPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiUpdateVisitorPropertiesPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class MiUpdateVisitorPropertiesPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -253,23 +253,23 @@ public final class MiUpdateVisitorPropertiesPu {
     }
 
     public static final int COUNTRY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue countryId_;
+    private io.dstore.Values.integerValue countryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+     * <code>optional .dstore.values.integerValue country_id = 2;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+     * <code>optional .dstore.values.integerValue country_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getCountryId() {
-      return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+    public io.dstore.Values.integerValue getCountryId() {
+      return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+     * <code>optional .dstore.values.integerValue country_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
     }
 
@@ -283,23 +283,23 @@ public final class MiUpdateVisitorPropertiesPu {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -313,23 +313,23 @@ public final class MiUpdateVisitorPropertiesPu {
     }
 
     public static final int CURRENCY_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue currencyId_;
+    private io.dstore.Values.integerValue currencyId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 4;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getCurrencyId() {
-      return currencyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+    public io.dstore.Values.integerValue getCurrencyId() {
+      return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
     }
 
@@ -671,29 +671,29 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -739,7 +739,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue countryId_ = null;
+      private io.dstore.Values.integerValue countryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> countryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getCountryId() {
+      public io.dstore.Values.integerValue getCountryId() {
         if (countryIdBuilder_ == null) {
-          return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+          return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
         } else {
           return countryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
-      public Builder setCountryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCountryId(io.dstore.Values.integerValue value) {
         if (countryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
       public Builder setCountryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (countryIdBuilder_ == null) {
           countryId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
-      public Builder mergeCountryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCountryId(io.dstore.Values.integerValue value) {
         if (countryIdBuilder_ == null) {
           if (countryId_ != null) {
             countryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
           } else {
             countryId_ = value;
           }
@@ -882,7 +882,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCountryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
         
         onChanged();
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
           return countryIdBuilder_.getMessageOrBuilder();
         } else {
           return countryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 2;</code>
+       * <code>optional .dstore.values.integerValue country_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCountryIdFieldBuilder() {
         if (countryIdBuilder_ == null) {
           countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCountryId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue currencyId_ = null;
+      private io.dstore.Values.integerValue currencyId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> currencyIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getCurrencyId() {
+      public io.dstore.Values.integerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
-          return currencyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+          return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
         } else {
           return currencyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
-      public Builder setCurrencyId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCurrencyId(io.dstore.Values.integerValue value) {
         if (currencyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (currencyIdBuilder_ == null) {
           currencyId_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
-      public Builder mergeCurrencyId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
         if (currencyIdBuilder_ == null) {
           if (currencyId_ != null) {
             currencyId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
           } else {
             currencyId_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCurrencyIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
         
         onChanged();
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
           return currencyIdBuilder_.getMessageOrBuilder();
         } else {
           return currencyId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 4;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
           currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
                   isClean());
@@ -3399,27 +3399,26 @@ public final class MiUpdateVisitorPropertiesPu {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/mi_UpdateVisi" +
       "torProperties_Pu.proto\022+dstore.engine.mi" +
-      "_UpdateVisitorProperties_Pu\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\325\002\n\nParamet" +
-      "ers\0224\n\tunique_id\030\001 \001(\0132!.dstore.engine.v" +
-      "alues.stringValue\022\027\n\016unique_id_null\030\351\007 \001" +
-      "(\010\0226\n\ncountry_id\030\002 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\030\n\017country_id_null\030\352\007",
-      " \001(\010\0227\n\013language_id\030\003 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022\031\n\020language_id_nul" +
-      "l\030\353\007 \001(\010\0227\n\013currency_id\030\004 \001(\0132\".dstore.e" +
-      "ngine.values.integerValue\022\031\n\020currency_id" +
-      "_null\030\354\007 \001(\010\"\220\002\n\010Response\022)\n\005error\030\001 \001(\013" +
-      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
-      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
-      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
-      "\036.dstore.engine.message.Message\022F\n\003row\030\004" +
-      " \003(\01329.dstore.engine.mi_UpdateVisitorPro",
-      "perties_Pu.Response.Row\032\026\n\003Row\022\017\n\006row_id" +
-      "\030\220N \001(\005B\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "_UpdateVisitorProperties_Pu\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\271\002\n\nParameters\022-\n\t" +
+      "unique_id\030\001 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\027\n\016unique_id_null\030\351\007 \001(\010\022/\n\ncountry_" +
+      "id\030\002 \001(\0132\033.dstore.values.integerValue\022\030\n" +
+      "\017country_id_null\030\352\007 \001(\010\0220\n\013language_id\030\003",
+      " \001(\0132\033.dstore.values.integerValue\022\031\n\020lan" +
+      "guage_id_null\030\353\007 \001(\010\0220\n\013currency_id\030\004 \001(" +
+      "\0132\033.dstore.values.integerValue\022\031\n\020curren" +
+      "cy_id_null\030\354\007 \001(\010\"\220\002\n\010Response\022)\n\005error\030" +
+      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
+      "a_information\030\002 \003(\0132..dstore.engine.meta" +
+      "information.MetaInformation\022/\n\007message\030\003" +
+      " \003(\0132\036.dstore.engine.message.Message\022F\n\003" +
+      "row\030\004 \003(\01329.dstore.engine.mi_UpdateVisit" +
+      "orProperties_Pu.Response.Row\032\026\n\003Row\022\017\n\006r",
+      "ow_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3432,7 +3431,7 @@ public final class MiUpdateVisitorPropertiesPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3455,7 +3454,7 @@ public final class MiUpdateVisitorPropertiesPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_UpdateVisitorProperties_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

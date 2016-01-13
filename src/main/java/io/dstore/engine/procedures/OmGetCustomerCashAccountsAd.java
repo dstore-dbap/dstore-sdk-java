@@ -13,17 +13,17 @@ public final class OmGetCustomerCashAccountsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonId();
+    io.dstore.Values.integerValue getPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class OmGetCustomerCashAccountsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class OmGetCustomerCashAccountsAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue personId_;
+    private io.dstore.Values.integerValue personId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.Values.integerValue getPersonId() {
+      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -368,29 +368,29 @@ public final class OmGetCustomerCashAccountsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personId_ = null;
+      private io.dstore.Values.integerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
+      public io.dstore.Values.integerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class OmGetCustomerCashAccountsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class OmGetCustomerCashAccountsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -436,7 +436,7 @@ public final class OmGetCustomerCashAccountsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class OmGetCustomerCashAccountsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class OmGetCustomerCashAccountsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+       * <code>optional .dstore.values.integerValue account_status = 10001;</code>
        *
        * <pre>
        * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
@@ -806,24 +806,24 @@ public final class OmGetCustomerCashAccountsAd {
        */
       boolean hasAccountStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+       * <code>optional .dstore.values.integerValue account_status = 10001;</code>
        *
        * <pre>
        * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getAccountStatus();
+      io.dstore.Values.integerValue getAccountStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+       * <code>optional .dstore.values.integerValue account_status = 10001;</code>
        *
        * <pre>
        * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getAccountStatusOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getAccountStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
        *
        * <pre>
        * Die Bezeichnung des Kontotyps
@@ -831,24 +831,24 @@ public final class OmGetCustomerCashAccountsAd {
        */
       boolean hasCashAccountType();
       /**
-       * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
        *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCashAccountType();
+      io.dstore.Values.stringValue getCashAccountType();
       /**
-       * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
        *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCashAccountTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCashAccountTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        *
        * <pre>
        * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
@@ -856,24 +856,24 @@ public final class OmGetCustomerCashAccountsAd {
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        *
        * <pre>
        * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPersonId();
+      io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        *
        * <pre>
        * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
        *
        * <pre>
        * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
@@ -881,24 +881,24 @@ public final class OmGetCustomerCashAccountsAd {
        */
       boolean hasCashAccountTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
        *
        * <pre>
        * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCashAccountTypeId();
+      io.dstore.Values.integerValue getCashAccountTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
        *
        * <pre>
        * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
        *
        * <pre>
        * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
@@ -906,24 +906,24 @@ public final class OmGetCustomerCashAccountsAd {
        */
       boolean hasMinAccountBalance();
       /**
-       * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
        *
        * <pre>
        * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getMinAccountBalance();
+      io.dstore.Values.decimalValue getMinAccountBalance();
       /**
-       * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
        *
        * <pre>
        * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
        *
        * <pre>
        * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
@@ -931,21 +931,21 @@ public final class OmGetCustomerCashAccountsAd {
        */
       boolean hasCurrencyId();
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
        *
        * <pre>
        * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCurrencyId();
+      io.dstore.Values.integerValue getCurrencyId();
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
        *
        * <pre>
        * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCustomerCashAccounts_Ad.Response.Row}
@@ -992,11 +992,11 @@ public final class OmGetCustomerCashAccountsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (accountStatus_ != null) {
                   subBuilder = accountStatus_.toBuilder();
                 }
-                accountStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                accountStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accountStatus_);
                   accountStatus_ = subBuilder.buildPartial();
@@ -1005,11 +1005,11 @@ public final class OmGetCustomerCashAccountsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (cashAccountType_ != null) {
                   subBuilder = cashAccountType_.toBuilder();
                 }
-                cashAccountType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                cashAccountType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(cashAccountType_);
                   cashAccountType_ = subBuilder.buildPartial();
@@ -1018,11 +1018,11 @@ public final class OmGetCustomerCashAccountsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1031,11 +1031,11 @@ public final class OmGetCustomerCashAccountsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (cashAccountTypeId_ != null) {
                   subBuilder = cashAccountTypeId_.toBuilder();
                 }
-                cashAccountTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                cashAccountTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(cashAccountTypeId_);
                   cashAccountTypeId_ = subBuilder.buildPartial();
@@ -1044,11 +1044,11 @@ public final class OmGetCustomerCashAccountsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (minAccountBalance_ != null) {
                   subBuilder = minAccountBalance_.toBuilder();
                 }
-                minAccountBalance_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                minAccountBalance_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(minAccountBalance_);
                   minAccountBalance_ = subBuilder.buildPartial();
@@ -1057,11 +1057,11 @@ public final class OmGetCustomerCashAccountsAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -1103,9 +1103,9 @@ public final class OmGetCustomerCashAccountsAd {
       }
 
       public static final int ACCOUNT_STATUS_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue accountStatus_;
+      private io.dstore.Values.integerValue accountStatus_;
       /**
-       * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+       * <code>optional .dstore.values.integerValue account_status = 10001;</code>
        *
        * <pre>
        * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
@@ -1115,30 +1115,30 @@ public final class OmGetCustomerCashAccountsAd {
         return accountStatus_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+       * <code>optional .dstore.values.integerValue account_status = 10001;</code>
        *
        * <pre>
        * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getAccountStatus() {
-        return accountStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accountStatus_;
+      public io.dstore.Values.integerValue getAccountStatus() {
+        return accountStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accountStatus_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+       * <code>optional .dstore.values.integerValue account_status = 10001;</code>
        *
        * <pre>
        * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getAccountStatusOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getAccountStatusOrBuilder() {
         return getAccountStatus();
       }
 
       public static final int CASH_ACCOUNT_TYPE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue cashAccountType_;
+      private io.dstore.Values.stringValue cashAccountType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
        *
        * <pre>
        * Die Bezeichnung des Kontotyps
@@ -1148,30 +1148,30 @@ public final class OmGetCustomerCashAccountsAd {
         return cashAccountType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
        *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCashAccountType() {
-        return cashAccountType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : cashAccountType_;
+      public io.dstore.Values.stringValue getCashAccountType() {
+        return cashAccountType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : cashAccountType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
        *
        * <pre>
        * Die Bezeichnung des Kontotyps
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCashAccountTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCashAccountTypeOrBuilder() {
         return getCashAccountType();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue personId_;
+      private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        *
        * <pre>
        * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
@@ -1181,30 +1181,30 @@ public final class OmGetCustomerCashAccountsAd {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        *
        * <pre>
        * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.Values.integerValue getPersonId() {
+        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
        *
        * <pre>
        * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue cashAccountTypeId_;
+      private io.dstore.Values.integerValue cashAccountTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
        *
        * <pre>
        * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
@@ -1214,30 +1214,30 @@ public final class OmGetCustomerCashAccountsAd {
         return cashAccountTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
        *
        * <pre>
        * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCashAccountTypeId() {
-        return cashAccountTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
+      public io.dstore.Values.integerValue getCashAccountTypeId() {
+        return cashAccountTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
        *
        * <pre>
        * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
         return getCashAccountTypeId();
       }
 
       public static final int MIN_ACCOUNT_BALANCE_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.decimalValue minAccountBalance_;
+      private io.dstore.Values.decimalValue minAccountBalance_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
        *
        * <pre>
        * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
@@ -1247,30 +1247,30 @@ public final class OmGetCustomerCashAccountsAd {
         return minAccountBalance_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
        *
        * <pre>
        * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getMinAccountBalance() {
-        return minAccountBalance_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
+      public io.dstore.Values.decimalValue getMinAccountBalance() {
+        return minAccountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+       * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
        *
        * <pre>
        * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
         return getMinAccountBalance();
       }
 
       public static final int CURRENCY_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue currencyId_;
+      private io.dstore.Values.integerValue currencyId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
        *
        * <pre>
        * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
@@ -1280,23 +1280,23 @@ public final class OmGetCustomerCashAccountsAd {
         return currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
        *
        * <pre>
        * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCurrencyId() {
-        return currencyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+      public io.dstore.Values.integerValue getCurrencyId() {
+        return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
        *
        * <pre>
        * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
         return getCurrencyId();
       }
 
@@ -1658,11 +1658,11 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue accountStatus_ = null;
+        private io.dstore.Values.integerValue accountStatus_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> accountStatusBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accountStatusBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
@@ -1672,27 +1672,27 @@ public final class OmGetCustomerCashAccountsAd {
           return accountStatusBuilder_ != null || accountStatus_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getAccountStatus() {
+        public io.dstore.Values.integerValue getAccountStatus() {
           if (accountStatusBuilder_ == null) {
-            return accountStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accountStatus_;
+            return accountStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accountStatus_;
           } else {
             return accountStatusBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
-        public Builder setAccountStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder setAccountStatus(io.dstore.Values.integerValue value) {
           if (accountStatusBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1706,14 +1706,14 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
         public Builder setAccountStatus(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (accountStatusBuilder_ == null) {
             accountStatus_ = builderForValue.build();
             onChanged();
@@ -1724,17 +1724,17 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
-        public Builder mergeAccountStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeAccountStatus(io.dstore.Values.integerValue value) {
           if (accountStatusBuilder_ == null) {
             if (accountStatus_ != null) {
               accountStatus_ =
-                io.dstore.engine.Values.integerValue.newBuilder(accountStatus_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(accountStatus_).mergeFrom(value).buildPartial();
             } else {
               accountStatus_ = value;
             }
@@ -1746,7 +1746,7 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
@@ -1764,45 +1764,45 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getAccountStatusBuilder() {
+        public io.dstore.Values.integerValue.Builder getAccountStatusBuilder() {
           
           onChanged();
           return getAccountStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getAccountStatusOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getAccountStatusOrBuilder() {
           if (accountStatusBuilder_ != null) {
             return accountStatusBuilder_.getMessageOrBuilder();
           } else {
             return accountStatus_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : accountStatus_;
+                io.dstore.Values.integerValue.getDefaultInstance() : accountStatus_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue account_status = 10001;</code>
+         * <code>optional .dstore.values.integerValue account_status = 10001;</code>
          *
          * <pre>
          * Status des Kontos (vom Typ "CashAccountTypeID") von "PersonID" :- "0" : Das Konto ist gültig und aktiv- "1" : Das Konto ist für ABbuchungen gesperrt, aber ZUbuchungen sind erlaubt- "2":  Das Konto ist inaktiv (es sind KEINE Transaktionen erlaubt)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getAccountStatusFieldBuilder() {
           if (accountStatusBuilder_ == null) {
             accountStatusBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getAccountStatus(),
                     getParentForChildren(),
                     isClean());
@@ -1811,11 +1811,11 @@ public final class OmGetCustomerCashAccountsAd {
           return accountStatusBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue cashAccountType_ = null;
+        private io.dstore.Values.stringValue cashAccountType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> cashAccountTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> cashAccountTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
@@ -1825,27 +1825,27 @@ public final class OmGetCustomerCashAccountsAd {
           return cashAccountTypeBuilder_ != null || cashAccountType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCashAccountType() {
+        public io.dstore.Values.stringValue getCashAccountType() {
           if (cashAccountTypeBuilder_ == null) {
-            return cashAccountType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : cashAccountType_;
+            return cashAccountType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : cashAccountType_;
           } else {
             return cashAccountTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
-        public Builder setCashAccountType(io.dstore.engine.Values.stringValue value) {
+        public Builder setCashAccountType(io.dstore.Values.stringValue value) {
           if (cashAccountTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1859,14 +1859,14 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
         public Builder setCashAccountType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (cashAccountTypeBuilder_ == null) {
             cashAccountType_ = builderForValue.build();
             onChanged();
@@ -1877,17 +1877,17 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
-        public Builder mergeCashAccountType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCashAccountType(io.dstore.Values.stringValue value) {
           if (cashAccountTypeBuilder_ == null) {
             if (cashAccountType_ != null) {
               cashAccountType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(cashAccountType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(cashAccountType_).mergeFrom(value).buildPartial();
             } else {
               cashAccountType_ = value;
             }
@@ -1899,7 +1899,7 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
@@ -1917,45 +1917,45 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCashAccountTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getCashAccountTypeBuilder() {
           
           onChanged();
           return getCashAccountTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCashAccountTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCashAccountTypeOrBuilder() {
           if (cashAccountTypeBuilder_ != null) {
             return cashAccountTypeBuilder_.getMessageOrBuilder();
           } else {
             return cashAccountType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : cashAccountType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : cashAccountType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue cash_account_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue cash_account_type = 10002;</code>
          *
          * <pre>
          * Die Bezeichnung des Kontotyps
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCashAccountTypeFieldBuilder() {
           if (cashAccountTypeBuilder_ == null) {
             cashAccountTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCashAccountType(),
                     getParentForChildren(),
                     isClean());
@@ -1964,11 +1964,11 @@ public final class OmGetCustomerCashAccountsAd {
           return cashAccountTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue personId_ = null;
+        private io.dstore.Values.integerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
@@ -1978,27 +1978,27 @@ public final class OmGetCustomerCashAccountsAd {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPersonId() {
+        public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
-        public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2012,14 +2012,14 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
         public Builder setPersonId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -2030,17 +2030,17 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
-        public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -2052,7 +2052,7 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
@@ -2070,45 +2070,45 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
          *
          * <pre>
          * Die "PersonID" des "Kontoinhabers" (also z.Zt. immer "&#64;PersonID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -2117,11 +2117,11 @@ public final class OmGetCustomerCashAccountsAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue cashAccountTypeId_ = null;
+        private io.dstore.Values.integerValue cashAccountTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> cashAccountTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cashAccountTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
@@ -2131,27 +2131,27 @@ public final class OmGetCustomerCashAccountsAd {
           return cashAccountTypeIdBuilder_ != null || cashAccountTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCashAccountTypeId() {
+        public io.dstore.Values.integerValue getCashAccountTypeId() {
           if (cashAccountTypeIdBuilder_ == null) {
-            return cashAccountTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
+            return cashAccountTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
           } else {
             return cashAccountTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
-        public Builder setCashAccountTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCashAccountTypeId(io.dstore.Values.integerValue value) {
           if (cashAccountTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2165,14 +2165,14 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
         public Builder setCashAccountTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (cashAccountTypeIdBuilder_ == null) {
             cashAccountTypeId_ = builderForValue.build();
             onChanged();
@@ -2183,17 +2183,17 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
-        public Builder mergeCashAccountTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCashAccountTypeId(io.dstore.Values.integerValue value) {
           if (cashAccountTypeIdBuilder_ == null) {
             if (cashAccountTypeId_ != null) {
               cashAccountTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(cashAccountTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(cashAccountTypeId_).mergeFrom(value).buildPartial();
             } else {
               cashAccountTypeId_ = value;
             }
@@ -2205,7 +2205,7 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
@@ -2223,45 +2223,45 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCashAccountTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCashAccountTypeIdBuilder() {
           
           onChanged();
           return getCashAccountTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
           if (cashAccountTypeIdBuilder_ != null) {
             return cashAccountTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return cashAccountTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue cash_account_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue cash_account_type_id = 10004;</code>
          *
          * <pre>
          * Die ID eines Kontotyps. Anmerkung : Eine Person kann immer nur ein Konto eines Typs besitzen.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCashAccountTypeIdFieldBuilder() {
           if (cashAccountTypeIdBuilder_ == null) {
             cashAccountTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCashAccountTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2270,11 +2270,11 @@ public final class OmGetCustomerCashAccountsAd {
           return cashAccountTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue minAccountBalance_ = null;
+        private io.dstore.Values.decimalValue minAccountBalance_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> minAccountBalanceBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> minAccountBalanceBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
@@ -2284,27 +2284,27 @@ public final class OmGetCustomerCashAccountsAd {
           return minAccountBalanceBuilder_ != null || minAccountBalance_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getMinAccountBalance() {
+        public io.dstore.Values.decimalValue getMinAccountBalance() {
           if (minAccountBalanceBuilder_ == null) {
-            return minAccountBalance_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
+            return minAccountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
           } else {
             return minAccountBalanceBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
-        public Builder setMinAccountBalance(io.dstore.engine.Values.decimalValue value) {
+        public Builder setMinAccountBalance(io.dstore.Values.decimalValue value) {
           if (minAccountBalanceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2318,14 +2318,14 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
         public Builder setMinAccountBalance(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (minAccountBalanceBuilder_ == null) {
             minAccountBalance_ = builderForValue.build();
             onChanged();
@@ -2336,17 +2336,17 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
-        public Builder mergeMinAccountBalance(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeMinAccountBalance(io.dstore.Values.decimalValue value) {
           if (minAccountBalanceBuilder_ == null) {
             if (minAccountBalance_ != null) {
               minAccountBalance_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(minAccountBalance_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(minAccountBalance_).mergeFrom(value).buildPartial();
             } else {
               minAccountBalance_ = value;
             }
@@ -2358,7 +2358,7 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
@@ -2376,45 +2376,45 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getMinAccountBalanceBuilder() {
+        public io.dstore.Values.decimalValue.Builder getMinAccountBalanceBuilder() {
           
           onChanged();
           return getMinAccountBalanceFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
           if (minAccountBalanceBuilder_ != null) {
             return minAccountBalanceBuilder_.getMessageOrBuilder();
           } else {
             return minAccountBalance_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue min_account_balance = 10005;</code>
+         * <code>optional .dstore.values.decimalValue min_account_balance = 10005;</code>
          *
          * <pre>
          * Der Minimalbetrag auf den der Stand des Kontos (vom Typ "CashAccountTypeID") von "PersonID" fallen darf
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getMinAccountBalanceFieldBuilder() {
           if (minAccountBalanceBuilder_ == null) {
             minAccountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getMinAccountBalance(),
                     getParentForChildren(),
                     isClean());
@@ -2423,11 +2423,11 @@ public final class OmGetCustomerCashAccountsAd {
           return minAccountBalanceBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue currencyId_ = null;
+        private io.dstore.Values.integerValue currencyId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> currencyIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
@@ -2437,27 +2437,27 @@ public final class OmGetCustomerCashAccountsAd {
           return currencyIdBuilder_ != null || currencyId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCurrencyId() {
+        public io.dstore.Values.integerValue getCurrencyId() {
           if (currencyIdBuilder_ == null) {
-            return currencyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+            return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
           } else {
             return currencyIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
-        public Builder setCurrencyId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCurrencyId(io.dstore.Values.integerValue value) {
           if (currencyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2471,14 +2471,14 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
         public Builder setCurrencyId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (currencyIdBuilder_ == null) {
             currencyId_ = builderForValue.build();
             onChanged();
@@ -2489,17 +2489,17 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
-        public Builder mergeCurrencyId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
           if (currencyIdBuilder_ == null) {
             if (currencyId_ != null) {
               currencyId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
             } else {
               currencyId_ = value;
             }
@@ -2511,7 +2511,7 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
@@ -2529,45 +2529,45 @@ public final class OmGetCustomerCashAccountsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCurrencyIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
           
           onChanged();
           return getCurrencyIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
           if (currencyIdBuilder_ != null) {
             return currencyIdBuilder_.getMessageOrBuilder();
           } else {
             return currencyId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue currency_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10006;</code>
          *
          * <pre>
          * ID einer Währung ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der das Konto geführt wird
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
             currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
                     isClean());
@@ -4137,30 +4137,28 @@ public final class OmGetCustomerCashAccountsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/om_GetCustome" +
       "rCashAccounts_Ad.proto\022+dstore.engine.om" +
-      "_GetCustomerCashAccounts_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\\\n\nParamete" +
-      "rs\0225\n\tperson_id\030\001 \001(\0132\".dstore.engine.va" +
-      "lues.integerValue\022\027\n\016person_id_null\030\351\007 \001" +
-      "(\010\"\204\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002",
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022F\n\003row\030\004 \003(\01329.dst" +
-      "ore.engine.om_GetCustomerCashAccounts_Ad" +
-      ".Response.Row\032\211\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022;" +
-      "\n\016account_status\030\221N \001(\0132\".dstore.engine." +
-      "values.integerValue\022=\n\021cash_account_type" +
-      "\030\222N \001(\0132!.dstore.engine.values.stringVal" +
-      "ue\0226\n\tperson_id\030\223N \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022A\n\024cash_account_type_",
-      "id\030\224N \001(\0132\".dstore.engine.values.integer" +
-      "Value\022@\n\023min_account_balance\030\225N \001(\0132\".ds" +
-      "tore.engine.values.decimalValue\0228\n\013curre" +
-      "ncy_id\030\226N \001(\0132\".dstore.engine.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "_GetCustomerCashAccounts_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"U\n\nParameters\022.\n\tp" +
+      "erson_id\030\001 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022\027\n\016person_id_null\030\351\007 \001(\010\"\332\004\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore.",
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022F\n\003row\030\004 \003(\01329.dstore.engine.om_" +
+      "GetCustomerCashAccounts_Ad.Response.Row\032" +
+      "\337\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\016account_stat" +
+      "us\030\221N \001(\0132\033.dstore.values.integerValue\0226" +
+      "\n\021cash_account_type\030\222N \001(\0132\032.dstore.valu" +
+      "es.stringValue\022/\n\tperson_id\030\223N \001(\0132\033.dst" +
+      "ore.values.integerValue\022:\n\024cash_account_" +
+      "type_id\030\224N \001(\0132\033.dstore.values.integerVa",
+      "lue\0229\n\023min_account_balance\030\225N \001(\0132\033.dsto" +
+      "re.values.decimalValue\0221\n\013currency_id\030\226N" +
+      " \001(\0132\033.dstore.values.integerValueB\035\n\033io." +
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4173,7 +4171,7 @@ public final class OmGetCustomerCashAccountsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4196,7 +4194,7 @@ public final class OmGetCustomerCashAccountsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCustomerCashAccounts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "AccountStatus", "CashAccountType", "PersonId", "CashAccountTypeId", "MinAccountBalance", "CurrencyId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

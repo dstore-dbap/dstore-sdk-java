@@ -13,17 +13,17 @@ public final class OmModifyCampShippingCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
      */
     boolean hasFilterByShippingTypeIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getFilterByShippingTypeIds();
+    io.dstore.Values.stringValue getFilterByShippingTypeIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getFilterByShippingTypeIdsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getFilterByShippingTypeIdsOrBuilder();
 
     /**
      * <code>optional bool filter_by_shipping_type_ids_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyCampShippingCondAd {
     boolean getFilterByShippingTypeIdsNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
      */
     boolean hasNegateFilter();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getNegateFilter();
+    io.dstore.Values.booleanValue getNegateFilter();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
 
     /**
      * <code>optional bool negate_filter_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyCampShippingCondAd {
     boolean getNegateFilterNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
      */
     boolean hasDeleteShippingTypeCondition();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getDeleteShippingTypeCondition();
+    io.dstore.Values.booleanValue getDeleteShippingTypeCondition();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteShippingTypeConditionOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteShippingTypeConditionOrBuilder();
 
     /**
      * <code>optional bool delete_shipping_type_condition_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class OmModifyCampShippingCondAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (filterByShippingTypeIds_ != null) {
                 subBuilder = filterByShippingTypeIds_.toBuilder();
               }
-              filterByShippingTypeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              filterByShippingTypeIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByShippingTypeIds_);
                 filterByShippingTypeIds_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class OmModifyCampShippingCondAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (negateFilter_ != null) {
                 subBuilder = negateFilter_.toBuilder();
               }
-              negateFilter_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              negateFilter_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilter_);
                 negateFilter_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class OmModifyCampShippingCondAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteShippingTypeCondition_ != null) {
                 subBuilder = deleteShippingTypeCondition_.toBuilder();
               }
-              deleteShippingTypeCondition_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              deleteShippingTypeCondition_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteShippingTypeCondition_);
                 deleteShippingTypeCondition_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class OmModifyCampShippingCondAd {
     }
 
     public static final int FILTER_BY_SHIPPING_TYPE_IDS_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue filterByShippingTypeIds_;
+    private io.dstore.Values.stringValue filterByShippingTypeIds_;
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
      */
     public boolean hasFilterByShippingTypeIds() {
       return filterByShippingTypeIds_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getFilterByShippingTypeIds() {
-      return filterByShippingTypeIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByShippingTypeIds_;
+    public io.dstore.Values.stringValue getFilterByShippingTypeIds() {
+      return filterByShippingTypeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByShippingTypeIds_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getFilterByShippingTypeIdsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getFilterByShippingTypeIdsOrBuilder() {
       return getFilterByShippingTypeIds();
     }
 
@@ -216,23 +216,23 @@ public final class OmModifyCampShippingCondAd {
     }
 
     public static final int NEGATE_FILTER_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue negateFilter_;
+    private io.dstore.Values.booleanValue negateFilter_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
      */
     public boolean hasNegateFilter() {
       return negateFilter_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getNegateFilter() {
-      return negateFilter_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilter_;
+    public io.dstore.Values.booleanValue getNegateFilter() {
+      return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
       return getNegateFilter();
     }
 
@@ -246,23 +246,23 @@ public final class OmModifyCampShippingCondAd {
     }
 
     public static final int DELETE_SHIPPING_TYPE_CONDITION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue deleteShippingTypeCondition_;
+    private io.dstore.Values.booleanValue deleteShippingTypeCondition_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
      */
     public boolean hasDeleteShippingTypeCondition() {
       return deleteShippingTypeCondition_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDeleteShippingTypeCondition() {
-      return deleteShippingTypeCondition_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteShippingTypeCondition_;
+    public io.dstore.Values.booleanValue getDeleteShippingTypeCondition() {
+      return deleteShippingTypeCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteShippingTypeCondition_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteShippingTypeConditionOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteShippingTypeConditionOrBuilder() {
       return getDeleteShippingTypeCondition();
     }
 
@@ -570,29 +570,29 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue filterByShippingTypeIds_ = null;
+      private io.dstore.Values.stringValue filterByShippingTypeIds_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> filterByShippingTypeIdsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByShippingTypeIdsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
       public boolean hasFilterByShippingTypeIds() {
         return filterByShippingTypeIdsBuilder_ != null || filterByShippingTypeIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getFilterByShippingTypeIds() {
+      public io.dstore.Values.stringValue getFilterByShippingTypeIds() {
         if (filterByShippingTypeIdsBuilder_ == null) {
-          return filterByShippingTypeIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByShippingTypeIds_;
+          return filterByShippingTypeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByShippingTypeIds_;
         } else {
           return filterByShippingTypeIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
-      public Builder setFilterByShippingTypeIds(io.dstore.engine.Values.stringValue value) {
+      public Builder setFilterByShippingTypeIds(io.dstore.Values.stringValue value) {
         if (filterByShippingTypeIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
       public Builder setFilterByShippingTypeIds(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (filterByShippingTypeIdsBuilder_ == null) {
           filterByShippingTypeIds_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
-      public Builder mergeFilterByShippingTypeIds(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeFilterByShippingTypeIds(io.dstore.Values.stringValue value) {
         if (filterByShippingTypeIdsBuilder_ == null) {
           if (filterByShippingTypeIds_ != null) {
             filterByShippingTypeIds_ =
-              io.dstore.engine.Values.stringValue.newBuilder(filterByShippingTypeIds_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(filterByShippingTypeIds_).mergeFrom(value).buildPartial();
           } else {
             filterByShippingTypeIds_ = value;
           }
@@ -638,7 +638,7 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
       public Builder clearFilterByShippingTypeIds() {
         if (filterByShippingTypeIdsBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getFilterByShippingTypeIdsBuilder() {
+      public io.dstore.Values.stringValue.Builder getFilterByShippingTypeIdsBuilder() {
         
         onChanged();
         return getFilterByShippingTypeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFilterByShippingTypeIdsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFilterByShippingTypeIdsOrBuilder() {
         if (filterByShippingTypeIdsBuilder_ != null) {
           return filterByShippingTypeIdsBuilder_.getMessageOrBuilder();
         } else {
           return filterByShippingTypeIds_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByShippingTypeIds_;
+              io.dstore.Values.stringValue.getDefaultInstance() : filterByShippingTypeIds_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_shipping_type_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue filter_by_shipping_type_ids = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFilterByShippingTypeIdsFieldBuilder() {
         if (filterByShippingTypeIdsBuilder_ == null) {
           filterByShippingTypeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFilterByShippingTypeIds(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue negateFilter_ = null;
+      private io.dstore.Values.booleanValue negateFilter_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> negateFilterBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
       public boolean hasNegateFilter() {
         return negateFilterBuilder_ != null || negateFilter_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getNegateFilter() {
+      public io.dstore.Values.booleanValue getNegateFilter() {
         if (negateFilterBuilder_ == null) {
-          return negateFilter_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilter_;
+          return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
         } else {
           return negateFilterBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
-      public Builder setNegateFilter(io.dstore.engine.Values.booleanValue value) {
+      public Builder setNegateFilter(io.dstore.Values.booleanValue value) {
         if (negateFilterBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
       public Builder setNegateFilter(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (negateFilterBuilder_ == null) {
           negateFilter_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
-      public Builder mergeNegateFilter(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeNegateFilter(io.dstore.Values.booleanValue value) {
         if (negateFilterBuilder_ == null) {
           if (negateFilter_ != null) {
             negateFilter_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(negateFilter_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(negateFilter_).mergeFrom(value).buildPartial();
           } else {
             negateFilter_ = value;
           }
@@ -781,7 +781,7 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
       public Builder clearNegateFilter() {
         if (negateFilterBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getNegateFilterBuilder() {
+      public io.dstore.Values.booleanValue.Builder getNegateFilterBuilder() {
         
         onChanged();
         return getNegateFilterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
         if (negateFilterBuilder_ != null) {
           return negateFilterBuilder_.getMessageOrBuilder();
         } else {
           return negateFilter_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilter_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter = 2;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getNegateFilterFieldBuilder() {
         if (negateFilterBuilder_ == null) {
           negateFilterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getNegateFilter(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue deleteShippingTypeCondition_ = null;
+      private io.dstore.Values.booleanValue deleteShippingTypeCondition_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteShippingTypeConditionBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteShippingTypeConditionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
       public boolean hasDeleteShippingTypeCondition() {
         return deleteShippingTypeConditionBuilder_ != null || deleteShippingTypeCondition_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDeleteShippingTypeCondition() {
+      public io.dstore.Values.booleanValue getDeleteShippingTypeCondition() {
         if (deleteShippingTypeConditionBuilder_ == null) {
-          return deleteShippingTypeCondition_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteShippingTypeCondition_;
+          return deleteShippingTypeCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteShippingTypeCondition_;
         } else {
           return deleteShippingTypeConditionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
-      public Builder setDeleteShippingTypeCondition(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDeleteShippingTypeCondition(io.dstore.Values.booleanValue value) {
         if (deleteShippingTypeConditionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
       public Builder setDeleteShippingTypeCondition(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteShippingTypeConditionBuilder_ == null) {
           deleteShippingTypeCondition_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
-      public Builder mergeDeleteShippingTypeCondition(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDeleteShippingTypeCondition(io.dstore.Values.booleanValue value) {
         if (deleteShippingTypeConditionBuilder_ == null) {
           if (deleteShippingTypeCondition_ != null) {
             deleteShippingTypeCondition_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(deleteShippingTypeCondition_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(deleteShippingTypeCondition_).mergeFrom(value).buildPartial();
           } else {
             deleteShippingTypeCondition_ = value;
           }
@@ -924,7 +924,7 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
       public Builder clearDeleteShippingTypeCondition() {
         if (deleteShippingTypeConditionBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteShippingTypeConditionBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteShippingTypeConditionBuilder() {
         
         onChanged();
         return getDeleteShippingTypeConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteShippingTypeConditionOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteShippingTypeConditionOrBuilder() {
         if (deleteShippingTypeConditionBuilder_ != null) {
           return deleteShippingTypeConditionBuilder_.getMessageOrBuilder();
         } else {
           return deleteShippingTypeCondition_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteShippingTypeCondition_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : deleteShippingTypeCondition_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_shipping_type_condition = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_shipping_type_condition = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteShippingTypeConditionFieldBuilder() {
         if (deleteShippingTypeConditionBuilder_ == null) {
           deleteShippingTypeConditionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteShippingTypeCondition(),
                   getParentForChildren(),
                   isClean());
@@ -1146,17 +1146,17 @@ public final class OmModifyCampShippingCondAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getConditionId();
+    io.dstore.Values.integerValue getConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ModifyCampShippingCond_Ad.Response}
@@ -1237,11 +1237,11 @@ public final class OmModifyCampShippingCondAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -1785,23 +1785,23 @@ public final class OmModifyCampShippingCondAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue conditionId_;
+    private io.dstore.Values.integerValue conditionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -3028,29 +3028,29 @@ public final class OmModifyCampShippingCondAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue conditionId_ = null;
+      private io.dstore.Values.integerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getConditionId() {
+      public io.dstore.Values.integerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public Builder setConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3064,10 +3064,10 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       public Builder setConditionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -3078,13 +3078,13 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public Builder mergeConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -3096,7 +3096,7 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -3110,33 +3110,33 @@ public final class OmModifyCampShippingCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -3228,28 +3228,27 @@ public final class OmModifyCampShippingCondAd {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/om_ModifyCamp" +
       "ShippingCond_Ad.proto\022*dstore.engine.om_" +
-      "ModifyCampShippingCond_Ad\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"\321\002\n\nParameter" +
-      "s\022F\n\033filter_by_shipping_type_ids\030\001 \001(\0132!" +
-      ".dstore.engine.values.stringValue\022)\n fil" +
-      "ter_by_shipping_type_ids_null\030\351\007 \001(\010\0229\n\r" +
-      "negate_filter\030\002 \001(\0132\".dstore.engine.valu",
-      "es.booleanValue\022\033\n\022negate_filter_null\030\352\007" +
-      " \001(\010\022J\n\036delete_shipping_type_condition\030\003" +
-      " \001(\0132\".dstore.engine.values.booleanValue" +
-      "\022,\n#delete_shipping_type_condition_null\030" +
-      "\353\007 \001(\010\"\311\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
-      "ore.engine.error.Error\022H\n\020meta_informati" +
-      "on\030\002 \003(\0132..dstore.engine.metainformation" +
-      ".MetaInformation\022/\n\007message\030\003 \003(\0132\036.dsto" +
-      "re.engine.message.Message\022E\n\003row\030\004 \003(\01328" +
-      ".dstore.engine.om_ModifyCampShippingCond",
-      "_Ad.Response.Row\0228\n\014condition_id\030e \001(\0132\"" +
-      ".dstore.engine.values.integerValue\032\026\n\003Ro" +
-      "w\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.p" +
-      "roceduresb\006proto3"
+      "ModifyCampShippingCond_Ad\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"\274\002\n\nParameters\022?\n\033fi" +
+      "lter_by_shipping_type_ids\030\001 \001(\0132\032.dstore" +
+      ".values.stringValue\022)\n filter_by_shippin" +
+      "g_type_ids_null\030\351\007 \001(\010\0222\n\rnegate_filter\030" +
+      "\002 \001(\0132\033.dstore.values.booleanValue\022\033\n\022ne",
+      "gate_filter_null\030\352\007 \001(\010\022C\n\036delete_shippi" +
+      "ng_type_condition\030\003 \001(\0132\033.dstore.values." +
+      "booleanValue\022,\n#delete_shipping_type_con" +
+      "dition_null\030\353\007 \001(\010\"\302\002\n\010Response\022)\n\005error" +
+      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
+      "ta_information\030\002 \003(\0132..dstore.engine.met" +
+      "ainformation.MetaInformation\022/\n\007message\030" +
+      "\003 \003(\0132\036.dstore.engine.message.Message\022E\n" +
+      "\003row\030\004 \003(\01328.dstore.engine.om_ModifyCamp" +
+      "ShippingCond_Ad.Response.Row\0221\n\014conditio",
+      "n_id\030e \001(\0132\033.dstore.values.integerValue\032" +
+      "\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.eng" +
+      "ine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3262,7 +3261,7 @@ public final class OmModifyCampShippingCondAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3285,7 +3284,7 @@ public final class OmModifyCampShippingCondAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampShippingCond_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

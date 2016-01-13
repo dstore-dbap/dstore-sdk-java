@@ -28,27 +28,27 @@ public final class Elastic {
     boolean getMultiField();
 
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    java.util.List<io.dstore.elastic.Elastic.Value> 
+    java.util.List<io.dstore.Values.Value> 
         getValueList();
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    io.dstore.elastic.Elastic.Value getValue(int index);
+    io.dstore.Values.Value getValue(int index);
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
     int getValueCount();
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    java.util.List<? extends io.dstore.elastic.Elastic.ValueOrBuilder> 
+    java.util.List<? extends io.dstore.Values.ValueOrBuilder> 
         getValueOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    io.dstore.elastic.Elastic.ValueOrBuilder getValueOrBuilder(
+    io.dstore.Values.ValueOrBuilder getValueOrBuilder(
         int index);
   }
   /**
@@ -105,10 +105,10 @@ public final class Elastic {
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-                value_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Value>();
+                value_ = new java.util.ArrayList<io.dstore.Values.Value>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              value_.add(input.readMessage(io.dstore.elastic.Elastic.Value.parser(), extensionRegistry));
+              value_.add(input.readMessage(io.dstore.Values.Value.parser(), extensionRegistry));
               break;
             }
           }
@@ -183,36 +183,36 @@ public final class Elastic {
     }
 
     public static final int VALUE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.elastic.Elastic.Value> value_;
+    private java.util.List<io.dstore.Values.Value> value_;
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public java.util.List<io.dstore.elastic.Elastic.Value> getValueList() {
+    public java.util.List<io.dstore.Values.Value> getValueList() {
       return value_;
     }
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public java.util.List<? extends io.dstore.elastic.Elastic.ValueOrBuilder> 
+    public java.util.List<? extends io.dstore.Values.ValueOrBuilder> 
         getValueOrBuilderList() {
       return value_;
     }
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public int getValueCount() {
       return value_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.elastic.Elastic.Value getValue(int index) {
+    public io.dstore.Values.Value getValue(int index) {
       return value_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.Value value = 3;</code>
+     * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.elastic.Elastic.ValueOrBuilder getValueOrBuilder(
+    public io.dstore.Values.ValueOrBuilder getValueOrBuilder(
         int index) {
       return value_.get(index);
     }
@@ -584,22 +584,22 @@ public final class Elastic {
         return this;
       }
 
-      private java.util.List<io.dstore.elastic.Elastic.Value> value_ =
+      private java.util.List<io.dstore.Values.Value> value_ =
         java.util.Collections.emptyList();
       private void ensureValueIsMutable() {
         if (!((bitField0_ & 0x00000004) == 0x00000004)) {
-          value_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Value>(value_);
+          value_ = new java.util.ArrayList<io.dstore.Values.Value>(value_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.Elastic.Value, io.dstore.elastic.Elastic.Value.Builder, io.dstore.elastic.Elastic.ValueOrBuilder> valueBuilder_;
+          io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> valueBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public java.util.List<io.dstore.elastic.Elastic.Value> getValueList() {
+      public java.util.List<io.dstore.Values.Value> getValueList() {
         if (valueBuilder_ == null) {
           return java.util.Collections.unmodifiableList(value_);
         } else {
@@ -607,7 +607,7 @@ public final class Elastic {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public int getValueCount() {
         if (valueBuilder_ == null) {
@@ -617,9 +617,9 @@ public final class Elastic {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public io.dstore.elastic.Elastic.Value getValue(int index) {
+      public io.dstore.Values.Value getValue(int index) {
         if (valueBuilder_ == null) {
           return value_.get(index);
         } else {
@@ -627,10 +627,10 @@ public final class Elastic {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder setValue(
-          int index, io.dstore.elastic.Elastic.Value value) {
+          int index, io.dstore.Values.Value value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -644,10 +644,10 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder setValue(
-          int index, io.dstore.elastic.Elastic.Value.Builder builderForValue) {
+          int index, io.dstore.Values.Value.Builder builderForValue) {
         if (valueBuilder_ == null) {
           ensureValueIsMutable();
           value_.set(index, builderForValue.build());
@@ -658,9 +658,9 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public Builder addValue(io.dstore.elastic.Elastic.Value value) {
+      public Builder addValue(io.dstore.Values.Value value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -674,10 +674,10 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder addValue(
-          int index, io.dstore.elastic.Elastic.Value value) {
+          int index, io.dstore.Values.Value value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -691,10 +691,10 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder addValue(
-          io.dstore.elastic.Elastic.Value.Builder builderForValue) {
+          io.dstore.Values.Value.Builder builderForValue) {
         if (valueBuilder_ == null) {
           ensureValueIsMutable();
           value_.add(builderForValue.build());
@@ -705,10 +705,10 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder addValue(
-          int index, io.dstore.elastic.Elastic.Value.Builder builderForValue) {
+          int index, io.dstore.Values.Value.Builder builderForValue) {
         if (valueBuilder_ == null) {
           ensureValueIsMutable();
           value_.add(index, builderForValue.build());
@@ -719,10 +719,10 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder addAllValue(
-          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Value> values) {
+          java.lang.Iterable<? extends io.dstore.Values.Value> values) {
         if (valueBuilder_ == null) {
           ensureValueIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -734,7 +734,7 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -747,7 +747,7 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
       public Builder removeValue(int index) {
         if (valueBuilder_ == null) {
@@ -760,16 +760,16 @@ public final class Elastic {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public io.dstore.elastic.Elastic.Value.Builder getValueBuilder(
+      public io.dstore.Values.Value.Builder getValueBuilder(
           int index) {
         return getValueFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public io.dstore.elastic.Elastic.ValueOrBuilder getValueOrBuilder(
+      public io.dstore.Values.ValueOrBuilder getValueOrBuilder(
           int index) {
         if (valueBuilder_ == null) {
           return value_.get(index);  } else {
@@ -777,9 +777,9 @@ public final class Elastic {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public java.util.List<? extends io.dstore.elastic.Elastic.ValueOrBuilder> 
+      public java.util.List<? extends io.dstore.Values.ValueOrBuilder> 
            getValueOrBuilderList() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilderList();
@@ -788,33 +788,33 @@ public final class Elastic {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public io.dstore.elastic.Elastic.Value.Builder addValueBuilder() {
+      public io.dstore.Values.Value.Builder addValueBuilder() {
         return getValueFieldBuilder().addBuilder(
-            io.dstore.elastic.Elastic.Value.getDefaultInstance());
+            io.dstore.Values.Value.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public io.dstore.elastic.Elastic.Value.Builder addValueBuilder(
+      public io.dstore.Values.Value.Builder addValueBuilder(
           int index) {
         return getValueFieldBuilder().addBuilder(
-            index, io.dstore.elastic.Elastic.Value.getDefaultInstance());
+            index, io.dstore.Values.Value.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.Value value = 3;</code>
+       * <code>repeated .dstore.values.Value value = 3;</code>
        */
-      public java.util.List<io.dstore.elastic.Elastic.Value.Builder> 
+      public java.util.List<io.dstore.Values.Value.Builder> 
            getValueBuilderList() {
         return getValueFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.Elastic.Value, io.dstore.elastic.Elastic.Value.Builder, io.dstore.elastic.Elastic.ValueOrBuilder> 
+          io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.dstore.elastic.Elastic.Value, io.dstore.elastic.Elastic.Value.Builder, io.dstore.elastic.Elastic.ValueOrBuilder>(
+              io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder>(
                   value_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
@@ -876,930 +876,6 @@ public final class Elastic {
     }
 
     public io.dstore.elastic.Elastic.Field getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface ValueOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dstore.elastic.Value)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>optional int64 integer_value = 1;</code>
-     */
-    long getIntegerValue();
-
-    /**
-     * <code>optional string string_value = 2;</code>
-     */
-    java.lang.String getStringValue();
-    /**
-     * <code>optional string string_value = 2;</code>
-     */
-    com.google.protobuf.ByteString
-        getStringValueBytes();
-
-    /**
-     * <code>optional double double_value = 3;</code>
-     */
-    double getDoubleValue();
-
-    /**
-     * <code>optional bool boolean_value = 4;</code>
-     */
-    boolean getBooleanValue();
-
-    /**
-     * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-     */
-    com.google.protobuf.Timestamp getTimestampValue();
-    /**
-     * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-     */
-    com.google.protobuf.TimestampOrBuilder getTimestampValueOrBuilder();
-
-    public io.dstore.elastic.Elastic.Value.ValueCase getValueCase();
-  }
-  /**
-   * Protobuf type {@code dstore.elastic.Value}
-   */
-  public  static final class Value extends
-      com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:dstore.elastic.Value)
-      ValueOrBuilder {
-    // Use Value.newBuilder() to construct.
-    private Value(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
-      super(builder);
-    }
-    private Value() {
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
-    }
-    private Value(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
-      this();
-      int mutable_bitField0_ = 0;
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            default: {
-              if (!input.skipField(tag)) {
-                done = true;
-              }
-              break;
-            }
-            case 8: {
-              valueCase_ = 1;
-              value_ = input.readInt64();
-              break;
-            }
-            case 18: {
-              String s = input.readStringRequireUtf8();
-              valueCase_ = 2;
-              value_ = s;
-              break;
-            }
-            case 25: {
-              valueCase_ = 3;
-              value_ = input.readDouble();
-              break;
-            }
-            case 32: {
-              valueCase_ = 4;
-              value_ = input.readBool();
-              break;
-            }
-            case 42: {
-              com.google.protobuf.Timestamp.Builder subBuilder = null;
-              if (valueCase_ == 5) {
-                subBuilder = ((com.google.protobuf.Timestamp) value_).toBuilder();
-              }
-              value_ =
-                  input.readMessage(com.google.protobuf.Timestamp.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((com.google.protobuf.Timestamp) value_);
-                value_ = subBuilder.buildPartial();
-              }
-              valueCase_ = 5;
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw new RuntimeException(e.setUnfinishedMessage(this));
-      } catch (java.io.IOException e) {
-        throw new RuntimeException(
-            new com.google.protobuf.InvalidProtocolBufferException(
-                e.getMessage()).setUnfinishedMessage(this));
-      } finally {
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Value_descriptor;
-    }
-
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Value_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              io.dstore.elastic.Elastic.Value.class, io.dstore.elastic.Elastic.Value.Builder.class);
-    }
-
-    private int valueCase_ = 0;
-    private java.lang.Object value_;
-    public enum ValueCase
-        implements com.google.protobuf.Internal.EnumLite {
-      INTEGER_VALUE(1),
-      STRING_VALUE(2),
-      DOUBLE_VALUE(3),
-      BOOLEAN_VALUE(4),
-      TIMESTAMP_VALUE(5),
-      VALUE_NOT_SET(0);
-      private int value = 0;
-      private ValueCase(int value) {
-        this.value = value;
-      }
-      public static ValueCase valueOf(int value) {
-        switch (value) {
-          case 1: return INTEGER_VALUE;
-          case 2: return STRING_VALUE;
-          case 3: return DOUBLE_VALUE;
-          case 4: return BOOLEAN_VALUE;
-          case 5: return TIMESTAMP_VALUE;
-          case 0: return VALUE_NOT_SET;
-          default: throw new java.lang.IllegalArgumentException(
-            "Value is undefined for this oneof enum.");
-        }
-      }
-      public int getNumber() {
-        return this.value;
-      }
-    };
-
-    public ValueCase
-    getValueCase() {
-      return ValueCase.valueOf(
-          valueCase_);
-    }
-
-    public static final int INTEGER_VALUE_FIELD_NUMBER = 1;
-    /**
-     * <code>optional int64 integer_value = 1;</code>
-     */
-    public long getIntegerValue() {
-      if (valueCase_ == 1) {
-        return (java.lang.Long) value_;
-      }
-      return 0L;
-    }
-
-    public static final int STRING_VALUE_FIELD_NUMBER = 2;
-    /**
-     * <code>optional string string_value = 2;</code>
-     */
-    public java.lang.String getStringValue() {
-      java.lang.Object ref = "";
-      if (valueCase_ == 2) {
-        ref = value_;
-      }
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (valueCase_ == 2) {
-          value_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string string_value = 2;</code>
-     */
-    public com.google.protobuf.ByteString
-        getStringValueBytes() {
-      java.lang.Object ref = "";
-      if (valueCase_ == 2) {
-        ref = value_;
-      }
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        if (valueCase_ == 2) {
-          value_ = b;
-        }
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int DOUBLE_VALUE_FIELD_NUMBER = 3;
-    /**
-     * <code>optional double double_value = 3;</code>
-     */
-    public double getDoubleValue() {
-      if (valueCase_ == 3) {
-        return (java.lang.Double) value_;
-      }
-      return 0D;
-    }
-
-    public static final int BOOLEAN_VALUE_FIELD_NUMBER = 4;
-    /**
-     * <code>optional bool boolean_value = 4;</code>
-     */
-    public boolean getBooleanValue() {
-      if (valueCase_ == 4) {
-        return (java.lang.Boolean) value_;
-      }
-      return false;
-    }
-
-    public static final int TIMESTAMP_VALUE_FIELD_NUMBER = 5;
-    /**
-     * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-     */
-    public com.google.protobuf.Timestamp getTimestampValue() {
-      if (valueCase_ == 5) {
-         return (com.google.protobuf.Timestamp) value_;
-      }
-      return com.google.protobuf.Timestamp.getDefaultInstance();
-    }
-    /**
-     * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-     */
-    public com.google.protobuf.TimestampOrBuilder getTimestampValueOrBuilder() {
-      if (valueCase_ == 5) {
-         return (com.google.protobuf.Timestamp) value_;
-      }
-      return com.google.protobuf.Timestamp.getDefaultInstance();
-    }
-
-    private byte memoizedIsInitialized = -1;
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (valueCase_ == 1) {
-        output.writeInt64(
-            1, (long)((java.lang.Long) value_));
-      }
-      if (valueCase_ == 2) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 2, value_);
-      }
-      if (valueCase_ == 3) {
-        output.writeDouble(
-            3, (double)((java.lang.Double) value_));
-      }
-      if (valueCase_ == 4) {
-        output.writeBool(
-            4, (boolean)((java.lang.Boolean) value_));
-      }
-      if (valueCase_ == 5) {
-        output.writeMessage(5, (com.google.protobuf.Timestamp) value_);
-      }
-    }
-
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (valueCase_ == 1) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(
-              1, (long)((java.lang.Long) value_));
-      }
-      if (valueCase_ == 2) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(2, value_);
-      }
-      if (valueCase_ == 3) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(
-              3, (double)((java.lang.Double) value_));
-      }
-      if (valueCase_ == 4) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(
-              4, (boolean)((java.lang.Boolean) value_));
-      }
-      if (valueCase_ == 5) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (com.google.protobuf.Timestamp) value_);
-      }
-      memoizedSize = size;
-      return size;
-    }
-
-    private static final long serialVersionUID = 0L;
-    public static io.dstore.elastic.Elastic.Value parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return PARSER.parseFrom(input);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
-    }
-    public static io.dstore.elastic.Elastic.Value parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input);
-    }
-    public static io.dstore.elastic.Elastic.Value parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return PARSER.parseDelimitedFrom(input, extensionRegistry);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return PARSER.parseFrom(input);
-    }
-    public static io.dstore.elastic.Elastic.Value parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return PARSER.parseFrom(input, extensionRegistry);
-    }
-
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(io.dstore.elastic.Elastic.Value prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code dstore.elastic.Value}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:dstore.elastic.Value)
-        io.dstore.elastic.Elastic.ValueOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Value_descriptor;
-      }
-
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Value_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                io.dstore.elastic.Elastic.Value.class, io.dstore.elastic.Elastic.Value.Builder.class);
-      }
-
-      // Construct using io.dstore.elastic.Elastic.Value.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      public Builder clear() {
-        super.clear();
-        valueCase_ = 0;
-        value_ = null;
-        return this;
-      }
-
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Value_descriptor;
-      }
-
-      public io.dstore.elastic.Elastic.Value getDefaultInstanceForType() {
-        return io.dstore.elastic.Elastic.Value.getDefaultInstance();
-      }
-
-      public io.dstore.elastic.Elastic.Value build() {
-        io.dstore.elastic.Elastic.Value result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      public io.dstore.elastic.Elastic.Value buildPartial() {
-        io.dstore.elastic.Elastic.Value result = new io.dstore.elastic.Elastic.Value(this);
-        if (valueCase_ == 1) {
-          result.value_ = value_;
-        }
-        if (valueCase_ == 2) {
-          result.value_ = value_;
-        }
-        if (valueCase_ == 3) {
-          result.value_ = value_;
-        }
-        if (valueCase_ == 4) {
-          result.value_ = value_;
-        }
-        if (valueCase_ == 5) {
-          if (timestampValueBuilder_ == null) {
-            result.value_ = value_;
-          } else {
-            result.value_ = timestampValueBuilder_.build();
-          }
-        }
-        result.valueCase_ = valueCase_;
-        onBuilt();
-        return result;
-      }
-
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.dstore.elastic.Elastic.Value) {
-          return mergeFrom((io.dstore.elastic.Elastic.Value)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(io.dstore.elastic.Elastic.Value other) {
-        if (other == io.dstore.elastic.Elastic.Value.getDefaultInstance()) return this;
-        switch (other.getValueCase()) {
-          case INTEGER_VALUE: {
-            setIntegerValue(other.getIntegerValue());
-            break;
-          }
-          case STRING_VALUE: {
-            valueCase_ = 2;
-            value_ = other.value_;
-            onChanged();
-            break;
-          }
-          case DOUBLE_VALUE: {
-            setDoubleValue(other.getDoubleValue());
-            break;
-          }
-          case BOOLEAN_VALUE: {
-            setBooleanValue(other.getBooleanValue());
-            break;
-          }
-          case TIMESTAMP_VALUE: {
-            mergeTimestampValue(other.getTimestampValue());
-            break;
-          }
-          case VALUE_NOT_SET: {
-            break;
-          }
-        }
-        onChanged();
-        return this;
-      }
-
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        io.dstore.elastic.Elastic.Value parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.dstore.elastic.Elastic.Value) e.getUnfinishedMessage();
-          throw e;
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-      private int valueCase_ = 0;
-      private java.lang.Object value_;
-      public ValueCase
-          getValueCase() {
-        return ValueCase.valueOf(
-            valueCase_);
-      }
-
-      public Builder clearValue() {
-        valueCase_ = 0;
-        value_ = null;
-        onChanged();
-        return this;
-      }
-
-
-      /**
-       * <code>optional int64 integer_value = 1;</code>
-       */
-      public long getIntegerValue() {
-        if (valueCase_ == 1) {
-          return (java.lang.Long) value_;
-        }
-        return 0L;
-      }
-      /**
-       * <code>optional int64 integer_value = 1;</code>
-       */
-      public Builder setIntegerValue(long value) {
-        valueCase_ = 1;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 integer_value = 1;</code>
-       */
-      public Builder clearIntegerValue() {
-        if (valueCase_ == 1) {
-          valueCase_ = 0;
-          value_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      /**
-       * <code>optional string string_value = 2;</code>
-       */
-      public java.lang.String getStringValue() {
-        java.lang.Object ref = "";
-        if (valueCase_ == 2) {
-          ref = value_;
-        }
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (valueCase_ == 2) {
-            value_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string string_value = 2;</code>
-       */
-      public com.google.protobuf.ByteString
-          getStringValueBytes() {
-        java.lang.Object ref = "";
-        if (valueCase_ == 2) {
-          ref = value_;
-        }
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          if (valueCase_ == 2) {
-            value_ = b;
-          }
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string string_value = 2;</code>
-       */
-      public Builder setStringValue(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  valueCase_ = 2;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string string_value = 2;</code>
-       */
-      public Builder clearStringValue() {
-        if (valueCase_ == 2) {
-          valueCase_ = 0;
-          value_ = null;
-          onChanged();
-        }
-        return this;
-      }
-      /**
-       * <code>optional string string_value = 2;</code>
-       */
-      public Builder setStringValueBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        valueCase_ = 2;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-
-      /**
-       * <code>optional double double_value = 3;</code>
-       */
-      public double getDoubleValue() {
-        if (valueCase_ == 3) {
-          return (java.lang.Double) value_;
-        }
-        return 0D;
-      }
-      /**
-       * <code>optional double double_value = 3;</code>
-       */
-      public Builder setDoubleValue(double value) {
-        valueCase_ = 3;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional double double_value = 3;</code>
-       */
-      public Builder clearDoubleValue() {
-        if (valueCase_ == 3) {
-          valueCase_ = 0;
-          value_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      /**
-       * <code>optional bool boolean_value = 4;</code>
-       */
-      public boolean getBooleanValue() {
-        if (valueCase_ == 4) {
-          return (java.lang.Boolean) value_;
-        }
-        return false;
-      }
-      /**
-       * <code>optional bool boolean_value = 4;</code>
-       */
-      public Builder setBooleanValue(boolean value) {
-        valueCase_ = 4;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional bool boolean_value = 4;</code>
-       */
-      public Builder clearBooleanValue() {
-        if (valueCase_ == 4) {
-          valueCase_ = 0;
-          value_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      private com.google.protobuf.SingleFieldBuilder<
-          com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> timestampValueBuilder_;
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public com.google.protobuf.Timestamp getTimestampValue() {
-        if (timestampValueBuilder_ == null) {
-          if (valueCase_ == 5) {
-            return (com.google.protobuf.Timestamp) value_;
-          }
-          return com.google.protobuf.Timestamp.getDefaultInstance();
-        } else {
-          if (valueCase_ == 5) {
-            return timestampValueBuilder_.getMessage();
-          }
-          return com.google.protobuf.Timestamp.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public Builder setTimestampValue(com.google.protobuf.Timestamp value) {
-        if (timestampValueBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          value_ = value;
-          onChanged();
-        } else {
-          timestampValueBuilder_.setMessage(value);
-        }
-        valueCase_ = 5;
-        return this;
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public Builder setTimestampValue(
-          com.google.protobuf.Timestamp.Builder builderForValue) {
-        if (timestampValueBuilder_ == null) {
-          value_ = builderForValue.build();
-          onChanged();
-        } else {
-          timestampValueBuilder_.setMessage(builderForValue.build());
-        }
-        valueCase_ = 5;
-        return this;
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public Builder mergeTimestampValue(com.google.protobuf.Timestamp value) {
-        if (timestampValueBuilder_ == null) {
-          if (valueCase_ == 5 &&
-              value_ != com.google.protobuf.Timestamp.getDefaultInstance()) {
-            value_ = com.google.protobuf.Timestamp.newBuilder((com.google.protobuf.Timestamp) value_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            value_ = value;
-          }
-          onChanged();
-        } else {
-          if (valueCase_ == 5) {
-            timestampValueBuilder_.mergeFrom(value);
-          }
-          timestampValueBuilder_.setMessage(value);
-        }
-        valueCase_ = 5;
-        return this;
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public Builder clearTimestampValue() {
-        if (timestampValueBuilder_ == null) {
-          if (valueCase_ == 5) {
-            valueCase_ = 0;
-            value_ = null;
-            onChanged();
-          }
-        } else {
-          if (valueCase_ == 5) {
-            valueCase_ = 0;
-            value_ = null;
-          }
-          timestampValueBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public com.google.protobuf.Timestamp.Builder getTimestampValueBuilder() {
-        return getTimestampValueFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      public com.google.protobuf.TimestampOrBuilder getTimestampValueOrBuilder() {
-        if ((valueCase_ == 5) && (timestampValueBuilder_ != null)) {
-          return timestampValueBuilder_.getMessageOrBuilder();
-        } else {
-          if (valueCase_ == 5) {
-            return (com.google.protobuf.Timestamp) value_;
-          }
-          return com.google.protobuf.Timestamp.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>optional .google.protobuf.Timestamp timestamp_value = 5;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilder<
-          com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 
-          getTimestampValueFieldBuilder() {
-        if (timestampValueBuilder_ == null) {
-          if (!(valueCase_ == 5)) {
-            value_ = com.google.protobuf.Timestamp.getDefaultInstance();
-          }
-          timestampValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder>(
-                  (com.google.protobuf.Timestamp) value_,
-                  getParentForChildren(),
-                  isClean());
-          value_ = null;
-        }
-        valueCase_ = 5;
-        onChanged();;
-        return timestampValueBuilder_;
-      }
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return this;
-      }
-
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return this;
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:dstore.elastic.Value)
-    }
-
-    // @@protoc_insertion_point(class_scope:dstore.elastic.Value)
-    private static final io.dstore.elastic.Elastic.Value DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new io.dstore.elastic.Elastic.Value();
-    }
-
-    public static io.dstore.elastic.Elastic.Value getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<Value>
-        PARSER = new com.google.protobuf.AbstractParser<Value>() {
-      public Value parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        try {
-          return new Value(input, extensionRegistry);
-        } catch (RuntimeException e) {
-          if (e.getCause() instanceof
-              com.google.protobuf.InvalidProtocolBufferException) {
-            throw (com.google.protobuf.InvalidProtocolBufferException)
-                e.getCause();
-          }
-          throw e;
-        }
-      }
-    };
-
-    public static com.google.protobuf.Parser<Value> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<Value> getParserForType() {
-      return PARSER;
-    }
-
-    public io.dstore.elastic.Elastic.Value getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9629,11 +8705,6 @@ public final class Elastic {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Field_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_Value_descriptor;
-  private static
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_dstore_elastic_Value_fieldAccessorTable;
-  private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_BoolQuery_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -9683,44 +8754,39 @@ public final class Elastic {
   static {
     java.lang.String[] descriptorData = {
       "\n\034dstore/elastic/elastic.proto\022\016dstore.e" +
-      "lastic\032\037google/protobuf/timestamp.proto\"" +
-      "P\n\005Field\022\014\n\004name\030\001 \001(\t\022\023\n\013multi_field\030\002 " +
-      "\001(\010\022$\n\005value\030\003 \003(\0132\025.dstore.elastic.Valu" +
-      "e\"\251\001\n\005Value\022\027\n\rinteger_value\030\001 \001(\003H\000\022\026\n\014" +
-      "string_value\030\002 \001(\tH\000\022\026\n\014double_value\030\003 \001" +
-      "(\001H\000\022\027\n\rboolean_value\030\004 \001(\010H\000\0225\n\017timesta" +
-      "mp_value\030\005 \001(\0132\032.google.protobuf.Timesta" +
-      "mpH\000B\007\n\005value\"\324\001\n\tBoolQuery\022%\n\006filter\030\001 " +
-      "\003(\0132\025.dstore.elastic.Query\022#\n\004must\030\002 \003(\013",
-      "2\025.dstore.elastic.Query\022%\n\006should\030\003 \003(\0132" +
-      "\025.dstore.elastic.Query\022\'\n\010must_not\030\004 \003(\013" +
-      "2\025.dstore.elastic.Query\022\034\n\024minimum_shoul" +
-      "d_match\030\005 \001(\t\022\r\n\005boost\030\006 \001(\001\"\254\003\n\005Query\0222" +
-      "\n\013terms_query\030\001 \001(\0132\033.dstore.elastic.Que" +
-      "ry.TermsH\000\0220\n\ntype_query\030\002 \001(\0132\032.dstore." +
-      "elastic.Query.TypeH\000\022L\n\031simple_query_str" +
-      "ing_query\030\003 \001(\0132\'.dstore.elastic.Query.S" +
-      "impleQueryStringH\000\022/\n\nbool_query\030\004 \001(\0132\031" +
-      ".dstore.elastic.BoolQueryH\000\032)\n\005Terms\022\021\n\t",
-      "fieldName\030\001 \001(\t\022\r\n\005value\030\002 \003(\t\032\024\n\004Type\022\014" +
-      "\n\004type\030\001 \001(\t\032t\n\021SimpleQueryString\022\r\n\005que" +
-      "ry\030\001 \001(\t\022\r\n\005field\030\002 \003(\t\022#\n\033use_and_as_de" +
-      "fault_operator\030\003 \001(\010\022\034\n\024minimum_should_m" +
-      "atch\030\004 \001(\tB\007\n\005query\"\200\004\n\004Sort\0224\n\nfield_so" +
-      "rt\030\001 \001(\0132\036.dstore.elastic.Sort.FieldSort" +
-      "H\000\0224\n\nscore_sort\030\002 \001(\0132\036.dstore.elastic." +
-      "Sort.ScoreSortH\000\032\013\n\tScoreSort\032\344\001\n\tFieldS" +
-      "ort\022\022\n\nfield_name\030\001 \001(\t\022.\n\nsort_order\030\002 " +
-      "\001(\0162\032.dstore.elastic.Sort.Order\0227\n\021missi",
-      "ng_treatment\030\003 \001(\0162\034.dstore.elastic.Sort" +
-      ".Missing\022,\n\tsort_mode\030\004 \001(\0162\031.dstore.ela" +
-      "stic.Sort.Mode\022,\n\rnested_filter\030\005 \003(\0132\025." +
-      "dstore.elastic.Query\"&\n\005Order\022\r\n\tASCENDI" +
-      "NG\020\000\022\016\n\nDESCENDING\020\001\"\036\n\007Missing\022\010\n\004LAST\020" +
-      "\000\022\t\n\005FIRST\020\001\"E\n\004Mode\022\r\n\tUNDEFINED\020\000\022\007\n\003M" +
-      "IN\020\001\022\007\n\003MAX\020\002\022\007\n\003SUM\020\003\022\007\n\003AVG\020\004\022\n\n\006MEDIA" +
-      "N\020\005B\t\n\007sort_byB\034\n\021io.dstore.elasticB\007Ela" +
-      "sticb\006proto3"
+      "lastic\032\023dstore/values.proto\"O\n\005Field\022\014\n\004" +
+      "name\030\001 \001(\t\022\023\n\013multi_field\030\002 \001(\010\022#\n\005value" +
+      "\030\003 \003(\0132\024.dstore.values.Value\"\324\001\n\tBoolQue" +
+      "ry\022%\n\006filter\030\001 \003(\0132\025.dstore.elastic.Quer" +
+      "y\022#\n\004must\030\002 \003(\0132\025.dstore.elastic.Query\022%" +
+      "\n\006should\030\003 \003(\0132\025.dstore.elastic.Query\022\'\n" +
+      "\010must_not\030\004 \003(\0132\025.dstore.elastic.Query\022\034" +
+      "\n\024minimum_should_match\030\005 \001(\t\022\r\n\005boost\030\006 " +
+      "\001(\001\"\254\003\n\005Query\0222\n\013terms_query\030\001 \001(\0132\033.dst",
+      "ore.elastic.Query.TermsH\000\0220\n\ntype_query\030" +
+      "\002 \001(\0132\032.dstore.elastic.Query.TypeH\000\022L\n\031s" +
+      "imple_query_string_query\030\003 \001(\0132\'.dstore." +
+      "elastic.Query.SimpleQueryStringH\000\022/\n\nboo" +
+      "l_query\030\004 \001(\0132\031.dstore.elastic.BoolQuery" +
+      "H\000\032)\n\005Terms\022\021\n\tfieldName\030\001 \001(\t\022\r\n\005value\030" +
+      "\002 \003(\t\032\024\n\004Type\022\014\n\004type\030\001 \001(\t\032t\n\021SimpleQue" +
+      "ryString\022\r\n\005query\030\001 \001(\t\022\r\n\005field\030\002 \003(\t\022#" +
+      "\n\033use_and_as_default_operator\030\003 \001(\010\022\034\n\024m" +
+      "inimum_should_match\030\004 \001(\tB\007\n\005query\"\200\004\n\004S",
+      "ort\0224\n\nfield_sort\030\001 \001(\0132\036.dstore.elastic" +
+      ".Sort.FieldSortH\000\0224\n\nscore_sort\030\002 \001(\0132\036." +
+      "dstore.elastic.Sort.ScoreSortH\000\032\013\n\tScore" +
+      "Sort\032\344\001\n\tFieldSort\022\022\n\nfield_name\030\001 \001(\t\022." +
+      "\n\nsort_order\030\002 \001(\0162\032.dstore.elastic.Sort" +
+      ".Order\0227\n\021missing_treatment\030\003 \001(\0162\034.dsto" +
+      "re.elastic.Sort.Missing\022,\n\tsort_mode\030\004 \001" +
+      "(\0162\031.dstore.elastic.Sort.Mode\022,\n\rnested_" +
+      "filter\030\005 \003(\0132\025.dstore.elastic.Query\"&\n\005O" +
+      "rder\022\r\n\tASCENDING\020\000\022\016\n\nDESCENDING\020\001\"\036\n\007M",
+      "issing\022\010\n\004LAST\020\000\022\t\n\005FIRST\020\001\"E\n\004Mode\022\r\n\tU" +
+      "NDEFINED\020\000\022\007\n\003MIN\020\001\022\007\n\003MAX\020\002\022\007\n\003SUM\020\003\022\007\n" +
+      "\003AVG\020\004\022\n\n\006MEDIAN\020\005B\t\n\007sort_byB\034\n\021io.dsto" +
+      "re.elasticB\007Elasticb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9733,7 +8799,7 @@ public final class Elastic {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          com.google.protobuf.TimestampProto.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_Field_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -9741,20 +8807,14 @@ public final class Elastic {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Field_descriptor,
         new java.lang.String[] { "Name", "MultiField", "Value", });
-    internal_static_dstore_elastic_Value_descriptor =
-      getDescriptor().getMessageTypes().get(1);
-    internal_static_dstore_elastic_Value_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_dstore_elastic_Value_descriptor,
-        new java.lang.String[] { "IntegerValue", "StringValue", "DoubleValue", "BooleanValue", "TimestampValue", "Value", });
     internal_static_dstore_elastic_BoolQuery_descriptor =
-      getDescriptor().getMessageTypes().get(2);
+      getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_elastic_BoolQuery_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_BoolQuery_descriptor,
         new java.lang.String[] { "Filter", "Must", "Should", "MustNot", "MinimumShouldMatch", "Boost", });
     internal_static_dstore_elastic_Query_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(2);
     internal_static_dstore_elastic_Query_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Query_descriptor,
@@ -9778,7 +8838,7 @@ public final class Elastic {
         internal_static_dstore_elastic_Query_SimpleQueryString_descriptor,
         new java.lang.String[] { "Query", "Field", "UseAndAsDefaultOperator", "MinimumShouldMatch", });
     internal_static_dstore_elastic_Sort_descriptor =
-      getDescriptor().getMessageTypes().get(4);
+      getDescriptor().getMessageTypes().get(3);
     internal_static_dstore_elastic_Sort_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Sort_descriptor,
@@ -9795,7 +8855,7 @@ public final class Elastic {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Sort_FieldSort_descriptor,
         new java.lang.String[] { "FieldName", "SortOrder", "MissingTreatment", "SortMode", "NestedFilter", });
-    com.google.protobuf.TimestampProto.getDescriptor();
+    io.dstore.Values.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

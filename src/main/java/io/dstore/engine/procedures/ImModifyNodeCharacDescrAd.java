@@ -13,17 +13,17 @@ public final class ImModifyNodeCharacDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+    io.dstore.Values.integerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImModifyNodeCharacDescrAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImModifyNodeCharacDescrAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
      */
     boolean hasCharacteristicDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getCharacteristicDescription();
+    io.dstore.Values.stringValue getCharacteristicDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
     /**
      * <code>optional bool characteristic_description_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class ImModifyNodeCharacDescrAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class ImModifyNodeCharacDescrAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class ImModifyNodeCharacDescrAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (characteristicDescription_ != null) {
                 subBuilder = characteristicDescription_.toBuilder();
               }
-              characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicDescription_);
                 characteristicDescription_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class ImModifyNodeCharacDescrAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.Values.integerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -216,23 +216,23 @@ public final class ImModifyNodeCharacDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -246,23 +246,23 @@ public final class ImModifyNodeCharacDescrAd {
     }
 
     public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue characteristicDescription_;
+    private io.dstore.Values.stringValue characteristicDescription_;
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
      */
     public boolean hasCharacteristicDescription() {
       return characteristicDescription_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
-      return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+    public io.dstore.Values.stringValue getCharacteristicDescription() {
+      return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+     * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
       return getCharacteristicDescription();
     }
 
@@ -570,29 +570,29 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -638,7 +638,7 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -781,7 +781,7 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue characteristicDescription_ = null;
+      private io.dstore.Values.stringValue characteristicDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
+      public io.dstore.Values.stringValue getCharacteristicDescription() {
         if (characteristicDescriptionBuilder_ == null) {
-          return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+          return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
         } else {
           return characteristicDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
-      public Builder setCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
         if (characteristicDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
       public Builder setCharacteristicDescription(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (characteristicDescriptionBuilder_ == null) {
           characteristicDescription_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
-      public Builder mergeCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
         if (characteristicDescriptionBuilder_ == null) {
           if (characteristicDescription_ != null) {
             characteristicDescription_ =
-              io.dstore.engine.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
           } else {
             characteristicDescription_ = value;
           }
@@ -924,7 +924,7 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
       public Builder clearCharacteristicDescription() {
         if (characteristicDescriptionBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class ImModifyNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+      public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
         
         onChanged();
         return getCharacteristicDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         if (characteristicDescriptionBuilder_ != null) {
           return characteristicDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return characteristicDescription_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+              io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 3;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCharacteristicDescriptionFieldBuilder() {
         if (characteristicDescriptionBuilder_ == null) {
           characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCharacteristicDescription(),
                   getParentForChildren(),
                   isClean());
@@ -3155,26 +3155,25 @@ public final class ImModifyNodeCharacDescrAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/im_ModifyNode" +
       "CharacDescr_Ad.proto\022)dstore.engine.im_M" +
-      "odifyNodeCharacDescr_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\273\002\n\nParameters\022" +
-      "B\n\026node_characteristic_id\030\001 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022$\n\033node_char" +
-      "acteristic_id_null\030\351\007 \001(\010\0227\n\013language_id" +
-      "\030\002 \001(\0132\".dstore.engine.values.integerVal",
-      "ue\022\031\n\020language_id_null\030\352\007 \001(\010\022E\n\032charact" +
-      "eristic_description\030\003 \001(\0132!.dstore.engin" +
-      "e.values.stringValue\022(\n\037characteristic_d" +
-      "escription_null\030\353\007 \001(\010\"\216\002\n\010Response\022)\n\005e" +
-      "rror\030\001 \001(\0132\032.dstore.engine.error.Error\022H" +
-      "\n\020meta_information\030\002 \003(\0132..dstore.engine" +
-      ".metainformation.MetaInformation\022/\n\007mess" +
-      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
-      "e\022D\n\003row\030\004 \003(\01327.dstore.engine.im_Modify" +
-      "NodeCharacDescr_Ad.Response.Row\032\026\n\003Row\022\017",
-      "\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "odifyNodeCharacDescr_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\246\002\n\nParameters\022;\n\026node" +
+      "_characteristic_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022$\n\033node_characteristic_id_" +
+      "null\030\351\007 \001(\010\0220\n\013language_id\030\002 \001(\0132\033.dstor" +
+      "e.values.integerValue\022\031\n\020language_id_nul",
+      "l\030\352\007 \001(\010\022>\n\032characteristic_description\030\003" +
+      " \001(\0132\032.dstore.values.stringValue\022(\n\037char" +
+      "acteristic_description_null\030\353\007 \001(\010\"\216\002\n\010R" +
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022D\n\003row\030\004 \003(\01327.dstore.engi" +
+      "ne.im_ModifyNodeCharacDescr_Ad.Response." +
+      "Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore",
+      ".engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3187,7 +3186,7 @@ public final class ImModifyNodeCharacDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3210,7 +3209,7 @@ public final class ImModifyNodeCharacDescrAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeCharacDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

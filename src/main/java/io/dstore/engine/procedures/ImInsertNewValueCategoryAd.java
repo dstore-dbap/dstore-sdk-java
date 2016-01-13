@@ -13,17 +13,17 @@ public final class ImInsertNewValueCategoryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+     * <code>optional .dstore.values.stringValue category_description = 1;</code>
      */
     boolean hasCategoryDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+     * <code>optional .dstore.values.stringValue category_description = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getCategoryDescription();
+    io.dstore.Values.stringValue getCategoryDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+     * <code>optional .dstore.values.stringValue category_description = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
 
     /**
      * <code>optional bool category_description_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImInsertNewValueCategoryAd {
     boolean getCategoryDescriptionNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+    io.dstore.Values.integerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class ImInsertNewValueCategoryAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (categoryDescription_ != null) {
                 subBuilder = categoryDescription_.toBuilder();
               }
-              categoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(categoryDescription_);
                 categoryDescription_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class ImInsertNewValueCategoryAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class ImInsertNewValueCategoryAd {
     }
 
     public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue categoryDescription_;
+    private io.dstore.Values.stringValue categoryDescription_;
     /**
-     * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+     * <code>optional .dstore.values.stringValue category_description = 1;</code>
      */
     public boolean hasCategoryDescription() {
       return categoryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+     * <code>optional .dstore.values.stringValue category_description = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getCategoryDescription() {
-      return categoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+    public io.dstore.Values.stringValue getCategoryDescription() {
+      return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+     * <code>optional .dstore.values.stringValue category_description = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
       return getCategoryDescription();
     }
 
@@ -179,23 +179,23 @@ public final class ImInsertNewValueCategoryAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.Values.integerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -469,29 +469,29 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue categoryDescription_ = null;
+      private io.dstore.Values.stringValue categoryDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getCategoryDescription() {
+      public io.dstore.Values.stringValue getCategoryDescription() {
         if (categoryDescriptionBuilder_ == null) {
-          return categoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+          return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
         } else {
           return categoryDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
-      public Builder setCategoryDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
         if (categoryDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
       public Builder setCategoryDescription(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (categoryDescriptionBuilder_ == null) {
           categoryDescription_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
-      public Builder mergeCategoryDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
         if (categoryDescriptionBuilder_ == null) {
           if (categoryDescription_ != null) {
             categoryDescription_ =
-              io.dstore.engine.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
           } else {
             categoryDescription_ = value;
           }
@@ -537,7 +537,7 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
       public Builder clearCategoryDescription() {
         if (categoryDescriptionBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+      public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
         
         onChanged();
         return getCategoryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
         if (categoryDescriptionBuilder_ != null) {
           return categoryDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return categoryDescription_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+              io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 1;</code>
+       * <code>optional .dstore.values.stringValue category_description = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCategoryDescriptionFieldBuilder() {
         if (categoryDescriptionBuilder_ == null) {
           categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCategoryDescription(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -680,7 +680,7 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -902,17 +902,17 @@ public final class ImInsertNewValueCategoryAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
      */
     boolean hasNewValueCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getNewValueCategoryId();
+    io.dstore.Values.integerValue getNewValueCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNewValueCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNewValueCategoryIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_InsertNewValueCategory_Ad.Response}
@@ -993,11 +993,11 @@ public final class ImInsertNewValueCategoryAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (newValueCategoryId_ != null) {
                 subBuilder = newValueCategoryId_.toBuilder();
               }
-              newValueCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              newValueCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValueCategoryId_);
                 newValueCategoryId_ = subBuilder.buildPartial();
@@ -1541,23 +1541,23 @@ public final class ImInsertNewValueCategoryAd {
     }
 
     public static final int NEW_VALUE_CATEGORY_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue newValueCategoryId_;
+    private io.dstore.Values.integerValue newValueCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
      */
     public boolean hasNewValueCategoryId() {
       return newValueCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getNewValueCategoryId() {
-      return newValueCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : newValueCategoryId_;
+    public io.dstore.Values.integerValue getNewValueCategoryId() {
+      return newValueCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNewValueCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNewValueCategoryIdOrBuilder() {
       return getNewValueCategoryId();
     }
 
@@ -2784,29 +2784,29 @@ public final class ImInsertNewValueCategoryAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue newValueCategoryId_ = null;
+      private io.dstore.Values.integerValue newValueCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> newValueCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
       public boolean hasNewValueCategoryId() {
         return newValueCategoryIdBuilder_ != null || newValueCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getNewValueCategoryId() {
+      public io.dstore.Values.integerValue getNewValueCategoryId() {
         if (newValueCategoryIdBuilder_ == null) {
-          return newValueCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : newValueCategoryId_;
+          return newValueCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueCategoryId_;
         } else {
           return newValueCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
-      public Builder setNewValueCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNewValueCategoryId(io.dstore.Values.integerValue value) {
         if (newValueCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2820,10 +2820,10 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
       public Builder setNewValueCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (newValueCategoryIdBuilder_ == null) {
           newValueCategoryId_ = builderForValue.build();
           onChanged();
@@ -2834,13 +2834,13 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
-      public Builder mergeNewValueCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNewValueCategoryId(io.dstore.Values.integerValue value) {
         if (newValueCategoryIdBuilder_ == null) {
           if (newValueCategoryId_ != null) {
             newValueCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(newValueCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(newValueCategoryId_).mergeFrom(value).buildPartial();
           } else {
             newValueCategoryId_ = value;
           }
@@ -2852,7 +2852,7 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
       public Builder clearNewValueCategoryId() {
         if (newValueCategoryIdBuilder_ == null) {
@@ -2866,33 +2866,33 @@ public final class ImInsertNewValueCategoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNewValueCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNewValueCategoryIdBuilder() {
         
         onChanged();
         return getNewValueCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNewValueCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNewValueCategoryIdOrBuilder() {
         if (newValueCategoryIdBuilder_ != null) {
           return newValueCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return newValueCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : newValueCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : newValueCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_category_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_category_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNewValueCategoryIdFieldBuilder() {
         if (newValueCategoryIdBuilder_ == null) {
           newValueCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNewValueCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -2984,25 +2984,24 @@ public final class ImInsertNewValueCategoryAd {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/im_InsertNewV" +
       "alueCategory_Ad.proto\022*dstore.engine.im_" +
-      "InsertNewValueCategory_Ad\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"\333\001\n\nParameter" +
-      "s\022?\n\024category_description\030\001 \001(\0132!.dstore" +
-      ".engine.values.stringValue\022\"\n\031category_d" +
-      "escription_null\030\351\007 \001(\010\022B\n\026node_character" +
-      "istic_id\030\002 \001(\0132\".dstore.engine.values.in",
-      "tegerValue\022$\n\033node_characteristic_id_nul" +
-      "l\030\352\007 \001(\010\"\322\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
-      "store.engine.error.Error\022H\n\020meta_informa" +
-      "tion\030\002 \003(\0132..dstore.engine.metainformati" +
-      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
-      "tore.engine.message.Message\022E\n\003row\030\004 \003(\013" +
-      "28.dstore.engine.im_InsertNewValueCatego" +
-      "ry_Ad.Response.Row\022A\n\025new_value_category" +
-      "_id\030e \001(\0132\".dstore.engine.values.integer" +
-      "Value\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dsto",
-      "re.engine.proceduresb\006proto3"
+      "InsertNewValueCategory_Ad\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"\315\001\n\nParameters\0228\n\024ca" +
+      "tegory_description\030\001 \001(\0132\032.dstore.values" +
+      ".stringValue\022\"\n\031category_description_nul" +
+      "l\030\351\007 \001(\010\022;\n\026node_characteristic_id\030\002 \001(\013" +
+      "2\033.dstore.values.integerValue\022$\n\033node_ch",
+      "aracteristic_id_null\030\352\007 \001(\010\"\313\002\n\010Response" +
+      "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
+      "ror\022H\n\020meta_information\030\002 \003(\0132..dstore.e" +
+      "ngine.metainformation.MetaInformation\022/\n" +
+      "\007message\030\003 \003(\0132\036.dstore.engine.message.M" +
+      "essage\022E\n\003row\030\004 \003(\01328.dstore.engine.im_I" +
+      "nsertNewValueCategory_Ad.Response.Row\022:\n" +
+      "\025new_value_category_id\030e \001(\0132\033.dstore.va" +
+      "lues.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(" +
+      "\005B\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3015,7 +3014,7 @@ public final class ImInsertNewValueCategoryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3038,7 +3037,7 @@ public final class ImInsertNewValueCategoryAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertNewValueCategory_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

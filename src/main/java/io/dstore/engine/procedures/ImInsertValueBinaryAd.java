@@ -13,17 +13,17 @@ public final class ImInsertValueBinaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue value_ids = 1;</code>
      */
     boolean hasValueIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue value_ids = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getValueIds();
+    io.dstore.Values.stringValue getValueIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue value_ids = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getValueIdsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getValueIdsOrBuilder();
 
     /**
      * <code>optional bool value_ids_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImInsertValueBinaryAd {
     boolean getValueIdsNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+     * <code>optional .dstore.values.stringValue binary_description = 2;</code>
      */
     boolean hasBinaryDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+     * <code>optional .dstore.values.stringValue binary_description = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getBinaryDescription();
+    io.dstore.Values.stringValue getBinaryDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+     * <code>optional .dstore.values.stringValue binary_description = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder();
 
     /**
      * <code>optional bool binary_description_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class ImInsertValueBinaryAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (valueIds_ != null) {
                 subBuilder = valueIds_.toBuilder();
               }
-              valueIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              valueIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueIds_);
                 valueIds_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class ImInsertValueBinaryAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (binaryDescription_ != null) {
                 subBuilder = binaryDescription_.toBuilder();
               }
-              binaryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              binaryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryDescription_);
                 binaryDescription_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class ImInsertValueBinaryAd {
     }
 
     public static final int VALUE_IDS_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue valueIds_;
+    private io.dstore.Values.stringValue valueIds_;
     /**
-     * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue value_ids = 1;</code>
      */
     public boolean hasValueIds() {
       return valueIds_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue value_ids = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getValueIds() {
-      return valueIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : valueIds_;
+    public io.dstore.Values.stringValue getValueIds() {
+      return valueIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueIds_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue value_ids = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getValueIdsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getValueIdsOrBuilder() {
       return getValueIds();
     }
 
@@ -179,23 +179,23 @@ public final class ImInsertValueBinaryAd {
     }
 
     public static final int BINARY_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue binaryDescription_;
+    private io.dstore.Values.stringValue binaryDescription_;
     /**
-     * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+     * <code>optional .dstore.values.stringValue binary_description = 2;</code>
      */
     public boolean hasBinaryDescription() {
       return binaryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+     * <code>optional .dstore.values.stringValue binary_description = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getBinaryDescription() {
-      return binaryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : binaryDescription_;
+    public io.dstore.Values.stringValue getBinaryDescription() {
+      return binaryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+     * <code>optional .dstore.values.stringValue binary_description = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
       return getBinaryDescription();
     }
 
@@ -469,29 +469,29 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue valueIds_ = null;
+      private io.dstore.Values.stringValue valueIds_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueIdsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueIdsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
       public boolean hasValueIds() {
         return valueIdsBuilder_ != null || valueIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getValueIds() {
+      public io.dstore.Values.stringValue getValueIds() {
         if (valueIdsBuilder_ == null) {
-          return valueIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : valueIds_;
+          return valueIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueIds_;
         } else {
           return valueIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
-      public Builder setValueIds(io.dstore.engine.Values.stringValue value) {
+      public Builder setValueIds(io.dstore.Values.stringValue value) {
         if (valueIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
       public Builder setValueIds(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (valueIdsBuilder_ == null) {
           valueIds_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
-      public Builder mergeValueIds(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeValueIds(io.dstore.Values.stringValue value) {
         if (valueIdsBuilder_ == null) {
           if (valueIds_ != null) {
             valueIds_ =
-              io.dstore.engine.Values.stringValue.newBuilder(valueIds_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(valueIds_).mergeFrom(value).buildPartial();
           } else {
             valueIds_ = value;
           }
@@ -537,7 +537,7 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
       public Builder clearValueIds() {
         if (valueIdsBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getValueIdsBuilder() {
+      public io.dstore.Values.stringValue.Builder getValueIdsBuilder() {
         
         onChanged();
         return getValueIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueIdsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueIdsOrBuilder() {
         if (valueIdsBuilder_ != null) {
           return valueIdsBuilder_.getMessageOrBuilder();
         } else {
           return valueIds_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : valueIds_;
+              io.dstore.Values.stringValue.getDefaultInstance() : valueIds_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue value_ids = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueIdsFieldBuilder() {
         if (valueIdsBuilder_ == null) {
           valueIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValueIds(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue binaryDescription_ = null;
+      private io.dstore.Values.stringValue binaryDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> binaryDescriptionBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
       public boolean hasBinaryDescription() {
         return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getBinaryDescription() {
+      public io.dstore.Values.stringValue getBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
-          return binaryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : binaryDescription_;
+          return binaryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
         } else {
           return binaryDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
-      public Builder setBinaryDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder setBinaryDescription(io.dstore.Values.stringValue value) {
         if (binaryDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
       public Builder setBinaryDescription(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (binaryDescriptionBuilder_ == null) {
           binaryDescription_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
-      public Builder mergeBinaryDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeBinaryDescription(io.dstore.Values.stringValue value) {
         if (binaryDescriptionBuilder_ == null) {
           if (binaryDescription_ != null) {
             binaryDescription_ =
-              io.dstore.engine.Values.stringValue.newBuilder(binaryDescription_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(binaryDescription_).mergeFrom(value).buildPartial();
           } else {
             binaryDescription_ = value;
           }
@@ -680,7 +680,7 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
       public Builder clearBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class ImInsertValueBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getBinaryDescriptionBuilder() {
+      public io.dstore.Values.stringValue.Builder getBinaryDescriptionBuilder() {
         
         onChanged();
         return getBinaryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
         if (binaryDescriptionBuilder_ != null) {
           return binaryDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return binaryDescription_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : binaryDescription_;
+              io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 2;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getBinaryDescriptionFieldBuilder() {
         if (binaryDescriptionBuilder_ == null) {
           binaryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getBinaryDescription(),
                   getParentForChildren(),
                   isClean());
@@ -2911,22 +2911,22 @@ public final class ImInsertValueBinaryAd {
     java.lang.String[] descriptorData = {
       "\n6dstore/engine/procedures/im_InsertValu" +
       "eBinary_Ad.proto\022%dstore.engine.im_Inser" +
-      "tValueBinary_Ad\032\032dstore/engine/values.pr" +
-      "oto\032\031dstore/engine/error.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\274\001\n\nParameters\0224\n\tvalue" +
-      "_ids\030\001 \001(\0132!.dstore.engine.values.string" +
-      "Value\022\027\n\016value_ids_null\030\351\007 \001(\010\022=\n\022binary" +
-      "_description\030\002 \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022 \n\027binary_description_null",
-      "\030\352\007 \001(\010\"\212\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\022@\n\003row\030\004 \003(\0132" +
-      "3.dstore.engine.im_InsertValueBinary_Ad." +
-      "Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "tValueBinary_Ad\032\023dstore/values.proto\032\031ds" +
+      "tore/engine/error.proto\032\033dstore/engine/m" +
+      "essage.proto\032#dstore/engine/metainformat" +
+      "ion.proto\"\256\001\n\nParameters\022-\n\tvalue_ids\030\001 " +
+      "\001(\0132\032.dstore.values.stringValue\022\027\n\016value" +
+      "_ids_null\030\351\007 \001(\010\0226\n\022binary_description\030\002" +
+      " \001(\0132\032.dstore.values.stringValue\022 \n\027bina" +
+      "ry_description_null\030\352\007 \001(\010\"\212\002\n\010Response\022",
+      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
+      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en" +
+      "gine.metainformation.MetaInformation\022/\n\007" +
+      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
+      "ssage\022@\n\003row\030\004 \003(\01323.dstore.engine.im_In" +
+      "sertValueBinary_Ad.Response.Row\032\026\n\003Row\022\017" +
+      "\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proc" +
+      "eduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2939,7 +2939,7 @@ public final class ImInsertValueBinaryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2962,7 +2962,7 @@ public final class ImInsertValueBinaryAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertValueBinary_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

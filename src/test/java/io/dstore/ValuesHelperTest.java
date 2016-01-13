@@ -1,6 +1,7 @@
-package io.dstore.engine;
+package io.dstore;
 
 import com.google.protobuf.util.TimeUtil;
+import io.dstore.helper.ValuesHelper;
 import org.testng.annotations.Test;
 
 import java.math.BigDecimal;
@@ -25,6 +26,11 @@ public class ValuesHelperTest {
     public void testDecimal() {
         BigDecimal test = new BigDecimal("2345.5623");
         assert new BigDecimal(ValuesHelper.value(test).getValue()).equals(new BigDecimal("2345.5623"));
+    }
+
+    @Test
+    public void testConvertToObject() {
+        assert (Boolean)ValuesHelper.convertToObject(Values.Value.newBuilder().setBooleanValue(ValuesHelper.value(true))) ;
     }
 
     @Test

@@ -13,17 +13,17 @@ public final class PmAlphabetizeCharacValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
      */
     boolean hasCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCharacteristicId();
+    io.dstore.Values.integerValue getCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool characteristic_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class PmAlphabetizeCharacValuesAd {
     boolean getCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+     * <code>optional .dstore.values.booleanValue descending = 2;</code>
      */
     boolean hasDescending();
     /**
-     * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+     * <code>optional .dstore.values.booleanValue descending = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getDescending();
+    io.dstore.Values.booleanValue getDescending();
     /**
-     * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+     * <code>optional .dstore.values.booleanValue descending = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDescendingOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDescendingOrBuilder();
 
     /**
      * <code>optional bool descending_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class PmAlphabetizeCharacValuesAd {
     boolean getDescendingNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getCaseSensitive();
+    io.dstore.Values.booleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class PmAlphabetizeCharacValuesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (characteristicId_ != null) {
                 subBuilder = characteristicId_.toBuilder();
               }
-              characteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              characteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicId_);
                 characteristicId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class PmAlphabetizeCharacValuesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (descending_ != null) {
                 subBuilder = descending_.toBuilder();
               }
-              descending_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              descending_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(descending_);
                 descending_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class PmAlphabetizeCharacValuesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class PmAlphabetizeCharacValuesAd {
     }
 
     public static final int CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue characteristicId_;
+    private io.dstore.Values.integerValue characteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
      */
     public boolean hasCharacteristicId() {
       return characteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCharacteristicId() {
-      return characteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : characteristicId_;
+    public io.dstore.Values.integerValue getCharacteristicId() {
+      return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
       return getCharacteristicId();
     }
 
@@ -216,23 +216,23 @@ public final class PmAlphabetizeCharacValuesAd {
     }
 
     public static final int DESCENDING_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue descending_;
+    private io.dstore.Values.booleanValue descending_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+     * <code>optional .dstore.values.booleanValue descending = 2;</code>
      */
     public boolean hasDescending() {
       return descending_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+     * <code>optional .dstore.values.booleanValue descending = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDescending() {
-      return descending_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : descending_;
+    public io.dstore.Values.booleanValue getDescending() {
+      return descending_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : descending_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+     * <code>optional .dstore.values.booleanValue descending = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDescendingOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDescendingOrBuilder() {
       return getDescending();
     }
 
@@ -246,23 +246,23 @@ public final class PmAlphabetizeCharacValuesAd {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue caseSensitive_;
+    private io.dstore.Values.booleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.Values.booleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -570,29 +570,29 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue characteristicId_ = null;
+      private io.dstore.Values.integerValue characteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> characteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
       public boolean hasCharacteristicId() {
         return characteristicIdBuilder_ != null || characteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCharacteristicId() {
+      public io.dstore.Values.integerValue getCharacteristicId() {
         if (characteristicIdBuilder_ == null) {
-          return characteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : characteristicId_;
+          return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
         } else {
           return characteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
-      public Builder setCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCharacteristicId(io.dstore.Values.integerValue value) {
         if (characteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
       public Builder setCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (characteristicIdBuilder_ == null) {
           characteristicId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
-      public Builder mergeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCharacteristicId(io.dstore.Values.integerValue value) {
         if (characteristicIdBuilder_ == null) {
           if (characteristicId_ != null) {
             characteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
           } else {
             characteristicId_ = value;
           }
@@ -638,7 +638,7 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
       public Builder clearCharacteristicId() {
         if (characteristicIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCharacteristicIdBuilder() {
         
         onChanged();
         return getCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
         if (characteristicIdBuilder_ != null) {
           return characteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return characteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : characteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCharacteristicIdFieldBuilder() {
         if (characteristicIdBuilder_ == null) {
           characteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue descending_ = null;
+      private io.dstore.Values.booleanValue descending_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> descendingBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> descendingBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
       public boolean hasDescending() {
         return descendingBuilder_ != null || descending_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDescending() {
+      public io.dstore.Values.booleanValue getDescending() {
         if (descendingBuilder_ == null) {
-          return descending_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : descending_;
+          return descending_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : descending_;
         } else {
           return descendingBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
-      public Builder setDescending(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDescending(io.dstore.Values.booleanValue value) {
         if (descendingBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
       public Builder setDescending(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (descendingBuilder_ == null) {
           descending_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
-      public Builder mergeDescending(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDescending(io.dstore.Values.booleanValue value) {
         if (descendingBuilder_ == null) {
           if (descending_ != null) {
             descending_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(descending_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(descending_).mergeFrom(value).buildPartial();
           } else {
             descending_ = value;
           }
@@ -781,7 +781,7 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
       public Builder clearDescending() {
         if (descendingBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDescendingBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDescendingBuilder() {
         
         onChanged();
         return getDescendingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDescendingOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDescendingOrBuilder() {
         if (descendingBuilder_ != null) {
           return descendingBuilder_.getMessageOrBuilder();
         } else {
           return descending_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : descending_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : descending_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue descending = 2;</code>
+       * <code>optional .dstore.values.booleanValue descending = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDescendingFieldBuilder() {
         if (descendingBuilder_ == null) {
           descendingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDescending(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.Values.booleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getCaseSensitive() {
+      public io.dstore.Values.booleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
-      public Builder setCaseSensitive(io.dstore.engine.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -924,7 +924,7 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class PmAlphabetizeCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -3155,25 +3155,24 @@ public final class PmAlphabetizeCharacValuesAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/pm_Alphabetiz" +
       "eCharacValues_Ad.proto\022+dstore.engine.pm" +
-      "_AlphabetizeCharacValues_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\230\002\n\nParamet" +
-      "ers\022=\n\021characteristic_id\030\001 \001(\0132\".dstore." +
-      "engine.values.integerValue\022\037\n\026characteri" +
-      "stic_id_null\030\351\007 \001(\010\0226\n\ndescending\030\002 \001(\0132" +
-      "\".dstore.engine.values.booleanValue\022\030\n\017d",
-      "escending_null\030\352\007 \001(\010\022:\n\016case_sensitive\030" +
-      "\003 \001(\0132\".dstore.engine.values.booleanValu" +
-      "e\022\034\n\023case_sensitive_null\030\353\007 \001(\010\"\220\002\n\010Resp" +
-      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
-      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
-      "re.engine.metainformation.MetaInformatio" +
-      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022F\n\003row\030\004 \003(\01329.dstore.engine." +
-      "pm_AlphabetizeCharacValues_Ad.Response.R" +
-      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.",
-      "engine.proceduresb\006proto3"
+      "_AlphabetizeCharacValues_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\203\002\n\nParameters\0226\n\021" +
+      "characteristic_id\030\001 \001(\0132\033.dstore.values." +
+      "integerValue\022\037\n\026characteristic_id_null\030\351" +
+      "\007 \001(\010\022/\n\ndescending\030\002 \001(\0132\033.dstore.value" +
+      "s.booleanValue\022\030\n\017descending_null\030\352\007 \001(\010",
+      "\0223\n\016case_sensitive\030\003 \001(\0132\033.dstore.values" +
+      ".booleanValue\022\034\n\023case_sensitive_null\030\353\007 " +
+      "\001(\010\"\220\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore" +
+      ".engine.error.Error\022H\n\020meta_information\030" +
+      "\002 \003(\0132..dstore.engine.metainformation.Me" +
+      "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
+      "engine.message.Message\022F\n\003row\030\004 \003(\01329.ds" +
+      "tore.engine.pm_AlphabetizeCharacValues_A" +
+      "d.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035" +
+      "\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3186,7 +3185,7 @@ public final class PmAlphabetizeCharacValuesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3209,7 +3208,7 @@ public final class PmAlphabetizeCharacValuesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_AlphabetizeCharacValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

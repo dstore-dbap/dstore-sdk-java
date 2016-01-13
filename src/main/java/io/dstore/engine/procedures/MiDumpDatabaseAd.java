@@ -13,17 +13,17 @@ public final class MiDumpDatabaseAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getDatabaseName();
+    io.dstore.Values.stringValue getDatabaseName();
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
      * <code>optional bool database_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiDumpDatabaseAd {
     boolean getDatabaseNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+     * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
     boolean hasMaxSizePerDumpFileMb();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+     * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMb();
+    io.dstore.Values.integerValue getMaxSizePerDumpFileMb();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+     * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder();
 
     /**
      * <code>optional bool max_size_per_dump_file_mb_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiDumpDatabaseAd {
     boolean getMaxSizePerDumpFileMbNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+     * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
      */
     boolean hasUsePredefinedDevicesPattern();
     /**
-     * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+     * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getUsePredefinedDevicesPattern();
+    io.dstore.Values.stringValue getUsePredefinedDevicesPattern();
     /**
-     * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+     * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUsePredefinedDevicesPatternOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUsePredefinedDevicesPatternOrBuilder();
 
     /**
      * <code>optional bool use_predefined_devices_pattern_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiDumpDatabaseAd {
     boolean getUsePredefinedDevicesPatternNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+     * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
      */
     boolean hasTruncateTransactionLog();
     /**
-     * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+     * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getTruncateTransactionLog();
+    io.dstore.Values.booleanValue getTruncateTransactionLog();
     /**
-     * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+     * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getTruncateTransactionLogOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getTruncateTransactionLogOrBuilder();
 
     /**
      * <code>optional bool truncate_transaction_log_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class MiDumpDatabaseAd {
     boolean getTruncateTransactionLogNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 5;</code>
      */
     boolean hasCompressLevel();
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getCompressLevel();
+    io.dstore.Values.integerValue getCompressLevel();
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCompressLevelOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCompressLevelOrBuilder();
 
     /**
      * <code>optional bool compress_level_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class MiDumpDatabaseAd {
     boolean getCompressLevelNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
      */
     boolean hasNumberOfDevices();
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getNumberOfDevices();
+    io.dstore.Values.integerValue getNumberOfDevices();
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNumberOfDevicesOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNumberOfDevicesOrBuilder();
 
     /**
      * <code>optional bool number_of_devices_null = 1006;</code>
@@ -165,11 +165,11 @@ public final class MiDumpDatabaseAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -178,11 +178,11 @@ public final class MiDumpDatabaseAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (maxSizePerDumpFileMb_ != null) {
                 subBuilder = maxSizePerDumpFileMb_.toBuilder();
               }
-              maxSizePerDumpFileMb_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              maxSizePerDumpFileMb_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxSizePerDumpFileMb_);
                 maxSizePerDumpFileMb_ = subBuilder.buildPartial();
@@ -191,11 +191,11 @@ public final class MiDumpDatabaseAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (usePredefinedDevicesPattern_ != null) {
                 subBuilder = usePredefinedDevicesPattern_.toBuilder();
               }
-              usePredefinedDevicesPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              usePredefinedDevicesPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usePredefinedDevicesPattern_);
                 usePredefinedDevicesPattern_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class MiDumpDatabaseAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (truncateTransactionLog_ != null) {
                 subBuilder = truncateTransactionLog_.toBuilder();
               }
-              truncateTransactionLog_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              truncateTransactionLog_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(truncateTransactionLog_);
                 truncateTransactionLog_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class MiDumpDatabaseAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (compressLevel_ != null) {
                 subBuilder = compressLevel_.toBuilder();
               }
-              compressLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              compressLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(compressLevel_);
                 compressLevel_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class MiDumpDatabaseAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (numberOfDevices_ != null) {
                 subBuilder = numberOfDevices_.toBuilder();
               }
-              numberOfDevices_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              numberOfDevices_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfDevices_);
                 numberOfDevices_ = subBuilder.buildPartial();
@@ -297,23 +297,23 @@ public final class MiDumpDatabaseAd {
     }
 
     public static final int DATABASE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue databaseName_;
+    private io.dstore.Values.stringValue databaseName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getDatabaseName() {
-      return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+    public io.dstore.Values.stringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
@@ -327,23 +327,23 @@ public final class MiDumpDatabaseAd {
     }
 
     public static final int MAX_SIZE_PER_DUMP_FILE_MB_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue maxSizePerDumpFileMb_;
+    private io.dstore.Values.integerValue maxSizePerDumpFileMb_;
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+     * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
     public boolean hasMaxSizePerDumpFileMb() {
       return maxSizePerDumpFileMb_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+     * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMb() {
-      return maxSizePerDumpFileMb_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
+    public io.dstore.Values.integerValue getMaxSizePerDumpFileMb() {
+      return maxSizePerDumpFileMb_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+     * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder() {
       return getMaxSizePerDumpFileMb();
     }
 
@@ -357,23 +357,23 @@ public final class MiDumpDatabaseAd {
     }
 
     public static final int USE_PREDEFINED_DEVICES_PATTERN_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue usePredefinedDevicesPattern_;
+    private io.dstore.Values.stringValue usePredefinedDevicesPattern_;
     /**
-     * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+     * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
      */
     public boolean hasUsePredefinedDevicesPattern() {
       return usePredefinedDevicesPattern_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+     * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getUsePredefinedDevicesPattern() {
-      return usePredefinedDevicesPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : usePredefinedDevicesPattern_;
+    public io.dstore.Values.stringValue getUsePredefinedDevicesPattern() {
+      return usePredefinedDevicesPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : usePredefinedDevicesPattern_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+     * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUsePredefinedDevicesPatternOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUsePredefinedDevicesPatternOrBuilder() {
       return getUsePredefinedDevicesPattern();
     }
 
@@ -387,23 +387,23 @@ public final class MiDumpDatabaseAd {
     }
 
     public static final int TRUNCATE_TRANSACTION_LOG_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue truncateTransactionLog_;
+    private io.dstore.Values.booleanValue truncateTransactionLog_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+     * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
      */
     public boolean hasTruncateTransactionLog() {
       return truncateTransactionLog_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+     * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getTruncateTransactionLog() {
-      return truncateTransactionLog_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : truncateTransactionLog_;
+    public io.dstore.Values.booleanValue getTruncateTransactionLog() {
+      return truncateTransactionLog_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : truncateTransactionLog_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+     * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getTruncateTransactionLogOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getTruncateTransactionLogOrBuilder() {
       return getTruncateTransactionLog();
     }
 
@@ -417,23 +417,23 @@ public final class MiDumpDatabaseAd {
     }
 
     public static final int COMPRESS_LEVEL_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue compressLevel_;
+    private io.dstore.Values.integerValue compressLevel_;
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 5;</code>
      */
     public boolean hasCompressLevel() {
       return compressLevel_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getCompressLevel() {
-      return compressLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : compressLevel_;
+    public io.dstore.Values.integerValue getCompressLevel() {
+      return compressLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : compressLevel_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
       return getCompressLevel();
     }
 
@@ -447,23 +447,23 @@ public final class MiDumpDatabaseAd {
     }
 
     public static final int NUMBER_OF_DEVICES_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue numberOfDevices_;
+    private io.dstore.Values.integerValue numberOfDevices_;
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
      */
     public boolean hasNumberOfDevices() {
       return numberOfDevices_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getNumberOfDevices() {
-      return numberOfDevices_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfDevices_;
+    public io.dstore.Values.integerValue getNumberOfDevices() {
+      return numberOfDevices_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDevices_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+     * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNumberOfDevicesOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNumberOfDevicesOrBuilder() {
       return getNumberOfDevices();
     }
 
@@ -873,29 +873,29 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue databaseName_ = null;
+      private io.dstore.Values.stringValue databaseName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> databaseNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getDatabaseName() {
+      public io.dstore.Values.stringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
-          return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
         } else {
           return databaseNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public Builder setDatabaseName(io.dstore.engine.Values.stringValue value) {
+      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -909,10 +909,10 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public Builder setDatabaseName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (databaseNameBuilder_ == null) {
           databaseName_ = builderForValue.build();
           onChanged();
@@ -923,13 +923,13 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public Builder mergeDatabaseName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
           if (databaseName_ != null) {
             databaseName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
           } else {
             databaseName_ = value;
           }
@@ -941,7 +941,7 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -955,33 +955,33 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDatabaseNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
         
         onChanged();
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
           return databaseNameBuilder_.getMessageOrBuilder();
         } else {
           return databaseName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
           databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
                   isClean());
@@ -1016,29 +1016,29 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue maxSizePerDumpFileMb_ = null;
+      private io.dstore.Values.integerValue maxSizePerDumpFileMb_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxSizePerDumpFileMbBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxSizePerDumpFileMbBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
       public boolean hasMaxSizePerDumpFileMb() {
         return maxSizePerDumpFileMbBuilder_ != null || maxSizePerDumpFileMb_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMb() {
+      public io.dstore.Values.integerValue getMaxSizePerDumpFileMb() {
         if (maxSizePerDumpFileMbBuilder_ == null) {
-          return maxSizePerDumpFileMb_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
+          return maxSizePerDumpFileMb_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
         } else {
           return maxSizePerDumpFileMbBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public Builder setMaxSizePerDumpFileMb(io.dstore.engine.Values.integerValue value) {
+      public Builder setMaxSizePerDumpFileMb(io.dstore.Values.integerValue value) {
         if (maxSizePerDumpFileMbBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1052,10 +1052,10 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
       public Builder setMaxSizePerDumpFileMb(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (maxSizePerDumpFileMbBuilder_ == null) {
           maxSizePerDumpFileMb_ = builderForValue.build();
           onChanged();
@@ -1066,13 +1066,13 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public Builder mergeMaxSizePerDumpFileMb(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeMaxSizePerDumpFileMb(io.dstore.Values.integerValue value) {
         if (maxSizePerDumpFileMbBuilder_ == null) {
           if (maxSizePerDumpFileMb_ != null) {
             maxSizePerDumpFileMb_ =
-              io.dstore.engine.Values.integerValue.newBuilder(maxSizePerDumpFileMb_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(maxSizePerDumpFileMb_).mergeFrom(value).buildPartial();
           } else {
             maxSizePerDumpFileMb_ = value;
           }
@@ -1084,7 +1084,7 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
       public Builder clearMaxSizePerDumpFileMb() {
         if (maxSizePerDumpFileMbBuilder_ == null) {
@@ -1098,33 +1098,33 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMaxSizePerDumpFileMbBuilder() {
+      public io.dstore.Values.integerValue.Builder getMaxSizePerDumpFileMbBuilder() {
         
         onChanged();
         return getMaxSizePerDumpFileMbFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder() {
         if (maxSizePerDumpFileMbBuilder_ != null) {
           return maxSizePerDumpFileMbBuilder_.getMessageOrBuilder();
         } else {
           return maxSizePerDumpFileMb_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
+              io.dstore.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
+       * <code>optional .dstore.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxSizePerDumpFileMbFieldBuilder() {
         if (maxSizePerDumpFileMbBuilder_ == null) {
           maxSizePerDumpFileMbBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxSizePerDumpFileMb(),
                   getParentForChildren(),
                   isClean());
@@ -1159,29 +1159,29 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue usePredefinedDevicesPattern_ = null;
+      private io.dstore.Values.stringValue usePredefinedDevicesPattern_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> usePredefinedDevicesPatternBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> usePredefinedDevicesPatternBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
       public boolean hasUsePredefinedDevicesPattern() {
         return usePredefinedDevicesPatternBuilder_ != null || usePredefinedDevicesPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getUsePredefinedDevicesPattern() {
+      public io.dstore.Values.stringValue getUsePredefinedDevicesPattern() {
         if (usePredefinedDevicesPatternBuilder_ == null) {
-          return usePredefinedDevicesPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : usePredefinedDevicesPattern_;
+          return usePredefinedDevicesPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : usePredefinedDevicesPattern_;
         } else {
           return usePredefinedDevicesPatternBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
-      public Builder setUsePredefinedDevicesPattern(io.dstore.engine.Values.stringValue value) {
+      public Builder setUsePredefinedDevicesPattern(io.dstore.Values.stringValue value) {
         if (usePredefinedDevicesPatternBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1195,10 +1195,10 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
       public Builder setUsePredefinedDevicesPattern(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (usePredefinedDevicesPatternBuilder_ == null) {
           usePredefinedDevicesPattern_ = builderForValue.build();
           onChanged();
@@ -1209,13 +1209,13 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
-      public Builder mergeUsePredefinedDevicesPattern(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUsePredefinedDevicesPattern(io.dstore.Values.stringValue value) {
         if (usePredefinedDevicesPatternBuilder_ == null) {
           if (usePredefinedDevicesPattern_ != null) {
             usePredefinedDevicesPattern_ =
-              io.dstore.engine.Values.stringValue.newBuilder(usePredefinedDevicesPattern_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(usePredefinedDevicesPattern_).mergeFrom(value).buildPartial();
           } else {
             usePredefinedDevicesPattern_ = value;
           }
@@ -1227,7 +1227,7 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
       public Builder clearUsePredefinedDevicesPattern() {
         if (usePredefinedDevicesPatternBuilder_ == null) {
@@ -1241,33 +1241,33 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUsePredefinedDevicesPatternBuilder() {
+      public io.dstore.Values.stringValue.Builder getUsePredefinedDevicesPatternBuilder() {
         
         onChanged();
         return getUsePredefinedDevicesPatternFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUsePredefinedDevicesPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUsePredefinedDevicesPatternOrBuilder() {
         if (usePredefinedDevicesPatternBuilder_ != null) {
           return usePredefinedDevicesPatternBuilder_.getMessageOrBuilder();
         } else {
           return usePredefinedDevicesPattern_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : usePredefinedDevicesPattern_;
+              io.dstore.Values.stringValue.getDefaultInstance() : usePredefinedDevicesPattern_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
+       * <code>optional .dstore.values.stringValue use_predefined_devices_pattern = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUsePredefinedDevicesPatternFieldBuilder() {
         if (usePredefinedDevicesPatternBuilder_ == null) {
           usePredefinedDevicesPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUsePredefinedDevicesPattern(),
                   getParentForChildren(),
                   isClean());
@@ -1302,29 +1302,29 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue truncateTransactionLog_ = null;
+      private io.dstore.Values.booleanValue truncateTransactionLog_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> truncateTransactionLogBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> truncateTransactionLogBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
       public boolean hasTruncateTransactionLog() {
         return truncateTransactionLogBuilder_ != null || truncateTransactionLog_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getTruncateTransactionLog() {
+      public io.dstore.Values.booleanValue getTruncateTransactionLog() {
         if (truncateTransactionLogBuilder_ == null) {
-          return truncateTransactionLog_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : truncateTransactionLog_;
+          return truncateTransactionLog_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : truncateTransactionLog_;
         } else {
           return truncateTransactionLogBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
-      public Builder setTruncateTransactionLog(io.dstore.engine.Values.booleanValue value) {
+      public Builder setTruncateTransactionLog(io.dstore.Values.booleanValue value) {
         if (truncateTransactionLogBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1338,10 +1338,10 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
       public Builder setTruncateTransactionLog(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (truncateTransactionLogBuilder_ == null) {
           truncateTransactionLog_ = builderForValue.build();
           onChanged();
@@ -1352,13 +1352,13 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
-      public Builder mergeTruncateTransactionLog(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeTruncateTransactionLog(io.dstore.Values.booleanValue value) {
         if (truncateTransactionLogBuilder_ == null) {
           if (truncateTransactionLog_ != null) {
             truncateTransactionLog_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(truncateTransactionLog_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(truncateTransactionLog_).mergeFrom(value).buildPartial();
           } else {
             truncateTransactionLog_ = value;
           }
@@ -1370,7 +1370,7 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
       public Builder clearTruncateTransactionLog() {
         if (truncateTransactionLogBuilder_ == null) {
@@ -1384,33 +1384,33 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getTruncateTransactionLogBuilder() {
+      public io.dstore.Values.booleanValue.Builder getTruncateTransactionLogBuilder() {
         
         onChanged();
         return getTruncateTransactionLogFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getTruncateTransactionLogOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getTruncateTransactionLogOrBuilder() {
         if (truncateTransactionLogBuilder_ != null) {
           return truncateTransactionLogBuilder_.getMessageOrBuilder();
         } else {
           return truncateTransactionLog_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : truncateTransactionLog_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : truncateTransactionLog_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue truncate_transaction_log = 4;</code>
+       * <code>optional .dstore.values.booleanValue truncate_transaction_log = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getTruncateTransactionLogFieldBuilder() {
         if (truncateTransactionLogBuilder_ == null) {
           truncateTransactionLogBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getTruncateTransactionLog(),
                   getParentForChildren(),
                   isClean());
@@ -1445,29 +1445,29 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue compressLevel_ = null;
+      private io.dstore.Values.integerValue compressLevel_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> compressLevelBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> compressLevelBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
       public boolean hasCompressLevel() {
         return compressLevelBuilder_ != null || compressLevel_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getCompressLevel() {
+      public io.dstore.Values.integerValue getCompressLevel() {
         if (compressLevelBuilder_ == null) {
-          return compressLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : compressLevel_;
+          return compressLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : compressLevel_;
         } else {
           return compressLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
-      public Builder setCompressLevel(io.dstore.engine.Values.integerValue value) {
+      public Builder setCompressLevel(io.dstore.Values.integerValue value) {
         if (compressLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1481,10 +1481,10 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
       public Builder setCompressLevel(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (compressLevelBuilder_ == null) {
           compressLevel_ = builderForValue.build();
           onChanged();
@@ -1495,13 +1495,13 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
-      public Builder mergeCompressLevel(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCompressLevel(io.dstore.Values.integerValue value) {
         if (compressLevelBuilder_ == null) {
           if (compressLevel_ != null) {
             compressLevel_ =
-              io.dstore.engine.Values.integerValue.newBuilder(compressLevel_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(compressLevel_).mergeFrom(value).buildPartial();
           } else {
             compressLevel_ = value;
           }
@@ -1513,7 +1513,7 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
       public Builder clearCompressLevel() {
         if (compressLevelBuilder_ == null) {
@@ -1527,33 +1527,33 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCompressLevelBuilder() {
+      public io.dstore.Values.integerValue.Builder getCompressLevelBuilder() {
         
         onChanged();
         return getCompressLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
         if (compressLevelBuilder_ != null) {
           return compressLevelBuilder_.getMessageOrBuilder();
         } else {
           return compressLevel_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : compressLevel_;
+              io.dstore.Values.integerValue.getDefaultInstance() : compressLevel_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 5;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCompressLevelFieldBuilder() {
         if (compressLevelBuilder_ == null) {
           compressLevelBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCompressLevel(),
                   getParentForChildren(),
                   isClean());
@@ -1588,29 +1588,29 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue numberOfDevices_ = null;
+      private io.dstore.Values.integerValue numberOfDevices_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfDevicesBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfDevicesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
       public boolean hasNumberOfDevices() {
         return numberOfDevicesBuilder_ != null || numberOfDevices_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfDevices() {
+      public io.dstore.Values.integerValue getNumberOfDevices() {
         if (numberOfDevicesBuilder_ == null) {
-          return numberOfDevices_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfDevices_;
+          return numberOfDevices_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDevices_;
         } else {
           return numberOfDevicesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
-      public Builder setNumberOfDevices(io.dstore.engine.Values.integerValue value) {
+      public Builder setNumberOfDevices(io.dstore.Values.integerValue value) {
         if (numberOfDevicesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1624,10 +1624,10 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
       public Builder setNumberOfDevices(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (numberOfDevicesBuilder_ == null) {
           numberOfDevices_ = builderForValue.build();
           onChanged();
@@ -1638,13 +1638,13 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
-      public Builder mergeNumberOfDevices(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNumberOfDevices(io.dstore.Values.integerValue value) {
         if (numberOfDevicesBuilder_ == null) {
           if (numberOfDevices_ != null) {
             numberOfDevices_ =
-              io.dstore.engine.Values.integerValue.newBuilder(numberOfDevices_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(numberOfDevices_).mergeFrom(value).buildPartial();
           } else {
             numberOfDevices_ = value;
           }
@@ -1656,7 +1656,7 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
       public Builder clearNumberOfDevices() {
         if (numberOfDevicesBuilder_ == null) {
@@ -1670,33 +1670,33 @@ public final class MiDumpDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNumberOfDevicesBuilder() {
+      public io.dstore.Values.integerValue.Builder getNumberOfDevicesBuilder() {
         
         onChanged();
         return getNumberOfDevicesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfDevicesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfDevicesOrBuilder() {
         if (numberOfDevicesBuilder_ != null) {
           return numberOfDevicesBuilder_.getMessageOrBuilder();
         } else {
           return numberOfDevices_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfDevices_;
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfDevices_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_devices = 6;</code>
+       * <code>optional .dstore.values.integerValue number_of_devices = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfDevicesFieldBuilder() {
         if (numberOfDevicesBuilder_ == null) {
           numberOfDevicesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfDevices(),
                   getParentForChildren(),
                   isClean());
@@ -3887,33 +3887,32 @@ public final class MiDumpDatabaseAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/mi_DumpDataba" +
       "se_Ad.proto\022 dstore.engine.mi_DumpDataba" +
-      "se_Ad\032\032dstore/engine/values.proto\032\031dstor" +
-      "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"\364\004\n\nParameters\0228\n\rdatabase_name\030\001" +
-      " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "\033\n\022database_name_null\030\351\007 \001(\010\022E\n\031max_size" +
-      "_per_dump_file_mb\030\002 \001(\0132\".dstore.engine." +
-      "values.integerValue\022\'\n\036max_size_per_dump",
-      "_file_mb_null\030\352\007 \001(\010\022I\n\036use_predefined_d" +
-      "evices_pattern\030\003 \001(\0132!.dstore.engine.val" +
-      "ues.stringValue\022,\n#use_predefined_device" +
-      "s_pattern_null\030\353\007 \001(\010\022D\n\030truncate_transa" +
-      "ction_log\030\004 \001(\0132\".dstore.engine.values.b" +
-      "ooleanValue\022&\n\035truncate_transaction_log_" +
-      "null\030\354\007 \001(\010\022:\n\016compress_level\030\005 \001(\0132\".ds" +
-      "tore.engine.values.integerValue\022\034\n\023compr" +
-      "ess_level_null\030\355\007 \001(\010\022=\n\021number_of_devic" +
-      "es\030\006 \001(\0132\".dstore.engine.values.integerV",
-      "alue\022\037\n\026number_of_devices_null\030\356\007 \001(\010\"\205\002" +
-      "\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engin" +
-      "e.error.Error\022H\n\020meta_information\030\002 \003(\0132" +
-      "..dstore.engine.metainformation.MetaInfo" +
-      "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
-      ".message.Message\022;\n\003row\030\004 \003(\0132..dstore.e" +
-      "ngine.mi_DumpDatabase_Ad.Response.Row\032\026\n" +
-      "\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "se_Ad\032\023dstore/values.proto\032\031dstore/engin" +
+      "e/error.proto\032\033dstore/engine/message.pro" +
+      "to\032#dstore/engine/metainformation.proto\"" +
+      "\312\004\n\nParameters\0221\n\rdatabase_name\030\001 \001(\0132\032." +
+      "dstore.values.stringValue\022\033\n\022database_na" +
+      "me_null\030\351\007 \001(\010\022>\n\031max_size_per_dump_file" +
+      "_mb\030\002 \001(\0132\033.dstore.values.integerValue\022\'" +
+      "\n\036max_size_per_dump_file_mb_null\030\352\007 \001(\010\022",
+      "B\n\036use_predefined_devices_pattern\030\003 \001(\0132" +
+      "\032.dstore.values.stringValue\022,\n#use_prede" +
+      "fined_devices_pattern_null\030\353\007 \001(\010\022=\n\030tru" +
+      "ncate_transaction_log\030\004 \001(\0132\033.dstore.val" +
+      "ues.booleanValue\022&\n\035truncate_transaction" +
+      "_log_null\030\354\007 \001(\010\0223\n\016compress_level\030\005 \001(\013" +
+      "2\033.dstore.values.integerValue\022\034\n\023compres" +
+      "s_level_null\030\355\007 \001(\010\0226\n\021number_of_devices" +
+      "\030\006 \001(\0132\033.dstore.values.integerValue\022\037\n\026n" +
+      "umber_of_devices_null\030\356\007 \001(\010\"\205\002\n\010Respons",
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022;\n\003row\030\004 \003(\0132..dstore.engine.mi_" +
+      "DumpDatabase_Ad.Response.Row\032\026\n\003Row\022\017\n\006r" +
+      "ow_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3926,7 +3925,7 @@ public final class MiDumpDatabaseAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3949,7 +3948,7 @@ public final class MiDumpDatabaseAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_DumpDatabase_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

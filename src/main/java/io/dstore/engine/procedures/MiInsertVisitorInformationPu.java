@@ -13,17 +13,17 @@ public final class MiInsertVisitorInformationPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiInsertVisitorInformationPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
      */
     boolean hasVisitorInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getVisitorInformationTypeId();
+    io.dstore.Values.integerValue getVisitorInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getVisitorInformationTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getVisitorInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool visitor_information_type_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiInsertVisitorInformationPu {
     boolean getVisitorInformationTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+     * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
      */
     boolean hasVisitorInformation();
     /**
-     * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+     * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getVisitorInformation();
+    io.dstore.Values.stringValue getVisitorInformation();
     /**
-     * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+     * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getVisitorInformationOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getVisitorInformationOrBuilder();
 
     /**
      * <code>optional bool visitor_information_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class MiInsertVisitorInformationPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class MiInsertVisitorInformationPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (visitorInformationTypeId_ != null) {
                 subBuilder = visitorInformationTypeId_.toBuilder();
               }
-              visitorInformationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              visitorInformationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorInformationTypeId_);
                 visitorInformationTypeId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class MiInsertVisitorInformationPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (visitorInformation_ != null) {
                 subBuilder = visitorInformation_.toBuilder();
               }
-              visitorInformation_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              visitorInformation_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorInformation_);
                 visitorInformation_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class MiInsertVisitorInformationPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -216,23 +216,23 @@ public final class MiInsertVisitorInformationPu {
     }
 
     public static final int VISITOR_INFORMATION_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue visitorInformationTypeId_;
+    private io.dstore.Values.integerValue visitorInformationTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
      */
     public boolean hasVisitorInformationTypeId() {
       return visitorInformationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getVisitorInformationTypeId() {
-      return visitorInformationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorInformationTypeId_;
+    public io.dstore.Values.integerValue getVisitorInformationTypeId() {
+      return visitorInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorInformationTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getVisitorInformationTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getVisitorInformationTypeIdOrBuilder() {
       return getVisitorInformationTypeId();
     }
 
@@ -246,23 +246,23 @@ public final class MiInsertVisitorInformationPu {
     }
 
     public static final int VISITOR_INFORMATION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue visitorInformation_;
+    private io.dstore.Values.stringValue visitorInformation_;
     /**
-     * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+     * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
      */
     public boolean hasVisitorInformation() {
       return visitorInformation_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+     * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getVisitorInformation() {
-      return visitorInformation_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : visitorInformation_;
+    public io.dstore.Values.stringValue getVisitorInformation() {
+      return visitorInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : visitorInformation_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+     * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getVisitorInformationOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getVisitorInformationOrBuilder() {
       return getVisitorInformation();
     }
 
@@ -570,29 +570,29 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -638,7 +638,7 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue visitorInformationTypeId_ = null;
+      private io.dstore.Values.integerValue visitorInformationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visitorInformationTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorInformationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
       public boolean hasVisitorInformationTypeId() {
         return visitorInformationTypeIdBuilder_ != null || visitorInformationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getVisitorInformationTypeId() {
+      public io.dstore.Values.integerValue getVisitorInformationTypeId() {
         if (visitorInformationTypeIdBuilder_ == null) {
-          return visitorInformationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorInformationTypeId_;
+          return visitorInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorInformationTypeId_;
         } else {
           return visitorInformationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
-      public Builder setVisitorInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setVisitorInformationTypeId(io.dstore.Values.integerValue value) {
         if (visitorInformationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
       public Builder setVisitorInformationTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (visitorInformationTypeIdBuilder_ == null) {
           visitorInformationTypeId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
-      public Builder mergeVisitorInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeVisitorInformationTypeId(io.dstore.Values.integerValue value) {
         if (visitorInformationTypeIdBuilder_ == null) {
           if (visitorInformationTypeId_ != null) {
             visitorInformationTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(visitorInformationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(visitorInformationTypeId_).mergeFrom(value).buildPartial();
           } else {
             visitorInformationTypeId_ = value;
           }
@@ -781,7 +781,7 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
       public Builder clearVisitorInformationTypeId() {
         if (visitorInformationTypeIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getVisitorInformationTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getVisitorInformationTypeIdBuilder() {
         
         onChanged();
         return getVisitorInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisitorInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisitorInformationTypeIdOrBuilder() {
         if (visitorInformationTypeIdBuilder_ != null) {
           return visitorInformationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return visitorInformationTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorInformationTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : visitorInformationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_information_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue visitor_information_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisitorInformationTypeIdFieldBuilder() {
         if (visitorInformationTypeIdBuilder_ == null) {
           visitorInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisitorInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue visitorInformation_ = null;
+      private io.dstore.Values.stringValue visitorInformation_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> visitorInformationBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> visitorInformationBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
       public boolean hasVisitorInformation() {
         return visitorInformationBuilder_ != null || visitorInformation_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getVisitorInformation() {
+      public io.dstore.Values.stringValue getVisitorInformation() {
         if (visitorInformationBuilder_ == null) {
-          return visitorInformation_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : visitorInformation_;
+          return visitorInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : visitorInformation_;
         } else {
           return visitorInformationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
-      public Builder setVisitorInformation(io.dstore.engine.Values.stringValue value) {
+      public Builder setVisitorInformation(io.dstore.Values.stringValue value) {
         if (visitorInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
       public Builder setVisitorInformation(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (visitorInformationBuilder_ == null) {
           visitorInformation_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
-      public Builder mergeVisitorInformation(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeVisitorInformation(io.dstore.Values.stringValue value) {
         if (visitorInformationBuilder_ == null) {
           if (visitorInformation_ != null) {
             visitorInformation_ =
-              io.dstore.engine.Values.stringValue.newBuilder(visitorInformation_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(visitorInformation_).mergeFrom(value).buildPartial();
           } else {
             visitorInformation_ = value;
           }
@@ -924,7 +924,7 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
       public Builder clearVisitorInformation() {
         if (visitorInformationBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class MiInsertVisitorInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getVisitorInformationBuilder() {
+      public io.dstore.Values.stringValue.Builder getVisitorInformationBuilder() {
         
         onChanged();
         return getVisitorInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getVisitorInformationOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getVisitorInformationOrBuilder() {
         if (visitorInformationBuilder_ != null) {
           return visitorInformationBuilder_.getMessageOrBuilder();
         } else {
           return visitorInformation_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : visitorInformation_;
+              io.dstore.Values.stringValue.getDefaultInstance() : visitorInformation_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue visitor_information = 3;</code>
+       * <code>optional .dstore.values.stringValue visitor_information = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getVisitorInformationFieldBuilder() {
         if (visitorInformationBuilder_ == null) {
           visitorInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getVisitorInformation(),
                   getParentForChildren(),
                   isClean());
@@ -3155,26 +3155,25 @@ public final class MiInsertVisitorInformationPu {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/mi_InsertVisi" +
       "torInformation_Pu.proto\022,dstore.engine.m" +
-      "i_InsertVisitorInformation_Pu\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\262\002\n\nParam" +
-      "eters\0224\n\tunique_id\030\001 \001(\0132!.dstore.engine" +
-      ".values.stringValue\022\027\n\016unique_id_null\030\351\007" +
-      " \001(\010\022G\n\033visitor_information_type_id\030\002 \001(" +
-      "\0132\".dstore.engine.values.integerValue\022)\n",
-      " visitor_information_type_id_null\030\352\007 \001(\010" +
-      "\022>\n\023visitor_information\030\003 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022!\n\030visitor_info" +
-      "rmation_null\030\353\007 \001(\010\"\221\002\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message" +
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022G" +
-      "\n\003row\030\004 \003(\0132:.dstore.engine.mi_InsertVis" +
-      "itorInformation_Pu.Response.Row\032\026\n\003Row\022\017",
-      "\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proc" +
-      "eduresb\006proto3"
+      "i_InsertVisitorInformation_Pu\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\235\002\n\nParameters\022-" +
+      "\n\tunique_id\030\001 \001(\0132\032.dstore.values.string" +
+      "Value\022\027\n\016unique_id_null\030\351\007 \001(\010\022@\n\033visito" +
+      "r_information_type_id\030\002 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022)\n visitor_information_",
+      "type_id_null\030\352\007 \001(\010\0227\n\023visitor_informati" +
+      "on\030\003 \001(\0132\032.dstore.values.stringValue\022!\n\030" +
+      "visitor_information_null\030\353\007 \001(\010\"\221\002\n\010Resp" +
+      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
+      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
+      "re.engine.metainformation.MetaInformatio" +
+      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
+      "ge.Message\022G\n\003row\030\004 \003(\0132:.dstore.engine." +
+      "mi_InsertVisitorInformation_Pu.Response." +
+      "Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore",
+      ".engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3187,7 +3186,7 @@ public final class MiInsertVisitorInformationPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3210,7 +3209,7 @@ public final class MiInsertVisitorInformationPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_InsertVisitorInformation_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

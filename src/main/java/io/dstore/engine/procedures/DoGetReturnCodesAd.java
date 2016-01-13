@@ -13,17 +13,17 @@ public final class DoGetReturnCodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
     boolean hasReturnCode();
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getReturnCode();
+    io.dstore.Values.integerValue getReturnCode();
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder();
 
     /**
      * <code>optional bool return_code_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class DoGetReturnCodesAd {
     boolean getReturnCodeNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
      */
     boolean hasReturnCodeCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getReturnCodeCategoryId();
+    io.dstore.Values.integerValue getReturnCodeCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
 
     /**
      * <code>optional bool return_code_category_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class DoGetReturnCodesAd {
     boolean getReturnCodeCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class DoGetReturnCodesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (returnCode_ != null) {
                 subBuilder = returnCode_.toBuilder();
               }
-              returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              returnCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCode_);
                 returnCode_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class DoGetReturnCodesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (returnCodeCategoryId_ != null) {
                 subBuilder = returnCodeCategoryId_.toBuilder();
               }
-              returnCodeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              returnCodeCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCodeCategoryId_);
                 returnCodeCategoryId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class DoGetReturnCodesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class DoGetReturnCodesAd {
     }
 
     public static final int RETURN_CODE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue returnCode_;
+    private io.dstore.Values.integerValue returnCode_;
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
     public boolean hasReturnCode() {
       return returnCode_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getReturnCode() {
-      return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+    public io.dstore.Values.integerValue getReturnCode() {
+      return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
       return getReturnCode();
     }
 
@@ -216,23 +216,23 @@ public final class DoGetReturnCodesAd {
     }
 
     public static final int RETURN_CODE_CATEGORY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue returnCodeCategoryId_;
+    private io.dstore.Values.integerValue returnCodeCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
      */
     public boolean hasReturnCodeCategoryId() {
       return returnCodeCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getReturnCodeCategoryId() {
-      return returnCodeCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+    public io.dstore.Values.integerValue getReturnCodeCategoryId() {
+      return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
       return getReturnCodeCategoryId();
     }
 
@@ -246,23 +246,23 @@ public final class DoGetReturnCodesAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.integerValue language_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -570,29 +570,29 @@ public final class DoGetReturnCodesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue returnCode_ = null;
+      private io.dstore.Values.integerValue returnCode_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> returnCodeBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       public boolean hasReturnCode() {
         return returnCodeBuilder_ != null || returnCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getReturnCode() {
+      public io.dstore.Values.integerValue getReturnCode() {
         if (returnCodeBuilder_ == null) {
-          return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+          return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
         } else {
           return returnCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public Builder setReturnCode(io.dstore.engine.Values.integerValue value) {
+      public Builder setReturnCode(io.dstore.Values.integerValue value) {
         if (returnCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       public Builder setReturnCode(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (returnCodeBuilder_ == null) {
           returnCode_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public Builder mergeReturnCode(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeReturnCode(io.dstore.Values.integerValue value) {
         if (returnCodeBuilder_ == null) {
           if (returnCode_ != null) {
             returnCode_ =
-              io.dstore.engine.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
           } else {
             returnCode_ = value;
           }
@@ -638,7 +638,7 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       public Builder clearReturnCode() {
         if (returnCodeBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getReturnCodeBuilder() {
+      public io.dstore.Values.integerValue.Builder getReturnCodeBuilder() {
         
         onChanged();
         return getReturnCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
         if (returnCodeBuilder_ != null) {
           return returnCodeBuilder_.getMessageOrBuilder();
         } else {
           return returnCode_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+              io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getReturnCodeFieldBuilder() {
         if (returnCodeBuilder_ == null) {
           returnCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getReturnCode(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class DoGetReturnCodesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue returnCodeCategoryId_ = null;
+      private io.dstore.Values.integerValue returnCodeCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> returnCodeCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
       public boolean hasReturnCodeCategoryId() {
         return returnCodeCategoryIdBuilder_ != null || returnCodeCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getReturnCodeCategoryId() {
+      public io.dstore.Values.integerValue getReturnCodeCategoryId() {
         if (returnCodeCategoryIdBuilder_ == null) {
-          return returnCodeCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+          return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
         } else {
           return returnCodeCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
-      public Builder setReturnCodeCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setReturnCodeCategoryId(io.dstore.Values.integerValue value) {
         if (returnCodeCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
       public Builder setReturnCodeCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (returnCodeCategoryIdBuilder_ == null) {
           returnCodeCategoryId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
-      public Builder mergeReturnCodeCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeReturnCodeCategoryId(io.dstore.Values.integerValue value) {
         if (returnCodeCategoryIdBuilder_ == null) {
           if (returnCodeCategoryId_ != null) {
             returnCodeCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
           } else {
             returnCodeCategoryId_ = value;
           }
@@ -781,7 +781,7 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
       public Builder clearReturnCodeCategoryId() {
         if (returnCodeCategoryIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getReturnCodeCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getReturnCodeCategoryIdBuilder() {
         
         onChanged();
         return getReturnCodeCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
         if (returnCodeCategoryIdBuilder_ != null) {
           return returnCodeCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return returnCodeCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getReturnCodeCategoryIdFieldBuilder() {
         if (returnCodeCategoryIdBuilder_ == null) {
           returnCodeCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getReturnCodeCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class DoGetReturnCodesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -924,7 +924,7 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class DoGetReturnCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class DoGetReturnCodesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
@@ -1294,24 +1294,24 @@ public final class DoGetReturnCodesAd {
        */
       boolean hasReturnCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getReturnCode();
+      io.dstore.Values.integerValue getReturnCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurz-Beschreibung des "ReturnCode"
@@ -1319,24 +1319,24 @@ public final class DoGetReturnCodesAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurz-Beschreibung des "ReturnCode"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurz-Beschreibung des "ReturnCode"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
        *
        * <pre>
        * ID der Kategorie, der "ReturnCode" zugeordnet ist
@@ -1344,24 +1344,24 @@ public final class DoGetReturnCodesAd {
        */
       boolean hasReturnCodeCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
        *
        * <pre>
        * ID der Kategorie, der "ReturnCode" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getReturnCodeCategoryId();
+      io.dstore.Values.integerValue getReturnCodeCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
        *
        * <pre>
        * ID der Kategorie, der "ReturnCode" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
        *
        * <pre>
        * Ausführliche Beschreibung des "ReturnCode"
@@ -1369,24 +1369,24 @@ public final class DoGetReturnCodesAd {
        */
       boolean hasDetailedDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
        *
        * <pre>
        * Ausführliche Beschreibung des "ReturnCode"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDetailedDescription();
+      io.dstore.Values.stringValue getDetailedDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
        *
        * <pre>
        * Ausführliche Beschreibung des "ReturnCode"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+       * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
@@ -1394,21 +1394,21 @@ public final class DoGetReturnCodesAd {
        */
       boolean hasReturnCodeCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+       * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getReturnCodeCategory();
+      io.dstore.Values.stringValue getReturnCodeCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+       * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetReturnCodes_Ad.Response.Row}
@@ -1455,11 +1455,11 @@ public final class DoGetReturnCodesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (returnCode_ != null) {
                   subBuilder = returnCode_.toBuilder();
                 }
-                returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                returnCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCode_);
                   returnCode_ = subBuilder.buildPartial();
@@ -1468,11 +1468,11 @@ public final class DoGetReturnCodesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1481,11 +1481,11 @@ public final class DoGetReturnCodesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (returnCodeCategoryId_ != null) {
                   subBuilder = returnCodeCategoryId_.toBuilder();
                 }
-                returnCodeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                returnCodeCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCodeCategoryId_);
                   returnCodeCategoryId_ = subBuilder.buildPartial();
@@ -1494,11 +1494,11 @@ public final class DoGetReturnCodesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (detailedDescription_ != null) {
                   subBuilder = detailedDescription_.toBuilder();
                 }
-                detailedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                detailedDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(detailedDescription_);
                   detailedDescription_ = subBuilder.buildPartial();
@@ -1507,11 +1507,11 @@ public final class DoGetReturnCodesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (returnCodeCategory_ != null) {
                   subBuilder = returnCodeCategory_.toBuilder();
                 }
-                returnCodeCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                returnCodeCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCodeCategory_);
                   returnCodeCategory_ = subBuilder.buildPartial();
@@ -1553,9 +1553,9 @@ public final class DoGetReturnCodesAd {
       }
 
       public static final int RETURN_CODE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue returnCode_;
+      private io.dstore.Values.integerValue returnCode_;
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
@@ -1565,30 +1565,30 @@ public final class DoGetReturnCodesAd {
         return returnCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getReturnCode() {
-        return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+      public io.dstore.Values.integerValue getReturnCode() {
+        return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
         return getReturnCode();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurz-Beschreibung des "ReturnCode"
@@ -1598,30 +1598,30 @@ public final class DoGetReturnCodesAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurz-Beschreibung des "ReturnCode"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurz-Beschreibung des "ReturnCode"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int RETURN_CODE_CATEGORY_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue returnCodeCategoryId_;
+      private io.dstore.Values.integerValue returnCodeCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
        *
        * <pre>
        * ID der Kategorie, der "ReturnCode" zugeordnet ist
@@ -1631,30 +1631,30 @@ public final class DoGetReturnCodesAd {
         return returnCodeCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
        *
        * <pre>
        * ID der Kategorie, der "ReturnCode" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getReturnCodeCategoryId() {
-        return returnCodeCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+      public io.dstore.Values.integerValue getReturnCodeCategoryId() {
+        return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
        *
        * <pre>
        * ID der Kategorie, der "ReturnCode" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
         return getReturnCodeCategoryId();
       }
 
       public static final int DETAILED_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue detailedDescription_;
+      private io.dstore.Values.stringValue detailedDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
        *
        * <pre>
        * Ausführliche Beschreibung des "ReturnCode"
@@ -1664,30 +1664,30 @@ public final class DoGetReturnCodesAd {
         return detailedDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
        *
        * <pre>
        * Ausführliche Beschreibung des "ReturnCode"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDetailedDescription() {
-        return detailedDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : detailedDescription_;
+      public io.dstore.Values.stringValue getDetailedDescription() {
+        return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
        *
        * <pre>
        * Ausführliche Beschreibung des "ReturnCode"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
         return getDetailedDescription();
       }
 
       public static final int RETURN_CODE_CATEGORY_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue returnCodeCategory_;
+      private io.dstore.Values.stringValue returnCodeCategory_;
       /**
-       * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+       * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
@@ -1697,23 +1697,23 @@ public final class DoGetReturnCodesAd {
         return returnCodeCategory_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+       * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getReturnCodeCategory() {
-        return returnCodeCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
+      public io.dstore.Values.stringValue getReturnCodeCategory() {
+        return returnCodeCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+       * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder() {
         return getReturnCodeCategory();
       }
 
@@ -2054,11 +2054,11 @@ public final class DoGetReturnCodesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue returnCode_ = null;
+        private io.dstore.Values.integerValue returnCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> returnCodeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
@@ -2068,27 +2068,27 @@ public final class DoGetReturnCodesAd {
           return returnCodeBuilder_ != null || returnCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getReturnCode() {
+        public io.dstore.Values.integerValue getReturnCode() {
           if (returnCodeBuilder_ == null) {
-            return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+            return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
           } else {
             return returnCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
-        public Builder setReturnCode(io.dstore.engine.Values.integerValue value) {
+        public Builder setReturnCode(io.dstore.Values.integerValue value) {
           if (returnCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2102,14 +2102,14 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
         public Builder setReturnCode(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (returnCodeBuilder_ == null) {
             returnCode_ = builderForValue.build();
             onChanged();
@@ -2120,17 +2120,17 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
-        public Builder mergeReturnCode(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeReturnCode(io.dstore.Values.integerValue value) {
           if (returnCodeBuilder_ == null) {
             if (returnCode_ != null) {
               returnCode_ =
-                io.dstore.engine.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
             } else {
               returnCode_ = value;
             }
@@ -2142,7 +2142,7 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
@@ -2160,45 +2160,45 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getReturnCodeBuilder() {
+        public io.dstore.Values.integerValue.Builder getReturnCodeBuilder() {
           
           onChanged();
           return getReturnCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
           if (returnCodeBuilder_ != null) {
             return returnCodeBuilder_.getMessageOrBuilder();
           } else {
             return returnCode_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+                io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Ein Return-Code, der von "dStore"-Prozeduren oder -Triggern zurückgegeben werden kann
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getReturnCodeFieldBuilder() {
           if (returnCodeBuilder_ == null) {
             returnCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getReturnCode(),
                     getParentForChildren(),
                     isClean());
@@ -2207,11 +2207,11 @@ public final class DoGetReturnCodesAd {
           return returnCodeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
@@ -2221,27 +2221,27 @@ public final class DoGetReturnCodesAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2255,14 +2255,14 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2273,17 +2273,17 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2295,7 +2295,7 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
@@ -2313,45 +2313,45 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurz-Beschreibung des "ReturnCode"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2360,11 +2360,11 @@ public final class DoGetReturnCodesAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue returnCodeCategoryId_ = null;
+        private io.dstore.Values.integerValue returnCodeCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> returnCodeCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
@@ -2374,27 +2374,27 @@ public final class DoGetReturnCodesAd {
           return returnCodeCategoryIdBuilder_ != null || returnCodeCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getReturnCodeCategoryId() {
+        public io.dstore.Values.integerValue getReturnCodeCategoryId() {
           if (returnCodeCategoryIdBuilder_ == null) {
-            return returnCodeCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+            return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
           } else {
             return returnCodeCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
-        public Builder setReturnCodeCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setReturnCodeCategoryId(io.dstore.Values.integerValue value) {
           if (returnCodeCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2408,14 +2408,14 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
         public Builder setReturnCodeCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (returnCodeCategoryIdBuilder_ == null) {
             returnCodeCategoryId_ = builderForValue.build();
             onChanged();
@@ -2426,17 +2426,17 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
-        public Builder mergeReturnCodeCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeReturnCodeCategoryId(io.dstore.Values.integerValue value) {
           if (returnCodeCategoryIdBuilder_ == null) {
             if (returnCodeCategoryId_ != null) {
               returnCodeCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
             } else {
               returnCodeCategoryId_ = value;
             }
@@ -2448,7 +2448,7 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
@@ -2466,45 +2466,45 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getReturnCodeCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getReturnCodeCategoryIdBuilder() {
           
           onChanged();
           return getReturnCodeCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
           if (returnCodeCategoryIdBuilder_ != null) {
             return returnCodeCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return returnCodeCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code_category_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue return_code_category_id = 10003;</code>
          *
          * <pre>
          * ID der Kategorie, der "ReturnCode" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getReturnCodeCategoryIdFieldBuilder() {
           if (returnCodeCategoryIdBuilder_ == null) {
             returnCodeCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getReturnCodeCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -2513,11 +2513,11 @@ public final class DoGetReturnCodesAd {
           return returnCodeCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue detailedDescription_ = null;
+        private io.dstore.Values.stringValue detailedDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> detailedDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailedDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
@@ -2527,27 +2527,27 @@ public final class DoGetReturnCodesAd {
           return detailedDescriptionBuilder_ != null || detailedDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDetailedDescription() {
+        public io.dstore.Values.stringValue getDetailedDescription() {
           if (detailedDescriptionBuilder_ == null) {
-            return detailedDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : detailedDescription_;
+            return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
           } else {
             return detailedDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
-        public Builder setDetailedDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDetailedDescription(io.dstore.Values.stringValue value) {
           if (detailedDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2561,14 +2561,14 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
         public Builder setDetailedDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (detailedDescriptionBuilder_ == null) {
             detailedDescription_ = builderForValue.build();
             onChanged();
@@ -2579,17 +2579,17 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
-        public Builder mergeDetailedDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDetailedDescription(io.dstore.Values.stringValue value) {
           if (detailedDescriptionBuilder_ == null) {
             if (detailedDescription_ != null) {
               detailedDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
             } else {
               detailedDescription_ = value;
             }
@@ -2601,7 +2601,7 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
@@ -2619,45 +2619,45 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDetailedDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDetailedDescriptionBuilder() {
           
           onChanged();
           return getDetailedDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
           if (detailedDescriptionBuilder_ != null) {
             return detailedDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return detailedDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : detailedDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10004;</code>
          *
          * <pre>
          * Ausführliche Beschreibung des "ReturnCode"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDetailedDescriptionFieldBuilder() {
           if (detailedDescriptionBuilder_ == null) {
             detailedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDetailedDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2666,11 +2666,11 @@ public final class DoGetReturnCodesAd {
           return detailedDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue returnCodeCategory_ = null;
+        private io.dstore.Values.stringValue returnCodeCategory_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> returnCodeCategoryBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> returnCodeCategoryBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
@@ -2680,27 +2680,27 @@ public final class DoGetReturnCodesAd {
           return returnCodeCategoryBuilder_ != null || returnCodeCategory_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getReturnCodeCategory() {
+        public io.dstore.Values.stringValue getReturnCodeCategory() {
           if (returnCodeCategoryBuilder_ == null) {
-            return returnCodeCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
+            return returnCodeCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
           } else {
             return returnCodeCategoryBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
-        public Builder setReturnCodeCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder setReturnCodeCategory(io.dstore.Values.stringValue value) {
           if (returnCodeCategoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2714,14 +2714,14 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
         public Builder setReturnCodeCategory(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (returnCodeCategoryBuilder_ == null) {
             returnCodeCategory_ = builderForValue.build();
             onChanged();
@@ -2732,17 +2732,17 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
-        public Builder mergeReturnCodeCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeReturnCodeCategory(io.dstore.Values.stringValue value) {
           if (returnCodeCategoryBuilder_ == null) {
             if (returnCodeCategory_ != null) {
               returnCodeCategory_ =
-                io.dstore.engine.Values.stringValue.newBuilder(returnCodeCategory_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(returnCodeCategory_).mergeFrom(value).buildPartial();
             } else {
               returnCodeCategory_ = value;
             }
@@ -2754,7 +2754,7 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
@@ -2772,45 +2772,45 @@ public final class DoGetReturnCodesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getReturnCodeCategoryBuilder() {
+        public io.dstore.Values.stringValue.Builder getReturnCodeCategoryBuilder() {
           
           onChanged();
           return getReturnCodeCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder() {
           if (returnCodeCategoryBuilder_ != null) {
             return returnCodeCategoryBuilder_.getMessageOrBuilder();
           } else {
             return returnCodeCategory_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
+                io.dstore.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue return_code_category = 10005;</code>
+         * <code>optional .dstore.values.stringValue return_code_category = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getReturnCodeCategoryFieldBuilder() {
           if (returnCodeCategoryBuilder_ == null) {
             returnCodeCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getReturnCodeCategory(),
                     getParentForChildren(),
                     isClean());
@@ -4380,33 +4380,31 @@ public final class DoGetReturnCodesAd {
     java.lang.String[] descriptorData = {
       "\n3dstore/engine/procedures/do_GetReturnC" +
       "odes_Ad.proto\022\"dstore.engine.do_GetRetur" +
-      "nCodes_Ad\032\032dstore/engine/values.proto\032\031d" +
-      "store/engine/error.proto\032\033dstore/engine/" +
-      "message.proto\032#dstore/engine/metainforma" +
-      "tion.proto\"\240\002\n\nParameters\0227\n\013return_code" +
-      "\030\001 \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022\031\n\020return_code_null\030\351\007 \001(\010\022C\n\027return_" +
-      "code_category_id\030\002 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022%\n\034return_code_catego",
-      "ry_id_null\030\352\007 \001(\010\0227\n\013language_id\030\003 \001(\0132\"" +
-      ".dstore.engine.values.integerValue\022\031\n\020la" +
-      "nguage_id_null\030\353\007 \001(\010\"\305\004\n\010Response\022)\n\005er" +
-      "ror\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n" +
-      "\020meta_information\030\002 \003(\0132..dstore.engine." +
-      "metainformation.MetaInformation\022/\n\007messa" +
-      "ge\030\003 \003(\0132\036.dstore.engine.message.Message" +
-      "\022=\n\003row\030\004 \003(\01320.dstore.engine.do_GetRetu" +
-      "rnCodes_Ad.Response.Row\032\323\002\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005\0228\n\013return_code\030\221N \001(\0132\".dstore.",
-      "engine.values.integerValue\0227\n\013descriptio" +
-      "n\030\222N \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\022D\n\027return_code_category_id\030\223N \001(\0132\"." +
-      "dstore.engine.values.integerValue\022@\n\024det" +
-      "ailed_description\030\224N \001(\0132!.dstore.engine" +
-      ".values.stringValue\022@\n\024return_code_categ" +
-      "ory\030\225N \001(\0132!.dstore.engine.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "nCodes_Ad\032\023dstore/values.proto\032\031dstore/e" +
+      "ngine/error.proto\032\033dstore/engine/message" +
+      ".proto\032#dstore/engine/metainformation.pr" +
+      "oto\"\213\002\n\nParameters\0220\n\013return_code\030\001 \001(\0132" +
+      "\033.dstore.values.integerValue\022\031\n\020return_c" +
+      "ode_null\030\351\007 \001(\010\022<\n\027return_code_category_" +
+      "id\030\002 \001(\0132\033.dstore.values.integerValue\022%\n" +
+      "\034return_code_category_id_null\030\352\007 \001(\010\0220\n\013",
+      "language_id\030\003 \001(\0132\033.dstore.values.intege" +
+      "rValue\022\031\n\020language_id_null\030\353\007 \001(\010\"\242\004\n\010Re" +
+      "sponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.er" +
+      "ror.Error\022H\n\020meta_information\030\002 \003(\0132..ds" +
+      "tore.engine.metainformation.MetaInformat" +
+      "ion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
+      "sage.Message\022=\n\003row\030\004 \003(\01320.dstore.engin" +
+      "e.do_GetReturnCodes_Ad.Response.Row\032\260\002\n\003" +
+      "Row\022\017\n\006row_id\030\220N \001(\005\0221\n\013return_code\030\221N \001" +
+      "(\0132\033.dstore.values.integerValue\0220\n\013descr",
+      "iption\030\222N \001(\0132\032.dstore.values.stringValu" +
+      "e\022=\n\027return_code_category_id\030\223N \001(\0132\033.ds" +
+      "tore.values.integerValue\0229\n\024detailed_des" +
+      "cription\030\224N \001(\0132\032.dstore.values.stringVa" +
+      "lue\0229\n\024return_code_category\030\225N \001(\0132\032.dst" +
+      "ore.values.stringValueB\035\n\033io.dstore.engi" +
+      "ne.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4419,7 +4417,7 @@ public final class DoGetReturnCodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4442,7 +4440,7 @@ public final class DoGetReturnCodesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_do_GetReturnCodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ReturnCode", "Description", "ReturnCodeCategoryId", "DetailedDescription", "ReturnCodeCategory", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

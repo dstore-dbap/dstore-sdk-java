@@ -13,17 +13,17 @@ public final class OmGetTrolleyContInfoTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getInformationTypeId();
+    io.dstore.Values.integerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class OmGetTrolleyContInfoTypesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class OmGetTrolleyContInfoTypesAd {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue informationTypeId_;
+    private io.dstore.Values.integerValue informationTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.Values.integerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -368,29 +368,29 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue informationTypeId_ = null;
+      private io.dstore.Values.integerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getInformationTypeId() {
+      public io.dstore.Values.integerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
-      public Builder setInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -436,7 +436,7 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class OmGetTrolleyContInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class OmGetTrolleyContInfoTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -806,24 +806,24 @@ public final class OmGetTrolleyContInfoTypesAd {
        */
       boolean hasFieldTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getFieldTypeId();
+      io.dstore.Values.integerValue getFieldTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informations-Typs
@@ -831,24 +831,24 @@ public final class OmGetTrolleyContInfoTypesAd {
        */
       boolean hasTrolleyContentInfoTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTrolleyContentInfoTypeId();
+      io.dstore.Values.integerValue getTrolleyContentInfoTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
@@ -856,24 +856,24 @@ public final class OmGetTrolleyContInfoTypesAd {
        */
       boolean hasInformationType();
       /**
-       * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getInformationType();
+      io.dstore.Values.stringValue getInformationType();
       /**
-       * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getInformationTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
@@ -881,21 +881,21 @@ public final class OmGetTrolleyContInfoTypesAd {
        */
       boolean hasCorrespOrderContInfoTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCorrespOrderContInfoTypeId();
+      io.dstore.Values.integerValue getCorrespOrderContInfoTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTrolleyContInfoTypes_Ad.Response.Row}
@@ -942,11 +942,11 @@ public final class OmGetTrolleyContInfoTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (fieldTypeId_ != null) {
                   subBuilder = fieldTypeId_.toBuilder();
                 }
-                fieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                fieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeId_);
                   fieldTypeId_ = subBuilder.buildPartial();
@@ -955,11 +955,11 @@ public final class OmGetTrolleyContInfoTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (trolleyContentInfoTypeId_ != null) {
                   subBuilder = trolleyContentInfoTypeId_.toBuilder();
                 }
-                trolleyContentInfoTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                trolleyContentInfoTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(trolleyContentInfoTypeId_);
                   trolleyContentInfoTypeId_ = subBuilder.buildPartial();
@@ -968,11 +968,11 @@ public final class OmGetTrolleyContInfoTypesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (informationType_ != null) {
                   subBuilder = informationType_.toBuilder();
                 }
-                informationType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                informationType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationType_);
                   informationType_ = subBuilder.buildPartial();
@@ -981,11 +981,11 @@ public final class OmGetTrolleyContInfoTypesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (correspOrderContInfoTypeId_ != null) {
                   subBuilder = correspOrderContInfoTypeId_.toBuilder();
                 }
-                correspOrderContInfoTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                correspOrderContInfoTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correspOrderContInfoTypeId_);
                   correspOrderContInfoTypeId_ = subBuilder.buildPartial();
@@ -1027,9 +1027,9 @@ public final class OmGetTrolleyContInfoTypesAd {
       }
 
       public static final int FIELD_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue fieldTypeId_;
+      private io.dstore.Values.integerValue fieldTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -1039,30 +1039,30 @@ public final class OmGetTrolleyContInfoTypesAd {
         return fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getFieldTypeId() {
-        return fieldTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+      public io.dstore.Values.integerValue getFieldTypeId() {
+        return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
       }
 
       public static final int TROLLEY_CONTENT_INFO_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue trolleyContentInfoTypeId_;
+      private io.dstore.Values.integerValue trolleyContentInfoTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informations-Typs
@@ -1072,30 +1072,30 @@ public final class OmGetTrolleyContInfoTypesAd {
         return trolleyContentInfoTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTrolleyContentInfoTypeId() {
-        return trolleyContentInfoTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
+      public io.dstore.Values.integerValue getTrolleyContentInfoTypeId() {
+        return trolleyContentInfoTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
        *
        * <pre>
        * ID eines Informations-Typs
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder() {
         return getTrolleyContentInfoTypeId();
       }
 
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue informationType_;
+      private io.dstore.Values.stringValue informationType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
@@ -1105,30 +1105,30 @@ public final class OmGetTrolleyContInfoTypesAd {
         return informationType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getInformationType() {
-        return informationType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : informationType_;
+      public io.dstore.Values.stringValue getInformationType() {
+        return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
        *
        * <pre>
        * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
       }
 
       public static final int CORRESP_ORDER_CONT_INFO_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue correspOrderContInfoTypeId_;
+      private io.dstore.Values.integerValue correspOrderContInfoTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
@@ -1138,23 +1138,23 @@ public final class OmGetTrolleyContInfoTypesAd {
         return correspOrderContInfoTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCorrespOrderContInfoTypeId() {
-        return correspOrderContInfoTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
+      public io.dstore.Values.integerValue getCorrespOrderContInfoTypeId() {
+        return correspOrderContInfoTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder() {
         return getCorrespOrderContInfoTypeId();
       }
 
@@ -1474,11 +1474,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue fieldTypeId_ = null;
+        private io.dstore.Values.integerValue fieldTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -1488,27 +1488,27 @@ public final class OmGetTrolleyContInfoTypesAd {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getFieldTypeId() {
+        public io.dstore.Values.integerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
-            return fieldTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+            return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
           } else {
             return fieldTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public Builder setFieldTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1522,14 +1522,14 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
         public Builder setFieldTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeId_ = builderForValue.build();
             onChanged();
@@ -1540,17 +1540,17 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public Builder mergeFieldTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (fieldTypeId_ != null) {
               fieldTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
             } else {
               fieldTypeId_ = value;
             }
@@ -1562,7 +1562,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -1580,45 +1580,45 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getFieldTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
           
           onChanged();
           return getFieldTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
             return fieldTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return fieldTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyContentInfoTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFieldTypeIdFieldBuilder() {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFieldTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -1627,11 +1627,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return fieldTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue trolleyContentInfoTypeId_ = null;
+        private io.dstore.Values.integerValue trolleyContentInfoTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> trolleyContentInfoTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> trolleyContentInfoTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
@@ -1641,27 +1641,27 @@ public final class OmGetTrolleyContInfoTypesAd {
           return trolleyContentInfoTypeIdBuilder_ != null || trolleyContentInfoTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTrolleyContentInfoTypeId() {
+        public io.dstore.Values.integerValue getTrolleyContentInfoTypeId() {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
-            return trolleyContentInfoTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
+            return trolleyContentInfoTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
           } else {
             return trolleyContentInfoTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
-        public Builder setTrolleyContentInfoTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTrolleyContentInfoTypeId(io.dstore.Values.integerValue value) {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1675,14 +1675,14 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
         public Builder setTrolleyContentInfoTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
             trolleyContentInfoTypeId_ = builderForValue.build();
             onChanged();
@@ -1693,17 +1693,17 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
-        public Builder mergeTrolleyContentInfoTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTrolleyContentInfoTypeId(io.dstore.Values.integerValue value) {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
             if (trolleyContentInfoTypeId_ != null) {
               trolleyContentInfoTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(trolleyContentInfoTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(trolleyContentInfoTypeId_).mergeFrom(value).buildPartial();
             } else {
               trolleyContentInfoTypeId_ = value;
             }
@@ -1715,7 +1715,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
@@ -1733,45 +1733,45 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTrolleyContentInfoTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTrolleyContentInfoTypeIdBuilder() {
           
           onChanged();
           return getTrolleyContentInfoTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTrolleyContentInfoTypeIdOrBuilder() {
           if (trolleyContentInfoTypeIdBuilder_ != null) {
             return trolleyContentInfoTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return trolleyContentInfoTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : trolleyContentInfoTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trolley_content_info_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue trolley_content_info_type_id = 10002;</code>
          *
          * <pre>
          * ID eines Informations-Typs
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTrolleyContentInfoTypeIdFieldBuilder() {
           if (trolleyContentInfoTypeIdBuilder_ == null) {
             trolleyContentInfoTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTrolleyContentInfoTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -1780,11 +1780,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return trolleyContentInfoTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue informationType_ = null;
+        private io.dstore.Values.stringValue informationType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> informationTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
@@ -1794,27 +1794,27 @@ public final class OmGetTrolleyContInfoTypesAd {
           return informationTypeBuilder_ != null || informationType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getInformationType() {
+        public io.dstore.Values.stringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
-            return informationType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : informationType_;
+            return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
           } else {
             return informationTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
-        public Builder setInformationType(io.dstore.engine.Values.stringValue value) {
+        public Builder setInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1828,14 +1828,14 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
         public Builder setInformationType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (informationTypeBuilder_ == null) {
             informationType_ = builderForValue.build();
             onChanged();
@@ -1846,17 +1846,17 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
-        public Builder mergeInformationType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeInformationType(io.dstore.Values.stringValue value) {
           if (informationTypeBuilder_ == null) {
             if (informationType_ != null) {
               informationType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
             } else {
               informationType_ = value;
             }
@@ -1868,7 +1868,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
@@ -1886,45 +1886,45 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getInformationTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
           
           onChanged();
           return getInformationTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
             return informationTypeBuilder_.getMessageOrBuilder();
           } else {
             return informationType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : informationType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
          *
          * <pre>
          * Bezeichnung des Informations-Typs "TrolleyContentInfoTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInformationTypeFieldBuilder() {
           if (informationTypeBuilder_ == null) {
             informationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInformationType(),
                     getParentForChildren(),
                     isClean());
@@ -1933,11 +1933,11 @@ public final class OmGetTrolleyContInfoTypesAd {
           return informationTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue correspOrderContInfoTypeId_ = null;
+        private io.dstore.Values.integerValue correspOrderContInfoTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> correspOrderContInfoTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> correspOrderContInfoTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
@@ -1947,27 +1947,27 @@ public final class OmGetTrolleyContInfoTypesAd {
           return correspOrderContInfoTypeIdBuilder_ != null || correspOrderContInfoTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCorrespOrderContInfoTypeId() {
+        public io.dstore.Values.integerValue getCorrespOrderContInfoTypeId() {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
-            return correspOrderContInfoTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
+            return correspOrderContInfoTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
           } else {
             return correspOrderContInfoTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
-        public Builder setCorrespOrderContInfoTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCorrespOrderContInfoTypeId(io.dstore.Values.integerValue value) {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1981,14 +1981,14 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
         public Builder setCorrespOrderContInfoTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
             correspOrderContInfoTypeId_ = builderForValue.build();
             onChanged();
@@ -1999,17 +1999,17 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
-        public Builder mergeCorrespOrderContInfoTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCorrespOrderContInfoTypeId(io.dstore.Values.integerValue value) {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
             if (correspOrderContInfoTypeId_ != null) {
               correspOrderContInfoTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(correspOrderContInfoTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(correspOrderContInfoTypeId_).mergeFrom(value).buildPartial();
             } else {
               correspOrderContInfoTypeId_ = value;
             }
@@ -2021,7 +2021,7 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
@@ -2039,45 +2039,45 @@ public final class OmGetTrolleyContInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCorrespOrderContInfoTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCorrespOrderContInfoTypeIdBuilder() {
           
           onChanged();
           return getCorrespOrderContInfoTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCorrespOrderContInfoTypeIdOrBuilder() {
           if (correspOrderContInfoTypeIdBuilder_ != null) {
             return correspOrderContInfoTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return correspOrderContInfoTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : correspOrderContInfoTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue corresp_order_cont_info_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Typs von Informationen zu Auftrags-Positionen (s. "om_GetOrderContentInfoTypes_Ad"). Stellt das "Pendant" zur "TrolleyContentInfoTypeID" und ist für den Parameter "&#64;AddOrderContentInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCorrespOrderContInfoTypeIdFieldBuilder() {
           if (correspOrderContInfoTypeIdBuilder_ == null) {
             correspOrderContInfoTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCorrespOrderContInfoTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3647,28 +3647,27 @@ public final class OmGetTrolleyContInfoTypesAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/om_GetTrolley" +
       "ContInfoTypes_Ad.proto\022+dstore.engine.om" +
-      "_GetTrolleyContInfoTypes_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"p\n\nParamete" +
-      "rs\022?\n\023information_type_id\030\001 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022!\n\030informati" +
-      "on_type_id_null\030\351\007 \001(\010\"\244\004\n\010Response\022)\n\005e" +
-      "rror\030\001 \001(\0132\032.dstore.engine.error.Error\022H",
-      "\n\020meta_information\030\002 \003(\0132..dstore.engine" +
-      ".metainformation.MetaInformation\022/\n\007mess" +
-      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
-      "e\022F\n\003row\030\004 \003(\01329.dstore.engine.om_GetTro" +
-      "lleyContInfoTypes_Ad.Response.Row\032\251\002\n\003Ro" +
-      "w\022\017\n\006row_id\030\220N \001(\005\022:\n\rfield_type_id\030\221N \001" +
-      "(\0132\".dstore.engine.values.integerValue\022I" +
-      "\n\034trolley_content_info_type_id\030\222N \001(\0132\"." +
-      "dstore.engine.values.integerValue\022<\n\020inf" +
-      "ormation_type\030\223N \001(\0132!.dstore.engine.val",
-      "ues.stringValue\022L\n\037corresp_order_cont_in" +
-      "fo_type_id\030\224N \001(\0132\".dstore.engine.values" +
-      ".integerValueB\035\n\033io.dstore.engine.proced" +
-      "uresb\006proto3"
+      "_GetTrolleyContInfoTypes_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"i\n\nParameters\0228\n\023i" +
+      "nformation_type_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022!\n\030information_type_id_nul" +
+      "l\030\351\007 \001(\010\"\210\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
+      "store.engine.error.Error\022H\n\020meta_informa",
+      "tion\030\002 \003(\0132..dstore.engine.metainformati" +
+      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
+      "tore.engine.message.Message\022F\n\003row\030\004 \003(\013" +
+      "29.dstore.engine.om_GetTrolleyContInfoTy" +
+      "pes_Ad.Response.Row\032\215\002\n\003Row\022\017\n\006row_id\030\220N" +
+      " \001(\005\0223\n\rfield_type_id\030\221N \001(\0132\033.dstore.va" +
+      "lues.integerValue\022B\n\034trolley_content_inf" +
+      "o_type_id\030\222N \001(\0132\033.dstore.values.integer" +
+      "Value\0225\n\020information_type\030\223N \001(\0132\032.dstor" +
+      "e.values.stringValue\022E\n\037corresp_order_co",
+      "nt_info_type_id\030\224N \001(\0132\033.dstore.values.i" +
+      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
+      "esb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3681,7 +3680,7 @@ public final class OmGetTrolleyContInfoTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3704,7 +3703,7 @@ public final class OmGetTrolleyContInfoTypesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleyContInfoTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "FieldTypeId", "TrolleyContentInfoTypeId", "InformationType", "CorrespOrderContInfoTypeId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

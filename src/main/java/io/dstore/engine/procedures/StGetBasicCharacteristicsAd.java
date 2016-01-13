@@ -13,17 +13,17 @@ public final class StGetBasicCharacteristicsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+     * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
      */
     boolean hasBasicCharacteristicNumber();
     /**
-     * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+     * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getBasicCharacteristicNumber();
+    io.dstore.Values.integerValue getBasicCharacteristicNumber();
     /**
-     * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+     * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
 
     /**
      * <code>optional bool basic_characteristic_number_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class StGetBasicCharacteristicsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (basicCharacteristicNumber_ != null) {
                 subBuilder = basicCharacteristicNumber_.toBuilder();
               }
-              basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumber_);
                 basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class StGetBasicCharacteristicsAd {
     }
 
     public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue basicCharacteristicNumber_;
+    private io.dstore.Values.integerValue basicCharacteristicNumber_;
     /**
-     * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+     * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
      */
     public boolean hasBasicCharacteristicNumber() {
       return basicCharacteristicNumber_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+     * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getBasicCharacteristicNumber() {
-      return basicCharacteristicNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+    public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+      return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+     * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
       return getBasicCharacteristicNumber();
     }
 
@@ -368,29 +368,29 @@ public final class StGetBasicCharacteristicsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue basicCharacteristicNumber_ = null;
+      private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getBasicCharacteristicNumber() {
+      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
         if (basicCharacteristicNumberBuilder_ == null) {
-          return basicCharacteristicNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+          return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
         } else {
           return basicCharacteristicNumberBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
-      public Builder setBasicCharacteristicNumber(io.dstore.engine.Values.integerValue value) {
+      public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
         if (basicCharacteristicNumberBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class StGetBasicCharacteristicsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
       public Builder setBasicCharacteristicNumber(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (basicCharacteristicNumberBuilder_ == null) {
           basicCharacteristicNumber_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class StGetBasicCharacteristicsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
-      public Builder mergeBasicCharacteristicNumber(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
         if (basicCharacteristicNumberBuilder_ == null) {
           if (basicCharacteristicNumber_ != null) {
             basicCharacteristicNumber_ =
-              io.dstore.engine.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
           } else {
             basicCharacteristicNumber_ = value;
           }
@@ -436,7 +436,7 @@ public final class StGetBasicCharacteristicsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
       public Builder clearBasicCharacteristicNumber() {
         if (basicCharacteristicNumberBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class StGetBasicCharacteristicsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+      public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
         
         onChanged();
         return getBasicCharacteristicNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         if (basicCharacteristicNumberBuilder_ != null) {
           return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
         } else {
           return basicCharacteristicNumber_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+              io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 1;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBasicCharacteristicNumberFieldBuilder() {
         if (basicCharacteristicNumberBuilder_ == null) {
           basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBasicCharacteristicNumber(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class StGetBasicCharacteristicsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -806,24 +806,24 @@ public final class StGetBasicCharacteristicsAd {
        */
       boolean hasEvaluateForPersons();
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getEvaluateForPersons();
+      io.dstore.Values.booleanValue getEvaluateForPersons();
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getEvaluateForPersonsOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getEvaluateForPersonsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -831,24 +831,24 @@ public final class StGetBasicCharacteristicsAd {
        */
       boolean hasEvaluateForNodes();
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getEvaluateForNodes();
+      io.dstore.Values.booleanValue getEvaluateForNodes();
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getEvaluateForNodesOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getEvaluateForNodesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -856,24 +856,24 @@ public final class StGetBasicCharacteristicsAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
        *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -881,24 +881,24 @@ public final class StGetBasicCharacteristicsAd {
        */
       boolean hasBasicCharacteristic();
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
        *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getBasicCharacteristic();
+      io.dstore.Values.stringValue getBasicCharacteristic();
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
        *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+       * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
        *
        * <pre>
        * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
@@ -906,24 +906,24 @@ public final class StGetBasicCharacteristicsAd {
        */
       boolean hasPersonIdRequired();
       /**
-       * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+       * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
        *
        * <pre>
        * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getPersonIdRequired();
+      io.dstore.Values.booleanValue getPersonIdRequired();
       /**
-       * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+       * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
        *
        * <pre>
        * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getPersonIdRequiredOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getPersonIdRequiredOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
@@ -931,21 +931,21 @@ public final class StGetBasicCharacteristicsAd {
        */
       boolean hasBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBasicCharacteristicNumber();
+      io.dstore.Values.integerValue getBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetBasicCharacteristics_Ad.Response.Row}
@@ -992,11 +992,11 @@ public final class StGetBasicCharacteristicsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (evaluateForPersons_ != null) {
                   subBuilder = evaluateForPersons_.toBuilder();
                 }
-                evaluateForPersons_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                evaluateForPersons_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(evaluateForPersons_);
                   evaluateForPersons_ = subBuilder.buildPartial();
@@ -1005,11 +1005,11 @@ public final class StGetBasicCharacteristicsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (evaluateForNodes_ != null) {
                   subBuilder = evaluateForNodes_.toBuilder();
                 }
-                evaluateForNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                evaluateForNodes_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(evaluateForNodes_);
                   evaluateForNodes_ = subBuilder.buildPartial();
@@ -1018,11 +1018,11 @@ public final class StGetBasicCharacteristicsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1031,11 +1031,11 @@ public final class StGetBasicCharacteristicsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (basicCharacteristic_ != null) {
                   subBuilder = basicCharacteristic_.toBuilder();
                 }
-                basicCharacteristic_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                basicCharacteristic_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristic_);
                   basicCharacteristic_ = subBuilder.buildPartial();
@@ -1044,11 +1044,11 @@ public final class StGetBasicCharacteristicsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (personIdRequired_ != null) {
                   subBuilder = personIdRequired_.toBuilder();
                 }
-                personIdRequired_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                personIdRequired_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personIdRequired_);
                   personIdRequired_ = subBuilder.buildPartial();
@@ -1057,11 +1057,11 @@ public final class StGetBasicCharacteristicsAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -1103,9 +1103,9 @@ public final class StGetBasicCharacteristicsAd {
       }
 
       public static final int EVALUATE_FOR_PERSONS_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.booleanValue evaluateForPersons_;
+      private io.dstore.Values.booleanValue evaluateForPersons_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -1115,30 +1115,30 @@ public final class StGetBasicCharacteristicsAd {
         return evaluateForPersons_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getEvaluateForPersons() {
-        return evaluateForPersons_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : evaluateForPersons_;
+      public io.dstore.Values.booleanValue getEvaluateForPersons() {
+        return evaluateForPersons_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : evaluateForPersons_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getEvaluateForPersonsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getEvaluateForPersonsOrBuilder() {
         return getEvaluateForPersons();
       }
 
       public static final int EVALUATE_FOR_NODES_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.booleanValue evaluateForNodes_;
+      private io.dstore.Values.booleanValue evaluateForNodes_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -1148,30 +1148,30 @@ public final class StGetBasicCharacteristicsAd {
         return evaluateForNodes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getEvaluateForNodes() {
-        return evaluateForNodes_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : evaluateForNodes_;
+      public io.dstore.Values.booleanValue getEvaluateForNodes() {
+        return evaluateForNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : evaluateForNodes_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+       * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
        *
        * <pre>
        * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getEvaluateForNodesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getEvaluateForNodesOrBuilder() {
         return getEvaluateForNodes();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -1181,30 +1181,30 @@ public final class StGetBasicCharacteristicsAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int BASIC_CHARACTERISTIC_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue basicCharacteristic_;
+      private io.dstore.Values.stringValue basicCharacteristic_;
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
        *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -1214,30 +1214,30 @@ public final class StGetBasicCharacteristicsAd {
         return basicCharacteristic_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
        *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getBasicCharacteristic() {
-        return basicCharacteristic_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+      public io.dstore.Values.stringValue getBasicCharacteristic() {
+        return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
        *
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
         return getBasicCharacteristic();
       }
 
       public static final int PERSON_ID_REQUIRED_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.booleanValue personIdRequired_;
+      private io.dstore.Values.booleanValue personIdRequired_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+       * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
        *
        * <pre>
        * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
@@ -1247,30 +1247,30 @@ public final class StGetBasicCharacteristicsAd {
         return personIdRequired_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+       * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
        *
        * <pre>
        * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getPersonIdRequired() {
-        return personIdRequired_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : personIdRequired_;
+      public io.dstore.Values.booleanValue getPersonIdRequired() {
+        return personIdRequired_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : personIdRequired_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+       * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
        *
        * <pre>
        * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getPersonIdRequiredOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getPersonIdRequiredOrBuilder() {
         return getPersonIdRequired();
       }
 
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue basicCharacteristicNumber_;
+      private io.dstore.Values.integerValue basicCharacteristicNumber_;
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
@@ -1280,23 +1280,23 @@ public final class StGetBasicCharacteristicsAd {
         return basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBasicCharacteristicNumber() {
-        return basicCharacteristicNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+        return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
       }
 
@@ -1658,11 +1658,11 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.booleanValue evaluateForPersons_ = null;
+        private io.dstore.Values.booleanValue evaluateForPersons_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> evaluateForPersonsBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> evaluateForPersonsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -1672,27 +1672,27 @@ public final class StGetBasicCharacteristicsAd {
           return evaluateForPersonsBuilder_ != null || evaluateForPersons_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getEvaluateForPersons() {
+        public io.dstore.Values.booleanValue getEvaluateForPersons() {
           if (evaluateForPersonsBuilder_ == null) {
-            return evaluateForPersons_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : evaluateForPersons_;
+            return evaluateForPersons_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : evaluateForPersons_;
           } else {
             return evaluateForPersonsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public Builder setEvaluateForPersons(io.dstore.engine.Values.booleanValue value) {
+        public Builder setEvaluateForPersons(io.dstore.Values.booleanValue value) {
           if (evaluateForPersonsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1706,14 +1706,14 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
         public Builder setEvaluateForPersons(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (evaluateForPersonsBuilder_ == null) {
             evaluateForPersons_ = builderForValue.build();
             onChanged();
@@ -1724,17 +1724,17 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public Builder mergeEvaluateForPersons(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeEvaluateForPersons(io.dstore.Values.booleanValue value) {
           if (evaluateForPersonsBuilder_ == null) {
             if (evaluateForPersons_ != null) {
               evaluateForPersons_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(evaluateForPersons_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(evaluateForPersons_).mergeFrom(value).buildPartial();
             } else {
               evaluateForPersons_ = value;
             }
@@ -1746,7 +1746,7 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -1764,45 +1764,45 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getEvaluateForPersonsBuilder() {
+        public io.dstore.Values.booleanValue.Builder getEvaluateForPersonsBuilder() {
           
           onChanged();
           return getEvaluateForPersonsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getEvaluateForPersonsOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getEvaluateForPersonsOrBuilder() {
           if (evaluateForPersonsBuilder_ != null) {
             return evaluateForPersonsBuilder_.getMessageOrBuilder();
           } else {
             return evaluateForPersons_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : evaluateForPersons_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : evaluateForPersons_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_persons = 10001;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_persons = 10001;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Personen-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getEvaluateForPersonsFieldBuilder() {
           if (evaluateForPersonsBuilder_ == null) {
             evaluateForPersonsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getEvaluateForPersons(),
                     getParentForChildren(),
                     isClean());
@@ -1811,11 +1811,11 @@ public final class StGetBasicCharacteristicsAd {
           return evaluateForPersonsBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue evaluateForNodes_ = null;
+        private io.dstore.Values.booleanValue evaluateForNodes_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> evaluateForNodesBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> evaluateForNodesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -1825,27 +1825,27 @@ public final class StGetBasicCharacteristicsAd {
           return evaluateForNodesBuilder_ != null || evaluateForNodes_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getEvaluateForNodes() {
+        public io.dstore.Values.booleanValue getEvaluateForNodes() {
           if (evaluateForNodesBuilder_ == null) {
-            return evaluateForNodes_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : evaluateForNodes_;
+            return evaluateForNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : evaluateForNodes_;
           } else {
             return evaluateForNodesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public Builder setEvaluateForNodes(io.dstore.engine.Values.booleanValue value) {
+        public Builder setEvaluateForNodes(io.dstore.Values.booleanValue value) {
           if (evaluateForNodesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1859,14 +1859,14 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
         public Builder setEvaluateForNodes(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (evaluateForNodesBuilder_ == null) {
             evaluateForNodes_ = builderForValue.build();
             onChanged();
@@ -1877,17 +1877,17 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public Builder mergeEvaluateForNodes(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeEvaluateForNodes(io.dstore.Values.booleanValue value) {
           if (evaluateForNodesBuilder_ == null) {
             if (evaluateForNodes_ != null) {
               evaluateForNodes_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(evaluateForNodes_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(evaluateForNodes_).mergeFrom(value).buildPartial();
             } else {
               evaluateForNodes_ = value;
             }
@@ -1899,7 +1899,7 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
@@ -1917,45 +1917,45 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getEvaluateForNodesBuilder() {
+        public io.dstore.Values.booleanValue.Builder getEvaluateForNodesBuilder() {
           
           onChanged();
           return getEvaluateForNodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getEvaluateForNodesOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getEvaluateForNodesOrBuilder() {
           if (evaluateForNodesBuilder_ != null) {
             return evaluateForNodesBuilder_.getMessageOrBuilder();
           } else {
             return evaluateForNodes_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : evaluateForNodes_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : evaluateForNodes_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue evaluate_for_nodes = 10002;</code>
+         * <code>optional .dstore.values.booleanValue evaluate_for_nodes = 10002;</code>
          *
          * <pre>
          * Es gibt Personen- und Artikel-Elemente-bezogene Statistiken. Hier wird angegeben, ob beim Erstellen von Statistiken (-&gt; "st_UpdateStatistics_Ad") Daten zu dieser Kennzahl in den Elemente-bezogenen Statistiken gespeichert werden ("1") oder nicht ("0").
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getEvaluateForNodesFieldBuilder() {
           if (evaluateForNodesBuilder_ == null) {
             evaluateForNodesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getEvaluateForNodes(),
                     getParentForChildren(),
                     isClean());
@@ -1964,11 +1964,11 @@ public final class StGetBasicCharacteristicsAd {
           return evaluateForNodesBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -1978,27 +1978,27 @@ public final class StGetBasicCharacteristicsAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2012,14 +2012,14 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2030,17 +2030,17 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2052,7 +2052,7 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -2070,45 +2070,45 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2117,11 +2117,11 @@ public final class StGetBasicCharacteristicsAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue basicCharacteristic_ = null;
+        private io.dstore.Values.stringValue basicCharacteristic_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -2131,27 +2131,27 @@ public final class StGetBasicCharacteristicsAd {
           return basicCharacteristicBuilder_ != null || basicCharacteristic_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getBasicCharacteristic() {
+        public io.dstore.Values.stringValue getBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
-            return basicCharacteristic_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+            return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
           } else {
             return basicCharacteristicBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public Builder setBasicCharacteristic(io.dstore.engine.Values.stringValue value) {
+        public Builder setBasicCharacteristic(io.dstore.Values.stringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2165,14 +2165,14 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
         public Builder setBasicCharacteristic(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristic_ = builderForValue.build();
             onChanged();
@@ -2183,17 +2183,17 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public Builder mergeBasicCharacteristic(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeBasicCharacteristic(io.dstore.Values.stringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (basicCharacteristic_ != null) {
               basicCharacteristic_ =
-                io.dstore.engine.Values.stringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristic_ = value;
             }
@@ -2205,7 +2205,7 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
@@ -2223,45 +2223,45 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getBasicCharacteristicBuilder() {
+        public io.dstore.Values.stringValue.Builder getBasicCharacteristicBuilder() {
           
           onChanged();
           return getBasicCharacteristicFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
           if (basicCharacteristicBuilder_ != null) {
             return basicCharacteristicBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristic_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+                io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_characteristic = 10004;</code>
+         * <code>optional .dstore.values.stringValue basic_characteristic = 10004;</code>
          *
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBasicCharacteristicFieldBuilder() {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBasicCharacteristic(),
                     getParentForChildren(),
                     isClean());
@@ -2270,11 +2270,11 @@ public final class StGetBasicCharacteristicsAd {
           return basicCharacteristicBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue personIdRequired_ = null;
+        private io.dstore.Values.booleanValue personIdRequired_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> personIdRequiredBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> personIdRequiredBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
@@ -2284,27 +2284,27 @@ public final class StGetBasicCharacteristicsAd {
           return personIdRequiredBuilder_ != null || personIdRequired_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getPersonIdRequired() {
+        public io.dstore.Values.booleanValue getPersonIdRequired() {
           if (personIdRequiredBuilder_ == null) {
-            return personIdRequired_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : personIdRequired_;
+            return personIdRequired_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : personIdRequired_;
           } else {
             return personIdRequiredBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
-        public Builder setPersonIdRequired(io.dstore.engine.Values.booleanValue value) {
+        public Builder setPersonIdRequired(io.dstore.Values.booleanValue value) {
           if (personIdRequiredBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2318,14 +2318,14 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
         public Builder setPersonIdRequired(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (personIdRequiredBuilder_ == null) {
             personIdRequired_ = builderForValue.build();
             onChanged();
@@ -2336,17 +2336,17 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
-        public Builder mergePersonIdRequired(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergePersonIdRequired(io.dstore.Values.booleanValue value) {
           if (personIdRequiredBuilder_ == null) {
             if (personIdRequired_ != null) {
               personIdRequired_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(personIdRequired_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(personIdRequired_).mergeFrom(value).buildPartial();
             } else {
               personIdRequired_ = value;
             }
@@ -2358,7 +2358,7 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
@@ -2376,45 +2376,45 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getPersonIdRequiredBuilder() {
+        public io.dstore.Values.booleanValue.Builder getPersonIdRequiredBuilder() {
           
           onChanged();
           return getPersonIdRequiredFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getPersonIdRequiredOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getPersonIdRequiredOrBuilder() {
           if (personIdRequiredBuilder_ != null) {
             return personIdRequiredBuilder_.getMessageOrBuilder();
           } else {
             return personIdRequired_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : personIdRequired_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : personIdRequired_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue person_id_required = 10005;</code>
+         * <code>optional .dstore.values.booleanValue person_id_required = 10005;</code>
          *
          * <pre>
          * Daten in "DSS_StatisticData" enthalten sowohl Besucher- als auch Personen-bezogene Statistiken (-&gt; "VisitorOrPersonID"). Pro Kennzahl ist hierdurch festgelegt, ob die Daten von Besuchern ("0") erzeugt werden oder nur von identifizierten Personen ("1").
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getPersonIdRequiredFieldBuilder() {
           if (personIdRequiredBuilder_ == null) {
             personIdRequiredBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getPersonIdRequired(),
                     getParentForChildren(),
                     isClean());
@@ -2423,11 +2423,11 @@ public final class StGetBasicCharacteristicsAd {
           return personIdRequiredBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue basicCharacteristicNumber_ = null;
+        private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
@@ -2437,27 +2437,27 @@ public final class StGetBasicCharacteristicsAd {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBasicCharacteristicNumber() {
+        public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
-            return basicCharacteristicNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+            return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
           } else {
             return basicCharacteristicNumberBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public Builder setBasicCharacteristicNumber(io.dstore.engine.Values.integerValue value) {
+        public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2471,14 +2471,14 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
         public Builder setBasicCharacteristicNumber(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumber_ = builderForValue.build();
             onChanged();
@@ -2489,17 +2489,17 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public Builder mergeBasicCharacteristicNumber(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (basicCharacteristicNumber_ != null) {
               basicCharacteristicNumber_ =
-                io.dstore.engine.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristicNumber_ = value;
             }
@@ -2511,7 +2511,7 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
@@ -2529,45 +2529,45 @@ public final class StGetBasicCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+        public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
           
           onChanged();
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
             return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristicNumber_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+                io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBasicCharacteristicNumberFieldBuilder() {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBasicCharacteristicNumber(),
                     getParentForChildren(),
                     isClean());
@@ -4137,31 +4137,30 @@ public final class StGetBasicCharacteristicsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/st_GetBasicCh" +
       "aracteristics_Ad.proto\022+dstore.engine.st" +
-      "_GetBasicCharacteristics_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\200\001\n\nParamet" +
-      "ers\022G\n\033basic_characteristic_number\030\001 \001(\013" +
-      "2\".dstore.engine.values.integerValue\022)\n " +
-      "basic_characteristic_number_null\030\351\007 \001(\010\"" +
-      "\233\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.eng",
-      "ine.error.Error\022H\n\020meta_information\030\002 \003(" +
-      "\0132..dstore.engine.metainformation.MetaIn" +
-      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
-      "ne.message.Message\022F\n\003row\030\004 \003(\01329.dstore" +
-      ".engine.st_GetBasicCharacteristics_Ad.Re" +
-      "sponse.Row\032\240\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022A\n\024e" +
-      "valuate_for_persons\030\221N \001(\0132\".dstore.engi" +
-      "ne.values.booleanValue\022?\n\022evaluate_for_n" +
-      "odes\030\222N \001(\0132\".dstore.engine.values.boole" +
-      "anValue\0227\n\013description\030\223N \001(\0132!.dstore.e",
-      "ngine.values.stringValue\022@\n\024basic_charac" +
-      "teristic\030\224N \001(\0132!.dstore.engine.values.s" +
-      "tringValue\022?\n\022person_id_required\030\225N \001(\0132" +
-      "\".dstore.engine.values.booleanValue\022H\n\033b" +
-      "asic_characteristic_number\030\226N \001(\0132\".dsto" +
-      "re.engine.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "_GetBasicCharacteristics_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"y\n\nParameters\022@\n\033b" +
+      "asic_characteristic_number\030\001 \001(\0132\033.dstor" +
+      "e.values.integerValue\022)\n basic_character" +
+      "istic_number_null\030\351\007 \001(\010\"\361\004\n\010Response\022)\n" +
+      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error",
+      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
+      "ne.metainformation.MetaInformation\022/\n\007me" +
+      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
+      "age\022F\n\003row\030\004 \003(\01329.dstore.engine.st_GetB" +
+      "asicCharacteristics_Ad.Response.Row\032\366\002\n\003" +
+      "Row\022\017\n\006row_id\030\220N \001(\005\022:\n\024evaluate_for_per" +
+      "sons\030\221N \001(\0132\033.dstore.values.booleanValue" +
+      "\0228\n\022evaluate_for_nodes\030\222N \001(\0132\033.dstore.v" +
+      "alues.booleanValue\0220\n\013description\030\223N \001(\013" +
+      "2\032.dstore.values.stringValue\0229\n\024basic_ch",
+      "aracteristic\030\224N \001(\0132\032.dstore.values.stri" +
+      "ngValue\0228\n\022person_id_required\030\225N \001(\0132\033.d" +
+      "store.values.booleanValue\022A\n\033basic_chara" +
+      "cteristic_number\030\226N \001(\0132\033.dstore.values." +
+      "integerValueB\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4174,7 +4173,7 @@ public final class StGetBasicCharacteristicsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4197,7 +4196,7 @@ public final class StGetBasicCharacteristicsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_GetBasicCharacteristics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "EvaluateForPersons", "EvaluateForNodes", "Description", "BasicCharacteristic", "PersonIdRequired", "BasicCharacteristicNumber", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

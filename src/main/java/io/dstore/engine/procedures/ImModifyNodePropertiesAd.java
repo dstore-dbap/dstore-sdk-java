@@ -13,17 +13,17 @@ public final class ImModifyNodePropertiesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
     boolean hasResult();
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getResult();
+    io.dstore.Values.integerValue getResult();
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getResultOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getResultOrBuilder();
 
     /**
      * <code>optional bool result_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getResultNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
      */
     boolean hasNodeIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getNodeIdList();
+    io.dstore.Values.stringValue getNodeIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getNodeIdListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getNodeIdListOrBuilder();
 
     /**
      * <code>optional bool node_id_list_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getNodeIdListNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+    io.dstore.Values.integerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
      */
-    io.dstore.engine.Values.stringValue getValue();
+    io.dstore.Values.stringValue getValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
      */
     boolean hasValidFrom();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
      */
-    io.dstore.engine.Values.timestampValue getValidFrom();
+    io.dstore.Values.timestampValue getValidFrom();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
 
     /**
      * <code>optional bool valid_from_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getValidFromNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
      */
     boolean hasValidTo();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
      */
-    io.dstore.engine.Values.timestampValue getValidTo();
+    io.dstore.Values.timestampValue getValidTo();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
 
     /**
      * <code>optional bool valid_to_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getValidToNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
      */
     boolean hasDeleteValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getDeleteValueId();
+    io.dstore.Values.integerValue getDeleteValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getDeleteValueIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getDeleteValueIdOrBuilder();
 
     /**
      * <code>optional bool delete_value_id_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getDeleteValueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
      */
     boolean hasValueIdForPredefinedCharac();
     /**
-     * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
      */
-    io.dstore.engine.Values.booleanValue getValueIdForPredefinedCharac();
+    io.dstore.Values.booleanValue getValueIdForPredefinedCharac();
     /**
-     * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder();
 
     /**
      * <code>optional bool value_id_for_predefined_charac_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class ImModifyNodePropertiesAd {
     boolean getValueIdForPredefinedCharacNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
      */
     boolean hasUseDataFromdstoreifin();
     /**
-     * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
      */
-    io.dstore.engine.Values.booleanValue getUseDataFromdstoreifin();
+    io.dstore.Values.booleanValue getUseDataFromdstoreifin();
     /**
-     * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder();
 
     /**
      * <code>optional bool use_data_fromdstoreifin_null = 1009;</code>
@@ -222,11 +222,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (result_ != null) {
                 subBuilder = result_.toBuilder();
               }
-              result_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              result_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(result_);
                 result_ = subBuilder.buildPartial();
@@ -235,11 +235,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (nodeIdList_ != null) {
                 subBuilder = nodeIdList_.toBuilder();
               }
-              nodeIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              nodeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeIdList_);
                 nodeIdList_ = subBuilder.buildPartial();
@@ -248,11 +248,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -261,11 +261,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -274,11 +274,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (validFrom_ != null) {
                 subBuilder = validFrom_.toBuilder();
               }
-              validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validFrom_);
                 validFrom_ = subBuilder.buildPartial();
@@ -287,11 +287,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (validTo_ != null) {
                 subBuilder = validTo_.toBuilder();
               }
-              validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validTo_);
                 validTo_ = subBuilder.buildPartial();
@@ -300,11 +300,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deleteValueId_ != null) {
                 subBuilder = deleteValueId_.toBuilder();
               }
-              deleteValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              deleteValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteValueId_);
                 deleteValueId_ = subBuilder.buildPartial();
@@ -313,11 +313,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (valueIdForPredefinedCharac_ != null) {
                 subBuilder = valueIdForPredefinedCharac_.toBuilder();
               }
-              valueIdForPredefinedCharac_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              valueIdForPredefinedCharac_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueIdForPredefinedCharac_);
                 valueIdForPredefinedCharac_ = subBuilder.buildPartial();
@@ -326,11 +326,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (useDataFromdstoreifin_ != null) {
                 subBuilder = useDataFromdstoreifin_.toBuilder();
               }
-              useDataFromdstoreifin_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              useDataFromdstoreifin_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useDataFromdstoreifin_);
                 useDataFromdstoreifin_ = subBuilder.buildPartial();
@@ -408,23 +408,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int RESULT_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue result_;
+    private io.dstore.Values.integerValue result_;
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
     public boolean hasResult() {
       return result_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getResult() {
-      return result_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : result_;
+    public io.dstore.Values.integerValue getResult() {
+      return result_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : result_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getResultOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getResultOrBuilder() {
       return getResult();
     }
 
@@ -438,23 +438,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int NODE_ID_LIST_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue nodeIdList_;
+    private io.dstore.Values.stringValue nodeIdList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
      */
     public boolean hasNodeIdList() {
       return nodeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getNodeIdList() {
-      return nodeIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeIdList_;
+    public io.dstore.Values.stringValue getNodeIdList() {
+      return nodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeIdList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+     * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getNodeIdListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getNodeIdListOrBuilder() {
       return getNodeIdList();
     }
 
@@ -468,23 +468,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.Values.integerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -498,23 +498,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int VALUE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.stringValue value_;
+    private io.dstore.Values.stringValue value_;
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
      */
-    public io.dstore.engine.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+     * <code>optional .dstore.values.stringValue value = 4;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -528,23 +528,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int VALID_FROM_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.timestampValue validFrom_;
+    private io.dstore.Values.timestampValue validFrom_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
      */
     public boolean hasValidFrom() {
       return validFrom_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
      */
-    public io.dstore.engine.Values.timestampValue getValidFrom() {
-      return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+    public io.dstore.Values.timestampValue getValidFrom() {
+      return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
       return getValidFrom();
     }
 
@@ -558,23 +558,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int VALID_TO_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.timestampValue validTo_;
+    private io.dstore.Values.timestampValue validTo_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
      */
     public boolean hasValidTo() {
       return validTo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
      */
-    public io.dstore.engine.Values.timestampValue getValidTo() {
-      return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+    public io.dstore.Values.timestampValue getValidTo() {
+      return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
       return getValidTo();
     }
 
@@ -588,23 +588,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int DELETE_VALUE_ID_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue deleteValueId_;
+    private io.dstore.Values.integerValue deleteValueId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
      */
     public boolean hasDeleteValueId() {
       return deleteValueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getDeleteValueId() {
-      return deleteValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteValueId_;
+    public io.dstore.Values.integerValue getDeleteValueId() {
+      return deleteValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteValueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getDeleteValueIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getDeleteValueIdOrBuilder() {
       return getDeleteValueId();
     }
 
@@ -618,23 +618,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int VALUE_ID_FOR_PREDEFINED_CHARAC_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.booleanValue valueIdForPredefinedCharac_;
+    private io.dstore.Values.booleanValue valueIdForPredefinedCharac_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
      */
     public boolean hasValueIdForPredefinedCharac() {
       return valueIdForPredefinedCharac_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
      */
-    public io.dstore.engine.Values.booleanValue getValueIdForPredefinedCharac() {
-      return valueIdForPredefinedCharac_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
+    public io.dstore.Values.booleanValue getValueIdForPredefinedCharac() {
+      return valueIdForPredefinedCharac_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+     * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder() {
       return getValueIdForPredefinedCharac();
     }
 
@@ -648,23 +648,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int USE_DATA_FROMDSTOREIFIN_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.booleanValue useDataFromdstoreifin_;
+    private io.dstore.Values.booleanValue useDataFromdstoreifin_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
      */
     public boolean hasUseDataFromdstoreifin() {
       return useDataFromdstoreifin_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
      */
-    public io.dstore.engine.Values.booleanValue getUseDataFromdstoreifin() {
-      return useDataFromdstoreifin_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
+    public io.dstore.Values.booleanValue getUseDataFromdstoreifin() {
+      return useDataFromdstoreifin_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+     * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder() {
       return getUseDataFromdstoreifin();
     }
 
@@ -1176,29 +1176,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue result_ = null;
+      private io.dstore.Values.integerValue result_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> resultBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       public boolean hasResult() {
         return resultBuilder_ != null || result_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getResult() {
+      public io.dstore.Values.integerValue getResult() {
         if (resultBuilder_ == null) {
-          return result_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : result_;
+          return result_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : result_;
         } else {
           return resultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public Builder setResult(io.dstore.engine.Values.integerValue value) {
+      public Builder setResult(io.dstore.Values.integerValue value) {
         if (resultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1212,10 +1212,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       public Builder setResult(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (resultBuilder_ == null) {
           result_ = builderForValue.build();
           onChanged();
@@ -1226,13 +1226,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public Builder mergeResult(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeResult(io.dstore.Values.integerValue value) {
         if (resultBuilder_ == null) {
           if (result_ != null) {
             result_ =
-              io.dstore.engine.Values.integerValue.newBuilder(result_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(result_).mergeFrom(value).buildPartial();
           } else {
             result_ = value;
           }
@@ -1244,7 +1244,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
@@ -1258,33 +1258,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getResultBuilder() {
+      public io.dstore.Values.integerValue.Builder getResultBuilder() {
         
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getResultOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
           return resultBuilder_.getMessageOrBuilder();
         } else {
           return result_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : result_;
+              io.dstore.Values.integerValue.getDefaultInstance() : result_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getResult(),
                   getParentForChildren(),
                   isClean());
@@ -1319,29 +1319,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue nodeIdList_ = null;
+      private io.dstore.Values.stringValue nodeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nodeIdListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeIdListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
       public boolean hasNodeIdList() {
         return nodeIdListBuilder_ != null || nodeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getNodeIdList() {
+      public io.dstore.Values.stringValue getNodeIdList() {
         if (nodeIdListBuilder_ == null) {
-          return nodeIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeIdList_;
+          return nodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeIdList_;
         } else {
           return nodeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
-      public Builder setNodeIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder setNodeIdList(io.dstore.Values.stringValue value) {
         if (nodeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1355,10 +1355,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
       public Builder setNodeIdList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (nodeIdListBuilder_ == null) {
           nodeIdList_ = builderForValue.build();
           onChanged();
@@ -1369,13 +1369,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
-      public Builder mergeNodeIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeNodeIdList(io.dstore.Values.stringValue value) {
         if (nodeIdListBuilder_ == null) {
           if (nodeIdList_ != null) {
             nodeIdList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(nodeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(nodeIdList_).mergeFrom(value).buildPartial();
           } else {
             nodeIdList_ = value;
           }
@@ -1387,7 +1387,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
       public Builder clearNodeIdList() {
         if (nodeIdListBuilder_ == null) {
@@ -1401,33 +1401,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getNodeIdListBuilder() {
+      public io.dstore.Values.stringValue.Builder getNodeIdListBuilder() {
         
         onChanged();
         return getNodeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNodeIdListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNodeIdListOrBuilder() {
         if (nodeIdListBuilder_ != null) {
           return nodeIdListBuilder_.getMessageOrBuilder();
         } else {
           return nodeIdList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeIdList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : nodeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_id_list = 2;</code>
+       * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getNodeIdListFieldBuilder() {
         if (nodeIdListBuilder_ == null) {
           nodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getNodeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1462,29 +1462,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1498,10 +1498,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1512,13 +1512,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -1530,7 +1530,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1544,33 +1544,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1605,29 +1605,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue value_ = null;
+      private io.dstore.Values.stringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
+      public io.dstore.Values.stringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      public Builder setValue(io.dstore.engine.Values.stringValue value) {
+      public Builder setValue(io.dstore.Values.stringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1641,10 +1641,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
       public Builder setValue(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -1655,13 +1655,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -1673,7 +1673,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1687,33 +1687,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 4;</code>
+       * <code>optional .dstore.values.stringValue value = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -1748,29 +1748,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue validFrom_ = null;
+      private io.dstore.Values.timestampValue validFrom_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validFromBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
       public boolean hasValidFrom() {
         return validFromBuilder_ != null || validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
-      public io.dstore.engine.Values.timestampValue getValidFrom() {
+      public io.dstore.Values.timestampValue getValidFrom() {
         if (validFromBuilder_ == null) {
-          return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+          return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
         } else {
           return validFromBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
-      public Builder setValidFrom(io.dstore.engine.Values.timestampValue value) {
+      public Builder setValidFrom(io.dstore.Values.timestampValue value) {
         if (validFromBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1784,10 +1784,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
       public Builder setValidFrom(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (validFromBuilder_ == null) {
           validFrom_ = builderForValue.build();
           onChanged();
@@ -1798,13 +1798,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
-      public Builder mergeValidFrom(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
         if (validFromBuilder_ == null) {
           if (validFrom_ != null) {
             validFrom_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
           } else {
             validFrom_ = value;
           }
@@ -1816,7 +1816,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
       public Builder clearValidFrom() {
         if (validFromBuilder_ == null) {
@@ -1830,33 +1830,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getValidFromBuilder() {
+      public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
         
         onChanged();
         return getValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
         if (validFromBuilder_ != null) {
           return validFromBuilder_.getMessageOrBuilder();
         } else {
           return validFrom_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidFromFieldBuilder() {
         if (validFromBuilder_ == null) {
           validFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidFrom(),
                   getParentForChildren(),
                   isClean());
@@ -1891,29 +1891,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue validTo_ = null;
+      private io.dstore.Values.timestampValue validTo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validToBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
       public boolean hasValidTo() {
         return validToBuilder_ != null || validTo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValue getValidTo() {
+      public io.dstore.Values.timestampValue getValidTo() {
         if (validToBuilder_ == null) {
-          return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+          return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
         } else {
           return validToBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
-      public Builder setValidTo(io.dstore.engine.Values.timestampValue value) {
+      public Builder setValidTo(io.dstore.Values.timestampValue value) {
         if (validToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1927,10 +1927,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
       public Builder setValidTo(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (validToBuilder_ == null) {
           validTo_ = builderForValue.build();
           onChanged();
@@ -1941,13 +1941,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
-      public Builder mergeValidTo(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
         if (validToBuilder_ == null) {
           if (validTo_ != null) {
             validTo_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
           } else {
             validTo_ = value;
           }
@@ -1959,7 +1959,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
       public Builder clearValidTo() {
         if (validToBuilder_ == null) {
@@ -1973,33 +1973,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getValidToBuilder() {
+      public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
         
         onChanged();
         return getValidToFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
         if (validToBuilder_ != null) {
           return validToBuilder_.getMessageOrBuilder();
         } else {
           return validTo_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidToFieldBuilder() {
         if (validToBuilder_ == null) {
           validToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidTo(),
                   getParentForChildren(),
                   isClean());
@@ -2034,29 +2034,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue deleteValueId_ = null;
+      private io.dstore.Values.integerValue deleteValueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> deleteValueIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteValueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
       public boolean hasDeleteValueId() {
         return deleteValueIdBuilder_ != null || deleteValueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getDeleteValueId() {
+      public io.dstore.Values.integerValue getDeleteValueId() {
         if (deleteValueIdBuilder_ == null) {
-          return deleteValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteValueId_;
+          return deleteValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteValueId_;
         } else {
           return deleteValueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
-      public Builder setDeleteValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder setDeleteValueId(io.dstore.Values.integerValue value) {
         if (deleteValueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2070,10 +2070,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
       public Builder setDeleteValueId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (deleteValueIdBuilder_ == null) {
           deleteValueId_ = builderForValue.build();
           onChanged();
@@ -2084,13 +2084,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
-      public Builder mergeDeleteValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeDeleteValueId(io.dstore.Values.integerValue value) {
         if (deleteValueIdBuilder_ == null) {
           if (deleteValueId_ != null) {
             deleteValueId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(deleteValueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(deleteValueId_).mergeFrom(value).buildPartial();
           } else {
             deleteValueId_ = value;
           }
@@ -2102,7 +2102,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
       public Builder clearDeleteValueId() {
         if (deleteValueIdBuilder_ == null) {
@@ -2116,33 +2116,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getDeleteValueIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getDeleteValueIdBuilder() {
         
         onChanged();
         return getDeleteValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDeleteValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDeleteValueIdOrBuilder() {
         if (deleteValueIdBuilder_ != null) {
           return deleteValueIdBuilder_.getMessageOrBuilder();
         } else {
           return deleteValueId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteValueId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : deleteValueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue delete_value_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeleteValueIdFieldBuilder() {
         if (deleteValueIdBuilder_ == null) {
           deleteValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeleteValueId(),
                   getParentForChildren(),
                   isClean());
@@ -2177,29 +2177,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue valueIdForPredefinedCharac_ = null;
+      private io.dstore.Values.booleanValue valueIdForPredefinedCharac_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> valueIdForPredefinedCharacBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueIdForPredefinedCharacBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
       public boolean hasValueIdForPredefinedCharac() {
         return valueIdForPredefinedCharacBuilder_ != null || valueIdForPredefinedCharac_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValue getValueIdForPredefinedCharac() {
+      public io.dstore.Values.booleanValue getValueIdForPredefinedCharac() {
         if (valueIdForPredefinedCharacBuilder_ == null) {
-          return valueIdForPredefinedCharac_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
+          return valueIdForPredefinedCharac_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
         } else {
           return valueIdForPredefinedCharacBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
-      public Builder setValueIdForPredefinedCharac(io.dstore.engine.Values.booleanValue value) {
+      public Builder setValueIdForPredefinedCharac(io.dstore.Values.booleanValue value) {
         if (valueIdForPredefinedCharacBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2213,10 +2213,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
       public Builder setValueIdForPredefinedCharac(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (valueIdForPredefinedCharacBuilder_ == null) {
           valueIdForPredefinedCharac_ = builderForValue.build();
           onChanged();
@@ -2227,13 +2227,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
-      public Builder mergeValueIdForPredefinedCharac(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeValueIdForPredefinedCharac(io.dstore.Values.booleanValue value) {
         if (valueIdForPredefinedCharacBuilder_ == null) {
           if (valueIdForPredefinedCharac_ != null) {
             valueIdForPredefinedCharac_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(valueIdForPredefinedCharac_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(valueIdForPredefinedCharac_).mergeFrom(value).buildPartial();
           } else {
             valueIdForPredefinedCharac_ = value;
           }
@@ -2245,7 +2245,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
       public Builder clearValueIdForPredefinedCharac() {
         if (valueIdForPredefinedCharacBuilder_ == null) {
@@ -2259,33 +2259,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getValueIdForPredefinedCharacBuilder() {
+      public io.dstore.Values.booleanValue.Builder getValueIdForPredefinedCharacBuilder() {
         
         onChanged();
         return getValueIdForPredefinedCharacFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getValueIdForPredefinedCharacOrBuilder() {
         if (valueIdForPredefinedCharacBuilder_ != null) {
           return valueIdForPredefinedCharacBuilder_.getMessageOrBuilder();
         } else {
           return valueIdForPredefinedCharac_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : valueIdForPredefinedCharac_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_id_for_predefined_charac = 8;</code>
+       * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getValueIdForPredefinedCharacFieldBuilder() {
         if (valueIdForPredefinedCharacBuilder_ == null) {
           valueIdForPredefinedCharacBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getValueIdForPredefinedCharac(),
                   getParentForChildren(),
                   isClean());
@@ -2320,29 +2320,29 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue useDataFromdstoreifin_ = null;
+      private io.dstore.Values.booleanValue useDataFromdstoreifin_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> useDataFromdstoreifinBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> useDataFromdstoreifinBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
       public boolean hasUseDataFromdstoreifin() {
         return useDataFromdstoreifinBuilder_ != null || useDataFromdstoreifin_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
-      public io.dstore.engine.Values.booleanValue getUseDataFromdstoreifin() {
+      public io.dstore.Values.booleanValue getUseDataFromdstoreifin() {
         if (useDataFromdstoreifinBuilder_ == null) {
-          return useDataFromdstoreifin_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
+          return useDataFromdstoreifin_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
         } else {
           return useDataFromdstoreifinBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
-      public Builder setUseDataFromdstoreifin(io.dstore.engine.Values.booleanValue value) {
+      public Builder setUseDataFromdstoreifin(io.dstore.Values.booleanValue value) {
         if (useDataFromdstoreifinBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2356,10 +2356,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
       public Builder setUseDataFromdstoreifin(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (useDataFromdstoreifinBuilder_ == null) {
           useDataFromdstoreifin_ = builderForValue.build();
           onChanged();
@@ -2370,13 +2370,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
-      public Builder mergeUseDataFromdstoreifin(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeUseDataFromdstoreifin(io.dstore.Values.booleanValue value) {
         if (useDataFromdstoreifinBuilder_ == null) {
           if (useDataFromdstoreifin_ != null) {
             useDataFromdstoreifin_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(useDataFromdstoreifin_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(useDataFromdstoreifin_).mergeFrom(value).buildPartial();
           } else {
             useDataFromdstoreifin_ = value;
           }
@@ -2388,7 +2388,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
       public Builder clearUseDataFromdstoreifin() {
         if (useDataFromdstoreifinBuilder_ == null) {
@@ -2402,33 +2402,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getUseDataFromdstoreifinBuilder() {
+      public io.dstore.Values.booleanValue.Builder getUseDataFromdstoreifinBuilder() {
         
         onChanged();
         return getUseDataFromdstoreifinFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getUseDataFromdstoreifinOrBuilder() {
         if (useDataFromdstoreifinBuilder_ != null) {
           return useDataFromdstoreifinBuilder_.getMessageOrBuilder();
         } else {
           return useDataFromdstoreifin_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : useDataFromdstoreifin_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue use_data_fromdstoreifin = 9;</code>
+       * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getUseDataFromdstoreifinFieldBuilder() {
         if (useDataFromdstoreifinBuilder_ == null) {
           useDataFromdstoreifinBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getUseDataFromdstoreifin(),
                   getParentForChildren(),
                   isClean());
@@ -2610,17 +2610,17 @@ public final class ImModifyNodePropertiesAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
      */
     boolean hasNewValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getNewValueId();
+    io.dstore.Values.integerValue getNewValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNewValueIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Response}
@@ -2701,11 +2701,11 @@ public final class ImModifyNodePropertiesAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (newValueId_ != null) {
                 subBuilder = newValueId_.toBuilder();
               }
-              newValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              newValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValueId_);
                 newValueId_ = subBuilder.buildPartial();
@@ -2756,7 +2756,7 @@ public final class ImModifyNodePropertiesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
@@ -2764,24 +2764,24 @@ public final class ImModifyNodePropertiesAd {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeId();
+      io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
@@ -2789,24 +2789,24 @@ public final class ImModifyNodePropertiesAd {
        */
       boolean hasNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+      io.dstore.Values.integerValue getNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
@@ -2814,21 +2814,21 @@ public final class ImModifyNodePropertiesAd {
        */
       boolean hasErrorCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getErrorCode();
+      io.dstore.Values.integerValue getErrorCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Response.Row}
@@ -2875,11 +2875,11 @@ public final class ImModifyNodePropertiesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2888,11 +2888,11 @@ public final class ImModifyNodePropertiesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -2901,11 +2901,11 @@ public final class ImModifyNodePropertiesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -2947,9 +2947,9 @@ public final class ImModifyNodePropertiesAd {
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue nodeId_;
+      private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
@@ -2959,30 +2959,30 @@ public final class ImModifyNodePropertiesAd {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.Values.integerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10001;</code>
        *
        * <pre>
        * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.Values.integerValue nodeCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
@@ -2992,30 +2992,30 @@ public final class ImModifyNodePropertiesAd {
         return nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int ERROR_CODE_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue errorCode_;
+      private io.dstore.Values.integerValue errorCode_;
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
@@ -3025,23 +3025,23 @@ public final class ImModifyNodePropertiesAd {
         return errorCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getErrorCode() {
-        return errorCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+      public io.dstore.Values.integerValue getErrorCode() {
+        return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
       }
 
@@ -3340,11 +3340,11 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue nodeId_ = null;
+        private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
@@ -3354,27 +3354,27 @@ public final class ImModifyNodePropertiesAd {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeId() {
+        public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
-        public Builder setNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3388,14 +3388,14 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
         public Builder setNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -3406,17 +3406,17 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
-        public Builder mergeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -3428,7 +3428,7 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
@@ -3446,45 +3446,45 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          *
          * <pre>
          * ID eines der in der Input-Schnittstelle übergebenen Artikel-Elemente
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3493,11 +3493,11 @@ public final class ImModifyNodePropertiesAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
@@ -3507,27 +3507,27 @@ public final class ImModifyNodePropertiesAd {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.Values.integerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
-        public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3541,14 +3541,14 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -3559,17 +3559,17 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -3581,7 +3581,7 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
@@ -3599,45 +3599,45 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem eine Eigenschaft von "NodeID" geändert werden sollte, es aber einen Fehler gab
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -3646,11 +3646,11 @@ public final class ImModifyNodePropertiesAd {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue errorCode_ = null;
+        private io.dstore.Values.integerValue errorCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> errorCodeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
@@ -3660,27 +3660,27 @@ public final class ImModifyNodePropertiesAd {
           return errorCodeBuilder_ != null || errorCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getErrorCode() {
+        public io.dstore.Values.integerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
-            return errorCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+            return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
           } else {
             return errorCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
-        public Builder setErrorCode(io.dstore.engine.Values.integerValue value) {
+        public Builder setErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3694,14 +3694,14 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
         public Builder setErrorCode(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (errorCodeBuilder_ == null) {
             errorCode_ = builderForValue.build();
             onChanged();
@@ -3712,17 +3712,17 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
-        public Builder mergeErrorCode(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
             if (errorCode_ != null) {
               errorCode_ =
-                io.dstore.engine.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
             } else {
               errorCode_ = value;
             }
@@ -3734,7 +3734,7 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
@@ -3752,45 +3752,45 @@ public final class ImModifyNodePropertiesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getErrorCodeBuilder() {
+        public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
           
           onChanged();
           return getErrorCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
             return errorCodeBuilder_.getMessageOrBuilder();
           } else {
             return errorCode_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+                io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Fehler-Ursache :- "1" : Die Eigenschaft entspricht nicht dem Feldtyp- "2" : Die Eigenschaft existiert nicht, es sind aber nur vordefinierte Werte erlaubt- "3" : Der Wert der relativen Änderung ist ungültig- "4" : Fehlende Berechtigung(en)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
             errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
                     isClean());
@@ -3984,23 +3984,23 @@ public final class ImModifyNodePropertiesAd {
     }
 
     public static final int NEW_VALUE_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue newValueId_;
+    private io.dstore.Values.integerValue newValueId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
      */
     public boolean hasNewValueId() {
       return newValueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getNewValueId() {
-      return newValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : newValueId_;
+    public io.dstore.Values.integerValue getNewValueId() {
+      return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
       return getNewValueId();
     }
 
@@ -5227,29 +5227,29 @@ public final class ImModifyNodePropertiesAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue newValueId_ = null;
+      private io.dstore.Values.integerValue newValueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> newValueIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
       public boolean hasNewValueId() {
         return newValueIdBuilder_ != null || newValueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getNewValueId() {
+      public io.dstore.Values.integerValue getNewValueId() {
         if (newValueIdBuilder_ == null) {
-          return newValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : newValueId_;
+          return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
         } else {
           return newValueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
-      public Builder setNewValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNewValueId(io.dstore.Values.integerValue value) {
         if (newValueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5263,10 +5263,10 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
       public Builder setNewValueId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (newValueIdBuilder_ == null) {
           newValueId_ = builderForValue.build();
           onChanged();
@@ -5277,13 +5277,13 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
-      public Builder mergeNewValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNewValueId(io.dstore.Values.integerValue value) {
         if (newValueIdBuilder_ == null) {
           if (newValueId_ != null) {
             newValueId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
           } else {
             newValueId_ = value;
           }
@@ -5295,7 +5295,7 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
       public Builder clearNewValueId() {
         if (newValueIdBuilder_ == null) {
@@ -5309,33 +5309,33 @@ public final class ImModifyNodePropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNewValueIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNewValueIdBuilder() {
         
         onChanged();
         return getNewValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
         if (newValueIdBuilder_ != null) {
           return newValueIdBuilder_.getMessageOrBuilder();
         } else {
           return newValueId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : newValueId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNewValueIdFieldBuilder() {
         if (newValueIdBuilder_ == null) {
           newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNewValueId(),
                   getParentForChildren(),
                   isClean());
@@ -5427,45 +5427,42 @@ public final class ImModifyNodePropertiesAd {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/im_ModifyNode" +
       "Properties_Ad.proto\022(dstore.engine.im_Mo" +
-      "difyNodeProperties_Ad\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"\302\006\n\nParameters\0222\n" +
-      "\006result\030\001 \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022\024\n\013result_null\030\351\007 \001(\010\0227\n\014node_" +
-      "id_list\030\002 \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022\032\n\021node_id_list_null\030\352\007 \001(\010\022B\n\026",
-      "node_characteristic_id\030\003 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022$\n\033node_charact" +
-      "eristic_id_null\030\353\007 \001(\010\0220\n\005value\030\004 \001(\0132!." +
-      "dstore.engine.values.stringValue\022\023\n\nvalu" +
-      "e_null\030\354\007 \001(\010\0228\n\nvalid_from\030\005 \001(\0132$.dsto" +
-      "re.engine.values.timestampValue\022\030\n\017valid" +
-      "_from_null\030\355\007 \001(\010\0226\n\010valid_to\030\006 \001(\0132$.ds" +
-      "tore.engine.values.timestampValue\022\026\n\rval" +
-      "id_to_null\030\356\007 \001(\010\022;\n\017delete_value_id\030\007 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022\035",
-      "\n\024delete_value_id_null\030\357\007 \001(\010\022J\n\036value_i" +
-      "d_for_predefined_charac\030\010 \001(\0132\".dstore.e" +
-      "ngine.values.booleanValue\022,\n#value_id_fo" +
-      "r_predefined_charac_null\030\360\007 \001(\010\022C\n\027use_d" +
-      "ata_fromdstoreifin\030\t \001(\0132\".dstore.engine" +
-      ".values.booleanValue\022%\n\034use_data_fromdst" +
-      "oreifin_null\030\361\007 \001(\010\"\374\003\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message",
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022C" +
-      "\n\003row\030\004 \003(\01326.dstore.engine.im_ModifyNod" +
-      "eProperties_Ad.Response.Row\0228\n\014new_value" +
-      "_id\030e \001(\0132\".dstore.engine.values.integer" +
-      "Value\032\312\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\007node_i" +
-      "d\030\221N \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022C\n\026node_characteristic_id\030\222N \001(\0132\"." +
-      "dstore.engine.values.integerValue\0227\n\nerr" +
-      "or_code\030\223N \001(\0132\".dstore.engine.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure",
-      "sb\006proto3"
+      "difyNodeProperties_Ad\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"\203\006\n\nParameters\022+\n\006result" +
+      "\030\001 \001(\0132\033.dstore.values.integerValue\022\024\n\013r" +
+      "esult_null\030\351\007 \001(\010\0220\n\014node_id_list\030\002 \001(\0132" +
+      "\032.dstore.values.stringValue\022\032\n\021node_id_l" +
+      "ist_null\030\352\007 \001(\010\022;\n\026node_characteristic_i",
+      "d\030\003 \001(\0132\033.dstore.values.integerValue\022$\n\033" +
+      "node_characteristic_id_null\030\353\007 \001(\010\022)\n\005va" +
+      "lue\030\004 \001(\0132\032.dstore.values.stringValue\022\023\n" +
+      "\nvalue_null\030\354\007 \001(\010\0221\n\nvalid_from\030\005 \001(\0132\035" +
+      ".dstore.values.timestampValue\022\030\n\017valid_f" +
+      "rom_null\030\355\007 \001(\010\022/\n\010valid_to\030\006 \001(\0132\035.dsto" +
+      "re.values.timestampValue\022\026\n\rvalid_to_nul" +
+      "l\030\356\007 \001(\010\0224\n\017delete_value_id\030\007 \001(\0132\033.dsto" +
+      "re.values.integerValue\022\035\n\024delete_value_i" +
+      "d_null\030\357\007 \001(\010\022C\n\036value_id_for_predefined",
+      "_charac\030\010 \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022,\n#value_id_for_predefined_charac_nul" +
+      "l\030\360\007 \001(\010\022<\n\027use_data_fromdstoreifin\030\t \001(" +
+      "\0132\033.dstore.values.booleanValue\022%\n\034use_da" +
+      "ta_fromdstoreifin_null\030\361\007 \001(\010\"\340\003\n\010Respon" +
+      "se\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error." +
+      "Error\022H\n\020meta_information\030\002 \003(\0132..dstore" +
+      ".engine.metainformation.MetaInformation\022" +
+      "/\n\007message\030\003 \003(\0132\036.dstore.engine.message" +
+      ".Message\022C\n\003row\030\004 \003(\01326.dstore.engine.im",
+      "_ModifyNodeProperties_Ad.Response.Row\0221\n" +
+      "\014new_value_id\030e \001(\0132\033.dstore.values.inte" +
+      "gerValue\032\265\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022-\n\007nod" +
+      "e_id\030\221N \001(\0132\033.dstore.values.integerValue" +
+      "\022<\n\026node_characteristic_id\030\222N \001(\0132\033.dsto" +
+      "re.values.integerValue\0220\n\nerror_code\030\223N " +
+      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
+      "store.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5478,7 +5475,7 @@ public final class ImModifyNodePropertiesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5501,7 +5498,7 @@ public final class ImModifyNodePropertiesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "NodeId", "NodeCharacteristicId", "ErrorCode", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

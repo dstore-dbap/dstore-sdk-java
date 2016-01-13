@@ -13,17 +13,17 @@ public final class PmUpdatePossibleDuplicatesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonId();
+    io.dstore.Values.integerValue getPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class PmUpdatePossibleDuplicatesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class PmUpdatePossibleDuplicatesAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue personId_;
+    private io.dstore.Values.integerValue personId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.Values.integerValue getPersonId() {
+      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -368,29 +368,29 @@ public final class PmUpdatePossibleDuplicatesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personId_ = null;
+      private io.dstore.Values.integerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
+      public io.dstore.Values.integerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class PmUpdatePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class PmUpdatePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -436,7 +436,7 @@ public final class PmUpdatePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class PmUpdatePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class PmUpdatePossibleDuplicatesAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/pm_UpdatePoss" +
       "ibleDuplicates_Ad.proto\022,dstore.engine.p" +
-      "m_UpdatePossibleDuplicates_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\\\n\nParame" +
-      "ters\0225\n\tperson_id\030\001 \001(\0132\".dstore.engine." +
-      "values.integerValue\022\027\n\016person_id_null\030\351\007" +
-      " \001(\010\"\221\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
-      "e.engine.error.Error\022H\n\020meta_information",
-      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
-      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
-      ".engine.message.Message\022G\n\003row\030\004 \003(\0132:.d" +
-      "store.engine.pm_UpdatePossibleDuplicates" +
-      "_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
-      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "m_UpdatePossibleDuplicates_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"U\n\nParameters\022.\n" +
+      "\tperson_id\030\001 \001(\0132\033.dstore.values.integer" +
+      "Value\022\027\n\016person_id_null\030\351\007 \001(\010\"\221\002\n\010Respo" +
+      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
+      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor",
+      "e.engine.metainformation.MetaInformation" +
+      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
+      "e.Message\022G\n\003row\030\004 \003(\0132:.dstore.engine.p" +
+      "m_UpdatePossibleDuplicates_Ad.Response.R" +
+      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore." +
+      "engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class PmUpdatePossibleDuplicatesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class PmUpdatePossibleDuplicatesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_UpdatePossibleDuplicates_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class MiModifyUserInfoAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
     boolean hasUserName();
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUserName();
+    io.dstore.Values.stringValue getUserName();
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
     /**
      * <code>optional bool user_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiModifyUserInfoAd {
     boolean getUserNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
      */
     boolean hasDeleteUser();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getDeleteUser();
+    io.dstore.Values.booleanValue getDeleteUser();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteUserOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteUserOrBuilder();
 
     /**
      * <code>optional bool delete_user_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class MiModifyUserInfoAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (userName_ != null) {
                 subBuilder = userName_.toBuilder();
               }
-              userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userName_);
                 userName_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class MiModifyUserInfoAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteUser_ != null) {
                 subBuilder = deleteUser_.toBuilder();
               }
-              deleteUser_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              deleteUser_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteUser_);
                 deleteUser_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class MiModifyUserInfoAd {
     }
 
     public static final int USER_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue userName_;
+    private io.dstore.Values.stringValue userName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
     public boolean hasUserName() {
       return userName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUserName() {
-      return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+    public io.dstore.Values.stringValue getUserName() {
+      return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
       return getUserName();
     }
 
@@ -179,23 +179,23 @@ public final class MiModifyUserInfoAd {
     }
 
     public static final int DELETE_USER_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue deleteUser_;
+    private io.dstore.Values.booleanValue deleteUser_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
      */
     public boolean hasDeleteUser() {
       return deleteUser_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDeleteUser() {
-      return deleteUser_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteUser_;
+    public io.dstore.Values.booleanValue getDeleteUser() {
+      return deleteUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteUser_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+     * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteUserOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteUserOrBuilder() {
       return getDeleteUser();
     }
 
@@ -469,29 +469,29 @@ public final class MiModifyUserInfoAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue userName_ = null;
+      private io.dstore.Values.stringValue userName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> userNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       public boolean hasUserName() {
         return userNameBuilder_ != null || userName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUserName() {
+      public io.dstore.Values.stringValue getUserName() {
         if (userNameBuilder_ == null) {
-          return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+          return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
         } else {
           return userNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public Builder setUserName(io.dstore.engine.Values.stringValue value) {
+      public Builder setUserName(io.dstore.Values.stringValue value) {
         if (userNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       public Builder setUserName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (userNameBuilder_ == null) {
           userName_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public Builder mergeUserName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUserName(io.dstore.Values.stringValue value) {
         if (userNameBuilder_ == null) {
           if (userName_ != null) {
             userName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
           } else {
             userName_ = value;
           }
@@ -537,7 +537,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       public Builder clearUserName() {
         if (userNameBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUserNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
         
         onChanged();
         return getUserNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         if (userNameBuilder_ != null) {
           return userNameBuilder_.getMessageOrBuilder();
         } else {
           return userName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : userName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUserNameFieldBuilder() {
         if (userNameBuilder_ == null) {
           userNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUserName(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class MiModifyUserInfoAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue deleteUser_ = null;
+      private io.dstore.Values.booleanValue deleteUser_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteUserBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteUserBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
       public boolean hasDeleteUser() {
         return deleteUserBuilder_ != null || deleteUser_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDeleteUser() {
+      public io.dstore.Values.booleanValue getDeleteUser() {
         if (deleteUserBuilder_ == null) {
-          return deleteUser_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteUser_;
+          return deleteUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteUser_;
         } else {
           return deleteUserBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
-      public Builder setDeleteUser(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDeleteUser(io.dstore.Values.booleanValue value) {
         if (deleteUserBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
       public Builder setDeleteUser(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteUserBuilder_ == null) {
           deleteUser_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
-      public Builder mergeDeleteUser(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDeleteUser(io.dstore.Values.booleanValue value) {
         if (deleteUserBuilder_ == null) {
           if (deleteUser_ != null) {
             deleteUser_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(deleteUser_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(deleteUser_).mergeFrom(value).buildPartial();
           } else {
             deleteUser_ = value;
           }
@@ -680,7 +680,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
       public Builder clearDeleteUser() {
         if (deleteUserBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteUserBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteUserBuilder() {
         
         onChanged();
         return getDeleteUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteUserOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteUserOrBuilder() {
         if (deleteUserBuilder_ != null) {
           return deleteUserBuilder_.getMessageOrBuilder();
         } else {
           return deleteUser_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteUser_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : deleteUser_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_user = 2;</code>
+       * <code>optional .dstore.values.booleanValue delete_user = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteUserFieldBuilder() {
         if (deleteUserBuilder_ == null) {
           deleteUserBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteUser(),
                   getParentForChildren(),
                   isClean());
@@ -2911,22 +2911,21 @@ public final class MiModifyUserInfoAd {
     java.lang.String[] descriptorData = {
       "\n3dstore/engine/procedures/mi_ModifyUser" +
       "Info_Ad.proto\022\"dstore.engine.mi_ModifyUs" +
-      "erInfo_Ad\032\032dstore/engine/values.proto\032\031d" +
-      "store/engine/error.proto\032\033dstore/engine/" +
-      "message.proto\032#dstore/engine/metainforma" +
-      "tion.proto\"\257\001\n\nParameters\0224\n\tuser_name\030\001" +
-      " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "\027\n\016user_name_null\030\351\007 \001(\010\0227\n\013delete_user\030" +
-      "\002 \001(\0132\".dstore.engine.values.booleanValu" +
-      "e\022\031\n\020delete_user_null\030\352\007 \001(\010\"\207\002\n\010Respons",
-      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
-      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
-      "engine.metainformation.MetaInformation\022/" +
-      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
-      "Message\022=\n\003row\030\004 \003(\01320.dstore.engine.mi_" +
-      "ModifyUserInfo_Ad.Response.Row\032\026\n\003Row\022\017\n" +
-      "\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "erInfo_Ad\032\023dstore/values.proto\032\031dstore/e" +
+      "ngine/error.proto\032\033dstore/engine/message" +
+      ".proto\032#dstore/engine/metainformation.pr" +
+      "oto\"\241\001\n\nParameters\022-\n\tuser_name\030\001 \001(\0132\032." +
+      "dstore.values.stringValue\022\027\n\016user_name_n" +
+      "ull\030\351\007 \001(\010\0220\n\013delete_user\030\002 \001(\0132\033.dstore" +
+      ".values.booleanValue\022\031\n\020delete_user_null" +
+      "\030\352\007 \001(\010\"\207\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds",
+      "tore.engine.error.Error\022H\n\020meta_informat" +
+      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
+      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
+      "ore.engine.message.Message\022=\n\003row\030\004 \003(\0132" +
+      "0.dstore.engine.mi_ModifyUserInfo_Ad.Res" +
+      "ponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io." +
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2939,7 +2938,7 @@ public final class MiModifyUserInfoAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2962,7 +2961,7 @@ public final class MiModifyUserInfoAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyUserInfo_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

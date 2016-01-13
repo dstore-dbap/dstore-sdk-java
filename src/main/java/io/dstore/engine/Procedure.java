@@ -1633,9 +1633,9 @@ public final class Procedure {
         int index);
 
     /**
-     * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+     * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
-    java.util.Map<java.lang.String, io.dstore.engine.Values.Value>
+    java.util.Map<java.lang.String, io.dstore.Values.Value>
     getOutputParameters();
 
     /**
@@ -1744,7 +1744,7 @@ public final class Procedure {
                     OutputParametersDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000010;
               }
-              com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+              com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
               outputParameters = input.readMessage(
                   OutputParametersDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               outputParameters_.getMutableMap().put(outputParameters.getKey(), outputParameters.getValue());
@@ -1812,13 +1812,13 @@ public final class Procedure {
       int getRowId();
 
       /**
-       * <code>map&lt;string, .dstore.engine.values.Value&gt; columns = 2;</code>
+       * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        *
        * <pre>
        * a map of column names to values
        * </pre>
        */
-      java.util.Map<java.lang.String, io.dstore.engine.Values.Value>
+      java.util.Map<java.lang.String, io.dstore.Values.Value>
       getColumns();
     }
     /**
@@ -1871,7 +1871,7 @@ public final class Procedure {
                       ColumnsDefaultEntryHolder.defaultEntry);
                   mutable_bitField0_ |= 0x00000002;
                 }
-                com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+                com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
                 columns = input.readMessage(
                     ColumnsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
                 columns_.getMutableMap().put(columns.getKey(), columns.getValue());
@@ -1925,18 +1925,18 @@ public final class Procedure {
       public static final int COLUMNS_FIELD_NUMBER = 2;
       private static final class ColumnsDefaultEntryHolder {
         static final com.google.protobuf.MapEntry<
-            java.lang.String, io.dstore.engine.Values.Value> defaultEntry =
+            java.lang.String, io.dstore.Values.Value> defaultEntry =
                 com.google.protobuf.MapEntry
-                .<java.lang.String, io.dstore.engine.Values.Value>newDefaultInstance(
+                .<java.lang.String, io.dstore.Values.Value>newDefaultInstance(
                     io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_Row_ColumnsEntry_descriptor, 
                     com.google.protobuf.WireFormat.FieldType.STRING,
                     "",
                     com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                    io.dstore.engine.Values.Value.getDefaultInstance());
+                    io.dstore.Values.Value.getDefaultInstance());
       }
       private com.google.protobuf.MapField<
-          java.lang.String, io.dstore.engine.Values.Value> columns_;
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+          java.lang.String, io.dstore.Values.Value> columns_;
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
       internalGetColumns() {
         if (columns_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -1945,14 +1945,14 @@ public final class Procedure {
         return columns_;
       }
       /**
-       * <code>map&lt;string, .dstore.engine.values.Value&gt; columns = 2;</code>
+       * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        *
        * <pre>
        * a map of column names to values
        * </pre>
        */
 
-      public java.util.Map<java.lang.String, io.dstore.engine.Values.Value> getColumns() {
+      public java.util.Map<java.lang.String, io.dstore.Values.Value> getColumns() {
         return internalGetColumns().getMap();
       }
 
@@ -1971,9 +1971,9 @@ public final class Procedure {
         if (rowId_ != 0) {
           output.writeInt32(1, rowId_);
         }
-        for (java.util.Map.Entry<java.lang.String, io.dstore.engine.Values.Value> entry
+        for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
              : internalGetColumns().getMap().entrySet()) {
-          com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+          com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
           columns = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
               .setKey(entry.getKey())
               .setValue(entry.getValue())
@@ -1991,9 +1991,9 @@ public final class Procedure {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(1, rowId_);
         }
-        for (java.util.Map.Entry<java.lang.String, io.dstore.engine.Values.Value> entry
+        for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
              : internalGetColumns().getMap().entrySet()) {
-          com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+          com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
           columns = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
               .setKey(entry.getKey())
               .setValue(entry.getValue())
@@ -2239,8 +2239,8 @@ public final class Procedure {
         }
 
         private com.google.protobuf.MapField<
-            java.lang.String, io.dstore.engine.Values.Value> columns_;
-        private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+            java.lang.String, io.dstore.Values.Value> columns_;
+        private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
         internalGetColumns() {
           if (columns_ == null) {
             return com.google.protobuf.MapField.emptyMapField(
@@ -2248,7 +2248,7 @@ public final class Procedure {
          }
           return columns_;
         }
-        private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+        private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
         internalGetMutableColumns() {
           onChanged();;
           if (columns_ == null) {
@@ -2261,35 +2261,35 @@ public final class Procedure {
           return columns_;
         }
         /**
-         * <code>map&lt;string, .dstore.engine.values.Value&gt; columns = 2;</code>
+         * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
          *
          * <pre>
          * a map of column names to values
          * </pre>
          */
-        public java.util.Map<java.lang.String, io.dstore.engine.Values.Value> getColumns() {
+        public java.util.Map<java.lang.String, io.dstore.Values.Value> getColumns() {
           return internalGetColumns().getMap();
         }
         /**
-         * <code>map&lt;string, .dstore.engine.values.Value&gt; columns = 2;</code>
+         * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
          *
          * <pre>
          * a map of column names to values
          * </pre>
          */
-        public java.util.Map<java.lang.String, io.dstore.engine.Values.Value>
+        public java.util.Map<java.lang.String, io.dstore.Values.Value>
         getMutableColumns() {
           return internalGetMutableColumns().getMutableMap();
         }
         /**
-         * <code>map&lt;string, .dstore.engine.values.Value&gt; columns = 2;</code>
+         * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
          *
          * <pre>
          * a map of column names to values
          * </pre>
          */
         public Builder putAllColumns(
-            java.util.Map<java.lang.String, io.dstore.engine.Values.Value> values) {
+            java.util.Map<java.lang.String, io.dstore.Values.Value> values) {
           getMutableColumns().putAll(values);
           return this;
         }
@@ -2455,18 +2455,18 @@ public final class Procedure {
     public static final int OUTPUT_PARAMETERS_FIELD_NUMBER = 6;
     private static final class OutputParametersDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.String, io.dstore.engine.Values.Value> defaultEntry =
+          java.lang.String, io.dstore.Values.Value> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.String, io.dstore.engine.Values.Value>newDefaultInstance(
+              .<java.lang.String, io.dstore.Values.Value>newDefaultInstance(
                   io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  io.dstore.engine.Values.Value.getDefaultInstance());
+                  io.dstore.Values.Value.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.String, io.dstore.engine.Values.Value> outputParameters_;
-    private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+        java.lang.String, io.dstore.Values.Value> outputParameters_;
+    private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
     internalGetOutputParameters() {
       if (outputParameters_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
@@ -2475,10 +2475,10 @@ public final class Procedure {
       return outputParameters_;
     }
     /**
-     * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+     * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
 
-    public java.util.Map<java.lang.String, io.dstore.engine.Values.Value> getOutputParameters() {
+    public java.util.Map<java.lang.String, io.dstore.Values.Value> getOutputParameters() {
       return internalGetOutputParameters().getMap();
     }
 
@@ -2541,9 +2541,9 @@ public final class Procedure {
       for (int i = 0; i < row_.size(); i++) {
         output.writeMessage(5, row_.get(i));
       }
-      for (java.util.Map.Entry<java.lang.String, io.dstore.engine.Values.Value> entry
+      for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
            : internalGetOutputParameters().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
         outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -2576,9 +2576,9 @@ public final class Procedure {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, row_.get(i));
       }
-      for (java.util.Map.Entry<java.lang.String, io.dstore.engine.Values.Value> entry
+      for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
            : internalGetOutputParameters().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
         outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -3565,8 +3565,8 @@ public final class Procedure {
       }
 
       private com.google.protobuf.MapField<
-          java.lang.String, io.dstore.engine.Values.Value> outputParameters_;
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+          java.lang.String, io.dstore.Values.Value> outputParameters_;
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
       internalGetOutputParameters() {
         if (outputParameters_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -3574,7 +3574,7 @@ public final class Procedure {
        }
         return outputParameters_;
       }
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
       internalGetMutableOutputParameters() {
         onChanged();;
         if (outputParameters_ == null) {
@@ -3587,23 +3587,23 @@ public final class Procedure {
         return outputParameters_;
       }
       /**
-       * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+       * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
        */
-      public java.util.Map<java.lang.String, io.dstore.engine.Values.Value> getOutputParameters() {
+      public java.util.Map<java.lang.String, io.dstore.Values.Value> getOutputParameters() {
         return internalGetOutputParameters().getMap();
       }
       /**
-       * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+       * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
        */
-      public java.util.Map<java.lang.String, io.dstore.engine.Values.Value>
+      public java.util.Map<java.lang.String, io.dstore.Values.Value>
       getMutableOutputParameters() {
         return internalGetMutableOutputParameters().getMutableMap();
       }
       /**
-       * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+       * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
        */
       public Builder putAllOutputParameters(
-          java.util.Map<java.lang.String, io.dstore.engine.Values.Value> values) {
+          java.util.Map<java.lang.String, io.dstore.Values.Value> values) {
         getMutableOutputParameters().putAll(values);
         return this;
       }
@@ -3945,29 +3945,29 @@ public final class Procedure {
   static {
     java.lang.String[] descriptorData = {
       "\n\035dstore/engine/procedure.proto\022\027dstore." +
-      "engine.procedure\032\032dstore/engine/values.p" +
-      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
-      "engine/message.proto\032#dstore/engine/meta" +
-      "information.proto\"f\n\004Call\022\026\n\016procedure_n" +
-      "ame\030\001 \001(\t\0225\n\tparameter\030\002 \003(\0132\".dstore.en" +
-      "gine.procedure.Parameter\022\017\n\007call_id\030\003 \001(" +
-      "\005\"9\n\tParameter\022\014\n\004name\030\001 \001(\t\022\r\n\005value\030\002 " +
-      "\001(\t\022\017\n\007is_null\030\003 \001(\010\"\311\004\n\010Response\022)\n\005err" +
-      "or\030\001 \001(\0132\032.dstore.engine.error.Error\022/\n\007",
-      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
-      "ssage\022\017\n\007call_id\030\004 \001(\005\0222\n\003row\030\005 \003(\0132%.ds" +
-      "tore.engine.procedure.Response.Row\022R\n\021ou" +
-      "tput_parameters\030\006 \003(\01327.dstore.engine.pr" +
-      "ocedure.Response.OutputParametersEntry\022H" +
-      "\n\020meta_information\030\007 \003(\0132..dstore.engine" +
-      ".metainformation.MetaInformation\032T\n\025Outp" +
-      "utParametersEntry\022\013\n\003key\030\001 \001(\t\022*\n\005value\030" +
-      "\002 \001(\0132\033.dstore.engine.values.Value:\0028\001\032\247" +
-      "\001\n\003Row\022\016\n\006row_id\030\001 \001(\005\022C\n\007columns\030\002 \003(\0132",
-      "2.dstore.engine.procedure.Response.Row.C" +
-      "olumnsEntry\032K\n\014ColumnsEntry\022\013\n\003key\030\001 \001(\t" +
-      "\022*\n\005value\030\002 \001(\0132\033.dstore.engine.values.V" +
-      "alue:\0028\001B\022\n\020io.dstore.engineb\006proto3"
+      "engine.procedure\032\023dstore/values.proto\032\031d" +
+      "store/engine/error.proto\032\033dstore/engine/" +
+      "message.proto\032#dstore/engine/metainforma" +
+      "tion.proto\"f\n\004Call\022\026\n\016procedure_name\030\001 \001" +
+      "(\t\0225\n\tparameter\030\002 \003(\0132\".dstore.engine.pr" +
+      "ocedure.Parameter\022\017\n\007call_id\030\003 \001(\005\"9\n\tPa" +
+      "rameter\022\014\n\004name\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\022\017\n\007" +
+      "is_null\030\003 \001(\010\"\273\004\n\010Response\022)\n\005error\030\001 \001(" +
+      "\0132\032.dstore.engine.error.Error\022/\n\007message",
+      "\030\003 \003(\0132\036.dstore.engine.message.Message\022\017" +
+      "\n\007call_id\030\004 \001(\005\0222\n\003row\030\005 \003(\0132%.dstore.en" +
+      "gine.procedure.Response.Row\022R\n\021output_pa" +
+      "rameters\030\006 \003(\01327.dstore.engine.procedure" +
+      ".Response.OutputParametersEntry\022H\n\020meta_" +
+      "information\030\007 \003(\0132..dstore.engine.metain" +
+      "formation.MetaInformation\032M\n\025OutputParam" +
+      "etersEntry\022\013\n\003key\030\001 \001(\t\022#\n\005value\030\002 \001(\0132\024" +
+      ".dstore.values.Value:\0028\001\032\240\001\n\003Row\022\016\n\006row_" +
+      "id\030\001 \001(\005\022C\n\007columns\030\002 \003(\01322.dstore.engin",
+      "e.procedure.Response.Row.ColumnsEntry\032D\n" +
+      "\014ColumnsEntry\022\013\n\003key\030\001 \001(\t\022#\n\005value\030\002 \001(" +
+      "\0132\024.dstore.values.Value:\0028\001B\022\n\020io.dstore" +
+      ".engineb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3980,7 +3980,7 @@ public final class Procedure {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4021,7 +4021,7 @@ public final class Procedure {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_procedure_Response_Row_ColumnsEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

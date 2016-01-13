@@ -13,17 +13,17 @@ public final class OmModifyCampaignConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCampaignId();
+    io.dstore.Values.integerValue getCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyCampaignConditionsAd {
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 2;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getConditionId();
+    io.dstore.Values.integerValue getConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyCampaignConditionsAd {
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
      */
     boolean hasCriteriaTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getCriteriaTypeId();
+    io.dstore.Values.integerValue getCriteriaTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder();
 
     /**
      * <code>optional bool criteria_type_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmModifyCampaignConditionsAd {
     boolean getCriteriaTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getDelete();
+    io.dstore.Values.booleanValue getDelete();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class OmModifyCampaignConditionsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class OmModifyCampaignConditionsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class OmModifyCampaignConditionsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (criteriaTypeId_ != null) {
                 subBuilder = criteriaTypeId_.toBuilder();
               }
-              criteriaTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              criteriaTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(criteriaTypeId_);
                 criteriaTypeId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmModifyCampaignConditionsAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class OmModifyCampaignConditionsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue campaignId_;
+    private io.dstore.Values.integerValue campaignId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.Values.integerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -253,23 +253,23 @@ public final class OmModifyCampaignConditionsAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue conditionId_;
+    private io.dstore.Values.integerValue conditionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 2;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -283,23 +283,23 @@ public final class OmModifyCampaignConditionsAd {
     }
 
     public static final int CRITERIA_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue criteriaTypeId_;
+    private io.dstore.Values.integerValue criteriaTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
      */
     public boolean hasCriteriaTypeId() {
       return criteriaTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getCriteriaTypeId() {
-      return criteriaTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+    public io.dstore.Values.integerValue getCriteriaTypeId() {
+      return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
       return getCriteriaTypeId();
     }
 
@@ -313,23 +313,23 @@ public final class OmModifyCampaignConditionsAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue delete_;
+    private io.dstore.Values.booleanValue delete_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.Values.booleanValue getDelete() {
+      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -671,29 +671,29 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue campaignId_ = null;
+      private io.dstore.Values.integerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCampaignId() {
+      public io.dstore.Values.integerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -739,7 +739,7 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue conditionId_ = null;
+      private io.dstore.Values.integerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getConditionId() {
+      public io.dstore.Values.integerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
-      public Builder setConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
       public Builder setConditionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
-      public Builder mergeConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -882,7 +882,7 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 2;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue criteriaTypeId_ = null;
+      private io.dstore.Values.integerValue criteriaTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> criteriaTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> criteriaTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
       public boolean hasCriteriaTypeId() {
         return criteriaTypeIdBuilder_ != null || criteriaTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getCriteriaTypeId() {
+      public io.dstore.Values.integerValue getCriteriaTypeId() {
         if (criteriaTypeIdBuilder_ == null) {
-          return criteriaTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+          return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
         } else {
           return criteriaTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
-      public Builder setCriteriaTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCriteriaTypeId(io.dstore.Values.integerValue value) {
         if (criteriaTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
       public Builder setCriteriaTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (criteriaTypeIdBuilder_ == null) {
           criteriaTypeId_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
-      public Builder mergeCriteriaTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCriteriaTypeId(io.dstore.Values.integerValue value) {
         if (criteriaTypeIdBuilder_ == null) {
           if (criteriaTypeId_ != null) {
             criteriaTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
           } else {
             criteriaTypeId_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
       public Builder clearCriteriaTypeId() {
         if (criteriaTypeIdBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCriteriaTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCriteriaTypeIdBuilder() {
         
         onChanged();
         return getCriteriaTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
         if (criteriaTypeIdBuilder_ != null) {
           return criteriaTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return criteriaTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue criteria_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue criteria_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCriteriaTypeIdFieldBuilder() {
         if (criteriaTypeIdBuilder_ == null) {
           criteriaTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCriteriaTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue delete_ = null;
+      private io.dstore.Values.booleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDelete() {
+      public io.dstore.Values.booleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public Builder setDelete(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.Values.booleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       public Builder setDelete(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public Builder mergeDelete(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class OmModifyCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3399,27 +3399,26 @@ public final class OmModifyCampaignConditionsAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_ModifyCamp" +
       "aignConditions_Ad.proto\022,dstore.engine.o" +
-      "m_ModifyCampaignConditions_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\336\002\n\nParam" +
-      "eters\0227\n\013campaign_id\030\001 \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022\031\n\020campaign_id_nu" +
-      "ll\030\351\007 \001(\010\0228\n\014condition_id\030\002 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022\032\n\021condition",
-      "_id_null\030\352\007 \001(\010\022<\n\020criteria_type_id\030\003 \001(" +
-      "\0132\".dstore.engine.values.integerValue\022\036\n" +
-      "\025criteria_type_id_null\030\353\007 \001(\010\0222\n\006delete\030" +
-      "\004 \001(\0132\".dstore.engine.values.booleanValu" +
-      "e\022\024\n\013delete_null\030\354\007 \001(\010\"\221\002\n\010Response\022)\n\005" +
-      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
-      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
-      "e.metainformation.MetaInformation\022/\n\007mes" +
-      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa" +
-      "ge\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_Modif",
-      "yCampaignConditions_Ad.Response.Row\032\026\n\003R" +
-      "ow\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine." +
-      "proceduresb\006proto3"
+      "m_ModifyCampaignConditions_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\302\002\n\nParameters\0220" +
+      "\n\013campaign_id\030\001 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022\031\n\020campaign_id_null\030\351\007 \001(\010\0221\n\014c" +
+      "ondition_id\030\002 \001(\0132\033.dstore.values.intege" +
+      "rValue\022\032\n\021condition_id_null\030\352\007 \001(\010\0225\n\020cr",
+      "iteria_type_id\030\003 \001(\0132\033.dstore.values.int" +
+      "egerValue\022\036\n\025criteria_type_id_null\030\353\007 \001(" +
+      "\010\022+\n\006delete\030\004 \001(\0132\033.dstore.values.boolea" +
+      "nValue\022\024\n\013delete_null\030\354\007 \001(\010\"\221\002\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_" +
+      "ModifyCampaignConditions_Ad.Response.Row",
+      "\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.en" +
+      "gine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3432,7 +3431,7 @@ public final class OmModifyCampaignConditionsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3455,7 +3454,7 @@ public final class OmModifyCampaignConditionsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampaignConditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class MiDeleteFromTempdbTable {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getTableName();
+    io.dstore.Values.stringValue getTableName();
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
     /**
      * <code>optional bool table_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiDeleteFromTempdbTable {
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+     * <code>optional .dstore.values.integerValue spid = 2;</code>
      */
     boolean hasSpid();
     /**
-     * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+     * <code>optional .dstore.values.integerValue spid = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getSpid();
+    io.dstore.Values.integerValue getSpid();
     /**
-     * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+     * <code>optional .dstore.values.integerValue spid = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSpidOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSpidOrBuilder();
 
     /**
      * <code>optional bool spid_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class MiDeleteFromTempdbTable {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (tableName_ != null) {
                 subBuilder = tableName_.toBuilder();
               }
-              tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableName_);
                 tableName_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class MiDeleteFromTempdbTable {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (spid_ != null) {
                 subBuilder = spid_.toBuilder();
               }
-              spid_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              spid_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(spid_);
                 spid_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class MiDeleteFromTempdbTable {
     }
 
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue tableName_;
+    private io.dstore.Values.stringValue tableName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getTableName() {
-      return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+    public io.dstore.Values.stringValue getTableName() {
+      return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
     }
 
@@ -179,23 +179,23 @@ public final class MiDeleteFromTempdbTable {
     }
 
     public static final int SPID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue spid_;
+    private io.dstore.Values.integerValue spid_;
     /**
-     * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+     * <code>optional .dstore.values.integerValue spid = 2;</code>
      */
     public boolean hasSpid() {
       return spid_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+     * <code>optional .dstore.values.integerValue spid = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getSpid() {
-      return spid_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : spid_;
+    public io.dstore.Values.integerValue getSpid() {
+      return spid_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : spid_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+     * <code>optional .dstore.values.integerValue spid = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSpidOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSpidOrBuilder() {
       return getSpid();
     }
 
@@ -469,29 +469,29 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue tableName_ = null;
+      private io.dstore.Values.stringValue tableName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getTableName() {
+      public io.dstore.Values.stringValue getTableName() {
         if (tableNameBuilder_ == null) {
-          return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+          return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
         } else {
           return tableNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public Builder setTableName(io.dstore.engine.Values.stringValue value) {
+      public Builder setTableName(io.dstore.Values.stringValue value) {
         if (tableNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       public Builder setTableName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (tableNameBuilder_ == null) {
           tableName_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public Builder mergeTableName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeTableName(io.dstore.Values.stringValue value) {
         if (tableNameBuilder_ == null) {
           if (tableName_ != null) {
             tableName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
           } else {
             tableName_ = value;
           }
@@ -537,7 +537,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getTableNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
         
         onChanged();
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
           return tableNameBuilder_.getMessageOrBuilder();
         } else {
           return tableName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTableNameFieldBuilder() {
         if (tableNameBuilder_ == null) {
           tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTableName(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue spid_ = null;
+      private io.dstore.Values.integerValue spid_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> spidBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> spidBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
       public boolean hasSpid() {
         return spidBuilder_ != null || spid_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getSpid() {
+      public io.dstore.Values.integerValue getSpid() {
         if (spidBuilder_ == null) {
-          return spid_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : spid_;
+          return spid_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : spid_;
         } else {
           return spidBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
-      public Builder setSpid(io.dstore.engine.Values.integerValue value) {
+      public Builder setSpid(io.dstore.Values.integerValue value) {
         if (spidBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
       public Builder setSpid(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (spidBuilder_ == null) {
           spid_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
-      public Builder mergeSpid(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSpid(io.dstore.Values.integerValue value) {
         if (spidBuilder_ == null) {
           if (spid_ != null) {
             spid_ =
-              io.dstore.engine.Values.integerValue.newBuilder(spid_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(spid_).mergeFrom(value).buildPartial();
           } else {
             spid_ = value;
           }
@@ -680,7 +680,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
       public Builder clearSpid() {
         if (spidBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSpidBuilder() {
+      public io.dstore.Values.integerValue.Builder getSpidBuilder() {
         
         onChanged();
         return getSpidFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSpidOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSpidOrBuilder() {
         if (spidBuilder_ != null) {
           return spidBuilder_.getMessageOrBuilder();
         } else {
           return spid_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : spid_;
+              io.dstore.Values.integerValue.getDefaultInstance() : spid_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue spid = 2;</code>
+       * <code>optional .dstore.values.integerValue spid = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSpidFieldBuilder() {
         if (spidBuilder_ == null) {
           spidBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSpid(),
                   getParentForChildren(),
                   isClean());
@@ -2911,22 +2911,21 @@ public final class MiDeleteFromTempdbTable {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/mi_DeleteFrom" +
       "TempdbTable.proto\022&dstore.engine.mi_Dele" +
-      "teFromTempdbTable\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\243\001\n\nParameters\0225\n\ntab" +
-      "le_name\030\001 \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022\030\n\017table_name_null\030\351\007 \001(\010\0220\n\004sp" +
-      "id\030\002 \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022\022\n\tspid_null\030\352\007 \001(\010\"\213\002\n\010Response\022)\n",
-      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
-      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
-      "ne.metainformation.MetaInformation\022/\n\007me" +
-      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
-      "age\022A\n\003row\030\004 \003(\01324.dstore.engine.mi_Dele" +
-      "teFromTempdbTable.Response.Row\032\026\n\003Row\022\017\n" +
-      "\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proce" +
-      "duresb\006proto3"
+      "teFromTempdbTable\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"\225\001\n\nParameters\022.\n\ntable_name" +
+      "\030\001 \001(\0132\032.dstore.values.stringValue\022\030\n\017ta" +
+      "ble_name_null\030\351\007 \001(\010\022)\n\004spid\030\002 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\022\n\tspid_null\030\352\007 " +
+      "\001(\010\"\213\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore",
+      ".engine.error.Error\022H\n\020meta_information\030" +
+      "\002 \003(\0132..dstore.engine.metainformation.Me" +
+      "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
+      "engine.message.Message\022A\n\003row\030\004 \003(\01324.ds" +
+      "tore.engine.mi_DeleteFromTempdbTable.Res" +
+      "ponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io." +
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2939,7 +2938,7 @@ public final class MiDeleteFromTempdbTable {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2962,7 +2961,7 @@ public final class MiDeleteFromTempdbTable {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_DeleteFromTempdbTable_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

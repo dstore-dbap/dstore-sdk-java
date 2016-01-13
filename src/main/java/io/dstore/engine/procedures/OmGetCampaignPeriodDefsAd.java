@@ -13,17 +13,17 @@ public final class OmGetCampaignPeriodDefsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCampaignId();
+    io.dstore.Values.integerValue getCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class OmGetCampaignPeriodDefsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class OmGetCampaignPeriodDefsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue campaignId_;
+    private io.dstore.Values.integerValue campaignId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.Values.integerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -368,29 +368,29 @@ public final class OmGetCampaignPeriodDefsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue campaignId_ = null;
+      private io.dstore.Values.integerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCampaignId() {
+      public io.dstore.Values.integerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class OmGetCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class OmGetCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -436,7 +436,7 @@ public final class OmGetCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class OmGetCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class OmGetCampaignPeriodDefsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+       * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
        *
        * <pre>
        * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
@@ -806,24 +806,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasRepeatEveryXTimeUnits();
       /**
-       * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+       * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
        *
        * <pre>
        * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getRepeatEveryXTimeUnits();
+      io.dstore.Values.integerValue getRepeatEveryXTimeUnits();
       /**
-       * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+       * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
        *
        * <pre>
        * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+       * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
        *
        * <pre>
        * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
@@ -831,24 +831,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasRepeatUntil();
       /**
-       * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+       * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
        *
        * <pre>
        * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getRepeatUntil();
+      io.dstore.Values.timestampValue getRepeatUntil();
       /**
-       * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+       * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
        *
        * <pre>
        * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getRepeatUntilOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getRepeatUntilOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
        *
        * <pre>
        * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -856,24 +856,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasStartDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
        *
        * <pre>
        * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getStartDateAndTime();
+      io.dstore.Values.timestampValue getStartDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
        *
        * <pre>
        * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getStartDateAndTimeOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getStartDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
        *
        * <pre>
        * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -881,24 +881,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasEndDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
        *
        * <pre>
        * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getEndDateAndTime();
+      io.dstore.Values.timestampValue getEndDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
        *
        * <pre>
        * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getEndDateAndTimeOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getEndDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+       * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
        *
        * <pre>
        * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -906,24 +906,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasStartDateAndTimeChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+       * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
        *
        * <pre>
        * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getStartDateAndTimeChar();
+      io.dstore.Values.stringValue getStartDateAndTimeChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+       * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
        *
        * <pre>
        * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getStartDateAndTimeCharOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getStartDateAndTimeCharOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
        *
        * <pre>
        * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
@@ -931,24 +931,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasTimeUnitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
        *
        * <pre>
        * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTimeUnitId();
+      io.dstore.Values.integerValue getTimeUnitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
        *
        * <pre>
        * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTimeUnitIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTimeUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+       * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
@@ -956,24 +956,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasPeriodDefinitionName();
       /**
-       * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+       * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPeriodDefinitionName();
+      io.dstore.Values.stringValue getPeriodDefinitionName();
       /**
-       * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+       * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPeriodDefinitionNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPeriodDefinitionNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+       * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
        *
        * <pre>
        * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -981,24 +981,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasEndDateAndTimeChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+       * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
        *
        * <pre>
        * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getEndDateAndTimeChar();
+      io.dstore.Values.stringValue getEndDateAndTimeChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+       * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
        *
        * <pre>
        * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getEndDateAndTimeCharOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getEndDateAndTimeCharOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+       * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
        *
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
@@ -1006,24 +1006,24 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasTimeUnit();
       /**
-       * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+       * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
        *
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTimeUnit();
+      io.dstore.Values.stringValue getTimeUnit();
       /**
-       * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+       * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
        *
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTimeUnitOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
        *
        * <pre>
        * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
@@ -1031,21 +1031,21 @@ public final class OmGetCampaignPeriodDefsAd {
        */
       boolean hasPeriodDefinitionId();
       /**
-       * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
        *
        * <pre>
        * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPeriodDefinitionId();
+      io.dstore.Values.integerValue getPeriodDefinitionId();
       /**
-       * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
        *
        * <pre>
        * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPeriodDefinitionIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPeriodDefinitionIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignPeriodDefs_Ad.Response.Row}
@@ -1092,11 +1092,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (repeatEveryXTimeUnits_ != null) {
                   subBuilder = repeatEveryXTimeUnits_.toBuilder();
                 }
-                repeatEveryXTimeUnits_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                repeatEveryXTimeUnits_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(repeatEveryXTimeUnits_);
                   repeatEveryXTimeUnits_ = subBuilder.buildPartial();
@@ -1105,11 +1105,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (repeatUntil_ != null) {
                   subBuilder = repeatUntil_.toBuilder();
                 }
-                repeatUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                repeatUntil_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(repeatUntil_);
                   repeatUntil_ = subBuilder.buildPartial();
@@ -1118,11 +1118,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (startDateAndTime_ != null) {
                   subBuilder = startDateAndTime_.toBuilder();
                 }
-                startDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                startDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(startDateAndTime_);
                   startDateAndTime_ = subBuilder.buildPartial();
@@ -1131,11 +1131,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (endDateAndTime_ != null) {
                   subBuilder = endDateAndTime_.toBuilder();
                 }
-                endDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                endDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(endDateAndTime_);
                   endDateAndTime_ = subBuilder.buildPartial();
@@ -1144,11 +1144,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (startDateAndTimeChar_ != null) {
                   subBuilder = startDateAndTimeChar_.toBuilder();
                 }
-                startDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                startDateAndTimeChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(startDateAndTimeChar_);
                   startDateAndTimeChar_ = subBuilder.buildPartial();
@@ -1157,11 +1157,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (timeUnitId_ != null) {
                   subBuilder = timeUnitId_.toBuilder();
                 }
-                timeUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                timeUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(timeUnitId_);
                   timeUnitId_ = subBuilder.buildPartial();
@@ -1170,11 +1170,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (periodDefinitionName_ != null) {
                   subBuilder = periodDefinitionName_.toBuilder();
                 }
-                periodDefinitionName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                periodDefinitionName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodDefinitionName_);
                   periodDefinitionName_ = subBuilder.buildPartial();
@@ -1183,11 +1183,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (endDateAndTimeChar_ != null) {
                   subBuilder = endDateAndTimeChar_.toBuilder();
                 }
-                endDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                endDateAndTimeChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(endDateAndTimeChar_);
                   endDateAndTimeChar_ = subBuilder.buildPartial();
@@ -1196,11 +1196,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (timeUnit_ != null) {
                   subBuilder = timeUnit_.toBuilder();
                 }
-                timeUnit_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                timeUnit_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(timeUnit_);
                   timeUnit_ = subBuilder.buildPartial();
@@ -1209,11 +1209,11 @@ public final class OmGetCampaignPeriodDefsAd {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (periodDefinitionId_ != null) {
                   subBuilder = periodDefinitionId_.toBuilder();
                 }
-                periodDefinitionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                periodDefinitionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodDefinitionId_);
                   periodDefinitionId_ = subBuilder.buildPartial();
@@ -1255,9 +1255,9 @@ public final class OmGetCampaignPeriodDefsAd {
       }
 
       public static final int REPEAT_EVERY_X_TIME_UNITS_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue repeatEveryXTimeUnits_;
+      private io.dstore.Values.integerValue repeatEveryXTimeUnits_;
       /**
-       * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+       * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
        *
        * <pre>
        * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
@@ -1267,30 +1267,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return repeatEveryXTimeUnits_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+       * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
        *
        * <pre>
        * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getRepeatEveryXTimeUnits() {
-        return repeatEveryXTimeUnits_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
+      public io.dstore.Values.integerValue getRepeatEveryXTimeUnits() {
+        return repeatEveryXTimeUnits_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+       * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
        *
        * <pre>
        * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder() {
         return getRepeatEveryXTimeUnits();
       }
 
       public static final int REPEAT_UNTIL_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.timestampValue repeatUntil_;
+      private io.dstore.Values.timestampValue repeatUntil_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+       * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
        *
        * <pre>
        * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
@@ -1300,30 +1300,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return repeatUntil_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+       * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
        *
        * <pre>
        * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getRepeatUntil() {
-        return repeatUntil_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : repeatUntil_;
+      public io.dstore.Values.timestampValue getRepeatUntil() {
+        return repeatUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : repeatUntil_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+       * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
        *
        * <pre>
        * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getRepeatUntilOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getRepeatUntilOrBuilder() {
         return getRepeatUntil();
       }
 
       public static final int START_DATE_AND_TIME_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.timestampValue startDateAndTime_;
+      private io.dstore.Values.timestampValue startDateAndTime_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
        *
        * <pre>
        * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -1333,30 +1333,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return startDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
        *
        * <pre>
        * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getStartDateAndTime() {
-        return startDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : startDateAndTime_;
+      public io.dstore.Values.timestampValue getStartDateAndTime() {
+        return startDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : startDateAndTime_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
        *
        * <pre>
        * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getStartDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getStartDateAndTimeOrBuilder() {
         return getStartDateAndTime();
       }
 
       public static final int END_DATE_AND_TIME_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.timestampValue endDateAndTime_;
+      private io.dstore.Values.timestampValue endDateAndTime_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
        *
        * <pre>
        * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -1366,30 +1366,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return endDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
        *
        * <pre>
        * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getEndDateAndTime() {
-        return endDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : endDateAndTime_;
+      public io.dstore.Values.timestampValue getEndDateAndTime() {
+        return endDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : endDateAndTime_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
        *
        * <pre>
        * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getEndDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getEndDateAndTimeOrBuilder() {
         return getEndDateAndTime();
       }
 
       public static final int START_DATE_AND_TIME_CHAR_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue startDateAndTimeChar_;
+      private io.dstore.Values.stringValue startDateAndTimeChar_;
       /**
-       * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+       * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
        *
        * <pre>
        * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -1399,30 +1399,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return startDateAndTimeChar_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+       * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
        *
        * <pre>
        * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getStartDateAndTimeChar() {
-        return startDateAndTimeChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : startDateAndTimeChar_;
+      public io.dstore.Values.stringValue getStartDateAndTimeChar() {
+        return startDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : startDateAndTimeChar_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+       * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
        *
        * <pre>
        * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getStartDateAndTimeCharOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getStartDateAndTimeCharOrBuilder() {
         return getStartDateAndTimeChar();
       }
 
       public static final int TIME_UNIT_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue timeUnitId_;
+      private io.dstore.Values.integerValue timeUnitId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
        *
        * <pre>
        * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
@@ -1432,30 +1432,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return timeUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
        *
        * <pre>
        * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTimeUnitId() {
-        return timeUnitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : timeUnitId_;
+      public io.dstore.Values.integerValue getTimeUnitId() {
+        return timeUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : timeUnitId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
        *
        * <pre>
        * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTimeUnitIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTimeUnitIdOrBuilder() {
         return getTimeUnitId();
       }
 
       public static final int PERIOD_DEFINITION_NAME_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue periodDefinitionName_;
+      private io.dstore.Values.stringValue periodDefinitionName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+       * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
@@ -1465,30 +1465,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return periodDefinitionName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+       * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPeriodDefinitionName() {
-        return periodDefinitionName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : periodDefinitionName_;
+      public io.dstore.Values.stringValue getPeriodDefinitionName() {
+        return periodDefinitionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : periodDefinitionName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+       * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
        *
        * <pre>
        * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPeriodDefinitionNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPeriodDefinitionNameOrBuilder() {
         return getPeriodDefinitionName();
       }
 
       public static final int END_DATE_AND_TIME_CHAR_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.stringValue endDateAndTimeChar_;
+      private io.dstore.Values.stringValue endDateAndTimeChar_;
       /**
-       * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+       * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
        *
        * <pre>
        * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -1498,30 +1498,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return endDateAndTimeChar_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+       * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
        *
        * <pre>
        * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getEndDateAndTimeChar() {
-        return endDateAndTimeChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : endDateAndTimeChar_;
+      public io.dstore.Values.stringValue getEndDateAndTimeChar() {
+        return endDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : endDateAndTimeChar_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+       * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
        *
        * <pre>
        * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getEndDateAndTimeCharOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getEndDateAndTimeCharOrBuilder() {
         return getEndDateAndTimeChar();
       }
 
       public static final int TIME_UNIT_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue timeUnit_;
+      private io.dstore.Values.stringValue timeUnit_;
       /**
-       * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+       * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
        *
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
@@ -1531,30 +1531,30 @@ public final class OmGetCampaignPeriodDefsAd {
         return timeUnit_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+       * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
        *
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTimeUnit() {
-        return timeUnit_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : timeUnit_;
+      public io.dstore.Values.stringValue getTimeUnit() {
+        return timeUnit_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+       * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
        *
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
         return getTimeUnit();
       }
 
       public static final int PERIOD_DEFINITION_ID_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.integerValue periodDefinitionId_;
+      private io.dstore.Values.integerValue periodDefinitionId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
        *
        * <pre>
        * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
@@ -1564,23 +1564,23 @@ public final class OmGetCampaignPeriodDefsAd {
         return periodDefinitionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
        *
        * <pre>
        * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPeriodDefinitionId() {
-        return periodDefinitionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : periodDefinitionId_;
+      public io.dstore.Values.integerValue getPeriodDefinitionId() {
+        return periodDefinitionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : periodDefinitionId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
        *
        * <pre>
        * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPeriodDefinitionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPeriodDefinitionIdOrBuilder() {
         return getPeriodDefinitionId();
       }
 
@@ -2026,11 +2026,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue repeatEveryXTimeUnits_ = null;
+        private io.dstore.Values.integerValue repeatEveryXTimeUnits_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> repeatEveryXTimeUnitsBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> repeatEveryXTimeUnitsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
@@ -2040,27 +2040,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return repeatEveryXTimeUnitsBuilder_ != null || repeatEveryXTimeUnits_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getRepeatEveryXTimeUnits() {
+        public io.dstore.Values.integerValue getRepeatEveryXTimeUnits() {
           if (repeatEveryXTimeUnitsBuilder_ == null) {
-            return repeatEveryXTimeUnits_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
+            return repeatEveryXTimeUnits_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
           } else {
             return repeatEveryXTimeUnitsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
-        public Builder setRepeatEveryXTimeUnits(io.dstore.engine.Values.integerValue value) {
+        public Builder setRepeatEveryXTimeUnits(io.dstore.Values.integerValue value) {
           if (repeatEveryXTimeUnitsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2074,14 +2074,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
         public Builder setRepeatEveryXTimeUnits(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (repeatEveryXTimeUnitsBuilder_ == null) {
             repeatEveryXTimeUnits_ = builderForValue.build();
             onChanged();
@@ -2092,17 +2092,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
-        public Builder mergeRepeatEveryXTimeUnits(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeRepeatEveryXTimeUnits(io.dstore.Values.integerValue value) {
           if (repeatEveryXTimeUnitsBuilder_ == null) {
             if (repeatEveryXTimeUnits_ != null) {
               repeatEveryXTimeUnits_ =
-                io.dstore.engine.Values.integerValue.newBuilder(repeatEveryXTimeUnits_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(repeatEveryXTimeUnits_).mergeFrom(value).buildPartial();
             } else {
               repeatEveryXTimeUnits_ = value;
             }
@@ -2114,7 +2114,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
@@ -2132,45 +2132,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getRepeatEveryXTimeUnitsBuilder() {
+        public io.dstore.Values.integerValue.Builder getRepeatEveryXTimeUnitsBuilder() {
           
           onChanged();
           return getRepeatEveryXTimeUnitsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder() {
           if (repeatEveryXTimeUnitsBuilder_ != null) {
             return repeatEveryXTimeUnitsBuilder_.getMessageOrBuilder();
           } else {
             return repeatEveryXTimeUnits_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
+                io.dstore.Values.integerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue repeat_every_x_time_units = 10001;</code>
+         * <code>optional .dstore.values.integerValue repeat_every_x_time_units = 10001;</code>
          *
          * <pre>
          * Wert "&gt; 0" bedeutet, daß der Zeitraum "StartDateAndTime" bis "EndDateAndTime" nach dieser Anzahl durch "TimeUnitID" bestimmten Zeiteinheit (z.B. "Tag") wiederholt wird und dieses "Wiederholungs-Prinzip" bis zum Zeitpunkg "RepeatUntil" fortgeführt wird
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRepeatEveryXTimeUnitsFieldBuilder() {
           if (repeatEveryXTimeUnitsBuilder_ == null) {
             repeatEveryXTimeUnitsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRepeatEveryXTimeUnits(),
                     getParentForChildren(),
                     isClean());
@@ -2179,11 +2179,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return repeatEveryXTimeUnitsBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue repeatUntil_ = null;
+        private io.dstore.Values.timestampValue repeatUntil_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> repeatUntilBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> repeatUntilBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
@@ -2193,27 +2193,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return repeatUntilBuilder_ != null || repeatUntil_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getRepeatUntil() {
+        public io.dstore.Values.timestampValue getRepeatUntil() {
           if (repeatUntilBuilder_ == null) {
-            return repeatUntil_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : repeatUntil_;
+            return repeatUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : repeatUntil_;
           } else {
             return repeatUntilBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
-        public Builder setRepeatUntil(io.dstore.engine.Values.timestampValue value) {
+        public Builder setRepeatUntil(io.dstore.Values.timestampValue value) {
           if (repeatUntilBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2227,14 +2227,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
         public Builder setRepeatUntil(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (repeatUntilBuilder_ == null) {
             repeatUntil_ = builderForValue.build();
             onChanged();
@@ -2245,17 +2245,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
-        public Builder mergeRepeatUntil(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeRepeatUntil(io.dstore.Values.timestampValue value) {
           if (repeatUntilBuilder_ == null) {
             if (repeatUntil_ != null) {
               repeatUntil_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(repeatUntil_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(repeatUntil_).mergeFrom(value).buildPartial();
             } else {
               repeatUntil_ = value;
             }
@@ -2267,7 +2267,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
@@ -2285,45 +2285,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getRepeatUntilBuilder() {
+        public io.dstore.Values.timestampValue.Builder getRepeatUntilBuilder() {
           
           onChanged();
           return getRepeatUntilFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getRepeatUntilOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getRepeatUntilOrBuilder() {
           if (repeatUntilBuilder_ != null) {
             return repeatUntilBuilder_.getMessageOrBuilder();
           } else {
             return repeatUntil_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : repeatUntil_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : repeatUntil_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue repeat_until = 10002;</code>
+         * <code>optional .dstore.values.timestampValue repeat_until = 10002;</code>
          *
          * <pre>
          * Nicht "NULL" wenn "RepeatEveryXTimeUnits &gt; 0". Zeitpunkt, bis zu dem der Zeitraum "StartDateAndTime" bis "EndDateAndTime" immer wieder nach "RepeatEveryXTimeUnits" vielen (durch "TimeUnitID" bestimmten) Zeiteinheiten (z.B. "Tage") wiederholt wird.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getRepeatUntilFieldBuilder() {
           if (repeatUntilBuilder_ == null) {
             repeatUntilBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getRepeatUntil(),
                     getParentForChildren(),
                     isClean());
@@ -2332,11 +2332,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return repeatUntilBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue startDateAndTime_ = null;
+        private io.dstore.Values.timestampValue startDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> startDateAndTimeBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> startDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -2346,27 +2346,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return startDateAndTimeBuilder_ != null || startDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getStartDateAndTime() {
+        public io.dstore.Values.timestampValue getStartDateAndTime() {
           if (startDateAndTimeBuilder_ == null) {
-            return startDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : startDateAndTime_;
+            return startDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : startDateAndTime_;
           } else {
             return startDateAndTimeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public Builder setStartDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder setStartDateAndTime(io.dstore.Values.timestampValue value) {
           if (startDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2380,14 +2380,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
         public Builder setStartDateAndTime(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (startDateAndTimeBuilder_ == null) {
             startDateAndTime_ = builderForValue.build();
             onChanged();
@@ -2398,17 +2398,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public Builder mergeStartDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeStartDateAndTime(io.dstore.Values.timestampValue value) {
           if (startDateAndTimeBuilder_ == null) {
             if (startDateAndTime_ != null) {
               startDateAndTime_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(startDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(startDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               startDateAndTime_ = value;
             }
@@ -2420,7 +2420,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -2438,45 +2438,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getStartDateAndTimeBuilder() {
+        public io.dstore.Values.timestampValue.Builder getStartDateAndTimeBuilder() {
           
           onChanged();
           return getStartDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getStartDateAndTimeOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getStartDateAndTimeOrBuilder() {
           if (startDateAndTimeBuilder_ != null) {
             return startDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return startDateAndTime_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : startDateAndTime_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : startDateAndTime_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue start_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.timestampValue start_date_and_time = 10003;</code>
          *
          * <pre>
          * Startzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Startzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getStartDateAndTimeFieldBuilder() {
           if (startDateAndTimeBuilder_ == null) {
             startDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getStartDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -2485,11 +2485,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return startDateAndTimeBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue endDateAndTime_ = null;
+        private io.dstore.Values.timestampValue endDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> endDateAndTimeBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> endDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -2499,27 +2499,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return endDateAndTimeBuilder_ != null || endDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getEndDateAndTime() {
+        public io.dstore.Values.timestampValue getEndDateAndTime() {
           if (endDateAndTimeBuilder_ == null) {
-            return endDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : endDateAndTime_;
+            return endDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : endDateAndTime_;
           } else {
             return endDateAndTimeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public Builder setEndDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder setEndDateAndTime(io.dstore.Values.timestampValue value) {
           if (endDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2533,14 +2533,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
         public Builder setEndDateAndTime(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (endDateAndTimeBuilder_ == null) {
             endDateAndTime_ = builderForValue.build();
             onChanged();
@@ -2551,17 +2551,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public Builder mergeEndDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeEndDateAndTime(io.dstore.Values.timestampValue value) {
           if (endDateAndTimeBuilder_ == null) {
             if (endDateAndTime_ != null) {
               endDateAndTime_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(endDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(endDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               endDateAndTime_ = value;
             }
@@ -2573,7 +2573,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
@@ -2591,45 +2591,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getEndDateAndTimeBuilder() {
+        public io.dstore.Values.timestampValue.Builder getEndDateAndTimeBuilder() {
           
           onChanged();
           return getEndDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getEndDateAndTimeOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getEndDateAndTimeOrBuilder() {
           if (endDateAndTimeBuilder_ != null) {
             return endDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return endDateAndTime_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : endDateAndTime_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : endDateAndTime_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue end_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.timestampValue end_date_and_time = 10004;</code>
          *
          * <pre>
          * Endzeitpunkt des Gültigkeitszeitraums und damit gleichzeitig Endzeitpunkt des ersten aus dieser Definition (generierten) tatsächlichen Zeitraums (der u.U. eben mehrfach gemäß "RepeatEveryXTimeUnits" bis zum Zeitpunkt "RepeatUntil" wiederholt wird)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getEndDateAndTimeFieldBuilder() {
           if (endDateAndTimeBuilder_ == null) {
             endDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getEndDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -2638,11 +2638,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return endDateAndTimeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue startDateAndTimeChar_ = null;
+        private io.dstore.Values.stringValue startDateAndTimeChar_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> startDateAndTimeCharBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> startDateAndTimeCharBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -2652,27 +2652,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return startDateAndTimeCharBuilder_ != null || startDateAndTimeChar_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getStartDateAndTimeChar() {
+        public io.dstore.Values.stringValue getStartDateAndTimeChar() {
           if (startDateAndTimeCharBuilder_ == null) {
-            return startDateAndTimeChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : startDateAndTimeChar_;
+            return startDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : startDateAndTimeChar_;
           } else {
             return startDateAndTimeCharBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public Builder setStartDateAndTimeChar(io.dstore.engine.Values.stringValue value) {
+        public Builder setStartDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (startDateAndTimeCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2686,14 +2686,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
         public Builder setStartDateAndTimeChar(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (startDateAndTimeCharBuilder_ == null) {
             startDateAndTimeChar_ = builderForValue.build();
             onChanged();
@@ -2704,17 +2704,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public Builder mergeStartDateAndTimeChar(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeStartDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (startDateAndTimeCharBuilder_ == null) {
             if (startDateAndTimeChar_ != null) {
               startDateAndTimeChar_ =
-                io.dstore.engine.Values.stringValue.newBuilder(startDateAndTimeChar_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(startDateAndTimeChar_).mergeFrom(value).buildPartial();
             } else {
               startDateAndTimeChar_ = value;
             }
@@ -2726,7 +2726,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -2744,45 +2744,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getStartDateAndTimeCharBuilder() {
+        public io.dstore.Values.stringValue.Builder getStartDateAndTimeCharBuilder() {
           
           onChanged();
           return getStartDateAndTimeCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getStartDateAndTimeCharOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getStartDateAndTimeCharOrBuilder() {
           if (startDateAndTimeCharBuilder_ != null) {
             return startDateAndTimeCharBuilder_.getMessageOrBuilder();
           } else {
             return startDateAndTimeChar_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : startDateAndTimeChar_;
+                io.dstore.Values.stringValue.getDefaultInstance() : startDateAndTimeChar_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue start_date_and_time_char = 10005;</code>
+         * <code>optional .dstore.values.stringValue start_date_and_time_char = 10005;</code>
          *
          * <pre>
          * "StartDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getStartDateAndTimeCharFieldBuilder() {
           if (startDateAndTimeCharBuilder_ == null) {
             startDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getStartDateAndTimeChar(),
                     getParentForChildren(),
                     isClean());
@@ -2791,11 +2791,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return startDateAndTimeCharBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue timeUnitId_ = null;
+        private io.dstore.Values.integerValue timeUnitId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> timeUnitIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> timeUnitIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
@@ -2805,27 +2805,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return timeUnitIdBuilder_ != null || timeUnitId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTimeUnitId() {
+        public io.dstore.Values.integerValue getTimeUnitId() {
           if (timeUnitIdBuilder_ == null) {
-            return timeUnitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : timeUnitId_;
+            return timeUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : timeUnitId_;
           } else {
             return timeUnitIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
-        public Builder setTimeUnitId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTimeUnitId(io.dstore.Values.integerValue value) {
           if (timeUnitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2839,14 +2839,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
         public Builder setTimeUnitId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (timeUnitIdBuilder_ == null) {
             timeUnitId_ = builderForValue.build();
             onChanged();
@@ -2857,17 +2857,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
-        public Builder mergeTimeUnitId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTimeUnitId(io.dstore.Values.integerValue value) {
           if (timeUnitIdBuilder_ == null) {
             if (timeUnitId_ != null) {
               timeUnitId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(timeUnitId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(timeUnitId_).mergeFrom(value).buildPartial();
             } else {
               timeUnitId_ = value;
             }
@@ -2879,7 +2879,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
@@ -2897,45 +2897,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTimeUnitIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTimeUnitIdBuilder() {
           
           onChanged();
           return getTimeUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTimeUnitIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTimeUnitIdOrBuilder() {
           if (timeUnitIdBuilder_ != null) {
             return timeUnitIdBuilder_.getMessageOrBuilder();
           } else {
             return timeUnitId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : timeUnitId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : timeUnitId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue time_unit_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue time_unit_id = 10006;</code>
          *
          * <pre>
          * ID einer Zeiteinheit. Gibt die Zeiteinheit für "RepeatEveryXTimeUnits" an. "NULL" wenn "RepeatEveryXTimeUnits = 0" ist. Mögliche Werte : s. "om_GetTimeUnitsForCPeriods_Ad"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTimeUnitIdFieldBuilder() {
           if (timeUnitIdBuilder_ == null) {
             timeUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTimeUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -2944,11 +2944,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return timeUnitIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue periodDefinitionName_ = null;
+        private io.dstore.Values.stringValue periodDefinitionName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> periodDefinitionNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> periodDefinitionNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
@@ -2958,27 +2958,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return periodDefinitionNameBuilder_ != null || periodDefinitionName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPeriodDefinitionName() {
+        public io.dstore.Values.stringValue getPeriodDefinitionName() {
           if (periodDefinitionNameBuilder_ == null) {
-            return periodDefinitionName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : periodDefinitionName_;
+            return periodDefinitionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : periodDefinitionName_;
           } else {
             return periodDefinitionNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
-        public Builder setPeriodDefinitionName(io.dstore.engine.Values.stringValue value) {
+        public Builder setPeriodDefinitionName(io.dstore.Values.stringValue value) {
           if (periodDefinitionNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2992,14 +2992,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
         public Builder setPeriodDefinitionName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (periodDefinitionNameBuilder_ == null) {
             periodDefinitionName_ = builderForValue.build();
             onChanged();
@@ -3010,17 +3010,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
-        public Builder mergePeriodDefinitionName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePeriodDefinitionName(io.dstore.Values.stringValue value) {
           if (periodDefinitionNameBuilder_ == null) {
             if (periodDefinitionName_ != null) {
               periodDefinitionName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(periodDefinitionName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(periodDefinitionName_).mergeFrom(value).buildPartial();
             } else {
               periodDefinitionName_ = value;
             }
@@ -3032,7 +3032,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
@@ -3050,45 +3050,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPeriodDefinitionNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getPeriodDefinitionNameBuilder() {
           
           onChanged();
           return getPeriodDefinitionNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPeriodDefinitionNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPeriodDefinitionNameOrBuilder() {
           if (periodDefinitionNameBuilder_ != null) {
             return periodDefinitionNameBuilder_.getMessageOrBuilder();
           } else {
             return periodDefinitionName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : periodDefinitionName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : periodDefinitionName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue period_definition_name = 10007;</code>
+         * <code>optional .dstore.values.stringValue period_definition_name = 10007;</code>
          *
          * <pre>
          * Bezeichnung der Definition "PeriodDefinitionID", wie z.B. "Jeden Montag zwischen 10 und 15 Uhr (vom 29.03.2010 bis zum 12.04.2010)"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPeriodDefinitionNameFieldBuilder() {
           if (periodDefinitionNameBuilder_ == null) {
             periodDefinitionNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPeriodDefinitionName(),
                     getParentForChildren(),
                     isClean());
@@ -3097,11 +3097,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return periodDefinitionNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue endDateAndTimeChar_ = null;
+        private io.dstore.Values.stringValue endDateAndTimeChar_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> endDateAndTimeCharBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> endDateAndTimeCharBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -3111,27 +3111,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return endDateAndTimeCharBuilder_ != null || endDateAndTimeChar_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getEndDateAndTimeChar() {
+        public io.dstore.Values.stringValue getEndDateAndTimeChar() {
           if (endDateAndTimeCharBuilder_ == null) {
-            return endDateAndTimeChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : endDateAndTimeChar_;
+            return endDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : endDateAndTimeChar_;
           } else {
             return endDateAndTimeCharBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public Builder setEndDateAndTimeChar(io.dstore.engine.Values.stringValue value) {
+        public Builder setEndDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (endDateAndTimeCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3145,14 +3145,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
         public Builder setEndDateAndTimeChar(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (endDateAndTimeCharBuilder_ == null) {
             endDateAndTimeChar_ = builderForValue.build();
             onChanged();
@@ -3163,17 +3163,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public Builder mergeEndDateAndTimeChar(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeEndDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (endDateAndTimeCharBuilder_ == null) {
             if (endDateAndTimeChar_ != null) {
               endDateAndTimeChar_ =
-                io.dstore.engine.Values.stringValue.newBuilder(endDateAndTimeChar_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(endDateAndTimeChar_).mergeFrom(value).buildPartial();
             } else {
               endDateAndTimeChar_ = value;
             }
@@ -3185,7 +3185,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
@@ -3203,45 +3203,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getEndDateAndTimeCharBuilder() {
+        public io.dstore.Values.stringValue.Builder getEndDateAndTimeCharBuilder() {
           
           onChanged();
           return getEndDateAndTimeCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getEndDateAndTimeCharOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getEndDateAndTimeCharOrBuilder() {
           if (endDateAndTimeCharBuilder_ != null) {
             return endDateAndTimeCharBuilder_.getMessageOrBuilder();
           } else {
             return endDateAndTimeChar_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : endDateAndTimeChar_;
+                io.dstore.Values.stringValue.getDefaultInstance() : endDateAndTimeChar_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue end_date_and_time_char = 10008;</code>
+         * <code>optional .dstore.values.stringValue end_date_and_time_char = 10008;</code>
          *
          * <pre>
          * "EndDateAndTime" als "string" im Format "01.04.2001 17:52:23:548"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getEndDateAndTimeCharFieldBuilder() {
           if (endDateAndTimeCharBuilder_ == null) {
             endDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getEndDateAndTimeChar(),
                     getParentForChildren(),
                     isClean());
@@ -3250,11 +3250,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return endDateAndTimeCharBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue timeUnit_ = null;
+        private io.dstore.Values.stringValue timeUnit_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> timeUnitBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> timeUnitBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
@@ -3264,27 +3264,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return timeUnitBuilder_ != null || timeUnit_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTimeUnit() {
+        public io.dstore.Values.stringValue getTimeUnit() {
           if (timeUnitBuilder_ == null) {
-            return timeUnit_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : timeUnit_;
+            return timeUnit_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
           } else {
             return timeUnitBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
-        public Builder setTimeUnit(io.dstore.engine.Values.stringValue value) {
+        public Builder setTimeUnit(io.dstore.Values.stringValue value) {
           if (timeUnitBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3298,14 +3298,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
         public Builder setTimeUnit(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (timeUnitBuilder_ == null) {
             timeUnit_ = builderForValue.build();
             onChanged();
@@ -3316,17 +3316,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
-        public Builder mergeTimeUnit(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTimeUnit(io.dstore.Values.stringValue value) {
           if (timeUnitBuilder_ == null) {
             if (timeUnit_ != null) {
               timeUnit_ =
-                io.dstore.engine.Values.stringValue.newBuilder(timeUnit_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(timeUnit_).mergeFrom(value).buildPartial();
             } else {
               timeUnit_ = value;
             }
@@ -3338,7 +3338,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
@@ -3356,45 +3356,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTimeUnitBuilder() {
+        public io.dstore.Values.stringValue.Builder getTimeUnitBuilder() {
           
           onChanged();
           return getTimeUnitFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
           if (timeUnitBuilder_ != null) {
             return timeUnitBuilder_.getMessageOrBuilder();
           } else {
             return timeUnit_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : timeUnit_;
+                io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue time_unit = 10009;</code>
+         * <code>optional .dstore.values.stringValue time_unit = 10009;</code>
          *
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTimeUnitFieldBuilder() {
           if (timeUnitBuilder_ == null) {
             timeUnitBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTimeUnit(),
                     getParentForChildren(),
                     isClean());
@@ -3403,11 +3403,11 @@ public final class OmGetCampaignPeriodDefsAd {
           return timeUnitBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue periodDefinitionId_ = null;
+        private io.dstore.Values.integerValue periodDefinitionId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> periodDefinitionIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> periodDefinitionIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
@@ -3417,27 +3417,27 @@ public final class OmGetCampaignPeriodDefsAd {
           return periodDefinitionIdBuilder_ != null || periodDefinitionId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPeriodDefinitionId() {
+        public io.dstore.Values.integerValue getPeriodDefinitionId() {
           if (periodDefinitionIdBuilder_ == null) {
-            return periodDefinitionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : periodDefinitionId_;
+            return periodDefinitionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : periodDefinitionId_;
           } else {
             return periodDefinitionIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
-        public Builder setPeriodDefinitionId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPeriodDefinitionId(io.dstore.Values.integerValue value) {
           if (periodDefinitionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3451,14 +3451,14 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
         public Builder setPeriodDefinitionId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (periodDefinitionIdBuilder_ == null) {
             periodDefinitionId_ = builderForValue.build();
             onChanged();
@@ -3469,17 +3469,17 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
-        public Builder mergePeriodDefinitionId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePeriodDefinitionId(io.dstore.Values.integerValue value) {
           if (periodDefinitionIdBuilder_ == null) {
             if (periodDefinitionId_ != null) {
               periodDefinitionId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(periodDefinitionId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(periodDefinitionId_).mergeFrom(value).buildPartial();
             } else {
               periodDefinitionId_ = value;
             }
@@ -3491,7 +3491,7 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
@@ -3509,45 +3509,45 @@ public final class OmGetCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPeriodDefinitionIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPeriodDefinitionIdBuilder() {
           
           onChanged();
           return getPeriodDefinitionIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPeriodDefinitionIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPeriodDefinitionIdOrBuilder() {
           if (periodDefinitionIdBuilder_ != null) {
             return periodDefinitionIdBuilder_.getMessageOrBuilder();
           } else {
             return periodDefinitionId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : periodDefinitionId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : periodDefinitionId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue period_definition_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue period_definition_id = 10010;</code>
          *
          * <pre>
          * ID einer (nur) für die Verkaufs-Aktion "&#64;CampaignID" geltenden Gültigkeitszeitraum-Definition. Anmerkung : stellt quasi nur eine Art "Durchnummerierung" der Zeitraum-Definitionen für eine Verkaufs-Aktion dar.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPeriodDefinitionIdFieldBuilder() {
           if (periodDefinitionIdBuilder_ == null) {
             periodDefinitionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPeriodDefinitionId(),
                     getParentForChildren(),
                     isClean());
@@ -5117,37 +5117,35 @@ public final class OmGetCampaignPeriodDefsAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/om_GetCampaig" +
       "nPeriodDefs_Ad.proto\022)dstore.engine.om_G" +
-      "etCampaignPeriodDefs_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"`\n\nParameters\0227" +
-      "\n\013campaign_id\030\001 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\031\n\020campaign_id_null\030\351\007 \001" +
-      "(\010\"\235\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002",
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022D\n\003row\030\004 \003(\01327.dst" +
-      "ore.engine.om_GetCampaignPeriodDefs_Ad.R" +
-      "esponse.Row\032\244\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022F\n\031" +
-      "repeat_every_x_time_units\030\221N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022;\n\014repeat_u" +
-      "ntil\030\222N \001(\0132$.dstore.engine.values.times" +
-      "tampValue\022B\n\023start_date_and_time\030\223N \001(\0132" +
-      "$.dstore.engine.values.timestampValue\022@\n",
-      "\021end_date_and_time\030\224N \001(\0132$.dstore.engin" +
-      "e.values.timestampValue\022D\n\030start_date_an" +
-      "d_time_char\030\225N \001(\0132!.dstore.engine.value" +
-      "s.stringValue\0229\n\014time_unit_id\030\226N \001(\0132\".d" +
-      "store.engine.values.integerValue\022B\n\026peri" +
-      "od_definition_name\030\227N \001(\0132!.dstore.engin" +
-      "e.values.stringValue\022B\n\026end_date_and_tim" +
-      "e_char\030\230N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\0225\n\ttime_unit\030\231N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022A\n\024period_defini",
-      "tion_id\030\232N \001(\0132\".dstore.engine.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "etCampaignPeriodDefs_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"Y\n\nParameters\0220\n\013campa" +
+      "ign_id\030\001 \001(\0132\033.dstore.values.integerValu" +
+      "e\022\031\n\020campaign_id_null\030\351\007 \001(\010\"\327\006\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore.",
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022D\n\003row\030\004 \003(\01327.dstore.engine.om_" +
+      "GetCampaignPeriodDefs_Ad.Response.Row\032\336\004" +
+      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\031repeat_every_x" +
+      "_time_units\030\221N \001(\0132\033.dstore.values.integ" +
+      "erValue\0224\n\014repeat_until\030\222N \001(\0132\035.dstore." +
+      "values.timestampValue\022;\n\023start_date_and_" +
+      "time\030\223N \001(\0132\035.dstore.values.timestampVal" +
+      "ue\0229\n\021end_date_and_time\030\224N \001(\0132\035.dstore.",
+      "values.timestampValue\022=\n\030start_date_and_" +
+      "time_char\030\225N \001(\0132\032.dstore.values.stringV" +
+      "alue\0222\n\014time_unit_id\030\226N \001(\0132\033.dstore.val" +
+      "ues.integerValue\022;\n\026period_definition_na" +
+      "me\030\227N \001(\0132\032.dstore.values.stringValue\022;\n" +
+      "\026end_date_and_time_char\030\230N \001(\0132\032.dstore." +
+      "values.stringValue\022.\n\ttime_unit\030\231N \001(\0132\032" +
+      ".dstore.values.stringValue\022:\n\024period_def" +
+      "inition_id\030\232N \001(\0132\033.dstore.values.intege" +
+      "rValueB\035\n\033io.dstore.engine.proceduresb\006p",
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5160,7 +5158,7 @@ public final class OmGetCampaignPeriodDefsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5183,7 +5181,7 @@ public final class OmGetCampaignPeriodDefsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignPeriodDefs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "RepeatEveryXTimeUnits", "RepeatUntil", "StartDateAndTime", "EndDateAndTime", "StartDateAndTimeChar", "TimeUnitId", "PeriodDefinitionName", "EndDateAndTimeChar", "TimeUnit", "PeriodDefinitionId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

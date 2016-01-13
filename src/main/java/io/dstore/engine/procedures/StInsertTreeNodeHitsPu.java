@@ -13,17 +13,17 @@ public final class StInsertTreeNodeHitsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTreeNodeId();
+    io.dstore.Values.integerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class StInsertTreeNodeHitsPu {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class StInsertTreeNodeHitsPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
      */
     boolean hasIsNodeId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getIsNodeId();
+    io.dstore.Values.booleanValue getIsNodeId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIsNodeIdOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIsNodeIdOrBuilder();
 
     /**
      * <code>optional bool is_node_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class StInsertTreeNodeHitsPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class StInsertTreeNodeHitsPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class StInsertTreeNodeHitsPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (isNodeId_ != null) {
                 subBuilder = isNodeId_.toBuilder();
               }
-              isNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              isNodeId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isNodeId_);
                 isNodeId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class StInsertTreeNodeHitsPu {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue treeNodeId_;
+    private io.dstore.Values.integerValue treeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.Values.integerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -216,23 +216,23 @@ public final class StInsertTreeNodeHitsPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -246,23 +246,23 @@ public final class StInsertTreeNodeHitsPu {
     }
 
     public static final int IS_NODE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue isNodeId_;
+    private io.dstore.Values.booleanValue isNodeId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
      */
     public boolean hasIsNodeId() {
       return isNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIsNodeId() {
-      return isNodeId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isNodeId_;
+    public io.dstore.Values.booleanValue getIsNodeId() {
+      return isNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIsNodeIdOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIsNodeIdOrBuilder() {
       return getIsNodeId();
     }
 
@@ -570,29 +570,29 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+      private io.dstore.Values.integerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
+      public io.dstore.Values.integerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -638,7 +638,7 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -781,7 +781,7 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue isNodeId_ = null;
+      private io.dstore.Values.booleanValue isNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> isNodeIdBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
       public boolean hasIsNodeId() {
         return isNodeIdBuilder_ != null || isNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIsNodeId() {
+      public io.dstore.Values.booleanValue getIsNodeId() {
         if (isNodeIdBuilder_ == null) {
-          return isNodeId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isNodeId_;
+          return isNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isNodeId_;
         } else {
           return isNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
-      public Builder setIsNodeId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIsNodeId(io.dstore.Values.booleanValue value) {
         if (isNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
       public Builder setIsNodeId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (isNodeIdBuilder_ == null) {
           isNodeId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
-      public Builder mergeIsNodeId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIsNodeId(io.dstore.Values.booleanValue value) {
         if (isNodeIdBuilder_ == null) {
           if (isNodeId_ != null) {
             isNodeId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(isNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(isNodeId_).mergeFrom(value).buildPartial();
           } else {
             isNodeId_ = value;
           }
@@ -924,7 +924,7 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
       public Builder clearIsNodeId() {
         if (isNodeIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class StInsertTreeNodeHitsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIsNodeIdBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIsNodeIdBuilder() {
         
         onChanged();
         return getIsNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIsNodeIdOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIsNodeIdOrBuilder() {
         if (isNodeIdBuilder_ != null) {
           return isNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return isNodeId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : isNodeId_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : isNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_node_id = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIsNodeIdFieldBuilder() {
         if (isNodeIdBuilder_ == null) {
           isNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIsNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -3155,24 +3155,24 @@ public final class StInsertTreeNodeHitsPu {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/st_InsertTree" +
       "NodeHits_Pu.proto\022&dstore.engine.st_Inse" +
-      "rtTreeNodeHits_Pu\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\203\002\n\nParameters\0228\n\014tre" +
-      "e_node_id\030\001 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022\032\n\021tree_node_id_null\030\351\007 \001(\010\022" +
-      "4\n\tunique_id\030\002 \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022\027\n\016unique_id_null\030\352\007 \001(\010\0226",
-      "\n\nis_node_id\030\003 \001(\0132\".dstore.engine.value" +
-      "s.booleanValue\022\030\n\017is_node_id_null\030\353\007 \001(\010" +
-      "\"\213\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
-      "gine.error.Error\022H\n\020meta_information\030\002 \003" +
-      "(\0132..dstore.engine.metainformation.MetaI" +
-      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
-      "ine.message.Message\022A\n\003row\030\004 \003(\01324.dstor" +
-      "e.engine.st_InsertTreeNodeHits_Pu.Respon" +
-      "se.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "rtTreeNodeHits_Pu\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"\356\001\n\nParameters\0221\n\014tree_node_" +
+      "id\030\001 \001(\0132\033.dstore.values.integerValue\022\032\n" +
+      "\021tree_node_id_null\030\351\007 \001(\010\022-\n\tunique_id\030\002" +
+      " \001(\0132\032.dstore.values.stringValue\022\027\n\016uniq" +
+      "ue_id_null\030\352\007 \001(\010\022/\n\nis_node_id\030\003 \001(\0132\033.",
+      "dstore.values.booleanValue\022\030\n\017is_node_id" +
+      "_null\030\353\007 \001(\010\"\213\002\n\010Response\022)\n\005error\030\001 \001(\013" +
+      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
+      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
+      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
+      "\036.dstore.engine.message.Message\022A\n\003row\030\004" +
+      " \003(\01324.dstore.engine.st_InsertTreeNodeHi" +
+      "ts_Pu.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001" +
+      "(\005B\035\n\033io.dstore.engine.proceduresb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3185,7 +3185,7 @@ public final class StInsertTreeNodeHitsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3208,7 +3208,7 @@ public final class StInsertTreeNodeHitsPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_InsertTreeNodeHits_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

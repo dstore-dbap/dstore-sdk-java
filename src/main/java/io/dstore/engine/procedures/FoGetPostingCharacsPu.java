@@ -13,17 +13,17 @@ public final class FoGetPostingCharacsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getPersonIdentificationValues();
+    io.dstore.Values.stringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class FoGetPostingCharacsPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonTypeId();
+    io.dstore.Values.integerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class FoGetPostingCharacsPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class FoGetPostingCharacsPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getForumId();
+    io.dstore.Values.integerValue getForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class FoGetPostingCharacsPu {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
      */
     boolean hasCharacteristicIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
      */
-    io.dstore.engine.Values.stringValue getCharacteristicIdList();
+    io.dstore.Values.stringValue getCharacteristicIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder();
 
     /**
      * <code>optional bool characteristic_id_list_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class FoGetPostingCharacsPu {
     boolean getCharacteristicIdListNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
      */
-    io.dstore.engine.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1006;</code>
@@ -165,11 +165,11 @@ public final class FoGetPostingCharacsPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -178,11 +178,11 @@ public final class FoGetPostingCharacsPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -191,11 +191,11 @@ public final class FoGetPostingCharacsPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class FoGetPostingCharacsPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class FoGetPostingCharacsPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (characteristicIdList_ != null) {
                 subBuilder = characteristicIdList_.toBuilder();
               }
-              characteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              characteristicIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicIdList_);
                 characteristicIdList_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class FoGetPostingCharacsPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -297,23 +297,23 @@ public final class FoGetPostingCharacsPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue personIdentificationValues_;
+    private io.dstore.Values.stringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -327,23 +327,23 @@ public final class FoGetPostingCharacsPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue personTypeId_;
+    private io.dstore.Values.integerValue personTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.Values.integerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -357,23 +357,23 @@ public final class FoGetPostingCharacsPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -387,23 +387,23 @@ public final class FoGetPostingCharacsPu {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue forumId_;
+    private io.dstore.Values.integerValue forumId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.Values.integerValue getForumId() {
+      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -417,23 +417,23 @@ public final class FoGetPostingCharacsPu {
     }
 
     public static final int CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.stringValue characteristicIdList_;
+    private io.dstore.Values.stringValue characteristicIdList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
      */
     public boolean hasCharacteristicIdList() {
       return characteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
      */
-    public io.dstore.engine.Values.stringValue getCharacteristicIdList() {
-      return characteristicIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicIdList_;
+    public io.dstore.Values.stringValue getCharacteristicIdList() {
+      return characteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
       return getCharacteristicIdList();
     }
 
@@ -447,23 +447,23 @@ public final class FoGetPostingCharacsPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.stringValue separatorInIdentVals_;
+    private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
      */
-    public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -873,29 +873,29 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.Values.stringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.Values.stringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -909,10 +909,10 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -923,13 +923,13 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.engine.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -941,7 +941,7 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -955,33 +955,33 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1016,29 +1016,29 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personTypeId_ = null;
+      private io.dstore.Values.integerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonTypeId() {
+      public io.dstore.Values.integerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1052,10 +1052,10 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1066,13 +1066,13 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1084,7 +1084,7 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1098,33 +1098,33 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1159,29 +1159,29 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1195,10 +1195,10 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1209,13 +1209,13 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1227,7 +1227,7 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1241,33 +1241,33 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1302,29 +1302,29 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue forumId_ = null;
+      private io.dstore.Values.integerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getForumId() {
+      public io.dstore.Values.integerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public Builder setForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder setForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1338,10 +1338,10 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       public Builder setForumId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -1352,13 +1352,13 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public Builder mergeForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -1370,7 +1370,7 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1384,33 +1384,33 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -1445,29 +1445,29 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue characteristicIdList_ = null;
+      private io.dstore.Values.stringValue characteristicIdList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> characteristicIdListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
       public boolean hasCharacteristicIdList() {
         return characteristicIdListBuilder_ != null || characteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue getCharacteristicIdList() {
+      public io.dstore.Values.stringValue getCharacteristicIdList() {
         if (characteristicIdListBuilder_ == null) {
-          return characteristicIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicIdList_;
+          return characteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
         } else {
           return characteristicIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      public Builder setCharacteristicIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder setCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (characteristicIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1481,10 +1481,10 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
       public Builder setCharacteristicIdList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (characteristicIdListBuilder_ == null) {
           characteristicIdList_ = builderForValue.build();
           onChanged();
@@ -1495,13 +1495,13 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      public Builder mergeCharacteristicIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (characteristicIdListBuilder_ == null) {
           if (characteristicIdList_ != null) {
             characteristicIdList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(characteristicIdList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(characteristicIdList_).mergeFrom(value).buildPartial();
           } else {
             characteristicIdList_ = value;
           }
@@ -1513,7 +1513,7 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
       public Builder clearCharacteristicIdList() {
         if (characteristicIdListBuilder_ == null) {
@@ -1527,33 +1527,33 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCharacteristicIdListBuilder() {
+      public io.dstore.Values.stringValue.Builder getCharacteristicIdListBuilder() {
         
         onChanged();
         return getCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
         if (characteristicIdListBuilder_ != null) {
           return characteristicIdListBuilder_.getMessageOrBuilder();
         } else {
           return characteristicIdList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicIdList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCharacteristicIdListFieldBuilder() {
         if (characteristicIdListBuilder_ == null) {
           characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCharacteristicIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1588,29 +1588,29 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1624,10 +1624,10 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -1638,13 +1638,13 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.engine.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -1656,7 +1656,7 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1670,33 +1670,33 @@ public final class FoGetPostingCharacsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -2018,7 +2018,7 @@ public final class FoGetPostingCharacsPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "PostingCharacteristicID"
@@ -2026,24 +2026,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "PostingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCharacteristicDescription();
+      io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "PostingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -2051,24 +2051,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasFieldTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getFieldTypeId();
+      io.dstore.Values.integerValue getFieldTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals
@@ -2076,24 +2076,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasPostingCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPostingCharacteristicId();
+      io.dstore.Values.integerValue getPostingCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        *
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
@@ -2101,24 +2101,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasPrecisionValue();
       /**
-       * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        *
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPrecisionValue();
+      io.dstore.Values.integerValue getPrecisionValue();
       /**
-       * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        *
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+       * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
        *
        * <pre>
        * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
@@ -2126,24 +2126,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasCommonCharacteristic();
       /**
-       * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+       * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
        *
        * <pre>
        * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCommonCharacteristic();
+      io.dstore.Values.integerValue getCommonCharacteristic();
       /**
-       * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+       * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
        *
        * <pre>
        * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCommonCharacteristicOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCommonCharacteristicOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
        *
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
@@ -2151,24 +2151,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasMaxLength();
       /**
-       * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
        *
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getMaxLength();
+      io.dstore.Values.integerValue getMaxLength();
       /**
-       * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
        *
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getMaxLengthOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getMaxLengthOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
        *
        * <pre>
        * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
@@ -2176,24 +2176,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasPredefinedValues();
       /**
-       * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
        *
        * <pre>
        * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getPredefinedValues();
+      io.dstore.Values.booleanValue getPredefinedValues();
       /**
-       * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
        *
        * <pre>
        * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+       * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
        *
        * <pre>
        * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
@@ -2201,24 +2201,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasCheckPostingVisibility();
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+       * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
        *
        * <pre>
        * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getCheckPostingVisibility();
+      io.dstore.Values.booleanValue getCheckPostingVisibility();
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+       * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
        *
        * <pre>
        * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getCheckPostingVisibilityOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getCheckPostingVisibilityOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+       * <code>optional .dstore.values.stringValue format = 10009;</code>
        *
        * <pre>
        * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
@@ -2226,24 +2226,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasFormat();
       /**
-       * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+       * <code>optional .dstore.values.stringValue format = 10009;</code>
        *
        * <pre>
        * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFormat();
+      io.dstore.Values.stringValue getFormat();
       /**
-       * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+       * <code>optional .dstore.values.stringValue format = 10009;</code>
        *
        * <pre>
        * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFormatOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFormatOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
@@ -2251,24 +2251,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasBasicFieldType();
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getBasicFieldType();
+      io.dstore.Values.stringValue getBasicFieldType();
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+       * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
        *
        * <pre>
        * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
@@ -2276,24 +2276,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasFieldTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+       * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
        *
        * <pre>
        * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFieldTypeDescription();
+      io.dstore.Values.stringValue getFieldTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+       * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
        *
        * <pre>
        * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
        *
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
@@ -2301,24 +2301,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasBasicFieldTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
        *
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBasicFieldTypeId();
+      io.dstore.Values.integerValue getBasicFieldTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
        *
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+       * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
        *
        * <pre>
        * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
@@ -2326,24 +2326,24 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasPropertyModificationAllowed();
       /**
-       * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+       * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
        *
        * <pre>
        * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPropertyModificationAllowed();
+      io.dstore.Values.integerValue getPropertyModificationAllowed();
       /**
-       * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+       * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
        *
        * <pre>
        * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPropertyModificationAllowedOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPropertyModificationAllowedOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
        *
        * <pre>
        * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
@@ -2351,21 +2351,21 @@ public final class FoGetPostingCharacsPu {
        */
       boolean hasMaxNumberOfProperties();
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
        *
        * <pre>
        * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getMaxNumberOfProperties();
+      io.dstore.Values.integerValue getMaxNumberOfProperties();
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
        *
        * <pre>
        * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfPropertiesOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getMaxNumberOfPropertiesOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Response.Row}
@@ -2412,11 +2412,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -2425,11 +2425,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (fieldTypeId_ != null) {
                   subBuilder = fieldTypeId_.toBuilder();
                 }
-                fieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                fieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeId_);
                   fieldTypeId_ = subBuilder.buildPartial();
@@ -2438,11 +2438,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (postingCharacteristicId_ != null) {
                   subBuilder = postingCharacteristicId_.toBuilder();
                 }
-                postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                postingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingCharacteristicId_);
                   postingCharacteristicId_ = subBuilder.buildPartial();
@@ -2451,11 +2451,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -2464,11 +2464,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (commonCharacteristic_ != null) {
                   subBuilder = commonCharacteristic_.toBuilder();
                 }
-                commonCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                commonCharacteristic_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(commonCharacteristic_);
                   commonCharacteristic_ = subBuilder.buildPartial();
@@ -2477,11 +2477,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (maxLength_ != null) {
                   subBuilder = maxLength_.toBuilder();
                 }
-                maxLength_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                maxLength_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxLength_);
                   maxLength_ = subBuilder.buildPartial();
@@ -2490,11 +2490,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (predefinedValues_ != null) {
                   subBuilder = predefinedValues_.toBuilder();
                 }
-                predefinedValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                predefinedValues_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predefinedValues_);
                   predefinedValues_ = subBuilder.buildPartial();
@@ -2503,11 +2503,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (checkPostingVisibility_ != null) {
                   subBuilder = checkPostingVisibility_.toBuilder();
                 }
-                checkPostingVisibility_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                checkPostingVisibility_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(checkPostingVisibility_);
                   checkPostingVisibility_ = subBuilder.buildPartial();
@@ -2516,11 +2516,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (format_ != null) {
                   subBuilder = format_.toBuilder();
                 }
-                format_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                format_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(format_);
                   format_ = subBuilder.buildPartial();
@@ -2529,11 +2529,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (basicFieldType_ != null) {
                   subBuilder = basicFieldType_.toBuilder();
                 }
-                basicFieldType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                basicFieldType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicFieldType_);
                   basicFieldType_ = subBuilder.buildPartial();
@@ -2542,11 +2542,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (fieldTypeDescription_ != null) {
                   subBuilder = fieldTypeDescription_.toBuilder();
                 }
-                fieldTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                fieldTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeDescription_);
                   fieldTypeDescription_ = subBuilder.buildPartial();
@@ -2555,11 +2555,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (basicFieldTypeId_ != null) {
                   subBuilder = basicFieldTypeId_.toBuilder();
                 }
-                basicFieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                basicFieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicFieldTypeId_);
                   basicFieldTypeId_ = subBuilder.buildPartial();
@@ -2568,11 +2568,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80106: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (propertyModificationAllowed_ != null) {
                   subBuilder = propertyModificationAllowed_.toBuilder();
                 }
-                propertyModificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                propertyModificationAllowed_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(propertyModificationAllowed_);
                   propertyModificationAllowed_ = subBuilder.buildPartial();
@@ -2581,11 +2581,11 @@ public final class FoGetPostingCharacsPu {
                 break;
               }
               case 80114: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (maxNumberOfProperties_ != null) {
                   subBuilder = maxNumberOfProperties_.toBuilder();
                 }
-                maxNumberOfProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                maxNumberOfProperties_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxNumberOfProperties_);
                   maxNumberOfProperties_ = subBuilder.buildPartial();
@@ -2627,9 +2627,9 @@ public final class FoGetPostingCharacsPu {
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue characteristicDescription_;
+      private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "PostingCharacteristicID"
@@ -2639,30 +2639,30 @@ public final class FoGetPostingCharacsPu {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "PostingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.Values.stringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "PostingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int FIELD_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue fieldTypeId_;
+      private io.dstore.Values.integerValue fieldTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -2672,30 +2672,30 @@ public final class FoGetPostingCharacsPu {
         return fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getFieldTypeId() {
-        return fieldTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+      public io.dstore.Values.integerValue getFieldTypeId() {
+        return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
        *
        * <pre>
        * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
       }
 
       public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue postingCharacteristicId_;
+      private io.dstore.Values.integerValue postingCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals
@@ -2705,30 +2705,30 @@ public final class FoGetPostingCharacsPu {
         return postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPostingCharacteristicId() {
-        return postingCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+      public io.dstore.Values.integerValue getPostingCharacteristicId() {
+        return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         return getPostingCharacteristicId();
       }
 
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue precisionValue_;
+      private io.dstore.Values.integerValue precisionValue_;
       /**
-       * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        *
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
@@ -2738,30 +2738,30 @@ public final class FoGetPostingCharacsPu {
         return precisionValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        *
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPrecisionValue() {
-        return precisionValue_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : precisionValue_;
+      public io.dstore.Values.integerValue getPrecisionValue() {
+        return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
        *
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
       }
 
       public static final int COMMON_CHARACTERISTIC_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue commonCharacteristic_;
+      private io.dstore.Values.integerValue commonCharacteristic_;
       /**
-       * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+       * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
        *
        * <pre>
        * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
@@ -2771,30 +2771,30 @@ public final class FoGetPostingCharacsPu {
         return commonCharacteristic_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+       * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
        *
        * <pre>
        * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCommonCharacteristic() {
-        return commonCharacteristic_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : commonCharacteristic_;
+      public io.dstore.Values.integerValue getCommonCharacteristic() {
+        return commonCharacteristic_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commonCharacteristic_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+       * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
        *
        * <pre>
        * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommonCharacteristicOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommonCharacteristicOrBuilder() {
         return getCommonCharacteristic();
       }
 
       public static final int MAX_LENGTH_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue maxLength_;
+      private io.dstore.Values.integerValue maxLength_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
        *
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
@@ -2804,30 +2804,30 @@ public final class FoGetPostingCharacsPu {
         return maxLength_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
        *
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getMaxLength() {
-        return maxLength_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxLength_;
+      public io.dstore.Values.integerValue getMaxLength() {
+        return maxLength_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxLength_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
        *
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxLengthOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMaxLengthOrBuilder() {
         return getMaxLength();
       }
 
       public static final int PREDEFINED_VALUES_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.booleanValue predefinedValues_;
+      private io.dstore.Values.booleanValue predefinedValues_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
        *
        * <pre>
        * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
@@ -2837,30 +2837,30 @@ public final class FoGetPostingCharacsPu {
         return predefinedValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
        *
        * <pre>
        * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getPredefinedValues() {
-        return predefinedValues_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : predefinedValues_;
+      public io.dstore.Values.booleanValue getPredefinedValues() {
+        return predefinedValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : predefinedValues_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+       * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
        *
        * <pre>
        * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
         return getPredefinedValues();
       }
 
       public static final int CHECK_POSTING_VISIBILITY_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.booleanValue checkPostingVisibility_;
+      private io.dstore.Values.booleanValue checkPostingVisibility_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+       * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
        *
        * <pre>
        * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
@@ -2870,30 +2870,30 @@ public final class FoGetPostingCharacsPu {
         return checkPostingVisibility_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+       * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
        *
        * <pre>
        * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getCheckPostingVisibility() {
-        return checkPostingVisibility_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkPostingVisibility_;
+      public io.dstore.Values.booleanValue getCheckPostingVisibility() {
+        return checkPostingVisibility_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkPostingVisibility_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+       * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
        *
        * <pre>
        * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCheckPostingVisibilityOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getCheckPostingVisibilityOrBuilder() {
         return getCheckPostingVisibility();
       }
 
       public static final int FORMAT_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue format_;
+      private io.dstore.Values.stringValue format_;
       /**
-       * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+       * <code>optional .dstore.values.stringValue format = 10009;</code>
        *
        * <pre>
        * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
@@ -2903,30 +2903,30 @@ public final class FoGetPostingCharacsPu {
         return format_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+       * <code>optional .dstore.values.stringValue format = 10009;</code>
        *
        * <pre>
        * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFormat() {
-        return format_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : format_;
+      public io.dstore.Values.stringValue getFormat() {
+        return format_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : format_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+       * <code>optional .dstore.values.stringValue format = 10009;</code>
        *
        * <pre>
        * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFormatOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFormatOrBuilder() {
         return getFormat();
       }
 
       public static final int BASIC_FIELD_TYPE_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.stringValue basicFieldType_;
+      private io.dstore.Values.stringValue basicFieldType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
@@ -2936,30 +2936,30 @@ public final class FoGetPostingCharacsPu {
         return basicFieldType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getBasicFieldType() {
-        return basicFieldType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : basicFieldType_;
+      public io.dstore.Values.stringValue getBasicFieldType() {
+        return basicFieldType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicFieldType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder() {
         return getBasicFieldType();
       }
 
       public static final int FIELD_TYPE_DESCRIPTION_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.stringValue fieldTypeDescription_;
+      private io.dstore.Values.stringValue fieldTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+       * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
        *
        * <pre>
        * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
@@ -2969,30 +2969,30 @@ public final class FoGetPostingCharacsPu {
         return fieldTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+       * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
        *
        * <pre>
        * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFieldTypeDescription() {
-        return fieldTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
+      public io.dstore.Values.stringValue getFieldTypeDescription() {
+        return fieldTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+       * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
        *
        * <pre>
        * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
         return getFieldTypeDescription();
       }
 
       public static final int BASIC_FIELD_TYPE_ID_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.integerValue basicFieldTypeId_;
+      private io.dstore.Values.integerValue basicFieldTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
        *
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
@@ -3002,30 +3002,30 @@ public final class FoGetPostingCharacsPu {
         return basicFieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
        *
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBasicFieldTypeId() {
-        return basicFieldTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
+      public io.dstore.Values.integerValue getBasicFieldTypeId() {
+        return basicFieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
        *
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
         return getBasicFieldTypeId();
       }
 
       public static final int PROPERTY_MODIFICATION_ALLOWED_FIELD_NUMBER = 10013;
-      private io.dstore.engine.Values.integerValue propertyModificationAllowed_;
+      private io.dstore.Values.integerValue propertyModificationAllowed_;
       /**
-       * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+       * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
        *
        * <pre>
        * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
@@ -3035,30 +3035,30 @@ public final class FoGetPostingCharacsPu {
         return propertyModificationAllowed_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+       * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
        *
        * <pre>
        * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPropertyModificationAllowed() {
-        return propertyModificationAllowed_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : propertyModificationAllowed_;
+      public io.dstore.Values.integerValue getPropertyModificationAllowed() {
+        return propertyModificationAllowed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : propertyModificationAllowed_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+       * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
        *
        * <pre>
        * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPropertyModificationAllowedOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPropertyModificationAllowedOrBuilder() {
         return getPropertyModificationAllowed();
       }
 
       public static final int MAX_NUMBER_OF_PROPERTIES_FIELD_NUMBER = 10014;
-      private io.dstore.engine.Values.integerValue maxNumberOfProperties_;
+      private io.dstore.Values.integerValue maxNumberOfProperties_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
        *
        * <pre>
        * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
@@ -3068,23 +3068,23 @@ public final class FoGetPostingCharacsPu {
         return maxNumberOfProperties_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
        *
        * <pre>
        * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getMaxNumberOfProperties() {
-        return maxNumberOfProperties_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfProperties_;
+      public io.dstore.Values.integerValue getMaxNumberOfProperties() {
+        return maxNumberOfProperties_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfProperties_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
        *
        * <pre>
        * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfPropertiesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfPropertiesOrBuilder() {
         return getMaxNumberOfProperties();
       }
 
@@ -3614,11 +3614,11 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.Values.stringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
@@ -3628,27 +3628,27 @@ public final class FoGetPostingCharacsPu {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
-        public Builder setCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3662,14 +3662,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -3680,17 +3680,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -3702,7 +3702,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
@@ -3720,45 +3720,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "PostingCharacteristicID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3767,11 +3767,11 @@ public final class FoGetPostingCharacsPu {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue fieldTypeId_ = null;
+        private io.dstore.Values.integerValue fieldTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -3781,27 +3781,27 @@ public final class FoGetPostingCharacsPu {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getFieldTypeId() {
+        public io.dstore.Values.integerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
-            return fieldTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+            return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
           } else {
             return fieldTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public Builder setFieldTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3815,14 +3815,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
         public Builder setFieldTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeId_ = builderForValue.build();
             onChanged();
@@ -3833,17 +3833,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public Builder mergeFieldTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (fieldTypeId_ != null) {
               fieldTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
             } else {
               fieldTypeId_ = value;
             }
@@ -3855,7 +3855,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
@@ -3873,45 +3873,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getFieldTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
           
           onChanged();
           return getFieldTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
             return fieldTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return fieldTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue field_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          *
          * <pre>
          * ID eines "Feld-Typs", von dem alle Eigenschaften des Merkmals "PostingCharacteristicID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFieldTypeIdFieldBuilder() {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFieldTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3920,11 +3920,11 @@ public final class FoGetPostingCharacsPu {
           return fieldTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue postingCharacteristicId_ = null;
+        private io.dstore.Values.integerValue postingCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
@@ -3934,27 +3934,27 @@ public final class FoGetPostingCharacsPu {
           return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPostingCharacteristicId() {
+        public io.dstore.Values.integerValue getPostingCharacteristicId() {
           if (postingCharacteristicIdBuilder_ == null) {
-            return postingCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+            return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
           } else {
             return postingCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
-        public Builder setPostingCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPostingCharacteristicId(io.dstore.Values.integerValue value) {
           if (postingCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3968,14 +3968,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
         public Builder setPostingCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (postingCharacteristicIdBuilder_ == null) {
             postingCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -3986,17 +3986,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
-        public Builder mergePostingCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePostingCharacteristicId(io.dstore.Values.integerValue value) {
           if (postingCharacteristicIdBuilder_ == null) {
             if (postingCharacteristicId_ != null) {
               postingCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               postingCharacteristicId_ = value;
             }
@@ -4008,7 +4008,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
@@ -4026,45 +4026,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
           
           onChanged();
           return getPostingCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
           if (postingCharacteristicIdBuilder_ != null) {
             return postingCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return postingCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingCharacteristicIdFieldBuilder() {
           if (postingCharacteristicIdBuilder_ == null) {
             postingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -4073,11 +4073,11 @@ public final class FoGetPostingCharacsPu {
           return postingCharacteristicIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue precisionValue_ = null;
+        private io.dstore.Values.integerValue precisionValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> precisionValueBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
@@ -4087,27 +4087,27 @@ public final class FoGetPostingCharacsPu {
           return precisionValueBuilder_ != null || precisionValue_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPrecisionValue() {
+        public io.dstore.Values.integerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
-            return precisionValue_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : precisionValue_;
+            return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
           } else {
             return precisionValueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
-        public Builder setPrecisionValue(io.dstore.engine.Values.integerValue value) {
+        public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
           if (precisionValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4121,14 +4121,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
         public Builder setPrecisionValue(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (precisionValueBuilder_ == null) {
             precisionValue_ = builderForValue.build();
             onChanged();
@@ -4139,17 +4139,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
-        public Builder mergePrecisionValue(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
           if (precisionValueBuilder_ == null) {
             if (precisionValue_ != null) {
               precisionValue_ =
-                io.dstore.engine.Values.integerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
             } else {
               precisionValue_ = value;
             }
@@ -4161,7 +4161,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
@@ -4179,45 +4179,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPrecisionValueBuilder() {
+        public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
           
           onChanged();
           return getPrecisionValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
             return precisionValueBuilder_.getMessageOrBuilder();
           } else {
             return precisionValue_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : precisionValue_;
+                io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          *
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an, die in Eigenschaften zum Merkmal "PostingCharacteristicID" vorkommen dürfen.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
             precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
                     isClean());
@@ -4226,11 +4226,11 @@ public final class FoGetPostingCharacsPu {
           return precisionValueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue commonCharacteristic_ = null;
+        private io.dstore.Values.integerValue commonCharacteristic_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> commonCharacteristicBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> commonCharacteristicBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
@@ -4240,27 +4240,27 @@ public final class FoGetPostingCharacsPu {
           return commonCharacteristicBuilder_ != null || commonCharacteristic_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCommonCharacteristic() {
+        public io.dstore.Values.integerValue getCommonCharacteristic() {
           if (commonCharacteristicBuilder_ == null) {
-            return commonCharacteristic_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : commonCharacteristic_;
+            return commonCharacteristic_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commonCharacteristic_;
           } else {
             return commonCharacteristicBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
-        public Builder setCommonCharacteristic(io.dstore.engine.Values.integerValue value) {
+        public Builder setCommonCharacteristic(io.dstore.Values.integerValue value) {
           if (commonCharacteristicBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4274,14 +4274,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
         public Builder setCommonCharacteristic(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (commonCharacteristicBuilder_ == null) {
             commonCharacteristic_ = builderForValue.build();
             onChanged();
@@ -4292,17 +4292,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
-        public Builder mergeCommonCharacteristic(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCommonCharacteristic(io.dstore.Values.integerValue value) {
           if (commonCharacteristicBuilder_ == null) {
             if (commonCharacteristic_ != null) {
               commonCharacteristic_ =
-                io.dstore.engine.Values.integerValue.newBuilder(commonCharacteristic_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(commonCharacteristic_).mergeFrom(value).buildPartial();
             } else {
               commonCharacteristic_ = value;
             }
@@ -4314,7 +4314,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
@@ -4332,45 +4332,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCommonCharacteristicBuilder() {
+        public io.dstore.Values.integerValue.Builder getCommonCharacteristicBuilder() {
           
           onChanged();
           return getCommonCharacteristicFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCommonCharacteristicOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCommonCharacteristicOrBuilder() {
           if (commonCharacteristicBuilder_ != null) {
             return commonCharacteristicBuilder_.getMessageOrBuilder();
           } else {
             return commonCharacteristic_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : commonCharacteristic_;
+                io.dstore.Values.integerValue.getDefaultInstance() : commonCharacteristic_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue common_characteristic = 10005;</code>
+         * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          *
          * <pre>
          * Gibt an, zu welchen "PersonID"s Eigenschaften zum Merkmal hinterlegt werden können :"0" : Nur "PersonID"s ungleich "0""1" : "PersonID" kann beliebig sein"2" : Nur "PersonID = 0"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCommonCharacteristicFieldBuilder() {
           if (commonCharacteristicBuilder_ == null) {
             commonCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCommonCharacteristic(),
                     getParentForChildren(),
                     isClean());
@@ -4379,11 +4379,11 @@ public final class FoGetPostingCharacsPu {
           return commonCharacteristicBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue maxLength_ = null;
+        private io.dstore.Values.integerValue maxLength_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxLengthBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxLengthBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
@@ -4393,27 +4393,27 @@ public final class FoGetPostingCharacsPu {
           return maxLengthBuilder_ != null || maxLength_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getMaxLength() {
+        public io.dstore.Values.integerValue getMaxLength() {
           if (maxLengthBuilder_ == null) {
-            return maxLength_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxLength_;
+            return maxLength_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxLength_;
           } else {
             return maxLengthBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
-        public Builder setMaxLength(io.dstore.engine.Values.integerValue value) {
+        public Builder setMaxLength(io.dstore.Values.integerValue value) {
           if (maxLengthBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4427,14 +4427,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
         public Builder setMaxLength(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (maxLengthBuilder_ == null) {
             maxLength_ = builderForValue.build();
             onChanged();
@@ -4445,17 +4445,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
-        public Builder mergeMaxLength(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeMaxLength(io.dstore.Values.integerValue value) {
           if (maxLengthBuilder_ == null) {
             if (maxLength_ != null) {
               maxLength_ =
-                io.dstore.engine.Values.integerValue.newBuilder(maxLength_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(maxLength_).mergeFrom(value).buildPartial();
             } else {
               maxLength_ = value;
             }
@@ -4467,7 +4467,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
@@ -4485,45 +4485,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getMaxLengthBuilder() {
+        public io.dstore.Values.integerValue.Builder getMaxLengthBuilder() {
           
           onChanged();
           return getMaxLengthFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getMaxLengthOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getMaxLengthOrBuilder() {
           if (maxLengthBuilder_ != null) {
             return maxLengthBuilder_.getMessageOrBuilder();
           } else {
             return maxLength_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : maxLength_;
+                io.dstore.Values.integerValue.getDefaultInstance() : maxLength_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          *
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften zum Merkmal "PostingCharacteristicID" haben dürfen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMaxLengthFieldBuilder() {
           if (maxLengthBuilder_ == null) {
             maxLengthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMaxLength(),
                     getParentForChildren(),
                     isClean());
@@ -4532,11 +4532,11 @@ public final class FoGetPostingCharacsPu {
           return maxLengthBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue predefinedValues_ = null;
+        private io.dstore.Values.booleanValue predefinedValues_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> predefinedValuesBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> predefinedValuesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
@@ -4546,27 +4546,27 @@ public final class FoGetPostingCharacsPu {
           return predefinedValuesBuilder_ != null || predefinedValues_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getPredefinedValues() {
+        public io.dstore.Values.booleanValue getPredefinedValues() {
           if (predefinedValuesBuilder_ == null) {
-            return predefinedValues_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : predefinedValues_;
+            return predefinedValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : predefinedValues_;
           } else {
             return predefinedValuesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
-        public Builder setPredefinedValues(io.dstore.engine.Values.booleanValue value) {
+        public Builder setPredefinedValues(io.dstore.Values.booleanValue value) {
           if (predefinedValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4580,14 +4580,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
         public Builder setPredefinedValues(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (predefinedValuesBuilder_ == null) {
             predefinedValues_ = builderForValue.build();
             onChanged();
@@ -4598,17 +4598,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
-        public Builder mergePredefinedValues(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergePredefinedValues(io.dstore.Values.booleanValue value) {
           if (predefinedValuesBuilder_ == null) {
             if (predefinedValues_ != null) {
               predefinedValues_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(predefinedValues_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(predefinedValues_).mergeFrom(value).buildPartial();
             } else {
               predefinedValues_ = value;
             }
@@ -4620,7 +4620,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
@@ -4638,45 +4638,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getPredefinedValuesBuilder() {
+        public io.dstore.Values.booleanValue.Builder getPredefinedValuesBuilder() {
           
           onChanged();
           return getPredefinedValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getPredefinedValuesOrBuilder() {
           if (predefinedValuesBuilder_ != null) {
             return predefinedValuesBuilder_.getMessageOrBuilder();
           } else {
             return predefinedValues_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : predefinedValues_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : predefinedValues_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue predefined_values = 10007;</code>
+         * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          *
          * <pre>
          * Sind mögliche Eigenschaften für Postings zum Merkmal vordefiniert ("1") oder nicht ("0")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getPredefinedValuesFieldBuilder() {
           if (predefinedValuesBuilder_ == null) {
             predefinedValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getPredefinedValues(),
                     getParentForChildren(),
                     isClean());
@@ -4685,11 +4685,11 @@ public final class FoGetPostingCharacsPu {
           return predefinedValuesBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue checkPostingVisibility_ = null;
+        private io.dstore.Values.booleanValue checkPostingVisibility_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> checkPostingVisibilityBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkPostingVisibilityBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
@@ -4699,27 +4699,27 @@ public final class FoGetPostingCharacsPu {
           return checkPostingVisibilityBuilder_ != null || checkPostingVisibility_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getCheckPostingVisibility() {
+        public io.dstore.Values.booleanValue getCheckPostingVisibility() {
           if (checkPostingVisibilityBuilder_ == null) {
-            return checkPostingVisibility_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkPostingVisibility_;
+            return checkPostingVisibility_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkPostingVisibility_;
           } else {
             return checkPostingVisibilityBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
-        public Builder setCheckPostingVisibility(io.dstore.engine.Values.booleanValue value) {
+        public Builder setCheckPostingVisibility(io.dstore.Values.booleanValue value) {
           if (checkPostingVisibilityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4733,14 +4733,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
         public Builder setCheckPostingVisibility(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (checkPostingVisibilityBuilder_ == null) {
             checkPostingVisibility_ = builderForValue.build();
             onChanged();
@@ -4751,17 +4751,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
-        public Builder mergeCheckPostingVisibility(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeCheckPostingVisibility(io.dstore.Values.booleanValue value) {
           if (checkPostingVisibilityBuilder_ == null) {
             if (checkPostingVisibility_ != null) {
               checkPostingVisibility_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(checkPostingVisibility_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(checkPostingVisibility_).mergeFrom(value).buildPartial();
             } else {
               checkPostingVisibility_ = value;
             }
@@ -4773,7 +4773,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
@@ -4791,45 +4791,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getCheckPostingVisibilityBuilder() {
+        public io.dstore.Values.booleanValue.Builder getCheckPostingVisibilityBuilder() {
           
           onChanged();
           return getCheckPostingVisibilityFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getCheckPostingVisibilityOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getCheckPostingVisibilityOrBuilder() {
           if (checkPostingVisibilityBuilder_ != null) {
             return checkPostingVisibilityBuilder_.getMessageOrBuilder();
           } else {
             return checkPostingVisibility_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkPostingVisibility_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : checkPostingVisibility_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue check_posting_visibility = 10008;</code>
+         * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          *
          * <pre>
          * "1" bedeutet, daß das LESEN von Eigenschaften zum Merkmal (über "fo_GetPostingProperties_Pu") nur erlaubt ist, wenn die identifizierte Person auch den Beitrag lesen darf - was ja vom "Visible"-Status des jeweiligen Beitrags abhängt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getCheckPostingVisibilityFieldBuilder() {
           if (checkPostingVisibilityBuilder_ == null) {
             checkPostingVisibilityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getCheckPostingVisibility(),
                     getParentForChildren(),
                     isClean());
@@ -4838,11 +4838,11 @@ public final class FoGetPostingCharacsPu {
           return checkPostingVisibilityBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue format_ = null;
+        private io.dstore.Values.stringValue format_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> formatBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> formatBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
@@ -4852,27 +4852,27 @@ public final class FoGetPostingCharacsPu {
           return formatBuilder_ != null || format_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFormat() {
+        public io.dstore.Values.stringValue getFormat() {
           if (formatBuilder_ == null) {
-            return format_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : format_;
+            return format_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : format_;
           } else {
             return formatBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
-        public Builder setFormat(io.dstore.engine.Values.stringValue value) {
+        public Builder setFormat(io.dstore.Values.stringValue value) {
           if (formatBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4886,14 +4886,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
         public Builder setFormat(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (formatBuilder_ == null) {
             format_ = builderForValue.build();
             onChanged();
@@ -4904,17 +4904,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
-        public Builder mergeFormat(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFormat(io.dstore.Values.stringValue value) {
           if (formatBuilder_ == null) {
             if (format_ != null) {
               format_ =
-                io.dstore.engine.Values.stringValue.newBuilder(format_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(format_).mergeFrom(value).buildPartial();
             } else {
               format_ = value;
             }
@@ -4926,7 +4926,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
@@ -4944,45 +4944,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFormatBuilder() {
+        public io.dstore.Values.stringValue.Builder getFormatBuilder() {
           
           onChanged();
           return getFormatFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFormatOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFormatOrBuilder() {
           if (formatBuilder_ != null) {
             return formatBuilder_.getMessageOrBuilder();
           } else {
             return format_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : format_;
+                io.dstore.Values.stringValue.getDefaultInstance() : format_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue format = 10009;</code>
+         * <code>optional .dstore.values.stringValue format = 10009;</code>
          *
          * <pre>
          * Von welchem "Format" (so etwas wie ein regulären Ausdruck) müssen die Eigenschaften zum Merkmal "PostingCharacteristicID" sein. Derzeit nicht implementiert und verwendet !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFormatFieldBuilder() {
           if (formatBuilder_ == null) {
             formatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFormat(),
                     getParentForChildren(),
                     isClean());
@@ -4991,11 +4991,11 @@ public final class FoGetPostingCharacsPu {
           return formatBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue basicFieldType_ = null;
+        private io.dstore.Values.stringValue basicFieldType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> basicFieldTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicFieldTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
@@ -5005,27 +5005,27 @@ public final class FoGetPostingCharacsPu {
           return basicFieldTypeBuilder_ != null || basicFieldType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getBasicFieldType() {
+        public io.dstore.Values.stringValue getBasicFieldType() {
           if (basicFieldTypeBuilder_ == null) {
-            return basicFieldType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : basicFieldType_;
+            return basicFieldType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicFieldType_;
           } else {
             return basicFieldTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
-        public Builder setBasicFieldType(io.dstore.engine.Values.stringValue value) {
+        public Builder setBasicFieldType(io.dstore.Values.stringValue value) {
           if (basicFieldTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5039,14 +5039,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
         public Builder setBasicFieldType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (basicFieldTypeBuilder_ == null) {
             basicFieldType_ = builderForValue.build();
             onChanged();
@@ -5057,17 +5057,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
-        public Builder mergeBasicFieldType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeBasicFieldType(io.dstore.Values.stringValue value) {
           if (basicFieldTypeBuilder_ == null) {
             if (basicFieldType_ != null) {
               basicFieldType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(basicFieldType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(basicFieldType_).mergeFrom(value).buildPartial();
             } else {
               basicFieldType_ = value;
             }
@@ -5079,7 +5079,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
@@ -5097,45 +5097,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getBasicFieldTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getBasicFieldTypeBuilder() {
           
           onChanged();
           return getBasicFieldTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder() {
           if (basicFieldTypeBuilder_ != null) {
             return basicFieldTypeBuilder_.getMessageOrBuilder();
           } else {
             return basicFieldType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : basicFieldType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : basicFieldType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue basic_field_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Basis-Feld-Typs (z.B. "Zahl")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBasicFieldTypeFieldBuilder() {
           if (basicFieldTypeBuilder_ == null) {
             basicFieldTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBasicFieldType(),
                     getParentForChildren(),
                     isClean());
@@ -5144,11 +5144,11 @@ public final class FoGetPostingCharacsPu {
           return basicFieldTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue fieldTypeDescription_ = null;
+        private io.dstore.Values.stringValue fieldTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> fieldTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fieldTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
@@ -5158,27 +5158,27 @@ public final class FoGetPostingCharacsPu {
           return fieldTypeDescriptionBuilder_ != null || fieldTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFieldTypeDescription() {
+        public io.dstore.Values.stringValue getFieldTypeDescription() {
           if (fieldTypeDescriptionBuilder_ == null) {
-            return fieldTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
+            return fieldTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
           } else {
             return fieldTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
-        public Builder setFieldTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setFieldTypeDescription(io.dstore.Values.stringValue value) {
           if (fieldTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5192,14 +5192,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
         public Builder setFieldTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (fieldTypeDescriptionBuilder_ == null) {
             fieldTypeDescription_ = builderForValue.build();
             onChanged();
@@ -5210,17 +5210,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
-        public Builder mergeFieldTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFieldTypeDescription(io.dstore.Values.stringValue value) {
           if (fieldTypeDescriptionBuilder_ == null) {
             if (fieldTypeDescription_ != null) {
               fieldTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(fieldTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(fieldTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               fieldTypeDescription_ = value;
             }
@@ -5232,7 +5232,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
@@ -5250,45 +5250,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFieldTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getFieldTypeDescriptionBuilder() {
           
           onChanged();
           return getFieldTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
           if (fieldTypeDescriptionBuilder_ != null) {
             return fieldTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return fieldTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue field_type_description = 10011;</code>
+         * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          *
          * <pre>
          * Bezeichnung des Feld-Typs "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFieldTypeDescriptionFieldBuilder() {
           if (fieldTypeDescriptionBuilder_ == null) {
             fieldTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFieldTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -5297,11 +5297,11 @@ public final class FoGetPostingCharacsPu {
           return fieldTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue basicFieldTypeId_ = null;
+        private io.dstore.Values.integerValue basicFieldTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> basicFieldTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicFieldTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
@@ -5311,27 +5311,27 @@ public final class FoGetPostingCharacsPu {
           return basicFieldTypeIdBuilder_ != null || basicFieldTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBasicFieldTypeId() {
+        public io.dstore.Values.integerValue getBasicFieldTypeId() {
           if (basicFieldTypeIdBuilder_ == null) {
-            return basicFieldTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
+            return basicFieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
           } else {
             return basicFieldTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
-        public Builder setBasicFieldTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBasicFieldTypeId(io.dstore.Values.integerValue value) {
           if (basicFieldTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5345,14 +5345,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
         public Builder setBasicFieldTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (basicFieldTypeIdBuilder_ == null) {
             basicFieldTypeId_ = builderForValue.build();
             onChanged();
@@ -5363,17 +5363,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
-        public Builder mergeBasicFieldTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBasicFieldTypeId(io.dstore.Values.integerValue value) {
           if (basicFieldTypeIdBuilder_ == null) {
             if (basicFieldTypeId_ != null) {
               basicFieldTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(basicFieldTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(basicFieldTypeId_).mergeFrom(value).buildPartial();
             } else {
               basicFieldTypeId_ = value;
             }
@@ -5385,7 +5385,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
@@ -5403,45 +5403,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBasicFieldTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBasicFieldTypeIdBuilder() {
           
           onChanged();
           return getBasicFieldTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
           if (basicFieldTypeIdBuilder_ != null) {
             return basicFieldTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return basicFieldTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_field_type_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          *
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt (siehe auch "mi_GetFieldTypes_Ad")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBasicFieldTypeIdFieldBuilder() {
           if (basicFieldTypeIdBuilder_ == null) {
             basicFieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBasicFieldTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -5450,11 +5450,11 @@ public final class FoGetPostingCharacsPu {
           return basicFieldTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue propertyModificationAllowed_ = null;
+        private io.dstore.Values.integerValue propertyModificationAllowed_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> propertyModificationAllowedBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> propertyModificationAllowedBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
@@ -5464,27 +5464,27 @@ public final class FoGetPostingCharacsPu {
           return propertyModificationAllowedBuilder_ != null || propertyModificationAllowed_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPropertyModificationAllowed() {
+        public io.dstore.Values.integerValue getPropertyModificationAllowed() {
           if (propertyModificationAllowedBuilder_ == null) {
-            return propertyModificationAllowed_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : propertyModificationAllowed_;
+            return propertyModificationAllowed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : propertyModificationAllowed_;
           } else {
             return propertyModificationAllowedBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
-        public Builder setPropertyModificationAllowed(io.dstore.engine.Values.integerValue value) {
+        public Builder setPropertyModificationAllowed(io.dstore.Values.integerValue value) {
           if (propertyModificationAllowedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5498,14 +5498,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
         public Builder setPropertyModificationAllowed(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (propertyModificationAllowedBuilder_ == null) {
             propertyModificationAllowed_ = builderForValue.build();
             onChanged();
@@ -5516,17 +5516,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
-        public Builder mergePropertyModificationAllowed(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePropertyModificationAllowed(io.dstore.Values.integerValue value) {
           if (propertyModificationAllowedBuilder_ == null) {
             if (propertyModificationAllowed_ != null) {
               propertyModificationAllowed_ =
-                io.dstore.engine.Values.integerValue.newBuilder(propertyModificationAllowed_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(propertyModificationAllowed_).mergeFrom(value).buildPartial();
             } else {
               propertyModificationAllowed_ = value;
             }
@@ -5538,7 +5538,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
@@ -5556,45 +5556,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPropertyModificationAllowedBuilder() {
+        public io.dstore.Values.integerValue.Builder getPropertyModificationAllowedBuilder() {
           
           onChanged();
           return getPropertyModificationAllowedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPropertyModificationAllowedOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPropertyModificationAllowedOrBuilder() {
           if (propertyModificationAllowedBuilder_ != null) {
             return propertyModificationAllowedBuilder_.getMessageOrBuilder();
           } else {
             return propertyModificationAllowed_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : propertyModificationAllowed_;
+                io.dstore.Values.integerValue.getDefaultInstance() : propertyModificationAllowed_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue property_modification_allowed = 10013;</code>
+         * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          *
          * <pre>
          * Gibt an, ob Eigenschaften zum Merkmal nachträglich geändert werden können. Es ist eine Summe folgender Werte :"0" : Hinzufügen, Ändern oder Löschen ist NICHT möglich"1" : Hinzufügen ist möglich"2" : Ändern ist möglich"4" : Löschen ist möglich
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPropertyModificationAllowedFieldBuilder() {
           if (propertyModificationAllowedBuilder_ == null) {
             propertyModificationAllowedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPropertyModificationAllowed(),
                     getParentForChildren(),
                     isClean());
@@ -5603,11 +5603,11 @@ public final class FoGetPostingCharacsPu {
           return propertyModificationAllowedBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue maxNumberOfProperties_ = null;
+        private io.dstore.Values.integerValue maxNumberOfProperties_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxNumberOfPropertiesBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfPropertiesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
@@ -5617,27 +5617,27 @@ public final class FoGetPostingCharacsPu {
           return maxNumberOfPropertiesBuilder_ != null || maxNumberOfProperties_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getMaxNumberOfProperties() {
+        public io.dstore.Values.integerValue getMaxNumberOfProperties() {
           if (maxNumberOfPropertiesBuilder_ == null) {
-            return maxNumberOfProperties_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfProperties_;
+            return maxNumberOfProperties_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfProperties_;
           } else {
             return maxNumberOfPropertiesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
-        public Builder setMaxNumberOfProperties(io.dstore.engine.Values.integerValue value) {
+        public Builder setMaxNumberOfProperties(io.dstore.Values.integerValue value) {
           if (maxNumberOfPropertiesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5651,14 +5651,14 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
         public Builder setMaxNumberOfProperties(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (maxNumberOfPropertiesBuilder_ == null) {
             maxNumberOfProperties_ = builderForValue.build();
             onChanged();
@@ -5669,17 +5669,17 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
-        public Builder mergeMaxNumberOfProperties(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeMaxNumberOfProperties(io.dstore.Values.integerValue value) {
           if (maxNumberOfPropertiesBuilder_ == null) {
             if (maxNumberOfProperties_ != null) {
               maxNumberOfProperties_ =
-                io.dstore.engine.Values.integerValue.newBuilder(maxNumberOfProperties_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(maxNumberOfProperties_).mergeFrom(value).buildPartial();
             } else {
               maxNumberOfProperties_ = value;
             }
@@ -5691,7 +5691,7 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
@@ -5709,45 +5709,45 @@ public final class FoGetPostingCharacsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getMaxNumberOfPropertiesBuilder() {
+        public io.dstore.Values.integerValue.Builder getMaxNumberOfPropertiesBuilder() {
           
           onChanged();
           return getMaxNumberOfPropertiesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfPropertiesOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getMaxNumberOfPropertiesOrBuilder() {
           if (maxNumberOfPropertiesBuilder_ != null) {
             return maxNumberOfPropertiesBuilder_.getMessageOrBuilder();
           } else {
             return maxNumberOfProperties_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfProperties_;
+                io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfProperties_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue max_number_of_properties = 10014;</code>
+         * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          *
          * <pre>
          * Gibt an, wieviele Eigenschaften zum Merkmal ein Beitrag (bei gleicher "PersonID") maximal haben darf :- "NULL" : Keine Einschränkung- "0"    : Dieser Wert ist nicht erlaubt- "1"    : Maximal 1 Eigenschaft- "2"    : Maximal 2 Eigenschaftenusw.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMaxNumberOfPropertiesFieldBuilder() {
           if (maxNumberOfPropertiesBuilder_ == null) {
             maxNumberOfPropertiesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMaxNumberOfProperties(),
                     getParentForChildren(),
                     isClean());
@@ -7317,55 +7317,52 @@ public final class FoGetPostingCharacsPu {
     java.lang.String[] descriptorData = {
       "\n6dstore/engine/procedures/fo_GetPosting" +
       "Characs_Pu.proto\022%dstore.engine.fo_GetPo" +
-      "stingCharacs_Pu\032\032dstore/engine/values.pr" +
-      "oto\032\031dstore/engine/error.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\314\004\n\nParameters\022G\n\034perso" +
-      "n_identification_values\030\001 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022*\n!person_ident" +
-      "ification_values_null\030\351\007 \001(\010\022:\n\016person_t" +
-      "ype_id\030\002 \001(\0132\".dstore.engine.values.inte",
-      "gerValue\022\034\n\023person_type_id_null\030\352\007 \001(\010\0224" +
-      "\n\tunique_id\030\003 \001(\0132!.dstore.engine.values" +
-      ".stringValue\022\027\n\016unique_id_null\030\353\007 \001(\010\0224\n" +
-      "\010forum_id\030\004 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022\026\n\rforum_id_null\030\354\007 \001(\010\022A\n\026c" +
-      "haracteristic_id_list\030\005 \001(\0132!.dstore.eng" +
-      "ine.values.stringValue\022$\n\033characteristic" +
-      "_id_list_null\030\355\007 \001(\010\022B\n\027separator_in_ide" +
-      "nt_vals\030\006 \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022%\n\034separator_in_ident_vals_null",
-      "\030\356\007 \001(\010\"\244\t\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\022@\n\003row\030\004 \003(\0132" +
-      "3.dstore.engine.fo_GetPostingCharacs_Pu." +
-      "Response.Row\032\257\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022F\n" +
-      "\032characteristic_description\030\221N \001(\0132!.dst" +
-      "ore.engine.values.stringValue\022:\n\rfield_t" +
-      "ype_id\030\222N \001(\0132\".dstore.engine.values.int",
-      "egerValue\022F\n\031posting_characteristic_id\030\223" +
-      "N \001(\0132\".dstore.engine.values.integerValu" +
-      "e\022<\n\017precision_value\030\224N \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\022B\n\025common_charac" +
-      "teristic\030\225N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0227\n\nmax_length\030\226N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022>\n\021predefin" +
-      "ed_values\030\227N \001(\0132\".dstore.engine.values." +
-      "booleanValue\022E\n\030check_posting_visibility" +
-      "\030\230N \001(\0132\".dstore.engine.values.booleanVa",
-      "lue\0222\n\006format\030\231N \001(\0132!.dstore.engine.val" +
-      "ues.stringValue\022<\n\020basic_field_type\030\232N \001" +
-      "(\0132!.dstore.engine.values.stringValue\022B\n" +
-      "\026field_type_description\030\233N \001(\0132!.dstore." +
-      "engine.values.stringValue\022@\n\023basic_field" +
-      "_type_id\030\234N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022J\n\035property_modification_all" +
-      "owed\030\235N \001(\0132\".dstore.engine.values.integ" +
-      "erValue\022E\n\030max_number_of_properties\030\236N \001" +
-      "(\0132\".dstore.engine.values.integerValueB\035",
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "stingCharacs_Pu\032\023dstore/values.proto\032\031ds" +
+      "tore/engine/error.proto\032\033dstore/engine/m" +
+      "essage.proto\032#dstore/engine/metainformat" +
+      "ion.proto\"\242\004\n\nParameters\022@\n\034person_ident" +
+      "ification_values\030\001 \001(\0132\032.dstore.values.s" +
+      "tringValue\022*\n!person_identification_valu" +
+      "es_null\030\351\007 \001(\010\0223\n\016person_type_id\030\002 \001(\0132\033" +
+      ".dstore.values.integerValue\022\034\n\023person_ty",
+      "pe_id_null\030\352\007 \001(\010\022-\n\tunique_id\030\003 \001(\0132\032.d" +
+      "store.values.stringValue\022\027\n\016unique_id_nu" +
+      "ll\030\353\007 \001(\010\022-\n\010forum_id\030\004 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022\026\n\rforum_id_null\030\354\007 \001(\010" +
+      "\022:\n\026characteristic_id_list\030\005 \001(\0132\032.dstor" +
+      "e.values.stringValue\022$\n\033characteristic_i" +
+      "d_list_null\030\355\007 \001(\010\022;\n\027separator_in_ident" +
+      "_vals\030\006 \001(\0132\032.dstore.values.stringValue\022" +
+      "%\n\034separator_in_ident_vals_null\030\356\007 \001(\010\"\302" +
+      "\010\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi",
+      "ne.error.Error\022H\n\020meta_information\030\002 \003(\013" +
+      "2..dstore.engine.metainformation.MetaInf" +
+      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin" +
+      "e.message.Message\022@\n\003row\030\004 \003(\01323.dstore." +
+      "engine.fo_GetPostingCharacs_Pu.Response." +
+      "Row\032\315\006\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\032characte" +
+      "ristic_description\030\221N \001(\0132\032.dstore.value" +
+      "s.stringValue\0223\n\rfield_type_id\030\222N \001(\0132\033." +
+      "dstore.values.integerValue\022?\n\031posting_ch" +
+      "aracteristic_id\030\223N \001(\0132\033.dstore.values.i",
+      "ntegerValue\0225\n\017precision_value\030\224N \001(\0132\033." +
+      "dstore.values.integerValue\022;\n\025common_cha" +
+      "racteristic\030\225N \001(\0132\033.dstore.values.integ" +
+      "erValue\0220\n\nmax_length\030\226N \001(\0132\033.dstore.va" +
+      "lues.integerValue\0227\n\021predefined_values\030\227" +
+      "N \001(\0132\033.dstore.values.booleanValue\022>\n\030ch" +
+      "eck_posting_visibility\030\230N \001(\0132\033.dstore.v" +
+      "alues.booleanValue\022+\n\006format\030\231N \001(\0132\032.ds" +
+      "tore.values.stringValue\0225\n\020basic_field_t" +
+      "ype\030\232N \001(\0132\032.dstore.values.stringValue\022;",
+      "\n\026field_type_description\030\233N \001(\0132\032.dstore" +
+      ".values.stringValue\0229\n\023basic_field_type_" +
+      "id\030\234N \001(\0132\033.dstore.values.integerValue\022C" +
+      "\n\035property_modification_allowed\030\235N \001(\0132\033" +
+      ".dstore.values.integerValue\022>\n\030max_numbe" +
+      "r_of_properties\030\236N \001(\0132\033.dstore.values.i" +
+      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
+      "esb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7378,7 +7375,7 @@ public final class FoGetPostingCharacsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -7401,7 +7398,7 @@ public final class FoGetPostingCharacsPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CharacteristicDescription", "FieldTypeId", "PostingCharacteristicId", "PrecisionValue", "CommonCharacteristic", "MaxLength", "PredefinedValues", "CheckPostingVisibility", "Format", "BasicFieldType", "FieldTypeDescription", "BasicFieldTypeId", "PropertyModificationAllowed", "MaxNumberOfProperties", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

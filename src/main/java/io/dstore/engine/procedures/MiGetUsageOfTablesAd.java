@@ -13,17 +13,17 @@ public final class MiGetUsageOfTablesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tables_list = 1;</code>
      */
     boolean hasTablesList();
     /**
-     * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tables_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getTablesList();
+    io.dstore.Values.stringValue getTablesList();
     /**
-     * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tables_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getTablesListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getTablesListOrBuilder();
 
     /**
      * <code>optional bool tables_list_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetUsageOfTablesAd {
     boolean getTablesListNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+     * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
      */
     boolean hasSeparatorInTablesList();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+     * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getSeparatorInTablesList();
+    io.dstore.Values.stringValue getSeparatorInTablesList();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+     * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSeparatorInTablesListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSeparatorInTablesListOrBuilder();
 
     /**
      * <code>optional bool separator_in_tables_list_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiGetUsageOfTablesAd {
     boolean getSeparatorInTablesListNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+     * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
      */
     boolean hasSearchOnlyObjectType();
     /**
-     * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+     * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getSearchOnlyObjectType();
+    io.dstore.Values.stringValue getSearchOnlyObjectType();
     /**
-     * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+     * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder();
 
     /**
      * <code>optional bool search_only_object_type_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiGetUsageOfTablesAd {
     boolean getSearchOnlyObjectTypeNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
      */
     boolean hasGetDistinctObjectNamesOnly();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getGetDistinctObjectNamesOnly();
+    io.dstore.Values.booleanValue getGetDistinctObjectNamesOnly();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder();
 
     /**
      * <code>optional bool get_distinct_object_names_only_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class MiGetUsageOfTablesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (tablesList_ != null) {
                 subBuilder = tablesList_.toBuilder();
               }
-              tablesList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              tablesList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tablesList_);
                 tablesList_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class MiGetUsageOfTablesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInTablesList_ != null) {
                 subBuilder = separatorInTablesList_.toBuilder();
               }
-              separatorInTablesList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              separatorInTablesList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInTablesList_);
                 separatorInTablesList_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class MiGetUsageOfTablesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (searchOnlyObjectType_ != null) {
                 subBuilder = searchOnlyObjectType_.toBuilder();
               }
-              searchOnlyObjectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              searchOnlyObjectType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchOnlyObjectType_);
                 searchOnlyObjectType_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiGetUsageOfTablesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getDistinctObjectNamesOnly_ != null) {
                 subBuilder = getDistinctObjectNamesOnly_.toBuilder();
               }
-              getDistinctObjectNamesOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              getDistinctObjectNamesOnly_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getDistinctObjectNamesOnly_);
                 getDistinctObjectNamesOnly_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class MiGetUsageOfTablesAd {
     }
 
     public static final int TABLES_LIST_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue tablesList_;
+    private io.dstore.Values.stringValue tablesList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tables_list = 1;</code>
      */
     public boolean hasTablesList() {
       return tablesList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tables_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getTablesList() {
-      return tablesList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tablesList_;
+    public io.dstore.Values.stringValue getTablesList() {
+      return tablesList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tablesList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tables_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getTablesListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getTablesListOrBuilder() {
       return getTablesList();
     }
 
@@ -253,23 +253,23 @@ public final class MiGetUsageOfTablesAd {
     }
 
     public static final int SEPARATOR_IN_TABLES_LIST_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue separatorInTablesList_;
+    private io.dstore.Values.stringValue separatorInTablesList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+     * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
      */
     public boolean hasSeparatorInTablesList() {
       return separatorInTablesList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+     * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getSeparatorInTablesList() {
-      return separatorInTablesList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInTablesList_;
+    public io.dstore.Values.stringValue getSeparatorInTablesList() {
+      return separatorInTablesList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInTablesList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+     * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInTablesListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSeparatorInTablesListOrBuilder() {
       return getSeparatorInTablesList();
     }
 
@@ -283,23 +283,23 @@ public final class MiGetUsageOfTablesAd {
     }
 
     public static final int SEARCH_ONLY_OBJECT_TYPE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue searchOnlyObjectType_;
+    private io.dstore.Values.stringValue searchOnlyObjectType_;
     /**
-     * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+     * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
      */
     public boolean hasSearchOnlyObjectType() {
       return searchOnlyObjectType_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+     * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getSearchOnlyObjectType() {
-      return searchOnlyObjectType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
+    public io.dstore.Values.stringValue getSearchOnlyObjectType() {
+      return searchOnlyObjectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+     * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
       return getSearchOnlyObjectType();
     }
 
@@ -313,23 +313,23 @@ public final class MiGetUsageOfTablesAd {
     }
 
     public static final int GET_DISTINCT_OBJECT_NAMES_ONLY_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue getDistinctObjectNamesOnly_;
+    private io.dstore.Values.booleanValue getDistinctObjectNamesOnly_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
      */
     public boolean hasGetDistinctObjectNamesOnly() {
       return getDistinctObjectNamesOnly_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getGetDistinctObjectNamesOnly() {
-      return getDistinctObjectNamesOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
+    public io.dstore.Values.booleanValue getGetDistinctObjectNamesOnly() {
+      return getDistinctObjectNamesOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
       return getGetDistinctObjectNamesOnly();
     }
 
@@ -671,29 +671,29 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue tablesList_ = null;
+      private io.dstore.Values.stringValue tablesList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tablesListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tablesListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
       public boolean hasTablesList() {
         return tablesListBuilder_ != null || tablesList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getTablesList() {
+      public io.dstore.Values.stringValue getTablesList() {
         if (tablesListBuilder_ == null) {
-          return tablesList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tablesList_;
+          return tablesList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tablesList_;
         } else {
           return tablesListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
-      public Builder setTablesList(io.dstore.engine.Values.stringValue value) {
+      public Builder setTablesList(io.dstore.Values.stringValue value) {
         if (tablesListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
       public Builder setTablesList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (tablesListBuilder_ == null) {
           tablesList_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
-      public Builder mergeTablesList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeTablesList(io.dstore.Values.stringValue value) {
         if (tablesListBuilder_ == null) {
           if (tablesList_ != null) {
             tablesList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(tablesList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(tablesList_).mergeFrom(value).buildPartial();
           } else {
             tablesList_ = value;
           }
@@ -739,7 +739,7 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
       public Builder clearTablesList() {
         if (tablesListBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getTablesListBuilder() {
+      public io.dstore.Values.stringValue.Builder getTablesListBuilder() {
         
         onChanged();
         return getTablesListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTablesListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTablesListOrBuilder() {
         if (tablesListBuilder_ != null) {
           return tablesListBuilder_.getMessageOrBuilder();
         } else {
           return tablesList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : tablesList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : tablesList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tables_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tables_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTablesListFieldBuilder() {
         if (tablesListBuilder_ == null) {
           tablesListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTablesList(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue separatorInTablesList_ = null;
+      private io.dstore.Values.stringValue separatorInTablesList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorInTablesListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInTablesListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
       public boolean hasSeparatorInTablesList() {
         return separatorInTablesListBuilder_ != null || separatorInTablesList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getSeparatorInTablesList() {
+      public io.dstore.Values.stringValue getSeparatorInTablesList() {
         if (separatorInTablesListBuilder_ == null) {
-          return separatorInTablesList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInTablesList_;
+          return separatorInTablesList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInTablesList_;
         } else {
           return separatorInTablesListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
-      public Builder setSeparatorInTablesList(io.dstore.engine.Values.stringValue value) {
+      public Builder setSeparatorInTablesList(io.dstore.Values.stringValue value) {
         if (separatorInTablesListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
       public Builder setSeparatorInTablesList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (separatorInTablesListBuilder_ == null) {
           separatorInTablesList_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
-      public Builder mergeSeparatorInTablesList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSeparatorInTablesList(io.dstore.Values.stringValue value) {
         if (separatorInTablesListBuilder_ == null) {
           if (separatorInTablesList_ != null) {
             separatorInTablesList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(separatorInTablesList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(separatorInTablesList_).mergeFrom(value).buildPartial();
           } else {
             separatorInTablesList_ = value;
           }
@@ -882,7 +882,7 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
       public Builder clearSeparatorInTablesList() {
         if (separatorInTablesListBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSeparatorInTablesListBuilder() {
+      public io.dstore.Values.stringValue.Builder getSeparatorInTablesListBuilder() {
         
         onChanged();
         return getSeparatorInTablesListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInTablesListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSeparatorInTablesListOrBuilder() {
         if (separatorInTablesListBuilder_ != null) {
           return separatorInTablesListBuilder_.getMessageOrBuilder();
         } else {
           return separatorInTablesList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInTablesList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : separatorInTablesList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_tables_list = 2;</code>
+       * <code>optional .dstore.values.stringValue separator_in_tables_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInTablesListFieldBuilder() {
         if (separatorInTablesListBuilder_ == null) {
           separatorInTablesListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInTablesList(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue searchOnlyObjectType_ = null;
+      private io.dstore.Values.stringValue searchOnlyObjectType_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> searchOnlyObjectTypeBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchOnlyObjectTypeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
       public boolean hasSearchOnlyObjectType() {
         return searchOnlyObjectTypeBuilder_ != null || searchOnlyObjectType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getSearchOnlyObjectType() {
+      public io.dstore.Values.stringValue getSearchOnlyObjectType() {
         if (searchOnlyObjectTypeBuilder_ == null) {
-          return searchOnlyObjectType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
+          return searchOnlyObjectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
         } else {
           return searchOnlyObjectTypeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
-      public Builder setSearchOnlyObjectType(io.dstore.engine.Values.stringValue value) {
+      public Builder setSearchOnlyObjectType(io.dstore.Values.stringValue value) {
         if (searchOnlyObjectTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
       public Builder setSearchOnlyObjectType(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (searchOnlyObjectTypeBuilder_ == null) {
           searchOnlyObjectType_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
-      public Builder mergeSearchOnlyObjectType(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSearchOnlyObjectType(io.dstore.Values.stringValue value) {
         if (searchOnlyObjectTypeBuilder_ == null) {
           if (searchOnlyObjectType_ != null) {
             searchOnlyObjectType_ =
-              io.dstore.engine.Values.stringValue.newBuilder(searchOnlyObjectType_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(searchOnlyObjectType_).mergeFrom(value).buildPartial();
           } else {
             searchOnlyObjectType_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
       public Builder clearSearchOnlyObjectType() {
         if (searchOnlyObjectTypeBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSearchOnlyObjectTypeBuilder() {
+      public io.dstore.Values.stringValue.Builder getSearchOnlyObjectTypeBuilder() {
         
         onChanged();
         return getSearchOnlyObjectTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
         if (searchOnlyObjectTypeBuilder_ != null) {
           return searchOnlyObjectTypeBuilder_.getMessageOrBuilder();
         } else {
           return searchOnlyObjectType_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
+              io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue search_only_object_type = 3;</code>
+       * <code>optional .dstore.values.stringValue search_only_object_type = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSearchOnlyObjectTypeFieldBuilder() {
         if (searchOnlyObjectTypeBuilder_ == null) {
           searchOnlyObjectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSearchOnlyObjectType(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue getDistinctObjectNamesOnly_ = null;
+      private io.dstore.Values.booleanValue getDistinctObjectNamesOnly_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> getDistinctObjectNamesOnlyBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getDistinctObjectNamesOnlyBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
       public boolean hasGetDistinctObjectNamesOnly() {
         return getDistinctObjectNamesOnlyBuilder_ != null || getDistinctObjectNamesOnly_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getGetDistinctObjectNamesOnly() {
+      public io.dstore.Values.booleanValue getGetDistinctObjectNamesOnly() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
-          return getDistinctObjectNamesOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
+          return getDistinctObjectNamesOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
         } else {
           return getDistinctObjectNamesOnlyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
-      public Builder setGetDistinctObjectNamesOnly(io.dstore.engine.Values.booleanValue value) {
+      public Builder setGetDistinctObjectNamesOnly(io.dstore.Values.booleanValue value) {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
       public Builder setGetDistinctObjectNamesOnly(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           getDistinctObjectNamesOnly_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
-      public Builder mergeGetDistinctObjectNamesOnly(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeGetDistinctObjectNamesOnly(io.dstore.Values.booleanValue value) {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           if (getDistinctObjectNamesOnly_ != null) {
             getDistinctObjectNamesOnly_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(getDistinctObjectNamesOnly_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(getDistinctObjectNamesOnly_).mergeFrom(value).buildPartial();
           } else {
             getDistinctObjectNamesOnly_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
       public Builder clearGetDistinctObjectNamesOnly() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getGetDistinctObjectNamesOnlyBuilder() {
+      public io.dstore.Values.booleanValue.Builder getGetDistinctObjectNamesOnlyBuilder() {
         
         onChanged();
         return getGetDistinctObjectNamesOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
         if (getDistinctObjectNamesOnlyBuilder_ != null) {
           return getDistinctObjectNamesOnlyBuilder_.getMessageOrBuilder();
         } else {
           return getDistinctObjectNamesOnly_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_distinct_object_names_only = 4;</code>
+       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetDistinctObjectNamesOnlyFieldBuilder() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           getDistinctObjectNamesOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetDistinctObjectNamesOnly(),
                   getParentForChildren(),
                   isClean());
@@ -1390,17 +1390,17 @@ public final class MiGetUsageOfTablesAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+     * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
      */
     boolean hasNumberOfResults();
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+     * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getNumberOfResults();
+    io.dstore.Values.integerValue getNumberOfResults();
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+     * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNumberOfResultsOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNumberOfResultsOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetUsageOfTables_Ad.Response}
@@ -1481,11 +1481,11 @@ public final class MiGetUsageOfTablesAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (numberOfResults_ != null) {
                 subBuilder = numberOfResults_.toBuilder();
               }
-              numberOfResults_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              numberOfResults_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfResults_);
                 numberOfResults_ = subBuilder.buildPartial();
@@ -1536,7 +1536,7 @@ public final class MiGetUsageOfTablesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
@@ -1544,24 +1544,24 @@ public final class MiGetUsageOfTablesAd {
        */
       boolean hasTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTableName();
+      io.dstore.Values.stringValue getTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
@@ -1569,24 +1569,24 @@ public final class MiGetUsageOfTablesAd {
        */
       boolean hasObjectType();
       /**
-       * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getObjectType();
+      io.dstore.Values.stringValue getObjectType();
       /**
-       * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getObjectTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -1594,24 +1594,24 @@ public final class MiGetUsageOfTablesAd {
        */
       boolean hasCodeLineNumber();
       /**
-       * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCodeLineNumber();
+      io.dstore.Values.integerValue getCodeLineNumber();
       /**
-       * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -1619,24 +1619,24 @@ public final class MiGetUsageOfTablesAd {
        */
       boolean hasCodeLine();
       /**
-       * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCodeLine();
+      io.dstore.Values.stringValue getCodeLine();
       /**
-       * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCodeLineOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
@@ -1644,21 +1644,21 @@ public final class MiGetUsageOfTablesAd {
        */
       boolean hasObjectName();
       /**
-       * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getObjectName();
+      io.dstore.Values.stringValue getObjectName();
       /**
-       * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getObjectNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetUsageOfTables_Ad.Response.Row}
@@ -1705,11 +1705,11 @@ public final class MiGetUsageOfTablesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -1718,11 +1718,11 @@ public final class MiGetUsageOfTablesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (objectType_ != null) {
                   subBuilder = objectType_.toBuilder();
                 }
-                objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                objectType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectType_);
                   objectType_ = subBuilder.buildPartial();
@@ -1731,11 +1731,11 @@ public final class MiGetUsageOfTablesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (codeLineNumber_ != null) {
                   subBuilder = codeLineNumber_.toBuilder();
                 }
-                codeLineNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                codeLineNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumber_);
                   codeLineNumber_ = subBuilder.buildPartial();
@@ -1744,11 +1744,11 @@ public final class MiGetUsageOfTablesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (codeLine_ != null) {
                   subBuilder = codeLine_.toBuilder();
                 }
-                codeLine_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                codeLine_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLine_);
                   codeLine_ = subBuilder.buildPartial();
@@ -1757,11 +1757,11 @@ public final class MiGetUsageOfTablesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (objectName_ != null) {
                   subBuilder = objectName_.toBuilder();
                 }
-                objectName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                objectName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectName_);
                   objectName_ = subBuilder.buildPartial();
@@ -1803,9 +1803,9 @@ public final class MiGetUsageOfTablesAd {
       }
 
       public static final int TABLE_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue tableName_;
+      private io.dstore.Values.stringValue tableName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
@@ -1815,30 +1815,30 @@ public final class MiGetUsageOfTablesAd {
         return tableName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTableName() {
-        return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+      public io.dstore.Values.stringValue getTableName() {
+        return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
       }
 
       public static final int OBJECT_TYPE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue objectType_;
+      private io.dstore.Values.stringValue objectType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
@@ -1848,30 +1848,30 @@ public final class MiGetUsageOfTablesAd {
         return objectType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getObjectType() {
-        return objectType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : objectType_;
+      public io.dstore.Values.stringValue getObjectType() {
+        return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+       * <code>optional .dstore.values.stringValue object_type = 10002;</code>
        *
        * <pre>
        * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
         return getObjectType();
       }
 
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue codeLineNumber_;
+      private io.dstore.Values.integerValue codeLineNumber_;
       /**
-       * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -1881,30 +1881,30 @@ public final class MiGetUsageOfTablesAd {
         return codeLineNumber_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCodeLineNumber() {
-        return codeLineNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+      public io.dstore.Values.integerValue getCodeLineNumber() {
+        return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+       * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
        *
        * <pre>
        * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
       }
 
       public static final int CODE_LINE_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue codeLine_;
+      private io.dstore.Values.stringValue codeLine_;
       /**
-       * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -1914,30 +1914,30 @@ public final class MiGetUsageOfTablesAd {
         return codeLine_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCodeLine() {
-        return codeLine_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : codeLine_;
+      public io.dstore.Values.stringValue getCodeLine() {
+        return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+       * <code>optional .dstore.values.stringValue code_line = 10004;</code>
        *
        * <pre>
        * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
         return getCodeLine();
       }
 
       public static final int OBJECT_NAME_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue objectName_;
+      private io.dstore.Values.stringValue objectName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
@@ -1947,23 +1947,23 @@ public final class MiGetUsageOfTablesAd {
         return objectName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getObjectName() {
-        return objectName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : objectName_;
+      public io.dstore.Values.stringValue getObjectName() {
+        return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue object_name = 10005;</code>
        *
        * <pre>
        * Der Name eines Objektes in dem "TableName" gefunden wurde
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
         return getObjectName();
       }
 
@@ -2304,11 +2304,11 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue tableName_ = null;
+        private io.dstore.Values.stringValue tableName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
@@ -2318,27 +2318,27 @@ public final class MiGetUsageOfTablesAd {
           return tableNameBuilder_ != null || tableName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTableName() {
+        public io.dstore.Values.stringValue getTableName() {
           if (tableNameBuilder_ == null) {
-            return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+            return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           } else {
             return tableNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
-        public Builder setTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder setTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2352,14 +2352,14 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
         public Builder setTableName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (tableNameBuilder_ == null) {
             tableName_ = builderForValue.build();
             onChanged();
@@ -2370,17 +2370,17 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
-        public Builder mergeTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (tableName_ != null) {
               tableName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
             } else {
               tableName_ = value;
             }
@@ -2392,7 +2392,7 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
@@ -2410,45 +2410,45 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTableNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
           
           onChanged();
           return getTableNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
             return tableNameBuilder_.getMessageOrBuilder();
           } else {
             return tableName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Ein Element aus "&#64;TablesList" (also der Name einer Tabelle), für das die Suche erfolgreich war
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
             tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
                     isClean());
@@ -2457,11 +2457,11 @@ public final class MiGetUsageOfTablesAd {
           return tableNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue objectType_ = null;
+        private io.dstore.Values.stringValue objectType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> objectTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
@@ -2471,27 +2471,27 @@ public final class MiGetUsageOfTablesAd {
           return objectTypeBuilder_ != null || objectType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getObjectType() {
+        public io.dstore.Values.stringValue getObjectType() {
           if (objectTypeBuilder_ == null) {
-            return objectType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : objectType_;
+            return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
           } else {
             return objectTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
-        public Builder setObjectType(io.dstore.engine.Values.stringValue value) {
+        public Builder setObjectType(io.dstore.Values.stringValue value) {
           if (objectTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2505,14 +2505,14 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
         public Builder setObjectType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (objectTypeBuilder_ == null) {
             objectType_ = builderForValue.build();
             onChanged();
@@ -2523,17 +2523,17 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
-        public Builder mergeObjectType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeObjectType(io.dstore.Values.stringValue value) {
           if (objectTypeBuilder_ == null) {
             if (objectType_ != null) {
               objectType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(objectType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(objectType_).mergeFrom(value).buildPartial();
             } else {
               objectType_ = value;
             }
@@ -2545,7 +2545,7 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
@@ -2563,45 +2563,45 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getObjectTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getObjectTypeBuilder() {
           
           onChanged();
           return getObjectTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
           if (objectTypeBuilder_ != null) {
             return objectTypeBuilder_.getMessageOrBuilder();
           } else {
             return objectType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : objectType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_type = 10002;</code>
+         * <code>optional .dstore.values.stringValue object_type = 10002;</code>
          *
          * <pre>
          * Der Typ des Objektes in dem "TableName" gefunden wurde. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getObjectTypeFieldBuilder() {
           if (objectTypeBuilder_ == null) {
             objectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getObjectType(),
                     getParentForChildren(),
                     isClean());
@@ -2610,11 +2610,11 @@ public final class MiGetUsageOfTablesAd {
           return objectTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue codeLineNumber_ = null;
+        private io.dstore.Values.integerValue codeLineNumber_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> codeLineNumberBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -2624,27 +2624,27 @@ public final class MiGetUsageOfTablesAd {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCodeLineNumber() {
+        public io.dstore.Values.integerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
-            return codeLineNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+            return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
           } else {
             return codeLineNumberBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public Builder setCodeLineNumber(io.dstore.engine.Values.integerValue value) {
+        public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2658,14 +2658,14 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
         public Builder setCodeLineNumber(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumber_ = builderForValue.build();
             onChanged();
@@ -2676,17 +2676,17 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public Builder mergeCodeLineNumber(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (codeLineNumber_ != null) {
               codeLineNumber_ =
-                io.dstore.engine.Values.integerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
             } else {
               codeLineNumber_ = value;
             }
@@ -2698,7 +2698,7 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -2716,45 +2716,45 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCodeLineNumberBuilder() {
+        public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
           
           onChanged();
           return getCodeLineNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
             return codeLineNumberBuilder_.getMessageOrBuilder();
           } else {
             return codeLineNumber_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+                io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue code_line_number = 10003;</code>
+         * <code>optional .dstore.values.integerValue code_line_number = 10003;</code>
          *
          * <pre>
          * Die Zeilennummer im Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCodeLineNumberFieldBuilder() {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCodeLineNumber(),
                     getParentForChildren(),
                     isClean());
@@ -2763,11 +2763,11 @@ public final class MiGetUsageOfTablesAd {
           return codeLineNumberBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue codeLine_ = null;
+        private io.dstore.Values.stringValue codeLine_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> codeLineBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -2777,27 +2777,27 @@ public final class MiGetUsageOfTablesAd {
           return codeLineBuilder_ != null || codeLine_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCodeLine() {
+        public io.dstore.Values.stringValue getCodeLine() {
           if (codeLineBuilder_ == null) {
-            return codeLine_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : codeLine_;
+            return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
           } else {
             return codeLineBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public Builder setCodeLine(io.dstore.engine.Values.stringValue value) {
+        public Builder setCodeLine(io.dstore.Values.stringValue value) {
           if (codeLineBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2811,14 +2811,14 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
         public Builder setCodeLine(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (codeLineBuilder_ == null) {
             codeLine_ = builderForValue.build();
             onChanged();
@@ -2829,17 +2829,17 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public Builder mergeCodeLine(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCodeLine(io.dstore.Values.stringValue value) {
           if (codeLineBuilder_ == null) {
             if (codeLine_ != null) {
               codeLine_ =
-                io.dstore.engine.Values.stringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
             } else {
               codeLine_ = value;
             }
@@ -2851,7 +2851,7 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
@@ -2869,45 +2869,45 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCodeLineBuilder() {
+        public io.dstore.Values.stringValue.Builder getCodeLineBuilder() {
           
           onChanged();
           return getCodeLineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
           if (codeLineBuilder_ != null) {
             return codeLineBuilder_.getMessageOrBuilder();
           } else {
             return codeLine_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : codeLine_;
+                io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue code_line = 10004;</code>
+         * <code>optional .dstore.values.stringValue code_line = 10004;</code>
          *
          * <pre>
          * Die Code-Zeile aus dem Quellcode von "ObjectName" in der "TableName" gefunden wurde
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCodeLineFieldBuilder() {
           if (codeLineBuilder_ == null) {
             codeLineBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCodeLine(),
                     getParentForChildren(),
                     isClean());
@@ -2916,11 +2916,11 @@ public final class MiGetUsageOfTablesAd {
           return codeLineBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue objectName_ = null;
+        private io.dstore.Values.stringValue objectName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> objectNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
@@ -2930,27 +2930,27 @@ public final class MiGetUsageOfTablesAd {
           return objectNameBuilder_ != null || objectName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getObjectName() {
+        public io.dstore.Values.stringValue getObjectName() {
           if (objectNameBuilder_ == null) {
-            return objectName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : objectName_;
+            return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
           } else {
             return objectNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
-        public Builder setObjectName(io.dstore.engine.Values.stringValue value) {
+        public Builder setObjectName(io.dstore.Values.stringValue value) {
           if (objectNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2964,14 +2964,14 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
         public Builder setObjectName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (objectNameBuilder_ == null) {
             objectName_ = builderForValue.build();
             onChanged();
@@ -2982,17 +2982,17 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
-        public Builder mergeObjectName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeObjectName(io.dstore.Values.stringValue value) {
           if (objectNameBuilder_ == null) {
             if (objectName_ != null) {
               objectName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
             } else {
               objectName_ = value;
             }
@@ -3004,7 +3004,7 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
@@ -3022,45 +3022,45 @@ public final class MiGetUsageOfTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getObjectNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getObjectNameBuilder() {
           
           onChanged();
           return getObjectNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
           if (objectNameBuilder_ != null) {
             return objectNameBuilder_.getMessageOrBuilder();
           } else {
             return objectName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : objectName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue object_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue object_name = 10005;</code>
          *
          * <pre>
          * Der Name eines Objektes in dem "TableName" gefunden wurde
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getObjectNameFieldBuilder() {
           if (objectNameBuilder_ == null) {
             objectNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getObjectName(),
                     getParentForChildren(),
                     isClean());
@@ -3254,23 +3254,23 @@ public final class MiGetUsageOfTablesAd {
     }
 
     public static final int NUMBER_OF_RESULTS_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue numberOfResults_;
+    private io.dstore.Values.integerValue numberOfResults_;
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+     * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
      */
     public boolean hasNumberOfResults() {
       return numberOfResults_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+     * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getNumberOfResults() {
-      return numberOfResults_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfResults_;
+    public io.dstore.Values.integerValue getNumberOfResults() {
+      return numberOfResults_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfResults_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+     * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNumberOfResultsOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNumberOfResultsOrBuilder() {
       return getNumberOfResults();
     }
 
@@ -4497,29 +4497,29 @@ public final class MiGetUsageOfTablesAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue numberOfResults_ = null;
+      private io.dstore.Values.integerValue numberOfResults_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfResultsBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfResultsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
       public boolean hasNumberOfResults() {
         return numberOfResultsBuilder_ != null || numberOfResults_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfResults() {
+      public io.dstore.Values.integerValue getNumberOfResults() {
         if (numberOfResultsBuilder_ == null) {
-          return numberOfResults_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfResults_;
+          return numberOfResults_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfResults_;
         } else {
           return numberOfResultsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
-      public Builder setNumberOfResults(io.dstore.engine.Values.integerValue value) {
+      public Builder setNumberOfResults(io.dstore.Values.integerValue value) {
         if (numberOfResultsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4533,10 +4533,10 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
       public Builder setNumberOfResults(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (numberOfResultsBuilder_ == null) {
           numberOfResults_ = builderForValue.build();
           onChanged();
@@ -4547,13 +4547,13 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
-      public Builder mergeNumberOfResults(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNumberOfResults(io.dstore.Values.integerValue value) {
         if (numberOfResultsBuilder_ == null) {
           if (numberOfResults_ != null) {
             numberOfResults_ =
-              io.dstore.engine.Values.integerValue.newBuilder(numberOfResults_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(numberOfResults_).mergeFrom(value).buildPartial();
           } else {
             numberOfResults_ = value;
           }
@@ -4565,7 +4565,7 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
       public Builder clearNumberOfResults() {
         if (numberOfResultsBuilder_ == null) {
@@ -4579,33 +4579,33 @@ public final class MiGetUsageOfTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNumberOfResultsBuilder() {
+      public io.dstore.Values.integerValue.Builder getNumberOfResultsBuilder() {
         
         onChanged();
         return getNumberOfResultsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfResultsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfResultsOrBuilder() {
         if (numberOfResultsBuilder_ != null) {
           return numberOfResultsBuilder_.getMessageOrBuilder();
         } else {
           return numberOfResults_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfResults_;
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfResults_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_results = 101;</code>
+       * <code>optional .dstore.values.integerValue number_of_results = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfResultsFieldBuilder() {
         if (numberOfResultsBuilder_ == null) {
           numberOfResultsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfResults(),
                   getParentForChildren(),
                   isClean());
@@ -4697,37 +4697,35 @@ public final class MiGetUsageOfTablesAd {
     java.lang.String[] descriptorData = {
       "\n5dstore/engine/procedures/mi_GetUsageOf" +
       "Tables_Ad.proto\022$dstore.engine.mi_GetUsa" +
-      "geOfTables_Ad\032\032dstore/engine/values.prot" +
-      "o\032\031dstore/engine/error.proto\032\033dstore/eng" +
-      "ine/message.proto\032#dstore/engine/metainf" +
-      "ormation.proto\"\261\003\n\nParameters\0226\n\013tables_" +
-      "list\030\001 \001(\0132!.dstore.engine.values.string" +
-      "Value\022\031\n\020tables_list_null\030\351\007 \001(\010\022C\n\030sepa" +
-      "rator_in_tables_list\030\002 \001(\0132!.dstore.engi" +
-      "ne.values.stringValue\022&\n\035separator_in_ta",
-      "bles_list_null\030\352\007 \001(\010\022B\n\027search_only_obj" +
-      "ect_type\030\003 \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022%\n\034search_only_object_type_nul" +
-      "l\030\353\007 \001(\010\022J\n\036get_distinct_object_names_on" +
-      "ly\030\004 \001(\0132\".dstore.engine.values.booleanV" +
-      "alue\022,\n#get_distinct_object_names_only_n" +
-      "ull\030\354\007 \001(\010\"\351\004\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
-      ".dstore.engine.error.Error\022H\n\020meta_infor" +
-      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
-      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.",
-      "dstore.engine.message.Message\022?\n\003row\030\004 \003" +
-      "(\01322.dstore.engine.mi_GetUsageOfTables_A" +
-      "d.Response.Row\022=\n\021number_of_results\030e \001(" +
-      "\0132\".dstore.engine.values.integerValue\032\266\002" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n\ntable_name\030\221N " +
-      "\001(\0132!.dstore.engine.values.stringValue\0227" +
-      "\n\013object_type\030\222N \001(\0132!.dstore.engine.val" +
-      "ues.stringValue\022=\n\020code_line_number\030\223N \001" +
-      "(\0132\".dstore.engine.values.integerValue\0225" +
-      "\n\tcode_line\030\224N \001(\0132!.dstore.engine.value",
-      "s.stringValue\0227\n\013object_name\030\225N \001(\0132!.ds" +
-      "tore.engine.values.stringValueB\035\n\033io.dst" +
-      "ore.engine.proceduresb\006proto3"
+      "geOfTables_Ad\032\023dstore/values.proto\032\031dsto" +
+      "re/engine/error.proto\032\033dstore/engine/mes" +
+      "sage.proto\032#dstore/engine/metainformatio" +
+      "n.proto\"\225\003\n\nParameters\022/\n\013tables_list\030\001 " +
+      "\001(\0132\032.dstore.values.stringValue\022\031\n\020table" +
+      "s_list_null\030\351\007 \001(\010\022<\n\030separator_in_table" +
+      "s_list\030\002 \001(\0132\032.dstore.values.stringValue" +
+      "\022&\n\035separator_in_tables_list_null\030\352\007 \001(\010",
+      "\022;\n\027search_only_object_type\030\003 \001(\0132\032.dsto" +
+      "re.values.stringValue\022%\n\034search_only_obj" +
+      "ect_type_null\030\353\007 \001(\010\022C\n\036get_distinct_obj" +
+      "ect_names_only\030\004 \001(\0132\033.dstore.values.boo" +
+      "leanValue\022,\n#get_distinct_object_names_o" +
+      "nly_null\030\354\007 \001(\010\"\277\004\n\010Response\022)\n\005error\030\001 " +
+      "\001(\0132\032.dstore.engine.error.Error\022H\n\020meta_" +
+      "information\030\002 \003(\0132..dstore.engine.metain" +
+      "formation.MetaInformation\022/\n\007message\030\003 \003" +
+      "(\0132\036.dstore.engine.message.Message\022?\n\003ro",
+      "w\030\004 \003(\01322.dstore.engine.mi_GetUsageOfTab" +
+      "les_Ad.Response.Row\0226\n\021number_of_results" +
+      "\030e \001(\0132\033.dstore.values.integerValue\032\223\002\n\003" +
+      "Row\022\017\n\006row_id\030\220N \001(\005\022/\n\ntable_name\030\221N \001(" +
+      "\0132\032.dstore.values.stringValue\0220\n\013object_" +
+      "type\030\222N \001(\0132\032.dstore.values.stringValue\022" +
+      "6\n\020code_line_number\030\223N \001(\0132\033.dstore.valu" +
+      "es.integerValue\022.\n\tcode_line\030\224N \001(\0132\032.ds" +
+      "tore.values.stringValue\0220\n\013object_name\030\225" +
+      "N \001(\0132\032.dstore.values.stringValueB\035\n\033io.",
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4740,7 +4738,7 @@ public final class MiGetUsageOfTablesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4763,7 +4761,7 @@ public final class MiGetUsageOfTablesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetUsageOfTables_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableName", "ObjectType", "CodeLineNumber", "CodeLine", "ObjectName", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

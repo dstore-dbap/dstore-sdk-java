@@ -13,17 +13,17 @@ public final class ImGetLockedNodeCharacsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getUserId();
+    io.dstore.Values.integerValue getUserId();
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGetLockedNodeCharacsAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+    io.dstore.Values.integerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImGetLockedNodeCharacsAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
      */
     boolean hasLockStatus();
     /**
-     * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getLockStatus();
+    io.dstore.Values.integerValue getLockStatus();
     /**
-     * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLockStatusOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder();
 
     /**
      * <code>optional bool lock_status_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class ImGetLockedNodeCharacsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class ImGetLockedNodeCharacsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class ImGetLockedNodeCharacsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (lockStatus_ != null) {
                 subBuilder = lockStatus_.toBuilder();
               }
-              lockStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              lockStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lockStatus_);
                 lockStatus_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class ImGetLockedNodeCharacsAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue userId_;
+    private io.dstore.Values.integerValue userId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.Values.integerValue getUserId() {
+      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -216,23 +216,23 @@ public final class ImGetLockedNodeCharacsAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.Values.integerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -246,23 +246,23 @@ public final class ImGetLockedNodeCharacsAd {
     }
 
     public static final int LOCK_STATUS_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue lockStatus_;
+    private io.dstore.Values.integerValue lockStatus_;
     /**
-     * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
      */
     public boolean hasLockStatus() {
       return lockStatus_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getLockStatus() {
-      return lockStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : lockStatus_;
+    public io.dstore.Values.integerValue getLockStatus() {
+      return lockStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLockStatusOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder() {
       return getLockStatus();
     }
 
@@ -570,29 +570,29 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue userId_ = null;
+      private io.dstore.Values.integerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getUserId() {
+      public io.dstore.Values.integerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.engine.Values.integerValue value) {
+      public Builder setUserId(io.dstore.Values.integerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.Values.integerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -638,7 +638,7 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -781,7 +781,7 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue lockStatus_ = null;
+      private io.dstore.Values.integerValue lockStatus_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> lockStatusBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockStatusBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
       public boolean hasLockStatus() {
         return lockStatusBuilder_ != null || lockStatus_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getLockStatus() {
+      public io.dstore.Values.integerValue getLockStatus() {
         if (lockStatusBuilder_ == null) {
-          return lockStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : lockStatus_;
+          return lockStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
         } else {
           return lockStatusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
-      public Builder setLockStatus(io.dstore.engine.Values.integerValue value) {
+      public Builder setLockStatus(io.dstore.Values.integerValue value) {
         if (lockStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
       public Builder setLockStatus(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (lockStatusBuilder_ == null) {
           lockStatus_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
-      public Builder mergeLockStatus(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLockStatus(io.dstore.Values.integerValue value) {
         if (lockStatusBuilder_ == null) {
           if (lockStatus_ != null) {
             lockStatus_ =
-              io.dstore.engine.Values.integerValue.newBuilder(lockStatus_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(lockStatus_).mergeFrom(value).buildPartial();
           } else {
             lockStatus_ = value;
           }
@@ -924,7 +924,7 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
       public Builder clearLockStatus() {
         if (lockStatusBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class ImGetLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLockStatusBuilder() {
+      public io.dstore.Values.integerValue.Builder getLockStatusBuilder() {
         
         onChanged();
         return getLockStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLockStatusOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder() {
         if (lockStatusBuilder_ != null) {
           return lockStatusBuilder_.getMessageOrBuilder();
         } else {
           return lockStatus_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : lockStatus_;
+              io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLockStatusFieldBuilder() {
         if (lockStatusBuilder_ == null) {
           lockStatusBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLockStatus(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class ImGetLockedNodeCharacsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
@@ -1294,24 +1294,24 @@ public final class ImGetLockedNodeCharacsAd {
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getUserName();
+      io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
@@ -1319,24 +1319,24 @@ public final class ImGetLockedNodeCharacsAd {
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCharacteristicDescription();
+      io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        *
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
@@ -1344,24 +1344,24 @@ public final class ImGetLockedNodeCharacsAd {
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        *
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getUserId();
+      io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        *
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
        *
        * <pre>
        * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
@@ -1369,24 +1369,24 @@ public final class ImGetLockedNodeCharacsAd {
        */
       boolean hasLockStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
        *
        * <pre>
        * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLockStatus();
+      io.dstore.Values.integerValue getLockStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
        *
        * <pre>
        * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLockStatusOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
        *
        * <pre>
        * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
@@ -1394,21 +1394,21 @@ public final class ImGetLockedNodeCharacsAd {
        */
       boolean hasNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
        *
        * <pre>
        * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+      io.dstore.Values.integerValue getNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
        *
        * <pre>
        * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetLockedNodeCharacs_Ad.Response.Row}
@@ -1455,11 +1455,11 @@ public final class ImGetLockedNodeCharacsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -1468,11 +1468,11 @@ public final class ImGetLockedNodeCharacsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -1481,11 +1481,11 @@ public final class ImGetLockedNodeCharacsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1494,11 +1494,11 @@ public final class ImGetLockedNodeCharacsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (lockStatus_ != null) {
                   subBuilder = lockStatus_.toBuilder();
                 }
-                lockStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                lockStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lockStatus_);
                   lockStatus_ = subBuilder.buildPartial();
@@ -1507,11 +1507,11 @@ public final class ImGetLockedNodeCharacsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -1553,9 +1553,9 @@ public final class ImGetLockedNodeCharacsAd {
       }
 
       public static final int USER_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue userName_;
+      private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
@@ -1565,30 +1565,30 @@ public final class ImGetLockedNodeCharacsAd {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getUserName() {
-        return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+      public io.dstore.Values.stringValue getUserName() {
+        return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue characteristicDescription_;
+      private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
@@ -1598,30 +1598,30 @@ public final class ImGetLockedNodeCharacsAd {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.Values.stringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue userId_;
+      private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        *
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
@@ -1631,30 +1631,30 @@ public final class ImGetLockedNodeCharacsAd {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        *
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.Values.integerValue getUserId() {
+        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
        *
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
       public static final int LOCK_STATUS_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue lockStatus_;
+      private io.dstore.Values.integerValue lockStatus_;
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
        *
        * <pre>
        * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
@@ -1664,30 +1664,30 @@ public final class ImGetLockedNodeCharacsAd {
         return lockStatus_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
        *
        * <pre>
        * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLockStatus() {
-        return lockStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : lockStatus_;
+      public io.dstore.Values.integerValue getLockStatus() {
+        return lockStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+       * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
        *
        * <pre>
        * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLockStatusOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder() {
         return getLockStatus();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.Values.integerValue nodeCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
        *
        * <pre>
        * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
@@ -1697,23 +1697,23 @@ public final class ImGetLockedNodeCharacsAd {
         return nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
        *
        * <pre>
        * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
        *
        * <pre>
        * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
@@ -2054,11 +2054,11 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue userName_ = null;
+        private io.dstore.Values.stringValue userName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> userNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
@@ -2068,27 +2068,27 @@ public final class ImGetLockedNodeCharacsAd {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getUserName() {
+        public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
-            return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+            return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
           } else {
             return userNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public Builder setUserName(io.dstore.engine.Values.stringValue value) {
+        public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2102,14 +2102,14 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
         public Builder setUserName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (userNameBuilder_ == null) {
             userName_ = builderForValue.build();
             onChanged();
@@ -2120,17 +2120,17 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public Builder mergeUserName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
             if (userName_ != null) {
               userName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
             } else {
               userName_ = value;
             }
@@ -2142,7 +2142,7 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
@@ -2160,45 +2160,45 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getUserNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
           onChanged();
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
             return userNameBuilder_.getMessageOrBuilder();
           } else {
             return userName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : userName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
             userNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
                     isClean());
@@ -2207,11 +2207,11 @@ public final class ImGetLockedNodeCharacsAd {
           return userNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.Values.stringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
@@ -2221,27 +2221,27 @@ public final class ImGetLockedNodeCharacsAd {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
-        public Builder setCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2255,14 +2255,14 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -2273,17 +2273,17 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -2295,7 +2295,7 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
@@ -2313,45 +2313,45 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2360,11 +2360,11 @@ public final class ImGetLockedNodeCharacsAd {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue userId_ = null;
+        private io.dstore.Values.integerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
@@ -2374,27 +2374,27 @@ public final class ImGetLockedNodeCharacsAd {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getUserId() {
+        public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
-        public Builder setUserId(io.dstore.engine.Values.integerValue value) {
+        public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2408,14 +2408,14 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
         public Builder setUserId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -2426,17 +2426,17 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
-        public Builder mergeUserId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -2448,7 +2448,7 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
@@ -2466,45 +2466,45 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
          *
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der nur lesenden oder gar keinen Zugriff auf das Merkmal "NodeCharacteristicID" hat.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -2513,11 +2513,11 @@ public final class ImGetLockedNodeCharacsAd {
           return userIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue lockStatus_ = null;
+        private io.dstore.Values.integerValue lockStatus_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> lockStatusBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockStatusBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
@@ -2527,27 +2527,27 @@ public final class ImGetLockedNodeCharacsAd {
           return lockStatusBuilder_ != null || lockStatus_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLockStatus() {
+        public io.dstore.Values.integerValue getLockStatus() {
           if (lockStatusBuilder_ == null) {
-            return lockStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : lockStatus_;
+            return lockStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
           } else {
             return lockStatusBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
-        public Builder setLockStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder setLockStatus(io.dstore.Values.integerValue value) {
           if (lockStatusBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2561,14 +2561,14 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
         public Builder setLockStatus(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (lockStatusBuilder_ == null) {
             lockStatus_ = builderForValue.build();
             onChanged();
@@ -2579,17 +2579,17 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
-        public Builder mergeLockStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLockStatus(io.dstore.Values.integerValue value) {
           if (lockStatusBuilder_ == null) {
             if (lockStatus_ != null) {
               lockStatus_ =
-                io.dstore.engine.Values.integerValue.newBuilder(lockStatus_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(lockStatus_).mergeFrom(value).buildPartial();
             } else {
               lockStatus_ = value;
             }
@@ -2601,7 +2601,7 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
@@ -2619,45 +2619,45 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLockStatusBuilder() {
+        public io.dstore.Values.integerValue.Builder getLockStatusBuilder() {
           
           onChanged();
           return getLockStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLockStatusOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder() {
           if (lockStatusBuilder_ != null) {
             return lockStatusBuilder_.getMessageOrBuilder();
           } else {
             return lockStatus_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : lockStatus_;
+                io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue lock_status = 10004;</code>
+         * <code>optional .dstore.values.integerValue lock_status = 10004;</code>
          *
          * <pre>
          * Summe folgender Optionen (s.a. Beschreibung !) :- "1" : Neu-Anlage von Eigenschaften ist nicht möglich- "2" : Ändern von Eigenschaften ist verboten- "4" : Löschen von Eigenschaften ist nicht erlaubt- "8" : Ermitteln von Eigenschaften ist verboten
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLockStatusFieldBuilder() {
           if (lockStatusBuilder_ == null) {
             lockStatusBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLockStatus(),
                     getParentForChildren(),
                     isClean());
@@ -2666,11 +2666,11 @@ public final class ImGetLockedNodeCharacsAd {
           return lockStatusBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
@@ -2680,27 +2680,27 @@ public final class ImGetLockedNodeCharacsAd {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.Values.integerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
-        public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2714,14 +2714,14 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2732,17 +2732,17 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -2754,7 +2754,7 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
@@ -2772,45 +2772,45 @@ public final class ImGetLockedNodeCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
          *
          * <pre>
          * ID eines Merkmals auf das der Benutzer "UserID" nur lesenden oder gar keinen Zugriff hat
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -4380,33 +4380,31 @@ public final class ImGetLockedNodeCharacsAd {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/im_GetLockedN" +
       "odeCharacs_Ad.proto\022(dstore.engine.im_Ge" +
-      "tLockedNodeCharacs_Ad\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"\226\002\n\nParameters\0223\n" +
-      "\007user_id\030\001 \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022\025\n\014user_id_null\030\351\007 \001(\010\022B\n\026nod" +
-      "e_characteristic_id\030\002 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022$\n\033node_characteri",
-      "stic_id_null\030\352\007 \001(\010\0227\n\013lock_status\030\003 \001(\013" +
-      "2\".dstore.engine.values.integerValue\022\031\n\020" +
-      "lock_status_null\030\353\007 \001(\010\"\302\004\n\010Response\022)\n\005" +
-      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
-      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
-      "e.metainformation.MetaInformation\022/\n\007mes" +
-      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa" +
-      "ge\022C\n\003row\030\004 \003(\01326.dstore.engine.im_GetLo" +
-      "ckedNodeCharacs_Ad.Response.Row\032\312\002\n\003Row\022" +
-      "\017\n\006row_id\030\220N \001(\005\0225\n\tuser_name\030\221N \001(\0132!.d",
-      "store.engine.values.stringValue\022F\n\032chara" +
-      "cteristic_description\030\222N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\0224\n\007user_id\030\223N \001(" +
-      "\0132\".dstore.engine.values.integerValue\0228\n" +
-      "\013lock_status\030\224N \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022C\n\026node_characteristic_i" +
-      "d\030\225N \001(\0132\".dstore.engine.values.integerV" +
-      "alueB\035\n\033io.dstore.engine.proceduresb\006pro" +
-      "to3"
+      "tLockedNodeCharacs_Ad\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"\201\002\n\nParameters\022,\n\007user_i" +
+      "d\030\001 \001(\0132\033.dstore.values.integerValue\022\025\n\014" +
+      "user_id_null\030\351\007 \001(\010\022;\n\026node_characterist" +
+      "ic_id\030\002 \001(\0132\033.dstore.values.integerValue" +
+      "\022$\n\033node_characteristic_id_null\030\352\007 \001(\010\0220",
+      "\n\013lock_status\030\003 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022\031\n\020lock_status_null\030\353\007 \001(\010\"\237\004\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022C\n\003row\030\004 \003(\01326.dstore.eng" +
+      "ine.im_GetLockedNodeCharacs_Ad.Response." +
+      "Row\032\247\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n\tuser_nam" +
+      "e\030\221N \001(\0132\032.dstore.values.stringValue\022?\n\032",
+      "characteristic_description\030\222N \001(\0132\032.dsto" +
+      "re.values.stringValue\022-\n\007user_id\030\223N \001(\0132" +
+      "\033.dstore.values.integerValue\0221\n\013lock_sta" +
+      "tus\030\224N \001(\0132\033.dstore.values.integerValue\022" +
+      "<\n\026node_characteristic_id\030\225N \001(\0132\033.dstor" +
+      "e.values.integerValueB\035\n\033io.dstore.engin" +
+      "e.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4419,7 +4417,7 @@ public final class ImGetLockedNodeCharacsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4442,7 +4440,7 @@ public final class ImGetLockedNodeCharacsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetLockedNodeCharacs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UserName", "CharacteristicDescription", "UserId", "LockStatus", "NodeCharacteristicId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

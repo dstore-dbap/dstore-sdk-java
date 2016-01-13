@@ -13,17 +13,17 @@ public final class OmGetPredefinedBillContentAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
      */
     boolean hasPredefinedBillContentId();
     /**
-     * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPredefinedBillContentId();
+    io.dstore.Values.integerValue getPredefinedBillContentId();
     /**
-     * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder();
 
     /**
      * <code>optional bool predefined_bill_content_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetPredefinedBillContentAd {
     boolean getPredefinedBillContentIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_id = 2;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getTableId();
+    io.dstore.Values.integerValue getTableId();
     /**
-     * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTableIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
 
     /**
      * <code>optional bool table_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmGetPredefinedBillContentAd {
     boolean getTableIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+     * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
      */
     boolean hasTableKeyId();
     /**
-     * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+     * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getTableKeyId();
+    io.dstore.Values.integerValue getTableKeyId();
     /**
-     * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+     * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTableKeyIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder();
 
     /**
      * <code>optional bool table_key_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmGetPredefinedBillContentAd {
     boolean getTableKeyIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+     * <code>optional .dstore.values.integerValue active = 4;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+     * <code>optional .dstore.values.integerValue active = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getActive();
+    io.dstore.Values.integerValue getActive();
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+     * <code>optional .dstore.values.integerValue active = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getActiveOrBuilder();
 
     /**
      * <code>optional bool active_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class OmGetPredefinedBillContentAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (predefinedBillContentId_ != null) {
                 subBuilder = predefinedBillContentId_.toBuilder();
               }
-              predefinedBillContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              predefinedBillContentId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predefinedBillContentId_);
                 predefinedBillContentId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class OmGetPredefinedBillContentAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class OmGetPredefinedBillContentAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (tableKeyId_ != null) {
                 subBuilder = tableKeyId_.toBuilder();
               }
-              tableKeyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              tableKeyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableKeyId_);
                 tableKeyId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmGetPredefinedBillContentAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (active_ != null) {
                 subBuilder = active_.toBuilder();
               }
-              active_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              active_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(active_);
                 active_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class OmGetPredefinedBillContentAd {
     }
 
     public static final int PREDEFINED_BILL_CONTENT_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue predefinedBillContentId_;
+    private io.dstore.Values.integerValue predefinedBillContentId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
      */
     public boolean hasPredefinedBillContentId() {
       return predefinedBillContentId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPredefinedBillContentId() {
-      return predefinedBillContentId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+    public io.dstore.Values.integerValue getPredefinedBillContentId() {
+      return predefinedBillContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
       return getPredefinedBillContentId();
     }
 
@@ -253,23 +253,23 @@ public final class OmGetPredefinedBillContentAd {
     }
 
     public static final int TABLE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue tableId_;
+    private io.dstore.Values.integerValue tableId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_id = 2;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getTableId() {
-      return tableId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableId_;
+    public io.dstore.Values.integerValue getTableId() {
+      return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTableIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
     }
 
@@ -283,23 +283,23 @@ public final class OmGetPredefinedBillContentAd {
     }
 
     public static final int TABLE_KEY_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue tableKeyId_;
+    private io.dstore.Values.integerValue tableKeyId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+     * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
      */
     public boolean hasTableKeyId() {
       return tableKeyId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+     * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getTableKeyId() {
-      return tableKeyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableKeyId_;
+    public io.dstore.Values.integerValue getTableKeyId() {
+      return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+     * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
       return getTableKeyId();
     }
 
@@ -313,23 +313,23 @@ public final class OmGetPredefinedBillContentAd {
     }
 
     public static final int ACTIVE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue active_;
+    private io.dstore.Values.integerValue active_;
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+     * <code>optional .dstore.values.integerValue active = 4;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+     * <code>optional .dstore.values.integerValue active = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getActive() {
-      return active_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+    public io.dstore.Values.integerValue getActive() {
+      return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+     * <code>optional .dstore.values.integerValue active = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
       return getActive();
     }
 
@@ -671,29 +671,29 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue predefinedBillContentId_ = null;
+      private io.dstore.Values.integerValue predefinedBillContentId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predefinedBillContentIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predefinedBillContentIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
       public boolean hasPredefinedBillContentId() {
         return predefinedBillContentIdBuilder_ != null || predefinedBillContentId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPredefinedBillContentId() {
+      public io.dstore.Values.integerValue getPredefinedBillContentId() {
         if (predefinedBillContentIdBuilder_ == null) {
-          return predefinedBillContentId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+          return predefinedBillContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
         } else {
           return predefinedBillContentIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
-      public Builder setPredefinedBillContentId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPredefinedBillContentId(io.dstore.Values.integerValue value) {
         if (predefinedBillContentIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
       public Builder setPredefinedBillContentId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (predefinedBillContentIdBuilder_ == null) {
           predefinedBillContentId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
-      public Builder mergePredefinedBillContentId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePredefinedBillContentId(io.dstore.Values.integerValue value) {
         if (predefinedBillContentIdBuilder_ == null) {
           if (predefinedBillContentId_ != null) {
             predefinedBillContentId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(predefinedBillContentId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(predefinedBillContentId_).mergeFrom(value).buildPartial();
           } else {
             predefinedBillContentId_ = value;
           }
@@ -739,7 +739,7 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
       public Builder clearPredefinedBillContentId() {
         if (predefinedBillContentIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPredefinedBillContentIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPredefinedBillContentIdBuilder() {
         
         onChanged();
         return getPredefinedBillContentIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
         if (predefinedBillContentIdBuilder_ != null) {
           return predefinedBillContentIdBuilder_.getMessageOrBuilder();
         } else {
           return predefinedBillContentId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPredefinedBillContentIdFieldBuilder() {
         if (predefinedBillContentIdBuilder_ == null) {
           predefinedBillContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPredefinedBillContentId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue tableId_ = null;
+      private io.dstore.Values.integerValue tableId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> tableIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getTableId() {
+      public io.dstore.Values.integerValue getTableId() {
         if (tableIdBuilder_ == null) {
-          return tableId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableId_;
+          return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
         } else {
           return tableIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
-      public Builder setTableId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTableId(io.dstore.Values.integerValue value) {
         if (tableIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
       public Builder setTableId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (tableIdBuilder_ == null) {
           tableId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
-      public Builder mergeTableId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTableId(io.dstore.Values.integerValue value) {
         if (tableIdBuilder_ == null) {
           if (tableId_ != null) {
             tableId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
           } else {
             tableId_ = value;
           }
@@ -882,7 +882,7 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTableIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
         
         onChanged();
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
           return tableIdBuilder_.getMessageOrBuilder();
         } else {
           return tableId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : tableId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
           tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue tableKeyId_ = null;
+      private io.dstore.Values.integerValue tableKeyId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> tableKeyIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableKeyIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
       public boolean hasTableKeyId() {
         return tableKeyIdBuilder_ != null || tableKeyId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getTableKeyId() {
+      public io.dstore.Values.integerValue getTableKeyId() {
         if (tableKeyIdBuilder_ == null) {
-          return tableKeyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableKeyId_;
+          return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
         } else {
           return tableKeyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
-      public Builder setTableKeyId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTableKeyId(io.dstore.Values.integerValue value) {
         if (tableKeyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
       public Builder setTableKeyId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (tableKeyIdBuilder_ == null) {
           tableKeyId_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
-      public Builder mergeTableKeyId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTableKeyId(io.dstore.Values.integerValue value) {
         if (tableKeyIdBuilder_ == null) {
           if (tableKeyId_ != null) {
             tableKeyId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(tableKeyId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(tableKeyId_).mergeFrom(value).buildPartial();
           } else {
             tableKeyId_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
       public Builder clearTableKeyId() {
         if (tableKeyIdBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTableKeyIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTableKeyIdBuilder() {
         
         onChanged();
         return getTableKeyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
         if (tableKeyIdBuilder_ != null) {
           return tableKeyIdBuilder_.getMessageOrBuilder();
         } else {
           return tableKeyId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : tableKeyId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 3;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTableKeyIdFieldBuilder() {
         if (tableKeyIdBuilder_ == null) {
           tableKeyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTableKeyId(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue active_ = null;
+      private io.dstore.Values.integerValue active_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> activeBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getActive() {
+      public io.dstore.Values.integerValue getActive() {
         if (activeBuilder_ == null) {
-          return active_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+          return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
         } else {
           return activeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
-      public Builder setActive(io.dstore.engine.Values.integerValue value) {
+      public Builder setActive(io.dstore.Values.integerValue value) {
         if (activeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
       public Builder setActive(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (activeBuilder_ == null) {
           active_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
-      public Builder mergeActive(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeActive(io.dstore.Values.integerValue value) {
         if (activeBuilder_ == null) {
           if (active_ != null) {
             active_ =
-              io.dstore.engine.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
           } else {
             active_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class OmGetPredefinedBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getActiveBuilder() {
+      public io.dstore.Values.integerValue.Builder getActiveBuilder() {
         
         onChanged();
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
           return activeBuilder_.getMessageOrBuilder();
         } else {
           return active_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+              io.dstore.Values.integerValue.getDefaultInstance() : active_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 4;</code>
+       * <code>optional .dstore.values.integerValue active = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getActiveFieldBuilder() {
         if (activeBuilder_ == null) {
           activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getActive(),
                   getParentForChildren(),
                   isClean());
@@ -1530,7 +1530,7 @@ public final class OmGetPredefinedBillContentAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        *
        * <pre>
        * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
@@ -1538,24 +1538,24 @@ public final class OmGetPredefinedBillContentAd {
        */
       boolean hasTableId();
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        *
        * <pre>
        * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTableId();
+      io.dstore.Values.integerValue getTableId();
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        *
        * <pre>
        * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTableIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        *
        * <pre>
        * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
@@ -1563,24 +1563,24 @@ public final class OmGetPredefinedBillContentAd {
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        *
        * <pre>
        * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getActive();
+      io.dstore.Values.booleanValue getActive();
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        *
        * <pre>
        * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue content_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der "PredefinedBillContentID"
@@ -1588,24 +1588,24 @@ public final class OmGetPredefinedBillContentAd {
        */
       boolean hasContentDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue content_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der "PredefinedBillContentID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getContentDescription();
+      io.dstore.Values.stringValue getContentDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue content_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der "PredefinedBillContentID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getContentDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getContentDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
        *
        * <pre>
        * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
@@ -1613,24 +1613,24 @@ public final class OmGetPredefinedBillContentAd {
        */
       boolean hasTableKeyId();
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
        *
        * <pre>
        * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTableKeyId();
+      io.dstore.Values.integerValue getTableKeyId();
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
        *
        * <pre>
        * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTableKeyIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
        *
        * <pre>
        * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
@@ -1638,24 +1638,24 @@ public final class OmGetPredefinedBillContentAd {
        */
       boolean hasPredefinedBillContentId();
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
        *
        * <pre>
        * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPredefinedBillContentId();
+      io.dstore.Values.integerValue getPredefinedBillContentId();
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
        *
        * <pre>
        * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
        *
        * <pre>
        * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
@@ -1663,21 +1663,21 @@ public final class OmGetPredefinedBillContentAd {
        */
       boolean hasCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
        *
        * <pre>
        * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getCreatedAtDateAndTime();
+      io.dstore.Values.timestampValue getCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
        *
        * <pre>
        * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPredefinedBillContent_Ad.Response.Row}
@@ -1724,11 +1724,11 @@ public final class OmGetPredefinedBillContentAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (tableId_ != null) {
                   subBuilder = tableId_.toBuilder();
                 }
-                tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableId_);
                   tableId_ = subBuilder.buildPartial();
@@ -1737,11 +1737,11 @@ public final class OmGetPredefinedBillContentAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                active_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -1750,11 +1750,11 @@ public final class OmGetPredefinedBillContentAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (contentDescription_ != null) {
                   subBuilder = contentDescription_.toBuilder();
                 }
-                contentDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                contentDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(contentDescription_);
                   contentDescription_ = subBuilder.buildPartial();
@@ -1763,11 +1763,11 @@ public final class OmGetPredefinedBillContentAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (tableKeyId_ != null) {
                   subBuilder = tableKeyId_.toBuilder();
                 }
-                tableKeyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                tableKeyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableKeyId_);
                   tableKeyId_ = subBuilder.buildPartial();
@@ -1776,11 +1776,11 @@ public final class OmGetPredefinedBillContentAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (predefinedBillContentId_ != null) {
                   subBuilder = predefinedBillContentId_.toBuilder();
                 }
-                predefinedBillContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                predefinedBillContentId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predefinedBillContentId_);
                   predefinedBillContentId_ = subBuilder.buildPartial();
@@ -1789,11 +1789,11 @@ public final class OmGetPredefinedBillContentAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -1835,9 +1835,9 @@ public final class OmGetPredefinedBillContentAd {
       }
 
       public static final int TABLE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue tableId_;
+      private io.dstore.Values.integerValue tableId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        *
        * <pre>
        * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
@@ -1847,30 +1847,30 @@ public final class OmGetPredefinedBillContentAd {
         return tableId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        *
        * <pre>
        * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTableId() {
-        return tableId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableId_;
+      public io.dstore.Values.integerValue getTableId() {
+        return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
        *
        * <pre>
        * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
         return getTableId();
       }
 
       public static final int ACTIVE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.booleanValue active_;
+      private io.dstore.Values.booleanValue active_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        *
        * <pre>
        * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
@@ -1880,30 +1880,30 @@ public final class OmGetPredefinedBillContentAd {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        *
        * <pre>
        * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getActive() {
-        return active_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+      public io.dstore.Values.booleanValue getActive() {
+        return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+       * <code>optional .dstore.values.booleanValue active = 10002;</code>
        *
        * <pre>
        * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
       }
 
       public static final int CONTENT_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue contentDescription_;
+      private io.dstore.Values.stringValue contentDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue content_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der "PredefinedBillContentID"
@@ -1913,30 +1913,30 @@ public final class OmGetPredefinedBillContentAd {
         return contentDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue content_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der "PredefinedBillContentID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getContentDescription() {
-        return contentDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : contentDescription_;
+      public io.dstore.Values.stringValue getContentDescription() {
+        return contentDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue content_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der "PredefinedBillContentID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getContentDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getContentDescriptionOrBuilder() {
         return getContentDescription();
       }
 
       public static final int TABLE_KEY_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue tableKeyId_;
+      private io.dstore.Values.integerValue tableKeyId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
        *
        * <pre>
        * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
@@ -1946,30 +1946,30 @@ public final class OmGetPredefinedBillContentAd {
         return tableKeyId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
        *
        * <pre>
        * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTableKeyId() {
-        return tableKeyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableKeyId_;
+      public io.dstore.Values.integerValue getTableKeyId() {
+        return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
        *
        * <pre>
        * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
         return getTableKeyId();
       }
 
       public static final int PREDEFINED_BILL_CONTENT_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue predefinedBillContentId_;
+      private io.dstore.Values.integerValue predefinedBillContentId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
        *
        * <pre>
        * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
@@ -1979,30 +1979,30 @@ public final class OmGetPredefinedBillContentAd {
         return predefinedBillContentId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
        *
        * <pre>
        * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPredefinedBillContentId() {
-        return predefinedBillContentId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+      public io.dstore.Values.integerValue getPredefinedBillContentId() {
+        return predefinedBillContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
        *
        * <pre>
        * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
         return getPredefinedBillContentId();
       }
 
       public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.timestampValue createdAtDateAndTime_;
+      private io.dstore.Values.timestampValue createdAtDateAndTime_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
        *
        * <pre>
        * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
@@ -2012,23 +2012,23 @@ public final class OmGetPredefinedBillContentAd {
         return createdAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
        *
        * <pre>
        * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getCreatedAtDateAndTime() {
-        return createdAtDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+      public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
+        return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
        *
        * <pre>
        * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
       }
 
@@ -2390,11 +2390,11 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue tableId_ = null;
+        private io.dstore.Values.integerValue tableId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> tableIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
@@ -2404,27 +2404,27 @@ public final class OmGetPredefinedBillContentAd {
           return tableIdBuilder_ != null || tableId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTableId() {
+        public io.dstore.Values.integerValue getTableId() {
           if (tableIdBuilder_ == null) {
-            return tableId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableId_;
+            return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
           } else {
             return tableIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
-        public Builder setTableId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTableId(io.dstore.Values.integerValue value) {
           if (tableIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2438,14 +2438,14 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
         public Builder setTableId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (tableIdBuilder_ == null) {
             tableId_ = builderForValue.build();
             onChanged();
@@ -2456,17 +2456,17 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
-        public Builder mergeTableId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTableId(io.dstore.Values.integerValue value) {
           if (tableIdBuilder_ == null) {
             if (tableId_ != null) {
               tableId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
             } else {
               tableId_ = value;
             }
@@ -2478,7 +2478,7 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
@@ -2496,45 +2496,45 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTableIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
           
           onChanged();
           return getTableIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTableIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
           if (tableIdBuilder_ != null) {
             return tableIdBuilder_.getMessageOrBuilder();
           } else {
             return tableId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : tableId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          *
          * <pre>
          * ID einer Tabelle, in der ein Element (-&gt; "TableKeyID") definiert ist, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : siehe Ergebnis des Aufrufs "exec mi_GetTabsRefInOtherTabs_Ad &#64;UsedInPredefinedBillContent = 1".
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableIdFieldBuilder() {
           if (tableIdBuilder_ == null) {
             tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableId(),
                     getParentForChildren(),
                     isClean());
@@ -2543,11 +2543,11 @@ public final class OmGetPredefinedBillContentAd {
           return tableIdBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue active_ = null;
+        private io.dstore.Values.booleanValue active_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> activeBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
@@ -2557,27 +2557,27 @@ public final class OmGetPredefinedBillContentAd {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getActive() {
+        public io.dstore.Values.booleanValue getActive() {
           if (activeBuilder_ == null) {
-            return active_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+            return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
           } else {
             return activeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
-        public Builder setActive(io.dstore.engine.Values.booleanValue value) {
+        public Builder setActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2591,14 +2591,14 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
         public Builder setActive(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (activeBuilder_ == null) {
             active_ = builderForValue.build();
             onChanged();
@@ -2609,17 +2609,17 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
-        public Builder mergeActive(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
             if (active_ != null) {
               active_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
             } else {
               active_ = value;
             }
@@ -2631,7 +2631,7 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
@@ -2649,45 +2649,45 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getActiveBuilder() {
+        public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
           
           onChanged();
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
             return activeBuilder_.getMessageOrBuilder();
           } else {
             return active_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : active_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10002;</code>
+         * <code>optional .dstore.values.booleanValue active = 10002;</code>
          *
          * <pre>
          * "0" : Das vordefinierte Element kann NICHT mehr als "andere" Rechnungs-Position verwendet werden"1" : Das vordefinierte Element kann aktuell als "andere" Rechnungs-Position verwendet werden
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
             activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
                     isClean());
@@ -2696,11 +2696,11 @@ public final class OmGetPredefinedBillContentAd {
           return activeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue contentDescription_ = null;
+        private io.dstore.Values.stringValue contentDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> contentDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> contentDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
@@ -2710,27 +2710,27 @@ public final class OmGetPredefinedBillContentAd {
           return contentDescriptionBuilder_ != null || contentDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getContentDescription() {
+        public io.dstore.Values.stringValue getContentDescription() {
           if (contentDescriptionBuilder_ == null) {
-            return contentDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : contentDescription_;
+            return contentDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentDescription_;
           } else {
             return contentDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
-        public Builder setContentDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setContentDescription(io.dstore.Values.stringValue value) {
           if (contentDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2744,14 +2744,14 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
         public Builder setContentDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (contentDescriptionBuilder_ == null) {
             contentDescription_ = builderForValue.build();
             onChanged();
@@ -2762,17 +2762,17 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
-        public Builder mergeContentDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeContentDescription(io.dstore.Values.stringValue value) {
           if (contentDescriptionBuilder_ == null) {
             if (contentDescription_ != null) {
               contentDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(contentDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(contentDescription_).mergeFrom(value).buildPartial();
             } else {
               contentDescription_ = value;
             }
@@ -2784,7 +2784,7 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
@@ -2802,45 +2802,45 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getContentDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getContentDescriptionBuilder() {
           
           onChanged();
           return getContentDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getContentDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getContentDescriptionOrBuilder() {
           if (contentDescriptionBuilder_ != null) {
             return contentDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return contentDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : contentDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : contentDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue content_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der "PredefinedBillContentID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getContentDescriptionFieldBuilder() {
           if (contentDescriptionBuilder_ == null) {
             contentDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getContentDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2849,11 +2849,11 @@ public final class OmGetPredefinedBillContentAd {
           return contentDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue tableKeyId_ = null;
+        private io.dstore.Values.integerValue tableKeyId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> tableKeyIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableKeyIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
@@ -2863,27 +2863,27 @@ public final class OmGetPredefinedBillContentAd {
           return tableKeyIdBuilder_ != null || tableKeyId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTableKeyId() {
+        public io.dstore.Values.integerValue getTableKeyId() {
           if (tableKeyIdBuilder_ == null) {
-            return tableKeyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableKeyId_;
+            return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
           } else {
             return tableKeyIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
-        public Builder setTableKeyId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTableKeyId(io.dstore.Values.integerValue value) {
           if (tableKeyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2897,14 +2897,14 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
         public Builder setTableKeyId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (tableKeyIdBuilder_ == null) {
             tableKeyId_ = builderForValue.build();
             onChanged();
@@ -2915,17 +2915,17 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
-        public Builder mergeTableKeyId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTableKeyId(io.dstore.Values.integerValue value) {
           if (tableKeyIdBuilder_ == null) {
             if (tableKeyId_ != null) {
               tableKeyId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(tableKeyId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(tableKeyId_).mergeFrom(value).buildPartial();
             } else {
               tableKeyId_ = value;
             }
@@ -2937,7 +2937,7 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
@@ -2955,45 +2955,45 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTableKeyIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTableKeyIdBuilder() {
           
           onChanged();
           return getTableKeyIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
           if (tableKeyIdBuilder_ != null) {
             return tableKeyIdBuilder_.getMessageOrBuilder();
           } else {
             return tableKeyId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : tableKeyId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_key_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue table_key_id = 10004;</code>
          *
          * <pre>
          * ID eines Objektes der durch "TableID" angegebenen Tabelle, auf das sich der Wert "PredefinedBillContentID" bezieht. Mögliche Werte : Werte für die "PrimaryKeyColumnName"-Spalte der Tabelle (siehe "exec mi_GetTabsRefInOtherTabs_Ad &#64;TableID = &lt;TableID&gt;").
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableKeyIdFieldBuilder() {
           if (tableKeyIdBuilder_ == null) {
             tableKeyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableKeyId(),
                     getParentForChildren(),
                     isClean());
@@ -3002,11 +3002,11 @@ public final class OmGetPredefinedBillContentAd {
           return tableKeyIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue predefinedBillContentId_ = null;
+        private io.dstore.Values.integerValue predefinedBillContentId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predefinedBillContentIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predefinedBillContentIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
@@ -3016,27 +3016,27 @@ public final class OmGetPredefinedBillContentAd {
           return predefinedBillContentIdBuilder_ != null || predefinedBillContentId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPredefinedBillContentId() {
+        public io.dstore.Values.integerValue getPredefinedBillContentId() {
           if (predefinedBillContentIdBuilder_ == null) {
-            return predefinedBillContentId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+            return predefinedBillContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
           } else {
             return predefinedBillContentIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
-        public Builder setPredefinedBillContentId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPredefinedBillContentId(io.dstore.Values.integerValue value) {
           if (predefinedBillContentIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3050,14 +3050,14 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
         public Builder setPredefinedBillContentId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (predefinedBillContentIdBuilder_ == null) {
             predefinedBillContentId_ = builderForValue.build();
             onChanged();
@@ -3068,17 +3068,17 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
-        public Builder mergePredefinedBillContentId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePredefinedBillContentId(io.dstore.Values.integerValue value) {
           if (predefinedBillContentIdBuilder_ == null) {
             if (predefinedBillContentId_ != null) {
               predefinedBillContentId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(predefinedBillContentId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(predefinedBillContentId_).mergeFrom(value).buildPartial();
             } else {
               predefinedBillContentId_ = value;
             }
@@ -3090,7 +3090,7 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
@@ -3108,45 +3108,45 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPredefinedBillContentIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPredefinedBillContentIdBuilder() {
           
           onChanged();
           return getPredefinedBillContentIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
           if (predefinedBillContentIdBuilder_ != null) {
             return predefinedBillContentIdBuilder_.getMessageOrBuilder();
           } else {
             return predefinedBillContentId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predefined_bill_content_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue predefined_bill_content_id = 10005;</code>
          *
          * <pre>
          * ID eines vordefinierten "Elementes", das als "andere" (nicht auf einer Auftrags-Position basierenden) Rechnungs-Position verwendet werden kann
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPredefinedBillContentIdFieldBuilder() {
           if (predefinedBillContentIdBuilder_ == null) {
             predefinedBillContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPredefinedBillContentId(),
                     getParentForChildren(),
                     isClean());
@@ -3155,11 +3155,11 @@ public final class OmGetPredefinedBillContentAd {
           return predefinedBillContentIdBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue createdAtDateAndTime_ = null;
+        private io.dstore.Values.timestampValue createdAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
@@ -3169,27 +3169,27 @@ public final class OmGetPredefinedBillContentAd {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getCreatedAtDateAndTime() {
+        public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
-            return createdAtDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+            return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
           } else {
             return createdAtDateAndTimeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
-        public Builder setCreatedAtDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder setCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3203,14 +3203,14 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
         public Builder setCreatedAtDateAndTime(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3221,17 +3221,17 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
-        public Builder mergeCreatedAtDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (createdAtDateAndTime_ != null) {
               createdAtDateAndTime_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               createdAtDateAndTime_ = value;
             }
@@ -3243,7 +3243,7 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
@@ -3261,45 +3261,45 @@ public final class OmGetPredefinedBillContentAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
+        public io.dstore.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
           onChanged();
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
             return createdAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return createdAtDateAndTime_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
          *
          * <pre>
          * Wann wurde das vordefinierte Element "PredefinedBillContentID" erstellt ?
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCreatedAtDateAndTimeFieldBuilder() {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCreatedAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -4869,37 +4869,35 @@ public final class OmGetPredefinedBillContentAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_GetPredefi" +
       "nedBillContent_Ad.proto\022,dstore.engine.o" +
-      "m_GetPredefinedBillContent_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\354\002\n\nParam" +
-      "eters\022F\n\032predefined_bill_content_id\030\001 \001(" +
-      "\0132\".dstore.engine.values.integerValue\022(\n" +
-      "\037predefined_bill_content_id_null\030\351\007 \001(\010\022" +
-      "4\n\010table_id\030\002 \001(\0132\".dstore.engine.values",
-      ".integerValue\022\026\n\rtable_id_null\030\352\007 \001(\010\0228\n" +
-      "\014table_key_id\030\003 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\032\n\021table_key_id_null\030\353\007 " +
-      "\001(\010\0222\n\006active\030\004 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\024\n\013active_null\030\354\007 \001(\010\"\214\005" +
-      "\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engin" +
-      "e.error.Error\022H\n\020meta_information\030\002 \003(\0132" +
-      "..dstore.engine.metainformation.MetaInfo" +
-      "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
-      ".message.Message\022G\n\003row\030\004 \003(\0132:.dstore.e",
-      "ngine.om_GetPredefinedBillContent_Ad.Res" +
-      "ponse.Row\032\220\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n\010ta" +
-      "ble_id\030\221N \001(\0132\".dstore.engine.values.int" +
-      "egerValue\0223\n\006active\030\222N \001(\0132\".dstore.engi" +
-      "ne.values.booleanValue\022?\n\023content_descri" +
-      "ption\030\223N \001(\0132!.dstore.engine.values.stri" +
-      "ngValue\0229\n\014table_key_id\030\224N \001(\0132\".dstore." +
-      "engine.values.integerValue\022G\n\032predefined" +
-      "_bill_content_id\030\225N \001(\0132\".dstore.engine." +
-      "values.integerValue\022G\n\030created_at_date_a",
-      "nd_time\030\226N \001(\0132$.dstore.engine.values.ti" +
-      "mestampValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "m_GetPredefinedBillContent_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\320\002\n\nParameters\022?" +
+      "\n\032predefined_bill_content_id\030\001 \001(\0132\033.dst" +
+      "ore.values.integerValue\022(\n\037predefined_bi" +
+      "ll_content_id_null\030\351\007 \001(\010\022-\n\010table_id\030\002 " +
+      "\001(\0132\033.dstore.values.integerValue\022\026\n\rtabl",
+      "e_id_null\030\352\007 \001(\010\0221\n\014table_key_id\030\003 \001(\0132\033" +
+      ".dstore.values.integerValue\022\032\n\021table_key" +
+      "_id_null\030\353\007 \001(\010\022+\n\006active\030\004 \001(\0132\033.dstore" +
+      ".values.integerValue\022\024\n\013active_null\030\354\007 \001" +
+      "(\010\"\342\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
+      "engine.error.Error\022H\n\020meta_information\030\002" +
+      " \003(\0132..dstore.engine.metainformation.Met" +
+      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
+      "ngine.message.Message\022G\n\003row\030\004 \003(\0132:.dst" +
+      "ore.engine.om_GetPredefinedBillContent_A",
+      "d.Response.Row\032\346\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
+      ".\n\010table_id\030\221N \001(\0132\033.dstore.values.integ" +
+      "erValue\022,\n\006active\030\222N \001(\0132\033.dstore.values" +
+      ".booleanValue\0228\n\023content_description\030\223N " +
+      "\001(\0132\032.dstore.values.stringValue\0222\n\014table" +
+      "_key_id\030\224N \001(\0132\033.dstore.values.integerVa" +
+      "lue\022@\n\032predefined_bill_content_id\030\225N \001(\013" +
+      "2\033.dstore.values.integerValue\022@\n\030created" +
+      "_at_date_and_time\030\226N \001(\0132\035.dstore.values" +
+      ".timestampValueB\035\n\033io.dstore.engine.proc",
+      "eduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4912,7 +4910,7 @@ public final class OmGetPredefinedBillContentAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4935,7 +4933,7 @@ public final class OmGetPredefinedBillContentAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPredefinedBillContent_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableId", "Active", "ContentDescription", "TableKeyId", "PredefinedBillContentId", "CreatedAtDateAndTime", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

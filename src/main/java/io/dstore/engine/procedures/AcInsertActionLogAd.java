@@ -13,17 +13,17 @@ public final class AcInsertActionLogAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
     boolean hasResult();
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getResult();
+    io.dstore.Values.integerValue getResult();
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getResultOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getResultOrBuilder();
 
     /**
      * <code>optional bool result_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class AcInsertActionLogAd {
     boolean getResultNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+     * <code>optional .dstore.values.integerValue action_id = 2;</code>
      */
     boolean hasActionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+     * <code>optional .dstore.values.integerValue action_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getActionId();
+    io.dstore.Values.integerValue getActionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+     * <code>optional .dstore.values.integerValue action_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getActionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getActionIdOrBuilder();
 
     /**
      * <code>optional bool action_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class AcInsertActionLogAd {
     boolean getActionIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+     * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
      */
     boolean hasReplaceLastLogPart();
     /**
-     * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+     * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getReplaceLastLogPart();
+    io.dstore.Values.booleanValue getReplaceLastLogPart();
     /**
-     * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+     * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getReplaceLastLogPartOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getReplaceLastLogPartOrBuilder();
 
     /**
      * <code>optional bool replace_last_log_part_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class AcInsertActionLogAd {
     boolean getReplaceLastLogPartNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
      */
     boolean hasMaintainSearchPostings();
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getMaintainSearchPostings();
+    io.dstore.Values.booleanValue getMaintainSearchPostings();
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder();
 
     /**
      * <code>optional bool maintain_search_postings_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class AcInsertActionLogAd {
     boolean getMaintainSearchPostingsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
      */
     boolean hasSavePostingProperties();
     /**
-     * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getSavePostingProperties();
+    io.dstore.Values.integerValue getSavePostingProperties();
     /**
-     * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder();
 
     /**
      * <code>optional bool save_posting_properties_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class AcInsertActionLogAd {
     boolean getSavePostingPropertiesNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 6;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 6;</code>
      */
-    io.dstore.engine.Values.stringValue getCountry();
+    io.dstore.Values.stringValue getCountry();
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 6;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1006;</code>
@@ -165,11 +165,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (result_ != null) {
                 subBuilder = result_.toBuilder();
               }
-              result_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              result_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(result_);
                 result_ = subBuilder.buildPartial();
@@ -178,11 +178,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (actionId_ != null) {
                 subBuilder = actionId_.toBuilder();
               }
-              actionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              actionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(actionId_);
                 actionId_ = subBuilder.buildPartial();
@@ -191,11 +191,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (replaceLastLogPart_ != null) {
                 subBuilder = replaceLastLogPart_.toBuilder();
               }
-              replaceLastLogPart_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              replaceLastLogPart_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(replaceLastLogPart_);
                 replaceLastLogPart_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (maintainSearchPostings_ != null) {
                 subBuilder = maintainSearchPostings_.toBuilder();
               }
-              maintainSearchPostings_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              maintainSearchPostings_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maintainSearchPostings_);
                 maintainSearchPostings_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (savePostingProperties_ != null) {
                 subBuilder = savePostingProperties_.toBuilder();
               }
-              savePostingProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              savePostingProperties_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(savePostingProperties_);
                 savePostingProperties_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -297,23 +297,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int RESULT_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue result_;
+    private io.dstore.Values.integerValue result_;
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
     public boolean hasResult() {
       return result_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getResult() {
-      return result_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : result_;
+    public io.dstore.Values.integerValue getResult() {
+      return result_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : result_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+     * <code>optional .dstore.values.integerValue result = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getResultOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getResultOrBuilder() {
       return getResult();
     }
 
@@ -327,23 +327,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int ACTION_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue actionId_;
+    private io.dstore.Values.integerValue actionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+     * <code>optional .dstore.values.integerValue action_id = 2;</code>
      */
     public boolean hasActionId() {
       return actionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+     * <code>optional .dstore.values.integerValue action_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getActionId() {
-      return actionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : actionId_;
+    public io.dstore.Values.integerValue getActionId() {
+      return actionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : actionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+     * <code>optional .dstore.values.integerValue action_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getActionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getActionIdOrBuilder() {
       return getActionId();
     }
 
@@ -357,23 +357,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int REPLACE_LAST_LOG_PART_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue replaceLastLogPart_;
+    private io.dstore.Values.booleanValue replaceLastLogPart_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+     * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
      */
     public boolean hasReplaceLastLogPart() {
       return replaceLastLogPart_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+     * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getReplaceLastLogPart() {
-      return replaceLastLogPart_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : replaceLastLogPart_;
+    public io.dstore.Values.booleanValue getReplaceLastLogPart() {
+      return replaceLastLogPart_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : replaceLastLogPart_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+     * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getReplaceLastLogPartOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getReplaceLastLogPartOrBuilder() {
       return getReplaceLastLogPart();
     }
 
@@ -387,23 +387,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int MAINTAIN_SEARCH_POSTINGS_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue maintainSearchPostings_;
+    private io.dstore.Values.booleanValue maintainSearchPostings_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
      */
     public boolean hasMaintainSearchPostings() {
       return maintainSearchPostings_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getMaintainSearchPostings() {
-      return maintainSearchPostings_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
+    public io.dstore.Values.booleanValue getMaintainSearchPostings() {
+      return maintainSearchPostings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
       return getMaintainSearchPostings();
     }
 
@@ -417,23 +417,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int SAVE_POSTING_PROPERTIES_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue savePostingProperties_;
+    private io.dstore.Values.integerValue savePostingProperties_;
     /**
-     * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
      */
     public boolean hasSavePostingProperties() {
       return savePostingProperties_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getSavePostingProperties() {
-      return savePostingProperties_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : savePostingProperties_;
+    public io.dstore.Values.integerValue getSavePostingProperties() {
+      return savePostingProperties_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : savePostingProperties_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+     * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder() {
       return getSavePostingProperties();
     }
 
@@ -447,23 +447,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.stringValue country_;
+    private io.dstore.Values.stringValue country_;
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 6;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 6;</code>
      */
-    public io.dstore.engine.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.Values.stringValue getCountry() {
+      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.stringValue country = 6;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -873,29 +873,29 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue result_ = null;
+      private io.dstore.Values.integerValue result_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> resultBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       public boolean hasResult() {
         return resultBuilder_ != null || result_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getResult() {
+      public io.dstore.Values.integerValue getResult() {
         if (resultBuilder_ == null) {
-          return result_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : result_;
+          return result_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : result_;
         } else {
           return resultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public Builder setResult(io.dstore.engine.Values.integerValue value) {
+      public Builder setResult(io.dstore.Values.integerValue value) {
         if (resultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -909,10 +909,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       public Builder setResult(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (resultBuilder_ == null) {
           result_ = builderForValue.build();
           onChanged();
@@ -923,13 +923,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public Builder mergeResult(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeResult(io.dstore.Values.integerValue value) {
         if (resultBuilder_ == null) {
           if (result_ != null) {
             result_ =
-              io.dstore.engine.Values.integerValue.newBuilder(result_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(result_).mergeFrom(value).buildPartial();
           } else {
             result_ = value;
           }
@@ -941,7 +941,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
@@ -955,33 +955,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getResultBuilder() {
+      public io.dstore.Values.integerValue.Builder getResultBuilder() {
         
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getResultOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
           return resultBuilder_.getMessageOrBuilder();
         } else {
           return result_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : result_;
+              io.dstore.Values.integerValue.getDefaultInstance() : result_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result = 1;</code>
+       * <code>optional .dstore.values.integerValue result = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getResult(),
                   getParentForChildren(),
                   isClean());
@@ -1016,29 +1016,29 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue actionId_ = null;
+      private io.dstore.Values.integerValue actionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> actionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> actionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
       public boolean hasActionId() {
         return actionIdBuilder_ != null || actionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getActionId() {
+      public io.dstore.Values.integerValue getActionId() {
         if (actionIdBuilder_ == null) {
-          return actionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : actionId_;
+          return actionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : actionId_;
         } else {
           return actionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
-      public Builder setActionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setActionId(io.dstore.Values.integerValue value) {
         if (actionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1052,10 +1052,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
       public Builder setActionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (actionIdBuilder_ == null) {
           actionId_ = builderForValue.build();
           onChanged();
@@ -1066,13 +1066,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
-      public Builder mergeActionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeActionId(io.dstore.Values.integerValue value) {
         if (actionIdBuilder_ == null) {
           if (actionId_ != null) {
             actionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(actionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(actionId_).mergeFrom(value).buildPartial();
           } else {
             actionId_ = value;
           }
@@ -1084,7 +1084,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
       public Builder clearActionId() {
         if (actionIdBuilder_ == null) {
@@ -1098,33 +1098,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getActionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getActionIdBuilder() {
         
         onChanged();
         return getActionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getActionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getActionIdOrBuilder() {
         if (actionIdBuilder_ != null) {
           return actionIdBuilder_.getMessageOrBuilder();
         } else {
           return actionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : actionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : actionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue action_id = 2;</code>
+       * <code>optional .dstore.values.integerValue action_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getActionIdFieldBuilder() {
         if (actionIdBuilder_ == null) {
           actionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getActionId(),
                   getParentForChildren(),
                   isClean());
@@ -1159,29 +1159,29 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue replaceLastLogPart_ = null;
+      private io.dstore.Values.booleanValue replaceLastLogPart_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> replaceLastLogPartBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> replaceLastLogPartBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
       public boolean hasReplaceLastLogPart() {
         return replaceLastLogPartBuilder_ != null || replaceLastLogPart_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getReplaceLastLogPart() {
+      public io.dstore.Values.booleanValue getReplaceLastLogPart() {
         if (replaceLastLogPartBuilder_ == null) {
-          return replaceLastLogPart_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : replaceLastLogPart_;
+          return replaceLastLogPart_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : replaceLastLogPart_;
         } else {
           return replaceLastLogPartBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
-      public Builder setReplaceLastLogPart(io.dstore.engine.Values.booleanValue value) {
+      public Builder setReplaceLastLogPart(io.dstore.Values.booleanValue value) {
         if (replaceLastLogPartBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1195,10 +1195,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
       public Builder setReplaceLastLogPart(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (replaceLastLogPartBuilder_ == null) {
           replaceLastLogPart_ = builderForValue.build();
           onChanged();
@@ -1209,13 +1209,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
-      public Builder mergeReplaceLastLogPart(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeReplaceLastLogPart(io.dstore.Values.booleanValue value) {
         if (replaceLastLogPartBuilder_ == null) {
           if (replaceLastLogPart_ != null) {
             replaceLastLogPart_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(replaceLastLogPart_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(replaceLastLogPart_).mergeFrom(value).buildPartial();
           } else {
             replaceLastLogPart_ = value;
           }
@@ -1227,7 +1227,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
       public Builder clearReplaceLastLogPart() {
         if (replaceLastLogPartBuilder_ == null) {
@@ -1241,33 +1241,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getReplaceLastLogPartBuilder() {
+      public io.dstore.Values.booleanValue.Builder getReplaceLastLogPartBuilder() {
         
         onChanged();
         return getReplaceLastLogPartFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getReplaceLastLogPartOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getReplaceLastLogPartOrBuilder() {
         if (replaceLastLogPartBuilder_ != null) {
           return replaceLastLogPartBuilder_.getMessageOrBuilder();
         } else {
           return replaceLastLogPart_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : replaceLastLogPart_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : replaceLastLogPart_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue replace_last_log_part = 3;</code>
+       * <code>optional .dstore.values.booleanValue replace_last_log_part = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getReplaceLastLogPartFieldBuilder() {
         if (replaceLastLogPartBuilder_ == null) {
           replaceLastLogPartBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getReplaceLastLogPart(),
                   getParentForChildren(),
                   isClean());
@@ -1302,29 +1302,29 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue maintainSearchPostings_ = null;
+      private io.dstore.Values.booleanValue maintainSearchPostings_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> maintainSearchPostingsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> maintainSearchPostingsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
       public boolean hasMaintainSearchPostings() {
         return maintainSearchPostingsBuilder_ != null || maintainSearchPostings_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getMaintainSearchPostings() {
+      public io.dstore.Values.booleanValue getMaintainSearchPostings() {
         if (maintainSearchPostingsBuilder_ == null) {
-          return maintainSearchPostings_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
+          return maintainSearchPostings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
         } else {
           return maintainSearchPostingsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
-      public Builder setMaintainSearchPostings(io.dstore.engine.Values.booleanValue value) {
+      public Builder setMaintainSearchPostings(io.dstore.Values.booleanValue value) {
         if (maintainSearchPostingsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1338,10 +1338,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
       public Builder setMaintainSearchPostings(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (maintainSearchPostingsBuilder_ == null) {
           maintainSearchPostings_ = builderForValue.build();
           onChanged();
@@ -1352,13 +1352,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
-      public Builder mergeMaintainSearchPostings(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeMaintainSearchPostings(io.dstore.Values.booleanValue value) {
         if (maintainSearchPostingsBuilder_ == null) {
           if (maintainSearchPostings_ != null) {
             maintainSearchPostings_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(maintainSearchPostings_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(maintainSearchPostings_).mergeFrom(value).buildPartial();
           } else {
             maintainSearchPostings_ = value;
           }
@@ -1370,7 +1370,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
       public Builder clearMaintainSearchPostings() {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -1384,33 +1384,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getMaintainSearchPostingsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getMaintainSearchPostingsBuilder() {
         
         onChanged();
         return getMaintainSearchPostingsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
         if (maintainSearchPostingsBuilder_ != null) {
           return maintainSearchPostingsBuilder_.getMessageOrBuilder();
         } else {
           return maintainSearchPostings_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchPostings_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_postings = 4;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_postings = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getMaintainSearchPostingsFieldBuilder() {
         if (maintainSearchPostingsBuilder_ == null) {
           maintainSearchPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getMaintainSearchPostings(),
                   getParentForChildren(),
                   isClean());
@@ -1445,29 +1445,29 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue savePostingProperties_ = null;
+      private io.dstore.Values.integerValue savePostingProperties_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> savePostingPropertiesBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> savePostingPropertiesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
       public boolean hasSavePostingProperties() {
         return savePostingPropertiesBuilder_ != null || savePostingProperties_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getSavePostingProperties() {
+      public io.dstore.Values.integerValue getSavePostingProperties() {
         if (savePostingPropertiesBuilder_ == null) {
-          return savePostingProperties_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : savePostingProperties_;
+          return savePostingProperties_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : savePostingProperties_;
         } else {
           return savePostingPropertiesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
-      public Builder setSavePostingProperties(io.dstore.engine.Values.integerValue value) {
+      public Builder setSavePostingProperties(io.dstore.Values.integerValue value) {
         if (savePostingPropertiesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1481,10 +1481,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
       public Builder setSavePostingProperties(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (savePostingPropertiesBuilder_ == null) {
           savePostingProperties_ = builderForValue.build();
           onChanged();
@@ -1495,13 +1495,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
-      public Builder mergeSavePostingProperties(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSavePostingProperties(io.dstore.Values.integerValue value) {
         if (savePostingPropertiesBuilder_ == null) {
           if (savePostingProperties_ != null) {
             savePostingProperties_ =
-              io.dstore.engine.Values.integerValue.newBuilder(savePostingProperties_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(savePostingProperties_).mergeFrom(value).buildPartial();
           } else {
             savePostingProperties_ = value;
           }
@@ -1513,7 +1513,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
       public Builder clearSavePostingProperties() {
         if (savePostingPropertiesBuilder_ == null) {
@@ -1527,33 +1527,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSavePostingPropertiesBuilder() {
+      public io.dstore.Values.integerValue.Builder getSavePostingPropertiesBuilder() {
         
         onChanged();
         return getSavePostingPropertiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSavePostingPropertiesOrBuilder() {
         if (savePostingPropertiesBuilder_ != null) {
           return savePostingPropertiesBuilder_.getMessageOrBuilder();
         } else {
           return savePostingProperties_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : savePostingProperties_;
+              io.dstore.Values.integerValue.getDefaultInstance() : savePostingProperties_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue save_posting_properties = 5;</code>
+       * <code>optional .dstore.values.integerValue save_posting_properties = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSavePostingPropertiesFieldBuilder() {
         if (savePostingPropertiesBuilder_ == null) {
           savePostingPropertiesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSavePostingProperties(),
                   getParentForChildren(),
                   isClean());
@@ -1588,29 +1588,29 @@ public final class AcInsertActionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue country_ = null;
+      private io.dstore.Values.stringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue getCountry() {
+      public io.dstore.Values.stringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
-      public Builder setCountry(io.dstore.engine.Values.stringValue value) {
+      public Builder setCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1624,10 +1624,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
       public Builder setCountry(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -1638,13 +1638,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
-      public Builder mergeCountry(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.engine.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -1656,7 +1656,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1670,33 +1670,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.Values.stringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.stringValue country = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -1878,17 +1878,17 @@ public final class AcInsertActionLogAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 101;</code>
      */
     boolean hasPostingId();
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getPostingId();
+    io.dstore.Values.integerValue getPostingId();
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPostingIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.ac_InsertActionLog_Ad.Response}
@@ -1969,11 +1969,11 @@ public final class AcInsertActionLogAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (postingId_ != null) {
                 subBuilder = postingId_.toBuilder();
               }
-              postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              postingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingId_);
                 postingId_ = subBuilder.buildPartial();
@@ -2024,7 +2024,7 @@ public final class AcInsertActionLogAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
@@ -2032,24 +2032,24 @@ public final class AcInsertActionLogAd {
        */
       boolean hasPostingCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPostingCharacteristicId();
+      io.dstore.Values.integerValue getPostingCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
@@ -2057,24 +2057,24 @@ public final class AcInsertActionLogAd {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
@@ -2082,21 +2082,21 @@ public final class AcInsertActionLogAd {
        */
       boolean hasErrorCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getErrorCode();
+      io.dstore.Values.integerValue getErrorCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.ac_InsertActionLog_Ad.Response.Row}
@@ -2143,11 +2143,11 @@ public final class AcInsertActionLogAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (postingCharacteristicId_ != null) {
                   subBuilder = postingCharacteristicId_.toBuilder();
                 }
-                postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                postingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingCharacteristicId_);
                   postingCharacteristicId_ = subBuilder.buildPartial();
@@ -2156,11 +2156,11 @@ public final class AcInsertActionLogAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2169,11 +2169,11 @@ public final class AcInsertActionLogAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -2215,9 +2215,9 @@ public final class AcInsertActionLogAd {
       }
 
       public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue postingCharacteristicId_;
+      private io.dstore.Values.integerValue postingCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
@@ -2227,30 +2227,30 @@ public final class AcInsertActionLogAd {
         return postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPostingCharacteristicId() {
-        return postingCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+      public io.dstore.Values.integerValue getPostingCharacteristicId() {
+        return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
        *
        * <pre>
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         return getPostingCharacteristicId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
@@ -2260,30 +2260,30 @@ public final class AcInsertActionLogAd {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int ERROR_CODE_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue errorCode_;
+      private io.dstore.Values.integerValue errorCode_;
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
@@ -2293,23 +2293,23 @@ public final class AcInsertActionLogAd {
         return errorCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getErrorCode() {
-        return errorCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+      public io.dstore.Values.integerValue getErrorCode() {
+        return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
       }
 
@@ -2608,11 +2608,11 @@ public final class AcInsertActionLogAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue postingCharacteristicId_ = null;
+        private io.dstore.Values.integerValue postingCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
@@ -2622,27 +2622,27 @@ public final class AcInsertActionLogAd {
           return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPostingCharacteristicId() {
+        public io.dstore.Values.integerValue getPostingCharacteristicId() {
           if (postingCharacteristicIdBuilder_ == null) {
-            return postingCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+            return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
           } else {
             return postingCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
-        public Builder setPostingCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPostingCharacteristicId(io.dstore.Values.integerValue value) {
           if (postingCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2656,14 +2656,14 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
         public Builder setPostingCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (postingCharacteristicIdBuilder_ == null) {
             postingCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2674,17 +2674,17 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
-        public Builder mergePostingCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePostingCharacteristicId(io.dstore.Values.integerValue value) {
           if (postingCharacteristicIdBuilder_ == null) {
             if (postingCharacteristicId_ != null) {
               postingCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               postingCharacteristicId_ = value;
             }
@@ -2696,7 +2696,7 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
@@ -2714,45 +2714,45 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
           
           onChanged();
           return getPostingCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
           if (postingCharacteristicIdBuilder_ != null) {
             return postingCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return postingCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue posting_characteristic_id = 10001;</code>
          *
          * <pre>
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingCharacteristicIdFieldBuilder() {
           if (postingCharacteristicIdBuilder_ == null) {
             postingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2761,11 +2761,11 @@ public final class AcInsertActionLogAd {
           return postingCharacteristicIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
@@ -2775,27 +2775,27 @@ public final class AcInsertActionLogAd {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2809,14 +2809,14 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2827,17 +2827,17 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2849,7 +2849,7 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
@@ -2867,45 +2867,45 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2914,11 +2914,11 @@ public final class AcInsertActionLogAd {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue errorCode_ = null;
+        private io.dstore.Values.integerValue errorCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> errorCodeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
@@ -2928,27 +2928,27 @@ public final class AcInsertActionLogAd {
           return errorCodeBuilder_ != null || errorCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getErrorCode() {
+        public io.dstore.Values.integerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
-            return errorCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+            return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
           } else {
             return errorCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
-        public Builder setErrorCode(io.dstore.engine.Values.integerValue value) {
+        public Builder setErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2962,14 +2962,14 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
         public Builder setErrorCode(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (errorCodeBuilder_ == null) {
             errorCode_ = builderForValue.build();
             onChanged();
@@ -2980,17 +2980,17 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
-        public Builder mergeErrorCode(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
             if (errorCode_ != null) {
               errorCode_ =
-                io.dstore.engine.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
             } else {
               errorCode_ = value;
             }
@@ -3002,7 +3002,7 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
@@ -3020,45 +3020,45 @@ public final class AcInsertActionLogAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getErrorCodeBuilder() {
+        public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
           
           onChanged();
           return getErrorCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
             return errorCodeBuilder_.getMessageOrBuilder();
           } else {
             return errorCode_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+                io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung von "fo_InsertPosting_Pu" bzw. "fo_ModifyPosting_Pu" (Bereich ' Anmerkung zur Rückgabespalte "ErrorCode" ').
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
             errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
                     isClean());
@@ -3252,23 +3252,23 @@ public final class AcInsertActionLogAd {
     }
 
     public static final int POSTING_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue postingId_;
+    private io.dstore.Values.integerValue postingId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 101;</code>
      */
     public boolean hasPostingId() {
       return postingId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getPostingId() {
-      return postingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingId_;
+    public io.dstore.Values.integerValue getPostingId() {
+      return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+     * <code>optional .dstore.values.integerValue posting_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
       return getPostingId();
     }
 
@@ -4495,29 +4495,29 @@ public final class AcInsertActionLogAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue postingId_ = null;
+      private io.dstore.Values.integerValue postingId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> postingIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
       public boolean hasPostingId() {
         return postingIdBuilder_ != null || postingId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getPostingId() {
+      public io.dstore.Values.integerValue getPostingId() {
         if (postingIdBuilder_ == null) {
-          return postingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingId_;
+          return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
         } else {
           return postingIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
-      public Builder setPostingId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPostingId(io.dstore.Values.integerValue value) {
         if (postingIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4531,10 +4531,10 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
       public Builder setPostingId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (postingIdBuilder_ == null) {
           postingId_ = builderForValue.build();
           onChanged();
@@ -4545,13 +4545,13 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
-      public Builder mergePostingId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePostingId(io.dstore.Values.integerValue value) {
         if (postingIdBuilder_ == null) {
           if (postingId_ != null) {
             postingId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
           } else {
             postingId_ = value;
           }
@@ -4563,7 +4563,7 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
       public Builder clearPostingId() {
         if (postingIdBuilder_ == null) {
@@ -4577,33 +4577,33 @@ public final class AcInsertActionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPostingIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPostingIdBuilder() {
         
         onChanged();
         return getPostingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
         if (postingIdBuilder_ != null) {
           return postingIdBuilder_.getMessageOrBuilder();
         } else {
           return postingId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : postingId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 101;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPostingIdFieldBuilder() {
         if (postingIdBuilder_ == null) {
           postingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPostingId(),
                   getParentForChildren(),
                   isClean());
@@ -4695,38 +4695,36 @@ public final class AcInsertActionLogAd {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/ac_InsertActi" +
       "onLog_Ad.proto\022#dstore.engine.ac_InsertA" +
-      "ctionLog_Ad\032\032dstore/engine/values.proto\032" +
-      "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\032#dstore/engine/metainfor" +
-      "mation.proto\"\263\004\n\nParameters\0222\n\006result\030\001 " +
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      "\024\n\013result_null\030\351\007 \001(\010\0225\n\taction_id\030\002 \001(\013" +
-      "2\".dstore.engine.values.integerValue\022\027\n\016" +
-      "action_id_null\030\352\007 \001(\010\022A\n\025replace_last_lo",
-      "g_part\030\003 \001(\0132\".dstore.engine.values.bool" +
-      "eanValue\022#\n\032replace_last_log_part_null\030\353" +
-      "\007 \001(\010\022D\n\030maintain_search_postings\030\004 \001(\0132" +
-      "\".dstore.engine.values.booleanValue\022&\n\035m" +
-      "aintain_search_postings_null\030\354\007 \001(\010\022C\n\027s" +
-      "ave_posting_properties\030\005 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022%\n\034save_posting" +
-      "_properties_null\030\355\007 \001(\010\0222\n\007country\030\006 \001(\013" +
-      "2!.dstore.engine.values.stringValue\022\025\n\014c" +
-      "ountry_null\030\356\007 \001(\010\"\365\003\n\010Response\022)\n\005error",
-      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
-      "ta_information\030\002 \003(\0132..dstore.engine.met" +
-      "ainformation.MetaInformation\022/\n\007message\030" +
-      "\003 \003(\0132\036.dstore.engine.message.Message\022>\n" +
-      "\003row\030\004 \003(\01321.dstore.engine.ac_InsertActi" +
-      "onLog_Ad.Response.Row\0226\n\nposting_id\030e \001(" +
-      "\0132\".dstore.engine.values.integerValue\032\312\001" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022F\n\031posting_charac" +
-      "teristic_id\030\221N \001(\0132\".dstore.engine.value" +
-      "s.integerValue\0221\n\005value\030\222N \001(\0132!.dstore.",
-      "engine.values.stringValue\0227\n\nerror_code\030" +
-      "\223N \001(\0132\".dstore.engine.values.integerVal" +
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "ctionLog_Ad\032\023dstore/values.proto\032\031dstore" +
+      "/engine/error.proto\032\033dstore/engine/messa" +
+      "ge.proto\032#dstore/engine/metainformation." +
+      "proto\"\211\004\n\nParameters\022+\n\006result\030\001 \001(\0132\033.d" +
+      "store.values.integerValue\022\024\n\013result_null" +
+      "\030\351\007 \001(\010\022.\n\taction_id\030\002 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022\027\n\016action_id_null\030\352\007 \001(\010" +
+      "\022:\n\025replace_last_log_part\030\003 \001(\0132\033.dstore",
+      ".values.booleanValue\022#\n\032replace_last_log" +
+      "_part_null\030\353\007 \001(\010\022=\n\030maintain_search_pos" +
+      "tings\030\004 \001(\0132\033.dstore.values.booleanValue" +
+      "\022&\n\035maintain_search_postings_null\030\354\007 \001(\010" +
+      "\022<\n\027save_posting_properties\030\005 \001(\0132\033.dsto" +
+      "re.values.integerValue\022%\n\034save_posting_p" +
+      "roperties_null\030\355\007 \001(\010\022+\n\007country\030\006 \001(\0132\032" +
+      ".dstore.values.stringValue\022\025\n\014country_nu" +
+      "ll\030\356\007 \001(\010\"\331\003\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
+      "dstore.engine.error.Error\022H\n\020meta_inform",
+      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
+      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
+      "store.engine.message.Message\022>\n\003row\030\004 \003(" +
+      "\01321.dstore.engine.ac_InsertActionLog_Ad." +
+      "Response.Row\022/\n\nposting_id\030e \001(\0132\033.dstor" +
+      "e.values.integerValue\032\265\001\n\003Row\022\017\n\006row_id\030" +
+      "\220N \001(\005\022?\n\031posting_characteristic_id\030\221N \001" +
+      "(\0132\033.dstore.values.integerValue\022*\n\005value" +
+      "\030\222N \001(\0132\032.dstore.values.stringValue\0220\n\ne" +
+      "rror_code\030\223N \001(\0132\033.dstore.values.integer",
+      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4739,7 +4737,7 @@ public final class AcInsertActionLogAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4762,7 +4760,7 @@ public final class AcInsertActionLogAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_ac_InsertActionLog_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PostingCharacteristicId", "Value", "ErrorCode", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

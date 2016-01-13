@@ -13,17 +13,17 @@ public final class ImGenerateVariantsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+     * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
      */
     boolean hasHowManyVariantCharacteristics();
     /**
-     * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+     * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getHowManyVariantCharacteristics();
+    io.dstore.Values.integerValue getHowManyVariantCharacteristics();
     /**
-     * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+     * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder();
 
     /**
      * <code>optional bool how_many_variant_characteristics_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGenerateVariantsAd {
     boolean getHowManyVariantCharacteristicsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+     * <code>optional .dstore.values.integerValue predecessor = 2;</code>
      */
     boolean hasPredecessor();
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+     * <code>optional .dstore.values.integerValue predecessor = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getPredecessor();
+    io.dstore.Values.integerValue getPredecessor();
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+     * <code>optional .dstore.values.integerValue predecessor = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder();
 
     /**
      * <code>optional bool predecessor_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImGenerateVariantsAd {
     boolean getPredecessorNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+     * <code>optional .dstore.values.stringValue delimiter = 3;</code>
      */
     boolean hasDelimiter();
     /**
-     * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+     * <code>optional .dstore.values.stringValue delimiter = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getDelimiter();
+    io.dstore.Values.stringValue getDelimiter();
     /**
-     * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+     * <code>optional .dstore.values.stringValue delimiter = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDelimiterOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDelimiterOrBuilder();
 
     /**
      * <code>optional bool delimiter_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class ImGenerateVariantsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (howManyVariantCharacteristics_ != null) {
                 subBuilder = howManyVariantCharacteristics_.toBuilder();
               }
-              howManyVariantCharacteristics_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              howManyVariantCharacteristics_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(howManyVariantCharacteristics_);
                 howManyVariantCharacteristics_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class ImGenerateVariantsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (predecessor_ != null) {
                 subBuilder = predecessor_.toBuilder();
               }
-              predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              predecessor_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predecessor_);
                 predecessor_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class ImGenerateVariantsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (delimiter_ != null) {
                 subBuilder = delimiter_.toBuilder();
               }
-              delimiter_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              delimiter_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delimiter_);
                 delimiter_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class ImGenerateVariantsAd {
     }
 
     public static final int HOW_MANY_VARIANT_CHARACTERISTICS_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue howManyVariantCharacteristics_;
+    private io.dstore.Values.integerValue howManyVariantCharacteristics_;
     /**
-     * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+     * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
      */
     public boolean hasHowManyVariantCharacteristics() {
       return howManyVariantCharacteristics_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+     * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getHowManyVariantCharacteristics() {
-      return howManyVariantCharacteristics_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : howManyVariantCharacteristics_;
+    public io.dstore.Values.integerValue getHowManyVariantCharacteristics() {
+      return howManyVariantCharacteristics_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : howManyVariantCharacteristics_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+     * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder() {
       return getHowManyVariantCharacteristics();
     }
 
@@ -216,23 +216,23 @@ public final class ImGenerateVariantsAd {
     }
 
     public static final int PREDECESSOR_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue predecessor_;
+    private io.dstore.Values.integerValue predecessor_;
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+     * <code>optional .dstore.values.integerValue predecessor = 2;</code>
      */
     public boolean hasPredecessor() {
       return predecessor_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+     * <code>optional .dstore.values.integerValue predecessor = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getPredecessor() {
-      return predecessor_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+    public io.dstore.Values.integerValue getPredecessor() {
+      return predecessor_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+     * <code>optional .dstore.values.integerValue predecessor = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder() {
       return getPredecessor();
     }
 
@@ -246,23 +246,23 @@ public final class ImGenerateVariantsAd {
     }
 
     public static final int DELIMITER_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue delimiter_;
+    private io.dstore.Values.stringValue delimiter_;
     /**
-     * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+     * <code>optional .dstore.values.stringValue delimiter = 3;</code>
      */
     public boolean hasDelimiter() {
       return delimiter_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+     * <code>optional .dstore.values.stringValue delimiter = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getDelimiter() {
-      return delimiter_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : delimiter_;
+    public io.dstore.Values.stringValue getDelimiter() {
+      return delimiter_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : delimiter_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+     * <code>optional .dstore.values.stringValue delimiter = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDelimiterOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDelimiterOrBuilder() {
       return getDelimiter();
     }
 
@@ -570,29 +570,29 @@ public final class ImGenerateVariantsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue howManyVariantCharacteristics_ = null;
+      private io.dstore.Values.integerValue howManyVariantCharacteristics_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> howManyVariantCharacteristicsBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> howManyVariantCharacteristicsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
       public boolean hasHowManyVariantCharacteristics() {
         return howManyVariantCharacteristicsBuilder_ != null || howManyVariantCharacteristics_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getHowManyVariantCharacteristics() {
+      public io.dstore.Values.integerValue getHowManyVariantCharacteristics() {
         if (howManyVariantCharacteristicsBuilder_ == null) {
-          return howManyVariantCharacteristics_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : howManyVariantCharacteristics_;
+          return howManyVariantCharacteristics_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : howManyVariantCharacteristics_;
         } else {
           return howManyVariantCharacteristicsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
-      public Builder setHowManyVariantCharacteristics(io.dstore.engine.Values.integerValue value) {
+      public Builder setHowManyVariantCharacteristics(io.dstore.Values.integerValue value) {
         if (howManyVariantCharacteristicsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
       public Builder setHowManyVariantCharacteristics(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (howManyVariantCharacteristicsBuilder_ == null) {
           howManyVariantCharacteristics_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
-      public Builder mergeHowManyVariantCharacteristics(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeHowManyVariantCharacteristics(io.dstore.Values.integerValue value) {
         if (howManyVariantCharacteristicsBuilder_ == null) {
           if (howManyVariantCharacteristics_ != null) {
             howManyVariantCharacteristics_ =
-              io.dstore.engine.Values.integerValue.newBuilder(howManyVariantCharacteristics_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(howManyVariantCharacteristics_).mergeFrom(value).buildPartial();
           } else {
             howManyVariantCharacteristics_ = value;
           }
@@ -638,7 +638,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
       public Builder clearHowManyVariantCharacteristics() {
         if (howManyVariantCharacteristicsBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getHowManyVariantCharacteristicsBuilder() {
+      public io.dstore.Values.integerValue.Builder getHowManyVariantCharacteristicsBuilder() {
         
         onChanged();
         return getHowManyVariantCharacteristicsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder() {
         if (howManyVariantCharacteristicsBuilder_ != null) {
           return howManyVariantCharacteristicsBuilder_.getMessageOrBuilder();
         } else {
           return howManyVariantCharacteristics_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : howManyVariantCharacteristics_;
+              io.dstore.Values.integerValue.getDefaultInstance() : howManyVariantCharacteristics_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue how_many_variant_characteristics = 1;</code>
+       * <code>optional .dstore.values.integerValue how_many_variant_characteristics = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getHowManyVariantCharacteristicsFieldBuilder() {
         if (howManyVariantCharacteristicsBuilder_ == null) {
           howManyVariantCharacteristicsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getHowManyVariantCharacteristics(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class ImGenerateVariantsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue predecessor_ = null;
+      private io.dstore.Values.integerValue predecessor_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predecessorBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
       public boolean hasPredecessor() {
         return predecessorBuilder_ != null || predecessor_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getPredecessor() {
+      public io.dstore.Values.integerValue getPredecessor() {
         if (predecessorBuilder_ == null) {
-          return predecessor_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+          return predecessor_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
         } else {
           return predecessorBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
-      public Builder setPredecessor(io.dstore.engine.Values.integerValue value) {
+      public Builder setPredecessor(io.dstore.Values.integerValue value) {
         if (predecessorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
       public Builder setPredecessor(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (predecessorBuilder_ == null) {
           predecessor_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
-      public Builder mergePredecessor(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePredecessor(io.dstore.Values.integerValue value) {
         if (predecessorBuilder_ == null) {
           if (predecessor_ != null) {
             predecessor_ =
-              io.dstore.engine.Values.integerValue.newBuilder(predecessor_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(predecessor_).mergeFrom(value).buildPartial();
           } else {
             predecessor_ = value;
           }
@@ -781,7 +781,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
       public Builder clearPredecessor() {
         if (predecessorBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPredecessorBuilder() {
+      public io.dstore.Values.integerValue.Builder getPredecessorBuilder() {
         
         onChanged();
         return getPredecessorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder() {
         if (predecessorBuilder_ != null) {
           return predecessorBuilder_.getMessageOrBuilder();
         } else {
           return predecessor_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+              io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 2;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPredecessorFieldBuilder() {
         if (predecessorBuilder_ == null) {
           predecessorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPredecessor(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class ImGenerateVariantsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue delimiter_ = null;
+      private io.dstore.Values.stringValue delimiter_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> delimiterBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> delimiterBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
       public boolean hasDelimiter() {
         return delimiterBuilder_ != null || delimiter_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getDelimiter() {
+      public io.dstore.Values.stringValue getDelimiter() {
         if (delimiterBuilder_ == null) {
-          return delimiter_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : delimiter_;
+          return delimiter_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : delimiter_;
         } else {
           return delimiterBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
-      public Builder setDelimiter(io.dstore.engine.Values.stringValue value) {
+      public Builder setDelimiter(io.dstore.Values.stringValue value) {
         if (delimiterBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
       public Builder setDelimiter(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (delimiterBuilder_ == null) {
           delimiter_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
-      public Builder mergeDelimiter(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDelimiter(io.dstore.Values.stringValue value) {
         if (delimiterBuilder_ == null) {
           if (delimiter_ != null) {
             delimiter_ =
-              io.dstore.engine.Values.stringValue.newBuilder(delimiter_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(delimiter_).mergeFrom(value).buildPartial();
           } else {
             delimiter_ = value;
           }
@@ -924,7 +924,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
       public Builder clearDelimiter() {
         if (delimiterBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDelimiterBuilder() {
+      public io.dstore.Values.stringValue.Builder getDelimiterBuilder() {
         
         onChanged();
         return getDelimiterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDelimiterOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDelimiterOrBuilder() {
         if (delimiterBuilder_ != null) {
           return delimiterBuilder_.getMessageOrBuilder();
         } else {
           return delimiter_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : delimiter_;
+              io.dstore.Values.stringValue.getDefaultInstance() : delimiter_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue delimiter = 3;</code>
+       * <code>optional .dstore.values.stringValue delimiter = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDelimiterFieldBuilder() {
         if (delimiterBuilder_ == null) {
           delimiterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDelimiter(),
                   getParentForChildren(),
                   isClean());
@@ -3155,25 +3155,24 @@ public final class ImGenerateVariantsAd {
     java.lang.String[] descriptorData = {
       "\n5dstore/engine/procedures/im_GenerateVa" +
       "riants_Ad.proto\022$dstore.engine.im_Genera" +
-      "teVariants_Ad\032\032dstore/engine/values.prot" +
-      "o\032\031dstore/engine/error.proto\032\033dstore/eng" +
-      "ine/message.proto\032#dstore/engine/metainf" +
-      "ormation.proto\"\255\002\n\nParameters\022L\n how_man" +
-      "y_variant_characteristics\030\001 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022.\n%how_many_" +
-      "variant_characteristics_null\030\351\007 \001(\010\0227\n\013p" +
-      "redecessor\030\002 \001(\0132\".dstore.engine.values.",
-      "integerValue\022\031\n\020predecessor_null\030\352\007 \001(\010\022" +
-      "4\n\tdelimiter\030\003 \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022\027\n\016delimiter_null\030\353\007 \001(\010\"\211" +
-      "\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
-      "ne.error.Error\022H\n\020meta_information\030\002 \003(\013" +
-      "2..dstore.engine.metainformation.MetaInf" +
-      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin" +
-      "e.message.Message\022?\n\003row\030\004 \003(\01322.dstore." +
-      "engine.im_GenerateVariants_Ad.Response.R" +
-      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.",
-      "engine.proceduresb\006proto3"
+      "teVariants_Ad\032\023dstore/values.proto\032\031dsto" +
+      "re/engine/error.proto\032\033dstore/engine/mes" +
+      "sage.proto\032#dstore/engine/metainformatio" +
+      "n.proto\"\230\002\n\nParameters\022E\n how_many_varia" +
+      "nt_characteristics\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022.\n%how_many_variant_charac" +
+      "teristics_null\030\351\007 \001(\010\0220\n\013predecessor\030\002 \001" +
+      "(\0132\033.dstore.values.integerValue\022\031\n\020prede",
+      "cessor_null\030\352\007 \001(\010\022-\n\tdelimiter\030\003 \001(\0132\032." +
+      "dstore.values.stringValue\022\027\n\016delimiter_n" +
+      "ull\030\353\007 \001(\010\"\211\002\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
+      ".dstore.engine.error.Error\022H\n\020meta_infor" +
+      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022?\n\003row\030\004 \003" +
+      "(\01322.dstore.engine.im_GenerateVariants_A" +
+      "d.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035" +
+      "\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3186,7 +3185,7 @@ public final class ImGenerateVariantsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3209,7 +3208,7 @@ public final class ImGenerateVariantsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GenerateVariants_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

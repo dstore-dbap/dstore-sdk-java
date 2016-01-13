@@ -13,17 +13,17 @@ public final class CoDeleteCommunityBinaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 1;</code>
      */
     boolean hasBinaryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getBinaryId();
+    io.dstore.Values.integerValue getBinaryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
 
     /**
      * <code>optional bool binary_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class CoDeleteCommunityBinaryAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (binaryId_ != null) {
                 subBuilder = binaryId_.toBuilder();
               }
-              binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryId_);
                 binaryId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class CoDeleteCommunityBinaryAd {
     }
 
     public static final int BINARY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue binaryId_;
+    private io.dstore.Values.integerValue binaryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 1;</code>
      */
     public boolean hasBinaryId() {
       return binaryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getBinaryId() {
-      return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+    public io.dstore.Values.integerValue getBinaryId() {
+      return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
       return getBinaryId();
     }
 
@@ -368,29 +368,29 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue binaryId_ = null;
+      private io.dstore.Values.integerValue binaryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
       public boolean hasBinaryId() {
         return binaryIdBuilder_ != null || binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getBinaryId() {
+      public io.dstore.Values.integerValue getBinaryId() {
         if (binaryIdBuilder_ == null) {
-          return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+          return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
         } else {
           return binaryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
-      public Builder setBinaryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setBinaryId(io.dstore.Values.integerValue value) {
         if (binaryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
       public Builder setBinaryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (binaryIdBuilder_ == null) {
           binaryId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
-      public Builder mergeBinaryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
         if (binaryIdBuilder_ == null) {
           if (binaryId_ != null) {
             binaryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
           } else {
             binaryId_ = value;
           }
@@ -436,7 +436,7 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
       public Builder clearBinaryId() {
         if (binaryIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getBinaryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
         
         onChanged();
         return getBinaryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
         if (binaryIdBuilder_ != null) {
           return binaryIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 1;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBinaryIdFieldBuilder() {
         if (binaryIdBuilder_ == null) {
           binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBinaryId(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class CoDeleteCommunityBinaryAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/co_DeleteComm" +
       "unityBinary_Ad.proto\022)dstore.engine.co_D" +
-      "eleteCommunityBinary_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\\\n\nParameters\0225" +
-      "\n\tbinary_id\030\001 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\027\n\016binary_id_null\030\351\007 \001(\010\"\216" +
-      "\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
-      "ne.error.Error\022H\n\020meta_information\030\002 \003(\013",
-      "2..dstore.engine.metainformation.MetaInf" +
-      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin" +
-      "e.message.Message\022D\n\003row\030\004 \003(\01327.dstore." +
-      "engine.co_DeleteCommunityBinary_Ad.Respo" +
-      "nse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "eleteCommunityBinary_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"U\n\nParameters\022.\n\tbinar" +
+      "y_id\030\001 \001(\0132\033.dstore.values.integerValue\022" +
+      "\027\n\016binary_id_null\030\351\007 \001(\010\"\216\002\n\010Response\022)\n" +
+      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
+      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi",
+      "ne.metainformation.MetaInformation\022/\n\007me" +
+      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
+      "age\022D\n\003row\030\004 \003(\01327.dstore.engine.co_Dele" +
+      "teCommunityBinary_Ad.Response.Row\032\026\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pr" +
+      "oceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class CoDeleteCommunityBinaryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class CoDeleteCommunityBinaryAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteCommunityBinary_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

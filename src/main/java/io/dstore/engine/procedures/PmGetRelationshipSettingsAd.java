@@ -13,17 +13,17 @@ public final class PmGetRelationshipSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
     boolean hasRelationshipId();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getRelationshipId();
+    io.dstore.Values.integerValue getRelationshipId();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
 
     /**
      * <code>optional bool relationship_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class PmGetRelationshipSettingsAd {
     boolean getRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
      */
     boolean hasFromPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getFromPersonTypeId();
+    io.dstore.Values.integerValue getFromPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool from_person_type_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class PmGetRelationshipSettingsAd {
     boolean getFromPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
      */
     boolean hasToPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getToPersonTypeId();
+    io.dstore.Values.integerValue getToPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool to_person_type_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class PmGetRelationshipSettingsAd {
     boolean getToPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 4;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 4;</code>
      */
-    io.dstore.engine.Values.stringValue getKeyVariable();
+    io.dstore.Values.stringValue getKeyVariable();
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 4;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class PmGetRelationshipSettingsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (relationshipId_ != null) {
                 subBuilder = relationshipId_.toBuilder();
               }
-              relationshipId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationshipId_);
                 relationshipId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class PmGetRelationshipSettingsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (fromPersonTypeId_ != null) {
                 subBuilder = fromPersonTypeId_.toBuilder();
               }
-              fromPersonTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              fromPersonTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromPersonTypeId_);
                 fromPersonTypeId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class PmGetRelationshipSettingsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (toPersonTypeId_ != null) {
                 subBuilder = toPersonTypeId_.toBuilder();
               }
-              toPersonTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              toPersonTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toPersonTypeId_);
                 toPersonTypeId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class PmGetRelationshipSettingsAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class PmGetRelationshipSettingsAd {
     }
 
     public static final int RELATIONSHIP_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue relationshipId_;
+    private io.dstore.Values.integerValue relationshipId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
     public boolean hasRelationshipId() {
       return relationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getRelationshipId() {
-      return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+    public io.dstore.Values.integerValue getRelationshipId() {
+      return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
       return getRelationshipId();
     }
 
@@ -253,23 +253,23 @@ public final class PmGetRelationshipSettingsAd {
     }
 
     public static final int FROM_PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue fromPersonTypeId_;
+    private io.dstore.Values.integerValue fromPersonTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
      */
     public boolean hasFromPersonTypeId() {
       return fromPersonTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getFromPersonTypeId() {
-      return fromPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
+    public io.dstore.Values.integerValue getFromPersonTypeId() {
+      return fromPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
       return getFromPersonTypeId();
     }
 
@@ -283,23 +283,23 @@ public final class PmGetRelationshipSettingsAd {
     }
 
     public static final int TO_PERSON_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue toPersonTypeId_;
+    private io.dstore.Values.integerValue toPersonTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
      */
     public boolean hasToPersonTypeId() {
       return toPersonTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getToPersonTypeId() {
-      return toPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
+    public io.dstore.Values.integerValue getToPersonTypeId() {
+      return toPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
       return getToPersonTypeId();
     }
 
@@ -313,23 +313,23 @@ public final class PmGetRelationshipSettingsAd {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.stringValue keyVariable_;
+    private io.dstore.Values.stringValue keyVariable_;
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 4;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 4;</code>
      */
-    public io.dstore.engine.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.Values.stringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 4;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -671,29 +671,29 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue relationshipId_ = null;
+      private io.dstore.Values.integerValue relationshipId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> relationshipIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipIdBuilder_ != null || relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getRelationshipId() {
+      public io.dstore.Values.integerValue getRelationshipId() {
         if (relationshipIdBuilder_ == null) {
-          return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+          return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
         } else {
           return relationshipIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public Builder setRelationshipId(io.dstore.engine.Values.integerValue value) {
+      public Builder setRelationshipId(io.dstore.Values.integerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       public Builder setRelationshipId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (relationshipIdBuilder_ == null) {
           relationshipId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public Builder mergeRelationshipId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (relationshipId_ != null) {
             relationshipId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
           } else {
             relationshipId_ = value;
           }
@@ -739,7 +739,7 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       public Builder clearRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRelationshipIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
         
         onChanged();
         return getRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
         if (relationshipIdBuilder_ != null) {
           return relationshipIdBuilder_.getMessageOrBuilder();
         } else {
           return relationshipId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRelationshipIdFieldBuilder() {
         if (relationshipIdBuilder_ == null) {
           relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRelationshipId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue fromPersonTypeId_ = null;
+      private io.dstore.Values.integerValue fromPersonTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromPersonTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromPersonTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
       public boolean hasFromPersonTypeId() {
         return fromPersonTypeIdBuilder_ != null || fromPersonTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getFromPersonTypeId() {
+      public io.dstore.Values.integerValue getFromPersonTypeId() {
         if (fromPersonTypeIdBuilder_ == null) {
-          return fromPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
+          return fromPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
         } else {
           return fromPersonTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
-      public Builder setFromPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setFromPersonTypeId(io.dstore.Values.integerValue value) {
         if (fromPersonTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
       public Builder setFromPersonTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (fromPersonTypeIdBuilder_ == null) {
           fromPersonTypeId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
-      public Builder mergeFromPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFromPersonTypeId(io.dstore.Values.integerValue value) {
         if (fromPersonTypeIdBuilder_ == null) {
           if (fromPersonTypeId_ != null) {
             fromPersonTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(fromPersonTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(fromPersonTypeId_).mergeFrom(value).buildPartial();
           } else {
             fromPersonTypeId_ = value;
           }
@@ -882,7 +882,7 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
       public Builder clearFromPersonTypeId() {
         if (fromPersonTypeIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFromPersonTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getFromPersonTypeIdBuilder() {
         
         onChanged();
         return getFromPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
         if (fromPersonTypeIdBuilder_ != null) {
           return fromPersonTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return fromPersonTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromPersonTypeIdFieldBuilder() {
         if (fromPersonTypeIdBuilder_ == null) {
           fromPersonTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue toPersonTypeId_ = null;
+      private io.dstore.Values.integerValue toPersonTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> toPersonTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toPersonTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
       public boolean hasToPersonTypeId() {
         return toPersonTypeIdBuilder_ != null || toPersonTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getToPersonTypeId() {
+      public io.dstore.Values.integerValue getToPersonTypeId() {
         if (toPersonTypeIdBuilder_ == null) {
-          return toPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
+          return toPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
         } else {
           return toPersonTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
-      public Builder setToPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setToPersonTypeId(io.dstore.Values.integerValue value) {
         if (toPersonTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
       public Builder setToPersonTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (toPersonTypeIdBuilder_ == null) {
           toPersonTypeId_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
-      public Builder mergeToPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeToPersonTypeId(io.dstore.Values.integerValue value) {
         if (toPersonTypeIdBuilder_ == null) {
           if (toPersonTypeId_ != null) {
             toPersonTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(toPersonTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(toPersonTypeId_).mergeFrom(value).buildPartial();
           } else {
             toPersonTypeId_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
       public Builder clearToPersonTypeId() {
         if (toPersonTypeIdBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getToPersonTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getToPersonTypeIdBuilder() {
         
         onChanged();
         return getToPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
         if (toPersonTypeIdBuilder_ != null) {
           return toPersonTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return toPersonTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getToPersonTypeIdFieldBuilder() {
         if (toPersonTypeIdBuilder_ == null) {
           toPersonTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getToPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue keyVariable_ = null;
+      private io.dstore.Values.stringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue getKeyVariable() {
+      public io.dstore.Values.stringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
-      public Builder setKeyVariable(io.dstore.engine.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.engine.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class PmGetRelationshipSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 4;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -1530,7 +1530,7 @@ public final class PmGetRelationshipSettingsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "ToPersonTypeID"
@@ -1538,24 +1538,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasToPersonTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "ToPersonTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getToPersonTypeDescription();
+      io.dstore.Values.stringValue getToPersonTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "ToPersonTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getToPersonTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getToPersonTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "FromPersonTypeID"
@@ -1563,24 +1563,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasFromPersonTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "FromPersonTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFromPersonTypeDescription();
+      io.dstore.Values.stringValue getFromPersonTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "FromPersonTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFromPersonTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFromPersonTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
        *
        * <pre>
        * ID einer Beziehungs-Art
@@ -1588,24 +1588,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasRelationshipId();
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
        *
        * <pre>
        * ID einer Beziehungs-Art
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getRelationshipId();
+      io.dstore.Values.integerValue getRelationshipId();
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
        *
        * <pre>
        * ID einer Beziehungs-Art
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
@@ -1613,24 +1613,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasFromPersonTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getFromPersonTypeId();
+      io.dstore.Values.integerValue getFromPersonTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+       * <code>optional .dstore.values.stringValue relationship = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
@@ -1638,24 +1638,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasRelationship();
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+       * <code>optional .dstore.values.stringValue relationship = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getRelationship();
+      io.dstore.Values.stringValue getRelationship();
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+       * <code>optional .dstore.values.stringValue relationship = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getRelationshipOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+       * <code>optional .dstore.values.stringValue value = 10006;</code>
        *
        * <pre>
        * Der zum Schlüssel "KeyVariable" konfigurierte Wert
@@ -1663,24 +1663,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+       * <code>optional .dstore.values.stringValue value = 10006;</code>
        *
        * <pre>
        * Der zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+       * <code>optional .dstore.values.stringValue value = 10006;</code>
        *
        * <pre>
        * Der zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
@@ -1688,24 +1688,24 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasKeyVariable();
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getKeyVariable();
+      io.dstore.Values.stringValue getKeyVariable();
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
@@ -1713,21 +1713,21 @@ public final class PmGetRelationshipSettingsAd {
        */
       boolean hasToPersonTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getToPersonTypeId();
+      io.dstore.Values.integerValue getToPersonTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetRelationshipSettings_Ad.Response.Row}
@@ -1774,11 +1774,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (toPersonTypeDescription_ != null) {
                   subBuilder = toPersonTypeDescription_.toBuilder();
                 }
-                toPersonTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                toPersonTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toPersonTypeDescription_);
                   toPersonTypeDescription_ = subBuilder.buildPartial();
@@ -1787,11 +1787,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (fromPersonTypeDescription_ != null) {
                   subBuilder = fromPersonTypeDescription_.toBuilder();
                 }
-                fromPersonTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                fromPersonTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromPersonTypeDescription_);
                   fromPersonTypeDescription_ = subBuilder.buildPartial();
@@ -1800,11 +1800,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (relationshipId_ != null) {
                   subBuilder = relationshipId_.toBuilder();
                 }
-                relationshipId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationshipId_);
                   relationshipId_ = subBuilder.buildPartial();
@@ -1813,11 +1813,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (fromPersonTypeId_ != null) {
                   subBuilder = fromPersonTypeId_.toBuilder();
                 }
-                fromPersonTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                fromPersonTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromPersonTypeId_);
                   fromPersonTypeId_ = subBuilder.buildPartial();
@@ -1826,11 +1826,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (relationship_ != null) {
                   subBuilder = relationship_.toBuilder();
                 }
-                relationship_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                relationship_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationship_);
                   relationship_ = subBuilder.buildPartial();
@@ -1839,11 +1839,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1852,11 +1852,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1865,11 +1865,11 @@ public final class PmGetRelationshipSettingsAd {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (toPersonTypeId_ != null) {
                   subBuilder = toPersonTypeId_.toBuilder();
                 }
-                toPersonTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                toPersonTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toPersonTypeId_);
                   toPersonTypeId_ = subBuilder.buildPartial();
@@ -1911,9 +1911,9 @@ public final class PmGetRelationshipSettingsAd {
       }
 
       public static final int TO_PERSON_TYPE_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue toPersonTypeDescription_;
+      private io.dstore.Values.stringValue toPersonTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "ToPersonTypeID"
@@ -1923,30 +1923,30 @@ public final class PmGetRelationshipSettingsAd {
         return toPersonTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "ToPersonTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getToPersonTypeDescription() {
-        return toPersonTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : toPersonTypeDescription_;
+      public io.dstore.Values.stringValue getToPersonTypeDescription() {
+        return toPersonTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toPersonTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "ToPersonTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getToPersonTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getToPersonTypeDescriptionOrBuilder() {
         return getToPersonTypeDescription();
       }
 
       public static final int FROM_PERSON_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue fromPersonTypeDescription_;
+      private io.dstore.Values.stringValue fromPersonTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "FromPersonTypeID"
@@ -1956,30 +1956,30 @@ public final class PmGetRelationshipSettingsAd {
         return fromPersonTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "FromPersonTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFromPersonTypeDescription() {
-        return fromPersonTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : fromPersonTypeDescription_;
+      public io.dstore.Values.stringValue getFromPersonTypeDescription() {
+        return fromPersonTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromPersonTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Personen-Typs "FromPersonTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFromPersonTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFromPersonTypeDescriptionOrBuilder() {
         return getFromPersonTypeDescription();
       }
 
       public static final int RELATIONSHIP_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue relationshipId_;
+      private io.dstore.Values.integerValue relationshipId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
        *
        * <pre>
        * ID einer Beziehungs-Art
@@ -1989,30 +1989,30 @@ public final class PmGetRelationshipSettingsAd {
         return relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
        *
        * <pre>
        * ID einer Beziehungs-Art
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getRelationshipId() {
-        return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+      public io.dstore.Values.integerValue getRelationshipId() {
+        return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
        *
        * <pre>
        * ID einer Beziehungs-Art
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
         return getRelationshipId();
       }
 
       public static final int FROM_PERSON_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue fromPersonTypeId_;
+      private io.dstore.Values.integerValue fromPersonTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
@@ -2022,30 +2022,30 @@ public final class PmGetRelationshipSettingsAd {
         return fromPersonTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getFromPersonTypeId() {
-        return fromPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
+      public io.dstore.Values.integerValue getFromPersonTypeId() {
+        return fromPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
         return getFromPersonTypeId();
       }
 
       public static final int RELATIONSHIP_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue relationship_;
+      private io.dstore.Values.stringValue relationship_;
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+       * <code>optional .dstore.values.stringValue relationship = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
@@ -2055,30 +2055,30 @@ public final class PmGetRelationshipSettingsAd {
         return relationship_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+       * <code>optional .dstore.values.stringValue relationship = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getRelationship() {
-        return relationship_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : relationship_;
+      public io.dstore.Values.stringValue getRelationship() {
+        return relationship_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+       * <code>optional .dstore.values.stringValue relationship = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getRelationshipOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder() {
         return getRelationship();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+       * <code>optional .dstore.values.stringValue value = 10006;</code>
        *
        * <pre>
        * Der zum Schlüssel "KeyVariable" konfigurierte Wert
@@ -2088,30 +2088,30 @@ public final class PmGetRelationshipSettingsAd {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+       * <code>optional .dstore.values.stringValue value = 10006;</code>
        *
        * <pre>
        * Der zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+       * <code>optional .dstore.values.stringValue value = 10006;</code>
        *
        * <pre>
        * Der zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int KEY_VARIABLE_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue keyVariable_;
+      private io.dstore.Values.stringValue keyVariable_;
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
@@ -2121,30 +2121,30 @@ public final class PmGetRelationshipSettingsAd {
         return keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getKeyVariable() {
-        return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+      public io.dstore.Values.stringValue getKeyVariable() {
+        return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
       }
 
       public static final int TO_PERSON_TYPE_ID_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.integerValue toPersonTypeId_;
+      private io.dstore.Values.integerValue toPersonTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
@@ -2154,23 +2154,23 @@ public final class PmGetRelationshipSettingsAd {
         return toPersonTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getToPersonTypeId() {
-        return toPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
+      public io.dstore.Values.integerValue getToPersonTypeId() {
+        return toPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
        *
        * <pre>
        * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
         return getToPersonTypeId();
       }
 
@@ -2574,11 +2574,11 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue toPersonTypeDescription_ = null;
+        private io.dstore.Values.stringValue toPersonTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> toPersonTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toPersonTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
@@ -2588,27 +2588,27 @@ public final class PmGetRelationshipSettingsAd {
           return toPersonTypeDescriptionBuilder_ != null || toPersonTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getToPersonTypeDescription() {
+        public io.dstore.Values.stringValue getToPersonTypeDescription() {
           if (toPersonTypeDescriptionBuilder_ == null) {
-            return toPersonTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : toPersonTypeDescription_;
+            return toPersonTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toPersonTypeDescription_;
           } else {
             return toPersonTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
-        public Builder setToPersonTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setToPersonTypeDescription(io.dstore.Values.stringValue value) {
           if (toPersonTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2622,14 +2622,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
         public Builder setToPersonTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (toPersonTypeDescriptionBuilder_ == null) {
             toPersonTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2640,17 +2640,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
-        public Builder mergeToPersonTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeToPersonTypeDescription(io.dstore.Values.stringValue value) {
           if (toPersonTypeDescriptionBuilder_ == null) {
             if (toPersonTypeDescription_ != null) {
               toPersonTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(toPersonTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(toPersonTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               toPersonTypeDescription_ = value;
             }
@@ -2662,7 +2662,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
@@ -2680,45 +2680,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getToPersonTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getToPersonTypeDescriptionBuilder() {
           
           onChanged();
           return getToPersonTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getToPersonTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getToPersonTypeDescriptionOrBuilder() {
           if (toPersonTypeDescriptionBuilder_ != null) {
             return toPersonTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return toPersonTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : toPersonTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : toPersonTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue to_person_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue to_person_type_description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "ToPersonTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getToPersonTypeDescriptionFieldBuilder() {
           if (toPersonTypeDescriptionBuilder_ == null) {
             toPersonTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getToPersonTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2727,11 +2727,11 @@ public final class PmGetRelationshipSettingsAd {
           return toPersonTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue fromPersonTypeDescription_ = null;
+        private io.dstore.Values.stringValue fromPersonTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> fromPersonTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromPersonTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
@@ -2741,27 +2741,27 @@ public final class PmGetRelationshipSettingsAd {
           return fromPersonTypeDescriptionBuilder_ != null || fromPersonTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFromPersonTypeDescription() {
+        public io.dstore.Values.stringValue getFromPersonTypeDescription() {
           if (fromPersonTypeDescriptionBuilder_ == null) {
-            return fromPersonTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : fromPersonTypeDescription_;
+            return fromPersonTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromPersonTypeDescription_;
           } else {
             return fromPersonTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
-        public Builder setFromPersonTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setFromPersonTypeDescription(io.dstore.Values.stringValue value) {
           if (fromPersonTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2775,14 +2775,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
         public Builder setFromPersonTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (fromPersonTypeDescriptionBuilder_ == null) {
             fromPersonTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2793,17 +2793,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
-        public Builder mergeFromPersonTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFromPersonTypeDescription(io.dstore.Values.stringValue value) {
           if (fromPersonTypeDescriptionBuilder_ == null) {
             if (fromPersonTypeDescription_ != null) {
               fromPersonTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(fromPersonTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(fromPersonTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               fromPersonTypeDescription_ = value;
             }
@@ -2815,7 +2815,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
@@ -2833,45 +2833,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFromPersonTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getFromPersonTypeDescriptionBuilder() {
           
           onChanged();
           return getFromPersonTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFromPersonTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFromPersonTypeDescriptionOrBuilder() {
           if (fromPersonTypeDescriptionBuilder_ != null) {
             return fromPersonTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return fromPersonTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : fromPersonTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : fromPersonTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_person_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue from_person_type_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Personen-Typs "FromPersonTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFromPersonTypeDescriptionFieldBuilder() {
           if (fromPersonTypeDescriptionBuilder_ == null) {
             fromPersonTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFromPersonTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2880,11 +2880,11 @@ public final class PmGetRelationshipSettingsAd {
           return fromPersonTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue relationshipId_ = null;
+        private io.dstore.Values.integerValue relationshipId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> relationshipIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
@@ -2894,27 +2894,27 @@ public final class PmGetRelationshipSettingsAd {
           return relationshipIdBuilder_ != null || relationshipId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getRelationshipId() {
+        public io.dstore.Values.integerValue getRelationshipId() {
           if (relationshipIdBuilder_ == null) {
-            return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+            return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
           } else {
             return relationshipIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
-        public Builder setRelationshipId(io.dstore.engine.Values.integerValue value) {
+        public Builder setRelationshipId(io.dstore.Values.integerValue value) {
           if (relationshipIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2928,14 +2928,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
         public Builder setRelationshipId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (relationshipIdBuilder_ == null) {
             relationshipId_ = builderForValue.build();
             onChanged();
@@ -2946,17 +2946,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
-        public Builder mergeRelationshipId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
           if (relationshipIdBuilder_ == null) {
             if (relationshipId_ != null) {
               relationshipId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
             } else {
               relationshipId_ = value;
             }
@@ -2968,7 +2968,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
@@ -2986,45 +2986,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getRelationshipIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
           
           onChanged();
           return getRelationshipIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
           if (relationshipIdBuilder_ != null) {
             return relationshipIdBuilder_.getMessageOrBuilder();
           } else {
             return relationshipId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue relationship_id = 10003;</code>
          *
          * <pre>
          * ID einer Beziehungs-Art
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRelationshipIdFieldBuilder() {
           if (relationshipIdBuilder_ == null) {
             relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRelationshipId(),
                     getParentForChildren(),
                     isClean());
@@ -3033,11 +3033,11 @@ public final class PmGetRelationshipSettingsAd {
           return relationshipIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue fromPersonTypeId_ = null;
+        private io.dstore.Values.integerValue fromPersonTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromPersonTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromPersonTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
@@ -3047,27 +3047,27 @@ public final class PmGetRelationshipSettingsAd {
           return fromPersonTypeIdBuilder_ != null || fromPersonTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getFromPersonTypeId() {
+        public io.dstore.Values.integerValue getFromPersonTypeId() {
           if (fromPersonTypeIdBuilder_ == null) {
-            return fromPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
+            return fromPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
           } else {
             return fromPersonTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public Builder setFromPersonTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setFromPersonTypeId(io.dstore.Values.integerValue value) {
           if (fromPersonTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3081,14 +3081,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
         public Builder setFromPersonTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (fromPersonTypeIdBuilder_ == null) {
             fromPersonTypeId_ = builderForValue.build();
             onChanged();
@@ -3099,17 +3099,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public Builder mergeFromPersonTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeFromPersonTypeId(io.dstore.Values.integerValue value) {
           if (fromPersonTypeIdBuilder_ == null) {
             if (fromPersonTypeId_ != null) {
               fromPersonTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(fromPersonTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(fromPersonTypeId_).mergeFrom(value).buildPartial();
             } else {
               fromPersonTypeId_ = value;
             }
@@ -3121,7 +3121,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
@@ -3139,45 +3139,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getFromPersonTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getFromPersonTypeIdBuilder() {
           
           onChanged();
           return getFromPersonTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getFromPersonTypeIdOrBuilder() {
           if (fromPersonTypeIdBuilder_ != null) {
             return fromPersonTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return fromPersonTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : fromPersonTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_person_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue from_person_type_id = 10004;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen dieses Typs zu Personen des Typs "ToPersonTypeID" (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFromPersonTypeIdFieldBuilder() {
           if (fromPersonTypeIdBuilder_ == null) {
             fromPersonTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFromPersonTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3186,11 +3186,11 @@ public final class PmGetRelationshipSettingsAd {
           return fromPersonTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue relationship_ = null;
+        private io.dstore.Values.stringValue relationship_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> relationshipBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> relationshipBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
@@ -3200,27 +3200,27 @@ public final class PmGetRelationshipSettingsAd {
           return relationshipBuilder_ != null || relationship_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getRelationship() {
+        public io.dstore.Values.stringValue getRelationship() {
           if (relationshipBuilder_ == null) {
-            return relationship_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : relationship_;
+            return relationship_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
           } else {
             return relationshipBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
-        public Builder setRelationship(io.dstore.engine.Values.stringValue value) {
+        public Builder setRelationship(io.dstore.Values.stringValue value) {
           if (relationshipBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3234,14 +3234,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
         public Builder setRelationship(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (relationshipBuilder_ == null) {
             relationship_ = builderForValue.build();
             onChanged();
@@ -3252,17 +3252,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
-        public Builder mergeRelationship(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeRelationship(io.dstore.Values.stringValue value) {
           if (relationshipBuilder_ == null) {
             if (relationship_ != null) {
               relationship_ =
-                io.dstore.engine.Values.stringValue.newBuilder(relationship_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(relationship_).mergeFrom(value).buildPartial();
             } else {
               relationship_ = value;
             }
@@ -3274,7 +3274,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
@@ -3292,45 +3292,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getRelationshipBuilder() {
+        public io.dstore.Values.stringValue.Builder getRelationshipBuilder() {
           
           onChanged();
           return getRelationshipFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getRelationshipOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder() {
           if (relationshipBuilder_ != null) {
             return relationshipBuilder_.getMessageOrBuilder();
           } else {
             return relationship_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : relationship_;
+                io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue relationship = 10005;</code>
+         * <code>optional .dstore.values.stringValue relationship = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getRelationshipFieldBuilder() {
           if (relationshipBuilder_ == null) {
             relationshipBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getRelationship(),
                     getParentForChildren(),
                     isClean());
@@ -3339,11 +3339,11 @@ public final class PmGetRelationshipSettingsAd {
           return relationshipBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
@@ -3353,27 +3353,27 @@ public final class PmGetRelationshipSettingsAd {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3387,14 +3387,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -3405,17 +3405,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -3427,7 +3427,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
@@ -3445,45 +3445,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10006;</code>
+         * <code>optional .dstore.values.stringValue value = 10006;</code>
          *
          * <pre>
          * Der zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -3492,11 +3492,11 @@ public final class PmGetRelationshipSettingsAd {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue keyVariable_ = null;
+        private io.dstore.Values.stringValue keyVariable_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> keyVariableBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
@@ -3506,27 +3506,27 @@ public final class PmGetRelationshipSettingsAd {
           return keyVariableBuilder_ != null || keyVariable_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getKeyVariable() {
+        public io.dstore.Values.stringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
-            return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+            return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
           } else {
             return keyVariableBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
-        public Builder setKeyVariable(io.dstore.engine.Values.stringValue value) {
+        public Builder setKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3540,14 +3540,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
         public Builder setKeyVariable(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (keyVariableBuilder_ == null) {
             keyVariable_ = builderForValue.build();
             onChanged();
@@ -3558,17 +3558,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
-        public Builder mergeKeyVariable(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
             if (keyVariable_ != null) {
               keyVariable_ =
-                io.dstore.engine.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
             } else {
               keyVariable_ = value;
             }
@@ -3580,7 +3580,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
@@ -3598,45 +3598,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getKeyVariableBuilder() {
+        public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
           
           onChanged();
           return getKeyVariableFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
             return keyVariableBuilder_.getMessageOrBuilder();
           } else {
             return keyVariable_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+                io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10007;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10007;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" konfiguriert ist. Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'RelationshipSettings' ".
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getKeyVariableFieldBuilder() {
           if (keyVariableBuilder_ == null) {
             keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getKeyVariable(),
                     getParentForChildren(),
                     isClean());
@@ -3645,11 +3645,11 @@ public final class PmGetRelationshipSettingsAd {
           return keyVariableBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue toPersonTypeId_ = null;
+        private io.dstore.Values.integerValue toPersonTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> toPersonTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toPersonTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
@@ -3659,27 +3659,27 @@ public final class PmGetRelationshipSettingsAd {
           return toPersonTypeIdBuilder_ != null || toPersonTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getToPersonTypeId() {
+        public io.dstore.Values.integerValue getToPersonTypeId() {
           if (toPersonTypeIdBuilder_ == null) {
-            return toPersonTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
+            return toPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
           } else {
             return toPersonTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public Builder setToPersonTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setToPersonTypeId(io.dstore.Values.integerValue value) {
           if (toPersonTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3693,14 +3693,14 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
         public Builder setToPersonTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (toPersonTypeIdBuilder_ == null) {
             toPersonTypeId_ = builderForValue.build();
             onChanged();
@@ -3711,17 +3711,17 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public Builder mergeToPersonTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeToPersonTypeId(io.dstore.Values.integerValue value) {
           if (toPersonTypeIdBuilder_ == null) {
             if (toPersonTypeId_ != null) {
               toPersonTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(toPersonTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(toPersonTypeId_).mergeFrom(value).buildPartial();
             } else {
               toPersonTypeId_ = value;
             }
@@ -3733,7 +3733,7 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
@@ -3751,45 +3751,45 @@ public final class PmGetRelationshipSettingsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getToPersonTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getToPersonTypeIdBuilder() {
           
           onChanged();
           return getToPersonTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getToPersonTypeIdOrBuilder() {
           if (toPersonTypeIdBuilder_ != null) {
             return toPersonTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return toPersonTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : toPersonTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue to_person_type_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue to_person_type_id = 10008;</code>
          *
          * <pre>
          * ID eines Personen-Typs. Der zum Schlüssel "KeyVariable" konfigurierte Wert "Value" gilt für Beziehungen der Art "RelationshipID" von Personen des Typs "FromPersonTypeID" zu Personen dieses Typs (Sonderfall "0" beachten, s. Beschreibung).
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getToPersonTypeIdFieldBuilder() {
           if (toPersonTypeIdBuilder_ == null) {
             toPersonTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getToPersonTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -5359,40 +5359,38 @@ public final class PmGetRelationshipSettingsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/pm_GetRelatio" +
       "nshipSettings_Ad.proto\022+dstore.engine.pm" +
-      "_GetRelationshipSettings_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\201\003\n\nParamet" +
-      "ers\022;\n\017relationship_id\030\001 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022\035\n\024relationship" +
-      "_id_null\030\351\007 \001(\010\022?\n\023from_person_type_id\030\002" +
-      " \001(\0132\".dstore.engine.values.integerValue",
-      "\022!\n\030from_person_type_id_null\030\352\007 \001(\010\022=\n\021t" +
-      "o_person_type_id\030\003 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\037\n\026to_person_type_id_" +
-      "null\030\353\007 \001(\010\0227\n\014key_variable\030\004 \001(\0132!.dsto" +
-      "re.engine.values.stringValue\022\032\n\021key_vari" +
-      "able_null\030\354\007 \001(\010\"\212\006\n\010Response\022)\n\005error\030\001" +
-      " \001(\0132\032.dstore.engine.error.Error\022H\n\020meta" +
-      "_information\030\002 \003(\0132..dstore.engine.metai" +
-      "nformation.MetaInformation\022/\n\007message\030\003 " +
-      "\003(\0132\036.dstore.engine.message.Message\022F\n\003r",
-      "ow\030\004 \003(\01329.dstore.engine.pm_GetRelations" +
-      "hipSettings_Ad.Response.Row\032\217\004\n\003Row\022\017\n\006r" +
-      "ow_id\030\220N \001(\005\022F\n\032to_person_type_descripti" +
-      "on\030\221N \001(\0132!.dstore.engine.values.stringV" +
-      "alue\022H\n\034from_person_type_description\030\222N " +
-      "\001(\0132!.dstore.engine.values.stringValue\022<" +
-      "\n\017relationship_id\030\223N \001(\0132\".dstore.engine" +
-      ".values.integerValue\022@\n\023from_person_type" +
-      "_id\030\224N \001(\0132\".dstore.engine.values.intege" +
-      "rValue\0228\n\014relationship\030\225N \001(\0132!.dstore.e",
-      "ngine.values.stringValue\0221\n\005value\030\226N \001(\013" +
-      "2!.dstore.engine.values.stringValue\0228\n\014k" +
-      "ey_variable\030\227N \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022>\n\021to_person_type_id\030\230N \001(" +
-      "\0132\".dstore.engine.values.integerValueB\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "_GetRelationshipSettings_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\345\002\n\nParameters\0224\n\017" +
+      "relationship_id\030\001 \001(\0132\033.dstore.values.in" +
+      "tegerValue\022\035\n\024relationship_id_null\030\351\007 \001(" +
+      "\010\0228\n\023from_person_type_id\030\002 \001(\0132\033.dstore." +
+      "values.integerValue\022!\n\030from_person_type_",
+      "id_null\030\352\007 \001(\010\0226\n\021to_person_type_id\030\003 \001(" +
+      "\0132\033.dstore.values.integerValue\022\037\n\026to_per" +
+      "son_type_id_null\030\353\007 \001(\010\0220\n\014key_variable\030" +
+      "\004 \001(\0132\032.dstore.values.stringValue\022\032\n\021key" +
+      "_variable_null\030\354\007 \001(\010\"\322\005\n\010Response\022)\n\005er" +
+      "ror\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n" +
+      "\020meta_information\030\002 \003(\0132..dstore.engine." +
+      "metainformation.MetaInformation\022/\n\007messa" +
+      "ge\030\003 \003(\0132\036.dstore.engine.message.Message" +
+      "\022F\n\003row\030\004 \003(\01329.dstore.engine.pm_GetRela",
+      "tionshipSettings_Ad.Response.Row\032\327\003\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005\022?\n\032to_person_type_desc" +
+      "ription\030\221N \001(\0132\032.dstore.values.stringVal" +
+      "ue\022A\n\034from_person_type_description\030\222N \001(" +
+      "\0132\032.dstore.values.stringValue\0225\n\017relatio" +
+      "nship_id\030\223N \001(\0132\033.dstore.values.integerV" +
+      "alue\0229\n\023from_person_type_id\030\224N \001(\0132\033.dst" +
+      "ore.values.integerValue\0221\n\014relationship\030" +
+      "\225N \001(\0132\032.dstore.values.stringValue\022*\n\005va" +
+      "lue\030\226N \001(\0132\032.dstore.values.stringValue\0221",
+      "\n\014key_variable\030\227N \001(\0132\032.dstore.values.st" +
+      "ringValue\0227\n\021to_person_type_id\030\230N \001(\0132\033." +
+      "dstore.values.integerValueB\035\n\033io.dstore." +
+      "engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5405,7 +5403,7 @@ public final class PmGetRelationshipSettingsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5428,7 +5426,7 @@ public final class PmGetRelationshipSettingsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetRelationshipSettings_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ToPersonTypeDescription", "FromPersonTypeDescription", "RelationshipId", "FromPersonTypeId", "Relationship", "Value", "KeyVariable", "ToPersonTypeId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

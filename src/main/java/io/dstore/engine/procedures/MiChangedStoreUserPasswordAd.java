@@ -13,17 +13,17 @@ public final class MiChangedStoreUserPasswordAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
     boolean hasUserName();
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUserName();
+    io.dstore.Values.stringValue getUserName();
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
     /**
      * <code>optional bool user_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getUserNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
      */
     boolean hasDBLogin();
     /**
-     * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getDBLogin();
+    io.dstore.Values.stringValue getDBLogin();
     /**
-     * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDBLoginOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDBLoginOrBuilder();
 
     /**
      * <code>optional bool d_b_login_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getDBLoginNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+     * <code>optional .dstore.values.stringValue caller_password = 3;</code>
      */
     boolean hasCallerPassword();
     /**
-     * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+     * <code>optional .dstore.values.stringValue caller_password = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getCallerPassword();
+    io.dstore.Values.stringValue getCallerPassword();
     /**
-     * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+     * <code>optional .dstore.values.stringValue caller_password = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCallerPasswordOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCallerPasswordOrBuilder();
 
     /**
      * <code>optional bool caller_password_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getCallerPasswordNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+     * <code>optional .dstore.values.stringValue new_password = 4;</code>
      */
     boolean hasNewPassword();
     /**
-     * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+     * <code>optional .dstore.values.stringValue new_password = 4;</code>
      */
-    io.dstore.engine.Values.stringValue getNewPassword();
+    io.dstore.Values.stringValue getNewPassword();
     /**
-     * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+     * <code>optional .dstore.values.stringValue new_password = 4;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getNewPasswordOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getNewPasswordOrBuilder();
 
     /**
      * <code>optional bool new_password_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getNewPasswordNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+     * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
      */
     boolean hasEncryptedPassword();
     /**
-     * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+     * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
      */
-    io.dstore.engine.Values.stringValue getEncryptedPassword();
+    io.dstore.Values.stringValue getEncryptedPassword();
     /**
-     * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+     * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getEncryptedPasswordOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getEncryptedPasswordOrBuilder();
 
     /**
      * <code>optional bool encrypted_password_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getEncryptedPasswordNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
     boolean hasCreatedstoreUserIfNotExists();
     /**
-     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    io.dstore.engine.Values.booleanValue getCreatedstoreUserIfNotExists();
+    io.dstore.Values.booleanValue getCreatedstoreUserIfNotExists();
     /**
-     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder();
 
     /**
      * <code>optional bool createdstore_user_if_not_exists_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getCreatedstoreUserIfNotExistsNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+     * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
      */
     boolean hasIgnoreErrorNewPasswdSameAsOld();
     /**
-     * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+     * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
      */
-    io.dstore.engine.Values.booleanValue getIgnoreErrorNewPasswdSameAsOld();
+    io.dstore.Values.booleanValue getIgnoreErrorNewPasswdSameAsOld();
     /**
-     * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+     * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIgnoreErrorNewPasswdSameAsOldOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIgnoreErrorNewPasswdSameAsOldOrBuilder();
 
     /**
      * <code>optional bool ignore_error_new_passwd_same_as_old_null = 1007;</code>
@@ -184,11 +184,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (userName_ != null) {
                 subBuilder = userName_.toBuilder();
               }
-              userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userName_);
                 userName_ = subBuilder.buildPartial();
@@ -197,11 +197,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (dBLogin_ != null) {
                 subBuilder = dBLogin_.toBuilder();
               }
-              dBLogin_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              dBLogin_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBLogin_);
                 dBLogin_ = subBuilder.buildPartial();
@@ -210,11 +210,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (callerPassword_ != null) {
                 subBuilder = callerPassword_.toBuilder();
               }
-              callerPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              callerPassword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(callerPassword_);
                 callerPassword_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (newPassword_ != null) {
                 subBuilder = newPassword_.toBuilder();
               }
-              newPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              newPassword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newPassword_);
                 newPassword_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (encryptedPassword_ != null) {
                 subBuilder = encryptedPassword_.toBuilder();
               }
-              encryptedPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              encryptedPassword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(encryptedPassword_);
                 encryptedPassword_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (createdstoreUserIfNotExists_ != null) {
                 subBuilder = createdstoreUserIfNotExists_.toBuilder();
               }
-              createdstoreUserIfNotExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              createdstoreUserIfNotExists_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(createdstoreUserIfNotExists_);
                 createdstoreUserIfNotExists_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class MiChangedStoreUserPasswordAd {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (ignoreErrorNewPasswdSameAsOld_ != null) {
                 subBuilder = ignoreErrorNewPasswdSameAsOld_.toBuilder();
               }
-              ignoreErrorNewPasswdSameAsOld_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              ignoreErrorNewPasswdSameAsOld_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ignoreErrorNewPasswdSameAsOld_);
                 ignoreErrorNewPasswdSameAsOld_ = subBuilder.buildPartial();
@@ -334,23 +334,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int USER_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue userName_;
+    private io.dstore.Values.stringValue userName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
     public boolean hasUserName() {
       return userName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUserName() {
-      return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+    public io.dstore.Values.stringValue getUserName() {
+      return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.stringValue user_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
       return getUserName();
     }
 
@@ -364,23 +364,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int D_B_LOGIN_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue dBLogin_;
+    private io.dstore.Values.stringValue dBLogin_;
     /**
-     * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
      */
     public boolean hasDBLogin() {
       return dBLogin_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getDBLogin() {
-      return dBLogin_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : dBLogin_;
+    public io.dstore.Values.stringValue getDBLogin() {
+      return dBLogin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBLogin_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDBLoginOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDBLoginOrBuilder() {
       return getDBLogin();
     }
 
@@ -394,23 +394,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int CALLER_PASSWORD_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue callerPassword_;
+    private io.dstore.Values.stringValue callerPassword_;
     /**
-     * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+     * <code>optional .dstore.values.stringValue caller_password = 3;</code>
      */
     public boolean hasCallerPassword() {
       return callerPassword_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+     * <code>optional .dstore.values.stringValue caller_password = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getCallerPassword() {
-      return callerPassword_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : callerPassword_;
+    public io.dstore.Values.stringValue getCallerPassword() {
+      return callerPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : callerPassword_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+     * <code>optional .dstore.values.stringValue caller_password = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCallerPasswordOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCallerPasswordOrBuilder() {
       return getCallerPassword();
     }
 
@@ -424,23 +424,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int NEW_PASSWORD_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.stringValue newPassword_;
+    private io.dstore.Values.stringValue newPassword_;
     /**
-     * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+     * <code>optional .dstore.values.stringValue new_password = 4;</code>
      */
     public boolean hasNewPassword() {
       return newPassword_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+     * <code>optional .dstore.values.stringValue new_password = 4;</code>
      */
-    public io.dstore.engine.Values.stringValue getNewPassword() {
-      return newPassword_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : newPassword_;
+    public io.dstore.Values.stringValue getNewPassword() {
+      return newPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newPassword_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+     * <code>optional .dstore.values.stringValue new_password = 4;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getNewPasswordOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getNewPasswordOrBuilder() {
       return getNewPassword();
     }
 
@@ -454,23 +454,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int ENCRYPTED_PASSWORD_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.stringValue encryptedPassword_;
+    private io.dstore.Values.stringValue encryptedPassword_;
     /**
-     * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+     * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
      */
     public boolean hasEncryptedPassword() {
       return encryptedPassword_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+     * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
      */
-    public io.dstore.engine.Values.stringValue getEncryptedPassword() {
-      return encryptedPassword_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : encryptedPassword_;
+    public io.dstore.Values.stringValue getEncryptedPassword() {
+      return encryptedPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : encryptedPassword_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+     * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getEncryptedPasswordOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getEncryptedPasswordOrBuilder() {
       return getEncryptedPassword();
     }
 
@@ -484,23 +484,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int CREATEDSTORE_USER_IF_NOT_EXISTS_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.booleanValue createdstoreUserIfNotExists_;
+    private io.dstore.Values.booleanValue createdstoreUserIfNotExists_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
     public boolean hasCreatedstoreUserIfNotExists() {
       return createdstoreUserIfNotExists_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValue getCreatedstoreUserIfNotExists() {
-      return createdstoreUserIfNotExists_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
+    public io.dstore.Values.booleanValue getCreatedstoreUserIfNotExists() {
+      return createdstoreUserIfNotExists_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder() {
       return getCreatedstoreUserIfNotExists();
     }
 
@@ -514,23 +514,23 @@ public final class MiChangedStoreUserPasswordAd {
     }
 
     public static final int IGNORE_ERROR_NEW_PASSWD_SAME_AS_OLD_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.booleanValue ignoreErrorNewPasswdSameAsOld_;
+    private io.dstore.Values.booleanValue ignoreErrorNewPasswdSameAsOld_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+     * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
      */
     public boolean hasIgnoreErrorNewPasswdSameAsOld() {
       return ignoreErrorNewPasswdSameAsOld_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+     * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIgnoreErrorNewPasswdSameAsOld() {
-      return ignoreErrorNewPasswdSameAsOld_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : ignoreErrorNewPasswdSameAsOld_;
+    public io.dstore.Values.booleanValue getIgnoreErrorNewPasswdSameAsOld() {
+      return ignoreErrorNewPasswdSameAsOld_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ignoreErrorNewPasswdSameAsOld_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+     * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIgnoreErrorNewPasswdSameAsOldOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIgnoreErrorNewPasswdSameAsOldOrBuilder() {
       return getIgnoreErrorNewPasswdSameAsOld();
     }
 
@@ -974,29 +974,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue userName_ = null;
+      private io.dstore.Values.stringValue userName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> userNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       public boolean hasUserName() {
         return userNameBuilder_ != null || userName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUserName() {
+      public io.dstore.Values.stringValue getUserName() {
         if (userNameBuilder_ == null) {
-          return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+          return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
         } else {
           return userNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public Builder setUserName(io.dstore.engine.Values.stringValue value) {
+      public Builder setUserName(io.dstore.Values.stringValue value) {
         if (userNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1010,10 +1010,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       public Builder setUserName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (userNameBuilder_ == null) {
           userName_ = builderForValue.build();
           onChanged();
@@ -1024,13 +1024,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public Builder mergeUserName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUserName(io.dstore.Values.stringValue value) {
         if (userNameBuilder_ == null) {
           if (userName_ != null) {
             userName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
           } else {
             userName_ = value;
           }
@@ -1042,7 +1042,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       public Builder clearUserName() {
         if (userNameBuilder_ == null) {
@@ -1056,33 +1056,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUserNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
         
         onChanged();
         return getUserNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         if (userNameBuilder_ != null) {
           return userNameBuilder_.getMessageOrBuilder();
         } else {
           return userName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : userName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUserNameFieldBuilder() {
         if (userNameBuilder_ == null) {
           userNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUserName(),
                   getParentForChildren(),
                   isClean());
@@ -1117,29 +1117,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue dBLogin_ = null;
+      private io.dstore.Values.stringValue dBLogin_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> dBLoginBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBLoginBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
       public boolean hasDBLogin() {
         return dBLoginBuilder_ != null || dBLogin_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getDBLogin() {
+      public io.dstore.Values.stringValue getDBLogin() {
         if (dBLoginBuilder_ == null) {
-          return dBLogin_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : dBLogin_;
+          return dBLogin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBLogin_;
         } else {
           return dBLoginBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
-      public Builder setDBLogin(io.dstore.engine.Values.stringValue value) {
+      public Builder setDBLogin(io.dstore.Values.stringValue value) {
         if (dBLoginBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1153,10 +1153,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
       public Builder setDBLogin(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (dBLoginBuilder_ == null) {
           dBLogin_ = builderForValue.build();
           onChanged();
@@ -1167,13 +1167,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
-      public Builder mergeDBLogin(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDBLogin(io.dstore.Values.stringValue value) {
         if (dBLoginBuilder_ == null) {
           if (dBLogin_ != null) {
             dBLogin_ =
-              io.dstore.engine.Values.stringValue.newBuilder(dBLogin_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(dBLogin_).mergeFrom(value).buildPartial();
           } else {
             dBLogin_ = value;
           }
@@ -1185,7 +1185,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
       public Builder clearDBLogin() {
         if (dBLoginBuilder_ == null) {
@@ -1199,33 +1199,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDBLoginBuilder() {
+      public io.dstore.Values.stringValue.Builder getDBLoginBuilder() {
         
         onChanged();
         return getDBLoginFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDBLoginOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDBLoginOrBuilder() {
         if (dBLoginBuilder_ != null) {
           return dBLoginBuilder_.getMessageOrBuilder();
         } else {
           return dBLogin_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : dBLogin_;
+              io.dstore.Values.stringValue.getDefaultInstance() : dBLogin_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDBLoginFieldBuilder() {
         if (dBLoginBuilder_ == null) {
           dBLoginBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDBLogin(),
                   getParentForChildren(),
                   isClean());
@@ -1260,29 +1260,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue callerPassword_ = null;
+      private io.dstore.Values.stringValue callerPassword_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> callerPasswordBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> callerPasswordBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
       public boolean hasCallerPassword() {
         return callerPasswordBuilder_ != null || callerPassword_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getCallerPassword() {
+      public io.dstore.Values.stringValue getCallerPassword() {
         if (callerPasswordBuilder_ == null) {
-          return callerPassword_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : callerPassword_;
+          return callerPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : callerPassword_;
         } else {
           return callerPasswordBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
-      public Builder setCallerPassword(io.dstore.engine.Values.stringValue value) {
+      public Builder setCallerPassword(io.dstore.Values.stringValue value) {
         if (callerPasswordBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1296,10 +1296,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
       public Builder setCallerPassword(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (callerPasswordBuilder_ == null) {
           callerPassword_ = builderForValue.build();
           onChanged();
@@ -1310,13 +1310,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
-      public Builder mergeCallerPassword(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCallerPassword(io.dstore.Values.stringValue value) {
         if (callerPasswordBuilder_ == null) {
           if (callerPassword_ != null) {
             callerPassword_ =
-              io.dstore.engine.Values.stringValue.newBuilder(callerPassword_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(callerPassword_).mergeFrom(value).buildPartial();
           } else {
             callerPassword_ = value;
           }
@@ -1328,7 +1328,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
       public Builder clearCallerPassword() {
         if (callerPasswordBuilder_ == null) {
@@ -1342,33 +1342,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCallerPasswordBuilder() {
+      public io.dstore.Values.stringValue.Builder getCallerPasswordBuilder() {
         
         onChanged();
         return getCallerPasswordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCallerPasswordOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCallerPasswordOrBuilder() {
         if (callerPasswordBuilder_ != null) {
           return callerPasswordBuilder_.getMessageOrBuilder();
         } else {
           return callerPassword_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : callerPassword_;
+              io.dstore.Values.stringValue.getDefaultInstance() : callerPassword_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue caller_password = 3;</code>
+       * <code>optional .dstore.values.stringValue caller_password = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCallerPasswordFieldBuilder() {
         if (callerPasswordBuilder_ == null) {
           callerPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCallerPassword(),
                   getParentForChildren(),
                   isClean());
@@ -1403,29 +1403,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue newPassword_ = null;
+      private io.dstore.Values.stringValue newPassword_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> newPasswordBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> newPasswordBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
       public boolean hasNewPassword() {
         return newPasswordBuilder_ != null || newPassword_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue getNewPassword() {
+      public io.dstore.Values.stringValue getNewPassword() {
         if (newPasswordBuilder_ == null) {
-          return newPassword_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : newPassword_;
+          return newPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newPassword_;
         } else {
           return newPasswordBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
-      public Builder setNewPassword(io.dstore.engine.Values.stringValue value) {
+      public Builder setNewPassword(io.dstore.Values.stringValue value) {
         if (newPasswordBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1439,10 +1439,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
       public Builder setNewPassword(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (newPasswordBuilder_ == null) {
           newPassword_ = builderForValue.build();
           onChanged();
@@ -1453,13 +1453,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
-      public Builder mergeNewPassword(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeNewPassword(io.dstore.Values.stringValue value) {
         if (newPasswordBuilder_ == null) {
           if (newPassword_ != null) {
             newPassword_ =
-              io.dstore.engine.Values.stringValue.newBuilder(newPassword_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(newPassword_).mergeFrom(value).buildPartial();
           } else {
             newPassword_ = value;
           }
@@ -1471,7 +1471,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
       public Builder clearNewPassword() {
         if (newPasswordBuilder_ == null) {
@@ -1485,33 +1485,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getNewPasswordBuilder() {
+      public io.dstore.Values.stringValue.Builder getNewPasswordBuilder() {
         
         onChanged();
         return getNewPasswordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNewPasswordOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNewPasswordOrBuilder() {
         if (newPasswordBuilder_ != null) {
           return newPasswordBuilder_.getMessageOrBuilder();
         } else {
           return newPassword_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : newPassword_;
+              io.dstore.Values.stringValue.getDefaultInstance() : newPassword_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue new_password = 4;</code>
+       * <code>optional .dstore.values.stringValue new_password = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getNewPasswordFieldBuilder() {
         if (newPasswordBuilder_ == null) {
           newPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getNewPassword(),
                   getParentForChildren(),
                   isClean());
@@ -1546,29 +1546,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue encryptedPassword_ = null;
+      private io.dstore.Values.stringValue encryptedPassword_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> encryptedPasswordBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> encryptedPasswordBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
       public boolean hasEncryptedPassword() {
         return encryptedPasswordBuilder_ != null || encryptedPassword_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue getEncryptedPassword() {
+      public io.dstore.Values.stringValue getEncryptedPassword() {
         if (encryptedPasswordBuilder_ == null) {
-          return encryptedPassword_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : encryptedPassword_;
+          return encryptedPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : encryptedPassword_;
         } else {
           return encryptedPasswordBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
-      public Builder setEncryptedPassword(io.dstore.engine.Values.stringValue value) {
+      public Builder setEncryptedPassword(io.dstore.Values.stringValue value) {
         if (encryptedPasswordBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1582,10 +1582,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
       public Builder setEncryptedPassword(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (encryptedPasswordBuilder_ == null) {
           encryptedPassword_ = builderForValue.build();
           onChanged();
@@ -1596,13 +1596,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
-      public Builder mergeEncryptedPassword(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeEncryptedPassword(io.dstore.Values.stringValue value) {
         if (encryptedPasswordBuilder_ == null) {
           if (encryptedPassword_ != null) {
             encryptedPassword_ =
-              io.dstore.engine.Values.stringValue.newBuilder(encryptedPassword_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(encryptedPassword_).mergeFrom(value).buildPartial();
           } else {
             encryptedPassword_ = value;
           }
@@ -1614,7 +1614,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
       public Builder clearEncryptedPassword() {
         if (encryptedPasswordBuilder_ == null) {
@@ -1628,33 +1628,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getEncryptedPasswordBuilder() {
+      public io.dstore.Values.stringValue.Builder getEncryptedPasswordBuilder() {
         
         onChanged();
         return getEncryptedPasswordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getEncryptedPasswordOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getEncryptedPasswordOrBuilder() {
         if (encryptedPasswordBuilder_ != null) {
           return encryptedPasswordBuilder_.getMessageOrBuilder();
         } else {
           return encryptedPassword_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : encryptedPassword_;
+              io.dstore.Values.stringValue.getDefaultInstance() : encryptedPassword_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue encrypted_password = 5;</code>
+       * <code>optional .dstore.values.stringValue encrypted_password = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getEncryptedPasswordFieldBuilder() {
         if (encryptedPasswordBuilder_ == null) {
           encryptedPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getEncryptedPassword(),
                   getParentForChildren(),
                   isClean());
@@ -1689,29 +1689,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue createdstoreUserIfNotExists_ = null;
+      private io.dstore.Values.booleanValue createdstoreUserIfNotExists_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> createdstoreUserIfNotExistsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> createdstoreUserIfNotExistsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
       public boolean hasCreatedstoreUserIfNotExists() {
         return createdstoreUserIfNotExistsBuilder_ != null || createdstoreUserIfNotExists_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue getCreatedstoreUserIfNotExists() {
+      public io.dstore.Values.booleanValue getCreatedstoreUserIfNotExists() {
         if (createdstoreUserIfNotExistsBuilder_ == null) {
-          return createdstoreUserIfNotExists_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
+          return createdstoreUserIfNotExists_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
         } else {
           return createdstoreUserIfNotExistsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public Builder setCreatedstoreUserIfNotExists(io.dstore.engine.Values.booleanValue value) {
+      public Builder setCreatedstoreUserIfNotExists(io.dstore.Values.booleanValue value) {
         if (createdstoreUserIfNotExistsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1725,10 +1725,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
       public Builder setCreatedstoreUserIfNotExists(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (createdstoreUserIfNotExistsBuilder_ == null) {
           createdstoreUserIfNotExists_ = builderForValue.build();
           onChanged();
@@ -1739,13 +1739,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public Builder mergeCreatedstoreUserIfNotExists(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeCreatedstoreUserIfNotExists(io.dstore.Values.booleanValue value) {
         if (createdstoreUserIfNotExistsBuilder_ == null) {
           if (createdstoreUserIfNotExists_ != null) {
             createdstoreUserIfNotExists_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(createdstoreUserIfNotExists_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(createdstoreUserIfNotExists_).mergeFrom(value).buildPartial();
           } else {
             createdstoreUserIfNotExists_ = value;
           }
@@ -1757,7 +1757,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
       public Builder clearCreatedstoreUserIfNotExists() {
         if (createdstoreUserIfNotExistsBuilder_ == null) {
@@ -1771,33 +1771,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getCreatedstoreUserIfNotExistsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getCreatedstoreUserIfNotExistsBuilder() {
         
         onChanged();
         return getCreatedstoreUserIfNotExistsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder() {
         if (createdstoreUserIfNotExistsBuilder_ != null) {
           return createdstoreUserIfNotExistsBuilder_.getMessageOrBuilder();
         } else {
           return createdstoreUserIfNotExists_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCreatedstoreUserIfNotExistsFieldBuilder() {
         if (createdstoreUserIfNotExistsBuilder_ == null) {
           createdstoreUserIfNotExistsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCreatedstoreUserIfNotExists(),
                   getParentForChildren(),
                   isClean());
@@ -1832,29 +1832,29 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue ignoreErrorNewPasswdSameAsOld_ = null;
+      private io.dstore.Values.booleanValue ignoreErrorNewPasswdSameAsOld_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> ignoreErrorNewPasswdSameAsOldBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> ignoreErrorNewPasswdSameAsOldBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
       public boolean hasIgnoreErrorNewPasswdSameAsOld() {
         return ignoreErrorNewPasswdSameAsOldBuilder_ != null || ignoreErrorNewPasswdSameAsOld_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIgnoreErrorNewPasswdSameAsOld() {
+      public io.dstore.Values.booleanValue getIgnoreErrorNewPasswdSameAsOld() {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
-          return ignoreErrorNewPasswdSameAsOld_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : ignoreErrorNewPasswdSameAsOld_;
+          return ignoreErrorNewPasswdSameAsOld_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ignoreErrorNewPasswdSameAsOld_;
         } else {
           return ignoreErrorNewPasswdSameAsOldBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
-      public Builder setIgnoreErrorNewPasswdSameAsOld(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIgnoreErrorNewPasswdSameAsOld(io.dstore.Values.booleanValue value) {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1868,10 +1868,10 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
       public Builder setIgnoreErrorNewPasswdSameAsOld(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
           ignoreErrorNewPasswdSameAsOld_ = builderForValue.build();
           onChanged();
@@ -1882,13 +1882,13 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
-      public Builder mergeIgnoreErrorNewPasswdSameAsOld(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIgnoreErrorNewPasswdSameAsOld(io.dstore.Values.booleanValue value) {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
           if (ignoreErrorNewPasswdSameAsOld_ != null) {
             ignoreErrorNewPasswdSameAsOld_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(ignoreErrorNewPasswdSameAsOld_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(ignoreErrorNewPasswdSameAsOld_).mergeFrom(value).buildPartial();
           } else {
             ignoreErrorNewPasswdSameAsOld_ = value;
           }
@@ -1900,7 +1900,7 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
       public Builder clearIgnoreErrorNewPasswdSameAsOld() {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
@@ -1914,33 +1914,33 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIgnoreErrorNewPasswdSameAsOldBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIgnoreErrorNewPasswdSameAsOldBuilder() {
         
         onChanged();
         return getIgnoreErrorNewPasswdSameAsOldFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIgnoreErrorNewPasswdSameAsOldOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIgnoreErrorNewPasswdSameAsOldOrBuilder() {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ != null) {
           return ignoreErrorNewPasswdSameAsOldBuilder_.getMessageOrBuilder();
         } else {
           return ignoreErrorNewPasswdSameAsOld_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : ignoreErrorNewPasswdSameAsOld_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : ignoreErrorNewPasswdSameAsOld_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
+       * <code>optional .dstore.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIgnoreErrorNewPasswdSameAsOldFieldBuilder() {
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
           ignoreErrorNewPasswdSameAsOldBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIgnoreErrorNewPasswdSameAsOld(),
                   getParentForChildren(),
                   isClean());
@@ -4131,36 +4131,34 @@ public final class MiChangedStoreUserPasswordAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/mi_ChangedSto" +
       "reUserPassword_Ad.proto\022,dstore.engine.m" +
-      "i_ChangedStoreUserPassword_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\273\005\n\nParam" +
-      "eters\0224\n\tuser_name\030\001 \001(\0132!.dstore.engine" +
-      ".values.stringValue\022\027\n\016user_name_null\030\351\007" +
-      " \001(\010\0224\n\td_b_login\030\002 \001(\0132!.dstore.engine." +
-      "values.stringValue\022\027\n\016d_b_login_null\030\352\007 ",
-      "\001(\010\022:\n\017caller_password\030\003 \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022\035\n\024caller_passwo" +
-      "rd_null\030\353\007 \001(\010\0227\n\014new_password\030\004 \001(\0132!.d" +
-      "store.engine.values.stringValue\022\032\n\021new_p" +
-      "assword_null\030\354\007 \001(\010\022=\n\022encrypted_passwor" +
-      "d\030\005 \001(\0132!.dstore.engine.values.stringVal" +
-      "ue\022 \n\027encrypted_password_null\030\355\007 \001(\010\022K\n\037" +
-      "createdstore_user_if_not_exists\030\006 \001(\0132\"." +
-      "dstore.engine.values.booleanValue\022-\n$cre" +
-      "atedstore_user_if_not_exists_null\030\356\007 \001(\010",
-      "\022O\n#ignore_error_new_passwd_same_as_old\030" +
-      "\007 \001(\0132\".dstore.engine.values.booleanValu" +
-      "e\0221\n(ignore_error_new_passwd_same_as_old" +
-      "_null\030\357\007 \001(\010\"\221\002\n\010Response\022)\n\005error\030\001 \001(\013" +
-      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
-      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
-      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
-      "\036.dstore.engine.message.Message\022G\n\003row\030\004" +
-      " \003(\0132:.dstore.engine.mi_ChangedStoreUser" +
-      "Password_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_i",
-      "d\030\220N \001(\005B\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "i_ChangedStoreUserPassword_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\212\005\n\nParameters\022-" +
+      "\n\tuser_name\030\001 \001(\0132\032.dstore.values.string" +
+      "Value\022\027\n\016user_name_null\030\351\007 \001(\010\022-\n\td_b_lo" +
+      "gin\030\002 \001(\0132\032.dstore.values.stringValue\022\027\n" +
+      "\016d_b_login_null\030\352\007 \001(\010\0223\n\017caller_passwor",
+      "d\030\003 \001(\0132\032.dstore.values.stringValue\022\035\n\024c" +
+      "aller_password_null\030\353\007 \001(\010\0220\n\014new_passwo" +
+      "rd\030\004 \001(\0132\032.dstore.values.stringValue\022\032\n\021" +
+      "new_password_null\030\354\007 \001(\010\0226\n\022encrypted_pa" +
+      "ssword\030\005 \001(\0132\032.dstore.values.stringValue" +
+      "\022 \n\027encrypted_password_null\030\355\007 \001(\010\022D\n\037cr" +
+      "eatedstore_user_if_not_exists\030\006 \001(\0132\033.ds" +
+      "tore.values.booleanValue\022-\n$createdstore" +
+      "_user_if_not_exists_null\030\356\007 \001(\010\022H\n#ignor" +
+      "e_error_new_passwd_same_as_old\030\007 \001(\0132\033.d",
+      "store.values.booleanValue\0221\n(ignore_erro" +
+      "r_new_passwd_same_as_old_null\030\357\007 \001(\010\"\221\002\n" +
+      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
+      ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
+      ".dstore.engine.metainformation.MetaInfor" +
+      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022G\n\003row\030\004 \003(\0132:.dstore.en" +
+      "gine.mi_ChangedStoreUserPassword_Ad.Resp" +
+      "onse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.d" +
+      "store.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4173,7 +4171,7 @@ public final class MiChangedStoreUserPasswordAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4196,7 +4194,7 @@ public final class MiChangedStoreUserPasswordAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ChangedStoreUserPassword_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

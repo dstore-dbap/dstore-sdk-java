@@ -13,17 +13,17 @@ public final class MiGetdStoreUserAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+     * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
      */
     boolean hasOnlyAdmins();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+     * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
      */
-    io.dstore.engine.Values.booleanValue getOnlyAdmins();
+    io.dstore.Values.booleanValue getOnlyAdmins();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+     * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOnlyAdminsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOnlyAdminsOrBuilder();
 
     /**
      * <code>optional bool only_admins_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class MiGetdStoreUserAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (onlyAdmins_ != null) {
                 subBuilder = onlyAdmins_.toBuilder();
               }
-              onlyAdmins_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              onlyAdmins_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyAdmins_);
                 onlyAdmins_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class MiGetdStoreUserAd {
     }
 
     public static final int ONLY_ADMINS_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.booleanValue onlyAdmins_;
+    private io.dstore.Values.booleanValue onlyAdmins_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+     * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
      */
     public boolean hasOnlyAdmins() {
       return onlyAdmins_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+     * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOnlyAdmins() {
-      return onlyAdmins_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyAdmins_;
+    public io.dstore.Values.booleanValue getOnlyAdmins() {
+      return onlyAdmins_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyAdmins_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+     * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOnlyAdminsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOnlyAdminsOrBuilder() {
       return getOnlyAdmins();
     }
 
@@ -368,29 +368,29 @@ public final class MiGetdStoreUserAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue onlyAdmins_ = null;
+      private io.dstore.Values.booleanValue onlyAdmins_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> onlyAdminsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyAdminsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
       public boolean hasOnlyAdmins() {
         return onlyAdminsBuilder_ != null || onlyAdmins_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOnlyAdmins() {
+      public io.dstore.Values.booleanValue getOnlyAdmins() {
         if (onlyAdminsBuilder_ == null) {
-          return onlyAdmins_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyAdmins_;
+          return onlyAdmins_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyAdmins_;
         } else {
           return onlyAdminsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
-      public Builder setOnlyAdmins(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOnlyAdmins(io.dstore.Values.booleanValue value) {
         if (onlyAdminsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
       public Builder setOnlyAdmins(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (onlyAdminsBuilder_ == null) {
           onlyAdmins_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
-      public Builder mergeOnlyAdmins(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOnlyAdmins(io.dstore.Values.booleanValue value) {
         if (onlyAdminsBuilder_ == null) {
           if (onlyAdmins_ != null) {
             onlyAdmins_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(onlyAdmins_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(onlyAdmins_).mergeFrom(value).buildPartial();
           } else {
             onlyAdmins_ = value;
           }
@@ -436,7 +436,7 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
       public Builder clearOnlyAdmins() {
         if (onlyAdminsBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOnlyAdminsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOnlyAdminsBuilder() {
         
         onChanged();
         return getOnlyAdminsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOnlyAdminsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOnlyAdminsOrBuilder() {
         if (onlyAdminsBuilder_ != null) {
           return onlyAdminsBuilder_.getMessageOrBuilder();
         } else {
           return onlyAdmins_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyAdmins_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : onlyAdmins_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_admins = 1;</code>
+       * <code>optional .dstore.values.booleanValue only_admins = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyAdminsFieldBuilder() {
         if (onlyAdminsBuilder_ == null) {
           onlyAdminsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyAdmins(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class MiGetdStoreUserAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
@@ -806,24 +806,24 @@ public final class MiGetdStoreUserAd {
        */
       boolean hasUserName();
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getUserName();
+      io.dstore.Values.stringValue getUserName();
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        *
        * <pre>
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
@@ -831,21 +831,21 @@ public final class MiGetdStoreUserAd {
        */
       boolean hasUserId();
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        *
        * <pre>
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getUserId();
+      io.dstore.Values.integerValue getUserId();
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        *
        * <pre>
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetdStoreUser_Ad.Response.Row}
@@ -892,11 +892,11 @@ public final class MiGetdStoreUserAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -905,11 +905,11 @@ public final class MiGetdStoreUserAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -951,9 +951,9 @@ public final class MiGetdStoreUserAd {
       }
 
       public static final int USER_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue userName_;
+      private io.dstore.Values.stringValue userName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
@@ -963,30 +963,30 @@ public final class MiGetdStoreUserAd {
         return userName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getUserName() {
-        return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+      public io.dstore.Values.stringValue getUserName() {
+        return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
        *
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue userId_;
+      private io.dstore.Values.integerValue userId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        *
        * <pre>
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
@@ -996,23 +996,23 @@ public final class MiGetdStoreUserAd {
         return userId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        *
        * <pre>
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.Values.integerValue getUserId() {
+        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue user_id = 10002;</code>
        *
        * <pre>
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
@@ -1290,11 +1290,11 @@ public final class MiGetdStoreUserAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue userName_ = null;
+        private io.dstore.Values.stringValue userName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> userNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
@@ -1304,27 +1304,27 @@ public final class MiGetdStoreUserAd {
           return userNameBuilder_ != null || userName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getUserName() {
+        public io.dstore.Values.stringValue getUserName() {
           if (userNameBuilder_ == null) {
-            return userName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+            return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
           } else {
             return userNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public Builder setUserName(io.dstore.engine.Values.stringValue value) {
+        public Builder setUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1338,14 +1338,14 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
         public Builder setUserName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (userNameBuilder_ == null) {
             userName_ = builderForValue.build();
             onChanged();
@@ -1356,17 +1356,17 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public Builder mergeUserName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeUserName(io.dstore.Values.stringValue value) {
           if (userNameBuilder_ == null) {
             if (userName_ != null) {
               userName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
             } else {
               userName_ = value;
             }
@@ -1378,7 +1378,7 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
@@ -1396,45 +1396,45 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getUserNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
           
           onChanged();
           return getUserNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getUserNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
             return userNameBuilder_.getMessageOrBuilder();
           } else {
             return userName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : userName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : userName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
          *
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
             userNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
                     isClean());
@@ -1443,11 +1443,11 @@ public final class MiGetdStoreUserAd {
           return userNameBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue userId_ = null;
+        private io.dstore.Values.integerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
@@ -1457,27 +1457,27 @@ public final class MiGetdStoreUserAd {
           return userIdBuilder_ != null || userId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getUserId() {
+        public io.dstore.Values.integerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
-        public Builder setUserId(io.dstore.engine.Values.integerValue value) {
+        public Builder setUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1491,14 +1491,14 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
         public Builder setUserId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -1509,17 +1509,17 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
-        public Builder mergeUserId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.Values.integerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -1531,7 +1531,7 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
@@ -1549,45 +1549,45 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue user_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue user_id = 10002;</code>
          *
          * <pre>
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -3157,22 +3157,22 @@ public final class MiGetdStoreUserAd {
     java.lang.String[] descriptorData = {
       "\n2dstore/engine/procedures/mi_GetdStoreU" +
       "ser_Ad.proto\022!dstore.engine.mi_GetdStore" +
-      "User_Ad\032\032dstore/engine/values.proto\032\031dst" +
-      "ore/engine/error.proto\032\033dstore/engine/me" +
-      "ssage.proto\032#dstore/engine/metainformati" +
-      "on.proto\"`\n\nParameters\0227\n\013only_admins\030\001 " +
-      "\001(\0132\".dstore.engine.values.booleanValue\022" +
-      "\031\n\020only_admins_null\030\351\007 \001(\010\"\364\002\n\010Response\022" +
-      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
-      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en",
-      "gine.metainformation.MetaInformation\022/\n\007" +
-      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
-      "ssage\022<\n\003row\030\004 \003(\0132/.dstore.engine.mi_Ge" +
-      "tdStoreUser_Ad.Response.Row\032\203\001\n\003Row\022\017\n\006r" +
-      "ow_id\030\220N \001(\005\0225\n\tuser_name\030\221N \001(\0132!.dstor" +
-      "e.engine.values.stringValue\0224\n\007user_id\030\222" +
-      "N \001(\0132\".dstore.engine.values.integerValu" +
-      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
+      "User_Ad\032\023dstore/values.proto\032\031dstore/eng" +
+      "ine/error.proto\032\033dstore/engine/message.p" +
+      "roto\032#dstore/engine/metainformation.prot" +
+      "o\"Y\n\nParameters\0220\n\013only_admins\030\001 \001(\0132\033.d" +
+      "store.values.booleanValue\022\031\n\020only_admins" +
+      "_null\030\351\007 \001(\010\"\345\002\n\010Response\022)\n\005error\030\001 \001(\013" +
+      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
+      "ormation\030\002 \003(\0132..dstore.engine.metainfor",
+      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
+      "\036.dstore.engine.message.Message\022<\n\003row\030\004" +
+      " \003(\0132/.dstore.engine.mi_GetdStoreUser_Ad" +
+      ".Response.Row\032u\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n" +
+      "\tuser_name\030\221N \001(\0132\032.dstore.values.string" +
+      "Value\022-\n\007user_id\030\222N \001(\0132\033.dstore.values." +
+      "integerValueB\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3185,7 +3185,7 @@ public final class MiGetdStoreUserAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3208,7 +3208,7 @@ public final class MiGetdStoreUserAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetdStoreUser_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UserName", "UserId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

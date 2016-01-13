@@ -13,17 +13,17 @@ public final class DoGetSettingsEntryCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
      */
     boolean hasSettingsEntryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getSettingsEntryCategoryId();
+    io.dstore.Values.integerValue getSettingsEntryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
 
     /**
      * <code>optional bool settings_entry_category_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class DoGetSettingsEntryCatsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (settingsEntryCategoryId_ != null) {
                 subBuilder = settingsEntryCategoryId_.toBuilder();
               }
-              settingsEntryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              settingsEntryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(settingsEntryCategoryId_);
                 settingsEntryCategoryId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class DoGetSettingsEntryCatsAd {
     }
 
     public static final int SETTINGS_ENTRY_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue settingsEntryCategoryId_;
+    private io.dstore.Values.integerValue settingsEntryCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
      */
     public boolean hasSettingsEntryCategoryId() {
       return settingsEntryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getSettingsEntryCategoryId() {
-      return settingsEntryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
+    public io.dstore.Values.integerValue getSettingsEntryCategoryId() {
+      return settingsEntryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
       return getSettingsEntryCategoryId();
     }
 
@@ -368,29 +368,29 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue settingsEntryCategoryId_ = null;
+      private io.dstore.Values.integerValue settingsEntryCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> settingsEntryCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> settingsEntryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
       public boolean hasSettingsEntryCategoryId() {
         return settingsEntryCategoryIdBuilder_ != null || settingsEntryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getSettingsEntryCategoryId() {
+      public io.dstore.Values.integerValue getSettingsEntryCategoryId() {
         if (settingsEntryCategoryIdBuilder_ == null) {
-          return settingsEntryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
+          return settingsEntryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
         } else {
           return settingsEntryCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
-      public Builder setSettingsEntryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setSettingsEntryCategoryId(io.dstore.Values.integerValue value) {
         if (settingsEntryCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
       public Builder setSettingsEntryCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (settingsEntryCategoryIdBuilder_ == null) {
           settingsEntryCategoryId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
-      public Builder mergeSettingsEntryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSettingsEntryCategoryId(io.dstore.Values.integerValue value) {
         if (settingsEntryCategoryIdBuilder_ == null) {
           if (settingsEntryCategoryId_ != null) {
             settingsEntryCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(settingsEntryCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(settingsEntryCategoryId_).mergeFrom(value).buildPartial();
           } else {
             settingsEntryCategoryId_ = value;
           }
@@ -436,7 +436,7 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
       public Builder clearSettingsEntryCategoryId() {
         if (settingsEntryCategoryIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSettingsEntryCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getSettingsEntryCategoryIdBuilder() {
         
         onChanged();
         return getSettingsEntryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
         if (settingsEntryCategoryIdBuilder_ != null) {
           return settingsEntryCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return settingsEntryCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSettingsEntryCategoryIdFieldBuilder() {
         if (settingsEntryCategoryIdBuilder_ == null) {
           settingsEntryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSettingsEntryCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class DoGetSettingsEntryCatsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie von Settings-Einträgen
@@ -806,24 +806,24 @@ public final class DoGetSettingsEntryCatsAd {
        */
       boolean hasSettingsEntryCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSettingsEntryCategoryId();
+      io.dstore.Values.integerValue getSettingsEntryCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
@@ -831,21 +831,21 @@ public final class DoGetSettingsEntryCatsAd {
        */
       boolean hasSettingsEntryCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getSettingsEntryCategory();
+      io.dstore.Values.stringValue getSettingsEntryCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetSettingsEntryCats_Ad.Response.Row}
@@ -892,11 +892,11 @@ public final class DoGetSettingsEntryCatsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (settingsEntryCategoryId_ != null) {
                   subBuilder = settingsEntryCategoryId_.toBuilder();
                 }
-                settingsEntryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                settingsEntryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(settingsEntryCategoryId_);
                   settingsEntryCategoryId_ = subBuilder.buildPartial();
@@ -905,11 +905,11 @@ public final class DoGetSettingsEntryCatsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (settingsEntryCategory_ != null) {
                   subBuilder = settingsEntryCategory_.toBuilder();
                 }
-                settingsEntryCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                settingsEntryCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(settingsEntryCategory_);
                   settingsEntryCategory_ = subBuilder.buildPartial();
@@ -951,9 +951,9 @@ public final class DoGetSettingsEntryCatsAd {
       }
 
       public static final int SETTINGS_ENTRY_CATEGORY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue settingsEntryCategoryId_;
+      private io.dstore.Values.integerValue settingsEntryCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie von Settings-Einträgen
@@ -963,30 +963,30 @@ public final class DoGetSettingsEntryCatsAd {
         return settingsEntryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSettingsEntryCategoryId() {
-        return settingsEntryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
+      public io.dstore.Values.integerValue getSettingsEntryCategoryId() {
+        return settingsEntryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
         return getSettingsEntryCategoryId();
       }
 
       public static final int SETTINGS_ENTRY_CATEGORY_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue settingsEntryCategory_;
+      private io.dstore.Values.stringValue settingsEntryCategory_;
       /**
-       * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
@@ -996,23 +996,23 @@ public final class DoGetSettingsEntryCatsAd {
         return settingsEntryCategory_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getSettingsEntryCategory() {
-        return settingsEntryCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
+      public io.dstore.Values.stringValue getSettingsEntryCategory() {
+        return settingsEntryCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+       * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
         return getSettingsEntryCategory();
       }
 
@@ -1290,11 +1290,11 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue settingsEntryCategoryId_ = null;
+        private io.dstore.Values.integerValue settingsEntryCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> settingsEntryCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> settingsEntryCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
@@ -1304,27 +1304,27 @@ public final class DoGetSettingsEntryCatsAd {
           return settingsEntryCategoryIdBuilder_ != null || settingsEntryCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSettingsEntryCategoryId() {
+        public io.dstore.Values.integerValue getSettingsEntryCategoryId() {
           if (settingsEntryCategoryIdBuilder_ == null) {
-            return settingsEntryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
+            return settingsEntryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
           } else {
             return settingsEntryCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
-        public Builder setSettingsEntryCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setSettingsEntryCategoryId(io.dstore.Values.integerValue value) {
           if (settingsEntryCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1338,14 +1338,14 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
         public Builder setSettingsEntryCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (settingsEntryCategoryIdBuilder_ == null) {
             settingsEntryCategoryId_ = builderForValue.build();
             onChanged();
@@ -1356,17 +1356,17 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
-        public Builder mergeSettingsEntryCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSettingsEntryCategoryId(io.dstore.Values.integerValue value) {
           if (settingsEntryCategoryIdBuilder_ == null) {
             if (settingsEntryCategoryId_ != null) {
               settingsEntryCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(settingsEntryCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(settingsEntryCategoryId_).mergeFrom(value).buildPartial();
             } else {
               settingsEntryCategoryId_ = value;
             }
@@ -1378,7 +1378,7 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
@@ -1396,45 +1396,45 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSettingsEntryCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getSettingsEntryCategoryIdBuilder() {
           
           onChanged();
           return getSettingsEntryCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
           if (settingsEntryCategoryIdBuilder_ != null) {
             return settingsEntryCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return settingsEntryCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : settingsEntryCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue settings_entry_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue settings_entry_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSettingsEntryCategoryIdFieldBuilder() {
           if (settingsEntryCategoryIdBuilder_ == null) {
             settingsEntryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSettingsEntryCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -1443,11 +1443,11 @@ public final class DoGetSettingsEntryCatsAd {
           return settingsEntryCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue settingsEntryCategory_ = null;
+        private io.dstore.Values.stringValue settingsEntryCategory_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> settingsEntryCategoryBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> settingsEntryCategoryBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
@@ -1457,27 +1457,27 @@ public final class DoGetSettingsEntryCatsAd {
           return settingsEntryCategoryBuilder_ != null || settingsEntryCategory_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getSettingsEntryCategory() {
+        public io.dstore.Values.stringValue getSettingsEntryCategory() {
           if (settingsEntryCategoryBuilder_ == null) {
-            return settingsEntryCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
+            return settingsEntryCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
           } else {
             return settingsEntryCategoryBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
-        public Builder setSettingsEntryCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder setSettingsEntryCategory(io.dstore.Values.stringValue value) {
           if (settingsEntryCategoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1491,14 +1491,14 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
         public Builder setSettingsEntryCategory(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (settingsEntryCategoryBuilder_ == null) {
             settingsEntryCategory_ = builderForValue.build();
             onChanged();
@@ -1509,17 +1509,17 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
-        public Builder mergeSettingsEntryCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeSettingsEntryCategory(io.dstore.Values.stringValue value) {
           if (settingsEntryCategoryBuilder_ == null) {
             if (settingsEntryCategory_ != null) {
               settingsEntryCategory_ =
-                io.dstore.engine.Values.stringValue.newBuilder(settingsEntryCategory_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(settingsEntryCategory_).mergeFrom(value).buildPartial();
             } else {
               settingsEntryCategory_ = value;
             }
@@ -1531,7 +1531,7 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
@@ -1549,45 +1549,45 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getSettingsEntryCategoryBuilder() {
+        public io.dstore.Values.stringValue.Builder getSettingsEntryCategoryBuilder() {
           
           onChanged();
           return getSettingsEntryCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
           if (settingsEntryCategoryBuilder_ != null) {
             return settingsEntryCategoryBuilder_.getMessageOrBuilder();
           } else {
             return settingsEntryCategory_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
+                io.dstore.Values.stringValue.getDefaultInstance() : settingsEntryCategory_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue settings_entry_category = 10002;</code>
+         * <code>optional .dstore.values.stringValue settings_entry_category = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSettingsEntryCategoryFieldBuilder() {
           if (settingsEntryCategoryBuilder_ == null) {
             settingsEntryCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSettingsEntryCategory(),
                     getParentForChildren(),
                     isClean());
@@ -3157,25 +3157,24 @@ public final class DoGetSettingsEntryCatsAd {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/do_GetSetting" +
       "sEntryCats_Ad.proto\022(dstore.engine.do_Ge" +
-      "tSettingsEntryCats_Ad\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"~\n\nParameters\022F\n\032" +
-      "settings_entry_category_id\030\001 \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022(\n\037settings" +
-      "_entry_category_id_null\030\351\007 \001(\010\"\234\003\n\010Respo" +
-      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error",
-      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
-      "e.engine.metainformation.MetaInformation" +
-      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
-      "e.Message\022C\n\003row\030\004 \003(\01326.dstore.engine.d" +
-      "o_GetSettingsEntryCats_Ad.Response.Row\032\244" +
-      "\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022G\n\032settings_entr" +
-      "y_category_id\030\221N \001(\0132\".dstore.engine.val" +
-      "ues.integerValue\022C\n\027settings_entry_categ" +
-      "ory\030\222N \001(\0132!.dstore.engine.values.string" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr",
-      "oto3"
+      "tSettingsEntryCats_Ad\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"w\n\nParameters\022?\n\032setting" +
+      "s_entry_category_id\030\001 \001(\0132\033.dstore.value" +
+      "s.integerValue\022(\n\037settings_entry_categor" +
+      "y_id_null\030\351\007 \001(\010\"\216\003\n\010Response\022)\n\005error\030\001" +
+      " \001(\0132\032.dstore.engine.error.Error\022H\n\020meta",
+      "_information\030\002 \003(\0132..dstore.engine.metai" +
+      "nformation.MetaInformation\022/\n\007message\030\003 " +
+      "\003(\0132\036.dstore.engine.message.Message\022C\n\003r" +
+      "ow\030\004 \003(\01326.dstore.engine.do_GetSettingsE" +
+      "ntryCats_Ad.Response.Row\032\226\001\n\003Row\022\017\n\006row_" +
+      "id\030\220N \001(\005\022@\n\032settings_entry_category_id\030" +
+      "\221N \001(\0132\033.dstore.values.integerValue\022<\n\027s" +
+      "ettings_entry_category\030\222N \001(\0132\032.dstore.v" +
+      "alues.stringValueB\035\n\033io.dstore.engine.pr" +
+      "oceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3188,7 +3187,7 @@ public final class DoGetSettingsEntryCatsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3211,7 +3210,7 @@ public final class DoGetSettingsEntryCatsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_do_GetSettingsEntryCats_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "SettingsEntryCategoryId", "SettingsEntryCategory", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

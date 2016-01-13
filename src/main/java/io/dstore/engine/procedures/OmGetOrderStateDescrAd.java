@@ -13,17 +13,17 @@ public final class OmGetOrderStateDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
      */
     boolean hasOrderStateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getOrderStateId();
+    io.dstore.Values.integerValue getOrderStateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
 
     /**
      * <code>optional bool order_state_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetOrderStateDescrAd {
     boolean getOrderStateIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class OmGetOrderStateDescrAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (orderStateId_ != null) {
                 subBuilder = orderStateId_.toBuilder();
               }
-              orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              orderStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderStateId_);
                 orderStateId_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class OmGetOrderStateDescrAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class OmGetOrderStateDescrAd {
     }
 
     public static final int ORDER_STATE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue orderStateId_;
+    private io.dstore.Values.integerValue orderStateId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
      */
     public boolean hasOrderStateId() {
       return orderStateId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getOrderStateId() {
-      return orderStateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateId_;
+    public io.dstore.Values.integerValue getOrderStateId() {
+      return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
       return getOrderStateId();
     }
 
@@ -179,23 +179,23 @@ public final class OmGetOrderStateDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -469,29 +469,29 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue orderStateId_ = null;
+      private io.dstore.Values.integerValue orderStateId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderStateIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
       public boolean hasOrderStateId() {
         return orderStateIdBuilder_ != null || orderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getOrderStateId() {
+      public io.dstore.Values.integerValue getOrderStateId() {
         if (orderStateIdBuilder_ == null) {
-          return orderStateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateId_;
+          return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
         } else {
           return orderStateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
-      public Builder setOrderStateId(io.dstore.engine.Values.integerValue value) {
+      public Builder setOrderStateId(io.dstore.Values.integerValue value) {
         if (orderStateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
       public Builder setOrderStateId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (orderStateIdBuilder_ == null) {
           orderStateId_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
-      public Builder mergeOrderStateId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOrderStateId(io.dstore.Values.integerValue value) {
         if (orderStateIdBuilder_ == null) {
           if (orderStateId_ != null) {
             orderStateId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
           } else {
             orderStateId_ = value;
           }
@@ -537,7 +537,7 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
       public Builder clearOrderStateId() {
         if (orderStateIdBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOrderStateIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getOrderStateIdBuilder() {
         
         onChanged();
         return getOrderStateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
         if (orderStateIdBuilder_ != null) {
           return orderStateIdBuilder_.getMessageOrBuilder();
         } else {
           return orderStateId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderStateIdFieldBuilder() {
         if (orderStateIdBuilder_ == null) {
           orderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderStateId(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -680,7 +680,7 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class OmGetOrderStateDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class OmGetOrderStateDescrAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -1050,24 +1050,24 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasLanguageSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLanguageSymbol();
+      io.dstore.Values.stringValue getLanguageSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLanguageSymbolOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.stringValue language = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
@@ -1075,24 +1075,24 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.stringValue language = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLanguage();
+      io.dstore.Values.stringValue getLanguage();
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.stringValue language = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLanguageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
        *
        * <pre>
        * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
@@ -1100,24 +1100,24 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasTranslatedDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
        *
        * <pre>
        * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTranslatedDescription();
+      io.dstore.Values.stringValue getTranslatedDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
        *
        * <pre>
        * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        *
        * <pre>
        * ID eines Auftrags-(Positions-)Status
@@ -1125,24 +1125,24 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasOrderStateId();
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        *
        * <pre>
        * ID eines Auftrags-(Positions-)Status
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getOrderStateId();
+      io.dstore.Values.integerValue getOrderStateId();
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        *
        * <pre>
        * ID eines Auftrags-(Positions-)Status
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue public_description = 10005;</code>
        *
        * <pre>
        * Öffentliche Beschreibung des Status in der Standard-Sprache
@@ -1150,24 +1150,24 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasPublicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue public_description = 10005;</code>
        *
        * <pre>
        * Öffentliche Beschreibung des Status in der Standard-Sprache
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPublicDescription();
+      io.dstore.Values.stringValue getPublicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue public_description = 10005;</code>
        *
        * <pre>
        * Öffentliche Beschreibung des Status in der Standard-Sprache
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPublicDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPublicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
@@ -1175,24 +1175,24 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasOrderState();
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getOrderState();
+      io.dstore.Values.stringValue getOrderState();
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getOrderStateOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        *
        * <pre>
        * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
@@ -1200,21 +1200,21 @@ public final class OmGetOrderStateDescrAd {
        */
       boolean hasLanguageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        *
        * <pre>
        * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLanguageId();
+      io.dstore.Values.integerValue getLanguageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        *
        * <pre>
        * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetOrderStateDescr_Ad.Response.Row}
@@ -1261,11 +1261,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (languageSymbol_ != null) {
                   subBuilder = languageSymbol_.toBuilder();
                 }
-                languageSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                languageSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageSymbol_);
                   languageSymbol_ = subBuilder.buildPartial();
@@ -1274,11 +1274,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                language_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -1287,11 +1287,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (translatedDescription_ != null) {
                   subBuilder = translatedDescription_.toBuilder();
                 }
-                translatedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                translatedDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(translatedDescription_);
                   translatedDescription_ = subBuilder.buildPartial();
@@ -1300,11 +1300,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (orderStateId_ != null) {
                   subBuilder = orderStateId_.toBuilder();
                 }
-                orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                orderStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderStateId_);
                   orderStateId_ = subBuilder.buildPartial();
@@ -1313,11 +1313,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (publicDescription_ != null) {
                   subBuilder = publicDescription_.toBuilder();
                 }
-                publicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                publicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(publicDescription_);
                   publicDescription_ = subBuilder.buildPartial();
@@ -1326,11 +1326,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (orderState_ != null) {
                   subBuilder = orderState_.toBuilder();
                 }
-                orderState_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                orderState_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderState_);
                   orderState_ = subBuilder.buildPartial();
@@ -1339,11 +1339,11 @@ public final class OmGetOrderStateDescrAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -1385,9 +1385,9 @@ public final class OmGetOrderStateDescrAd {
       }
 
       public static final int LANGUAGE_SYMBOL_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue languageSymbol_;
+      private io.dstore.Values.stringValue languageSymbol_;
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -1397,30 +1397,30 @@ public final class OmGetOrderStateDescrAd {
         return languageSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLanguageSymbol() {
-        return languageSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageSymbol_;
+      public io.dstore.Values.stringValue getLanguageSymbol() {
+        return languageSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
        *
        * <pre>
        * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
         return getLanguageSymbol();
       }
 
       public static final int LANGUAGE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue language_;
+      private io.dstore.Values.stringValue language_;
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.stringValue language = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
@@ -1430,30 +1430,30 @@ public final class OmGetOrderStateDescrAd {
         return language_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.stringValue language = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLanguage() {
-        return language_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : language_;
+      public io.dstore.Values.stringValue getLanguage() {
+        return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.stringValue language = 10002;</code>
        *
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLanguageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
         return getLanguage();
       }
 
       public static final int TRANSLATED_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue translatedDescription_;
+      private io.dstore.Values.stringValue translatedDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
        *
        * <pre>
        * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
@@ -1463,30 +1463,30 @@ public final class OmGetOrderStateDescrAd {
         return translatedDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
        *
        * <pre>
        * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTranslatedDescription() {
-        return translatedDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : translatedDescription_;
+      public io.dstore.Values.stringValue getTranslatedDescription() {
+        return translatedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
        *
        * <pre>
        * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
         return getTranslatedDescription();
       }
 
       public static final int ORDER_STATE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue orderStateId_;
+      private io.dstore.Values.integerValue orderStateId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        *
        * <pre>
        * ID eines Auftrags-(Positions-)Status
@@ -1496,30 +1496,30 @@ public final class OmGetOrderStateDescrAd {
         return orderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        *
        * <pre>
        * ID eines Auftrags-(Positions-)Status
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getOrderStateId() {
-        return orderStateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateId_;
+      public io.dstore.Values.integerValue getOrderStateId() {
+        return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
        *
        * <pre>
        * ID eines Auftrags-(Positions-)Status
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
         return getOrderStateId();
       }
 
       public static final int PUBLIC_DESCRIPTION_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue publicDescription_;
+      private io.dstore.Values.stringValue publicDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue public_description = 10005;</code>
        *
        * <pre>
        * Öffentliche Beschreibung des Status in der Standard-Sprache
@@ -1529,30 +1529,30 @@ public final class OmGetOrderStateDescrAd {
         return publicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue public_description = 10005;</code>
        *
        * <pre>
        * Öffentliche Beschreibung des Status in der Standard-Sprache
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPublicDescription() {
-        return publicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : publicDescription_;
+      public io.dstore.Values.stringValue getPublicDescription() {
+        return publicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : publicDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue public_description = 10005;</code>
        *
        * <pre>
        * Öffentliche Beschreibung des Status in der Standard-Sprache
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPublicDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPublicDescriptionOrBuilder() {
         return getPublicDescription();
       }
 
       public static final int ORDER_STATE_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue orderState_;
+      private io.dstore.Values.stringValue orderState_;
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
@@ -1562,30 +1562,30 @@ public final class OmGetOrderStateDescrAd {
         return orderState_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getOrderState() {
-        return orderState_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderState_;
+      public io.dstore.Values.stringValue getOrderState() {
+        return orderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+       * <code>optional .dstore.values.stringValue order_state = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getOrderStateOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder() {
         return getOrderState();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue languageId_;
+      private io.dstore.Values.integerValue languageId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        *
        * <pre>
        * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
@@ -1595,23 +1595,23 @@ public final class OmGetOrderStateDescrAd {
         return languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        *
        * <pre>
        * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.Values.integerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10007;</code>
        *
        * <pre>
        * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
@@ -1994,11 +1994,11 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue languageSymbol_ = null;
+        private io.dstore.Values.stringValue languageSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> languageSymbolBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageSymbolBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -2008,27 +2008,27 @@ public final class OmGetOrderStateDescrAd {
           return languageSymbolBuilder_ != null || languageSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLanguageSymbol() {
+        public io.dstore.Values.stringValue getLanguageSymbol() {
           if (languageSymbolBuilder_ == null) {
-            return languageSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : languageSymbol_;
+            return languageSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
           } else {
             return languageSymbolBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public Builder setLanguageSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder setLanguageSymbol(io.dstore.Values.stringValue value) {
           if (languageSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2042,14 +2042,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
         public Builder setLanguageSymbol(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (languageSymbolBuilder_ == null) {
             languageSymbol_ = builderForValue.build();
             onChanged();
@@ -2060,17 +2060,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public Builder mergeLanguageSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLanguageSymbol(io.dstore.Values.stringValue value) {
           if (languageSymbolBuilder_ == null) {
             if (languageSymbol_ != null) {
               languageSymbol_ =
-                io.dstore.engine.Values.stringValue.newBuilder(languageSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(languageSymbol_).mergeFrom(value).buildPartial();
             } else {
               languageSymbol_ = value;
             }
@@ -2082,7 +2082,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
@@ -2100,45 +2100,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLanguageSymbolBuilder() {
+        public io.dstore.Values.stringValue.Builder getLanguageSymbolBuilder() {
           
           onChanged();
           return getLanguageSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
           if (languageSymbolBuilder_ != null) {
             return languageSymbolBuilder_.getMessageOrBuilder();
           } else {
             return languageSymbol_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : languageSymbol_;
+                io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
          *
          * <pre>
          * Internationales Symbol der Sprache "LanguageID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 639-1". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLanguageSymbolFieldBuilder() {
           if (languageSymbolBuilder_ == null) {
             languageSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLanguageSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -2147,11 +2147,11 @@ public final class OmGetOrderStateDescrAd {
           return languageSymbolBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue language_ = null;
+        private io.dstore.Values.stringValue language_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> languageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
@@ -2161,27 +2161,27 @@ public final class OmGetOrderStateDescrAd {
           return languageBuilder_ != null || language_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLanguage() {
+        public io.dstore.Values.stringValue getLanguage() {
           if (languageBuilder_ == null) {
-            return language_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : language_;
+            return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
           } else {
             return languageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
-        public Builder setLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder setLanguage(io.dstore.Values.stringValue value) {
           if (languageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2195,14 +2195,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
         public Builder setLanguage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (languageBuilder_ == null) {
             language_ = builderForValue.build();
             onChanged();
@@ -2213,17 +2213,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
-        public Builder mergeLanguage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLanguage(io.dstore.Values.stringValue value) {
           if (languageBuilder_ == null) {
             if (language_ != null) {
               language_ =
-                io.dstore.engine.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
             } else {
               language_ = value;
             }
@@ -2235,7 +2235,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
@@ -2253,45 +2253,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLanguageBuilder() {
+        public io.dstore.Values.stringValue.Builder getLanguageBuilder() {
           
           onChanged();
           return getLanguageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLanguageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
           if (languageBuilder_ != null) {
             return languageBuilder_.getMessageOrBuilder();
           } else {
             return language_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : language_;
+                io.dstore.Values.stringValue.getDefaultInstance() : language_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.stringValue language = 10002;</code>
          *
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLanguageFieldBuilder() {
           if (languageBuilder_ == null) {
             languageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -2300,11 +2300,11 @@ public final class OmGetOrderStateDescrAd {
           return languageBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue translatedDescription_ = null;
+        private io.dstore.Values.stringValue translatedDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> translatedDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> translatedDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
@@ -2314,27 +2314,27 @@ public final class OmGetOrderStateDescrAd {
           return translatedDescriptionBuilder_ != null || translatedDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTranslatedDescription() {
+        public io.dstore.Values.stringValue getTranslatedDescription() {
           if (translatedDescriptionBuilder_ == null) {
-            return translatedDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : translatedDescription_;
+            return translatedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
           } else {
             return translatedDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
-        public Builder setTranslatedDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setTranslatedDescription(io.dstore.Values.stringValue value) {
           if (translatedDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2348,14 +2348,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
         public Builder setTranslatedDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (translatedDescriptionBuilder_ == null) {
             translatedDescription_ = builderForValue.build();
             onChanged();
@@ -2366,17 +2366,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
-        public Builder mergeTranslatedDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTranslatedDescription(io.dstore.Values.stringValue value) {
           if (translatedDescriptionBuilder_ == null) {
             if (translatedDescription_ != null) {
               translatedDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(translatedDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(translatedDescription_).mergeFrom(value).buildPartial();
             } else {
               translatedDescription_ = value;
             }
@@ -2388,7 +2388,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
@@ -2406,45 +2406,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTranslatedDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getTranslatedDescriptionBuilder() {
           
           onChanged();
           return getTranslatedDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
           if (translatedDescriptionBuilder_ != null) {
             return translatedDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return translatedDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : translatedDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue translated_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10003;</code>
          *
          * <pre>
          * Übersetzung der öffentlichen Beschreibung in der durch "LanguageID" angegebenen Sprache. "NULL", falls keine Übersetzung vorhanden ist.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTranslatedDescriptionFieldBuilder() {
           if (translatedDescriptionBuilder_ == null) {
             translatedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTranslatedDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2453,11 +2453,11 @@ public final class OmGetOrderStateDescrAd {
           return translatedDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue orderStateId_ = null;
+        private io.dstore.Values.integerValue orderStateId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderStateIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
@@ -2467,27 +2467,27 @@ public final class OmGetOrderStateDescrAd {
           return orderStateIdBuilder_ != null || orderStateId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getOrderStateId() {
+        public io.dstore.Values.integerValue getOrderStateId() {
           if (orderStateIdBuilder_ == null) {
-            return orderStateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateId_;
+            return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
           } else {
             return orderStateIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
-        public Builder setOrderStateId(io.dstore.engine.Values.integerValue value) {
+        public Builder setOrderStateId(io.dstore.Values.integerValue value) {
           if (orderStateIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2501,14 +2501,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
         public Builder setOrderStateId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (orderStateIdBuilder_ == null) {
             orderStateId_ = builderForValue.build();
             onChanged();
@@ -2519,17 +2519,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
-        public Builder mergeOrderStateId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeOrderStateId(io.dstore.Values.integerValue value) {
           if (orderStateIdBuilder_ == null) {
             if (orderStateId_ != null) {
               orderStateId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
             } else {
               orderStateId_ = value;
             }
@@ -2541,7 +2541,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
@@ -2559,45 +2559,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getOrderStateIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getOrderStateIdBuilder() {
           
           onChanged();
           return getOrderStateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
           if (orderStateIdBuilder_ != null) {
             return orderStateIdBuilder_.getMessageOrBuilder();
           } else {
             return orderStateId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue order_state_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue order_state_id = 10004;</code>
          *
          * <pre>
          * ID eines Auftrags-(Positions-)Status
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOrderStateIdFieldBuilder() {
           if (orderStateIdBuilder_ == null) {
             orderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOrderStateId(),
                     getParentForChildren(),
                     isClean());
@@ -2606,11 +2606,11 @@ public final class OmGetOrderStateDescrAd {
           return orderStateIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue publicDescription_ = null;
+        private io.dstore.Values.stringValue publicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> publicDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> publicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
@@ -2620,27 +2620,27 @@ public final class OmGetOrderStateDescrAd {
           return publicDescriptionBuilder_ != null || publicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPublicDescription() {
+        public io.dstore.Values.stringValue getPublicDescription() {
           if (publicDescriptionBuilder_ == null) {
-            return publicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : publicDescription_;
+            return publicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : publicDescription_;
           } else {
             return publicDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
-        public Builder setPublicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setPublicDescription(io.dstore.Values.stringValue value) {
           if (publicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2654,14 +2654,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
         public Builder setPublicDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (publicDescriptionBuilder_ == null) {
             publicDescription_ = builderForValue.build();
             onChanged();
@@ -2672,17 +2672,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
-        public Builder mergePublicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePublicDescription(io.dstore.Values.stringValue value) {
           if (publicDescriptionBuilder_ == null) {
             if (publicDescription_ != null) {
               publicDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(publicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(publicDescription_).mergeFrom(value).buildPartial();
             } else {
               publicDescription_ = value;
             }
@@ -2694,7 +2694,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
@@ -2712,45 +2712,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPublicDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getPublicDescriptionBuilder() {
           
           onChanged();
           return getPublicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPublicDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPublicDescriptionOrBuilder() {
           if (publicDescriptionBuilder_ != null) {
             return publicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return publicDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : publicDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : publicDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue public_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue public_description = 10005;</code>
          *
          * <pre>
          * Öffentliche Beschreibung des Status in der Standard-Sprache
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPublicDescriptionFieldBuilder() {
           if (publicDescriptionBuilder_ == null) {
             publicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPublicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2759,11 +2759,11 @@ public final class OmGetOrderStateDescrAd {
           return publicDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue orderState_ = null;
+        private io.dstore.Values.stringValue orderState_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> orderStateBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
@@ -2773,27 +2773,27 @@ public final class OmGetOrderStateDescrAd {
           return orderStateBuilder_ != null || orderState_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getOrderState() {
+        public io.dstore.Values.stringValue getOrderState() {
           if (orderStateBuilder_ == null) {
-            return orderState_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderState_;
+            return orderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
           } else {
             return orderStateBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
-        public Builder setOrderState(io.dstore.engine.Values.stringValue value) {
+        public Builder setOrderState(io.dstore.Values.stringValue value) {
           if (orderStateBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2807,14 +2807,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
         public Builder setOrderState(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (orderStateBuilder_ == null) {
             orderState_ = builderForValue.build();
             onChanged();
@@ -2825,17 +2825,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
-        public Builder mergeOrderState(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeOrderState(io.dstore.Values.stringValue value) {
           if (orderStateBuilder_ == null) {
             if (orderState_ != null) {
               orderState_ =
-                io.dstore.engine.Values.stringValue.newBuilder(orderState_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(orderState_).mergeFrom(value).buildPartial();
             } else {
               orderState_ = value;
             }
@@ -2847,7 +2847,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
@@ -2865,45 +2865,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getOrderStateBuilder() {
+        public io.dstore.Values.stringValue.Builder getOrderStateBuilder() {
           
           onChanged();
           return getOrderStateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getOrderStateOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder() {
           if (orderStateBuilder_ != null) {
             return orderStateBuilder_.getMessageOrBuilder();
           } else {
             return orderState_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : orderState_;
+                io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue order_state = 10006;</code>
+         * <code>optional .dstore.values.stringValue order_state = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Status (in der Standard-Sprache, nicht übersetzbar)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getOrderStateFieldBuilder() {
           if (orderStateBuilder_ == null) {
             orderStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getOrderState(),
                     getParentForChildren(),
                     isClean());
@@ -2912,11 +2912,11 @@ public final class OmGetOrderStateDescrAd {
           return orderStateBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue languageId_ = null;
+        private io.dstore.Values.integerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
@@ -2926,27 +2926,27 @@ public final class OmGetOrderStateDescrAd {
           return languageIdBuilder_ != null || languageId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLanguageId() {
+        public io.dstore.Values.integerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
-        public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2960,14 +2960,14 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
         public Builder setLanguageId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -2978,17 +2978,17 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
-        public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -3000,7 +3000,7 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
@@ -3018,45 +3018,45 @@ public final class OmGetOrderStateDescrAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10007;</code>
          *
          * <pre>
          * ID der Sprache, in der "TranslatedDescription" zu verstehen ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -4626,33 +4626,31 @@ public final class OmGetOrderStateDescrAd {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/om_GetOrderSt" +
       "ateDescr_Ad.proto\022&dstore.engine.om_GetO" +
-      "rderStateDescr_Ad\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\272\001\n\nParameters\022:\n\016ord" +
-      "er_state_id\030\001 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\034\n\023order_state_id_null\030\351\007 " +
-      "\001(\010\0227\n\013language_id\030\002 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022\031\n\020language_id_null",
-      "\030\352\007 \001(\010\"\263\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\022A\n\003row\030\004 \003(\0132" +
-      "4.dstore.engine.om_GetOrderStateDescr_Ad" +
-      ".Response.Row\032\275\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022;" +
-      "\n\017language_symbol\030\221N \001(\0132!.dstore.engine" +
-      ".values.stringValue\0224\n\010language\030\222N \001(\0132!" +
-      ".dstore.engine.values.stringValue\022B\n\026tra",
-      "nslated_description\030\223N \001(\0132!.dstore.engi" +
-      "ne.values.stringValue\022;\n\016order_state_id\030" +
-      "\224N \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022>\n\022public_description\030\225N \001(\0132!.dstore" +
-      ".engine.values.stringValue\0227\n\013order_stat" +
-      "e\030\226N \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\0228\n\013language_id\030\227N \001(\0132\".dstore.engin" +
-      "e.values.integerValueB\035\n\033io.dstore.engin" +
-      "e.proceduresb\006proto3"
+      "rderStateDescr_Ad\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"\254\001\n\nParameters\0223\n\016order_stat" +
+      "e_id\030\001 \001(\0132\033.dstore.values.integerValue\022" +
+      "\034\n\023order_state_id_null\030\351\007 \001(\010\0220\n\013languag" +
+      "e_id\030\002 \001(\0132\033.dstore.values.integerValue\022" +
+      "\031\n\020language_id_null\030\352\007 \001(\010\"\202\005\n\010Response\022",
+      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
+      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en" +
+      "gine.metainformation.MetaInformation\022/\n\007" +
+      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
+      "ssage\022A\n\003row\030\004 \003(\01324.dstore.engine.om_Ge" +
+      "tOrderStateDescr_Ad.Response.Row\032\214\003\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005\0224\n\017language_symbol\030\221N " +
+      "\001(\0132\032.dstore.values.stringValue\022-\n\010langu" +
+      "age\030\222N \001(\0132\032.dstore.values.stringValue\022;" +
+      "\n\026translated_description\030\223N \001(\0132\032.dstore",
+      ".values.stringValue\0224\n\016order_state_id\030\224N" +
+      " \001(\0132\033.dstore.values.integerValue\0227\n\022pub" +
+      "lic_description\030\225N \001(\0132\032.dstore.values.s" +
+      "tringValue\0220\n\013order_state\030\226N \001(\0132\032.dstor" +
+      "e.values.stringValue\0221\n\013language_id\030\227N \001" +
+      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
+      "tore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4665,7 +4663,7 @@ public final class OmGetOrderStateDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4688,7 +4686,7 @@ public final class OmGetOrderStateDescrAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrderStateDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "LanguageSymbol", "Language", "TranslatedDescription", "OrderStateId", "PublicDescription", "OrderState", "LanguageId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

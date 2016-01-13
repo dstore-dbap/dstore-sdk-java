@@ -13,17 +13,17 @@ public final class ImSetTemplateAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+     * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
      */
     boolean hasTargetTemplateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+     * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTargetTemplateId();
+    io.dstore.Values.integerValue getTargetTemplateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+     * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder();
 
     /**
      * <code>optional bool target_template_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImSetTemplateAd {
     boolean getTargetTemplateIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
      */
     boolean hasSourceTemplateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getSourceTemplateId();
+    io.dstore.Values.integerValue getSourceTemplateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder();
 
     /**
      * <code>optional bool source_template_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class ImSetTemplateAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (targetTemplateId_ != null) {
                 subBuilder = targetTemplateId_.toBuilder();
               }
-              targetTemplateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              targetTemplateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(targetTemplateId_);
                 targetTemplateId_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class ImSetTemplateAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (sourceTemplateId_ != null) {
                 subBuilder = sourceTemplateId_.toBuilder();
               }
-              sourceTemplateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              sourceTemplateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sourceTemplateId_);
                 sourceTemplateId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class ImSetTemplateAd {
     }
 
     public static final int TARGET_TEMPLATE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue targetTemplateId_;
+    private io.dstore.Values.integerValue targetTemplateId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+     * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
      */
     public boolean hasTargetTemplateId() {
       return targetTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+     * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTargetTemplateId() {
-      return targetTemplateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : targetTemplateId_;
+    public io.dstore.Values.integerValue getTargetTemplateId() {
+      return targetTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : targetTemplateId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+     * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder() {
       return getTargetTemplateId();
     }
 
@@ -179,23 +179,23 @@ public final class ImSetTemplateAd {
     }
 
     public static final int SOURCE_TEMPLATE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue sourceTemplateId_;
+    private io.dstore.Values.integerValue sourceTemplateId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
      */
     public boolean hasSourceTemplateId() {
       return sourceTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getSourceTemplateId() {
-      return sourceTemplateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+    public io.dstore.Values.integerValue getSourceTemplateId() {
+      return sourceTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
       return getSourceTemplateId();
     }
 
@@ -469,29 +469,29 @@ public final class ImSetTemplateAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue targetTemplateId_ = null;
+      private io.dstore.Values.integerValue targetTemplateId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> targetTemplateIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> targetTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
       public boolean hasTargetTemplateId() {
         return targetTemplateIdBuilder_ != null || targetTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTargetTemplateId() {
+      public io.dstore.Values.integerValue getTargetTemplateId() {
         if (targetTemplateIdBuilder_ == null) {
-          return targetTemplateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : targetTemplateId_;
+          return targetTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : targetTemplateId_;
         } else {
           return targetTemplateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
-      public Builder setTargetTemplateId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTargetTemplateId(io.dstore.Values.integerValue value) {
         if (targetTemplateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
       public Builder setTargetTemplateId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (targetTemplateIdBuilder_ == null) {
           targetTemplateId_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
-      public Builder mergeTargetTemplateId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTargetTemplateId(io.dstore.Values.integerValue value) {
         if (targetTemplateIdBuilder_ == null) {
           if (targetTemplateId_ != null) {
             targetTemplateId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(targetTemplateId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(targetTemplateId_).mergeFrom(value).buildPartial();
           } else {
             targetTemplateId_ = value;
           }
@@ -537,7 +537,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
       public Builder clearTargetTemplateId() {
         if (targetTemplateIdBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTargetTemplateIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTargetTemplateIdBuilder() {
         
         onChanged();
         return getTargetTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder() {
         if (targetTemplateIdBuilder_ != null) {
           return targetTemplateIdBuilder_.getMessageOrBuilder();
         } else {
           return targetTemplateId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : targetTemplateId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : targetTemplateId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue target_template_id = 1;</code>
+       * <code>optional .dstore.values.integerValue target_template_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTargetTemplateIdFieldBuilder() {
         if (targetTemplateIdBuilder_ == null) {
           targetTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTargetTemplateId(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class ImSetTemplateAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue sourceTemplateId_ = null;
+      private io.dstore.Values.integerValue sourceTemplateId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sourceTemplateIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sourceTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
       public boolean hasSourceTemplateId() {
         return sourceTemplateIdBuilder_ != null || sourceTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getSourceTemplateId() {
+      public io.dstore.Values.integerValue getSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
-          return sourceTemplateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+          return sourceTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
         } else {
           return sourceTemplateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
-      public Builder setSourceTemplateId(io.dstore.engine.Values.integerValue value) {
+      public Builder setSourceTemplateId(io.dstore.Values.integerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
       public Builder setSourceTemplateId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (sourceTemplateIdBuilder_ == null) {
           sourceTemplateId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
-      public Builder mergeSourceTemplateId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSourceTemplateId(io.dstore.Values.integerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
           if (sourceTemplateId_ != null) {
             sourceTemplateId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(sourceTemplateId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(sourceTemplateId_).mergeFrom(value).buildPartial();
           } else {
             sourceTemplateId_ = value;
           }
@@ -680,7 +680,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
       public Builder clearSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSourceTemplateIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getSourceTemplateIdBuilder() {
         
         onChanged();
         return getSourceTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
         if (sourceTemplateIdBuilder_ != null) {
           return sourceTemplateIdBuilder_.getMessageOrBuilder();
         } else {
           return sourceTemplateId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 2;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSourceTemplateIdFieldBuilder() {
         if (sourceTemplateIdBuilder_ == null) {
           sourceTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSourceTemplateId(),
                   getParentForChildren(),
                   isClean());
@@ -2911,22 +2911,22 @@ public final class ImSetTemplateAd {
     java.lang.String[] descriptorData = {
       "\n0dstore/engine/procedures/im_SetTemplat" +
       "e_Ad.proto\022\037dstore.engine.im_SetTemplate" +
-      "_Ad\032\032dstore/engine/values.proto\032\031dstore/" +
-      "engine/error.proto\032\033dstore/engine/messag" +
-      "e.proto\032#dstore/engine/metainformation.p" +
-      "roto\"\320\001\n\nParameters\022>\n\022target_template_i" +
-      "d\030\001 \001(\0132\".dstore.engine.values.integerVa" +
-      "lue\022 \n\027target_template_id_null\030\351\007 \001(\010\022>\n" +
-      "\022source_template_id\030\002 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022 \n\027source_template",
-      "_id_null\030\352\007 \001(\010\"\204\002\n\010Response\022)\n\005error\030\001 " +
-      "\001(\0132\032.dstore.engine.error.Error\022H\n\020meta_" +
-      "information\030\002 \003(\0132..dstore.engine.metain" +
-      "formation.MetaInformation\022/\n\007message\030\003 \003" +
-      "(\0132\036.dstore.engine.message.Message\022:\n\003ro" +
-      "w\030\004 \003(\0132-.dstore.engine.im_SetTemplate_A" +
-      "d.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "_Ad\032\023dstore/values.proto\032\031dstore/engine/" +
+      "error.proto\032\033dstore/engine/message.proto" +
+      "\032#dstore/engine/metainformation.proto\"\302\001" +
+      "\n\nParameters\0227\n\022target_template_id\030\001 \001(\013" +
+      "2\033.dstore.values.integerValue\022 \n\027target_" +
+      "template_id_null\030\351\007 \001(\010\0227\n\022source_templa" +
+      "te_id\030\002 \001(\0132\033.dstore.values.integerValue" +
+      "\022 \n\027source_template_id_null\030\352\007 \001(\010\"\204\002\n\010R",
+      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
+      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
+      "store.engine.metainformation.MetaInforma" +
+      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
+      "ssage.Message\022:\n\003row\030\004 \003(\0132-.dstore.engi" +
+      "ne.im_SetTemplate_Ad.Response.Row\032\026\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pr" +
+      "oceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2939,7 +2939,7 @@ public final class ImSetTemplateAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2962,7 +2962,7 @@ public final class ImSetTemplateAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_SetTemplate_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

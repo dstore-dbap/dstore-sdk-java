@@ -13,17 +13,17 @@ public final class ImGetSuccessorsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
     boolean hasTreeNodeList();
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getTreeNodeList();
+    io.dstore.Values.stringValue getTreeNodeList();
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getTreeNodeListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getTreeNodeListOrBuilder();
 
     /**
      * <code>optional bool tree_node_list_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGetSuccessorsPu {
     boolean getTreeNodeListNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.integerValue level_no = 2;</code>
      */
     boolean hasLevelNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.integerValue level_no = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getLevelNo();
+    io.dstore.Values.integerValue getLevelNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.integerValue level_no = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
 
     /**
      * <code>optional bool level_no_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImGetSuccessorsPu {
     boolean getLevelNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
      */
     boolean hasIncludeTreeNodeList();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeTreeNodeList();
+    io.dstore.Values.booleanValue getIncludeTreeNodeList();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeTreeNodeListOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeTreeNodeListOrBuilder();
 
     /**
      * <code>optional bool include_tree_node_list_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class ImGetSuccessorsPu {
     boolean getIncludeTreeNodeListNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+     * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+     * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getOutputIntoOneId();
+    io.dstore.Values.booleanValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+     * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOutputIntoOneIdOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
      * <code>optional bool output_into_one_id_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class ImGetSuccessorsPu {
     boolean getOutputIntoOneIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
      */
     boolean hasFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getFilterByCharacteristicId();
+    io.dstore.Values.integerValue getFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool filter_by_characteristic_id_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class ImGetSuccessorsPu {
     boolean getFilterByCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
      */
     boolean hasFilterByCharacValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
      */
-    io.dstore.engine.Values.stringValue getFilterByCharacValue();
+    io.dstore.Values.stringValue getFilterByCharacValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
 
     /**
      * <code>optional bool filter_by_charac_value_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class ImGetSuccessorsPu {
     boolean getFilterByCharacValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
      */
     boolean hasBinaryCharacteristicValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getBinaryCharacteristicValueId();
+    io.dstore.Values.integerValue getBinaryCharacteristicValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder();
 
     /**
      * <code>optional bool binary_characteristic_value_id_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class ImGetSuccessorsPu {
     boolean getBinaryCharacteristicValueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
      */
     boolean hasNegateFilterByParams();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
      */
-    io.dstore.engine.Values.booleanValue getNegateFilterByParams();
+    io.dstore.Values.booleanValue getNegateFilterByParams();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
 
     /**
      * <code>optional bool negate_filter_by_params_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class ImGetSuccessorsPu {
     boolean getNegateFilterByParamsNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
      */
     boolean hasSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
      */
-    io.dstore.engine.Values.stringValue getSortByCharacteristicIdList();
+    io.dstore.Values.stringValue getSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder();
 
     /**
      * <code>optional bool sort_by_characteristic_id_list_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class ImGetSuccessorsPu {
     boolean getSortByCharacteristicIdListNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
      */
     boolean hasSortOptionList();
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
      */
-    io.dstore.engine.Values.stringValue getSortOptionList();
+    io.dstore.Values.stringValue getSortOptionList();
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSortOptionListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSortOptionListOrBuilder();
 
     /**
      * <code>optional bool sort_option_list_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class ImGetSuccessorsPu {
     boolean getSortOptionListNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
      */
     boolean hasInheritDepthOptionList();
     /**
-     * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
      */
-    io.dstore.engine.Values.stringValue getInheritDepthOptionList();
+    io.dstore.Values.stringValue getInheritDepthOptionList();
     /**
-     * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder();
 
     /**
      * <code>optional bool inherit_depth_option_list_null = 1011;</code>
@@ -211,17 +211,17 @@ public final class ImGetSuccessorsPu {
     boolean getInheritDepthOptionListNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
      */
     boolean hasRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
      */
-    io.dstore.engine.Values.stringValue getRecursiveEvaluationOptionList();
+    io.dstore.Values.stringValue getRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder();
 
     /**
      * <code>optional bool recursive_evaluation_option_list_null = 1012;</code>
@@ -229,17 +229,17 @@ public final class ImGetSuccessorsPu {
     boolean getRecursiveEvaluationOptionListNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
      */
     boolean hasGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
      */
-    io.dstore.engine.Values.booleanValue getGetValuesForSortByCharacs();
+    io.dstore.Values.booleanValue getGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder();
 
     /**
      * <code>optional bool get_values_for_sort_by_characs_null = 1013;</code>
@@ -247,17 +247,17 @@ public final class ImGetSuccessorsPu {
     boolean getGetValuesForSortByCharacsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+     * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
      */
     boolean hasFromRowNumber();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+     * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
      */
-    io.dstore.engine.Values.integerValue getFromRowNumber();
+    io.dstore.Values.integerValue getFromRowNumber();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+     * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFromRowNumberOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFromRowNumberOrBuilder();
 
     /**
      * <code>optional bool from_row_number_null = 1014;</code>
@@ -265,17 +265,17 @@ public final class ImGetSuccessorsPu {
     boolean getFromRowNumberNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
      */
     boolean hasMaxNumberOfNodes();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
      */
-    io.dstore.engine.Values.integerValue getMaxNumberOfNodes();
+    io.dstore.Values.integerValue getMaxNumberOfNodes();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfNodesOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getMaxNumberOfNodesOrBuilder();
 
     /**
      * <code>optional bool max_number_of_nodes_null = 1015;</code>
@@ -336,11 +336,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (treeNodeList_ != null) {
                 subBuilder = treeNodeList_.toBuilder();
               }
-              treeNodeList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              treeNodeList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeList_);
                 treeNodeList_ = subBuilder.buildPartial();
@@ -349,11 +349,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (levelNo_ != null) {
                 subBuilder = levelNo_.toBuilder();
               }
-              levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelNo_);
                 levelNo_ = subBuilder.buildPartial();
@@ -362,11 +362,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeTreeNodeList_ != null) {
                 subBuilder = includeTreeNodeList_.toBuilder();
               }
-              includeTreeNodeList_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeTreeNodeList_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeTreeNodeList_);
                 includeTreeNodeList_ = subBuilder.buildPartial();
@@ -375,11 +375,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
               }
-              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              outputIntoOneId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoOneId_);
                 outputIntoOneId_ = subBuilder.buildPartial();
@@ -388,11 +388,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (filterByCharacteristicId_ != null) {
                 subBuilder = filterByCharacteristicId_.toBuilder();
               }
-              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              filterByCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacteristicId_);
                 filterByCharacteristicId_ = subBuilder.buildPartial();
@@ -401,11 +401,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (filterByCharacValue_ != null) {
                 subBuilder = filterByCharacValue_.toBuilder();
               }
-              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              filterByCharacValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacValue_);
                 filterByCharacValue_ = subBuilder.buildPartial();
@@ -414,11 +414,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (binaryCharacteristicValueId_ != null) {
                 subBuilder = binaryCharacteristicValueId_.toBuilder();
               }
-              binaryCharacteristicValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              binaryCharacteristicValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCharacteristicValueId_);
                 binaryCharacteristicValueId_ = subBuilder.buildPartial();
@@ -427,11 +427,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (negateFilterByParams_ != null) {
                 subBuilder = negateFilterByParams_.toBuilder();
               }
-              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              negateFilterByParams_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilterByParams_);
                 negateFilterByParams_ = subBuilder.buildPartial();
@@ -440,11 +440,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (sortByCharacteristicIdList_ != null) {
                 subBuilder = sortByCharacteristicIdList_.toBuilder();
               }
-              sortByCharacteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              sortByCharacteristicIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortByCharacteristicIdList_);
                 sortByCharacteristicIdList_ = subBuilder.buildPartial();
@@ -453,11 +453,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (sortOptionList_ != null) {
                 subBuilder = sortOptionList_.toBuilder();
               }
-              sortOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              sortOptionList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortOptionList_);
                 sortOptionList_ = subBuilder.buildPartial();
@@ -466,11 +466,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (inheritDepthOptionList_ != null) {
                 subBuilder = inheritDepthOptionList_.toBuilder();
               }
-              inheritDepthOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              inheritDepthOptionList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepthOptionList_);
                 inheritDepthOptionList_ = subBuilder.buildPartial();
@@ -479,11 +479,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (recursiveEvaluationOptionList_ != null) {
                 subBuilder = recursiveEvaluationOptionList_.toBuilder();
               }
-              recursiveEvaluationOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              recursiveEvaluationOptionList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluationOptionList_);
                 recursiveEvaluationOptionList_ = subBuilder.buildPartial();
@@ -492,11 +492,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 106: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getValuesForSortByCharacs_ != null) {
                 subBuilder = getValuesForSortByCharacs_.toBuilder();
               }
-              getValuesForSortByCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              getValuesForSortByCharacs_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getValuesForSortByCharacs_);
                 getValuesForSortByCharacs_ = subBuilder.buildPartial();
@@ -505,11 +505,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 114: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (fromRowNumber_ != null) {
                 subBuilder = fromRowNumber_.toBuilder();
               }
-              fromRowNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              fromRowNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromRowNumber_);
                 fromRowNumber_ = subBuilder.buildPartial();
@@ -518,11 +518,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 122: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (maxNumberOfNodes_ != null) {
                 subBuilder = maxNumberOfNodes_.toBuilder();
               }
-              maxNumberOfNodes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfNodes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfNodes_);
                 maxNumberOfNodes_ = subBuilder.buildPartial();
@@ -630,23 +630,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int TREE_NODE_LIST_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue treeNodeList_;
+    private io.dstore.Values.stringValue treeNodeList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
     public boolean hasTreeNodeList() {
       return treeNodeList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getTreeNodeList() {
-      return treeNodeList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeList_;
+    public io.dstore.Values.stringValue getTreeNodeList() {
+      return treeNodeList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
       return getTreeNodeList();
     }
 
@@ -660,23 +660,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int LEVEL_NO_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue levelNo_;
+    private io.dstore.Values.integerValue levelNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.integerValue level_no = 2;</code>
      */
     public boolean hasLevelNo() {
       return levelNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.integerValue level_no = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getLevelNo() {
-      return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+    public io.dstore.Values.integerValue getLevelNo() {
+      return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.integerValue level_no = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
       return getLevelNo();
     }
 
@@ -690,23 +690,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int INCLUDE_TREE_NODE_LIST_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue includeTreeNodeList_;
+    private io.dstore.Values.booleanValue includeTreeNodeList_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
      */
     public boolean hasIncludeTreeNodeList() {
       return includeTreeNodeList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeTreeNodeList() {
-      return includeTreeNodeList_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeTreeNodeList_;
+    public io.dstore.Values.booleanValue getIncludeTreeNodeList() {
+      return includeTreeNodeList_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeTreeNodeList_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeTreeNodeListOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeTreeNodeListOrBuilder() {
       return getIncludeTreeNodeList();
     }
 
@@ -720,23 +720,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue outputIntoOneId_;
+    private io.dstore.Values.booleanValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+     * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+     * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOutputIntoOneId() {
-      return outputIntoOneId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : outputIntoOneId_;
+    public io.dstore.Values.booleanValue getOutputIntoOneId() {
+      return outputIntoOneId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+     * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOutputIntoOneIdOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
     }
 
@@ -750,23 +750,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int FILTER_BY_CHARACTERISTIC_ID_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue filterByCharacteristicId_;
+    private io.dstore.Values.integerValue filterByCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
      */
     public boolean hasFilterByCharacteristicId() {
       return filterByCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getFilterByCharacteristicId() {
-      return filterByCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+    public io.dstore.Values.integerValue getFilterByCharacteristicId() {
+      return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
       return getFilterByCharacteristicId();
     }
 
@@ -780,23 +780,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int FILTER_BY_CHARAC_VALUE_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.stringValue filterByCharacValue_;
+    private io.dstore.Values.stringValue filterByCharacValue_;
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
      */
     public boolean hasFilterByCharacValue() {
       return filterByCharacValue_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
      */
-    public io.dstore.engine.Values.stringValue getFilterByCharacValue() {
-      return filterByCharacValue_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+    public io.dstore.Values.stringValue getFilterByCharacValue() {
+      return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
       return getFilterByCharacValue();
     }
 
@@ -810,23 +810,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int BINARY_CHARACTERISTIC_VALUE_ID_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue binaryCharacteristicValueId_;
+    private io.dstore.Values.integerValue binaryCharacteristicValueId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
      */
     public boolean hasBinaryCharacteristicValueId() {
       return binaryCharacteristicValueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getBinaryCharacteristicValueId() {
-      return binaryCharacteristicValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
+    public io.dstore.Values.integerValue getBinaryCharacteristicValueId() {
+      return binaryCharacteristicValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
       return getBinaryCharacteristicValueId();
     }
 
@@ -840,23 +840,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int NEGATE_FILTER_BY_PARAMS_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.booleanValue negateFilterByParams_;
+    private io.dstore.Values.booleanValue negateFilterByParams_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
      */
     public boolean hasNegateFilterByParams() {
       return negateFilterByParams_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
      */
-    public io.dstore.engine.Values.booleanValue getNegateFilterByParams() {
-      return negateFilterByParams_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+    public io.dstore.Values.booleanValue getNegateFilterByParams() {
+      return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
       return getNegateFilterByParams();
     }
 
@@ -870,23 +870,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int SORT_BY_CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.stringValue sortByCharacteristicIdList_;
+    private io.dstore.Values.stringValue sortByCharacteristicIdList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
      */
     public boolean hasSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
      */
-    public io.dstore.engine.Values.stringValue getSortByCharacteristicIdList() {
-      return sortByCharacteristicIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
+    public io.dstore.Values.stringValue getSortByCharacteristicIdList() {
+      return sortByCharacteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+     * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
       return getSortByCharacteristicIdList();
     }
 
@@ -900,23 +900,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int SORT_OPTION_LIST_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.stringValue sortOptionList_;
+    private io.dstore.Values.stringValue sortOptionList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
      */
     public boolean hasSortOptionList() {
       return sortOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
      */
-    public io.dstore.engine.Values.stringValue getSortOptionList() {
-      return sortOptionList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : sortOptionList_;
+    public io.dstore.Values.stringValue getSortOptionList() {
+      return sortOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sortOptionList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+     * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSortOptionListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSortOptionListOrBuilder() {
       return getSortOptionList();
     }
 
@@ -930,23 +930,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int INHERIT_DEPTH_OPTION_LIST_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.stringValue inheritDepthOptionList_;
+    private io.dstore.Values.stringValue inheritDepthOptionList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
      */
     public boolean hasInheritDepthOptionList() {
       return inheritDepthOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
      */
-    public io.dstore.engine.Values.stringValue getInheritDepthOptionList() {
-      return inheritDepthOptionList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
+    public io.dstore.Values.stringValue getInheritDepthOptionList() {
+      return inheritDepthOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+     * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder() {
       return getInheritDepthOptionList();
     }
 
@@ -960,23 +960,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int RECURSIVE_EVALUATION_OPTION_LIST_FIELD_NUMBER = 12;
-    private io.dstore.engine.Values.stringValue recursiveEvaluationOptionList_;
+    private io.dstore.Values.stringValue recursiveEvaluationOptionList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
      */
     public boolean hasRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
      */
-    public io.dstore.engine.Values.stringValue getRecursiveEvaluationOptionList() {
-      return recursiveEvaluationOptionList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
+    public io.dstore.Values.stringValue getRecursiveEvaluationOptionList() {
+      return recursiveEvaluationOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+     * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
       return getRecursiveEvaluationOptionList();
     }
 
@@ -990,23 +990,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int GET_VALUES_FOR_SORT_BY_CHARACS_FIELD_NUMBER = 13;
-    private io.dstore.engine.Values.booleanValue getValuesForSortByCharacs_;
+    private io.dstore.Values.booleanValue getValuesForSortByCharacs_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
      */
     public boolean hasGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
      */
-    public io.dstore.engine.Values.booleanValue getGetValuesForSortByCharacs() {
-      return getValuesForSortByCharacs_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
+    public io.dstore.Values.booleanValue getGetValuesForSortByCharacs() {
+      return getValuesForSortByCharacs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
       return getGetValuesForSortByCharacs();
     }
 
@@ -1020,23 +1020,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int FROM_ROW_NUMBER_FIELD_NUMBER = 14;
-    private io.dstore.engine.Values.integerValue fromRowNumber_;
+    private io.dstore.Values.integerValue fromRowNumber_;
     /**
-     * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+     * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
      */
     public boolean hasFromRowNumber() {
       return fromRowNumber_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+     * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
      */
-    public io.dstore.engine.Values.integerValue getFromRowNumber() {
-      return fromRowNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromRowNumber_;
+    public io.dstore.Values.integerValue getFromRowNumber() {
+      return fromRowNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromRowNumber_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+     * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFromRowNumberOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFromRowNumberOrBuilder() {
       return getFromRowNumber();
     }
 
@@ -1050,23 +1050,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int MAX_NUMBER_OF_NODES_FIELD_NUMBER = 15;
-    private io.dstore.engine.Values.integerValue maxNumberOfNodes_;
+    private io.dstore.Values.integerValue maxNumberOfNodes_;
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
      */
     public boolean hasMaxNumberOfNodes() {
       return maxNumberOfNodes_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
      */
-    public io.dstore.engine.Values.integerValue getMaxNumberOfNodes() {
-      return maxNumberOfNodes_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfNodes_;
+    public io.dstore.Values.integerValue getMaxNumberOfNodes() {
+      return maxNumberOfNodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfNodes_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfNodesOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfNodesOrBuilder() {
       return getMaxNumberOfNodes();
     }
 
@@ -1782,29 +1782,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue treeNodeList_ = null;
+      private io.dstore.Values.stringValue treeNodeList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> treeNodeListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> treeNodeListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       public boolean hasTreeNodeList() {
         return treeNodeListBuilder_ != null || treeNodeList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getTreeNodeList() {
+      public io.dstore.Values.stringValue getTreeNodeList() {
         if (treeNodeListBuilder_ == null) {
-          return treeNodeList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeList_;
+          return treeNodeList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeList_;
         } else {
           return treeNodeListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public Builder setTreeNodeList(io.dstore.engine.Values.stringValue value) {
+      public Builder setTreeNodeList(io.dstore.Values.stringValue value) {
         if (treeNodeListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1818,10 +1818,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       public Builder setTreeNodeList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (treeNodeListBuilder_ == null) {
           treeNodeList_ = builderForValue.build();
           onChanged();
@@ -1832,13 +1832,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public Builder mergeTreeNodeList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeTreeNodeList(io.dstore.Values.stringValue value) {
         if (treeNodeListBuilder_ == null) {
           if (treeNodeList_ != null) {
             treeNodeList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(treeNodeList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(treeNodeList_).mergeFrom(value).buildPartial();
           } else {
             treeNodeList_ = value;
           }
@@ -1850,7 +1850,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       public Builder clearTreeNodeList() {
         if (treeNodeListBuilder_ == null) {
@@ -1864,33 +1864,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getTreeNodeListBuilder() {
+      public io.dstore.Values.stringValue.Builder getTreeNodeListBuilder() {
         
         onChanged();
         return getTreeNodeListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
         if (treeNodeListBuilder_ != null) {
           return treeNodeListBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : treeNodeList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTreeNodeListFieldBuilder() {
         if (treeNodeListBuilder_ == null) {
           treeNodeListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTreeNodeList(),
                   getParentForChildren(),
                   isClean());
@@ -1925,29 +1925,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue levelNo_ = null;
+      private io.dstore.Values.integerValue levelNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
       public boolean hasLevelNo() {
         return levelNoBuilder_ != null || levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getLevelNo() {
+      public io.dstore.Values.integerValue getLevelNo() {
         if (levelNoBuilder_ == null) {
-          return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+          return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
         } else {
           return levelNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
-      public Builder setLevelNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setLevelNo(io.dstore.Values.integerValue value) {
         if (levelNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1961,10 +1961,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
       public Builder setLevelNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (levelNoBuilder_ == null) {
           levelNo_ = builderForValue.build();
           onChanged();
@@ -1975,13 +1975,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
-      public Builder mergeLevelNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
         if (levelNoBuilder_ == null) {
           if (levelNo_ != null) {
             levelNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
           } else {
             levelNo_ = value;
           }
@@ -1993,7 +1993,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
       public Builder clearLevelNo() {
         if (levelNoBuilder_ == null) {
@@ -2007,33 +2007,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLevelNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
         
         onChanged();
         return getLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
         if (levelNoBuilder_ != null) {
           return levelNoBuilder_.getMessageOrBuilder();
         } else {
           return levelNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.integerValue level_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLevelNoFieldBuilder() {
         if (levelNoBuilder_ == null) {
           levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLevelNo(),
                   getParentForChildren(),
                   isClean());
@@ -2068,29 +2068,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeTreeNodeList_ = null;
+      private io.dstore.Values.booleanValue includeTreeNodeList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeTreeNodeListBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeTreeNodeListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
       public boolean hasIncludeTreeNodeList() {
         return includeTreeNodeListBuilder_ != null || includeTreeNodeList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeTreeNodeList() {
+      public io.dstore.Values.booleanValue getIncludeTreeNodeList() {
         if (includeTreeNodeListBuilder_ == null) {
-          return includeTreeNodeList_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeTreeNodeList_;
+          return includeTreeNodeList_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeTreeNodeList_;
         } else {
           return includeTreeNodeListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
-      public Builder setIncludeTreeNodeList(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeTreeNodeList(io.dstore.Values.booleanValue value) {
         if (includeTreeNodeListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2104,10 +2104,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
       public Builder setIncludeTreeNodeList(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeTreeNodeListBuilder_ == null) {
           includeTreeNodeList_ = builderForValue.build();
           onChanged();
@@ -2118,13 +2118,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
-      public Builder mergeIncludeTreeNodeList(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeTreeNodeList(io.dstore.Values.booleanValue value) {
         if (includeTreeNodeListBuilder_ == null) {
           if (includeTreeNodeList_ != null) {
             includeTreeNodeList_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeTreeNodeList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeTreeNodeList_).mergeFrom(value).buildPartial();
           } else {
             includeTreeNodeList_ = value;
           }
@@ -2136,7 +2136,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
       public Builder clearIncludeTreeNodeList() {
         if (includeTreeNodeListBuilder_ == null) {
@@ -2150,33 +2150,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeTreeNodeListBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeTreeNodeListBuilder() {
         
         onChanged();
         return getIncludeTreeNodeListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeTreeNodeListOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeTreeNodeListOrBuilder() {
         if (includeTreeNodeListBuilder_ != null) {
           return includeTreeNodeListBuilder_.getMessageOrBuilder();
         } else {
           return includeTreeNodeList_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeTreeNodeList_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeTreeNodeList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_tree_node_list = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_tree_node_list = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeTreeNodeListFieldBuilder() {
         if (includeTreeNodeListBuilder_ == null) {
           includeTreeNodeListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeTreeNodeList(),
                   getParentForChildren(),
                   isClean());
@@ -2211,29 +2211,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue outputIntoOneId_ = null;
+      private io.dstore.Values.booleanValue outputIntoOneId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> outputIntoOneIdBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOutputIntoOneId() {
+      public io.dstore.Values.booleanValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
-          return outputIntoOneId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : outputIntoOneId_;
+          return outputIntoOneId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : outputIntoOneId_;
         } else {
           return outputIntoOneIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
-      public Builder setOutputIntoOneId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOutputIntoOneId(io.dstore.Values.booleanValue value) {
         if (outputIntoOneIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2247,10 +2247,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
       public Builder setOutputIntoOneId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (outputIntoOneIdBuilder_ == null) {
           outputIntoOneId_ = builderForValue.build();
           onChanged();
@@ -2261,13 +2261,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
-      public Builder mergeOutputIntoOneId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOutputIntoOneId(io.dstore.Values.booleanValue value) {
         if (outputIntoOneIdBuilder_ == null) {
           if (outputIntoOneId_ != null) {
             outputIntoOneId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(outputIntoOneId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(outputIntoOneId_).mergeFrom(value).buildPartial();
           } else {
             outputIntoOneId_ = value;
           }
@@ -2279,7 +2279,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2293,33 +2293,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOutputIntoOneIdBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOutputIntoOneIdBuilder() {
         
         onChanged();
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOutputIntoOneIdOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
           return outputIntoOneIdBuilder_.getMessageOrBuilder();
         } else {
           return outputIntoOneId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : outputIntoOneId_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : outputIntoOneId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue output_into_one_id = 4;</code>
+       * <code>optional .dstore.values.booleanValue output_into_one_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOutputIntoOneIdFieldBuilder() {
         if (outputIntoOneIdBuilder_ == null) {
           outputIntoOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOutputIntoOneId(),
                   getParentForChildren(),
                   isClean());
@@ -2354,29 +2354,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue filterByCharacteristicId_ = null;
+      private io.dstore.Values.integerValue filterByCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
       public boolean hasFilterByCharacteristicId() {
         return filterByCharacteristicIdBuilder_ != null || filterByCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getFilterByCharacteristicId() {
+      public io.dstore.Values.integerValue getFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
-          return filterByCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+          return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
         } else {
           return filterByCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
-      public Builder setFilterByCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setFilterByCharacteristicId(io.dstore.Values.integerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2390,10 +2390,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
       public Builder setFilterByCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2404,13 +2404,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
-      public Builder mergeFilterByCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFilterByCharacteristicId(io.dstore.Values.integerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (filterByCharacteristicId_ != null) {
             filterByCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacteristicId_ = value;
           }
@@ -2422,7 +2422,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
       public Builder clearFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -2436,33 +2436,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
         
         onChanged();
         return getFilterByCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
         if (filterByCharacteristicIdBuilder_ != null) {
           return filterByCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFilterByCharacteristicIdFieldBuilder() {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFilterByCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2497,29 +2497,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue filterByCharacValue_ = null;
+      private io.dstore.Values.stringValue filterByCharacValue_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
       public boolean hasFilterByCharacValue() {
         return filterByCharacValueBuilder_ != null || filterByCharacValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue getFilterByCharacValue() {
+      public io.dstore.Values.stringValue getFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
-          return filterByCharacValue_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+          return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
         } else {
           return filterByCharacValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
-      public Builder setFilterByCharacValue(io.dstore.engine.Values.stringValue value) {
+      public Builder setFilterByCharacValue(io.dstore.Values.stringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2533,10 +2533,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
       public Builder setFilterByCharacValue(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValue_ = builderForValue.build();
           onChanged();
@@ -2547,13 +2547,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
-      public Builder mergeFilterByCharacValue(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeFilterByCharacValue(io.dstore.Values.stringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (filterByCharacValue_ != null) {
             filterByCharacValue_ =
-              io.dstore.engine.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacValue_ = value;
           }
@@ -2565,7 +2565,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
       public Builder clearFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
@@ -2579,33 +2579,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getFilterByCharacValueBuilder() {
+      public io.dstore.Values.stringValue.Builder getFilterByCharacValueBuilder() {
         
         onChanged();
         return getFilterByCharacValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
         if (filterByCharacValueBuilder_ != null) {
           return filterByCharacValueBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacValue_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+              io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 6;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFilterByCharacValueFieldBuilder() {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFilterByCharacValue(),
                   getParentForChildren(),
                   isClean());
@@ -2640,29 +2640,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue binaryCharacteristicValueId_ = null;
+      private io.dstore.Values.integerValue binaryCharacteristicValueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryCharacteristicValueIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCharacteristicValueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
       public boolean hasBinaryCharacteristicValueId() {
         return binaryCharacteristicValueIdBuilder_ != null || binaryCharacteristicValueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getBinaryCharacteristicValueId() {
+      public io.dstore.Values.integerValue getBinaryCharacteristicValueId() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
-          return binaryCharacteristicValueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
+          return binaryCharacteristicValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
         } else {
           return binaryCharacteristicValueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
-      public Builder setBinaryCharacteristicValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder setBinaryCharacteristicValueId(io.dstore.Values.integerValue value) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2676,10 +2676,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
       public Builder setBinaryCharacteristicValueId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           binaryCharacteristicValueId_ = builderForValue.build();
           onChanged();
@@ -2690,13 +2690,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
-      public Builder mergeBinaryCharacteristicValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeBinaryCharacteristicValueId(io.dstore.Values.integerValue value) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           if (binaryCharacteristicValueId_ != null) {
             binaryCharacteristicValueId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(binaryCharacteristicValueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(binaryCharacteristicValueId_).mergeFrom(value).buildPartial();
           } else {
             binaryCharacteristicValueId_ = value;
           }
@@ -2708,7 +2708,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
       public Builder clearBinaryCharacteristicValueId() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
@@ -2722,33 +2722,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getBinaryCharacteristicValueIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getBinaryCharacteristicValueIdBuilder() {
         
         onChanged();
         return getBinaryCharacteristicValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
         if (binaryCharacteristicValueIdBuilder_ != null) {
           return binaryCharacteristicValueIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCharacteristicValueId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_characteristic_value_id = 7;</code>
+       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBinaryCharacteristicValueIdFieldBuilder() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           binaryCharacteristicValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBinaryCharacteristicValueId(),
                   getParentForChildren(),
                   isClean());
@@ -2783,29 +2783,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue negateFilterByParams_ = null;
+      private io.dstore.Values.booleanValue negateFilterByParams_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
       public boolean hasNegateFilterByParams() {
         return negateFilterByParamsBuilder_ != null || negateFilterByParams_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValue getNegateFilterByParams() {
+      public io.dstore.Values.booleanValue getNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
-          return negateFilterByParams_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+          return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
         } else {
           return negateFilterByParamsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
-      public Builder setNegateFilterByParams(io.dstore.engine.Values.booleanValue value) {
+      public Builder setNegateFilterByParams(io.dstore.Values.booleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2819,10 +2819,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
       public Builder setNegateFilterByParams(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParams_ = builderForValue.build();
           onChanged();
@@ -2833,13 +2833,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
-      public Builder mergeNegateFilterByParams(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeNegateFilterByParams(io.dstore.Values.booleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (negateFilterByParams_ != null) {
             negateFilterByParams_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
           } else {
             negateFilterByParams_ = value;
           }
@@ -2851,7 +2851,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
       public Builder clearNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
@@ -2865,33 +2865,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
         
         onChanged();
         return getNegateFilterByParamsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
         if (negateFilterByParamsBuilder_ != null) {
           return negateFilterByParamsBuilder_.getMessageOrBuilder();
         } else {
           return negateFilterByParams_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 8;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getNegateFilterByParamsFieldBuilder() {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParamsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getNegateFilterByParams(),
                   getParentForChildren(),
                   isClean());
@@ -2926,29 +2926,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue sortByCharacteristicIdList_ = null;
+      private io.dstore.Values.stringValue sortByCharacteristicIdList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> sortByCharacteristicIdListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sortByCharacteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
       public boolean hasSortByCharacteristicIdList() {
         return sortByCharacteristicIdListBuilder_ != null || sortByCharacteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
-      public io.dstore.engine.Values.stringValue getSortByCharacteristicIdList() {
+      public io.dstore.Values.stringValue getSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
-          return sortByCharacteristicIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
+          return sortByCharacteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
         } else {
           return sortByCharacteristicIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
-      public Builder setSortByCharacteristicIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder setSortByCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2962,10 +2962,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
       public Builder setSortByCharacteristicIdList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (sortByCharacteristicIdListBuilder_ == null) {
           sortByCharacteristicIdList_ = builderForValue.build();
           onChanged();
@@ -2976,13 +2976,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
-      public Builder mergeSortByCharacteristicIdList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSortByCharacteristicIdList(io.dstore.Values.stringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
           if (sortByCharacteristicIdList_ != null) {
             sortByCharacteristicIdList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(sortByCharacteristicIdList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(sortByCharacteristicIdList_).mergeFrom(value).buildPartial();
           } else {
             sortByCharacteristicIdList_ = value;
           }
@@ -2994,7 +2994,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
       public Builder clearSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -3008,33 +3008,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSortByCharacteristicIdListBuilder() {
+      public io.dstore.Values.stringValue.Builder getSortByCharacteristicIdListBuilder() {
         
         onChanged();
         return getSortByCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
         if (sortByCharacteristicIdListBuilder_ != null) {
           return sortByCharacteristicIdListBuilder_.getMessageOrBuilder();
         } else {
           return sortByCharacteristicIdList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : sortByCharacteristicIdList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_by_characteristic_id_list = 9;</code>
+       * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSortByCharacteristicIdListFieldBuilder() {
         if (sortByCharacteristicIdListBuilder_ == null) {
           sortByCharacteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSortByCharacteristicIdList(),
                   getParentForChildren(),
                   isClean());
@@ -3069,29 +3069,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue sortOptionList_ = null;
+      private io.dstore.Values.stringValue sortOptionList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> sortOptionListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sortOptionListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
       public boolean hasSortOptionList() {
         return sortOptionListBuilder_ != null || sortOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
-      public io.dstore.engine.Values.stringValue getSortOptionList() {
+      public io.dstore.Values.stringValue getSortOptionList() {
         if (sortOptionListBuilder_ == null) {
-          return sortOptionList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : sortOptionList_;
+          return sortOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sortOptionList_;
         } else {
           return sortOptionListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
-      public Builder setSortOptionList(io.dstore.engine.Values.stringValue value) {
+      public Builder setSortOptionList(io.dstore.Values.stringValue value) {
         if (sortOptionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3105,10 +3105,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
       public Builder setSortOptionList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (sortOptionListBuilder_ == null) {
           sortOptionList_ = builderForValue.build();
           onChanged();
@@ -3119,13 +3119,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
-      public Builder mergeSortOptionList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSortOptionList(io.dstore.Values.stringValue value) {
         if (sortOptionListBuilder_ == null) {
           if (sortOptionList_ != null) {
             sortOptionList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(sortOptionList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(sortOptionList_).mergeFrom(value).buildPartial();
           } else {
             sortOptionList_ = value;
           }
@@ -3137,7 +3137,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
       public Builder clearSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -3151,33 +3151,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSortOptionListBuilder() {
+      public io.dstore.Values.stringValue.Builder getSortOptionListBuilder() {
         
         onChanged();
         return getSortOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSortOptionListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSortOptionListOrBuilder() {
         if (sortOptionListBuilder_ != null) {
           return sortOptionListBuilder_.getMessageOrBuilder();
         } else {
           return sortOptionList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : sortOptionList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : sortOptionList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue sort_option_list = 10;</code>
+       * <code>optional .dstore.values.stringValue sort_option_list = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSortOptionListFieldBuilder() {
         if (sortOptionListBuilder_ == null) {
           sortOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSortOptionList(),
                   getParentForChildren(),
                   isClean());
@@ -3212,29 +3212,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue inheritDepthOptionList_ = null;
+      private io.dstore.Values.stringValue inheritDepthOptionList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> inheritDepthOptionListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> inheritDepthOptionListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
       public boolean hasInheritDepthOptionList() {
         return inheritDepthOptionListBuilder_ != null || inheritDepthOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
-      public io.dstore.engine.Values.stringValue getInheritDepthOptionList() {
+      public io.dstore.Values.stringValue getInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
-          return inheritDepthOptionList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
+          return inheritDepthOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
         } else {
           return inheritDepthOptionListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
-      public Builder setInheritDepthOptionList(io.dstore.engine.Values.stringValue value) {
+      public Builder setInheritDepthOptionList(io.dstore.Values.stringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3248,10 +3248,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
       public Builder setInheritDepthOptionList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (inheritDepthOptionListBuilder_ == null) {
           inheritDepthOptionList_ = builderForValue.build();
           onChanged();
@@ -3262,13 +3262,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
-      public Builder mergeInheritDepthOptionList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeInheritDepthOptionList(io.dstore.Values.stringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
           if (inheritDepthOptionList_ != null) {
             inheritDepthOptionList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(inheritDepthOptionList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(inheritDepthOptionList_).mergeFrom(value).buildPartial();
           } else {
             inheritDepthOptionList_ = value;
           }
@@ -3280,7 +3280,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
       public Builder clearInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -3294,33 +3294,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getInheritDepthOptionListBuilder() {
+      public io.dstore.Values.stringValue.Builder getInheritDepthOptionListBuilder() {
         
         onChanged();
         return getInheritDepthOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInheritDepthOptionListOrBuilder() {
         if (inheritDepthOptionListBuilder_ != null) {
           return inheritDepthOptionListBuilder_.getMessageOrBuilder();
         } else {
           return inheritDepthOptionList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : inheritDepthOptionList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue inherit_depth_option_list = 11;</code>
+       * <code>optional .dstore.values.stringValue inherit_depth_option_list = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInheritDepthOptionListFieldBuilder() {
         if (inheritDepthOptionListBuilder_ == null) {
           inheritDepthOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInheritDepthOptionList(),
                   getParentForChildren(),
                   isClean());
@@ -3355,29 +3355,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue recursiveEvaluationOptionList_ = null;
+      private io.dstore.Values.stringValue recursiveEvaluationOptionList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> recursiveEvaluationOptionListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> recursiveEvaluationOptionListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
       public boolean hasRecursiveEvaluationOptionList() {
         return recursiveEvaluationOptionListBuilder_ != null || recursiveEvaluationOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
-      public io.dstore.engine.Values.stringValue getRecursiveEvaluationOptionList() {
+      public io.dstore.Values.stringValue getRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
-          return recursiveEvaluationOptionList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
+          return recursiveEvaluationOptionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
         } else {
           return recursiveEvaluationOptionListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
-      public Builder setRecursiveEvaluationOptionList(io.dstore.engine.Values.stringValue value) {
+      public Builder setRecursiveEvaluationOptionList(io.dstore.Values.stringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3391,10 +3391,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
       public Builder setRecursiveEvaluationOptionList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
           recursiveEvaluationOptionList_ = builderForValue.build();
           onChanged();
@@ -3405,13 +3405,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
-      public Builder mergeRecursiveEvaluationOptionList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeRecursiveEvaluationOptionList(io.dstore.Values.stringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
           if (recursiveEvaluationOptionList_ != null) {
             recursiveEvaluationOptionList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(recursiveEvaluationOptionList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(recursiveEvaluationOptionList_).mergeFrom(value).buildPartial();
           } else {
             recursiveEvaluationOptionList_ = value;
           }
@@ -3423,7 +3423,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
       public Builder clearRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -3437,33 +3437,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getRecursiveEvaluationOptionListBuilder() {
+      public io.dstore.Values.stringValue.Builder getRecursiveEvaluationOptionListBuilder() {
         
         onChanged();
         return getRecursiveEvaluationOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
         if (recursiveEvaluationOptionListBuilder_ != null) {
           return recursiveEvaluationOptionListBuilder_.getMessageOrBuilder();
         } else {
           return recursiveEvaluationOptionList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue recursive_evaluation_option_list = 12;</code>
+       * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getRecursiveEvaluationOptionListFieldBuilder() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
           recursiveEvaluationOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getRecursiveEvaluationOptionList(),
                   getParentForChildren(),
                   isClean());
@@ -3498,29 +3498,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue getValuesForSortByCharacs_ = null;
+      private io.dstore.Values.booleanValue getValuesForSortByCharacs_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> getValuesForSortByCharacsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getValuesForSortByCharacsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
       public boolean hasGetValuesForSortByCharacs() {
         return getValuesForSortByCharacsBuilder_ != null || getValuesForSortByCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValue getGetValuesForSortByCharacs() {
+      public io.dstore.Values.booleanValue getGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
-          return getValuesForSortByCharacs_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
+          return getValuesForSortByCharacs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
         } else {
           return getValuesForSortByCharacsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
-      public Builder setGetValuesForSortByCharacs(io.dstore.engine.Values.booleanValue value) {
+      public Builder setGetValuesForSortByCharacs(io.dstore.Values.booleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3534,10 +3534,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
       public Builder setGetValuesForSortByCharacs(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (getValuesForSortByCharacsBuilder_ == null) {
           getValuesForSortByCharacs_ = builderForValue.build();
           onChanged();
@@ -3548,13 +3548,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
-      public Builder mergeGetValuesForSortByCharacs(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeGetValuesForSortByCharacs(io.dstore.Values.booleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
           if (getValuesForSortByCharacs_ != null) {
             getValuesForSortByCharacs_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(getValuesForSortByCharacs_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(getValuesForSortByCharacs_).mergeFrom(value).buildPartial();
           } else {
             getValuesForSortByCharacs_ = value;
           }
@@ -3566,7 +3566,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
       public Builder clearGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -3580,33 +3580,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getGetValuesForSortByCharacsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getGetValuesForSortByCharacsBuilder() {
         
         onChanged();
         return getGetValuesForSortByCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
         if (getValuesForSortByCharacsBuilder_ != null) {
           return getValuesForSortByCharacsBuilder_.getMessageOrBuilder();
         } else {
           return getValuesForSortByCharacs_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_values_for_sort_by_characs = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetValuesForSortByCharacsFieldBuilder() {
         if (getValuesForSortByCharacsBuilder_ == null) {
           getValuesForSortByCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetValuesForSortByCharacs(),
                   getParentForChildren(),
                   isClean());
@@ -3641,29 +3641,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue fromRowNumber_ = null;
+      private io.dstore.Values.integerValue fromRowNumber_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromRowNumberBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromRowNumberBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
       public boolean hasFromRowNumber() {
         return fromRowNumberBuilder_ != null || fromRowNumber_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
-      public io.dstore.engine.Values.integerValue getFromRowNumber() {
+      public io.dstore.Values.integerValue getFromRowNumber() {
         if (fromRowNumberBuilder_ == null) {
-          return fromRowNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromRowNumber_;
+          return fromRowNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromRowNumber_;
         } else {
           return fromRowNumberBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
-      public Builder setFromRowNumber(io.dstore.engine.Values.integerValue value) {
+      public Builder setFromRowNumber(io.dstore.Values.integerValue value) {
         if (fromRowNumberBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3677,10 +3677,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
       public Builder setFromRowNumber(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (fromRowNumberBuilder_ == null) {
           fromRowNumber_ = builderForValue.build();
           onChanged();
@@ -3691,13 +3691,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
-      public Builder mergeFromRowNumber(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFromRowNumber(io.dstore.Values.integerValue value) {
         if (fromRowNumberBuilder_ == null) {
           if (fromRowNumber_ != null) {
             fromRowNumber_ =
-              io.dstore.engine.Values.integerValue.newBuilder(fromRowNumber_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(fromRowNumber_).mergeFrom(value).buildPartial();
           } else {
             fromRowNumber_ = value;
           }
@@ -3709,7 +3709,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
       public Builder clearFromRowNumber() {
         if (fromRowNumberBuilder_ == null) {
@@ -3723,33 +3723,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFromRowNumberBuilder() {
+      public io.dstore.Values.integerValue.Builder getFromRowNumberBuilder() {
         
         onChanged();
         return getFromRowNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromRowNumberOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromRowNumberOrBuilder() {
         if (fromRowNumberBuilder_ != null) {
           return fromRowNumberBuilder_.getMessageOrBuilder();
         } else {
           return fromRowNumber_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : fromRowNumber_;
+              io.dstore.Values.integerValue.getDefaultInstance() : fromRowNumber_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_row_number = 14;</code>
+       * <code>optional .dstore.values.integerValue from_row_number = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromRowNumberFieldBuilder() {
         if (fromRowNumberBuilder_ == null) {
           fromRowNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromRowNumber(),
                   getParentForChildren(),
                   isClean());
@@ -3784,29 +3784,29 @@ public final class ImGetSuccessorsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue maxNumberOfNodes_ = null;
+      private io.dstore.Values.integerValue maxNumberOfNodes_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxNumberOfNodesBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfNodesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
       public boolean hasMaxNumberOfNodes() {
         return maxNumberOfNodesBuilder_ != null || maxNumberOfNodes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
-      public io.dstore.engine.Values.integerValue getMaxNumberOfNodes() {
+      public io.dstore.Values.integerValue getMaxNumberOfNodes() {
         if (maxNumberOfNodesBuilder_ == null) {
-          return maxNumberOfNodes_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfNodes_;
+          return maxNumberOfNodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfNodes_;
         } else {
           return maxNumberOfNodesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
-      public Builder setMaxNumberOfNodes(io.dstore.engine.Values.integerValue value) {
+      public Builder setMaxNumberOfNodes(io.dstore.Values.integerValue value) {
         if (maxNumberOfNodesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3820,10 +3820,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
       public Builder setMaxNumberOfNodes(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (maxNumberOfNodesBuilder_ == null) {
           maxNumberOfNodes_ = builderForValue.build();
           onChanged();
@@ -3834,13 +3834,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
-      public Builder mergeMaxNumberOfNodes(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeMaxNumberOfNodes(io.dstore.Values.integerValue value) {
         if (maxNumberOfNodesBuilder_ == null) {
           if (maxNumberOfNodes_ != null) {
             maxNumberOfNodes_ =
-              io.dstore.engine.Values.integerValue.newBuilder(maxNumberOfNodes_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(maxNumberOfNodes_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfNodes_ = value;
           }
@@ -3852,7 +3852,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
       public Builder clearMaxNumberOfNodes() {
         if (maxNumberOfNodesBuilder_ == null) {
@@ -3866,33 +3866,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMaxNumberOfNodesBuilder() {
+      public io.dstore.Values.integerValue.Builder getMaxNumberOfNodesBuilder() {
         
         onChanged();
         return getMaxNumberOfNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfNodesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfNodesOrBuilder() {
         if (maxNumberOfNodesBuilder_ != null) {
           return maxNumberOfNodesBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfNodes_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfNodes_;
+              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfNodes_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_nodes = 15;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_nodes = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxNumberOfNodesFieldBuilder() {
         if (maxNumberOfNodesBuilder_ == null) {
           maxNumberOfNodesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxNumberOfNodes(),
                   getParentForChildren(),
                   isClean());
@@ -4074,17 +4074,17 @@ public final class ImGetSuccessorsPu {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+     * <code>optional .dstore.values.integerValue count = 101;</code>
      */
     boolean hasCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+     * <code>optional .dstore.values.integerValue count = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getCount();
+    io.dstore.Values.integerValue getCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+     * <code>optional .dstore.values.integerValue count = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCountOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCountOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_GetSuccessors_Pu.Response}
@@ -4165,11 +4165,11 @@ public final class ImGetSuccessorsPu {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (count_ != null) {
                 subBuilder = count_.toBuilder();
               }
-              count_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              count_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(count_);
                 count_ = subBuilder.buildPartial();
@@ -4220,7 +4220,7 @@ public final class ImGetSuccessorsPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
@@ -4228,24 +4228,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasPredecessor();
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPredecessor();
+      io.dstore.Values.integerValue getPredecessor();
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
@@ -4253,24 +4253,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasNodeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getNodeDescription();
+      io.dstore.Values.stringValue getNodeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4278,24 +4278,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2();
+      io.dstore.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4303,24 +4303,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3();
+      io.dstore.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4328,24 +4328,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1();
+      io.dstore.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
        *
        * <pre>
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
@@ -4353,24 +4353,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasBinaryCodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
        *
        * <pre>
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBinaryCodeId();
+      io.dstore.Values.integerValue getBinaryCodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
        *
        * <pre>
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
@@ -4378,24 +4378,24 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTreeNodeId();
+      io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -4403,21 +4403,21 @@ public final class ImGetSuccessorsPu {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeId();
+      io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetSuccessors_Pu.Response.Row}
@@ -4464,11 +4464,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (predecessor_ != null) {
                   subBuilder = predecessor_.toBuilder();
                 }
-                predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                predecessor_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessor_);
                   predecessor_ = subBuilder.buildPartial();
@@ -4477,11 +4477,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -4490,11 +4490,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -4503,11 +4503,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -4516,11 +4516,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -4529,11 +4529,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -4542,11 +4542,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -4555,11 +4555,11 @@ public final class ImGetSuccessorsPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -4601,9 +4601,9 @@ public final class ImGetSuccessorsPu {
       }
 
       public static final int PREDECESSOR_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue predecessor_;
+      private io.dstore.Values.integerValue predecessor_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
@@ -4613,30 +4613,30 @@ public final class ImGetSuccessorsPu {
         return predecessor_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPredecessor() {
-        return predecessor_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+      public io.dstore.Values.integerValue getPredecessor() {
+        return predecessor_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder() {
         return getPredecessor();
       }
 
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue nodeDescription_;
+      private io.dstore.Values.stringValue nodeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
@@ -4646,30 +4646,30 @@ public final class ImGetSuccessorsPu {
         return nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getNodeDescription() {
-        return nodeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+      public io.dstore.Values.stringValue getNodeDescription() {
+        return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
       }
 
       public static final int VALUE2_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue value2_;
+      private io.dstore.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4679,30 +4679,30 @@ public final class ImGetSuccessorsPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2() {
-        return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+      public io.dstore.Values.stringValue getValue2() {
+        return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
       }
 
       public static final int VALUE3_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue value3_;
+      private io.dstore.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4712,30 +4712,30 @@ public final class ImGetSuccessorsPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3() {
-        return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+      public io.dstore.Values.stringValue getValue3() {
+        return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
       }
 
       public static final int VALUE1_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue value1_;
+      private io.dstore.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4745,30 +4745,30 @@ public final class ImGetSuccessorsPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1() {
-        return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+      public io.dstore.Values.stringValue getValue1() {
+        return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue binaryCodeId_;
+      private io.dstore.Values.integerValue binaryCodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
        *
        * <pre>
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
@@ -4778,30 +4778,30 @@ public final class ImGetSuccessorsPu {
         return binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
        *
        * <pre>
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.Values.integerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
        *
        * <pre>
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue treeNodeId_;
+      private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
@@ -4811,30 +4811,30 @@ public final class ImGetSuccessorsPu {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.Values.integerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.integerValue nodeId_;
+      private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -4844,23 +4844,23 @@ public final class ImGetSuccessorsPu {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.Values.integerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
@@ -5264,11 +5264,11 @@ public final class ImGetSuccessorsPu {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue predecessor_ = null;
+        private io.dstore.Values.integerValue predecessor_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predecessorBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
@@ -5278,27 +5278,27 @@ public final class ImGetSuccessorsPu {
           return predecessorBuilder_ != null || predecessor_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPredecessor() {
+        public io.dstore.Values.integerValue getPredecessor() {
           if (predecessorBuilder_ == null) {
-            return predecessor_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+            return predecessor_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
           } else {
             return predecessorBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public Builder setPredecessor(io.dstore.engine.Values.integerValue value) {
+        public Builder setPredecessor(io.dstore.Values.integerValue value) {
           if (predecessorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5312,14 +5312,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
         public Builder setPredecessor(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (predecessorBuilder_ == null) {
             predecessor_ = builderForValue.build();
             onChanged();
@@ -5330,17 +5330,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public Builder mergePredecessor(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePredecessor(io.dstore.Values.integerValue value) {
           if (predecessorBuilder_ == null) {
             if (predecessor_ != null) {
               predecessor_ =
-                io.dstore.engine.Values.integerValue.newBuilder(predecessor_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(predecessor_).mergeFrom(value).buildPartial();
             } else {
               predecessor_ = value;
             }
@@ -5352,7 +5352,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
@@ -5370,45 +5370,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPredecessorBuilder() {
+        public io.dstore.Values.integerValue.Builder getPredecessorBuilder() {
           
           onChanged();
           return getPredecessorFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder() {
           if (predecessorBuilder_ != null) {
             return predecessorBuilder_.getMessageOrBuilder();
           } else {
             return predecessor_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+                io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPredecessorFieldBuilder() {
           if (predecessorBuilder_ == null) {
             predecessorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPredecessor(),
                     getParentForChildren(),
                     isClean());
@@ -5417,11 +5417,11 @@ public final class ImGetSuccessorsPu {
           return predecessorBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue nodeDescription_ = null;
+        private io.dstore.Values.stringValue nodeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
@@ -5431,27 +5431,27 @@ public final class ImGetSuccessorsPu {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getNodeDescription() {
+        public io.dstore.Values.stringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
-            return nodeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+            return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
           } else {
             return nodeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public Builder setNodeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5465,14 +5465,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
         public Builder setNodeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescription_ = builderForValue.build();
             onChanged();
@@ -5483,17 +5483,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public Builder mergeNodeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (nodeDescription_ != null) {
               nodeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
             } else {
               nodeDescription_ = value;
             }
@@ -5505,7 +5505,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
@@ -5523,45 +5523,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getNodeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
           
           onChanged();
           return getNodeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
             return nodeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return nodeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -5570,11 +5570,11 @@ public final class ImGetSuccessorsPu {
           return nodeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2_ = null;
+        private io.dstore.Values.stringValue value2_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5584,27 +5584,27 @@ public final class ImGetSuccessorsPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2() {
+        public io.dstore.Values.stringValue getValue2() {
           if (value2Builder_ == null) {
-            return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+            return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           } else {
             return value2Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
-        public Builder setValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5618,14 +5618,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
         public Builder setValue2(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2Builder_ == null) {
             value2_ = builderForValue.build();
             onChanged();
@@ -5636,17 +5636,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
-        public Builder mergeValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value2_ != null) {
               value2_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
             } else {
               value2_ = value;
             }
@@ -5658,7 +5658,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5676,45 +5676,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2Builder() {
+        public io.dstore.Values.stringValue.Builder getValue2Builder() {
           
           onChanged();
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
             return value2Builder_.getMessageOrBuilder();
           } else {
             return value2_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
             value2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
                     isClean());
@@ -5723,11 +5723,11 @@ public final class ImGetSuccessorsPu {
           return value2Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3_ = null;
+        private io.dstore.Values.stringValue value3_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5737,27 +5737,27 @@ public final class ImGetSuccessorsPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3() {
+        public io.dstore.Values.stringValue getValue3() {
           if (value3Builder_ == null) {
-            return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+            return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           } else {
             return value3Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
-        public Builder setValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5771,14 +5771,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
         public Builder setValue3(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3Builder_ == null) {
             value3_ = builderForValue.build();
             onChanged();
@@ -5789,17 +5789,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
-        public Builder mergeValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value3_ != null) {
               value3_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
             } else {
               value3_ = value;
             }
@@ -5811,7 +5811,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5829,45 +5829,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3Builder() {
+        public io.dstore.Values.stringValue.Builder getValue3Builder() {
           
           onChanged();
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
             return value3Builder_.getMessageOrBuilder();
           } else {
             return value3_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
             value3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
                     isClean());
@@ -5876,11 +5876,11 @@ public final class ImGetSuccessorsPu {
           return value3Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value1_ = null;
+        private io.dstore.Values.stringValue value1_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -5890,27 +5890,27 @@ public final class ImGetSuccessorsPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1() {
+        public io.dstore.Values.stringValue getValue1() {
           if (value1Builder_ == null) {
-            return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+            return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           } else {
             return value1Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
-        public Builder setValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5924,14 +5924,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
         public Builder setValue1(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1Builder_ == null) {
             value1_ = builderForValue.build();
             onChanged();
@@ -5942,17 +5942,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
-        public Builder mergeValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value1_ != null) {
               value1_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
             } else {
               value1_ = value;
             }
@@ -5964,7 +5964,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -5982,45 +5982,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1Builder() {
+        public io.dstore.Values.stringValue.Builder getValue1Builder() {
           
           onChanged();
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
             return value1Builder_.getMessageOrBuilder();
           } else {
             return value1_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
             value1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
                     isClean());
@@ -6029,11 +6029,11 @@ public final class ImGetSuccessorsPu {
           return value1Builder_;
         }
 
-        private io.dstore.engine.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.Values.integerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
@@ -6043,27 +6043,27 @@ public final class ImGetSuccessorsPu {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBinaryCodeId() {
+        public io.dstore.Values.integerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
-        public Builder setBinaryCodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6077,14 +6077,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
         public Builder setBinaryCodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -6095,17 +6095,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
-        public Builder mergeBinaryCodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -6117,7 +6117,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
@@ -6135,45 +6135,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_code_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue binary_code_id = 10006;</code>
          *
          * <pre>
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6182,11 +6182,11 @@ public final class ImGetSuccessorsPu {
           return binaryCodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+        private io.dstore.Values.integerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
@@ -6196,27 +6196,27 @@ public final class ImGetSuccessorsPu {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTreeNodeId() {
+        public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
-        public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6230,14 +6230,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
         public Builder setTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -6248,17 +6248,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
-        public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -6270,7 +6270,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
@@ -6288,45 +6288,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das Nachfolger eines der in "&#64;TreeNodeList" übergebenen Elementes ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6335,11 +6335,11 @@ public final class ImGetSuccessorsPu {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeId_ = null;
+        private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -6349,27 +6349,27 @@ public final class ImGetSuccessorsPu {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeId() {
+        public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public Builder setNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6383,14 +6383,14 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
         public Builder setNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -6401,17 +6401,17 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public Builder mergeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -6423,7 +6423,7 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -6441,45 +6441,45 @@ public final class ImGetSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6673,23 +6673,23 @@ public final class ImGetSuccessorsPu {
     }
 
     public static final int COUNT_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue count_;
+    private io.dstore.Values.integerValue count_;
     /**
-     * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+     * <code>optional .dstore.values.integerValue count = 101;</code>
      */
     public boolean hasCount() {
       return count_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+     * <code>optional .dstore.values.integerValue count = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getCount() {
-      return count_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : count_;
+    public io.dstore.Values.integerValue getCount() {
+      return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+     * <code>optional .dstore.values.integerValue count = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCountOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
       return getCount();
     }
 
@@ -7916,29 +7916,29 @@ public final class ImGetSuccessorsPu {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue count_ = null;
+      private io.dstore.Values.integerValue count_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> countBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
       public boolean hasCount() {
         return countBuilder_ != null || count_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getCount() {
+      public io.dstore.Values.integerValue getCount() {
         if (countBuilder_ == null) {
-          return count_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : count_;
+          return count_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : count_;
         } else {
           return countBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
-      public Builder setCount(io.dstore.engine.Values.integerValue value) {
+      public Builder setCount(io.dstore.Values.integerValue value) {
         if (countBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7952,10 +7952,10 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
       public Builder setCount(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (countBuilder_ == null) {
           count_ = builderForValue.build();
           onChanged();
@@ -7966,13 +7966,13 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
-      public Builder mergeCount(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCount(io.dstore.Values.integerValue value) {
         if (countBuilder_ == null) {
           if (count_ != null) {
             count_ =
-              io.dstore.engine.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(count_).mergeFrom(value).buildPartial();
           } else {
             count_ = value;
           }
@@ -7984,7 +7984,7 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
       public Builder clearCount() {
         if (countBuilder_ == null) {
@@ -7998,33 +7998,33 @@ public final class ImGetSuccessorsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCountBuilder() {
+      public io.dstore.Values.integerValue.Builder getCountBuilder() {
         
         onChanged();
         return getCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCountOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCountOrBuilder() {
         if (countBuilder_ != null) {
           return countBuilder_.getMessageOrBuilder();
         } else {
           return count_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : count_;
+              io.dstore.Values.integerValue.getDefaultInstance() : count_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue count = 101;</code>
+       * <code>optional .dstore.values.integerValue count = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCountFieldBuilder() {
         if (countBuilder_ == null) {
           countBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCount(),
                   getParentForChildren(),
                   isClean());
@@ -8116,70 +8116,65 @@ public final class ImGetSuccessorsPu {
     java.lang.String[] descriptorData = {
       "\n2dstore/engine/procedures/im_GetSuccess" +
       "ors_Pu.proto\022!dstore.engine.im_GetSucces" +
-      "sors_Pu\032\032dstore/engine/values.proto\032\031dst" +
-      "ore/engine/error.proto\032\033dstore/engine/me" +
-      "ssage.proto\032#dstore/engine/metainformati" +
-      "on.proto\"\276\014\n\nParameters\0229\n\016tree_node_lis" +
-      "t\030\001 \001(\0132!.dstore.engine.values.stringVal" +
-      "ue\022\034\n\023tree_node_list_null\030\351\007 \001(\010\0224\n\010leve" +
-      "l_no\030\002 \001(\0132\".dstore.engine.values.intege" +
-      "rValue\022\026\n\rlevel_no_null\030\352\007 \001(\010\022B\n\026includ",
-      "e_tree_node_list\030\003 \001(\0132\".dstore.engine.v" +
-      "alues.booleanValue\022$\n\033include_tree_node_" +
-      "list_null\030\353\007 \001(\010\022>\n\022output_into_one_id\030\004" +
-      " \001(\0132\".dstore.engine.values.booleanValue" +
-      "\022 \n\027output_into_one_id_null\030\354\007 \001(\010\022G\n\033fi" +
-      "lter_by_characteristic_id\030\005 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022)\n filter_by" +
-      "_characteristic_id_null\030\355\007 \001(\010\022A\n\026filter" +
-      "_by_charac_value\030\006 \001(\0132!.dstore.engine.v" +
-      "alues.stringValue\022$\n\033filter_by_charac_va",
-      "lue_null\030\356\007 \001(\010\022J\n\036binary_characteristic" +
-      "_value_id\030\007 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022,\n#binary_characteristic_val" +
-      "ue_id_null\030\357\007 \001(\010\022C\n\027negate_filter_by_pa" +
-      "rams\030\010 \001(\0132\".dstore.engine.values.boolea" +
-      "nValue\022%\n\034negate_filter_by_params_null\030\360" +
-      "\007 \001(\010\022I\n\036sort_by_characteristic_id_list\030" +
-      "\t \001(\0132!.dstore.engine.values.stringValue" +
-      "\022,\n#sort_by_characteristic_id_list_null\030" +
-      "\361\007 \001(\010\022;\n\020sort_option_list\030\n \001(\0132!.dstor",
-      "e.engine.values.stringValue\022\036\n\025sort_opti" +
-      "on_list_null\030\362\007 \001(\010\022D\n\031inherit_depth_opt" +
-      "ion_list\030\013 \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022\'\n\036inherit_depth_option_list_n" +
-      "ull\030\363\007 \001(\010\022K\n recursive_evaluation_optio" +
-      "n_list\030\014 \001(\0132!.dstore.engine.values.stri" +
-      "ngValue\022.\n%recursive_evaluation_option_l" +
-      "ist_null\030\364\007 \001(\010\022J\n\036get_values_for_sort_b" +
-      "y_characs\030\r \001(\0132\".dstore.engine.values.b" +
-      "ooleanValue\022,\n#get_values_for_sort_by_ch",
-      "aracs_null\030\365\007 \001(\010\022;\n\017from_row_number\030\016 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022\035" +
-      "\n\024from_row_number_null\030\366\007 \001(\010\022?\n\023max_num" +
-      "ber_of_nodes\030\017 \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022!\n\030max_number_of_nodes_nu" +
-      "ll\030\367\007 \001(\010\"\374\005\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
-      "dstore.engine.error.Error\022H\n\020meta_inform" +
-      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
-      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
-      "store.engine.message.Message\022<\n\003row\030\004 \003(",
-      "\0132/.dstore.engine.im_GetSuccessors_Pu.Re" +
-      "sponse.Row\0221\n\005count\030e \001(\0132\".dstore.engin" +
-      "e.values.integerValue\032\330\003\n\003Row\022\017\n\006row_id\030" +
-      "\220N \001(\005\0228\n\013predecessor\030\221N \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022<\n\020node_descrip" +
-      "tion\030\222N \001(\0132!.dstore.engine.values.strin" +
-      "gValue\0222\n\006value2\030\223N \001(\0132!.dstore.engine." +
-      "values.stringValue\0222\n\006value3\030\224N \001(\0132!.ds" +
-      "tore.engine.values.stringValue\0222\n\006value1" +
-      "\030\225N \001(\0132!.dstore.engine.values.stringVal",
-      "ue\022;\n\016binary_code_id\030\226N \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\0229\n\014tree_node_id\030" +
-      "\227N \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\0224\n\007node_id\030\230N \001(\0132\".dstore.engine.val" +
-      "ues.integerValueB\035\n\033io.dstore.engine.pro" +
-      "ceduresb\006proto3"
+      "sors_Pu\032\023dstore/values.proto\032\031dstore/eng" +
+      "ine/error.proto\032\033dstore/engine/message.p" +
+      "roto\032#dstore/engine/metainformation.prot" +
+      "o\"\325\013\n\nParameters\0222\n\016tree_node_list\030\001 \001(\013" +
+      "2\032.dstore.values.stringValue\022\034\n\023tree_nod" +
+      "e_list_null\030\351\007 \001(\010\022-\n\010level_no\030\002 \001(\0132\033.d" +
+      "store.values.integerValue\022\026\n\rlevel_no_nu" +
+      "ll\030\352\007 \001(\010\022;\n\026include_tree_node_list\030\003 \001(",
+      "\0132\033.dstore.values.booleanValue\022$\n\033includ" +
+      "e_tree_node_list_null\030\353\007 \001(\010\0227\n\022output_i" +
+      "nto_one_id\030\004 \001(\0132\033.dstore.values.boolean" +
+      "Value\022 \n\027output_into_one_id_null\030\354\007 \001(\010\022" +
+      "@\n\033filter_by_characteristic_id\030\005 \001(\0132\033.d" +
+      "store.values.integerValue\022)\n filter_by_c" +
+      "haracteristic_id_null\030\355\007 \001(\010\022:\n\026filter_b" +
+      "y_charac_value\030\006 \001(\0132\032.dstore.values.str" +
+      "ingValue\022$\n\033filter_by_charac_value_null\030" +
+      "\356\007 \001(\010\022C\n\036binary_characteristic_value_id",
+      "\030\007 \001(\0132\033.dstore.values.integerValue\022,\n#b" +
+      "inary_characteristic_value_id_null\030\357\007 \001(" +
+      "\010\022<\n\027negate_filter_by_params\030\010 \001(\0132\033.dst" +
+      "ore.values.booleanValue\022%\n\034negate_filter" +
+      "_by_params_null\030\360\007 \001(\010\022B\n\036sort_by_charac" +
+      "teristic_id_list\030\t \001(\0132\032.dstore.values.s" +
+      "tringValue\022,\n#sort_by_characteristic_id_" +
+      "list_null\030\361\007 \001(\010\0224\n\020sort_option_list\030\n \001" +
+      "(\0132\032.dstore.values.stringValue\022\036\n\025sort_o" +
+      "ption_list_null\030\362\007 \001(\010\022=\n\031inherit_depth_",
+      "option_list\030\013 \001(\0132\032.dstore.values.string" +
+      "Value\022\'\n\036inherit_depth_option_list_null\030" +
+      "\363\007 \001(\010\022D\n recursive_evaluation_option_li" +
+      "st\030\014 \001(\0132\032.dstore.values.stringValue\022.\n%" +
+      "recursive_evaluation_option_list_null\030\364\007" +
+      " \001(\010\022C\n\036get_values_for_sort_by_characs\030\r" +
+      " \001(\0132\033.dstore.values.booleanValue\022,\n#get" +
+      "_values_for_sort_by_characs_null\030\365\007 \001(\010\022" +
+      "4\n\017from_row_number\030\016 \001(\0132\033.dstore.values" +
+      ".integerValue\022\035\n\024from_row_number_null\030\366\007",
+      " \001(\010\0228\n\023max_number_of_nodes\030\017 \001(\0132\033.dsto" +
+      "re.values.integerValue\022!\n\030max_number_of_" +
+      "nodes_null\030\367\007 \001(\010\"\275\005\n\010Response\022)\n\005error\030" +
+      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
+      "a_information\030\002 \003(\0132..dstore.engine.meta" +
+      "information.MetaInformation\022/\n\007message\030\003" +
+      " \003(\0132\036.dstore.engine.message.Message\022<\n\003" +
+      "row\030\004 \003(\0132/.dstore.engine.im_GetSuccesso" +
+      "rs_Pu.Response.Row\022*\n\005count\030e \001(\0132\033.dsto" +
+      "re.values.integerValue\032\240\003\n\003Row\022\017\n\006row_id",
+      "\030\220N \001(\005\0221\n\013predecessor\030\221N \001(\0132\033.dstore.v" +
+      "alues.integerValue\0225\n\020node_description\030\222" +
+      "N \001(\0132\032.dstore.values.stringValue\022+\n\006val" +
+      "ue2\030\223N \001(\0132\032.dstore.values.stringValue\022+" +
+      "\n\006value3\030\224N \001(\0132\032.dstore.values.stringVa" +
+      "lue\022+\n\006value1\030\225N \001(\0132\032.dstore.values.str" +
+      "ingValue\0224\n\016binary_code_id\030\226N \001(\0132\033.dsto" +
+      "re.values.integerValue\0222\n\014tree_node_id\030\227" +
+      "N \001(\0132\033.dstore.values.integerValue\022-\n\007no" +
+      "de_id\030\230N \001(\0132\033.dstore.values.integerValu",
+      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8192,7 +8187,7 @@ public final class ImGetSuccessorsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -8215,7 +8210,7 @@ public final class ImGetSuccessorsPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetSuccessors_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Predecessor", "NodeDescription", "Value2", "Value3", "Value1", "BinaryCodeId", "TreeNodeId", "NodeId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

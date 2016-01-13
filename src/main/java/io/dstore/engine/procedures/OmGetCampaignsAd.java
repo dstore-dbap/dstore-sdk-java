@@ -13,17 +13,17 @@ public final class OmGetCampaignsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCampaignId();
+    io.dstore.Values.integerValue getCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetCampaignsAd {
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
      */
     boolean hasCampaignTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getCampaignTypeId();
+    io.dstore.Values.integerValue getCampaignTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder();
 
     /**
      * <code>optional bool campaign_type_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmGetCampaignsAd {
     boolean getCampaignTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.integerValue active = 3;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.integerValue active = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getActive();
+    io.dstore.Values.integerValue getActive();
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.integerValue active = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getActiveOrBuilder();
 
     /**
      * <code>optional bool active_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmGetCampaignsAd {
     boolean getActiveNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
      */
     boolean hasFilterByPeriodStartMinDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
      */
-    io.dstore.engine.Values.timestampValue getFilterByPeriodStartMinDate();
+    io.dstore.Values.timestampValue getFilterByPeriodStartMinDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getFilterByPeriodStartMinDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getFilterByPeriodStartMinDateOrBuilder();
 
     /**
      * <code>optional bool filter_by_period_start_min_date_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmGetCampaignsAd {
     boolean getFilterByPeriodStartMinDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
      */
     boolean hasFilterByPeriodStartMaxDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
      */
-    io.dstore.engine.Values.timestampValue getFilterByPeriodStartMaxDate();
+    io.dstore.Values.timestampValue getFilterByPeriodStartMaxDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getFilterByPeriodStartMaxDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getFilterByPeriodStartMaxDateOrBuilder();
 
     /**
      * <code>optional bool filter_by_period_start_max_date_null = 1005;</code>
@@ -146,11 +146,11 @@ public final class OmGetCampaignsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -159,11 +159,11 @@ public final class OmGetCampaignsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (campaignTypeId_ != null) {
                 subBuilder = campaignTypeId_.toBuilder();
               }
-              campaignTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              campaignTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignTypeId_);
                 campaignTypeId_ = subBuilder.buildPartial();
@@ -172,11 +172,11 @@ public final class OmGetCampaignsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (active_ != null) {
                 subBuilder = active_.toBuilder();
               }
-              active_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              active_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(active_);
                 active_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmGetCampaignsAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (filterByPeriodStartMinDate_ != null) {
                 subBuilder = filterByPeriodStartMinDate_.toBuilder();
               }
-              filterByPeriodStartMinDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              filterByPeriodStartMinDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByPeriodStartMinDate_);
                 filterByPeriodStartMinDate_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmGetCampaignsAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (filterByPeriodStartMaxDate_ != null) {
                 subBuilder = filterByPeriodStartMaxDate_.toBuilder();
               }
-              filterByPeriodStartMaxDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              filterByPeriodStartMaxDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByPeriodStartMaxDate_);
                 filterByPeriodStartMaxDate_ = subBuilder.buildPartial();
@@ -260,23 +260,23 @@ public final class OmGetCampaignsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue campaignId_;
+    private io.dstore.Values.integerValue campaignId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.Values.integerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -290,23 +290,23 @@ public final class OmGetCampaignsAd {
     }
 
     public static final int CAMPAIGN_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue campaignTypeId_;
+    private io.dstore.Values.integerValue campaignTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
      */
     public boolean hasCampaignTypeId() {
       return campaignTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getCampaignTypeId() {
-      return campaignTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+    public io.dstore.Values.integerValue getCampaignTypeId() {
+      return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
       return getCampaignTypeId();
     }
 
@@ -320,23 +320,23 @@ public final class OmGetCampaignsAd {
     }
 
     public static final int ACTIVE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue active_;
+    private io.dstore.Values.integerValue active_;
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.integerValue active = 3;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.integerValue active = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getActive() {
-      return active_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+    public io.dstore.Values.integerValue getActive() {
+      return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.integerValue active = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
       return getActive();
     }
 
@@ -350,23 +350,23 @@ public final class OmGetCampaignsAd {
     }
 
     public static final int FILTER_BY_PERIOD_START_MIN_DATE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.timestampValue filterByPeriodStartMinDate_;
+    private io.dstore.Values.timestampValue filterByPeriodStartMinDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
      */
     public boolean hasFilterByPeriodStartMinDate() {
       return filterByPeriodStartMinDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValue getFilterByPeriodStartMinDate() {
-      return filterByPeriodStartMinDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMinDate_;
+    public io.dstore.Values.timestampValue getFilterByPeriodStartMinDate() {
+      return filterByPeriodStartMinDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMinDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getFilterByPeriodStartMinDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getFilterByPeriodStartMinDateOrBuilder() {
       return getFilterByPeriodStartMinDate();
     }
 
@@ -380,23 +380,23 @@ public final class OmGetCampaignsAd {
     }
 
     public static final int FILTER_BY_PERIOD_START_MAX_DATE_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.timestampValue filterByPeriodStartMaxDate_;
+    private io.dstore.Values.timestampValue filterByPeriodStartMaxDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
      */
     public boolean hasFilterByPeriodStartMaxDate() {
       return filterByPeriodStartMaxDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
      */
-    public io.dstore.engine.Values.timestampValue getFilterByPeriodStartMaxDate() {
-      return filterByPeriodStartMaxDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMaxDate_;
+    public io.dstore.Values.timestampValue getFilterByPeriodStartMaxDate() {
+      return filterByPeriodStartMaxDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMaxDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+     * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getFilterByPeriodStartMaxDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getFilterByPeriodStartMaxDateOrBuilder() {
       return getFilterByPeriodStartMaxDate();
     }
 
@@ -772,29 +772,29 @@ public final class OmGetCampaignsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue campaignId_ = null;
+      private io.dstore.Values.integerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCampaignId() {
+      public io.dstore.Values.integerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -808,10 +808,10 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -822,13 +822,13 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -840,7 +840,7 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -854,33 +854,33 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -915,29 +915,29 @@ public final class OmGetCampaignsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue campaignTypeId_ = null;
+      private io.dstore.Values.integerValue campaignTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
       public boolean hasCampaignTypeId() {
         return campaignTypeIdBuilder_ != null || campaignTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getCampaignTypeId() {
+      public io.dstore.Values.integerValue getCampaignTypeId() {
         if (campaignTypeIdBuilder_ == null) {
-          return campaignTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+          return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
         } else {
           return campaignTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
-      public Builder setCampaignTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCampaignTypeId(io.dstore.Values.integerValue value) {
         if (campaignTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -951,10 +951,10 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
       public Builder setCampaignTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (campaignTypeIdBuilder_ == null) {
           campaignTypeId_ = builderForValue.build();
           onChanged();
@@ -965,13 +965,13 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
-      public Builder mergeCampaignTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCampaignTypeId(io.dstore.Values.integerValue value) {
         if (campaignTypeIdBuilder_ == null) {
           if (campaignTypeId_ != null) {
             campaignTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
           } else {
             campaignTypeId_ = value;
           }
@@ -983,7 +983,7 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
       public Builder clearCampaignTypeId() {
         if (campaignTypeIdBuilder_ == null) {
@@ -997,33 +997,33 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCampaignTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCampaignTypeIdBuilder() {
         
         onChanged();
         return getCampaignTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
         if (campaignTypeIdBuilder_ != null) {
           return campaignTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignTypeIdFieldBuilder() {
         if (campaignTypeIdBuilder_ == null) {
           campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1058,29 +1058,29 @@ public final class OmGetCampaignsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue active_ = null;
+      private io.dstore.Values.integerValue active_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> activeBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getActive() {
+      public io.dstore.Values.integerValue getActive() {
         if (activeBuilder_ == null) {
-          return active_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+          return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
         } else {
           return activeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
-      public Builder setActive(io.dstore.engine.Values.integerValue value) {
+      public Builder setActive(io.dstore.Values.integerValue value) {
         if (activeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1094,10 +1094,10 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
       public Builder setActive(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (activeBuilder_ == null) {
           active_ = builderForValue.build();
           onChanged();
@@ -1108,13 +1108,13 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
-      public Builder mergeActive(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeActive(io.dstore.Values.integerValue value) {
         if (activeBuilder_ == null) {
           if (active_ != null) {
             active_ =
-              io.dstore.engine.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
           } else {
             active_ = value;
           }
@@ -1126,7 +1126,7 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1140,33 +1140,33 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getActiveBuilder() {
+      public io.dstore.Values.integerValue.Builder getActiveBuilder() {
         
         onChanged();
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
           return activeBuilder_.getMessageOrBuilder();
         } else {
           return active_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+              io.dstore.Values.integerValue.getDefaultInstance() : active_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.integerValue active = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getActiveFieldBuilder() {
         if (activeBuilder_ == null) {
           activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getActive(),
                   getParentForChildren(),
                   isClean());
@@ -1201,29 +1201,29 @@ public final class OmGetCampaignsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue filterByPeriodStartMinDate_ = null;
+      private io.dstore.Values.timestampValue filterByPeriodStartMinDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> filterByPeriodStartMinDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> filterByPeriodStartMinDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
       public boolean hasFilterByPeriodStartMinDate() {
         return filterByPeriodStartMinDateBuilder_ != null || filterByPeriodStartMinDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue getFilterByPeriodStartMinDate() {
+      public io.dstore.Values.timestampValue getFilterByPeriodStartMinDate() {
         if (filterByPeriodStartMinDateBuilder_ == null) {
-          return filterByPeriodStartMinDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMinDate_;
+          return filterByPeriodStartMinDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMinDate_;
         } else {
           return filterByPeriodStartMinDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
-      public Builder setFilterByPeriodStartMinDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setFilterByPeriodStartMinDate(io.dstore.Values.timestampValue value) {
         if (filterByPeriodStartMinDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1237,10 +1237,10 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
       public Builder setFilterByPeriodStartMinDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (filterByPeriodStartMinDateBuilder_ == null) {
           filterByPeriodStartMinDate_ = builderForValue.build();
           onChanged();
@@ -1251,13 +1251,13 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
-      public Builder mergeFilterByPeriodStartMinDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeFilterByPeriodStartMinDate(io.dstore.Values.timestampValue value) {
         if (filterByPeriodStartMinDateBuilder_ == null) {
           if (filterByPeriodStartMinDate_ != null) {
             filterByPeriodStartMinDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(filterByPeriodStartMinDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(filterByPeriodStartMinDate_).mergeFrom(value).buildPartial();
           } else {
             filterByPeriodStartMinDate_ = value;
           }
@@ -1269,7 +1269,7 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
       public Builder clearFilterByPeriodStartMinDate() {
         if (filterByPeriodStartMinDateBuilder_ == null) {
@@ -1283,33 +1283,33 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getFilterByPeriodStartMinDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getFilterByPeriodStartMinDateBuilder() {
         
         onChanged();
         return getFilterByPeriodStartMinDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFilterByPeriodStartMinDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFilterByPeriodStartMinDateOrBuilder() {
         if (filterByPeriodStartMinDateBuilder_ != null) {
           return filterByPeriodStartMinDateBuilder_.getMessageOrBuilder();
         } else {
           return filterByPeriodStartMinDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMinDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMinDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_min_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFilterByPeriodStartMinDateFieldBuilder() {
         if (filterByPeriodStartMinDateBuilder_ == null) {
           filterByPeriodStartMinDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFilterByPeriodStartMinDate(),
                   getParentForChildren(),
                   isClean());
@@ -1344,29 +1344,29 @@ public final class OmGetCampaignsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue filterByPeriodStartMaxDate_ = null;
+      private io.dstore.Values.timestampValue filterByPeriodStartMaxDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> filterByPeriodStartMaxDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> filterByPeriodStartMaxDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
       public boolean hasFilterByPeriodStartMaxDate() {
         return filterByPeriodStartMaxDateBuilder_ != null || filterByPeriodStartMaxDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
-      public io.dstore.engine.Values.timestampValue getFilterByPeriodStartMaxDate() {
+      public io.dstore.Values.timestampValue getFilterByPeriodStartMaxDate() {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
-          return filterByPeriodStartMaxDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMaxDate_;
+          return filterByPeriodStartMaxDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMaxDate_;
         } else {
           return filterByPeriodStartMaxDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
-      public Builder setFilterByPeriodStartMaxDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setFilterByPeriodStartMaxDate(io.dstore.Values.timestampValue value) {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1380,10 +1380,10 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
       public Builder setFilterByPeriodStartMaxDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
           filterByPeriodStartMaxDate_ = builderForValue.build();
           onChanged();
@@ -1394,13 +1394,13 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
-      public Builder mergeFilterByPeriodStartMaxDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeFilterByPeriodStartMaxDate(io.dstore.Values.timestampValue value) {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
           if (filterByPeriodStartMaxDate_ != null) {
             filterByPeriodStartMaxDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(filterByPeriodStartMaxDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(filterByPeriodStartMaxDate_).mergeFrom(value).buildPartial();
           } else {
             filterByPeriodStartMaxDate_ = value;
           }
@@ -1412,7 +1412,7 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
       public Builder clearFilterByPeriodStartMaxDate() {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
@@ -1426,33 +1426,33 @@ public final class OmGetCampaignsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getFilterByPeriodStartMaxDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getFilterByPeriodStartMaxDateBuilder() {
         
         onChanged();
         return getFilterByPeriodStartMaxDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFilterByPeriodStartMaxDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFilterByPeriodStartMaxDateOrBuilder() {
         if (filterByPeriodStartMaxDateBuilder_ != null) {
           return filterByPeriodStartMaxDateBuilder_.getMessageOrBuilder();
         } else {
           return filterByPeriodStartMaxDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMaxDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : filterByPeriodStartMaxDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue filter_by_period_start_max_date = 5;</code>
+       * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFilterByPeriodStartMaxDateFieldBuilder() {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
           filterByPeriodStartMaxDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFilterByPeriodStartMaxDate(),
                   getParentForChildren(),
                   isClean());
@@ -1774,7 +1774,7 @@ public final class OmGetCampaignsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.integerValue active = 10001;</code>
        *
        * <pre>
        * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
@@ -1782,24 +1782,24 @@ public final class OmGetCampaignsAd {
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.integerValue active = 10001;</code>
        *
        * <pre>
        * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getActive();
+      io.dstore.Values.integerValue getActive();
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.integerValue active = 10001;</code>
        *
        * <pre>
        * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * ID einer Verkaufs-Aktion
@@ -1807,24 +1807,24 @@ public final class OmGetCampaignsAd {
        */
       boolean hasCampaignId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * ID einer Verkaufs-Aktion
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCampaignId();
+      io.dstore.Values.integerValue getCampaignId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * ID einer Verkaufs-Aktion
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
        *
        * <pre>
        * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
@@ -1832,24 +1832,24 @@ public final class OmGetCampaignsAd {
        */
       boolean hasCampaignDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
        *
        * <pre>
        * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCampaignDescription();
+      io.dstore.Values.stringValue getCampaignDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
        *
        * <pre>
        * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCampaignDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCampaignDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
        *
        * <pre>
        * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
@@ -1857,24 +1857,24 @@ public final class OmGetCampaignsAd {
        */
       boolean hasCampaignTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
        *
        * <pre>
        * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCampaignTypeId();
+      io.dstore.Values.integerValue getCampaignTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
        *
        * <pre>
        * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Verkaufs-Aktion "CampaignID"
@@ -1882,24 +1882,24 @@ public final class OmGetCampaignsAd {
        */
       boolean hasCampaignName();
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCampaignName();
+      io.dstore.Values.stringValue getCampaignName();
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCampaignNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCampaignNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
@@ -1907,21 +1907,21 @@ public final class OmGetCampaignsAd {
        */
       boolean hasCampaignType();
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCampaignType();
+      io.dstore.Values.stringValue getCampaignType();
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCampaignTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCampaignTypeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Response.Row}
@@ -1968,11 +1968,11 @@ public final class OmGetCampaignsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                active_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -1981,11 +1981,11 @@ public final class OmGetCampaignsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (campaignId_ != null) {
                   subBuilder = campaignId_.toBuilder();
                 }
-                campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignId_);
                   campaignId_ = subBuilder.buildPartial();
@@ -1994,11 +1994,11 @@ public final class OmGetCampaignsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (campaignDescription_ != null) {
                   subBuilder = campaignDescription_.toBuilder();
                 }
-                campaignDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                campaignDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignDescription_);
                   campaignDescription_ = subBuilder.buildPartial();
@@ -2007,11 +2007,11 @@ public final class OmGetCampaignsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (campaignTypeId_ != null) {
                   subBuilder = campaignTypeId_.toBuilder();
                 }
-                campaignTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                campaignTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignTypeId_);
                   campaignTypeId_ = subBuilder.buildPartial();
@@ -2020,11 +2020,11 @@ public final class OmGetCampaignsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (campaignName_ != null) {
                   subBuilder = campaignName_.toBuilder();
                 }
-                campaignName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                campaignName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignName_);
                   campaignName_ = subBuilder.buildPartial();
@@ -2033,11 +2033,11 @@ public final class OmGetCampaignsAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (campaignType_ != null) {
                   subBuilder = campaignType_.toBuilder();
                 }
-                campaignType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                campaignType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignType_);
                   campaignType_ = subBuilder.buildPartial();
@@ -2079,9 +2079,9 @@ public final class OmGetCampaignsAd {
       }
 
       public static final int ACTIVE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue active_;
+      private io.dstore.Values.integerValue active_;
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.integerValue active = 10001;</code>
        *
        * <pre>
        * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
@@ -2091,30 +2091,30 @@ public final class OmGetCampaignsAd {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.integerValue active = 10001;</code>
        *
        * <pre>
        * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getActive() {
-        return active_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+      public io.dstore.Values.integerValue getActive() {
+        return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.integerValue active = 10001;</code>
        *
        * <pre>
        * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
         return getActive();
       }
 
       public static final int CAMPAIGN_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue campaignId_;
+      private io.dstore.Values.integerValue campaignId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * ID einer Verkaufs-Aktion
@@ -2124,30 +2124,30 @@ public final class OmGetCampaignsAd {
         return campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * ID einer Verkaufs-Aktion
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCampaignId() {
-        return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+      public io.dstore.Values.integerValue getCampaignId() {
+        return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * ID einer Verkaufs-Aktion
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         return getCampaignId();
       }
 
       public static final int CAMPAIGN_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue campaignDescription_;
+      private io.dstore.Values.stringValue campaignDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
        *
        * <pre>
        * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
@@ -2157,30 +2157,30 @@ public final class OmGetCampaignsAd {
         return campaignDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
        *
        * <pre>
        * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCampaignDescription() {
-        return campaignDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignDescription_;
+      public io.dstore.Values.stringValue getCampaignDescription() {
+        return campaignDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
        *
        * <pre>
        * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCampaignDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCampaignDescriptionOrBuilder() {
         return getCampaignDescription();
       }
 
       public static final int CAMPAIGN_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue campaignTypeId_;
+      private io.dstore.Values.integerValue campaignTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
        *
        * <pre>
        * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
@@ -2190,30 +2190,30 @@ public final class OmGetCampaignsAd {
         return campaignTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
        *
        * <pre>
        * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCampaignTypeId() {
-        return campaignTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+      public io.dstore.Values.integerValue getCampaignTypeId() {
+        return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
        *
        * <pre>
        * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
         return getCampaignTypeId();
       }
 
       public static final int CAMPAIGN_NAME_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue campaignName_;
+      private io.dstore.Values.stringValue campaignName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Verkaufs-Aktion "CampaignID"
@@ -2223,30 +2223,30 @@ public final class OmGetCampaignsAd {
         return campaignName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCampaignName() {
-        return campaignName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignName_;
+      public io.dstore.Values.stringValue getCampaignName() {
+        return campaignName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+       * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
        *
        * <pre>
        * Bezeichnung der Verkaufs-Aktion "CampaignID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCampaignNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCampaignNameOrBuilder() {
         return getCampaignName();
       }
 
       public static final int CAMPAIGN_TYPE_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue campaignType_;
+      private io.dstore.Values.stringValue campaignType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
@@ -2256,23 +2256,23 @@ public final class OmGetCampaignsAd {
         return campaignType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCampaignType() {
-        return campaignType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignType_;
+      public io.dstore.Values.stringValue getCampaignType() {
+        return campaignType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCampaignTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCampaignTypeOrBuilder() {
         return getCampaignType();
       }
 
@@ -2634,11 +2634,11 @@ public final class OmGetCampaignsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue active_ = null;
+        private io.dstore.Values.integerValue active_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> activeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
@@ -2648,27 +2648,27 @@ public final class OmGetCampaignsAd {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getActive() {
+        public io.dstore.Values.integerValue getActive() {
           if (activeBuilder_ == null) {
-            return active_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+            return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
           } else {
             return activeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
-        public Builder setActive(io.dstore.engine.Values.integerValue value) {
+        public Builder setActive(io.dstore.Values.integerValue value) {
           if (activeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2682,14 +2682,14 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
         public Builder setActive(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (activeBuilder_ == null) {
             active_ = builderForValue.build();
             onChanged();
@@ -2700,17 +2700,17 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
-        public Builder mergeActive(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeActive(io.dstore.Values.integerValue value) {
           if (activeBuilder_ == null) {
             if (active_ != null) {
               active_ =
-                io.dstore.engine.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
             } else {
               active_ = value;
             }
@@ -2722,7 +2722,7 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
@@ -2740,45 +2740,45 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getActiveBuilder() {
+        public io.dstore.Values.integerValue.Builder getActiveBuilder() {
           
           onChanged();
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getActiveOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
             return activeBuilder_.getMessageOrBuilder();
           } else {
             return active_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : active_;
+                io.dstore.Values.integerValue.getDefaultInstance() : active_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.integerValue active = 10001;</code>
          *
          * <pre>
          * Status der Verkaufs-Aktion "CampaignID" (derzeit nur "0" - für "inaktiv" - und "1" - für "aktiv" - möglich. Weitere Status wie "aktiv, nur Test" in Zukunft möglich)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
             activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
                     isClean());
@@ -2787,11 +2787,11 @@ public final class OmGetCampaignsAd {
           return activeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue campaignId_ = null;
+        private io.dstore.Values.integerValue campaignId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
@@ -2801,27 +2801,27 @@ public final class OmGetCampaignsAd {
           return campaignIdBuilder_ != null || campaignId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCampaignId() {
+        public io.dstore.Values.integerValue getCampaignId() {
           if (campaignIdBuilder_ == null) {
-            return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+            return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
           } else {
             return campaignIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
-        public Builder setCampaignId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCampaignId(io.dstore.Values.integerValue value) {
           if (campaignIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2835,14 +2835,14 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
         public Builder setCampaignId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (campaignIdBuilder_ == null) {
             campaignId_ = builderForValue.build();
             onChanged();
@@ -2853,17 +2853,17 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
-        public Builder mergeCampaignId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
           if (campaignIdBuilder_ == null) {
             if (campaignId_ != null) {
               campaignId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
             } else {
               campaignId_ = value;
             }
@@ -2875,7 +2875,7 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
@@ -2893,45 +2893,45 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCampaignIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
           
           onChanged();
           return getCampaignIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
           if (campaignIdBuilder_ != null) {
             return campaignIdBuilder_.getMessageOrBuilder();
           } else {
             return campaignId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * ID einer Verkaufs-Aktion
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCampaignIdFieldBuilder() {
           if (campaignIdBuilder_ == null) {
             campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCampaignId(),
                     getParentForChildren(),
                     isClean());
@@ -2940,11 +2940,11 @@ public final class OmGetCampaignsAd {
           return campaignIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue campaignDescription_ = null;
+        private io.dstore.Values.stringValue campaignDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> campaignDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
@@ -2954,27 +2954,27 @@ public final class OmGetCampaignsAd {
           return campaignDescriptionBuilder_ != null || campaignDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCampaignDescription() {
+        public io.dstore.Values.stringValue getCampaignDescription() {
           if (campaignDescriptionBuilder_ == null) {
-            return campaignDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignDescription_;
+            return campaignDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignDescription_;
           } else {
             return campaignDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public Builder setCampaignDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCampaignDescription(io.dstore.Values.stringValue value) {
           if (campaignDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2988,14 +2988,14 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
         public Builder setCampaignDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (campaignDescriptionBuilder_ == null) {
             campaignDescription_ = builderForValue.build();
             onChanged();
@@ -3006,17 +3006,17 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public Builder mergeCampaignDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCampaignDescription(io.dstore.Values.stringValue value) {
           if (campaignDescriptionBuilder_ == null) {
             if (campaignDescription_ != null) {
               campaignDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(campaignDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(campaignDescription_).mergeFrom(value).buildPartial();
             } else {
               campaignDescription_ = value;
             }
@@ -3028,7 +3028,7 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
@@ -3046,45 +3046,45 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCampaignDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCampaignDescriptionBuilder() {
           
           onChanged();
           return getCampaignDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCampaignDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCampaignDescriptionOrBuilder() {
           if (campaignDescriptionBuilder_ != null) {
             return campaignDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return campaignDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : campaignDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          *
          * <pre>
          * Beschreibung (kann Kommentar, Zeitraum etc. enthalten) der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCampaignDescriptionFieldBuilder() {
           if (campaignDescriptionBuilder_ == null) {
             campaignDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCampaignDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3093,11 +3093,11 @@ public final class OmGetCampaignsAd {
           return campaignDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue campaignTypeId_ = null;
+        private io.dstore.Values.integerValue campaignTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
@@ -3107,27 +3107,27 @@ public final class OmGetCampaignsAd {
           return campaignTypeIdBuilder_ != null || campaignTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCampaignTypeId() {
+        public io.dstore.Values.integerValue getCampaignTypeId() {
           if (campaignTypeIdBuilder_ == null) {
-            return campaignTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+            return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
           } else {
             return campaignTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
-        public Builder setCampaignTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCampaignTypeId(io.dstore.Values.integerValue value) {
           if (campaignTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3141,14 +3141,14 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
         public Builder setCampaignTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (campaignTypeIdBuilder_ == null) {
             campaignTypeId_ = builderForValue.build();
             onChanged();
@@ -3159,17 +3159,17 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
-        public Builder mergeCampaignTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCampaignTypeId(io.dstore.Values.integerValue value) {
           if (campaignTypeIdBuilder_ == null) {
             if (campaignTypeId_ != null) {
               campaignTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
             } else {
               campaignTypeId_ = value;
             }
@@ -3181,7 +3181,7 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
@@ -3199,45 +3199,45 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCampaignTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCampaignTypeIdBuilder() {
           
           onChanged();
           return getCampaignTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
           if (campaignTypeIdBuilder_ != null) {
             return campaignTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return campaignTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          *
          * <pre>
          * ID des "Typs" (von Verkaufs-Aktionen), der "CampaignID" angehört. Anmerkung : Typen sind dazu da, den (dStore-)Benutzer-Kreis zu definieren, von dem die Aktion nur verwendet werden darf (s. "om_GetCampaignTypeRules_Ad").
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCampaignTypeIdFieldBuilder() {
           if (campaignTypeIdBuilder_ == null) {
             campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCampaignTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3246,11 +3246,11 @@ public final class OmGetCampaignsAd {
           return campaignTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue campaignName_ = null;
+        private io.dstore.Values.stringValue campaignName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> campaignNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
@@ -3260,27 +3260,27 @@ public final class OmGetCampaignsAd {
           return campaignNameBuilder_ != null || campaignName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCampaignName() {
+        public io.dstore.Values.stringValue getCampaignName() {
           if (campaignNameBuilder_ == null) {
-            return campaignName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignName_;
+            return campaignName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignName_;
           } else {
             return campaignNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public Builder setCampaignName(io.dstore.engine.Values.stringValue value) {
+        public Builder setCampaignName(io.dstore.Values.stringValue value) {
           if (campaignNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3294,14 +3294,14 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
         public Builder setCampaignName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (campaignNameBuilder_ == null) {
             campaignName_ = builderForValue.build();
             onChanged();
@@ -3312,17 +3312,17 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public Builder mergeCampaignName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCampaignName(io.dstore.Values.stringValue value) {
           if (campaignNameBuilder_ == null) {
             if (campaignName_ != null) {
               campaignName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(campaignName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(campaignName_).mergeFrom(value).buildPartial();
             } else {
               campaignName_ = value;
             }
@@ -3334,7 +3334,7 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
@@ -3352,45 +3352,45 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCampaignNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getCampaignNameBuilder() {
           
           onChanged();
           return getCampaignNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCampaignNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCampaignNameOrBuilder() {
           if (campaignNameBuilder_ != null) {
             return campaignNameBuilder_.getMessageOrBuilder();
           } else {
             return campaignName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : campaignName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_name = 10005;</code>
+         * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          *
          * <pre>
          * Bezeichnung der Verkaufs-Aktion "CampaignID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCampaignNameFieldBuilder() {
           if (campaignNameBuilder_ == null) {
             campaignNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCampaignName(),
                     getParentForChildren(),
                     isClean());
@@ -3399,11 +3399,11 @@ public final class OmGetCampaignsAd {
           return campaignNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue campaignType_ = null;
+        private io.dstore.Values.stringValue campaignType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> campaignTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
@@ -3413,27 +3413,27 @@ public final class OmGetCampaignsAd {
           return campaignTypeBuilder_ != null || campaignType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCampaignType() {
+        public io.dstore.Values.stringValue getCampaignType() {
           if (campaignTypeBuilder_ == null) {
-            return campaignType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignType_;
+            return campaignType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignType_;
           } else {
             return campaignTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
-        public Builder setCampaignType(io.dstore.engine.Values.stringValue value) {
+        public Builder setCampaignType(io.dstore.Values.stringValue value) {
           if (campaignTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3447,14 +3447,14 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
         public Builder setCampaignType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (campaignTypeBuilder_ == null) {
             campaignType_ = builderForValue.build();
             onChanged();
@@ -3465,17 +3465,17 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
-        public Builder mergeCampaignType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCampaignType(io.dstore.Values.stringValue value) {
           if (campaignTypeBuilder_ == null) {
             if (campaignType_ != null) {
               campaignType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(campaignType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(campaignType_).mergeFrom(value).buildPartial();
             } else {
               campaignType_ = value;
             }
@@ -3487,7 +3487,7 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
@@ -3505,45 +3505,45 @@ public final class OmGetCampaignsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCampaignTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getCampaignTypeBuilder() {
           
           onChanged();
           return getCampaignTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCampaignTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCampaignTypeOrBuilder() {
           if (campaignTypeBuilder_ != null) {
             return campaignTypeBuilder_.getMessageOrBuilder();
           } else {
             return campaignType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : campaignType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : campaignType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue campaign_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCampaignTypeFieldBuilder() {
           if (campaignTypeBuilder_ == null) {
             campaignTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCampaignType(),
                     getParentForChildren(),
                     isClean());
@@ -5113,39 +5113,37 @@ public final class OmGetCampaignsAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/om_GetCampaig" +
       "ns_Ad.proto\022 dstore.engine.om_GetCampaig" +
-      "ns_Ad\032\032dstore/engine/values.proto\032\031dstor" +
-      "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"\204\004\n\nParameters\0227\n\013campaign_id\030\001 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022\031" +
-      "\n\020campaign_id_null\030\351\007 \001(\010\022<\n\020campaign_ty" +
-      "pe_id\030\002 \001(\0132\".dstore.engine.values.integ" +
-      "erValue\022\036\n\025campaign_type_id_null\030\352\007 \001(\010\022",
-      "2\n\006active\030\003 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022\024\n\013active_null\030\353\007 \001(\010\022M\n\037fil" +
-      "ter_by_period_start_min_date\030\004 \001(\0132$.dst" +
-      "ore.engine.values.timestampValue\022-\n$filt" +
-      "er_by_period_start_min_date_null\030\354\007 \001(\010\022" +
-      "M\n\037filter_by_period_start_max_date\030\005 \001(\013" +
-      "2$.dstore.engine.values.timestampValue\022-" +
-      "\n$filter_by_period_start_max_date_null\030\355" +
-      "\007 \001(\010\"\354\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
-      "re.engine.error.Error\022H\n\020meta_informatio",
-      "n\030\002 \003(\0132..dstore.engine.metainformation." +
-      "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor" +
-      "e.engine.message.Message\022;\n\003row\030\004 \003(\0132.." +
-      "dstore.engine.om_GetCampaigns_Ad.Respons" +
-      "e.Row\032\374\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0223\n\006active" +
-      "\030\221N \001(\0132\".dstore.engine.values.integerVa" +
-      "lue\0228\n\013campaign_id\030\222N \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022@\n\024campaign_descri" +
-      "ption\030\223N \001(\0132!.dstore.engine.values.stri" +
-      "ngValue\022=\n\020campaign_type_id\030\224N \001(\0132\".dst",
-      "ore.engine.values.integerValue\0229\n\rcampai" +
-      "gn_name\030\225N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\0229\n\rcampaign_type\030\226N \001(\0132!.dsto" +
-      "re.engine.values.stringValueB\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "ns_Ad\032\023dstore/values.proto\032\031dstore/engin" +
+      "e/error.proto\032\033dstore/engine/message.pro" +
+      "to\032#dstore/engine/metainformation.proto\"" +
+      "\341\003\n\nParameters\0220\n\013campaign_id\030\001 \001(\0132\033.ds" +
+      "tore.values.integerValue\022\031\n\020campaign_id_" +
+      "null\030\351\007 \001(\010\0225\n\020campaign_type_id\030\002 \001(\0132\033." +
+      "dstore.values.integerValue\022\036\n\025campaign_t" +
+      "ype_id_null\030\352\007 \001(\010\022+\n\006active\030\003 \001(\0132\033.dst",
+      "ore.values.integerValue\022\024\n\013active_null\030\353" +
+      "\007 \001(\010\022F\n\037filter_by_period_start_min_date" +
+      "\030\004 \001(\0132\035.dstore.values.timestampValue\022-\n" +
+      "$filter_by_period_start_min_date_null\030\354\007" +
+      " \001(\010\022F\n\037filter_by_period_start_max_date\030" +
+      "\005 \001(\0132\035.dstore.values.timestampValue\022-\n$" +
+      "filter_by_period_start_max_date_null\030\355\007 " +
+      "\001(\010\"\302\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore" +
+      ".engine.error.Error\022H\n\020meta_information\030" +
+      "\002 \003(\0132..dstore.engine.metainformation.Me",
+      "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
+      "engine.message.Message\022;\n\003row\030\004 \003(\0132..ds" +
+      "tore.engine.om_GetCampaigns_Ad.Response." +
+      "Row\032\322\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022,\n\006active\030\221" +
+      "N \001(\0132\033.dstore.values.integerValue\0221\n\013ca" +
+      "mpaign_id\030\222N \001(\0132\033.dstore.values.integer" +
+      "Value\0229\n\024campaign_description\030\223N \001(\0132\032.d" +
+      "store.values.stringValue\0226\n\020campaign_typ" +
+      "e_id\030\224N \001(\0132\033.dstore.values.integerValue" +
+      "\0222\n\rcampaign_name\030\225N \001(\0132\032.dstore.values",
+      ".stringValue\0222\n\rcampaign_type\030\226N \001(\0132\032.d" +
+      "store.values.stringValueB\035\n\033io.dstore.en" +
+      "gine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5158,7 +5156,7 @@ public final class OmGetCampaignsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5181,7 +5179,7 @@ public final class OmGetCampaignsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Active", "CampaignId", "CampaignDescription", "CampaignTypeId", "CampaignName", "CampaignType", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

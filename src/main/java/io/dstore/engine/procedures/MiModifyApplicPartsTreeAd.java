@@ -13,17 +13,17 @@ public final class MiModifyApplicPartsTreeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getUserId();
+    io.dstore.Values.integerValue getUserId();
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiModifyApplicPartsTreeAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
      */
     boolean hasApplicationPartId();
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getApplicationPartId();
+    io.dstore.Values.integerValue getApplicationPartId();
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
 
     /**
      * <code>optional bool application_part_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiModifyApplicPartsTreeAd {
     boolean getApplicationPartIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+     * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
      */
     boolean hasPredecessorApplicPartTreeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+     * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getPredecessorApplicPartTreeId();
+    io.dstore.Values.integerValue getPredecessorApplicPartTreeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+     * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPredecessorApplicPartTreeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPredecessorApplicPartTreeIdOrBuilder();
 
     /**
      * <code>optional bool predecessor_applic_part_tree_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiModifyApplicPartsTreeAd {
     boolean getPredecessorApplicPartTreeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+     * <code>optional .dstore.values.integerValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+     * <code>optional .dstore.values.integerValue delete = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getDelete();
+    io.dstore.Values.integerValue getDelete();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+     * <code>optional .dstore.values.integerValue delete = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getDeleteOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class MiModifyApplicPartsTreeAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class MiModifyApplicPartsTreeAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (applicationPartId_ != null) {
                 subBuilder = applicationPartId_.toBuilder();
               }
-              applicationPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              applicationPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(applicationPartId_);
                 applicationPartId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class MiModifyApplicPartsTreeAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (predecessorApplicPartTreeId_ != null) {
                 subBuilder = predecessorApplicPartTreeId_.toBuilder();
               }
-              predecessorApplicPartTreeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              predecessorApplicPartTreeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predecessorApplicPartTreeId_);
                 predecessorApplicPartTreeId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiModifyApplicPartsTreeAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class MiModifyApplicPartsTreeAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue userId_;
+    private io.dstore.Values.integerValue userId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.Values.integerValue getUserId() {
+      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.integerValue user_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -253,23 +253,23 @@ public final class MiModifyApplicPartsTreeAd {
     }
 
     public static final int APPLICATION_PART_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue applicationPartId_;
+    private io.dstore.Values.integerValue applicationPartId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
      */
     public boolean hasApplicationPartId() {
       return applicationPartId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getApplicationPartId() {
-      return applicationPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+    public io.dstore.Values.integerValue getApplicationPartId() {
+      return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
       return getApplicationPartId();
     }
 
@@ -283,23 +283,23 @@ public final class MiModifyApplicPartsTreeAd {
     }
 
     public static final int PREDECESSOR_APPLIC_PART_TREE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue predecessorApplicPartTreeId_;
+    private io.dstore.Values.integerValue predecessorApplicPartTreeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+     * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
      */
     public boolean hasPredecessorApplicPartTreeId() {
       return predecessorApplicPartTreeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+     * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getPredecessorApplicPartTreeId() {
-      return predecessorApplicPartTreeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorApplicPartTreeId_;
+    public io.dstore.Values.integerValue getPredecessorApplicPartTreeId() {
+      return predecessorApplicPartTreeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorApplicPartTreeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+     * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPredecessorApplicPartTreeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPredecessorApplicPartTreeIdOrBuilder() {
       return getPredecessorApplicPartTreeId();
     }
 
@@ -313,23 +313,23 @@ public final class MiModifyApplicPartsTreeAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue delete_;
+    private io.dstore.Values.integerValue delete_;
     /**
-     * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+     * <code>optional .dstore.values.integerValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+     * <code>optional .dstore.values.integerValue delete = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getDelete() {
-      return delete_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : delete_;
+    public io.dstore.Values.integerValue getDelete() {
+      return delete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+     * <code>optional .dstore.values.integerValue delete = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -671,29 +671,29 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue userId_ = null;
+      private io.dstore.Values.integerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getUserId() {
+      public io.dstore.Values.integerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.engine.Values.integerValue value) {
+      public Builder setUserId(io.dstore.Values.integerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.Values.integerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -739,7 +739,7 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.integerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue applicationPartId_ = null;
+      private io.dstore.Values.integerValue applicationPartId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> applicationPartIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationPartIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
       public boolean hasApplicationPartId() {
         return applicationPartIdBuilder_ != null || applicationPartId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getApplicationPartId() {
+      public io.dstore.Values.integerValue getApplicationPartId() {
         if (applicationPartIdBuilder_ == null) {
-          return applicationPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+          return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
         } else {
           return applicationPartIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
-      public Builder setApplicationPartId(io.dstore.engine.Values.integerValue value) {
+      public Builder setApplicationPartId(io.dstore.Values.integerValue value) {
         if (applicationPartIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
       public Builder setApplicationPartId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (applicationPartIdBuilder_ == null) {
           applicationPartId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
-      public Builder mergeApplicationPartId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeApplicationPartId(io.dstore.Values.integerValue value) {
         if (applicationPartIdBuilder_ == null) {
           if (applicationPartId_ != null) {
             applicationPartId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
           } else {
             applicationPartId_ = value;
           }
@@ -882,7 +882,7 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
       public Builder clearApplicationPartId() {
         if (applicationPartIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getApplicationPartIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getApplicationPartIdBuilder() {
         
         onChanged();
         return getApplicationPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
         if (applicationPartIdBuilder_ != null) {
           return applicationPartIdBuilder_.getMessageOrBuilder();
         } else {
           return applicationPartId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getApplicationPartIdFieldBuilder() {
         if (applicationPartIdBuilder_ == null) {
           applicationPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getApplicationPartId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue predecessorApplicPartTreeId_ = null;
+      private io.dstore.Values.integerValue predecessorApplicPartTreeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predecessorApplicPartTreeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorApplicPartTreeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
       public boolean hasPredecessorApplicPartTreeId() {
         return predecessorApplicPartTreeIdBuilder_ != null || predecessorApplicPartTreeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getPredecessorApplicPartTreeId() {
+      public io.dstore.Values.integerValue getPredecessorApplicPartTreeId() {
         if (predecessorApplicPartTreeIdBuilder_ == null) {
-          return predecessorApplicPartTreeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorApplicPartTreeId_;
+          return predecessorApplicPartTreeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorApplicPartTreeId_;
         } else {
           return predecessorApplicPartTreeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
-      public Builder setPredecessorApplicPartTreeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPredecessorApplicPartTreeId(io.dstore.Values.integerValue value) {
         if (predecessorApplicPartTreeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
       public Builder setPredecessorApplicPartTreeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (predecessorApplicPartTreeIdBuilder_ == null) {
           predecessorApplicPartTreeId_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
-      public Builder mergePredecessorApplicPartTreeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePredecessorApplicPartTreeId(io.dstore.Values.integerValue value) {
         if (predecessorApplicPartTreeIdBuilder_ == null) {
           if (predecessorApplicPartTreeId_ != null) {
             predecessorApplicPartTreeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(predecessorApplicPartTreeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(predecessorApplicPartTreeId_).mergeFrom(value).buildPartial();
           } else {
             predecessorApplicPartTreeId_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
       public Builder clearPredecessorApplicPartTreeId() {
         if (predecessorApplicPartTreeIdBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPredecessorApplicPartTreeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPredecessorApplicPartTreeIdBuilder() {
         
         onChanged();
         return getPredecessorApplicPartTreeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredecessorApplicPartTreeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredecessorApplicPartTreeIdOrBuilder() {
         if (predecessorApplicPartTreeIdBuilder_ != null) {
           return predecessorApplicPartTreeIdBuilder_.getMessageOrBuilder();
         } else {
           return predecessorApplicPartTreeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorApplicPartTreeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : predecessorApplicPartTreeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor_applic_part_tree_id = 3;</code>
+       * <code>optional .dstore.values.integerValue predecessor_applic_part_tree_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPredecessorApplicPartTreeIdFieldBuilder() {
         if (predecessorApplicPartTreeIdBuilder_ == null) {
           predecessorApplicPartTreeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPredecessorApplicPartTreeId(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue delete_ = null;
+      private io.dstore.Values.integerValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> deleteBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getDelete() {
+      public io.dstore.Values.integerValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
-      public Builder setDelete(io.dstore.engine.Values.integerValue value) {
+      public Builder setDelete(io.dstore.Values.integerValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
       public Builder setDelete(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
-      public Builder mergeDelete(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeDelete(io.dstore.Values.integerValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.engine.Values.integerValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getDeleteBuilder() {
+      public io.dstore.Values.integerValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : delete_;
+              io.dstore.Values.integerValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete = 4;</code>
+       * <code>optional .dstore.values.integerValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -1390,17 +1390,17 @@ public final class MiModifyApplicPartsTreeAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+     * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
      */
     boolean hasApplicationPartTreeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+     * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getApplicationPartTreeId();
+    io.dstore.Values.integerValue getApplicationPartTreeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+     * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getApplicationPartTreeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getApplicationPartTreeIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_ModifyApplicPartsTree_Ad.Response}
@@ -1481,11 +1481,11 @@ public final class MiModifyApplicPartsTreeAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (applicationPartTreeId_ != null) {
                 subBuilder = applicationPartTreeId_.toBuilder();
               }
-              applicationPartTreeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              applicationPartTreeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(applicationPartTreeId_);
                 applicationPartTreeId_ = subBuilder.buildPartial();
@@ -2029,23 +2029,23 @@ public final class MiModifyApplicPartsTreeAd {
     }
 
     public static final int APPLICATION_PART_TREE_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue applicationPartTreeId_;
+    private io.dstore.Values.integerValue applicationPartTreeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+     * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
      */
     public boolean hasApplicationPartTreeId() {
       return applicationPartTreeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+     * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getApplicationPartTreeId() {
-      return applicationPartTreeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartTreeId_;
+    public io.dstore.Values.integerValue getApplicationPartTreeId() {
+      return applicationPartTreeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartTreeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+     * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
       return getApplicationPartTreeId();
     }
 
@@ -3272,29 +3272,29 @@ public final class MiModifyApplicPartsTreeAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue applicationPartTreeId_ = null;
+      private io.dstore.Values.integerValue applicationPartTreeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> applicationPartTreeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationPartTreeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
       public boolean hasApplicationPartTreeId() {
         return applicationPartTreeIdBuilder_ != null || applicationPartTreeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getApplicationPartTreeId() {
+      public io.dstore.Values.integerValue getApplicationPartTreeId() {
         if (applicationPartTreeIdBuilder_ == null) {
-          return applicationPartTreeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartTreeId_;
+          return applicationPartTreeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartTreeId_;
         } else {
           return applicationPartTreeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
-      public Builder setApplicationPartTreeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setApplicationPartTreeId(io.dstore.Values.integerValue value) {
         if (applicationPartTreeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3308,10 +3308,10 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
       public Builder setApplicationPartTreeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (applicationPartTreeIdBuilder_ == null) {
           applicationPartTreeId_ = builderForValue.build();
           onChanged();
@@ -3322,13 +3322,13 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
-      public Builder mergeApplicationPartTreeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeApplicationPartTreeId(io.dstore.Values.integerValue value) {
         if (applicationPartTreeIdBuilder_ == null) {
           if (applicationPartTreeId_ != null) {
             applicationPartTreeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(applicationPartTreeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(applicationPartTreeId_).mergeFrom(value).buildPartial();
           } else {
             applicationPartTreeId_ = value;
           }
@@ -3340,7 +3340,7 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
       public Builder clearApplicationPartTreeId() {
         if (applicationPartTreeIdBuilder_ == null) {
@@ -3354,33 +3354,33 @@ public final class MiModifyApplicPartsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getApplicationPartTreeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getApplicationPartTreeIdBuilder() {
         
         onChanged();
         return getApplicationPartTreeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
         if (applicationPartTreeIdBuilder_ != null) {
           return applicationPartTreeIdBuilder_.getMessageOrBuilder();
         } else {
           return applicationPartTreeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartTreeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : applicationPartTreeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_tree_id = 101;</code>
+       * <code>optional .dstore.values.integerValue application_part_tree_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getApplicationPartTreeIdFieldBuilder() {
         if (applicationPartTreeIdBuilder_ == null) {
           applicationPartTreeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getApplicationPartTreeId(),
                   getParentForChildren(),
                   isClean());
@@ -3472,29 +3472,28 @@ public final class MiModifyApplicPartsTreeAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/mi_ModifyAppl" +
       "icPartsTree_Ad.proto\022)dstore.engine.mi_M" +
-      "odifyApplicPartsTree_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\202\003\n\nParameters\022" +
-      "3\n\007user_id\030\001 \001(\0132\".dstore.engine.values." +
-      "integerValue\022\025\n\014user_id_null\030\351\007 \001(\010\022?\n\023a" +
-      "pplication_part_id\030\002 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022!\n\030application_part",
-      "_id_null\030\352\007 \001(\010\022K\n\037predecessor_applic_pa" +
-      "rt_tree_id\030\003 \001(\0132\".dstore.engine.values." +
-      "integerValue\022-\n$predecessor_applic_part_" +
-      "tree_id_null\030\353\007 \001(\010\0222\n\006delete\030\004 \001(\0132\".ds" +
-      "tore.engine.values.integerValue\022\024\n\013delet" +
-      "e_null\030\354\007 \001(\010\"\324\002\n\010Response\022)\n\005error\030\001 \001(" +
-      "\0132\032.dstore.engine.error.Error\022H\n\020meta_in" +
-      "formation\030\002 \003(\0132..dstore.engine.metainfo" +
-      "rmation.MetaInformation\022/\n\007message\030\003 \003(\013" +
-      "2\036.dstore.engine.message.Message\022D\n\003row\030",
-      "\004 \003(\01327.dstore.engine.mi_ModifyApplicPar" +
-      "tsTree_Ad.Response.Row\022D\n\030application_pa" +
-      "rt_tree_id\030e \001(\0132\".dstore.engine.values." +
-      "integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "odifyApplicPartsTree_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\346\002\n\nParameters\022,\n\007user" +
+      "_id\030\001 \001(\0132\033.dstore.values.integerValue\022\025" +
+      "\n\014user_id_null\030\351\007 \001(\010\0228\n\023application_par" +
+      "t_id\030\002 \001(\0132\033.dstore.values.integerValue\022" +
+      "!\n\030application_part_id_null\030\352\007 \001(\010\022D\n\037pr",
+      "edecessor_applic_part_tree_id\030\003 \001(\0132\033.ds" +
+      "tore.values.integerValue\022-\n$predecessor_" +
+      "applic_part_tree_id_null\030\353\007 \001(\010\022+\n\006delet" +
+      "e\030\004 \001(\0132\033.dstore.values.integerValue\022\024\n\013" +
+      "delete_null\030\354\007 \001(\010\"\315\002\n\010Response\022)\n\005error" +
+      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
+      "ta_information\030\002 \003(\0132..dstore.engine.met" +
+      "ainformation.MetaInformation\022/\n\007message\030" +
+      "\003 \003(\0132\036.dstore.engine.message.Message\022D\n" +
+      "\003row\030\004 \003(\01327.dstore.engine.mi_ModifyAppl",
+      "icPartsTree_Ad.Response.Row\022=\n\030applicati" +
+      "on_part_tree_id\030e \001(\0132\033.dstore.values.in" +
+      "tegerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io" +
+      ".dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3507,7 +3506,7 @@ public final class MiModifyApplicPartsTreeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3530,7 +3529,7 @@ public final class MiModifyApplicPartsTreeAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyApplicPartsTree_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

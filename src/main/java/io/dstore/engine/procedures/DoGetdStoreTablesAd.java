@@ -13,17 +13,17 @@ public final class DoGetdStoreTablesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getTableName();
+    io.dstore.Values.stringValue getTableName();
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
     /**
      * <code>optional bool table_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class DoGetdStoreTablesAd {
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
      */
     boolean hasTableCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getTableCategoryId();
+    io.dstore.Values.integerValue getTableCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTableCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTableCategoryIdOrBuilder();
 
     /**
      * <code>optional bool table_category_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class DoGetdStoreTablesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (tableName_ != null) {
                 subBuilder = tableName_.toBuilder();
               }
-              tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableName_);
                 tableName_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class DoGetdStoreTablesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (tableCategoryId_ != null) {
                 subBuilder = tableCategoryId_.toBuilder();
               }
-              tableCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              tableCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableCategoryId_);
                 tableCategoryId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class DoGetdStoreTablesAd {
     }
 
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue tableName_;
+    private io.dstore.Values.stringValue tableName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getTableName() {
-      return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+    public io.dstore.Values.stringValue getTableName() {
+      return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.stringValue table_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
     }
 
@@ -179,23 +179,23 @@ public final class DoGetdStoreTablesAd {
     }
 
     public static final int TABLE_CATEGORY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue tableCategoryId_;
+    private io.dstore.Values.integerValue tableCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
      */
     public boolean hasTableCategoryId() {
       return tableCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getTableCategoryId() {
-      return tableCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableCategoryId_;
+    public io.dstore.Values.integerValue getTableCategoryId() {
+      return tableCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
       return getTableCategoryId();
     }
 
@@ -469,29 +469,29 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue tableName_ = null;
+      private io.dstore.Values.stringValue tableName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getTableName() {
+      public io.dstore.Values.stringValue getTableName() {
         if (tableNameBuilder_ == null) {
-          return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+          return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
         } else {
           return tableNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public Builder setTableName(io.dstore.engine.Values.stringValue value) {
+      public Builder setTableName(io.dstore.Values.stringValue value) {
         if (tableNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       public Builder setTableName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (tableNameBuilder_ == null) {
           tableName_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public Builder mergeTableName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeTableName(io.dstore.Values.stringValue value) {
         if (tableNameBuilder_ == null) {
           if (tableName_ != null) {
             tableName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
           } else {
             tableName_ = value;
           }
@@ -537,7 +537,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getTableNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
         
         onChanged();
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
           return tableNameBuilder_.getMessageOrBuilder();
         } else {
           return tableName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.stringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTableNameFieldBuilder() {
         if (tableNameBuilder_ == null) {
           tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTableName(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue tableCategoryId_ = null;
+      private io.dstore.Values.integerValue tableCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> tableCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
       public boolean hasTableCategoryId() {
         return tableCategoryIdBuilder_ != null || tableCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getTableCategoryId() {
+      public io.dstore.Values.integerValue getTableCategoryId() {
         if (tableCategoryIdBuilder_ == null) {
-          return tableCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableCategoryId_;
+          return tableCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableCategoryId_;
         } else {
           return tableCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
-      public Builder setTableCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTableCategoryId(io.dstore.Values.integerValue value) {
         if (tableCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
       public Builder setTableCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (tableCategoryIdBuilder_ == null) {
           tableCategoryId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
-      public Builder mergeTableCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTableCategoryId(io.dstore.Values.integerValue value) {
         if (tableCategoryIdBuilder_ == null) {
           if (tableCategoryId_ != null) {
             tableCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(tableCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(tableCategoryId_).mergeFrom(value).buildPartial();
           } else {
             tableCategoryId_ = value;
           }
@@ -680,7 +680,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
       public Builder clearTableCategoryId() {
         if (tableCategoryIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTableCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTableCategoryIdBuilder() {
         
         onChanged();
         return getTableCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
         if (tableCategoryIdBuilder_ != null) {
           return tableCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return tableCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : tableCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : tableCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTableCategoryIdFieldBuilder() {
         if (tableCategoryIdBuilder_ == null) {
           tableCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTableCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class DoGetdStoreTablesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
@@ -1050,24 +1050,24 @@ public final class DoGetdStoreTablesAd {
        */
       boolean hasTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTableName();
+      io.dstore.Values.stringValue getTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
        *
        * <pre>
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
@@ -1075,24 +1075,24 @@ public final class DoGetdStoreTablesAd {
        */
       boolean hasTableCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
        *
        * <pre>
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTableCategoryId();
+      io.dstore.Values.integerValue getTableCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
        *
        * <pre>
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTableCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTableCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
@@ -1100,24 +1100,24 @@ public final class DoGetdStoreTablesAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+       * <code>optional .dstore.values.stringValue table_category = 10004;</code>
        *
        * <pre>
        * Der Name von "TableCategoryID"
@@ -1125,21 +1125,21 @@ public final class DoGetdStoreTablesAd {
        */
       boolean hasTableCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+       * <code>optional .dstore.values.stringValue table_category = 10004;</code>
        *
        * <pre>
        * Der Name von "TableCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTableCategory();
+      io.dstore.Values.stringValue getTableCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+       * <code>optional .dstore.values.stringValue table_category = 10004;</code>
        *
        * <pre>
        * Der Name von "TableCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTableCategoryOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTableCategoryOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetdStoreTables_Ad.Response.Row}
@@ -1186,11 +1186,11 @@ public final class DoGetdStoreTablesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -1199,11 +1199,11 @@ public final class DoGetdStoreTablesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (tableCategoryId_ != null) {
                   subBuilder = tableCategoryId_.toBuilder();
                 }
-                tableCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                tableCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableCategoryId_);
                   tableCategoryId_ = subBuilder.buildPartial();
@@ -1212,11 +1212,11 @@ public final class DoGetdStoreTablesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1225,11 +1225,11 @@ public final class DoGetdStoreTablesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (tableCategory_ != null) {
                   subBuilder = tableCategory_.toBuilder();
                 }
-                tableCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                tableCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableCategory_);
                   tableCategory_ = subBuilder.buildPartial();
@@ -1271,9 +1271,9 @@ public final class DoGetdStoreTablesAd {
       }
 
       public static final int TABLE_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue tableName_;
+      private io.dstore.Values.stringValue tableName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
@@ -1283,30 +1283,30 @@ public final class DoGetdStoreTablesAd {
         return tableName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTableName() {
-        return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+      public io.dstore.Values.stringValue getTableName() {
+        return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
       }
 
       public static final int TABLE_CATEGORY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue tableCategoryId_;
+      private io.dstore.Values.integerValue tableCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
        *
        * <pre>
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
@@ -1316,30 +1316,30 @@ public final class DoGetdStoreTablesAd {
         return tableCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
        *
        * <pre>
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTableCategoryId() {
-        return tableCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableCategoryId_;
+      public io.dstore.Values.integerValue getTableCategoryId() {
+        return tableCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
        *
        * <pre>
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
         return getTableCategoryId();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
@@ -1349,30 +1349,30 @@ public final class DoGetdStoreTablesAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.stringValue description = 10003;</code>
        *
        * <pre>
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int TABLE_CATEGORY_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue tableCategory_;
+      private io.dstore.Values.stringValue tableCategory_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+       * <code>optional .dstore.values.stringValue table_category = 10004;</code>
        *
        * <pre>
        * Der Name von "TableCategoryID"
@@ -1382,23 +1382,23 @@ public final class DoGetdStoreTablesAd {
         return tableCategory_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+       * <code>optional .dstore.values.stringValue table_category = 10004;</code>
        *
        * <pre>
        * Der Name von "TableCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTableCategory() {
-        return tableCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableCategory_;
+      public io.dstore.Values.stringValue getTableCategory() {
+        return tableCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableCategory_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+       * <code>optional .dstore.values.stringValue table_category = 10004;</code>
        *
        * <pre>
        * Der Name von "TableCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableCategoryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableCategoryOrBuilder() {
         return getTableCategory();
       }
 
@@ -1718,11 +1718,11 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue tableName_ = null;
+        private io.dstore.Values.stringValue tableName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
@@ -1732,27 +1732,27 @@ public final class DoGetdStoreTablesAd {
           return tableNameBuilder_ != null || tableName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTableName() {
+        public io.dstore.Values.stringValue getTableName() {
           if (tableNameBuilder_ == null) {
-            return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+            return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           } else {
             return tableNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
-        public Builder setTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder setTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1766,14 +1766,14 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
         public Builder setTableName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (tableNameBuilder_ == null) {
             tableName_ = builderForValue.build();
             onChanged();
@@ -1784,17 +1784,17 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
-        public Builder mergeTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (tableName_ != null) {
               tableName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
             } else {
               tableName_ = value;
             }
@@ -1806,7 +1806,7 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
@@ -1824,45 +1824,45 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTableNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
           
           onChanged();
           return getTableNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
             return tableNameBuilder_.getMessageOrBuilder();
           } else {
             return tableName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
             tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
                     isClean());
@@ -1871,11 +1871,11 @@ public final class DoGetdStoreTablesAd {
           return tableNameBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue tableCategoryId_ = null;
+        private io.dstore.Values.integerValue tableCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> tableCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
@@ -1885,27 +1885,27 @@ public final class DoGetdStoreTablesAd {
           return tableCategoryIdBuilder_ != null || tableCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTableCategoryId() {
+        public io.dstore.Values.integerValue getTableCategoryId() {
           if (tableCategoryIdBuilder_ == null) {
-            return tableCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : tableCategoryId_;
+            return tableCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableCategoryId_;
           } else {
             return tableCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
-        public Builder setTableCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTableCategoryId(io.dstore.Values.integerValue value) {
           if (tableCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1919,14 +1919,14 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
         public Builder setTableCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (tableCategoryIdBuilder_ == null) {
             tableCategoryId_ = builderForValue.build();
             onChanged();
@@ -1937,17 +1937,17 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
-        public Builder mergeTableCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTableCategoryId(io.dstore.Values.integerValue value) {
           if (tableCategoryIdBuilder_ == null) {
             if (tableCategoryId_ != null) {
               tableCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(tableCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(tableCategoryId_).mergeFrom(value).buildPartial();
             } else {
               tableCategoryId_ = value;
             }
@@ -1959,7 +1959,7 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
@@ -1977,45 +1977,45 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTableCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTableCategoryIdBuilder() {
           
           onChanged();
           return getTableCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTableCategoryIdOrBuilder() {
           if (tableCategoryIdBuilder_ != null) {
             return tableCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return tableCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : tableCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : tableCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue table_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue table_category_id = 10002;</code>
          *
          * <pre>
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableCategoryIdFieldBuilder() {
           if (tableCategoryIdBuilder_ == null) {
             tableCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -2024,11 +2024,11 @@ public final class DoGetdStoreTablesAd {
           return tableCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
@@ -2038,27 +2038,27 @@ public final class DoGetdStoreTablesAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2072,14 +2072,14 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2090,17 +2090,17 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2112,7 +2112,7 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
@@ -2130,45 +2130,45 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.stringValue description = 10003;</code>
          *
          * <pre>
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2177,11 +2177,11 @@ public final class DoGetdStoreTablesAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue tableCategory_ = null;
+        private io.dstore.Values.stringValue tableCategory_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableCategoryBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableCategoryBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
@@ -2191,27 +2191,27 @@ public final class DoGetdStoreTablesAd {
           return tableCategoryBuilder_ != null || tableCategory_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTableCategory() {
+        public io.dstore.Values.stringValue getTableCategory() {
           if (tableCategoryBuilder_ == null) {
-            return tableCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableCategory_;
+            return tableCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableCategory_;
           } else {
             return tableCategoryBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
-        public Builder setTableCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder setTableCategory(io.dstore.Values.stringValue value) {
           if (tableCategoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2225,14 +2225,14 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
         public Builder setTableCategory(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (tableCategoryBuilder_ == null) {
             tableCategory_ = builderForValue.build();
             onChanged();
@@ -2243,17 +2243,17 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
-        public Builder mergeTableCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTableCategory(io.dstore.Values.stringValue value) {
           if (tableCategoryBuilder_ == null) {
             if (tableCategory_ != null) {
               tableCategory_ =
-                io.dstore.engine.Values.stringValue.newBuilder(tableCategory_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(tableCategory_).mergeFrom(value).buildPartial();
             } else {
               tableCategory_ = value;
             }
@@ -2265,7 +2265,7 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
@@ -2283,45 +2283,45 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTableCategoryBuilder() {
+        public io.dstore.Values.stringValue.Builder getTableCategoryBuilder() {
           
           onChanged();
           return getTableCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTableCategoryOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTableCategoryOrBuilder() {
           if (tableCategoryBuilder_ != null) {
             return tableCategoryBuilder_.getMessageOrBuilder();
           } else {
             return tableCategory_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : tableCategory_;
+                io.dstore.Values.stringValue.getDefaultInstance() : tableCategory_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_category = 10004;</code>
+         * <code>optional .dstore.values.stringValue table_category = 10004;</code>
          *
          * <pre>
          * Der Name von "TableCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableCategoryFieldBuilder() {
           if (tableCategoryBuilder_ == null) {
             tableCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableCategory(),
                     getParentForChildren(),
                     isClean());
@@ -3891,28 +3891,27 @@ public final class DoGetdStoreTablesAd {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/do_GetdStoreT" +
       "ables_Ad.proto\022#dstore.engine.do_GetdSto" +
-      "reTables_Ad\032\032dstore/engine/values.proto\032" +
-      "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\032#dstore/engine/metainfor" +
-      "mation.proto\"\275\001\n\nParameters\0225\n\ntable_nam" +
-      "e\030\001 \001(\0132!.dstore.engine.values.stringVal" +
-      "ue\022\030\n\017table_name_null\030\351\007 \001(\010\022=\n\021table_ca" +
-      "tegory_id\030\002 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022\037\n\026table_category_id_null\030\352\007",
-      " \001(\010\"\366\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
-      "e.engine.error.Error\022H\n\020meta_information" +
-      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
-      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
-      ".engine.message.Message\022>\n\003row\030\004 \003(\01321.d" +
-      "store.engine.do_GetdStoreTables_Ad.Respo" +
-      "nse.Row\032\203\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n\ntabl" +
-      "e_name\030\221N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022>\n\021table_category_id\030\222N \001(\0132\".d" +
-      "store.engine.values.integerValue\0227\n\013desc",
-      "ription\030\223N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022:\n\016table_category\030\224N \001(\0132!.dst" +
-      "ore.engine.values.stringValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "reTables_Ad\032\023dstore/values.proto\032\031dstore" +
+      "/engine/error.proto\032\033dstore/engine/messa" +
+      "ge.proto\032#dstore/engine/metainformation." +
+      "proto\"\257\001\n\nParameters\022.\n\ntable_name\030\001 \001(\013" +
+      "2\032.dstore.values.stringValue\022\030\n\017table_na" +
+      "me_null\030\351\007 \001(\010\0226\n\021table_category_id\030\002 \001(" +
+      "\0132\033.dstore.values.integerValue\022\037\n\026table_" +
+      "category_id_null\030\352\007 \001(\010\"\332\003\n\010Response\022)\n\005",
+      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
+      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
+      "e.metainformation.MetaInformation\022/\n\007mes" +
+      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa" +
+      "ge\022>\n\003row\030\004 \003(\01321.dstore.engine.do_GetdS" +
+      "toreTables_Ad.Response.Row\032\347\001\n\003Row\022\017\n\006ro" +
+      "w_id\030\220N \001(\005\022/\n\ntable_name\030\221N \001(\0132\032.dstor" +
+      "e.values.stringValue\0227\n\021table_category_i" +
+      "d\030\222N \001(\0132\033.dstore.values.integerValue\0220\n" +
+      "\013description\030\223N \001(\0132\032.dstore.values.stri",
+      "ngValue\0223\n\016table_category\030\224N \001(\0132\032.dstor" +
+      "e.values.stringValueB\035\n\033io.dstore.engine" +
+      ".proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3925,7 +3924,7 @@ public final class DoGetdStoreTablesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3948,7 +3947,7 @@ public final class DoGetdStoreTablesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_do_GetdStoreTables_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableName", "TableCategoryId", "Description", "TableCategory", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

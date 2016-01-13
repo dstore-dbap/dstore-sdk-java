@@ -13,17 +13,17 @@ public final class OmGetVCodeOriginTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
      */
     boolean hasVoucherCodeOriginTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getVoucherCodeOriginTypeId();
+    io.dstore.Values.integerValue getVoucherCodeOriginTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getVoucherCodeOriginTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getVoucherCodeOriginTypeIdOrBuilder();
 
     /**
      * <code>optional bool voucher_code_origin_type_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class OmGetVCodeOriginTypesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (voucherCodeOriginTypeId_ != null) {
                 subBuilder = voucherCodeOriginTypeId_.toBuilder();
               }
-              voucherCodeOriginTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              voucherCodeOriginTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherCodeOriginTypeId_);
                 voucherCodeOriginTypeId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class OmGetVCodeOriginTypesAd {
     }
 
     public static final int VOUCHER_CODE_ORIGIN_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue voucherCodeOriginTypeId_;
+    private io.dstore.Values.integerValue voucherCodeOriginTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
      */
     public boolean hasVoucherCodeOriginTypeId() {
       return voucherCodeOriginTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getVoucherCodeOriginTypeId() {
-      return voucherCodeOriginTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : voucherCodeOriginTypeId_;
+    public io.dstore.Values.integerValue getVoucherCodeOriginTypeId() {
+      return voucherCodeOriginTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherCodeOriginTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getVoucherCodeOriginTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getVoucherCodeOriginTypeIdOrBuilder() {
       return getVoucherCodeOriginTypeId();
     }
 
@@ -368,29 +368,29 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue voucherCodeOriginTypeId_ = null;
+      private io.dstore.Values.integerValue voucherCodeOriginTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> voucherCodeOriginTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherCodeOriginTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
       public boolean hasVoucherCodeOriginTypeId() {
         return voucherCodeOriginTypeIdBuilder_ != null || voucherCodeOriginTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getVoucherCodeOriginTypeId() {
+      public io.dstore.Values.integerValue getVoucherCodeOriginTypeId() {
         if (voucherCodeOriginTypeIdBuilder_ == null) {
-          return voucherCodeOriginTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : voucherCodeOriginTypeId_;
+          return voucherCodeOriginTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherCodeOriginTypeId_;
         } else {
           return voucherCodeOriginTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
-      public Builder setVoucherCodeOriginTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setVoucherCodeOriginTypeId(io.dstore.Values.integerValue value) {
         if (voucherCodeOriginTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
       public Builder setVoucherCodeOriginTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (voucherCodeOriginTypeIdBuilder_ == null) {
           voucherCodeOriginTypeId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
-      public Builder mergeVoucherCodeOriginTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeVoucherCodeOriginTypeId(io.dstore.Values.integerValue value) {
         if (voucherCodeOriginTypeIdBuilder_ == null) {
           if (voucherCodeOriginTypeId_ != null) {
             voucherCodeOriginTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(voucherCodeOriginTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(voucherCodeOriginTypeId_).mergeFrom(value).buildPartial();
           } else {
             voucherCodeOriginTypeId_ = value;
           }
@@ -436,7 +436,7 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
       public Builder clearVoucherCodeOriginTypeId() {
         if (voucherCodeOriginTypeIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class OmGetVCodeOriginTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getVoucherCodeOriginTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getVoucherCodeOriginTypeIdBuilder() {
         
         onChanged();
         return getVoucherCodeOriginTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVoucherCodeOriginTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVoucherCodeOriginTypeIdOrBuilder() {
         if (voucherCodeOriginTypeIdBuilder_ != null) {
           return voucherCodeOriginTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return voucherCodeOriginTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : voucherCodeOriginTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : voucherCodeOriginTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue voucher_code_origin_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue voucher_code_origin_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVoucherCodeOriginTypeIdFieldBuilder() {
         if (voucherCodeOriginTypeIdBuilder_ == null) {
           voucherCodeOriginTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVoucherCodeOriginTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class OmGetVCodeOriginTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
@@ -806,24 +806,24 @@ public final class OmGetVCodeOriginTypesAd {
        */
       boolean hasVCodeOriginType();
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getVCodeOriginType();
+      io.dstore.Values.stringValue getVCodeOriginType();
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
@@ -831,24 +831,24 @@ public final class OmGetVCodeOriginTypesAd {
        */
       boolean hasVCodeOriginTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getVCodeOriginTypeId();
+      io.dstore.Values.integerValue getVCodeOriginTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
@@ -856,21 +856,21 @@ public final class OmGetVCodeOriginTypesAd {
        */
       boolean hasVCodeOriginTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getVCodeOriginTypeDescription();
+      io.dstore.Values.stringValue getVCodeOriginTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetVCodeOriginTypes_Ad.Response.Row}
@@ -917,11 +917,11 @@ public final class OmGetVCodeOriginTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (vCodeOriginType_ != null) {
                   subBuilder = vCodeOriginType_.toBuilder();
                 }
-                vCodeOriginType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                vCodeOriginType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(vCodeOriginType_);
                   vCodeOriginType_ = subBuilder.buildPartial();
@@ -930,11 +930,11 @@ public final class OmGetVCodeOriginTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (vCodeOriginTypeId_ != null) {
                   subBuilder = vCodeOriginTypeId_.toBuilder();
                 }
-                vCodeOriginTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                vCodeOriginTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(vCodeOriginTypeId_);
                   vCodeOriginTypeId_ = subBuilder.buildPartial();
@@ -943,11 +943,11 @@ public final class OmGetVCodeOriginTypesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (vCodeOriginTypeDescription_ != null) {
                   subBuilder = vCodeOriginTypeDescription_.toBuilder();
                 }
-                vCodeOriginTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                vCodeOriginTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(vCodeOriginTypeDescription_);
                   vCodeOriginTypeDescription_ = subBuilder.buildPartial();
@@ -989,9 +989,9 @@ public final class OmGetVCodeOriginTypesAd {
       }
 
       public static final int V_CODE_ORIGIN_TYPE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue vCodeOriginType_;
+      private io.dstore.Values.stringValue vCodeOriginType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
@@ -1001,30 +1001,30 @@ public final class OmGetVCodeOriginTypesAd {
         return vCodeOriginType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getVCodeOriginType() {
-        return vCodeOriginType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
+      public io.dstore.Values.stringValue getVCodeOriginType() {
+        return vCodeOriginType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder() {
         return getVCodeOriginType();
       }
 
       public static final int V_CODE_ORIGIN_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue vCodeOriginTypeId_;
+      private io.dstore.Values.integerValue vCodeOriginTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
@@ -1034,30 +1034,30 @@ public final class OmGetVCodeOriginTypesAd {
         return vCodeOriginTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getVCodeOriginTypeId() {
-        return vCodeOriginTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
+      public io.dstore.Values.integerValue getVCodeOriginTypeId() {
+        return vCodeOriginTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
        *
        * <pre>
        * ID einer Herkunftsart von Gutschein-Codes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
         return getVCodeOriginTypeId();
       }
 
       public static final int V_CODE_ORIGIN_TYPE_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue vCodeOriginTypeDescription_;
+      private io.dstore.Values.stringValue vCodeOriginTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
@@ -1067,23 +1067,23 @@ public final class OmGetVCodeOriginTypesAd {
         return vCodeOriginTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getVCodeOriginTypeDescription() {
-        return vCodeOriginTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
+      public io.dstore.Values.stringValue getVCodeOriginTypeDescription() {
+        return vCodeOriginTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
        *
        * <pre>
        * Beschreibung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder() {
         return getVCodeOriginTypeDescription();
       }
 
@@ -1382,11 +1382,11 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue vCodeOriginType_ = null;
+        private io.dstore.Values.stringValue vCodeOriginType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> vCodeOriginTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> vCodeOriginTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
@@ -1396,27 +1396,27 @@ public final class OmGetVCodeOriginTypesAd {
           return vCodeOriginTypeBuilder_ != null || vCodeOriginType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getVCodeOriginType() {
+        public io.dstore.Values.stringValue getVCodeOriginType() {
           if (vCodeOriginTypeBuilder_ == null) {
-            return vCodeOriginType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
+            return vCodeOriginType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
           } else {
             return vCodeOriginTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public Builder setVCodeOriginType(io.dstore.engine.Values.stringValue value) {
+        public Builder setVCodeOriginType(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1430,14 +1430,14 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
         public Builder setVCodeOriginType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (vCodeOriginTypeBuilder_ == null) {
             vCodeOriginType_ = builderForValue.build();
             onChanged();
@@ -1448,17 +1448,17 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public Builder mergeVCodeOriginType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeVCodeOriginType(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeBuilder_ == null) {
             if (vCodeOriginType_ != null) {
               vCodeOriginType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(vCodeOriginType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(vCodeOriginType_).mergeFrom(value).buildPartial();
             } else {
               vCodeOriginType_ = value;
             }
@@ -1470,7 +1470,7 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
@@ -1488,45 +1488,45 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getVCodeOriginTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getVCodeOriginTypeBuilder() {
           
           onChanged();
           return getVCodeOriginTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeOrBuilder() {
           if (vCodeOriginTypeBuilder_ != null) {
             return vCodeOriginTypeBuilder_.getMessageOrBuilder();
           } else {
             return vCodeOriginType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type = 10001;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getVCodeOriginTypeFieldBuilder() {
           if (vCodeOriginTypeBuilder_ == null) {
             vCodeOriginTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getVCodeOriginType(),
                     getParentForChildren(),
                     isClean());
@@ -1535,11 +1535,11 @@ public final class OmGetVCodeOriginTypesAd {
           return vCodeOriginTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue vCodeOriginTypeId_ = null;
+        private io.dstore.Values.integerValue vCodeOriginTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> vCodeOriginTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> vCodeOriginTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
@@ -1549,27 +1549,27 @@ public final class OmGetVCodeOriginTypesAd {
           return vCodeOriginTypeIdBuilder_ != null || vCodeOriginTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getVCodeOriginTypeId() {
+        public io.dstore.Values.integerValue getVCodeOriginTypeId() {
           if (vCodeOriginTypeIdBuilder_ == null) {
-            return vCodeOriginTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
+            return vCodeOriginTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
           } else {
             return vCodeOriginTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
-        public Builder setVCodeOriginTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setVCodeOriginTypeId(io.dstore.Values.integerValue value) {
           if (vCodeOriginTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1583,14 +1583,14 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
         public Builder setVCodeOriginTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (vCodeOriginTypeIdBuilder_ == null) {
             vCodeOriginTypeId_ = builderForValue.build();
             onChanged();
@@ -1601,17 +1601,17 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
-        public Builder mergeVCodeOriginTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeVCodeOriginTypeId(io.dstore.Values.integerValue value) {
           if (vCodeOriginTypeIdBuilder_ == null) {
             if (vCodeOriginTypeId_ != null) {
               vCodeOriginTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(vCodeOriginTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(vCodeOriginTypeId_).mergeFrom(value).buildPartial();
             } else {
               vCodeOriginTypeId_ = value;
             }
@@ -1623,7 +1623,7 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
@@ -1641,45 +1641,45 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getVCodeOriginTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getVCodeOriginTypeIdBuilder() {
           
           onChanged();
           return getVCodeOriginTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
           if (vCodeOriginTypeIdBuilder_ != null) {
             return vCodeOriginTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return vCodeOriginTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : vCodeOriginTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue v_code_origin_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue v_code_origin_type_id = 10002;</code>
          *
          * <pre>
          * ID einer Herkunftsart von Gutschein-Codes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVCodeOriginTypeIdFieldBuilder() {
           if (vCodeOriginTypeIdBuilder_ == null) {
             vCodeOriginTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVCodeOriginTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -1688,11 +1688,11 @@ public final class OmGetVCodeOriginTypesAd {
           return vCodeOriginTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue vCodeOriginTypeDescription_ = null;
+        private io.dstore.Values.stringValue vCodeOriginTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> vCodeOriginTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> vCodeOriginTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
@@ -1702,27 +1702,27 @@ public final class OmGetVCodeOriginTypesAd {
           return vCodeOriginTypeDescriptionBuilder_ != null || vCodeOriginTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getVCodeOriginTypeDescription() {
+        public io.dstore.Values.stringValue getVCodeOriginTypeDescription() {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
-            return vCodeOriginTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
+            return vCodeOriginTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
           } else {
             return vCodeOriginTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public Builder setVCodeOriginTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setVCodeOriginTypeDescription(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1736,14 +1736,14 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
         public Builder setVCodeOriginTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
             vCodeOriginTypeDescription_ = builderForValue.build();
             onChanged();
@@ -1754,17 +1754,17 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public Builder mergeVCodeOriginTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeVCodeOriginTypeDescription(io.dstore.Values.stringValue value) {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
             if (vCodeOriginTypeDescription_ != null) {
               vCodeOriginTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(vCodeOriginTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(vCodeOriginTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               vCodeOriginTypeDescription_ = value;
             }
@@ -1776,7 +1776,7 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
@@ -1794,45 +1794,45 @@ public final class OmGetVCodeOriginTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getVCodeOriginTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getVCodeOriginTypeDescriptionBuilder() {
           
           onChanged();
           return getVCodeOriginTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getVCodeOriginTypeDescriptionOrBuilder() {
           if (vCodeOriginTypeDescriptionBuilder_ != null) {
             return vCodeOriginTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return vCodeOriginTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : vCodeOriginTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue v_code_origin_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue v_code_origin_type_description = 10003;</code>
          *
          * <pre>
          * Beschreibung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getVCodeOriginTypeDescriptionFieldBuilder() {
           if (vCodeOriginTypeDescriptionBuilder_ == null) {
             vCodeOriginTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getVCodeOriginTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3402,26 +3402,25 @@ public final class OmGetVCodeOriginTypesAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/om_GetVCodeOr" +
       "iginTypes_Ad.proto\022\'dstore.engine.om_Get" +
-      "VCodeOriginTypes_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\200\001\n\nParameters\022G\n\033v" +
-      "oucher_code_origin_type_id\030\001 \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022)\n voucher_" +
-      "code_origin_type_id_null\030\351\007 \001(\010\"\335\003\n\010Resp" +
-      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro",
-      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
-      "re.engine.metainformation.MetaInformatio" +
-      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022B\n\003row\030\004 \003(\01325.dstore.engine." +
-      "om_GetVCodeOriginTypes_Ad.Response.Row\032\346" +
-      "\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\022v_code_origin" +
-      "_type\030\221N \001(\0132!.dstore.engine.values.stri" +
-      "ngValue\022B\n\025v_code_origin_type_id\030\222N \001(\0132" +
-      "\".dstore.engine.values.integerValue\022J\n\036v" +
-      "_code_origin_type_description\030\223N \001(\0132!.d",
-      "store.engine.values.stringValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "VCodeOriginTypes_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"y\n\nParameters\022@\n\033voucher_c" +
+      "ode_origin_type_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022)\n voucher_code_origin_typ" +
+      "e_id_null\030\351\007 \001(\010\"\310\003\n\010Response\022)\n\005error\030\001" +
+      " \001(\0132\032.dstore.engine.error.Error\022H\n\020meta",
+      "_information\030\002 \003(\0132..dstore.engine.metai" +
+      "nformation.MetaInformation\022/\n\007message\030\003 " +
+      "\003(\0132\036.dstore.engine.message.Message\022B\n\003r" +
+      "ow\030\004 \003(\01325.dstore.engine.om_GetVCodeOrig" +
+      "inTypes_Ad.Response.Row\032\321\001\n\003Row\022\017\n\006row_i" +
+      "d\030\220N \001(\005\0227\n\022v_code_origin_type\030\221N \001(\0132\032." +
+      "dstore.values.stringValue\022;\n\025v_code_orig" +
+      "in_type_id\030\222N \001(\0132\033.dstore.values.intege" +
+      "rValue\022C\n\036v_code_origin_type_description" +
+      "\030\223N \001(\0132\032.dstore.values.stringValueB\035\n\033i",
+      "o.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3434,7 +3433,7 @@ public final class OmGetVCodeOriginTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3457,7 +3456,7 @@ public final class OmGetVCodeOriginTypesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetVCodeOriginTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VCodeOriginType", "VCodeOriginTypeId", "VCodeOriginTypeDescription", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

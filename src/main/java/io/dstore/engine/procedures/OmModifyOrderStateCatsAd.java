@@ -13,17 +13,17 @@ public final class OmModifyOrderStateCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
      */
     boolean hasOrderStateCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getOrderStateCategoryId();
+    io.dstore.Values.integerValue getOrderStateCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOrderStateCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOrderStateCategoryIdOrBuilder();
 
     /**
      * <code>optional bool order_state_category_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyOrderStateCatsAd {
     boolean getOrderStateCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+     * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
      */
     boolean hasOrderStateCategory();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+     * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getOrderStateCategory();
+    io.dstore.Values.stringValue getOrderStateCategory();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+     * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getOrderStateCategoryOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getOrderStateCategoryOrBuilder();
 
     /**
      * <code>optional bool order_state_category_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyOrderStateCatsAd {
     boolean getOrderStateCategoryNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+     * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
      */
     boolean hasOrderStateCategoryDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+     * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getOrderStateCategoryDescription();
+    io.dstore.Values.stringValue getOrderStateCategoryDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+     * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder();
 
     /**
      * <code>optional bool order_state_category_description_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmModifyOrderStateCatsAd {
     boolean getOrderStateCategoryDescriptionNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getDelete();
+    io.dstore.Values.booleanValue getDelete();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class OmModifyOrderStateCatsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (orderStateCategoryId_ != null) {
                 subBuilder = orderStateCategoryId_.toBuilder();
               }
-              orderStateCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              orderStateCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderStateCategoryId_);
                 orderStateCategoryId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class OmModifyOrderStateCatsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (orderStateCategory_ != null) {
                 subBuilder = orderStateCategory_.toBuilder();
               }
-              orderStateCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              orderStateCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderStateCategory_);
                 orderStateCategory_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class OmModifyOrderStateCatsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (orderStateCategoryDescription_ != null) {
                 subBuilder = orderStateCategoryDescription_.toBuilder();
               }
-              orderStateCategoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              orderStateCategoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderStateCategoryDescription_);
                 orderStateCategoryDescription_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmModifyOrderStateCatsAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class OmModifyOrderStateCatsAd {
     }
 
     public static final int ORDER_STATE_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue orderStateCategoryId_;
+    private io.dstore.Values.integerValue orderStateCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
      */
     public boolean hasOrderStateCategoryId() {
       return orderStateCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getOrderStateCategoryId() {
-      return orderStateCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateCategoryId_;
+    public io.dstore.Values.integerValue getOrderStateCategoryId() {
+      return orderStateCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
       return getOrderStateCategoryId();
     }
 
@@ -253,23 +253,23 @@ public final class OmModifyOrderStateCatsAd {
     }
 
     public static final int ORDER_STATE_CATEGORY_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue orderStateCategory_;
+    private io.dstore.Values.stringValue orderStateCategory_;
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+     * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
      */
     public boolean hasOrderStateCategory() {
       return orderStateCategory_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+     * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getOrderStateCategory() {
-      return orderStateCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderStateCategory_;
+    public io.dstore.Values.stringValue getOrderStateCategory() {
+      return orderStateCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderStateCategory_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+     * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getOrderStateCategoryOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getOrderStateCategoryOrBuilder() {
       return getOrderStateCategory();
     }
 
@@ -283,23 +283,23 @@ public final class OmModifyOrderStateCatsAd {
     }
 
     public static final int ORDER_STATE_CATEGORY_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue orderStateCategoryDescription_;
+    private io.dstore.Values.stringValue orderStateCategoryDescription_;
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+     * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
      */
     public boolean hasOrderStateCategoryDescription() {
       return orderStateCategoryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+     * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getOrderStateCategoryDescription() {
-      return orderStateCategoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderStateCategoryDescription_;
+    public io.dstore.Values.stringValue getOrderStateCategoryDescription() {
+      return orderStateCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderStateCategoryDescription_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+     * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder() {
       return getOrderStateCategoryDescription();
     }
 
@@ -313,23 +313,23 @@ public final class OmModifyOrderStateCatsAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue delete_;
+    private io.dstore.Values.booleanValue delete_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.Values.booleanValue getDelete() {
+      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.booleanValue delete = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -671,29 +671,29 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue orderStateCategoryId_ = null;
+      private io.dstore.Values.integerValue orderStateCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderStateCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
       public boolean hasOrderStateCategoryId() {
         return orderStateCategoryIdBuilder_ != null || orderStateCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getOrderStateCategoryId() {
+      public io.dstore.Values.integerValue getOrderStateCategoryId() {
         if (orderStateCategoryIdBuilder_ == null) {
-          return orderStateCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateCategoryId_;
+          return orderStateCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateCategoryId_;
         } else {
           return orderStateCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
-      public Builder setOrderStateCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setOrderStateCategoryId(io.dstore.Values.integerValue value) {
         if (orderStateCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
       public Builder setOrderStateCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (orderStateCategoryIdBuilder_ == null) {
           orderStateCategoryId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
-      public Builder mergeOrderStateCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOrderStateCategoryId(io.dstore.Values.integerValue value) {
         if (orderStateCategoryIdBuilder_ == null) {
           if (orderStateCategoryId_ != null) {
             orderStateCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(orderStateCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(orderStateCategoryId_).mergeFrom(value).buildPartial();
           } else {
             orderStateCategoryId_ = value;
           }
@@ -739,7 +739,7 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
       public Builder clearOrderStateCategoryId() {
         if (orderStateCategoryIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOrderStateCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getOrderStateCategoryIdBuilder() {
         
         onChanged();
         return getOrderStateCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
         if (orderStateCategoryIdBuilder_ != null) {
           return orderStateCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return orderStateCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : orderStateCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : orderStateCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_state_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_state_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderStateCategoryIdFieldBuilder() {
         if (orderStateCategoryIdBuilder_ == null) {
           orderStateCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderStateCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue orderStateCategory_ = null;
+      private io.dstore.Values.stringValue orderStateCategory_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> orderStateCategoryBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateCategoryBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
       public boolean hasOrderStateCategory() {
         return orderStateCategoryBuilder_ != null || orderStateCategory_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getOrderStateCategory() {
+      public io.dstore.Values.stringValue getOrderStateCategory() {
         if (orderStateCategoryBuilder_ == null) {
-          return orderStateCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderStateCategory_;
+          return orderStateCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderStateCategory_;
         } else {
           return orderStateCategoryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
-      public Builder setOrderStateCategory(io.dstore.engine.Values.stringValue value) {
+      public Builder setOrderStateCategory(io.dstore.Values.stringValue value) {
         if (orderStateCategoryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
       public Builder setOrderStateCategory(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (orderStateCategoryBuilder_ == null) {
           orderStateCategory_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
-      public Builder mergeOrderStateCategory(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeOrderStateCategory(io.dstore.Values.stringValue value) {
         if (orderStateCategoryBuilder_ == null) {
           if (orderStateCategory_ != null) {
             orderStateCategory_ =
-              io.dstore.engine.Values.stringValue.newBuilder(orderStateCategory_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(orderStateCategory_).mergeFrom(value).buildPartial();
           } else {
             orderStateCategory_ = value;
           }
@@ -882,7 +882,7 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
       public Builder clearOrderStateCategory() {
         if (orderStateCategoryBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getOrderStateCategoryBuilder() {
+      public io.dstore.Values.stringValue.Builder getOrderStateCategoryBuilder() {
         
         onChanged();
         return getOrderStateCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getOrderStateCategoryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getOrderStateCategoryOrBuilder() {
         if (orderStateCategoryBuilder_ != null) {
           return orderStateCategoryBuilder_.getMessageOrBuilder();
         } else {
           return orderStateCategory_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : orderStateCategory_;
+              io.dstore.Values.stringValue.getDefaultInstance() : orderStateCategory_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category = 2;</code>
+       * <code>optional .dstore.values.stringValue order_state_category = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderStateCategoryFieldBuilder() {
         if (orderStateCategoryBuilder_ == null) {
           orderStateCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderStateCategory(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue orderStateCategoryDescription_ = null;
+      private io.dstore.Values.stringValue orderStateCategoryDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> orderStateCategoryDescriptionBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateCategoryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
       public boolean hasOrderStateCategoryDescription() {
         return orderStateCategoryDescriptionBuilder_ != null || orderStateCategoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getOrderStateCategoryDescription() {
+      public io.dstore.Values.stringValue getOrderStateCategoryDescription() {
         if (orderStateCategoryDescriptionBuilder_ == null) {
-          return orderStateCategoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderStateCategoryDescription_;
+          return orderStateCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderStateCategoryDescription_;
         } else {
           return orderStateCategoryDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
-      public Builder setOrderStateCategoryDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder setOrderStateCategoryDescription(io.dstore.Values.stringValue value) {
         if (orderStateCategoryDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
       public Builder setOrderStateCategoryDescription(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (orderStateCategoryDescriptionBuilder_ == null) {
           orderStateCategoryDescription_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
-      public Builder mergeOrderStateCategoryDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeOrderStateCategoryDescription(io.dstore.Values.stringValue value) {
         if (orderStateCategoryDescriptionBuilder_ == null) {
           if (orderStateCategoryDescription_ != null) {
             orderStateCategoryDescription_ =
-              io.dstore.engine.Values.stringValue.newBuilder(orderStateCategoryDescription_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(orderStateCategoryDescription_).mergeFrom(value).buildPartial();
           } else {
             orderStateCategoryDescription_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
       public Builder clearOrderStateCategoryDescription() {
         if (orderStateCategoryDescriptionBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getOrderStateCategoryDescriptionBuilder() {
+      public io.dstore.Values.stringValue.Builder getOrderStateCategoryDescriptionBuilder() {
         
         onChanged();
         return getOrderStateCategoryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder() {
         if (orderStateCategoryDescriptionBuilder_ != null) {
           return orderStateCategoryDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return orderStateCategoryDescription_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : orderStateCategoryDescription_;
+              io.dstore.Values.stringValue.getDefaultInstance() : orderStateCategoryDescription_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_state_category_description = 3;</code>
+       * <code>optional .dstore.values.stringValue order_state_category_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderStateCategoryDescriptionFieldBuilder() {
         if (orderStateCategoryDescriptionBuilder_ == null) {
           orderStateCategoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderStateCategoryDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue delete_ = null;
+      private io.dstore.Values.booleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDelete() {
+      public io.dstore.Values.booleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public Builder setDelete(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.Values.booleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       public Builder setDelete(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public Builder mergeDelete(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class OmModifyOrderStateCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.booleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3399,28 +3399,28 @@ public final class OmModifyOrderStateCatsAd {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/om_ModifyOrde" +
       "rStateCats_Ad.proto\022(dstore.engine.om_Mo" +
-      "difyOrderStateCats_Ad\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"\244\003\n\nParameters\022C\n" +
-      "\027order_state_category_id\030\001 \001(\0132\".dstore." +
-      "engine.values.integerValue\022%\n\034order_stat" +
-      "e_category_id_null\030\351\007 \001(\010\022?\n\024order_state" +
-      "_category\030\002 \001(\0132!.dstore.engine.values.s",
-      "tringValue\022\"\n\031order_state_category_null\030" +
-      "\352\007 \001(\010\022K\n order_state_category_descripti" +
-      "on\030\003 \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\022.\n%order_state_category_description_" +
-      "null\030\353\007 \001(\010\0222\n\006delete\030\004 \001(\0132\".dstore.eng" +
-      "ine.values.booleanValue\022\024\n\013delete_null\030\354" +
-      "\007 \001(\010\"\215\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
-      "re.engine.error.Error\022H\n\020meta_informatio" +
-      "n\030\002 \003(\0132..dstore.engine.metainformation." +
-      "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor",
-      "e.engine.message.Message\022C\n\003row\030\004 \003(\01326." +
-      "dstore.engine.om_ModifyOrderStateCats_Ad" +
-      ".Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "difyOrderStateCats_Ad\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"\210\003\n\nParameters\022<\n\027order_" +
+      "state_category_id\030\001 \001(\0132\033.dstore.values." +
+      "integerValue\022%\n\034order_state_category_id_" +
+      "null\030\351\007 \001(\010\0228\n\024order_state_category\030\002 \001(" +
+      "\0132\032.dstore.values.stringValue\022\"\n\031order_s",
+      "tate_category_null\030\352\007 \001(\010\022D\n order_state" +
+      "_category_description\030\003 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022.\n%order_state_category_" +
+      "description_null\030\353\007 \001(\010\022+\n\006delete\030\004 \001(\0132" +
+      "\033.dstore.values.booleanValue\022\024\n\013delete_n" +
+      "ull\030\354\007 \001(\010\"\215\002\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
+      ".dstore.engine.error.Error\022H\n\020meta_infor" +
+      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022C\n\003row\030\004 \003",
+      "(\01326.dstore.engine.om_ModifyOrderStateCa" +
+      "ts_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001" +
+      "(\005B\035\n\033io.dstore.engine.proceduresb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3433,7 +3433,7 @@ public final class OmModifyOrderStateCatsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3456,7 +3456,7 @@ public final class OmModifyOrderStateCatsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyOrderStateCats_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -2422,18 +2422,18 @@ public final class StCopyFromOLTPtoDSSAd {
     java.lang.String[] descriptorData = {
       "\n6dstore/engine/procedures/st_CopyFromOL" +
       "TPtoDSS_Ad.proto\022%dstore.engine.st_CopyF" +
-      "romOLTPtoDSS_Ad\032\032dstore/engine/values.pr" +
-      "oto\032\031dstore/engine/error.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\014\n\nParameters\"\212\002\n\010Respo" +
-      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
-      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
-      "e.engine.metainformation.MetaInformation" +
-      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag",
-      "e.Message\022@\n\003row\030\004 \003(\01323.dstore.engine.s" +
-      "t_CopyFromOLTPtoDSS_Ad.Response.Row\032\026\n\003R" +
-      "ow\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine." +
-      "proceduresb\006proto3"
+      "romOLTPtoDSS_Ad\032\023dstore/values.proto\032\031ds" +
+      "tore/engine/error.proto\032\033dstore/engine/m" +
+      "essage.proto\032#dstore/engine/metainformat" +
+      "ion.proto\"\014\n\nParameters\"\212\002\n\010Response\022)\n\005" +
+      "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
+      "H\n\020meta_information\030\002 \003(\0132..dstore.engin" +
+      "e.metainformation.MetaInformation\022/\n\007mes" +
+      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa",
+      "ge\022@\n\003row\030\004 \003(\01323.dstore.engine.st_CopyF" +
+      "romOLTPtoDSS_Ad.Response.Row\032\026\n\003Row\022\017\n\006r" +
+      "ow_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2446,7 +2446,7 @@ public final class StCopyFromOLTPtoDSSAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2469,7 +2469,7 @@ public final class StCopyFromOLTPtoDSSAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_CopyFromOLTPtoDSS_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

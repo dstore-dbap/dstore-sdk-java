@@ -13,17 +13,17 @@ public final class ImDeletePageTreeNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTreeNodeId();
+    io.dstore.Values.integerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class ImDeletePageTreeNodesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class ImDeletePageTreeNodesAd {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue treeNodeId_;
+    private io.dstore.Values.integerValue treeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.Values.integerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -368,29 +368,29 @@ public final class ImDeletePageTreeNodesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+      private io.dstore.Values.integerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
+      public io.dstore.Values.integerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class ImDeletePageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class ImDeletePageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -436,7 +436,7 @@ public final class ImDeletePageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class ImDeletePageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class ImDeletePageTreeNodesAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/im_DeletePage" +
       "TreeNodes_Ad.proto\022\'dstore.engine.im_Del" +
-      "etePageTreeNodes_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"b\n\nParameters\0228\n\014tr" +
-      "ee_node_id\030\001 \001(\0132\".dstore.engine.values." +
-      "integerValue\022\032\n\021tree_node_id_null\030\351\007 \001(\010" +
-      "\"\214\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
-      "gine.error.Error\022H\n\020meta_information\030\002 \003",
-      "(\0132..dstore.engine.metainformation.MetaI" +
-      "nformation\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
-      "ine.message.Message\022B\n\003row\030\004 \003(\01325.dstor" +
-      "e.engine.im_DeletePageTreeNodes_Ad.Respo" +
-      "nse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "etePageTreeNodes_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"[\n\nParameters\0221\n\014tree_node" +
+      "_id\030\001 \001(\0132\033.dstore.values.integerValue\022\032" +
+      "\n\021tree_node_id_null\030\351\007 \001(\010\"\214\002\n\010Response\022" +
+      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
+      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en",
+      "gine.metainformation.MetaInformation\022/\n\007" +
+      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
+      "ssage\022B\n\003row\030\004 \003(\01325.dstore.engine.im_De" +
+      "letePageTreeNodes_Ad.Response.Row\032\026\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.pr" +
+      "oceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class ImDeletePageTreeNodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class ImDeletePageTreeNodesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_DeletePageTreeNodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

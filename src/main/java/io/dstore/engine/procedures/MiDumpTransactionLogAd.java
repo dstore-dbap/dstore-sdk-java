@@ -13,17 +13,17 @@ public final class MiDumpTransactionLogAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getDatabaseName();
+    io.dstore.Values.stringValue getDatabaseName();
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
      * <code>optional bool database_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiDumpTransactionLogAd {
     boolean getDatabaseNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+     * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
      */
     boolean hasDateOffset();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+     * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
      */
-    io.dstore.engine.Values.timestampValue getDateOffset();
+    io.dstore.Values.timestampValue getDateOffset();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+     * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getDateOffsetOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getDateOffsetOrBuilder();
 
     /**
      * <code>optional bool date_offset_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiDumpTransactionLogAd {
     boolean getDateOffsetNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
      */
     boolean hasIncludeMSecondsInTimestamp();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeMSecondsInTimestamp();
+    io.dstore.Values.booleanValue getIncludeMSecondsInTimestamp();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeMSecondsInTimestampOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeMSecondsInTimestampOrBuilder();
 
     /**
      * <code>optional bool include_m_seconds_in_timestamp_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class MiDumpTransactionLogAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class MiDumpTransactionLogAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (dateOffset_ != null) {
                 subBuilder = dateOffset_.toBuilder();
               }
-              dateOffset_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              dateOffset_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateOffset_);
                 dateOffset_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class MiDumpTransactionLogAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeMSecondsInTimestamp_ != null) {
                 subBuilder = includeMSecondsInTimestamp_.toBuilder();
               }
-              includeMSecondsInTimestamp_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeMSecondsInTimestamp_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeMSecondsInTimestamp_);
                 includeMSecondsInTimestamp_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class MiDumpTransactionLogAd {
     }
 
     public static final int DATABASE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue databaseName_;
+    private io.dstore.Values.stringValue databaseName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getDatabaseName() {
-      return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+    public io.dstore.Values.stringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
@@ -216,23 +216,23 @@ public final class MiDumpTransactionLogAd {
     }
 
     public static final int DATE_OFFSET_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.timestampValue dateOffset_;
+    private io.dstore.Values.timestampValue dateOffset_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+     * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
      */
     public boolean hasDateOffset() {
       return dateOffset_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+     * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValue getDateOffset() {
-      return dateOffset_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : dateOffset_;
+    public io.dstore.Values.timestampValue getDateOffset() {
+      return dateOffset_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateOffset_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+     * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getDateOffsetOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getDateOffsetOrBuilder() {
       return getDateOffset();
     }
 
@@ -246,23 +246,23 @@ public final class MiDumpTransactionLogAd {
     }
 
     public static final int INCLUDE_M_SECONDS_IN_TIMESTAMP_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue includeMSecondsInTimestamp_;
+    private io.dstore.Values.booleanValue includeMSecondsInTimestamp_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
      */
     public boolean hasIncludeMSecondsInTimestamp() {
       return includeMSecondsInTimestamp_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeMSecondsInTimestamp() {
-      return includeMSecondsInTimestamp_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeMSecondsInTimestamp_;
+    public io.dstore.Values.booleanValue getIncludeMSecondsInTimestamp() {
+      return includeMSecondsInTimestamp_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeMSecondsInTimestamp_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+     * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeMSecondsInTimestampOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeMSecondsInTimestampOrBuilder() {
       return getIncludeMSecondsInTimestamp();
     }
 
@@ -570,29 +570,29 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue databaseName_ = null;
+      private io.dstore.Values.stringValue databaseName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> databaseNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getDatabaseName() {
+      public io.dstore.Values.stringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
-          return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
         } else {
           return databaseNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public Builder setDatabaseName(io.dstore.engine.Values.stringValue value) {
+      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public Builder setDatabaseName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (databaseNameBuilder_ == null) {
           databaseName_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public Builder mergeDatabaseName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
           if (databaseName_ != null) {
             databaseName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
           } else {
             databaseName_ = value;
           }
@@ -638,7 +638,7 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDatabaseNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
         
         onChanged();
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
           return databaseNameBuilder_.getMessageOrBuilder();
         } else {
           return databaseName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
           databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue dateOffset_ = null;
+      private io.dstore.Values.timestampValue dateOffset_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> dateOffsetBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateOffsetBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
       public boolean hasDateOffset() {
         return dateOffsetBuilder_ != null || dateOffset_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue getDateOffset() {
+      public io.dstore.Values.timestampValue getDateOffset() {
         if (dateOffsetBuilder_ == null) {
-          return dateOffset_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : dateOffset_;
+          return dateOffset_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateOffset_;
         } else {
           return dateOffsetBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
-      public Builder setDateOffset(io.dstore.engine.Values.timestampValue value) {
+      public Builder setDateOffset(io.dstore.Values.timestampValue value) {
         if (dateOffsetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
       public Builder setDateOffset(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (dateOffsetBuilder_ == null) {
           dateOffset_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
-      public Builder mergeDateOffset(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeDateOffset(io.dstore.Values.timestampValue value) {
         if (dateOffsetBuilder_ == null) {
           if (dateOffset_ != null) {
             dateOffset_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(dateOffset_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(dateOffset_).mergeFrom(value).buildPartial();
           } else {
             dateOffset_ = value;
           }
@@ -781,7 +781,7 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
       public Builder clearDateOffset() {
         if (dateOffsetBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getDateOffsetBuilder() {
+      public io.dstore.Values.timestampValue.Builder getDateOffsetBuilder() {
         
         onChanged();
         return getDateOffsetFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getDateOffsetOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getDateOffsetOrBuilder() {
         if (dateOffsetBuilder_ != null) {
           return dateOffsetBuilder_.getMessageOrBuilder();
         } else {
           return dateOffset_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : dateOffset_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : dateOffset_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_offset = 2;</code>
+       * <code>optional .dstore.values.timestampValue date_offset = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDateOffsetFieldBuilder() {
         if (dateOffsetBuilder_ == null) {
           dateOffsetBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDateOffset(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeMSecondsInTimestamp_ = null;
+      private io.dstore.Values.booleanValue includeMSecondsInTimestamp_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeMSecondsInTimestampBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeMSecondsInTimestampBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
       public boolean hasIncludeMSecondsInTimestamp() {
         return includeMSecondsInTimestampBuilder_ != null || includeMSecondsInTimestamp_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeMSecondsInTimestamp() {
+      public io.dstore.Values.booleanValue getIncludeMSecondsInTimestamp() {
         if (includeMSecondsInTimestampBuilder_ == null) {
-          return includeMSecondsInTimestamp_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeMSecondsInTimestamp_;
+          return includeMSecondsInTimestamp_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeMSecondsInTimestamp_;
         } else {
           return includeMSecondsInTimestampBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
-      public Builder setIncludeMSecondsInTimestamp(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeMSecondsInTimestamp(io.dstore.Values.booleanValue value) {
         if (includeMSecondsInTimestampBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
       public Builder setIncludeMSecondsInTimestamp(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeMSecondsInTimestampBuilder_ == null) {
           includeMSecondsInTimestamp_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
-      public Builder mergeIncludeMSecondsInTimestamp(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeMSecondsInTimestamp(io.dstore.Values.booleanValue value) {
         if (includeMSecondsInTimestampBuilder_ == null) {
           if (includeMSecondsInTimestamp_ != null) {
             includeMSecondsInTimestamp_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeMSecondsInTimestamp_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeMSecondsInTimestamp_).mergeFrom(value).buildPartial();
           } else {
             includeMSecondsInTimestamp_ = value;
           }
@@ -924,7 +924,7 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
       public Builder clearIncludeMSecondsInTimestamp() {
         if (includeMSecondsInTimestampBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class MiDumpTransactionLogAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeMSecondsInTimestampBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeMSecondsInTimestampBuilder() {
         
         onChanged();
         return getIncludeMSecondsInTimestampFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeMSecondsInTimestampOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeMSecondsInTimestampOrBuilder() {
         if (includeMSecondsInTimestampBuilder_ != null) {
           return includeMSecondsInTimestampBuilder_.getMessageOrBuilder();
         } else {
           return includeMSecondsInTimestamp_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeMSecondsInTimestamp_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeMSecondsInTimestamp_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
+       * <code>optional .dstore.values.booleanValue include_m_seconds_in_timestamp = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeMSecondsInTimestampFieldBuilder() {
         if (includeMSecondsInTimestampBuilder_ == null) {
           includeMSecondsInTimestampBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeMSecondsInTimestamp(),
                   getParentForChildren(),
                   isClean());
@@ -3155,25 +3155,25 @@ public final class MiDumpTransactionLogAd {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/mi_DumpTransa" +
       "ctionLog_Ad.proto\022&dstore.engine.mi_Dump" +
-      "TransactionLog_Ad\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\263\002\n\nParameters\0228\n\rdat" +
-      "abase_name\030\001 \001(\0132!.dstore.engine.values." +
-      "stringValue\022\033\n\022database_name_null\030\351\007 \001(\010" +
-      "\0229\n\013date_offset\030\002 \001(\0132$.dstore.engine.va" +
-      "lues.timestampValue\022\031\n\020date_offset_null\030",
-      "\352\007 \001(\010\022J\n\036include_m_seconds_in_timestamp" +
-      "\030\003 \001(\0132\".dstore.engine.values.booleanVal" +
-      "ue\022,\n#include_m_seconds_in_timestamp_nul" +
-      "l\030\353\007 \001(\010\"\213\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
-      "store.engine.error.Error\022H\n\020meta_informa" +
-      "tion\030\002 \003(\0132..dstore.engine.metainformati" +
-      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
-      "tore.engine.message.Message\022A\n\003row\030\004 \003(\013" +
-      "24.dstore.engine.mi_DumpTransactionLog_A" +
-      "d.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035",
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "TransactionLog_Ad\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"\236\002\n\nParameters\0221\n\rdatabase_n" +
+      "ame\030\001 \001(\0132\032.dstore.values.stringValue\022\033\n" +
+      "\022database_name_null\030\351\007 \001(\010\0222\n\013date_offse" +
+      "t\030\002 \001(\0132\035.dstore.values.timestampValue\022\031" +
+      "\n\020date_offset_null\030\352\007 \001(\010\022C\n\036include_m_s",
+      "econds_in_timestamp\030\003 \001(\0132\033.dstore.value" +
+      "s.booleanValue\022,\n#include_m_seconds_in_t" +
+      "imestamp_null\030\353\007 \001(\010\"\213\002\n\010Response\022)\n\005err" +
+      "or\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020" +
+      "meta_information\030\002 \003(\0132..dstore.engine.m" +
+      "etainformation.MetaInformation\022/\n\007messag" +
+      "e\030\003 \003(\0132\036.dstore.engine.message.Message\022" +
+      "A\n\003row\030\004 \003(\01324.dstore.engine.mi_DumpTran" +
+      "sactionLog_Ad.Response.Row\032\026\n\003Row\022\017\n\006row" +
+      "_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedure",
+      "sb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3186,7 +3186,7 @@ public final class MiDumpTransactionLogAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3209,7 +3209,7 @@ public final class MiDumpTransactionLogAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_DumpTransactionLog_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

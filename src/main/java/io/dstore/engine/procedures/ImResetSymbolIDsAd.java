@@ -2422,18 +2422,18 @@ public final class ImResetSymbolIDsAd {
     java.lang.String[] descriptorData = {
       "\n3dstore/engine/procedures/im_ResetSymbo" +
       "lIDs_Ad.proto\022\"dstore.engine.im_ResetSym" +
-      "bolIDs_Ad\032\032dstore/engine/values.proto\032\031d" +
-      "store/engine/error.proto\032\033dstore/engine/" +
-      "message.proto\032#dstore/engine/metainforma" +
-      "tion.proto\"\014\n\nParameters\"\207\002\n\010Response\022)\n" +
-      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
-      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
-      "ne.metainformation.MetaInformation\022/\n\007me" +
-      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess",
-      "age\022=\n\003row\030\004 \003(\01320.dstore.engine.im_Rese" +
-      "tSymbolIDs_Ad.Response.Row\032\026\n\003Row\022\017\n\006row" +
-      "_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "bolIDs_Ad\032\023dstore/values.proto\032\031dstore/e" +
+      "ngine/error.proto\032\033dstore/engine/message" +
+      ".proto\032#dstore/engine/metainformation.pr" +
+      "oto\"\014\n\nParameters\"\207\002\n\010Response\022)\n\005error\030" +
+      "\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020met" +
+      "a_information\030\002 \003(\0132..dstore.engine.meta" +
+      "information.MetaInformation\022/\n\007message\030\003" +
+      " \003(\0132\036.dstore.engine.message.Message\022=\n\003",
+      "row\030\004 \003(\01320.dstore.engine.im_ResetSymbol" +
+      "IDs_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N " +
+      "\001(\005B\035\n\033io.dstore.engine.proceduresb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2446,7 +2446,7 @@ public final class ImResetSymbolIDsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2469,7 +2469,7 @@ public final class ImResetSymbolIDsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_ResetSymbolIDs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

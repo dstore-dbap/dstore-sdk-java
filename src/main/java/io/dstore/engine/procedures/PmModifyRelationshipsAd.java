@@ -13,17 +13,17 @@ public final class PmModifyRelationshipsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
     boolean hasRelationshipId();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getRelationshipId();
+    io.dstore.Values.integerValue getRelationshipId();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
 
     /**
      * <code>optional bool relationship_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class PmModifyRelationshipsAd {
     boolean getRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+     * <code>optional .dstore.values.stringValue relationship = 2;</code>
      */
     boolean hasRelationship();
     /**
-     * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+     * <code>optional .dstore.values.stringValue relationship = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getRelationship();
+    io.dstore.Values.stringValue getRelationship();
     /**
-     * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+     * <code>optional .dstore.values.stringValue relationship = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getRelationshipOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder();
 
     /**
      * <code>optional bool relationship_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class PmModifyRelationshipsAd {
     boolean getRelationshipNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
      */
     boolean hasDeleteRelationship();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getDeleteRelationship();
+    io.dstore.Values.booleanValue getDeleteRelationship();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteRelationshipOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteRelationshipOrBuilder();
 
     /**
      * <code>optional bool delete_relationship_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class PmModifyRelationshipsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (relationshipId_ != null) {
                 subBuilder = relationshipId_.toBuilder();
               }
-              relationshipId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationshipId_);
                 relationshipId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class PmModifyRelationshipsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (relationship_ != null) {
                 subBuilder = relationship_.toBuilder();
               }
-              relationship_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              relationship_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationship_);
                 relationship_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class PmModifyRelationshipsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteRelationship_ != null) {
                 subBuilder = deleteRelationship_.toBuilder();
               }
-              deleteRelationship_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              deleteRelationship_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteRelationship_);
                 deleteRelationship_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class PmModifyRelationshipsAd {
     }
 
     public static final int RELATIONSHIP_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue relationshipId_;
+    private io.dstore.Values.integerValue relationshipId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
     public boolean hasRelationshipId() {
       return relationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getRelationshipId() {
-      return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+    public io.dstore.Values.integerValue getRelationshipId() {
+      return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
       return getRelationshipId();
     }
 
@@ -216,23 +216,23 @@ public final class PmModifyRelationshipsAd {
     }
 
     public static final int RELATIONSHIP_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue relationship_;
+    private io.dstore.Values.stringValue relationship_;
     /**
-     * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+     * <code>optional .dstore.values.stringValue relationship = 2;</code>
      */
     public boolean hasRelationship() {
       return relationship_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+     * <code>optional .dstore.values.stringValue relationship = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getRelationship() {
-      return relationship_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : relationship_;
+    public io.dstore.Values.stringValue getRelationship() {
+      return relationship_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+     * <code>optional .dstore.values.stringValue relationship = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getRelationshipOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder() {
       return getRelationship();
     }
 
@@ -246,23 +246,23 @@ public final class PmModifyRelationshipsAd {
     }
 
     public static final int DELETE_RELATIONSHIP_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue deleteRelationship_;
+    private io.dstore.Values.booleanValue deleteRelationship_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
      */
     public boolean hasDeleteRelationship() {
       return deleteRelationship_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDeleteRelationship() {
-      return deleteRelationship_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteRelationship_;
+    public io.dstore.Values.booleanValue getDeleteRelationship() {
+      return deleteRelationship_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteRelationship_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+     * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteRelationshipOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteRelationshipOrBuilder() {
       return getDeleteRelationship();
     }
 
@@ -570,29 +570,29 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue relationshipId_ = null;
+      private io.dstore.Values.integerValue relationshipId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> relationshipIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipIdBuilder_ != null || relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getRelationshipId() {
+      public io.dstore.Values.integerValue getRelationshipId() {
         if (relationshipIdBuilder_ == null) {
-          return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+          return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
         } else {
           return relationshipIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public Builder setRelationshipId(io.dstore.engine.Values.integerValue value) {
+      public Builder setRelationshipId(io.dstore.Values.integerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       public Builder setRelationshipId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (relationshipIdBuilder_ == null) {
           relationshipId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public Builder mergeRelationshipId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (relationshipId_ != null) {
             relationshipId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
           } else {
             relationshipId_ = value;
           }
@@ -638,7 +638,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       public Builder clearRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRelationshipIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
         
         onChanged();
         return getRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
         if (relationshipIdBuilder_ != null) {
           return relationshipIdBuilder_.getMessageOrBuilder();
         } else {
           return relationshipId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRelationshipIdFieldBuilder() {
         if (relationshipIdBuilder_ == null) {
           relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRelationshipId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue relationship_ = null;
+      private io.dstore.Values.stringValue relationship_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> relationshipBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> relationshipBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
       public boolean hasRelationship() {
         return relationshipBuilder_ != null || relationship_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getRelationship() {
+      public io.dstore.Values.stringValue getRelationship() {
         if (relationshipBuilder_ == null) {
-          return relationship_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : relationship_;
+          return relationship_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
         } else {
           return relationshipBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
-      public Builder setRelationship(io.dstore.engine.Values.stringValue value) {
+      public Builder setRelationship(io.dstore.Values.stringValue value) {
         if (relationshipBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
       public Builder setRelationship(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (relationshipBuilder_ == null) {
           relationship_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
-      public Builder mergeRelationship(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeRelationship(io.dstore.Values.stringValue value) {
         if (relationshipBuilder_ == null) {
           if (relationship_ != null) {
             relationship_ =
-              io.dstore.engine.Values.stringValue.newBuilder(relationship_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(relationship_).mergeFrom(value).buildPartial();
           } else {
             relationship_ = value;
           }
@@ -781,7 +781,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
       public Builder clearRelationship() {
         if (relationshipBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getRelationshipBuilder() {
+      public io.dstore.Values.stringValue.Builder getRelationshipBuilder() {
         
         onChanged();
         return getRelationshipFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getRelationshipOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder() {
         if (relationshipBuilder_ != null) {
           return relationshipBuilder_.getMessageOrBuilder();
         } else {
           return relationship_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : relationship_;
+              io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue relationship = 2;</code>
+       * <code>optional .dstore.values.stringValue relationship = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getRelationshipFieldBuilder() {
         if (relationshipBuilder_ == null) {
           relationshipBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getRelationship(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue deleteRelationship_ = null;
+      private io.dstore.Values.booleanValue deleteRelationship_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteRelationshipBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteRelationshipBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
       public boolean hasDeleteRelationship() {
         return deleteRelationshipBuilder_ != null || deleteRelationship_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDeleteRelationship() {
+      public io.dstore.Values.booleanValue getDeleteRelationship() {
         if (deleteRelationshipBuilder_ == null) {
-          return deleteRelationship_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteRelationship_;
+          return deleteRelationship_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteRelationship_;
         } else {
           return deleteRelationshipBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
-      public Builder setDeleteRelationship(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDeleteRelationship(io.dstore.Values.booleanValue value) {
         if (deleteRelationshipBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
       public Builder setDeleteRelationship(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteRelationshipBuilder_ == null) {
           deleteRelationship_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
-      public Builder mergeDeleteRelationship(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDeleteRelationship(io.dstore.Values.booleanValue value) {
         if (deleteRelationshipBuilder_ == null) {
           if (deleteRelationship_ != null) {
             deleteRelationship_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(deleteRelationship_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(deleteRelationship_).mergeFrom(value).buildPartial();
           } else {
             deleteRelationship_ = value;
           }
@@ -924,7 +924,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
       public Builder clearDeleteRelationship() {
         if (deleteRelationshipBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteRelationshipBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteRelationshipBuilder() {
         
         onChanged();
         return getDeleteRelationshipFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteRelationshipOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteRelationshipOrBuilder() {
         if (deleteRelationshipBuilder_ != null) {
           return deleteRelationshipBuilder_.getMessageOrBuilder();
         } else {
           return deleteRelationship_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteRelationship_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : deleteRelationship_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_relationship = 3;</code>
+       * <code>optional .dstore.values.booleanValue delete_relationship = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteRelationshipFieldBuilder() {
         if (deleteRelationshipBuilder_ == null) {
           deleteRelationshipBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteRelationship(),
                   getParentForChildren(),
                   isClean());
@@ -3155,25 +3155,24 @@ public final class PmModifyRelationshipsAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/pm_ModifyRela" +
       "tionships_Ad.proto\022\'dstore.engine.pm_Mod" +
-      "ifyRelationships_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\241\002\n\nParameters\022;\n\017r" +
-      "elationship_id\030\001 \001(\0132\".dstore.engine.val" +
-      "ues.integerValue\022\035\n\024relationship_id_null" +
-      "\030\351\007 \001(\010\0227\n\014relationship\030\002 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022\032\n\021relationship",
-      "_null\030\352\007 \001(\010\022?\n\023delete_relationship\030\003 \001(" +
-      "\0132\".dstore.engine.values.booleanValue\022!\n" +
-      "\030delete_relationship_null\030\353\007 \001(\010\"\214\002\n\010Res" +
-      "ponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.err" +
-      "or.Error\022H\n\020meta_information\030\002 \003(\0132..dst" +
-      "ore.engine.metainformation.MetaInformati" +
-      "on\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mess" +
-      "age.Message\022B\n\003row\030\004 \003(\01325.dstore.engine" +
-      ".pm_ModifyRelationships_Ad.Response.Row\032" +
-      "\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.eng",
-      "ine.proceduresb\006proto3"
+      "ifyRelationships_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"\214\002\n\nParameters\0224\n\017relation" +
+      "ship_id\030\001 \001(\0132\033.dstore.values.integerVal" +
+      "ue\022\035\n\024relationship_id_null\030\351\007 \001(\010\0220\n\014rel" +
+      "ationship\030\002 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\032\n\021relationship_null\030\352\007 \001(\010\0228\n\023delet",
+      "e_relationship\030\003 \001(\0132\033.dstore.values.boo" +
+      "leanValue\022!\n\030delete_relationship_null\030\353\007" +
+      " \001(\010\"\214\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
+      "e.engine.error.Error\022H\n\020meta_information" +
+      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
+      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
+      ".engine.message.Message\022B\n\003row\030\004 \003(\01325.d" +
+      "store.engine.pm_ModifyRelationships_Ad.R" +
+      "esponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033i" +
+      "o.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3186,7 +3185,7 @@ public final class PmModifyRelationshipsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3209,7 +3208,7 @@ public final class PmModifyRelationshipsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyRelationships_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

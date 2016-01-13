@@ -13,17 +13,17 @@ public final class FoGetPostingsOfOnePersonPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getPersonIdentificationValues();
+    io.dstore.Values.stringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonTypeId();
+    io.dstore.Values.integerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getForumId();
+    io.dstore.Values.integerValue getForumId();
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_id = 5;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonId();
+    io.dstore.Values.integerValue getPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
      */
-    io.dstore.engine.Values.timestampValue getFromDate();
+    io.dstore.Values.timestampValue getFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
      */
-    io.dstore.engine.Values.timestampValue getToDate();
+    io.dstore.Values.timestampValue getToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+     * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
      */
     boolean hasIncludeBodies();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+     * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeBodies();
+    io.dstore.Values.booleanValue getIncludeBodies();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+     * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeBodiesOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeBodiesOrBuilder();
 
     /**
      * <code>optional bool include_bodies_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getIncludeBodiesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+     * <code>optional .dstore.values.integerValue row_count = 9;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+     * <code>optional .dstore.values.integerValue row_count = 9;</code>
      */
-    io.dstore.engine.Values.integerValue getRowCount();
+    io.dstore.Values.integerValue getRowCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+     * <code>optional .dstore.values.integerValue row_count = 9;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder();
 
     /**
      * <code>optional bool row_count_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
      */
     boolean hasIncludeAdditionalInfos();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeAdditionalInfos();
+    io.dstore.Values.booleanValue getIncludeAdditionalInfos();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeAdditionalInfosOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeAdditionalInfosOrBuilder();
 
     /**
      * <code>optional bool include_additional_infos_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getIncludeAdditionalInfosNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+     * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
      */
     boolean hasOrderCriteria();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+     * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
      */
-    io.dstore.engine.Values.integerValue getOrderCriteria();
+    io.dstore.Values.integerValue getOrderCriteria();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+     * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOrderCriteriaOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOrderCriteriaOrBuilder();
 
     /**
      * <code>optional bool order_criteria_null = 1011;</code>
@@ -211,17 +211,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getOrderCriteriaNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+     * <code>optional .dstore.values.integerValue visibility = 12;</code>
      */
     boolean hasVisibility();
     /**
-     * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+     * <code>optional .dstore.values.integerValue visibility = 12;</code>
      */
-    io.dstore.engine.Values.integerValue getVisibility();
+    io.dstore.Values.integerValue getVisibility();
     /**
-     * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+     * <code>optional .dstore.values.integerValue visibility = 12;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getVisibilityOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getVisibilityOrBuilder();
 
     /**
      * <code>optional bool visibility_null = 1012;</code>
@@ -229,17 +229,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getVisibilityNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
      */
     boolean hasGetOwnNotApprovedPostings();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
      */
-    io.dstore.engine.Values.booleanValue getGetOwnNotApprovedPostings();
+    io.dstore.Values.booleanValue getGetOwnNotApprovedPostings();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getGetOwnNotApprovedPostingsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getGetOwnNotApprovedPostingsOrBuilder();
 
     /**
      * <code>optional bool get_own_not_approved_postings_null = 1013;</code>
@@ -247,17 +247,17 @@ public final class FoGetPostingsOfOnePersonPu {
     boolean getGetOwnNotApprovedPostingsNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
      */
-    io.dstore.engine.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1014;</code>
@@ -317,11 +317,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -330,11 +330,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -343,11 +343,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -356,11 +356,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -369,11 +369,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -382,11 +382,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -395,11 +395,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -408,11 +408,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeBodies_ != null) {
                 subBuilder = includeBodies_.toBuilder();
               }
-              includeBodies_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeBodies_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBodies_);
                 includeBodies_ = subBuilder.buildPartial();
@@ -421,11 +421,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -434,11 +434,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeAdditionalInfos_ != null) {
                 subBuilder = includeAdditionalInfos_.toBuilder();
               }
-              includeAdditionalInfos_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeAdditionalInfos_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeAdditionalInfos_);
                 includeAdditionalInfos_ = subBuilder.buildPartial();
@@ -447,11 +447,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (orderCriteria_ != null) {
                 subBuilder = orderCriteria_.toBuilder();
               }
-              orderCriteria_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              orderCriteria_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderCriteria_);
                 orderCriteria_ = subBuilder.buildPartial();
@@ -460,11 +460,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (visibility_ != null) {
                 subBuilder = visibility_.toBuilder();
               }
-              visibility_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              visibility_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visibility_);
                 visibility_ = subBuilder.buildPartial();
@@ -473,11 +473,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 106: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getOwnNotApprovedPostings_ != null) {
                 subBuilder = getOwnNotApprovedPostings_.toBuilder();
               }
-              getOwnNotApprovedPostings_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              getOwnNotApprovedPostings_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getOwnNotApprovedPostings_);
                 getOwnNotApprovedPostings_ = subBuilder.buildPartial();
@@ -486,11 +486,11 @@ public final class FoGetPostingsOfOnePersonPu {
               break;
             }
             case 114: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -593,23 +593,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue personIdentificationValues_;
+    private io.dstore.Values.stringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -623,23 +623,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue personTypeId_;
+    private io.dstore.Values.integerValue personTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.Values.integerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -653,23 +653,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -683,23 +683,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue forumId_;
+    private io.dstore.Values.integerValue forumId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.Values.integerValue getForumId() {
+      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -713,23 +713,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue personId_;
+    private io.dstore.Values.integerValue personId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_id = 5;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.Values.integerValue getPersonId() {
+      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+     * <code>optional .dstore.values.integerValue person_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -743,23 +743,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.timestampValue fromDate_;
+    private io.dstore.Values.timestampValue fromDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
      */
-    public io.dstore.engine.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.Values.timestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -773,23 +773,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.timestampValue toDate_;
+    private io.dstore.Values.timestampValue toDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
      */
-    public io.dstore.engine.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.Values.timestampValue getToDate() {
+      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -803,23 +803,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int INCLUDE_BODIES_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.booleanValue includeBodies_;
+    private io.dstore.Values.booleanValue includeBodies_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+     * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
      */
     public boolean hasIncludeBodies() {
       return includeBodies_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+     * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeBodies() {
-      return includeBodies_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeBodies_;
+    public io.dstore.Values.booleanValue getIncludeBodies() {
+      return includeBodies_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeBodies_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+     * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeBodiesOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeBodiesOrBuilder() {
       return getIncludeBodies();
     }
 
@@ -833,23 +833,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int ROW_COUNT_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.integerValue rowCount_;
+    private io.dstore.Values.integerValue rowCount_;
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+     * <code>optional .dstore.values.integerValue row_count = 9;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+     * <code>optional .dstore.values.integerValue row_count = 9;</code>
      */
-    public io.dstore.engine.Values.integerValue getRowCount() {
-      return rowCount_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+    public io.dstore.Values.integerValue getRowCount() {
+      return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+     * <code>optional .dstore.values.integerValue row_count = 9;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
     }
 
@@ -863,23 +863,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int INCLUDE_ADDITIONAL_INFOS_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.booleanValue includeAdditionalInfos_;
+    private io.dstore.Values.booleanValue includeAdditionalInfos_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
      */
     public boolean hasIncludeAdditionalInfos() {
       return includeAdditionalInfos_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeAdditionalInfos() {
-      return includeAdditionalInfos_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeAdditionalInfos_;
+    public io.dstore.Values.booleanValue getIncludeAdditionalInfos() {
+      return includeAdditionalInfos_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeAdditionalInfos_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeAdditionalInfosOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeAdditionalInfosOrBuilder() {
       return getIncludeAdditionalInfos();
     }
 
@@ -893,23 +893,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int ORDER_CRITERIA_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.integerValue orderCriteria_;
+    private io.dstore.Values.integerValue orderCriteria_;
     /**
-     * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+     * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
      */
     public boolean hasOrderCriteria() {
       return orderCriteria_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+     * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
      */
-    public io.dstore.engine.Values.integerValue getOrderCriteria() {
-      return orderCriteria_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderCriteria_;
+    public io.dstore.Values.integerValue getOrderCriteria() {
+      return orderCriteria_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderCriteria_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+     * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOrderCriteriaOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOrderCriteriaOrBuilder() {
       return getOrderCriteria();
     }
 
@@ -923,23 +923,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int VISIBILITY_FIELD_NUMBER = 12;
-    private io.dstore.engine.Values.integerValue visibility_;
+    private io.dstore.Values.integerValue visibility_;
     /**
-     * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+     * <code>optional .dstore.values.integerValue visibility = 12;</code>
      */
     public boolean hasVisibility() {
       return visibility_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+     * <code>optional .dstore.values.integerValue visibility = 12;</code>
      */
-    public io.dstore.engine.Values.integerValue getVisibility() {
-      return visibility_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibility_;
+    public io.dstore.Values.integerValue getVisibility() {
+      return visibility_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibility_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+     * <code>optional .dstore.values.integerValue visibility = 12;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getVisibilityOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getVisibilityOrBuilder() {
       return getVisibility();
     }
 
@@ -953,23 +953,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int GET_OWN_NOT_APPROVED_POSTINGS_FIELD_NUMBER = 13;
-    private io.dstore.engine.Values.booleanValue getOwnNotApprovedPostings_;
+    private io.dstore.Values.booleanValue getOwnNotApprovedPostings_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
      */
     public boolean hasGetOwnNotApprovedPostings() {
       return getOwnNotApprovedPostings_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
      */
-    public io.dstore.engine.Values.booleanValue getGetOwnNotApprovedPostings() {
-      return getOwnNotApprovedPostings_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getOwnNotApprovedPostings_;
+    public io.dstore.Values.booleanValue getGetOwnNotApprovedPostings() {
+      return getOwnNotApprovedPostings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getOwnNotApprovedPostings_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+     * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getGetOwnNotApprovedPostingsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getGetOwnNotApprovedPostingsOrBuilder() {
       return getGetOwnNotApprovedPostings();
     }
 
@@ -983,23 +983,23 @@ public final class FoGetPostingsOfOnePersonPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 14;
-    private io.dstore.engine.Values.stringValue separatorInIdentVals_;
+    private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
      */
-    public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1681,29 +1681,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.Values.stringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.Values.stringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,10 +1717,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1731,13 +1731,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.engine.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1749,7 +1749,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1763,33 +1763,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1824,29 +1824,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personTypeId_ = null;
+      private io.dstore.Values.integerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonTypeId() {
+      public io.dstore.Values.integerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1860,10 +1860,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1874,13 +1874,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1892,7 +1892,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1906,33 +1906,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1967,29 +1967,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2003,10 +2003,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -2017,13 +2017,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -2035,7 +2035,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2049,33 +2049,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -2110,29 +2110,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue forumId_ = null;
+      private io.dstore.Values.integerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getForumId() {
+      public io.dstore.Values.integerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public Builder setForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder setForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2146,10 +2146,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       public Builder setForumId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -2160,13 +2160,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public Builder mergeForumId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.Values.integerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -2178,7 +2178,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -2192,33 +2192,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -2253,29 +2253,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personId_ = null;
+      private io.dstore.Values.integerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
+      public io.dstore.Values.integerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
-      public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
       public Builder setPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -2303,13 +2303,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
-      public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -2321,7 +2321,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -2335,33 +2335,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 5;</code>
+       * <code>optional .dstore.values.integerValue person_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2396,29 +2396,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue fromDate_ = null;
+      private io.dstore.Values.timestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValue getFromDate() {
+      public io.dstore.Values.timestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
-      public Builder setFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2432,10 +2432,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
       public Builder setFromDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -2446,13 +2446,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
-      public Builder mergeFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -2464,7 +2464,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -2478,33 +2478,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -2539,29 +2539,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue toDate_ = null;
+      private io.dstore.Values.timestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
-      public io.dstore.engine.Values.timestampValue getToDate() {
+      public io.dstore.Values.timestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
-      public Builder setToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2575,10 +2575,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
       public Builder setToDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -2589,13 +2589,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
-      public Builder mergeToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -2607,7 +2607,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -2621,33 +2621,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -2682,29 +2682,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeBodies_ = null;
+      private io.dstore.Values.booleanValue includeBodies_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeBodiesBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeBodiesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
       public boolean hasIncludeBodies() {
         return includeBodiesBuilder_ != null || includeBodies_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeBodies() {
+      public io.dstore.Values.booleanValue getIncludeBodies() {
         if (includeBodiesBuilder_ == null) {
-          return includeBodies_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeBodies_;
+          return includeBodies_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeBodies_;
         } else {
           return includeBodiesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
-      public Builder setIncludeBodies(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeBodies(io.dstore.Values.booleanValue value) {
         if (includeBodiesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2718,10 +2718,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
       public Builder setIncludeBodies(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeBodiesBuilder_ == null) {
           includeBodies_ = builderForValue.build();
           onChanged();
@@ -2732,13 +2732,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
-      public Builder mergeIncludeBodies(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeBodies(io.dstore.Values.booleanValue value) {
         if (includeBodiesBuilder_ == null) {
           if (includeBodies_ != null) {
             includeBodies_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeBodies_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeBodies_).mergeFrom(value).buildPartial();
           } else {
             includeBodies_ = value;
           }
@@ -2750,7 +2750,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
       public Builder clearIncludeBodies() {
         if (includeBodiesBuilder_ == null) {
@@ -2764,33 +2764,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeBodiesBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeBodiesBuilder() {
         
         onChanged();
         return getIncludeBodiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeBodiesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeBodiesOrBuilder() {
         if (includeBodiesBuilder_ != null) {
           return includeBodiesBuilder_.getMessageOrBuilder();
         } else {
           return includeBodies_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeBodies_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeBodies_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_bodies = 8;</code>
+       * <code>optional .dstore.values.booleanValue include_bodies = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeBodiesFieldBuilder() {
         if (includeBodiesBuilder_ == null) {
           includeBodiesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeBodies(),
                   getParentForChildren(),
                   isClean());
@@ -2825,29 +2825,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue rowCount_ = null;
+      private io.dstore.Values.integerValue rowCount_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> rowCountBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue getRowCount() {
+      public io.dstore.Values.integerValue getRowCount() {
         if (rowCountBuilder_ == null) {
-          return rowCount_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+          return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
         } else {
           return rowCountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
-      public Builder setRowCount(io.dstore.engine.Values.integerValue value) {
+      public Builder setRowCount(io.dstore.Values.integerValue value) {
         if (rowCountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2861,10 +2861,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
       public Builder setRowCount(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (rowCountBuilder_ == null) {
           rowCount_ = builderForValue.build();
           onChanged();
@@ -2875,13 +2875,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
-      public Builder mergeRowCount(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRowCount(io.dstore.Values.integerValue value) {
         if (rowCountBuilder_ == null) {
           if (rowCount_ != null) {
             rowCount_ =
-              io.dstore.engine.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
           } else {
             rowCount_ = value;
           }
@@ -2893,7 +2893,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -2907,33 +2907,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRowCountBuilder() {
+      public io.dstore.Values.integerValue.Builder getRowCountBuilder() {
         
         onChanged();
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
           return rowCountBuilder_.getMessageOrBuilder();
         } else {
           return rowCount_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+              io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 9;</code>
+       * <code>optional .dstore.values.integerValue row_count = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRowCountFieldBuilder() {
         if (rowCountBuilder_ == null) {
           rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRowCount(),
                   getParentForChildren(),
                   isClean());
@@ -2968,29 +2968,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeAdditionalInfos_ = null;
+      private io.dstore.Values.booleanValue includeAdditionalInfos_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeAdditionalInfosBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeAdditionalInfosBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
       public boolean hasIncludeAdditionalInfos() {
         return includeAdditionalInfosBuilder_ != null || includeAdditionalInfos_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeAdditionalInfos() {
+      public io.dstore.Values.booleanValue getIncludeAdditionalInfos() {
         if (includeAdditionalInfosBuilder_ == null) {
-          return includeAdditionalInfos_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeAdditionalInfos_;
+          return includeAdditionalInfos_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeAdditionalInfos_;
         } else {
           return includeAdditionalInfosBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
-      public Builder setIncludeAdditionalInfos(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeAdditionalInfos(io.dstore.Values.booleanValue value) {
         if (includeAdditionalInfosBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3004,10 +3004,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
       public Builder setIncludeAdditionalInfos(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeAdditionalInfosBuilder_ == null) {
           includeAdditionalInfos_ = builderForValue.build();
           onChanged();
@@ -3018,13 +3018,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
-      public Builder mergeIncludeAdditionalInfos(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeAdditionalInfos(io.dstore.Values.booleanValue value) {
         if (includeAdditionalInfosBuilder_ == null) {
           if (includeAdditionalInfos_ != null) {
             includeAdditionalInfos_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeAdditionalInfos_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeAdditionalInfos_).mergeFrom(value).buildPartial();
           } else {
             includeAdditionalInfos_ = value;
           }
@@ -3036,7 +3036,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
       public Builder clearIncludeAdditionalInfos() {
         if (includeAdditionalInfosBuilder_ == null) {
@@ -3050,33 +3050,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeAdditionalInfosBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeAdditionalInfosBuilder() {
         
         onChanged();
         return getIncludeAdditionalInfosFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeAdditionalInfosOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeAdditionalInfosOrBuilder() {
         if (includeAdditionalInfosBuilder_ != null) {
           return includeAdditionalInfosBuilder_.getMessageOrBuilder();
         } else {
           return includeAdditionalInfos_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeAdditionalInfos_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeAdditionalInfos_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_additional_infos = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_additional_infos = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeAdditionalInfosFieldBuilder() {
         if (includeAdditionalInfosBuilder_ == null) {
           includeAdditionalInfosBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeAdditionalInfos(),
                   getParentForChildren(),
                   isClean());
@@ -3111,29 +3111,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue orderCriteria_ = null;
+      private io.dstore.Values.integerValue orderCriteria_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderCriteriaBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderCriteriaBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
       public boolean hasOrderCriteria() {
         return orderCriteriaBuilder_ != null || orderCriteria_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue getOrderCriteria() {
+      public io.dstore.Values.integerValue getOrderCriteria() {
         if (orderCriteriaBuilder_ == null) {
-          return orderCriteria_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderCriteria_;
+          return orderCriteria_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderCriteria_;
         } else {
           return orderCriteriaBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
-      public Builder setOrderCriteria(io.dstore.engine.Values.integerValue value) {
+      public Builder setOrderCriteria(io.dstore.Values.integerValue value) {
         if (orderCriteriaBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3147,10 +3147,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
       public Builder setOrderCriteria(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (orderCriteriaBuilder_ == null) {
           orderCriteria_ = builderForValue.build();
           onChanged();
@@ -3161,13 +3161,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
-      public Builder mergeOrderCriteria(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOrderCriteria(io.dstore.Values.integerValue value) {
         if (orderCriteriaBuilder_ == null) {
           if (orderCriteria_ != null) {
             orderCriteria_ =
-              io.dstore.engine.Values.integerValue.newBuilder(orderCriteria_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(orderCriteria_).mergeFrom(value).buildPartial();
           } else {
             orderCriteria_ = value;
           }
@@ -3179,7 +3179,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
       public Builder clearOrderCriteria() {
         if (orderCriteriaBuilder_ == null) {
@@ -3193,33 +3193,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOrderCriteriaBuilder() {
+      public io.dstore.Values.integerValue.Builder getOrderCriteriaBuilder() {
         
         onChanged();
         return getOrderCriteriaFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderCriteriaOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderCriteriaOrBuilder() {
         if (orderCriteriaBuilder_ != null) {
           return orderCriteriaBuilder_.getMessageOrBuilder();
         } else {
           return orderCriteria_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : orderCriteria_;
+              io.dstore.Values.integerValue.getDefaultInstance() : orderCriteria_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_criteria = 11;</code>
+       * <code>optional .dstore.values.integerValue order_criteria = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderCriteriaFieldBuilder() {
         if (orderCriteriaBuilder_ == null) {
           orderCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderCriteria(),
                   getParentForChildren(),
                   isClean());
@@ -3254,29 +3254,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue visibility_ = null;
+      private io.dstore.Values.integerValue visibility_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibilityBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibilityBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
       public boolean hasVisibility() {
         return visibilityBuilder_ != null || visibility_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
-      public io.dstore.engine.Values.integerValue getVisibility() {
+      public io.dstore.Values.integerValue getVisibility() {
         if (visibilityBuilder_ == null) {
-          return visibility_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibility_;
+          return visibility_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibility_;
         } else {
           return visibilityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
-      public Builder setVisibility(io.dstore.engine.Values.integerValue value) {
+      public Builder setVisibility(io.dstore.Values.integerValue value) {
         if (visibilityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3290,10 +3290,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
       public Builder setVisibility(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (visibilityBuilder_ == null) {
           visibility_ = builderForValue.build();
           onChanged();
@@ -3304,13 +3304,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
-      public Builder mergeVisibility(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeVisibility(io.dstore.Values.integerValue value) {
         if (visibilityBuilder_ == null) {
           if (visibility_ != null) {
             visibility_ =
-              io.dstore.engine.Values.integerValue.newBuilder(visibility_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(visibility_).mergeFrom(value).buildPartial();
           } else {
             visibility_ = value;
           }
@@ -3322,7 +3322,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
       public Builder clearVisibility() {
         if (visibilityBuilder_ == null) {
@@ -3336,33 +3336,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getVisibilityBuilder() {
+      public io.dstore.Values.integerValue.Builder getVisibilityBuilder() {
         
         onChanged();
         return getVisibilityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisibilityOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisibilityOrBuilder() {
         if (visibilityBuilder_ != null) {
           return visibilityBuilder_.getMessageOrBuilder();
         } else {
           return visibility_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : visibility_;
+              io.dstore.Values.integerValue.getDefaultInstance() : visibility_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visibility = 12;</code>
+       * <code>optional .dstore.values.integerValue visibility = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisibilityFieldBuilder() {
         if (visibilityBuilder_ == null) {
           visibilityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisibility(),
                   getParentForChildren(),
                   isClean());
@@ -3397,29 +3397,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue getOwnNotApprovedPostings_ = null;
+      private io.dstore.Values.booleanValue getOwnNotApprovedPostings_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> getOwnNotApprovedPostingsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getOwnNotApprovedPostingsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
       public boolean hasGetOwnNotApprovedPostings() {
         return getOwnNotApprovedPostingsBuilder_ != null || getOwnNotApprovedPostings_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValue getGetOwnNotApprovedPostings() {
+      public io.dstore.Values.booleanValue getGetOwnNotApprovedPostings() {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
-          return getOwnNotApprovedPostings_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getOwnNotApprovedPostings_;
+          return getOwnNotApprovedPostings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getOwnNotApprovedPostings_;
         } else {
           return getOwnNotApprovedPostingsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
-      public Builder setGetOwnNotApprovedPostings(io.dstore.engine.Values.booleanValue value) {
+      public Builder setGetOwnNotApprovedPostings(io.dstore.Values.booleanValue value) {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3433,10 +3433,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
       public Builder setGetOwnNotApprovedPostings(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
           getOwnNotApprovedPostings_ = builderForValue.build();
           onChanged();
@@ -3447,13 +3447,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
-      public Builder mergeGetOwnNotApprovedPostings(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeGetOwnNotApprovedPostings(io.dstore.Values.booleanValue value) {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
           if (getOwnNotApprovedPostings_ != null) {
             getOwnNotApprovedPostings_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(getOwnNotApprovedPostings_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(getOwnNotApprovedPostings_).mergeFrom(value).buildPartial();
           } else {
             getOwnNotApprovedPostings_ = value;
           }
@@ -3465,7 +3465,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
       public Builder clearGetOwnNotApprovedPostings() {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
@@ -3479,33 +3479,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getGetOwnNotApprovedPostingsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getGetOwnNotApprovedPostingsBuilder() {
         
         onChanged();
         return getGetOwnNotApprovedPostingsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getGetOwnNotApprovedPostingsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getGetOwnNotApprovedPostingsOrBuilder() {
         if (getOwnNotApprovedPostingsBuilder_ != null) {
           return getOwnNotApprovedPostingsBuilder_.getMessageOrBuilder();
         } else {
           return getOwnNotApprovedPostings_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : getOwnNotApprovedPostings_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : getOwnNotApprovedPostings_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_own_not_approved_postings = 13;</code>
+       * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetOwnNotApprovedPostingsFieldBuilder() {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
           getOwnNotApprovedPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetOwnNotApprovedPostings(),
                   getParentForChildren(),
                   isClean());
@@ -3540,29 +3540,29 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
-      public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3576,10 +3576,10 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -3590,13 +3590,13 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.engine.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -3608,7 +3608,7 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3622,33 +3622,33 @@ public final class FoGetPostingsOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 14;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -3970,7 +3970,7 @@ public final class FoGetPostingsOfOnePersonPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+       * <code>optional .dstore.values.stringValue small_body = 10001;</code>
        *
        * <pre>
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
@@ -3978,24 +3978,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasSmallBody();
       /**
-       * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+       * <code>optional .dstore.values.stringValue small_body = 10001;</code>
        *
        * <pre>
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getSmallBody();
+      io.dstore.Values.stringValue getSmallBody();
       /**
-       * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+       * <code>optional .dstore.values.stringValue small_body = 10001;</code>
        *
        * <pre>
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getSmallBodyOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getSmallBodyOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+       * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
        *
        * <pre>
        * eMail des Verfassers "Author"
@@ -4003,24 +4003,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasEMailOfAuthor();
       /**
-       * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+       * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
        *
        * <pre>
        * eMail des Verfassers "Author"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getEMailOfAuthor();
+      io.dstore.Values.stringValue getEMailOfAuthor();
       /**
-       * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+       * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
        *
        * <pre>
        * eMail des Verfassers "Author"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getEMailOfAuthorOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getEMailOfAuthorOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
        *
        * <pre>
        * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
@@ -4028,24 +4028,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasPostingId();
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
        *
        * <pre>
        * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPostingId();
+      io.dstore.Values.integerValue getPostingId();
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
        *
        * <pre>
        * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPostingIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+       * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
        *
        * <pre>
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
@@ -4053,24 +4053,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasPostDateChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+       * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
        *
        * <pre>
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPostDateChar();
+      io.dstore.Values.stringValue getPostDateChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+       * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
        *
        * <pre>
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPostDateCharOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPostDateCharOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
        *
        * <pre>
        * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
@@ -4078,24 +4078,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasForumId();
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
        *
        * <pre>
        * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getForumId();
+      io.dstore.Values.integerValue getForumId();
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
        *
        * <pre>
        * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
        *
        * <pre>
        * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
@@ -4103,24 +4103,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasMainPostingId();
       /**
-       * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
        *
        * <pre>
        * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getMainPostingId();
+      io.dstore.Values.integerValue getMainPostingId();
       /**
-       * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
        *
        * <pre>
        * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getMainPostingIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getMainPostingIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+       * <code>optional .dstore.values.integerValue visible = 10007;</code>
        *
        * <pre>
        * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
@@ -4128,24 +4128,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasVisible();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+       * <code>optional .dstore.values.integerValue visible = 10007;</code>
        *
        * <pre>
        * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getVisible();
+      io.dstore.Values.integerValue getVisible();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+       * <code>optional .dstore.values.integerValue visible = 10007;</code>
        *
        * <pre>
        * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
        *
        * <pre>
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
@@ -4153,24 +4153,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasReplyToPostingId();
       /**
-       * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
        *
        * <pre>
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getReplyToPostingId();
+      io.dstore.Values.integerValue getReplyToPostingId();
       /**
-       * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
        *
        * <pre>
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getReplyToPostingIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getReplyToPostingIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+       * <code>optional .dstore.values.stringValue author = 10009;</code>
        *
        * <pre>
        * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
@@ -4178,24 +4178,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasAuthor();
       /**
-       * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+       * <code>optional .dstore.values.stringValue author = 10009;</code>
        *
        * <pre>
        * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getAuthor();
+      io.dstore.Values.stringValue getAuthor();
       /**
-       * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+       * <code>optional .dstore.values.stringValue author = 10009;</code>
        *
        * <pre>
        * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getAuthorOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getAuthorOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+       * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
        *
        * <pre>
        * Datum des Beitrags "PostingID"
@@ -4203,24 +4203,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasPostDate();
       /**
-       * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+       * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
        *
        * <pre>
        * Datum des Beitrags "PostingID"
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getPostDate();
+      io.dstore.Values.timestampValue getPostDate();
       /**
-       * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+       * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
        *
        * <pre>
        * Datum des Beitrags "PostingID"
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getPostDateOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getPostDateOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+       * <code>optional .dstore.values.stringValue body = 10011;</code>
        *
        * <pre>
        * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
@@ -4228,24 +4228,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasBody();
       /**
-       * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+       * <code>optional .dstore.values.stringValue body = 10011;</code>
        *
        * <pre>
        * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getBody();
+      io.dstore.Values.stringValue getBody();
       /**
-       * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+       * <code>optional .dstore.values.stringValue body = 10011;</code>
        *
        * <pre>
        * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getBodyOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getBodyOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+       * <code>optional .dstore.values.stringValue subject = 10012;</code>
        *
        * <pre>
        * Der Titel des Beitrags "PostingID"
@@ -4253,24 +4253,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasSubject();
       /**
-       * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+       * <code>optional .dstore.values.stringValue subject = 10012;</code>
        *
        * <pre>
        * Der Titel des Beitrags "PostingID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getSubject();
+      io.dstore.Values.stringValue getSubject();
       /**
-       * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+       * <code>optional .dstore.values.stringValue subject = 10012;</code>
        *
        * <pre>
        * Der Titel des Beitrags "PostingID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getSubjectOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getSubjectOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+       * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
        *
        * <pre>
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
@@ -4278,24 +4278,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasAlreadyRead();
       /**
-       * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+       * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
        *
        * <pre>
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getAlreadyRead();
+      io.dstore.Values.booleanValue getAlreadyRead();
       /**
-       * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+       * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
        *
        * <pre>
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getAlreadyReadOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getAlreadyReadOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+       * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
        *
        * <pre>
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
@@ -4303,24 +4303,24 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasHasBinaries();
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+       * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
        *
        * <pre>
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getHasBinaries();
+      io.dstore.Values.booleanValue getHasBinaries();
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+       * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
        *
        * <pre>
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getHasBinariesOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getHasBinariesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+       * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
        *
        * <pre>
        * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
@@ -4328,21 +4328,21 @@ public final class FoGetPostingsOfOnePersonPu {
        */
       boolean hasHasSuccessors();
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+       * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
        *
        * <pre>
        * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getHasSuccessors();
+      io.dstore.Values.booleanValue getHasSuccessors();
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+       * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
        *
        * <pre>
        * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getHasSuccessorsOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getHasSuccessorsOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetPostingsOfOnePerson_Pu.Response.Row}
@@ -4389,11 +4389,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (smallBody_ != null) {
                   subBuilder = smallBody_.toBuilder();
                 }
-                smallBody_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                smallBody_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(smallBody_);
                   smallBody_ = subBuilder.buildPartial();
@@ -4402,11 +4402,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (eMailOfAuthor_ != null) {
                   subBuilder = eMailOfAuthor_.toBuilder();
                 }
-                eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                eMailOfAuthor_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(eMailOfAuthor_);
                   eMailOfAuthor_ = subBuilder.buildPartial();
@@ -4415,11 +4415,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (postingId_ != null) {
                   subBuilder = postingId_.toBuilder();
                 }
-                postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                postingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingId_);
                   postingId_ = subBuilder.buildPartial();
@@ -4428,11 +4428,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (postDateChar_ != null) {
                   subBuilder = postDateChar_.toBuilder();
                 }
-                postDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                postDateChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postDateChar_);
                   postDateChar_ = subBuilder.buildPartial();
@@ -4441,11 +4441,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -4454,11 +4454,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (mainPostingId_ != null) {
                   subBuilder = mainPostingId_.toBuilder();
                 }
-                mainPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                mainPostingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mainPostingId_);
                   mainPostingId_ = subBuilder.buildPartial();
@@ -4467,11 +4467,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (visible_ != null) {
                   subBuilder = visible_.toBuilder();
                 }
-                visible_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                visible_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visible_);
                   visible_ = subBuilder.buildPartial();
@@ -4480,11 +4480,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (replyToPostingId_ != null) {
                   subBuilder = replyToPostingId_.toBuilder();
                 }
-                replyToPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                replyToPostingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(replyToPostingId_);
                   replyToPostingId_ = subBuilder.buildPartial();
@@ -4493,11 +4493,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (author_ != null) {
                   subBuilder = author_.toBuilder();
                 }
-                author_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                author_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(author_);
                   author_ = subBuilder.buildPartial();
@@ -4506,11 +4506,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (postDate_ != null) {
                   subBuilder = postDate_.toBuilder();
                 }
-                postDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                postDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postDate_);
                   postDate_ = subBuilder.buildPartial();
@@ -4519,11 +4519,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (body_ != null) {
                   subBuilder = body_.toBuilder();
                 }
-                body_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                body_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(body_);
                   body_ = subBuilder.buildPartial();
@@ -4532,11 +4532,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (subject_ != null) {
                   subBuilder = subject_.toBuilder();
                 }
-                subject_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                subject_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(subject_);
                   subject_ = subBuilder.buildPartial();
@@ -4545,11 +4545,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 160010: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (alreadyRead_ != null) {
                   subBuilder = alreadyRead_.toBuilder();
                 }
-                alreadyRead_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                alreadyRead_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(alreadyRead_);
                   alreadyRead_ = subBuilder.buildPartial();
@@ -4558,11 +4558,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 160082: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (hasBinaries_ != null) {
                   subBuilder = hasBinaries_.toBuilder();
                 }
-                hasBinaries_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                hasBinaries_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hasBinaries_);
                   hasBinaries_ = subBuilder.buildPartial();
@@ -4571,11 +4571,11 @@ public final class FoGetPostingsOfOnePersonPu {
                 break;
               }
               case 160106: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (hasSuccessors_ != null) {
                   subBuilder = hasSuccessors_.toBuilder();
                 }
-                hasSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                hasSuccessors_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hasSuccessors_);
                   hasSuccessors_ = subBuilder.buildPartial();
@@ -4617,9 +4617,9 @@ public final class FoGetPostingsOfOnePersonPu {
       }
 
       public static final int SMALL_BODY_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue smallBody_;
+      private io.dstore.Values.stringValue smallBody_;
       /**
-       * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+       * <code>optional .dstore.values.stringValue small_body = 10001;</code>
        *
        * <pre>
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
@@ -4629,30 +4629,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return smallBody_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+       * <code>optional .dstore.values.stringValue small_body = 10001;</code>
        *
        * <pre>
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getSmallBody() {
-        return smallBody_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : smallBody_;
+      public io.dstore.Values.stringValue getSmallBody() {
+        return smallBody_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : smallBody_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+       * <code>optional .dstore.values.stringValue small_body = 10001;</code>
        *
        * <pre>
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSmallBodyOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSmallBodyOrBuilder() {
         return getSmallBody();
       }
 
       public static final int E_MAIL_OF_AUTHOR_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue eMailOfAuthor_;
+      private io.dstore.Values.stringValue eMailOfAuthor_;
       /**
-       * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+       * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
        *
        * <pre>
        * eMail des Verfassers "Author"
@@ -4662,30 +4662,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return eMailOfAuthor_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+       * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
        *
        * <pre>
        * eMail des Verfassers "Author"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getEMailOfAuthor() {
-        return eMailOfAuthor_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : eMailOfAuthor_;
+      public io.dstore.Values.stringValue getEMailOfAuthor() {
+        return eMailOfAuthor_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : eMailOfAuthor_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+       * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
        *
        * <pre>
        * eMail des Verfassers "Author"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getEMailOfAuthorOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getEMailOfAuthorOrBuilder() {
         return getEMailOfAuthor();
       }
 
       public static final int POSTING_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue postingId_;
+      private io.dstore.Values.integerValue postingId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
        *
        * <pre>
        * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
@@ -4695,30 +4695,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return postingId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
        *
        * <pre>
        * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPostingId() {
-        return postingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingId_;
+      public io.dstore.Values.integerValue getPostingId() {
+        return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
        *
        * <pre>
        * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
         return getPostingId();
       }
 
       public static final int POST_DATE_CHAR_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue postDateChar_;
+      private io.dstore.Values.stringValue postDateChar_;
       /**
-       * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+       * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
        *
        * <pre>
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
@@ -4728,30 +4728,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return postDateChar_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+       * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
        *
        * <pre>
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPostDateChar() {
-        return postDateChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : postDateChar_;
+      public io.dstore.Values.stringValue getPostDateChar() {
+        return postDateChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : postDateChar_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+       * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
        *
        * <pre>
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPostDateCharOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPostDateCharOrBuilder() {
         return getPostDateChar();
       }
 
       public static final int FORUM_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue forumId_;
+      private io.dstore.Values.integerValue forumId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
        *
        * <pre>
        * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
@@ -4761,30 +4761,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return forumId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
        *
        * <pre>
        * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getForumId() {
-        return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+      public io.dstore.Values.integerValue getForumId() {
+        return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
        *
        * <pre>
        * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
       }
 
       public static final int MAIN_POSTING_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue mainPostingId_;
+      private io.dstore.Values.integerValue mainPostingId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
        *
        * <pre>
        * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
@@ -4794,30 +4794,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return mainPostingId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
        *
        * <pre>
        * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getMainPostingId() {
-        return mainPostingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : mainPostingId_;
+      public io.dstore.Values.integerValue getMainPostingId() {
+        return mainPostingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : mainPostingId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
        *
        * <pre>
        * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMainPostingIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMainPostingIdOrBuilder() {
         return getMainPostingId();
       }
 
       public static final int VISIBLE_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue visible_;
+      private io.dstore.Values.integerValue visible_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+       * <code>optional .dstore.values.integerValue visible = 10007;</code>
        *
        * <pre>
        * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
@@ -4827,30 +4827,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return visible_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+       * <code>optional .dstore.values.integerValue visible = 10007;</code>
        *
        * <pre>
        * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getVisible() {
-        return visible_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+      public io.dstore.Values.integerValue getVisible() {
+        return visible_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visible_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+       * <code>optional .dstore.values.integerValue visible = 10007;</code>
        *
        * <pre>
        * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder() {
         return getVisible();
       }
 
       public static final int REPLY_TO_POSTING_ID_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.integerValue replyToPostingId_;
+      private io.dstore.Values.integerValue replyToPostingId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
        *
        * <pre>
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
@@ -4860,30 +4860,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return replyToPostingId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
        *
        * <pre>
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getReplyToPostingId() {
-        return replyToPostingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : replyToPostingId_;
+      public io.dstore.Values.integerValue getReplyToPostingId() {
+        return replyToPostingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : replyToPostingId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
        *
        * <pre>
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReplyToPostingIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReplyToPostingIdOrBuilder() {
         return getReplyToPostingId();
       }
 
       public static final int AUTHOR_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue author_;
+      private io.dstore.Values.stringValue author_;
       /**
-       * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+       * <code>optional .dstore.values.stringValue author = 10009;</code>
        *
        * <pre>
        * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
@@ -4893,30 +4893,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return author_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+       * <code>optional .dstore.values.stringValue author = 10009;</code>
        *
        * <pre>
        * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getAuthor() {
-        return author_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : author_;
+      public io.dstore.Values.stringValue getAuthor() {
+        return author_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : author_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+       * <code>optional .dstore.values.stringValue author = 10009;</code>
        *
        * <pre>
        * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getAuthorOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getAuthorOrBuilder() {
         return getAuthor();
       }
 
       public static final int POST_DATE_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.timestampValue postDate_;
+      private io.dstore.Values.timestampValue postDate_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+       * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
        *
        * <pre>
        * Datum des Beitrags "PostingID"
@@ -4926,30 +4926,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return postDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+       * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
        *
        * <pre>
        * Datum des Beitrags "PostingID"
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getPostDate() {
-        return postDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : postDate_;
+      public io.dstore.Values.timestampValue getPostDate() {
+        return postDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : postDate_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+       * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
        *
        * <pre>
        * Datum des Beitrags "PostingID"
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getPostDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getPostDateOrBuilder() {
         return getPostDate();
       }
 
       public static final int BODY_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.stringValue body_;
+      private io.dstore.Values.stringValue body_;
       /**
-       * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+       * <code>optional .dstore.values.stringValue body = 10011;</code>
        *
        * <pre>
        * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
@@ -4959,30 +4959,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return body_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+       * <code>optional .dstore.values.stringValue body = 10011;</code>
        *
        * <pre>
        * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getBody() {
-        return body_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : body_;
+      public io.dstore.Values.stringValue getBody() {
+        return body_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : body_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+       * <code>optional .dstore.values.stringValue body = 10011;</code>
        *
        * <pre>
        * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBodyOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBodyOrBuilder() {
         return getBody();
       }
 
       public static final int SUBJECT_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.stringValue subject_;
+      private io.dstore.Values.stringValue subject_;
       /**
-       * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+       * <code>optional .dstore.values.stringValue subject = 10012;</code>
        *
        * <pre>
        * Der Titel des Beitrags "PostingID"
@@ -4992,30 +4992,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return subject_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+       * <code>optional .dstore.values.stringValue subject = 10012;</code>
        *
        * <pre>
        * Der Titel des Beitrags "PostingID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getSubject() {
-        return subject_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : subject_;
+      public io.dstore.Values.stringValue getSubject() {
+        return subject_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : subject_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+       * <code>optional .dstore.values.stringValue subject = 10012;</code>
        *
        * <pre>
        * Der Titel des Beitrags "PostingID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSubjectOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSubjectOrBuilder() {
         return getSubject();
       }
 
       public static final int ALREADY_READ_FIELD_NUMBER = 20001;
-      private io.dstore.engine.Values.booleanValue alreadyRead_;
+      private io.dstore.Values.booleanValue alreadyRead_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+       * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
        *
        * <pre>
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
@@ -5025,30 +5025,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return alreadyRead_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+       * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
        *
        * <pre>
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getAlreadyRead() {
-        return alreadyRead_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : alreadyRead_;
+      public io.dstore.Values.booleanValue getAlreadyRead() {
+        return alreadyRead_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : alreadyRead_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+       * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
        *
        * <pre>
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getAlreadyReadOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getAlreadyReadOrBuilder() {
         return getAlreadyRead();
       }
 
       public static final int HAS_BINARIES_FIELD_NUMBER = 20010;
-      private io.dstore.engine.Values.booleanValue hasBinaries_;
+      private io.dstore.Values.booleanValue hasBinaries_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+       * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
        *
        * <pre>
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
@@ -5058,30 +5058,30 @@ public final class FoGetPostingsOfOnePersonPu {
         return hasBinaries_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+       * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
        *
        * <pre>
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getHasBinaries() {
-        return hasBinaries_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : hasBinaries_;
+      public io.dstore.Values.booleanValue getHasBinaries() {
+        return hasBinaries_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : hasBinaries_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+       * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
        *
        * <pre>
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getHasBinariesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getHasBinariesOrBuilder() {
         return getHasBinaries();
       }
 
       public static final int HAS_SUCCESSORS_FIELD_NUMBER = 20013;
-      private io.dstore.engine.Values.booleanValue hasSuccessors_;
+      private io.dstore.Values.booleanValue hasSuccessors_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+       * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
        *
        * <pre>
        * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
@@ -5091,23 +5091,23 @@ public final class FoGetPostingsOfOnePersonPu {
         return hasSuccessors_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+       * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
        *
        * <pre>
        * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getHasSuccessors() {
-        return hasSuccessors_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : hasSuccessors_;
+      public io.dstore.Values.booleanValue getHasSuccessors() {
+        return hasSuccessors_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : hasSuccessors_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+       * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
        *
        * <pre>
        * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getHasSuccessorsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getHasSuccessorsOrBuilder() {
         return getHasSuccessors();
       }
 
@@ -5658,11 +5658,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue smallBody_ = null;
+        private io.dstore.Values.stringValue smallBody_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> smallBodyBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> smallBodyBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
@@ -5672,27 +5672,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return smallBodyBuilder_ != null || smallBody_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getSmallBody() {
+        public io.dstore.Values.stringValue getSmallBody() {
           if (smallBodyBuilder_ == null) {
-            return smallBody_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : smallBody_;
+            return smallBody_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : smallBody_;
           } else {
             return smallBodyBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
-        public Builder setSmallBody(io.dstore.engine.Values.stringValue value) {
+        public Builder setSmallBody(io.dstore.Values.stringValue value) {
           if (smallBodyBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5706,14 +5706,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
         public Builder setSmallBody(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (smallBodyBuilder_ == null) {
             smallBody_ = builderForValue.build();
             onChanged();
@@ -5724,17 +5724,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
-        public Builder mergeSmallBody(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeSmallBody(io.dstore.Values.stringValue value) {
           if (smallBodyBuilder_ == null) {
             if (smallBody_ != null) {
               smallBody_ =
-                io.dstore.engine.Values.stringValue.newBuilder(smallBody_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(smallBody_).mergeFrom(value).buildPartial();
             } else {
               smallBody_ = value;
             }
@@ -5746,7 +5746,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
@@ -5764,45 +5764,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getSmallBodyBuilder() {
+        public io.dstore.Values.stringValue.Builder getSmallBodyBuilder() {
           
           onChanged();
           return getSmallBodyFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getSmallBodyOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getSmallBodyOrBuilder() {
           if (smallBodyBuilder_ != null) {
             return smallBodyBuilder_.getMessageOrBuilder();
           } else {
             return smallBody_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : smallBody_;
+                io.dstore.Values.stringValue.getDefaultInstance() : smallBody_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue small_body = 10001;</code>
+         * <code>optional .dstore.values.stringValue small_body = 10001;</code>
          *
          * <pre>
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt UND "&#64;IncludeBodies = 1" ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSmallBodyFieldBuilder() {
           if (smallBodyBuilder_ == null) {
             smallBodyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSmallBody(),
                     getParentForChildren(),
                     isClean());
@@ -5811,11 +5811,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return smallBodyBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue eMailOfAuthor_ = null;
+        private io.dstore.Values.stringValue eMailOfAuthor_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> eMailOfAuthorBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> eMailOfAuthorBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
@@ -5825,27 +5825,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return eMailOfAuthorBuilder_ != null || eMailOfAuthor_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getEMailOfAuthor() {
+        public io.dstore.Values.stringValue getEMailOfAuthor() {
           if (eMailOfAuthorBuilder_ == null) {
-            return eMailOfAuthor_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : eMailOfAuthor_;
+            return eMailOfAuthor_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : eMailOfAuthor_;
           } else {
             return eMailOfAuthorBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
-        public Builder setEMailOfAuthor(io.dstore.engine.Values.stringValue value) {
+        public Builder setEMailOfAuthor(io.dstore.Values.stringValue value) {
           if (eMailOfAuthorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5859,14 +5859,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
         public Builder setEMailOfAuthor(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (eMailOfAuthorBuilder_ == null) {
             eMailOfAuthor_ = builderForValue.build();
             onChanged();
@@ -5877,17 +5877,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
-        public Builder mergeEMailOfAuthor(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeEMailOfAuthor(io.dstore.Values.stringValue value) {
           if (eMailOfAuthorBuilder_ == null) {
             if (eMailOfAuthor_ != null) {
               eMailOfAuthor_ =
-                io.dstore.engine.Values.stringValue.newBuilder(eMailOfAuthor_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(eMailOfAuthor_).mergeFrom(value).buildPartial();
             } else {
               eMailOfAuthor_ = value;
             }
@@ -5899,7 +5899,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
@@ -5917,45 +5917,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getEMailOfAuthorBuilder() {
+        public io.dstore.Values.stringValue.Builder getEMailOfAuthorBuilder() {
           
           onChanged();
           return getEMailOfAuthorFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getEMailOfAuthorOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getEMailOfAuthorOrBuilder() {
           if (eMailOfAuthorBuilder_ != null) {
             return eMailOfAuthorBuilder_.getMessageOrBuilder();
           } else {
             return eMailOfAuthor_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : eMailOfAuthor_;
+                io.dstore.Values.stringValue.getDefaultInstance() : eMailOfAuthor_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue e_mail_of_author = 10002;</code>
+         * <code>optional .dstore.values.stringValue e_mail_of_author = 10002;</code>
          *
          * <pre>
          * eMail des Verfassers "Author"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getEMailOfAuthorFieldBuilder() {
           if (eMailOfAuthorBuilder_ == null) {
             eMailOfAuthorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getEMailOfAuthor(),
                     getParentForChildren(),
                     isClean());
@@ -5964,11 +5964,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return eMailOfAuthorBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue postingId_ = null;
+        private io.dstore.Values.integerValue postingId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> postingIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
@@ -5978,27 +5978,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return postingIdBuilder_ != null || postingId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPostingId() {
+        public io.dstore.Values.integerValue getPostingId() {
           if (postingIdBuilder_ == null) {
-            return postingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingId_;
+            return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
           } else {
             return postingIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
-        public Builder setPostingId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPostingId(io.dstore.Values.integerValue value) {
           if (postingIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6012,14 +6012,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
         public Builder setPostingId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (postingIdBuilder_ == null) {
             postingId_ = builderForValue.build();
             onChanged();
@@ -6030,17 +6030,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
-        public Builder mergePostingId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePostingId(io.dstore.Values.integerValue value) {
           if (postingIdBuilder_ == null) {
             if (postingId_ != null) {
               postingId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
             } else {
               postingId_ = value;
             }
@@ -6052,7 +6052,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
@@ -6070,45 +6070,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPostingIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPostingIdBuilder() {
           
           onChanged();
           return getPostingIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
           if (postingIdBuilder_ != null) {
             return postingIdBuilder_.getMessageOrBuilder();
           } else {
             return postingId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : postingId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue posting_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          *
          * <pre>
          * ID eines Beitrags, der von "&#64;PersonID" geschrieben wurde
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingIdFieldBuilder() {
           if (postingIdBuilder_ == null) {
             postingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingId(),
                     getParentForChildren(),
                     isClean());
@@ -6117,11 +6117,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return postingIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue postDateChar_ = null;
+        private io.dstore.Values.stringValue postDateChar_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> postDateCharBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> postDateCharBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
@@ -6131,27 +6131,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return postDateCharBuilder_ != null || postDateChar_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPostDateChar() {
+        public io.dstore.Values.stringValue getPostDateChar() {
           if (postDateCharBuilder_ == null) {
-            return postDateChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : postDateChar_;
+            return postDateChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : postDateChar_;
           } else {
             return postDateCharBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
-        public Builder setPostDateChar(io.dstore.engine.Values.stringValue value) {
+        public Builder setPostDateChar(io.dstore.Values.stringValue value) {
           if (postDateCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6165,14 +6165,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
         public Builder setPostDateChar(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (postDateCharBuilder_ == null) {
             postDateChar_ = builderForValue.build();
             onChanged();
@@ -6183,17 +6183,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
-        public Builder mergePostDateChar(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePostDateChar(io.dstore.Values.stringValue value) {
           if (postDateCharBuilder_ == null) {
             if (postDateChar_ != null) {
               postDateChar_ =
-                io.dstore.engine.Values.stringValue.newBuilder(postDateChar_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(postDateChar_).mergeFrom(value).buildPartial();
             } else {
               postDateChar_ = value;
             }
@@ -6205,7 +6205,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
@@ -6223,45 +6223,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPostDateCharBuilder() {
+        public io.dstore.Values.stringValue.Builder getPostDateCharBuilder() {
           
           onChanged();
           return getPostDateCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPostDateCharOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPostDateCharOrBuilder() {
           if (postDateCharBuilder_ != null) {
             return postDateCharBuilder_.getMessageOrBuilder();
           } else {
             return postDateChar_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : postDateChar_;
+                io.dstore.Values.stringValue.getDefaultInstance() : postDateChar_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue post_date_char = 10004;</code>
+         * <code>optional .dstore.values.stringValue post_date_char = 10004;</code>
          *
          * <pre>
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPostDateCharFieldBuilder() {
           if (postDateCharBuilder_ == null) {
             postDateCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPostDateChar(),
                     getParentForChildren(),
                     isClean());
@@ -6270,11 +6270,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return postDateCharBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue forumId_ = null;
+        private io.dstore.Values.integerValue forumId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> forumIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
@@ -6284,27 +6284,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return forumIdBuilder_ != null || forumId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getForumId() {
+        public io.dstore.Values.integerValue getForumId() {
           if (forumIdBuilder_ == null) {
-            return forumId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+            return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
           } else {
             return forumIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
-        public Builder setForumId(io.dstore.engine.Values.integerValue value) {
+        public Builder setForumId(io.dstore.Values.integerValue value) {
           if (forumIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6318,14 +6318,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
         public Builder setForumId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (forumIdBuilder_ == null) {
             forumId_ = builderForValue.build();
             onChanged();
@@ -6336,17 +6336,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
-        public Builder mergeForumId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeForumId(io.dstore.Values.integerValue value) {
           if (forumIdBuilder_ == null) {
             if (forumId_ != null) {
               forumId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
             } else {
               forumId_ = value;
             }
@@ -6358,7 +6358,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
@@ -6376,45 +6376,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getForumIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
           
           onChanged();
           return getForumIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getForumIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
             return forumIdBuilder_.getMessageOrBuilder();
           } else {
             return forumId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : forumId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue forum_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue forum_id = 10005;</code>
          *
          * <pre>
          * ID eines Forums, in dem der Beitrag "PostingID" verfaßt wurde
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getForumIdFieldBuilder() {
           if (forumIdBuilder_ == null) {
             forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getForumId(),
                     getParentForChildren(),
                     isClean());
@@ -6423,11 +6423,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return forumIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue mainPostingId_ = null;
+        private io.dstore.Values.integerValue mainPostingId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> mainPostingIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> mainPostingIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
@@ -6437,27 +6437,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return mainPostingIdBuilder_ != null || mainPostingId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getMainPostingId() {
+        public io.dstore.Values.integerValue getMainPostingId() {
           if (mainPostingIdBuilder_ == null) {
-            return mainPostingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : mainPostingId_;
+            return mainPostingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : mainPostingId_;
           } else {
             return mainPostingIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
-        public Builder setMainPostingId(io.dstore.engine.Values.integerValue value) {
+        public Builder setMainPostingId(io.dstore.Values.integerValue value) {
           if (mainPostingIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6471,14 +6471,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
         public Builder setMainPostingId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (mainPostingIdBuilder_ == null) {
             mainPostingId_ = builderForValue.build();
             onChanged();
@@ -6489,17 +6489,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
-        public Builder mergeMainPostingId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeMainPostingId(io.dstore.Values.integerValue value) {
           if (mainPostingIdBuilder_ == null) {
             if (mainPostingId_ != null) {
               mainPostingId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(mainPostingId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(mainPostingId_).mergeFrom(value).buildPartial();
             } else {
               mainPostingId_ = value;
             }
@@ -6511,7 +6511,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
@@ -6529,45 +6529,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getMainPostingIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getMainPostingIdBuilder() {
           
           onChanged();
           return getMainPostingIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getMainPostingIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getMainPostingIdOrBuilder() {
           if (mainPostingIdBuilder_ != null) {
             return mainPostingIdBuilder_.getMessageOrBuilder();
           } else {
             return mainPostingId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : mainPostingId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : mainPostingId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue main_posting_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue main_posting_id = 10006;</code>
          *
          * <pre>
          * ID des Haupt-Beitrages zu "PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "PostingID" gehört)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMainPostingIdFieldBuilder() {
           if (mainPostingIdBuilder_ == null) {
             mainPostingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMainPostingId(),
                     getParentForChildren(),
                     isClean());
@@ -6576,11 +6576,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return mainPostingIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue visible_ = null;
+        private io.dstore.Values.integerValue visible_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibleBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibleBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
@@ -6590,27 +6590,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return visibleBuilder_ != null || visible_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getVisible() {
+        public io.dstore.Values.integerValue getVisible() {
           if (visibleBuilder_ == null) {
-            return visible_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+            return visible_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visible_;
           } else {
             return visibleBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
-        public Builder setVisible(io.dstore.engine.Values.integerValue value) {
+        public Builder setVisible(io.dstore.Values.integerValue value) {
           if (visibleBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6624,14 +6624,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
         public Builder setVisible(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (visibleBuilder_ == null) {
             visible_ = builderForValue.build();
             onChanged();
@@ -6642,17 +6642,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
-        public Builder mergeVisible(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeVisible(io.dstore.Values.integerValue value) {
           if (visibleBuilder_ == null) {
             if (visible_ != null) {
               visible_ =
-                io.dstore.engine.Values.integerValue.newBuilder(visible_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(visible_).mergeFrom(value).buildPartial();
             } else {
               visible_ = value;
             }
@@ -6664,7 +6664,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
@@ -6682,45 +6682,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getVisibleBuilder() {
+        public io.dstore.Values.integerValue.Builder getVisibleBuilder() {
           
           onChanged();
           return getVisibleFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getVisibleOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getVisibleOrBuilder() {
           if (visibleBuilder_ != null) {
             return visibleBuilder_.getMessageOrBuilder();
           } else {
             return visible_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : visible_;
+                io.dstore.Values.integerValue.getDefaultInstance() : visible_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible = 10007;</code>
+         * <code>optional .dstore.values.integerValue visible = 10007;</code>
          *
          * <pre>
          * Sichtbarkeits-Status des Postings "PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisibleFieldBuilder() {
           if (visibleBuilder_ == null) {
             visibleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisible(),
                     getParentForChildren(),
                     isClean());
@@ -6729,11 +6729,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return visibleBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue replyToPostingId_ = null;
+        private io.dstore.Values.integerValue replyToPostingId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> replyToPostingIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> replyToPostingIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
@@ -6743,27 +6743,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return replyToPostingIdBuilder_ != null || replyToPostingId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getReplyToPostingId() {
+        public io.dstore.Values.integerValue getReplyToPostingId() {
           if (replyToPostingIdBuilder_ == null) {
-            return replyToPostingId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : replyToPostingId_;
+            return replyToPostingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : replyToPostingId_;
           } else {
             return replyToPostingIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
-        public Builder setReplyToPostingId(io.dstore.engine.Values.integerValue value) {
+        public Builder setReplyToPostingId(io.dstore.Values.integerValue value) {
           if (replyToPostingIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6777,14 +6777,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
         public Builder setReplyToPostingId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (replyToPostingIdBuilder_ == null) {
             replyToPostingId_ = builderForValue.build();
             onChanged();
@@ -6795,17 +6795,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
-        public Builder mergeReplyToPostingId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeReplyToPostingId(io.dstore.Values.integerValue value) {
           if (replyToPostingIdBuilder_ == null) {
             if (replyToPostingId_ != null) {
               replyToPostingId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(replyToPostingId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(replyToPostingId_).mergeFrom(value).buildPartial();
             } else {
               replyToPostingId_ = value;
             }
@@ -6817,7 +6817,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
@@ -6835,45 +6835,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getReplyToPostingIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getReplyToPostingIdBuilder() {
           
           onChanged();
           return getReplyToPostingIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getReplyToPostingIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getReplyToPostingIdOrBuilder() {
           if (replyToPostingIdBuilder_ != null) {
             return replyToPostingIdBuilder_.getMessageOrBuilder();
           } else {
             return replyToPostingId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : replyToPostingId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : replyToPostingId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue reply_to_posting_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue reply_to_posting_id = 10008;</code>
          *
          * <pre>
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getReplyToPostingIdFieldBuilder() {
           if (replyToPostingIdBuilder_ == null) {
             replyToPostingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getReplyToPostingId(),
                     getParentForChildren(),
                     isClean());
@@ -6882,11 +6882,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return replyToPostingIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue author_ = null;
+        private io.dstore.Values.stringValue author_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> authorBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> authorBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
@@ -6896,27 +6896,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return authorBuilder_ != null || author_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getAuthor() {
+        public io.dstore.Values.stringValue getAuthor() {
           if (authorBuilder_ == null) {
-            return author_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : author_;
+            return author_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : author_;
           } else {
             return authorBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
-        public Builder setAuthor(io.dstore.engine.Values.stringValue value) {
+        public Builder setAuthor(io.dstore.Values.stringValue value) {
           if (authorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6930,14 +6930,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
         public Builder setAuthor(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (authorBuilder_ == null) {
             author_ = builderForValue.build();
             onChanged();
@@ -6948,17 +6948,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
-        public Builder mergeAuthor(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeAuthor(io.dstore.Values.stringValue value) {
           if (authorBuilder_ == null) {
             if (author_ != null) {
               author_ =
-                io.dstore.engine.Values.stringValue.newBuilder(author_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(author_).mergeFrom(value).buildPartial();
             } else {
               author_ = value;
             }
@@ -6970,7 +6970,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
@@ -6988,45 +6988,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getAuthorBuilder() {
+        public io.dstore.Values.stringValue.Builder getAuthorBuilder() {
           
           onChanged();
           return getAuthorFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getAuthorOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getAuthorOrBuilder() {
           if (authorBuilder_ != null) {
             return authorBuilder_.getMessageOrBuilder();
           } else {
             return author_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : author_;
+                io.dstore.Values.stringValue.getDefaultInstance() : author_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue author = 10009;</code>
+         * <code>optional .dstore.values.stringValue author = 10009;</code>
          *
          * <pre>
          * Name des Verfassers ("&#64;PersonID") des Beitrags "PostingID", also die Eigenschaft(en) des Autors "&#64;PersonID" zu der (den) Merkmal-ID(s), die in "ForumSettings" zum Schlüssel "CharacteristicIDsForAuthor_&lt;PersonTypeID von &#64;PersonID&gt;" hinterlegt ist (sind)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getAuthorFieldBuilder() {
           if (authorBuilder_ == null) {
             authorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getAuthor(),
                     getParentForChildren(),
                     isClean());
@@ -7035,11 +7035,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return authorBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue postDate_ = null;
+        private io.dstore.Values.timestampValue postDate_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> postDateBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> postDateBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
@@ -7049,27 +7049,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return postDateBuilder_ != null || postDate_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getPostDate() {
+        public io.dstore.Values.timestampValue getPostDate() {
           if (postDateBuilder_ == null) {
-            return postDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : postDate_;
+            return postDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : postDate_;
           } else {
             return postDateBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
-        public Builder setPostDate(io.dstore.engine.Values.timestampValue value) {
+        public Builder setPostDate(io.dstore.Values.timestampValue value) {
           if (postDateBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7083,14 +7083,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
         public Builder setPostDate(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (postDateBuilder_ == null) {
             postDate_ = builderForValue.build();
             onChanged();
@@ -7101,17 +7101,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
-        public Builder mergePostDate(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergePostDate(io.dstore.Values.timestampValue value) {
           if (postDateBuilder_ == null) {
             if (postDate_ != null) {
               postDate_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(postDate_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(postDate_).mergeFrom(value).buildPartial();
             } else {
               postDate_ = value;
             }
@@ -7123,7 +7123,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
@@ -7141,45 +7141,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getPostDateBuilder() {
+        public io.dstore.Values.timestampValue.Builder getPostDateBuilder() {
           
           onChanged();
           return getPostDateFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getPostDateOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getPostDateOrBuilder() {
           if (postDateBuilder_ != null) {
             return postDateBuilder_.getMessageOrBuilder();
           } else {
             return postDate_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : postDate_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : postDate_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue post_date = 10010;</code>
+         * <code>optional .dstore.values.timestampValue post_date = 10010;</code>
          *
          * <pre>
          * Datum des Beitrags "PostingID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getPostDateFieldBuilder() {
           if (postDateBuilder_ == null) {
             postDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getPostDate(),
                     getParentForChildren(),
                     isClean());
@@ -7188,11 +7188,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return postDateBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue body_ = null;
+        private io.dstore.Values.stringValue body_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> bodyBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> bodyBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
@@ -7202,27 +7202,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return bodyBuilder_ != null || body_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getBody() {
+        public io.dstore.Values.stringValue getBody() {
           if (bodyBuilder_ == null) {
-            return body_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : body_;
+            return body_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : body_;
           } else {
             return bodyBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
-        public Builder setBody(io.dstore.engine.Values.stringValue value) {
+        public Builder setBody(io.dstore.Values.stringValue value) {
           if (bodyBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7236,14 +7236,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
         public Builder setBody(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (bodyBuilder_ == null) {
             body_ = builderForValue.build();
             onChanged();
@@ -7254,17 +7254,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
-        public Builder mergeBody(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeBody(io.dstore.Values.stringValue value) {
           if (bodyBuilder_ == null) {
             if (body_ != null) {
               body_ =
-                io.dstore.engine.Values.stringValue.newBuilder(body_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(body_).mergeFrom(value).buildPartial();
             } else {
               body_ = value;
             }
@@ -7276,7 +7276,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
@@ -7294,45 +7294,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getBodyBuilder() {
+        public io.dstore.Values.stringValue.Builder getBodyBuilder() {
           
           onChanged();
           return getBodyFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getBodyOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getBodyOrBuilder() {
           if (bodyBuilder_ != null) {
             return bodyBuilder_.getMessageOrBuilder();
           } else {
             return body_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : body_;
+                io.dstore.Values.stringValue.getDefaultInstance() : body_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue body = 10011;</code>
+         * <code>optional .dstore.values.stringValue body = 10011;</code>
          *
          * <pre>
          * Der Beitrag selbst - immer "NULL" falls "&#64;IncludeBodies = 0" oder wenn "SmallBody" NICHT "NULL" ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBodyFieldBuilder() {
           if (bodyBuilder_ == null) {
             bodyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBody(),
                     getParentForChildren(),
                     isClean());
@@ -7341,11 +7341,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return bodyBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue subject_ = null;
+        private io.dstore.Values.stringValue subject_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> subjectBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> subjectBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
@@ -7355,27 +7355,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return subjectBuilder_ != null || subject_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getSubject() {
+        public io.dstore.Values.stringValue getSubject() {
           if (subjectBuilder_ == null) {
-            return subject_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : subject_;
+            return subject_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : subject_;
           } else {
             return subjectBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
-        public Builder setSubject(io.dstore.engine.Values.stringValue value) {
+        public Builder setSubject(io.dstore.Values.stringValue value) {
           if (subjectBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7389,14 +7389,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
         public Builder setSubject(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (subjectBuilder_ == null) {
             subject_ = builderForValue.build();
             onChanged();
@@ -7407,17 +7407,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
-        public Builder mergeSubject(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeSubject(io.dstore.Values.stringValue value) {
           if (subjectBuilder_ == null) {
             if (subject_ != null) {
               subject_ =
-                io.dstore.engine.Values.stringValue.newBuilder(subject_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(subject_).mergeFrom(value).buildPartial();
             } else {
               subject_ = value;
             }
@@ -7429,7 +7429,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
@@ -7447,45 +7447,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getSubjectBuilder() {
+        public io.dstore.Values.stringValue.Builder getSubjectBuilder() {
           
           onChanged();
           return getSubjectFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getSubjectOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getSubjectOrBuilder() {
           if (subjectBuilder_ != null) {
             return subjectBuilder_.getMessageOrBuilder();
           } else {
             return subject_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : subject_;
+                io.dstore.Values.stringValue.getDefaultInstance() : subject_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue subject = 10012;</code>
+         * <code>optional .dstore.values.stringValue subject = 10012;</code>
          *
          * <pre>
          * Der Titel des Beitrags "PostingID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSubjectFieldBuilder() {
           if (subjectBuilder_ == null) {
             subjectBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSubject(),
                     getParentForChildren(),
                     isClean());
@@ -7494,11 +7494,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return subjectBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue alreadyRead_ = null;
+        private io.dstore.Values.booleanValue alreadyRead_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> alreadyReadBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> alreadyReadBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
@@ -7508,27 +7508,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return alreadyReadBuilder_ != null || alreadyRead_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getAlreadyRead() {
+        public io.dstore.Values.booleanValue getAlreadyRead() {
           if (alreadyReadBuilder_ == null) {
-            return alreadyRead_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : alreadyRead_;
+            return alreadyRead_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : alreadyRead_;
           } else {
             return alreadyReadBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
-        public Builder setAlreadyRead(io.dstore.engine.Values.booleanValue value) {
+        public Builder setAlreadyRead(io.dstore.Values.booleanValue value) {
           if (alreadyReadBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7542,14 +7542,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
         public Builder setAlreadyRead(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (alreadyReadBuilder_ == null) {
             alreadyRead_ = builderForValue.build();
             onChanged();
@@ -7560,17 +7560,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
-        public Builder mergeAlreadyRead(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeAlreadyRead(io.dstore.Values.booleanValue value) {
           if (alreadyReadBuilder_ == null) {
             if (alreadyRead_ != null) {
               alreadyRead_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(alreadyRead_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(alreadyRead_).mergeFrom(value).buildPartial();
             } else {
               alreadyRead_ = value;
             }
@@ -7582,7 +7582,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
@@ -7600,45 +7600,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getAlreadyReadBuilder() {
+        public io.dstore.Values.booleanValue.Builder getAlreadyReadBuilder() {
           
           onChanged();
           return getAlreadyReadFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getAlreadyReadOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getAlreadyReadOrBuilder() {
           if (alreadyReadBuilder_ != null) {
             return alreadyReadBuilder_.getMessageOrBuilder();
           } else {
             return alreadyRead_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : alreadyRead_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : alreadyRead_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue already_read = 20001;</code>
+         * <code>optional .dstore.values.booleanValue already_read = 20001;</code>
          *
          * <pre>
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getAlreadyReadFieldBuilder() {
           if (alreadyReadBuilder_ == null) {
             alreadyReadBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getAlreadyRead(),
                     getParentForChildren(),
                     isClean());
@@ -7647,11 +7647,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return alreadyReadBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue hasBinaries_ = null;
+        private io.dstore.Values.booleanValue hasBinaries_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> hasBinariesBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasBinariesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
@@ -7661,27 +7661,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return hasBinariesBuilder_ != null || hasBinaries_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getHasBinaries() {
+        public io.dstore.Values.booleanValue getHasBinaries() {
           if (hasBinariesBuilder_ == null) {
-            return hasBinaries_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : hasBinaries_;
+            return hasBinaries_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : hasBinaries_;
           } else {
             return hasBinariesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
-        public Builder setHasBinaries(io.dstore.engine.Values.booleanValue value) {
+        public Builder setHasBinaries(io.dstore.Values.booleanValue value) {
           if (hasBinariesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7695,14 +7695,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
         public Builder setHasBinaries(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (hasBinariesBuilder_ == null) {
             hasBinaries_ = builderForValue.build();
             onChanged();
@@ -7713,17 +7713,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
-        public Builder mergeHasBinaries(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeHasBinaries(io.dstore.Values.booleanValue value) {
           if (hasBinariesBuilder_ == null) {
             if (hasBinaries_ != null) {
               hasBinaries_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(hasBinaries_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(hasBinaries_).mergeFrom(value).buildPartial();
             } else {
               hasBinaries_ = value;
             }
@@ -7735,7 +7735,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
@@ -7753,45 +7753,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getHasBinariesBuilder() {
+        public io.dstore.Values.booleanValue.Builder getHasBinariesBuilder() {
           
           onChanged();
           return getHasBinariesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getHasBinariesOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getHasBinariesOrBuilder() {
           if (hasBinariesBuilder_ != null) {
             return hasBinariesBuilder_.getMessageOrBuilder();
           } else {
             return hasBinaries_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : hasBinaries_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : hasBinaries_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_binaries = 20010;</code>
+         * <code>optional .dstore.values.booleanValue has_binaries = 20010;</code>
          *
          * <pre>
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasBinariesFieldBuilder() {
           if (hasBinariesBuilder_ == null) {
             hasBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasBinaries(),
                     getParentForChildren(),
                     isClean());
@@ -7800,11 +7800,11 @@ public final class FoGetPostingsOfOnePersonPu {
           return hasBinariesBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue hasSuccessors_ = null;
+        private io.dstore.Values.booleanValue hasSuccessors_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> hasSuccessorsBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasSuccessorsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
@@ -7814,27 +7814,27 @@ public final class FoGetPostingsOfOnePersonPu {
           return hasSuccessorsBuilder_ != null || hasSuccessors_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getHasSuccessors() {
+        public io.dstore.Values.booleanValue getHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
-            return hasSuccessors_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : hasSuccessors_;
+            return hasSuccessors_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : hasSuccessors_;
           } else {
             return hasSuccessorsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
-        public Builder setHasSuccessors(io.dstore.engine.Values.booleanValue value) {
+        public Builder setHasSuccessors(io.dstore.Values.booleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7848,14 +7848,14 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
         public Builder setHasSuccessors(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (hasSuccessorsBuilder_ == null) {
             hasSuccessors_ = builderForValue.build();
             onChanged();
@@ -7866,17 +7866,17 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
-        public Builder mergeHasSuccessors(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeHasSuccessors(io.dstore.Values.booleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
             if (hasSuccessors_ != null) {
               hasSuccessors_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(hasSuccessors_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(hasSuccessors_).mergeFrom(value).buildPartial();
             } else {
               hasSuccessors_ = value;
             }
@@ -7888,7 +7888,7 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
@@ -7906,45 +7906,45 @@ public final class FoGetPostingsOfOnePersonPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getHasSuccessorsBuilder() {
+        public io.dstore.Values.booleanValue.Builder getHasSuccessorsBuilder() {
           
           onChanged();
           return getHasSuccessorsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getHasSuccessorsOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getHasSuccessorsOrBuilder() {
           if (hasSuccessorsBuilder_ != null) {
             return hasSuccessorsBuilder_.getMessageOrBuilder();
           } else {
             return hasSuccessors_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : hasSuccessors_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : hasSuccessors_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue has_successors = 20013;</code>
+         * <code>optional .dstore.values.booleanValue has_successors = 20013;</code>
          *
          * <pre>
          * Gibt es wenigstens eine Antwort auf "PostingID" ? Dabei zählen nur Beiträge, die einen "&#64;Visibility" entsprechenden "Sichtbarkeits-Status" haben bzw. unbestätigt sind, falls "&#64;GetOwnNotApprovedPosting = 1" und der Autor die identifizierte Person ist !
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasSuccessorsFieldBuilder() {
           if (hasSuccessorsBuilder_ == null) {
             hasSuccessorsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasSuccessors(),
                     getParentForChildren(),
                     isClean());
@@ -9514,72 +9514,67 @@ public final class FoGetPostingsOfOnePersonPu {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/fo_GetPosting" +
       "sOfOnePerson_Pu.proto\022*dstore.engine.fo_" +
-      "GetPostingsOfOnePerson_Pu\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"\217\n\n\nParameter" +
-      "s\022G\n\034person_identification_values\030\001 \001(\0132" +
-      "!.dstore.engine.values.stringValue\022*\n!pe" +
-      "rson_identification_values_null\030\351\007 \001(\010\022:" +
-      "\n\016person_type_id\030\002 \001(\0132\".dstore.engine.v",
-      "alues.integerValue\022\034\n\023person_type_id_nul" +
-      "l\030\352\007 \001(\010\0224\n\tunique_id\030\003 \001(\0132!.dstore.eng" +
-      "ine.values.stringValue\022\027\n\016unique_id_null" +
-      "\030\353\007 \001(\010\0224\n\010forum_id\030\004 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022\026\n\rforum_id_null\030\354" +
-      "\007 \001(\010\0225\n\tperson_id\030\005 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022\027\n\016person_id_null\030\355" +
-      "\007 \001(\010\0227\n\tfrom_date\030\006 \001(\0132$.dstore.engine" +
-      ".values.timestampValue\022\027\n\016from_date_null" +
-      "\030\356\007 \001(\010\0225\n\007to_date\030\007 \001(\0132$.dstore.engine",
-      ".values.timestampValue\022\025\n\014to_date_null\030\357" +
-      "\007 \001(\010\022:\n\016include_bodies\030\010 \001(\0132\".dstore.e" +
-      "ngine.values.booleanValue\022\034\n\023include_bod" +
-      "ies_null\030\360\007 \001(\010\0225\n\trow_count\030\t \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022\027\n\016row_co" +
-      "unt_null\030\361\007 \001(\010\022D\n\030include_additional_in" +
-      "fos\030\n \001(\0132\".dstore.engine.values.boolean" +
-      "Value\022&\n\035include_additional_infos_null\030\362" +
-      "\007 \001(\010\022:\n\016order_criteria\030\013 \001(\0132\".dstore.e" +
-      "ngine.values.integerValue\022\034\n\023order_crite",
-      "ria_null\030\363\007 \001(\010\0226\n\nvisibility\030\014 \001(\0132\".ds" +
-      "tore.engine.values.integerValue\022\030\n\017visib" +
-      "ility_null\030\364\007 \001(\010\022I\n\035get_own_not_approve" +
-      "d_postings\030\r \001(\0132\".dstore.engine.values." +
-      "booleanValue\022+\n\"get_own_not_approved_pos" +
-      "tings_null\030\365\007 \001(\010\022B\n\027separator_in_ident_" +
-      "vals\030\016 \001(\0132!.dstore.engine.values.string" +
-      "Value\022%\n\034separator_in_ident_vals_null\030\366\007" +
-      " \001(\010\"\363\010\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
-      "e.engine.error.Error\022H\n\020meta_information",
-      "\030\002 \003(\0132..dstore.engine.metainformation.M" +
-      "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
-      ".engine.message.Message\022E\n\003row\030\004 \003(\01328.d" +
-      "store.engine.fo_GetPostingsOfOnePerson_P" +
-      "u.Response.Row\032\371\006\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
-      "6\n\nsmall_body\030\221N \001(\0132!.dstore.engine.val" +
-      "ues.stringValue\022<\n\020e_mail_of_author\030\222N \001" +
-      "(\0132!.dstore.engine.values.stringValue\0227\n" +
-      "\nposting_id\030\223N \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022:\n\016post_date_char\030\224N \001(\0132",
-      "!.dstore.engine.values.stringValue\0225\n\010fo" +
-      "rum_id\030\225N \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022<\n\017main_posting_id\030\226N \001(\0132\".ds" +
-      "tore.engine.values.integerValue\0224\n\007visib" +
-      "le\030\227N \001(\0132\".dstore.engine.values.integer" +
-      "Value\022@\n\023reply_to_posting_id\030\230N \001(\0132\".ds" +
-      "tore.engine.values.integerValue\0222\n\006autho" +
-      "r\030\231N \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\0228\n\tpost_date\030\232N \001(\0132$.dstore.engine." +
-      "values.timestampValue\0220\n\004body\030\233N \001(\0132!.d",
-      "store.engine.values.stringValue\0223\n\007subje" +
-      "ct\030\234N \001(\0132!.dstore.engine.values.stringV" +
-      "alue\022:\n\014already_read\030\241\234\001 \001(\0132\".dstore.en" +
-      "gine.values.booleanValue\022:\n\014has_binaries" +
-      "\030\252\234\001 \001(\0132\".dstore.engine.values.booleanV" +
-      "alue\022<\n\016has_successors\030\255\234\001 \001(\0132\".dstore." +
-      "engine.values.booleanValueB\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "GetPostingsOfOnePerson_Pu\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"\255\t\n\nParameters\022@\n\034pe" +
+      "rson_identification_values\030\001 \001(\0132\032.dstor" +
+      "e.values.stringValue\022*\n!person_identific" +
+      "ation_values_null\030\351\007 \001(\010\0223\n\016person_type_" +
+      "id\030\002 \001(\0132\033.dstore.values.integerValue\022\034\n",
+      "\023person_type_id_null\030\352\007 \001(\010\022-\n\tunique_id" +
+      "\030\003 \001(\0132\032.dstore.values.stringValue\022\027\n\016un" +
+      "ique_id_null\030\353\007 \001(\010\022-\n\010forum_id\030\004 \001(\0132\033." +
+      "dstore.values.integerValue\022\026\n\rforum_id_n" +
+      "ull\030\354\007 \001(\010\022.\n\tperson_id\030\005 \001(\0132\033.dstore.v" +
+      "alues.integerValue\022\027\n\016person_id_null\030\355\007 " +
+      "\001(\010\0220\n\tfrom_date\030\006 \001(\0132\035.dstore.values.t" +
+      "imestampValue\022\027\n\016from_date_null\030\356\007 \001(\010\022." +
+      "\n\007to_date\030\007 \001(\0132\035.dstore.values.timestam" +
+      "pValue\022\025\n\014to_date_null\030\357\007 \001(\010\0223\n\016include",
+      "_bodies\030\010 \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022\034\n\023include_bodies_null\030\360\007 \001(\010\022.\n\trow_" +
+      "count\030\t \001(\0132\033.dstore.values.integerValue" +
+      "\022\027\n\016row_count_null\030\361\007 \001(\010\022=\n\030include_add" +
+      "itional_infos\030\n \001(\0132\033.dstore.values.bool" +
+      "eanValue\022&\n\035include_additional_infos_nul" +
+      "l\030\362\007 \001(\010\0223\n\016order_criteria\030\013 \001(\0132\033.dstor" +
+      "e.values.integerValue\022\034\n\023order_criteria_" +
+      "null\030\363\007 \001(\010\022/\n\nvisibility\030\014 \001(\0132\033.dstore" +
+      ".values.integerValue\022\030\n\017visibility_null\030",
+      "\364\007 \001(\010\022B\n\035get_own_not_approved_postings\030" +
+      "\r \001(\0132\033.dstore.values.booleanValue\022+\n\"ge" +
+      "t_own_not_approved_postings_null\030\365\007 \001(\010\022" +
+      ";\n\027separator_in_ident_vals\030\016 \001(\0132\032.dstor" +
+      "e.values.stringValue\022%\n\034separator_in_ide" +
+      "nt_vals_null\030\366\007 \001(\010\"\212\010\n\010Response\022)\n\005erro" +
+      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
+      "eta_information\030\002 \003(\0132..dstore.engine.me" +
+      "tainformation.MetaInformation\022/\n\007message" +
+      "\030\003 \003(\0132\036.dstore.engine.message.Message\022E",
+      "\n\003row\030\004 \003(\01328.dstore.engine.fo_GetPostin" +
+      "gsOfOnePerson_Pu.Response.Row\032\220\006\n\003Row\022\017\n" +
+      "\006row_id\030\220N \001(\005\022/\n\nsmall_body\030\221N \001(\0132\032.ds" +
+      "tore.values.stringValue\0225\n\020e_mail_of_aut" +
+      "hor\030\222N \001(\0132\032.dstore.values.stringValue\0220" +
+      "\n\nposting_id\030\223N \001(\0132\033.dstore.values.inte" +
+      "gerValue\0223\n\016post_date_char\030\224N \001(\0132\032.dsto" +
+      "re.values.stringValue\022.\n\010forum_id\030\225N \001(\013" +
+      "2\033.dstore.values.integerValue\0225\n\017main_po" +
+      "sting_id\030\226N \001(\0132\033.dstore.values.integerV",
+      "alue\022-\n\007visible\030\227N \001(\0132\033.dstore.values.i" +
+      "ntegerValue\0229\n\023reply_to_posting_id\030\230N \001(" +
+      "\0132\033.dstore.values.integerValue\022+\n\006author" +
+      "\030\231N \001(\0132\032.dstore.values.stringValue\0221\n\tp" +
+      "ost_date\030\232N \001(\0132\035.dstore.values.timestam" +
+      "pValue\022)\n\004body\030\233N \001(\0132\032.dstore.values.st" +
+      "ringValue\022,\n\007subject\030\234N \001(\0132\032.dstore.val" +
+      "ues.stringValue\0223\n\014already_read\030\241\234\001 \001(\0132" +
+      "\033.dstore.values.booleanValue\0223\n\014has_bina" +
+      "ries\030\252\234\001 \001(\0132\033.dstore.values.booleanValu",
+      "e\0225\n\016has_successors\030\255\234\001 \001(\0132\033.dstore.val" +
+      "ues.booleanValueB\035\n\033io.dstore.engine.pro" +
+      "ceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9592,7 +9587,7 @@ public final class FoGetPostingsOfOnePersonPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -9615,7 +9610,7 @@ public final class FoGetPostingsOfOnePersonPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingsOfOnePerson_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "SmallBody", "EMailOfAuthor", "PostingId", "PostDateChar", "ForumId", "MainPostingId", "Visible", "ReplyToPostingId", "Author", "PostDate", "Body", "Subject", "AlreadyRead", "HasBinaries", "HasSuccessors", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

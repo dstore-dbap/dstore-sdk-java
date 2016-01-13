@@ -13,17 +13,17 @@ public final class MiGetDBSessionInformation {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+     * <code>optional .dstore.values.stringValue information_list = 1;</code>
      */
     boolean hasInformationList();
     /**
-     * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+     * <code>optional .dstore.values.stringValue information_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getInformationList();
+    io.dstore.Values.stringValue getInformationList();
     /**
-     * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+     * <code>optional .dstore.values.stringValue information_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getInformationListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getInformationListOrBuilder();
 
     /**
      * <code>optional bool information_list_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class MiGetDBSessionInformation {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (informationList_ != null) {
                 subBuilder = informationList_.toBuilder();
               }
-              informationList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              informationList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationList_);
                 informationList_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class MiGetDBSessionInformation {
     }
 
     public static final int INFORMATION_LIST_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue informationList_;
+    private io.dstore.Values.stringValue informationList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+     * <code>optional .dstore.values.stringValue information_list = 1;</code>
      */
     public boolean hasInformationList() {
       return informationList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+     * <code>optional .dstore.values.stringValue information_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getInformationList() {
-      return informationList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : informationList_;
+    public io.dstore.Values.stringValue getInformationList() {
+      return informationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+     * <code>optional .dstore.values.stringValue information_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getInformationListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getInformationListOrBuilder() {
       return getInformationList();
     }
 
@@ -368,29 +368,29 @@ public final class MiGetDBSessionInformation {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue informationList_ = null;
+      private io.dstore.Values.stringValue informationList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> informationListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
       public boolean hasInformationList() {
         return informationListBuilder_ != null || informationList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getInformationList() {
+      public io.dstore.Values.stringValue getInformationList() {
         if (informationListBuilder_ == null) {
-          return informationList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : informationList_;
+          return informationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationList_;
         } else {
           return informationListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
-      public Builder setInformationList(io.dstore.engine.Values.stringValue value) {
+      public Builder setInformationList(io.dstore.Values.stringValue value) {
         if (informationListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
       public Builder setInformationList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (informationListBuilder_ == null) {
           informationList_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
-      public Builder mergeInformationList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeInformationList(io.dstore.Values.stringValue value) {
         if (informationListBuilder_ == null) {
           if (informationList_ != null) {
             informationList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(informationList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(informationList_).mergeFrom(value).buildPartial();
           } else {
             informationList_ = value;
           }
@@ -436,7 +436,7 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
       public Builder clearInformationList() {
         if (informationListBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getInformationListBuilder() {
+      public io.dstore.Values.stringValue.Builder getInformationListBuilder() {
         
         onChanged();
         return getInformationListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInformationListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInformationListOrBuilder() {
         if (informationListBuilder_ != null) {
           return informationListBuilder_.getMessageOrBuilder();
         } else {
           return informationList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : informationList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : informationList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information_list = 1;</code>
+       * <code>optional .dstore.values.stringValue information_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInformationListFieldBuilder() {
         if (informationListBuilder_ == null) {
           informationListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInformationList(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class MiGetDBSessionInformation {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
@@ -806,24 +806,24 @@ public final class MiGetDBSessionInformation {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
@@ -831,24 +831,24 @@ public final class MiGetDBSessionInformation {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.stringValue information = 10003;</code>
        *
        * <pre>
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
@@ -856,21 +856,21 @@ public final class MiGetDBSessionInformation {
        */
       boolean hasInformation();
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.stringValue information = 10003;</code>
        *
        * <pre>
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getInformation();
+      io.dstore.Values.stringValue getInformation();
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.stringValue information = 10003;</code>
        *
        * <pre>
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetDBSessionInformation.Response.Row}
@@ -917,11 +917,11 @@ public final class MiGetDBSessionInformation {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -930,11 +930,11 @@ public final class MiGetDBSessionInformation {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -943,11 +943,11 @@ public final class MiGetDBSessionInformation {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -989,9 +989,9 @@ public final class MiGetDBSessionInformation {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
@@ -1001,30 +1001,30 @@ public final class MiGetDBSessionInformation {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
@@ -1034,30 +1034,30 @@ public final class MiGetDBSessionInformation {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int INFORMATION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue information_;
+      private io.dstore.Values.stringValue information_;
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.stringValue information = 10003;</code>
        *
        * <pre>
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
@@ -1067,23 +1067,23 @@ public final class MiGetDBSessionInformation {
         return information_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.stringValue information = 10003;</code>
        *
        * <pre>
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getInformation() {
-        return information_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+      public io.dstore.Values.stringValue getInformation() {
+        return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.stringValue information = 10003;</code>
        *
        * <pre>
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
       }
 
@@ -1382,11 +1382,11 @@ public final class MiGetDBSessionInformation {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
@@ -1396,27 +1396,27 @@ public final class MiGetDBSessionInformation {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1430,14 +1430,14 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1448,17 +1448,17 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -1470,7 +1470,7 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
@@ -1488,45 +1488,45 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1535,11 +1535,11 @@ public final class MiGetDBSessionInformation {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
@@ -1549,27 +1549,27 @@ public final class MiGetDBSessionInformation {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1583,14 +1583,14 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -1601,17 +1601,17 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -1623,7 +1623,7 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
@@ -1641,45 +1641,45 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -1688,11 +1688,11 @@ public final class MiGetDBSessionInformation {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue information_ = null;
+        private io.dstore.Values.stringValue information_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> informationBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
@@ -1702,27 +1702,27 @@ public final class MiGetDBSessionInformation {
           return informationBuilder_ != null || information_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getInformation() {
+        public io.dstore.Values.stringValue getInformation() {
           if (informationBuilder_ == null) {
-            return information_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+            return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
           } else {
             return informationBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
-        public Builder setInformation(io.dstore.engine.Values.stringValue value) {
+        public Builder setInformation(io.dstore.Values.stringValue value) {
           if (informationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1736,14 +1736,14 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
         public Builder setInformation(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (informationBuilder_ == null) {
             information_ = builderForValue.build();
             onChanged();
@@ -1754,17 +1754,17 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
-        public Builder mergeInformation(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeInformation(io.dstore.Values.stringValue value) {
           if (informationBuilder_ == null) {
             if (information_ != null) {
               information_ =
-                io.dstore.engine.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
             } else {
               information_ = value;
             }
@@ -1776,7 +1776,7 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
@@ -1794,45 +1794,45 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getInformationBuilder() {
+        public io.dstore.Values.stringValue.Builder getInformationBuilder() {
           
           onChanged();
           return getInformationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
             return informationBuilder_.getMessageOrBuilder();
           } else {
             return information_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+                io.dstore.Values.stringValue.getDefaultInstance() : information_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.stringValue information = 10003;</code>
          *
          * <pre>
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
             informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
                     isClean());
@@ -3402,25 +3402,24 @@ public final class MiGetDBSessionInformation {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/mi_GetDBSessi" +
       "onInformation.proto\022(dstore.engine.mi_Ge" +
-      "tDBSessionInformation\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"i\n\nParameters\022;\n\020" +
-      "information_list\030\001 \001(\0132!.dstore.engine.v" +
-      "alues.stringValue\022\036\n\025information_list_nu" +
-      "ll\030\351\007 \001(\010\"\263\003\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
-      "dstore.engine.error.Error\022H\n\020meta_inform",
-      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
-      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
-      "store.engine.message.Message\022C\n\003row\030\004 \003(" +
-      "\01326.dstore.engine.mi_GetDBSessionInforma" +
-      "tion.Response.Row\032\273\001\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005\0227\n\013description\030\221N \001(\0132!.dstore.engine" +
-      ".values.stringValue\0221\n\005value\030\222N \001(\0132!.ds" +
-      "tore.engine.values.stringValue\0227\n\013inform" +
-      "ation\030\223N \001(\0132!.dstore.engine.values.stri" +
-      "ngValueB\035\n\033io.dstore.engine.proceduresb\006",
-      "proto3"
+      "tDBSessionInformation\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"b\n\nParameters\0224\n\020informa" +
+      "tion_list\030\001 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\036\n\025information_list_null\030\351\007 \001(\010\"\236\003\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132..",
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022C\n\003row\030\004 \003(\01326.dstore.eng" +
+      "ine.mi_GetDBSessionInformation.Response." +
+      "Row\032\246\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013descript" +
+      "ion\030\221N \001(\0132\032.dstore.values.stringValue\022*" +
+      "\n\005value\030\222N \001(\0132\032.dstore.values.stringVal" +
+      "ue\0220\n\013information\030\223N \001(\0132\032.dstore.values" +
+      ".stringValueB\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3433,7 +3432,7 @@ public final class MiGetDBSessionInformation {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3456,7 +3455,7 @@ public final class MiGetDBSessionInformation {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetDBSessionInformation_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "Value", "Information", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

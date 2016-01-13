@@ -13,17 +13,17 @@ public final class MiGetStorageAllocInfoAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+     * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
      */
     boolean hasGetInfoForADatabase();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+     * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
      */
-    io.dstore.engine.Values.booleanValue getGetInfoForADatabase();
+    io.dstore.Values.booleanValue getGetInfoForADatabase();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+     * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getGetInfoForADatabaseOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getGetInfoForADatabaseOrBuilder();
 
     /**
      * <code>optional bool get_info_for_a_database_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetStorageAllocInfoAd {
     boolean getGetInfoForADatabaseNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+     * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
      */
     boolean hasGetStorageAllocInfoFor();
     /**
-     * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+     * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getGetStorageAllocInfoFor();
+    io.dstore.Values.stringValue getGetStorageAllocInfoFor();
     /**
-     * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+     * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getGetStorageAllocInfoForOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getGetStorageAllocInfoForOrBuilder();
 
     /**
      * <code>optional bool get_storage_alloc_info_for_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class MiGetStorageAllocInfoAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getInfoForADatabase_ != null) {
                 subBuilder = getInfoForADatabase_.toBuilder();
               }
-              getInfoForADatabase_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              getInfoForADatabase_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getInfoForADatabase_);
                 getInfoForADatabase_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class MiGetStorageAllocInfoAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (getStorageAllocInfoFor_ != null) {
                 subBuilder = getStorageAllocInfoFor_.toBuilder();
               }
-              getStorageAllocInfoFor_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              getStorageAllocInfoFor_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getStorageAllocInfoFor_);
                 getStorageAllocInfoFor_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class MiGetStorageAllocInfoAd {
     }
 
     public static final int GET_INFO_FOR_A_DATABASE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.booleanValue getInfoForADatabase_;
+    private io.dstore.Values.booleanValue getInfoForADatabase_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+     * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
      */
     public boolean hasGetInfoForADatabase() {
       return getInfoForADatabase_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+     * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValue getGetInfoForADatabase() {
-      return getInfoForADatabase_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getInfoForADatabase_;
+    public io.dstore.Values.booleanValue getGetInfoForADatabase() {
+      return getInfoForADatabase_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getInfoForADatabase_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+     * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getGetInfoForADatabaseOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getGetInfoForADatabaseOrBuilder() {
       return getGetInfoForADatabase();
     }
 
@@ -179,23 +179,23 @@ public final class MiGetStorageAllocInfoAd {
     }
 
     public static final int GET_STORAGE_ALLOC_INFO_FOR_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue getStorageAllocInfoFor_;
+    private io.dstore.Values.stringValue getStorageAllocInfoFor_;
     /**
-     * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+     * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
      */
     public boolean hasGetStorageAllocInfoFor() {
       return getStorageAllocInfoFor_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+     * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getGetStorageAllocInfoFor() {
-      return getStorageAllocInfoFor_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : getStorageAllocInfoFor_;
+    public io.dstore.Values.stringValue getGetStorageAllocInfoFor() {
+      return getStorageAllocInfoFor_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : getStorageAllocInfoFor_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+     * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getGetStorageAllocInfoForOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getGetStorageAllocInfoForOrBuilder() {
       return getGetStorageAllocInfoFor();
     }
 
@@ -469,29 +469,29 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue getInfoForADatabase_ = null;
+      private io.dstore.Values.booleanValue getInfoForADatabase_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> getInfoForADatabaseBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getInfoForADatabaseBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
       public boolean hasGetInfoForADatabase() {
         return getInfoForADatabaseBuilder_ != null || getInfoForADatabase_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue getGetInfoForADatabase() {
+      public io.dstore.Values.booleanValue getGetInfoForADatabase() {
         if (getInfoForADatabaseBuilder_ == null) {
-          return getInfoForADatabase_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getInfoForADatabase_;
+          return getInfoForADatabase_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getInfoForADatabase_;
         } else {
           return getInfoForADatabaseBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
-      public Builder setGetInfoForADatabase(io.dstore.engine.Values.booleanValue value) {
+      public Builder setGetInfoForADatabase(io.dstore.Values.booleanValue value) {
         if (getInfoForADatabaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
       public Builder setGetInfoForADatabase(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (getInfoForADatabaseBuilder_ == null) {
           getInfoForADatabase_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
-      public Builder mergeGetInfoForADatabase(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeGetInfoForADatabase(io.dstore.Values.booleanValue value) {
         if (getInfoForADatabaseBuilder_ == null) {
           if (getInfoForADatabase_ != null) {
             getInfoForADatabase_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(getInfoForADatabase_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(getInfoForADatabase_).mergeFrom(value).buildPartial();
           } else {
             getInfoForADatabase_ = value;
           }
@@ -537,7 +537,7 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
       public Builder clearGetInfoForADatabase() {
         if (getInfoForADatabaseBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getGetInfoForADatabaseBuilder() {
+      public io.dstore.Values.booleanValue.Builder getGetInfoForADatabaseBuilder() {
         
         onChanged();
         return getGetInfoForADatabaseFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getGetInfoForADatabaseOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getGetInfoForADatabaseOrBuilder() {
         if (getInfoForADatabaseBuilder_ != null) {
           return getInfoForADatabaseBuilder_.getMessageOrBuilder();
         } else {
           return getInfoForADatabase_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : getInfoForADatabase_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : getInfoForADatabase_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_info_for_a_database = 1;</code>
+       * <code>optional .dstore.values.booleanValue get_info_for_a_database = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetInfoForADatabaseFieldBuilder() {
         if (getInfoForADatabaseBuilder_ == null) {
           getInfoForADatabaseBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetInfoForADatabase(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue getStorageAllocInfoFor_ = null;
+      private io.dstore.Values.stringValue getStorageAllocInfoFor_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> getStorageAllocInfoForBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> getStorageAllocInfoForBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
       public boolean hasGetStorageAllocInfoFor() {
         return getStorageAllocInfoForBuilder_ != null || getStorageAllocInfoFor_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getGetStorageAllocInfoFor() {
+      public io.dstore.Values.stringValue getGetStorageAllocInfoFor() {
         if (getStorageAllocInfoForBuilder_ == null) {
-          return getStorageAllocInfoFor_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : getStorageAllocInfoFor_;
+          return getStorageAllocInfoFor_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : getStorageAllocInfoFor_;
         } else {
           return getStorageAllocInfoForBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
-      public Builder setGetStorageAllocInfoFor(io.dstore.engine.Values.stringValue value) {
+      public Builder setGetStorageAllocInfoFor(io.dstore.Values.stringValue value) {
         if (getStorageAllocInfoForBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
       public Builder setGetStorageAllocInfoFor(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (getStorageAllocInfoForBuilder_ == null) {
           getStorageAllocInfoFor_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
-      public Builder mergeGetStorageAllocInfoFor(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeGetStorageAllocInfoFor(io.dstore.Values.stringValue value) {
         if (getStorageAllocInfoForBuilder_ == null) {
           if (getStorageAllocInfoFor_ != null) {
             getStorageAllocInfoFor_ =
-              io.dstore.engine.Values.stringValue.newBuilder(getStorageAllocInfoFor_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(getStorageAllocInfoFor_).mergeFrom(value).buildPartial();
           } else {
             getStorageAllocInfoFor_ = value;
           }
@@ -680,7 +680,7 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
       public Builder clearGetStorageAllocInfoFor() {
         if (getStorageAllocInfoForBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class MiGetStorageAllocInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getGetStorageAllocInfoForBuilder() {
+      public io.dstore.Values.stringValue.Builder getGetStorageAllocInfoForBuilder() {
         
         onChanged();
         return getGetStorageAllocInfoForFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getGetStorageAllocInfoForOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getGetStorageAllocInfoForOrBuilder() {
         if (getStorageAllocInfoForBuilder_ != null) {
           return getStorageAllocInfoForBuilder_.getMessageOrBuilder();
         } else {
           return getStorageAllocInfoFor_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : getStorageAllocInfoFor_;
+              io.dstore.Values.stringValue.getDefaultInstance() : getStorageAllocInfoFor_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue get_storage_alloc_info_for = 2;</code>
+       * <code>optional .dstore.values.stringValue get_storage_alloc_info_for = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getGetStorageAllocInfoForFieldBuilder() {
         if (getStorageAllocInfoForBuilder_ == null) {
           getStorageAllocInfoForBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getGetStorageAllocInfoFor(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class MiGetStorageAllocInfoAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
@@ -1050,24 +1050,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTableName();
+      io.dstore.Values.stringValue getTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+       * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
        *
        * <pre>
        * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
@@ -1075,24 +1075,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasIndexSizeMb();
       /**
-       * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+       * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
        *
        * <pre>
        * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getIndexSizeMb();
+      io.dstore.Values.decimalValue getIndexSizeMb();
       /**
-       * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+       * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
        *
        * <pre>
        * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getIndexSizeMbOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getIndexSizeMbOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+       * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
        *
        * <pre>
        * Anzahl Indizes der Tabelle "TableName"
@@ -1100,24 +1100,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasNumberOfIndexes();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+       * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
        *
        * <pre>
        * Anzahl Indizes der Tabelle "TableName"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNumberOfIndexes();
+      io.dstore.Values.integerValue getNumberOfIndexes();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+       * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
        *
        * <pre>
        * Anzahl Indizes der Tabelle "TableName"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNumberOfIndexesOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNumberOfIndexesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+       * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
        *
        * <pre>
        * Anzahl Datensätze in der Tabelle "TableName"
@@ -1125,24 +1125,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasNumberOfRows();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+       * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
        *
        * <pre>
        * Anzahl Datensätze in der Tabelle "TableName"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNumberOfRows();
+      io.dstore.Values.integerValue getNumberOfRows();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+       * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
        *
        * <pre>
        * Anzahl Datensätze in der Tabelle "TableName"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNumberOfRowsOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNumberOfRowsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+       * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
        *
        * <pre>
        * Gesamte Größe der Tabelle "TableName" in MB
@@ -1150,24 +1150,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasTableSizeMb();
       /**
-       * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+       * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
        *
        * <pre>
        * Gesamte Größe der Tabelle "TableName" in MB
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getTableSizeMb();
+      io.dstore.Values.decimalValue getTableSizeMb();
       /**
-       * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+       * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
        *
        * <pre>
        * Gesamte Größe der Tabelle "TableName" in MB
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getTableSizeMbOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getTableSizeMbOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+       * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
        *
        * <pre>
        * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
@@ -1175,24 +1175,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasDataSizeMb();
       /**
-       * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+       * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
        *
        * <pre>
        * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getDataSizeMb();
+      io.dstore.Values.decimalValue getDataSizeMb();
       /**
-       * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+       * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
        *
        * <pre>
        * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getDataSizeMbOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getDataSizeMbOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+       * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
        *
        * <pre>
        * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
@@ -1200,24 +1200,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasMballocated();
       /**
-       * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+       * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
        *
        * <pre>
        * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getMballocated();
+      io.dstore.Values.decimalValue getMballocated();
       /**
-       * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+       * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
        *
        * <pre>
        * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getMballocatedOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getMballocatedOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+       * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
        *
        * <pre>
        * Name eines Segments in der Datenbank "DBName"
@@ -1225,24 +1225,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasSegmentName();
       /**
-       * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+       * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
        *
        * <pre>
        * Name eines Segments in der Datenbank "DBName"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getSegmentName();
+      io.dstore.Values.stringValue getSegmentName();
       /**
-       * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+       * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
        *
        * <pre>
        * Name eines Segments in der Datenbank "DBName"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getSegmentNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getSegmentNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+       * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
        *
        * <pre>
        * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
@@ -1250,24 +1250,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasMbused();
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+       * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
        *
        * <pre>
        * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getMbused();
+      io.dstore.Values.decimalValue getMbused();
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+       * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
        *
        * <pre>
        * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getMbusedOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getMbusedOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+       * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
        *
        * <pre>
        * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
@@ -1275,24 +1275,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasFreeSpaceInPercent();
       /**
-       * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+       * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
        *
        * <pre>
        * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getFreeSpaceInPercent();
+      io.dstore.Values.decimalValue getFreeSpaceInPercent();
       /**
-       * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+       * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
        *
        * <pre>
        * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getFreeSpaceInPercentOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getFreeSpaceInPercentOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+       * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
        *
        * <pre>
        * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
@@ -1300,24 +1300,24 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasDBName();
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+       * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
        *
        * <pre>
        * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDBName();
+      io.dstore.Values.stringValue getDBName();
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+       * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
        *
        * <pre>
        * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDBNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDBNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+       * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
        *
        * <pre>
        * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
@@ -1325,21 +1325,21 @@ public final class MiGetStorageAllocInfoAd {
        */
       boolean hasMbfree();
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+       * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
        *
        * <pre>
        * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getMbfree();
+      io.dstore.Values.decimalValue getMbfree();
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+       * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
        *
        * <pre>
        * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getMbfreeOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getMbfreeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetStorageAllocInfo_Ad.Response.Row}
@@ -1386,11 +1386,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -1399,11 +1399,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (indexSizeMb_ != null) {
                   subBuilder = indexSizeMb_.toBuilder();
                 }
-                indexSizeMb_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                indexSizeMb_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(indexSizeMb_);
                   indexSizeMb_ = subBuilder.buildPartial();
@@ -1412,11 +1412,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (numberOfIndexes_ != null) {
                   subBuilder = numberOfIndexes_.toBuilder();
                 }
-                numberOfIndexes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                numberOfIndexes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfIndexes_);
                   numberOfIndexes_ = subBuilder.buildPartial();
@@ -1425,11 +1425,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (numberOfRows_ != null) {
                   subBuilder = numberOfRows_.toBuilder();
                 }
-                numberOfRows_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                numberOfRows_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfRows_);
                   numberOfRows_ = subBuilder.buildPartial();
@@ -1438,11 +1438,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (tableSizeMb_ != null) {
                   subBuilder = tableSizeMb_.toBuilder();
                 }
-                tableSizeMb_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                tableSizeMb_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableSizeMb_);
                   tableSizeMb_ = subBuilder.buildPartial();
@@ -1451,11 +1451,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (dataSizeMb_ != null) {
                   subBuilder = dataSizeMb_.toBuilder();
                 }
-                dataSizeMb_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                dataSizeMb_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dataSizeMb_);
                   dataSizeMb_ = subBuilder.buildPartial();
@@ -1464,11 +1464,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 160010: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (mballocated_ != null) {
                   subBuilder = mballocated_.toBuilder();
                 }
-                mballocated_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                mballocated_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mballocated_);
                   mballocated_ = subBuilder.buildPartial();
@@ -1477,11 +1477,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 160018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (segmentName_ != null) {
                   subBuilder = segmentName_.toBuilder();
                 }
-                segmentName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                segmentName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(segmentName_);
                   segmentName_ = subBuilder.buildPartial();
@@ -1490,11 +1490,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 160026: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (mbused_ != null) {
                   subBuilder = mbused_.toBuilder();
                 }
-                mbused_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                mbused_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mbused_);
                   mbused_ = subBuilder.buildPartial();
@@ -1503,11 +1503,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 160034: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (freeSpaceInPercent_ != null) {
                   subBuilder = freeSpaceInPercent_.toBuilder();
                 }
-                freeSpaceInPercent_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                freeSpaceInPercent_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(freeSpaceInPercent_);
                   freeSpaceInPercent_ = subBuilder.buildPartial();
@@ -1516,11 +1516,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 160042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (dBName_ != null) {
                   subBuilder = dBName_.toBuilder();
                 }
-                dBName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                dBName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dBName_);
                   dBName_ = subBuilder.buildPartial();
@@ -1529,11 +1529,11 @@ public final class MiGetStorageAllocInfoAd {
                 break;
               }
               case 160050: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (mbfree_ != null) {
                   subBuilder = mbfree_.toBuilder();
                 }
-                mbfree_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                mbfree_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mbfree_);
                   mbfree_ = subBuilder.buildPartial();
@@ -1575,9 +1575,9 @@ public final class MiGetStorageAllocInfoAd {
       }
 
       public static final int TABLE_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue tableName_;
+      private io.dstore.Values.stringValue tableName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
@@ -1587,30 +1587,30 @@ public final class MiGetStorageAllocInfoAd {
         return tableName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTableName() {
-        return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+      public io.dstore.Values.stringValue getTableName() {
+        return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10001;</code>
        *
        * <pre>
        * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
       }
 
       public static final int INDEX_SIZE_MB_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.decimalValue indexSizeMb_;
+      private io.dstore.Values.decimalValue indexSizeMb_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+       * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
        *
        * <pre>
        * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
@@ -1620,30 +1620,30 @@ public final class MiGetStorageAllocInfoAd {
         return indexSizeMb_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+       * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
        *
        * <pre>
        * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getIndexSizeMb() {
-        return indexSizeMb_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : indexSizeMb_;
+      public io.dstore.Values.decimalValue getIndexSizeMb() {
+        return indexSizeMb_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : indexSizeMb_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+       * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
        *
        * <pre>
        * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getIndexSizeMbOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getIndexSizeMbOrBuilder() {
         return getIndexSizeMb();
       }
 
       public static final int NUMBER_OF_INDEXES_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue numberOfIndexes_;
+      private io.dstore.Values.integerValue numberOfIndexes_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+       * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
        *
        * <pre>
        * Anzahl Indizes der Tabelle "TableName"
@@ -1653,30 +1653,30 @@ public final class MiGetStorageAllocInfoAd {
         return numberOfIndexes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+       * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
        *
        * <pre>
        * Anzahl Indizes der Tabelle "TableName"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfIndexes() {
-        return numberOfIndexes_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfIndexes_;
+      public io.dstore.Values.integerValue getNumberOfIndexes() {
+        return numberOfIndexes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfIndexes_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+       * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
        *
        * <pre>
        * Anzahl Indizes der Tabelle "TableName"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfIndexesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfIndexesOrBuilder() {
         return getNumberOfIndexes();
       }
 
       public static final int NUMBER_OF_ROWS_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue numberOfRows_;
+      private io.dstore.Values.integerValue numberOfRows_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+       * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
        *
        * <pre>
        * Anzahl Datensätze in der Tabelle "TableName"
@@ -1686,30 +1686,30 @@ public final class MiGetStorageAllocInfoAd {
         return numberOfRows_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+       * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
        *
        * <pre>
        * Anzahl Datensätze in der Tabelle "TableName"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfRows() {
-        return numberOfRows_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfRows_;
+      public io.dstore.Values.integerValue getNumberOfRows() {
+        return numberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfRows_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+       * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
        *
        * <pre>
        * Anzahl Datensätze in der Tabelle "TableName"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfRowsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfRowsOrBuilder() {
         return getNumberOfRows();
       }
 
       public static final int TABLE_SIZE_MB_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.decimalValue tableSizeMb_;
+      private io.dstore.Values.decimalValue tableSizeMb_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+       * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
        *
        * <pre>
        * Gesamte Größe der Tabelle "TableName" in MB
@@ -1719,30 +1719,30 @@ public final class MiGetStorageAllocInfoAd {
         return tableSizeMb_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+       * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
        *
        * <pre>
        * Gesamte Größe der Tabelle "TableName" in MB
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getTableSizeMb() {
-        return tableSizeMb_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : tableSizeMb_;
+      public io.dstore.Values.decimalValue getTableSizeMb() {
+        return tableSizeMb_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : tableSizeMb_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+       * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
        *
        * <pre>
        * Gesamte Größe der Tabelle "TableName" in MB
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getTableSizeMbOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getTableSizeMbOrBuilder() {
         return getTableSizeMb();
       }
 
       public static final int DATA_SIZE_MB_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.decimalValue dataSizeMb_;
+      private io.dstore.Values.decimalValue dataSizeMb_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+       * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
        *
        * <pre>
        * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
@@ -1752,30 +1752,30 @@ public final class MiGetStorageAllocInfoAd {
         return dataSizeMb_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+       * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
        *
        * <pre>
        * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getDataSizeMb() {
-        return dataSizeMb_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : dataSizeMb_;
+      public io.dstore.Values.decimalValue getDataSizeMb() {
+        return dataSizeMb_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : dataSizeMb_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+       * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
        *
        * <pre>
        * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getDataSizeMbOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getDataSizeMbOrBuilder() {
         return getDataSizeMb();
       }
 
       public static final int MBALLOCATED_FIELD_NUMBER = 20001;
-      private io.dstore.engine.Values.decimalValue mballocated_;
+      private io.dstore.Values.decimalValue mballocated_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+       * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
        *
        * <pre>
        * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
@@ -1785,30 +1785,30 @@ public final class MiGetStorageAllocInfoAd {
         return mballocated_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+       * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
        *
        * <pre>
        * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getMballocated() {
-        return mballocated_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : mballocated_;
+      public io.dstore.Values.decimalValue getMballocated() {
+        return mballocated_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : mballocated_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+       * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
        *
        * <pre>
        * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getMballocatedOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getMballocatedOrBuilder() {
         return getMballocated();
       }
 
       public static final int SEGMENT_NAME_FIELD_NUMBER = 20002;
-      private io.dstore.engine.Values.stringValue segmentName_;
+      private io.dstore.Values.stringValue segmentName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+       * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
        *
        * <pre>
        * Name eines Segments in der Datenbank "DBName"
@@ -1818,30 +1818,30 @@ public final class MiGetStorageAllocInfoAd {
         return segmentName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+       * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
        *
        * <pre>
        * Name eines Segments in der Datenbank "DBName"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getSegmentName() {
-        return segmentName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : segmentName_;
+      public io.dstore.Values.stringValue getSegmentName() {
+        return segmentName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : segmentName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+       * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
        *
        * <pre>
        * Name eines Segments in der Datenbank "DBName"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSegmentNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSegmentNameOrBuilder() {
         return getSegmentName();
       }
 
       public static final int MBUSED_FIELD_NUMBER = 20003;
-      private io.dstore.engine.Values.decimalValue mbused_;
+      private io.dstore.Values.decimalValue mbused_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+       * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
        *
        * <pre>
        * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
@@ -1851,30 +1851,30 @@ public final class MiGetStorageAllocInfoAd {
         return mbused_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+       * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
        *
        * <pre>
        * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getMbused() {
-        return mbused_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : mbused_;
+      public io.dstore.Values.decimalValue getMbused() {
+        return mbused_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : mbused_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+       * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
        *
        * <pre>
        * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getMbusedOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getMbusedOrBuilder() {
         return getMbused();
       }
 
       public static final int FREE_SPACE_IN_PERCENT_FIELD_NUMBER = 20004;
-      private io.dstore.engine.Values.decimalValue freeSpaceInPercent_;
+      private io.dstore.Values.decimalValue freeSpaceInPercent_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+       * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
        *
        * <pre>
        * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
@@ -1884,30 +1884,30 @@ public final class MiGetStorageAllocInfoAd {
         return freeSpaceInPercent_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+       * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
        *
        * <pre>
        * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getFreeSpaceInPercent() {
-        return freeSpaceInPercent_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : freeSpaceInPercent_;
+      public io.dstore.Values.decimalValue getFreeSpaceInPercent() {
+        return freeSpaceInPercent_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : freeSpaceInPercent_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+       * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
        *
        * <pre>
        * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getFreeSpaceInPercentOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getFreeSpaceInPercentOrBuilder() {
         return getFreeSpaceInPercent();
       }
 
       public static final int D_B_NAME_FIELD_NUMBER = 20005;
-      private io.dstore.engine.Values.stringValue dBName_;
+      private io.dstore.Values.stringValue dBName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+       * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
        *
        * <pre>
        * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
@@ -1917,30 +1917,30 @@ public final class MiGetStorageAllocInfoAd {
         return dBName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+       * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
        *
        * <pre>
        * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDBName() {
-        return dBName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : dBName_;
+      public io.dstore.Values.stringValue getDBName() {
+        return dBName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+       * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
        *
        * <pre>
        * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDBNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDBNameOrBuilder() {
         return getDBName();
       }
 
       public static final int MBFREE_FIELD_NUMBER = 20006;
-      private io.dstore.engine.Values.decimalValue mbfree_;
+      private io.dstore.Values.decimalValue mbfree_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+       * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
        *
        * <pre>
        * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
@@ -1950,23 +1950,23 @@ public final class MiGetStorageAllocInfoAd {
         return mbfree_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+       * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
        *
        * <pre>
        * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getMbfree() {
-        return mbfree_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : mbfree_;
+      public io.dstore.Values.decimalValue getMbfree() {
+        return mbfree_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : mbfree_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+       * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
        *
        * <pre>
        * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getMbfreeOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getMbfreeOrBuilder() {
         return getMbfree();
       }
 
@@ -2454,11 +2454,11 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue tableName_ = null;
+        private io.dstore.Values.stringValue tableName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
@@ -2468,27 +2468,27 @@ public final class MiGetStorageAllocInfoAd {
           return tableNameBuilder_ != null || tableName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTableName() {
+        public io.dstore.Values.stringValue getTableName() {
           if (tableNameBuilder_ == null) {
-            return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+            return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           } else {
             return tableNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
-        public Builder setTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder setTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2502,14 +2502,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
         public Builder setTableName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (tableNameBuilder_ == null) {
             tableName_ = builderForValue.build();
             onChanged();
@@ -2520,17 +2520,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
-        public Builder mergeTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (tableName_ != null) {
               tableName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
             } else {
               tableName_ = value;
             }
@@ -2542,7 +2542,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
@@ -2560,45 +2560,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTableNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
           
           onChanged();
           return getTableNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
             return tableNameBuilder_.getMessageOrBuilder();
           } else {
             return tableName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10001;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10001;</code>
          *
          * <pre>
          * Name einer Tabelle, auf die sich die weiteren Spalten beziehen (für die also der Speicher-Verbrauch bestimmt wurde)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
             tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
                     isClean());
@@ -2607,11 +2607,11 @@ public final class MiGetStorageAllocInfoAd {
           return tableNameBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue indexSizeMb_ = null;
+        private io.dstore.Values.decimalValue indexSizeMb_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> indexSizeMbBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> indexSizeMbBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
@@ -2621,27 +2621,27 @@ public final class MiGetStorageAllocInfoAd {
           return indexSizeMbBuilder_ != null || indexSizeMb_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getIndexSizeMb() {
+        public io.dstore.Values.decimalValue getIndexSizeMb() {
           if (indexSizeMbBuilder_ == null) {
-            return indexSizeMb_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : indexSizeMb_;
+            return indexSizeMb_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : indexSizeMb_;
           } else {
             return indexSizeMbBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
-        public Builder setIndexSizeMb(io.dstore.engine.Values.decimalValue value) {
+        public Builder setIndexSizeMb(io.dstore.Values.decimalValue value) {
           if (indexSizeMbBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2655,14 +2655,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
         public Builder setIndexSizeMb(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (indexSizeMbBuilder_ == null) {
             indexSizeMb_ = builderForValue.build();
             onChanged();
@@ -2673,17 +2673,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
-        public Builder mergeIndexSizeMb(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeIndexSizeMb(io.dstore.Values.decimalValue value) {
           if (indexSizeMbBuilder_ == null) {
             if (indexSizeMb_ != null) {
               indexSizeMb_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(indexSizeMb_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(indexSizeMb_).mergeFrom(value).buildPartial();
             } else {
               indexSizeMb_ = value;
             }
@@ -2695,7 +2695,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
@@ -2713,45 +2713,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getIndexSizeMbBuilder() {
+        public io.dstore.Values.decimalValue.Builder getIndexSizeMbBuilder() {
           
           onChanged();
           return getIndexSizeMbFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getIndexSizeMbOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getIndexSizeMbOrBuilder() {
           if (indexSizeMbBuilder_ != null) {
             return indexSizeMbBuilder_.getMessageOrBuilder();
           } else {
             return indexSizeMb_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : indexSizeMb_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : indexSizeMb_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue index_size_mb = 10002;</code>
+         * <code>optional .dstore.values.decimalValue index_size_mb = 10002;</code>
          *
          * <pre>
          * Speicherverbrauch für die Indizes der Tabelle "TableName" in MB
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getIndexSizeMbFieldBuilder() {
           if (indexSizeMbBuilder_ == null) {
             indexSizeMbBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getIndexSizeMb(),
                     getParentForChildren(),
                     isClean());
@@ -2760,11 +2760,11 @@ public final class MiGetStorageAllocInfoAd {
           return indexSizeMbBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue numberOfIndexes_ = null;
+        private io.dstore.Values.integerValue numberOfIndexes_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfIndexesBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfIndexesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
@@ -2774,27 +2774,27 @@ public final class MiGetStorageAllocInfoAd {
           return numberOfIndexesBuilder_ != null || numberOfIndexes_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNumberOfIndexes() {
+        public io.dstore.Values.integerValue getNumberOfIndexes() {
           if (numberOfIndexesBuilder_ == null) {
-            return numberOfIndexes_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfIndexes_;
+            return numberOfIndexes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfIndexes_;
           } else {
             return numberOfIndexesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
-        public Builder setNumberOfIndexes(io.dstore.engine.Values.integerValue value) {
+        public Builder setNumberOfIndexes(io.dstore.Values.integerValue value) {
           if (numberOfIndexesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2808,14 +2808,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
         public Builder setNumberOfIndexes(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (numberOfIndexesBuilder_ == null) {
             numberOfIndexes_ = builderForValue.build();
             onChanged();
@@ -2826,17 +2826,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
-        public Builder mergeNumberOfIndexes(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNumberOfIndexes(io.dstore.Values.integerValue value) {
           if (numberOfIndexesBuilder_ == null) {
             if (numberOfIndexes_ != null) {
               numberOfIndexes_ =
-                io.dstore.engine.Values.integerValue.newBuilder(numberOfIndexes_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(numberOfIndexes_).mergeFrom(value).buildPartial();
             } else {
               numberOfIndexes_ = value;
             }
@@ -2848,7 +2848,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
@@ -2866,45 +2866,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNumberOfIndexesBuilder() {
+        public io.dstore.Values.integerValue.Builder getNumberOfIndexesBuilder() {
           
           onChanged();
           return getNumberOfIndexesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNumberOfIndexesOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNumberOfIndexesOrBuilder() {
           if (numberOfIndexesBuilder_ != null) {
             return numberOfIndexesBuilder_.getMessageOrBuilder();
           } else {
             return numberOfIndexes_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfIndexes_;
+                io.dstore.Values.integerValue.getDefaultInstance() : numberOfIndexes_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_indexes = 10003;</code>
+         * <code>optional .dstore.values.integerValue number_of_indexes = 10003;</code>
          *
          * <pre>
          * Anzahl Indizes der Tabelle "TableName"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNumberOfIndexesFieldBuilder() {
           if (numberOfIndexesBuilder_ == null) {
             numberOfIndexesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNumberOfIndexes(),
                     getParentForChildren(),
                     isClean());
@@ -2913,11 +2913,11 @@ public final class MiGetStorageAllocInfoAd {
           return numberOfIndexesBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue numberOfRows_ = null;
+        private io.dstore.Values.integerValue numberOfRows_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfRowsBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfRowsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
@@ -2927,27 +2927,27 @@ public final class MiGetStorageAllocInfoAd {
           return numberOfRowsBuilder_ != null || numberOfRows_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNumberOfRows() {
+        public io.dstore.Values.integerValue getNumberOfRows() {
           if (numberOfRowsBuilder_ == null) {
-            return numberOfRows_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfRows_;
+            return numberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfRows_;
           } else {
             return numberOfRowsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
-        public Builder setNumberOfRows(io.dstore.engine.Values.integerValue value) {
+        public Builder setNumberOfRows(io.dstore.Values.integerValue value) {
           if (numberOfRowsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2961,14 +2961,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
         public Builder setNumberOfRows(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (numberOfRowsBuilder_ == null) {
             numberOfRows_ = builderForValue.build();
             onChanged();
@@ -2979,17 +2979,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
-        public Builder mergeNumberOfRows(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNumberOfRows(io.dstore.Values.integerValue value) {
           if (numberOfRowsBuilder_ == null) {
             if (numberOfRows_ != null) {
               numberOfRows_ =
-                io.dstore.engine.Values.integerValue.newBuilder(numberOfRows_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(numberOfRows_).mergeFrom(value).buildPartial();
             } else {
               numberOfRows_ = value;
             }
@@ -3001,7 +3001,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
@@ -3019,45 +3019,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNumberOfRowsBuilder() {
+        public io.dstore.Values.integerValue.Builder getNumberOfRowsBuilder() {
           
           onChanged();
           return getNumberOfRowsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNumberOfRowsOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNumberOfRowsOrBuilder() {
           if (numberOfRowsBuilder_ != null) {
             return numberOfRowsBuilder_.getMessageOrBuilder();
           } else {
             return numberOfRows_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfRows_;
+                io.dstore.Values.integerValue.getDefaultInstance() : numberOfRows_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_rows = 10004;</code>
+         * <code>optional .dstore.values.integerValue number_of_rows = 10004;</code>
          *
          * <pre>
          * Anzahl Datensätze in der Tabelle "TableName"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNumberOfRowsFieldBuilder() {
           if (numberOfRowsBuilder_ == null) {
             numberOfRowsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNumberOfRows(),
                     getParentForChildren(),
                     isClean());
@@ -3066,11 +3066,11 @@ public final class MiGetStorageAllocInfoAd {
           return numberOfRowsBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue tableSizeMb_ = null;
+        private io.dstore.Values.decimalValue tableSizeMb_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> tableSizeMbBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> tableSizeMbBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
@@ -3080,27 +3080,27 @@ public final class MiGetStorageAllocInfoAd {
           return tableSizeMbBuilder_ != null || tableSizeMb_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getTableSizeMb() {
+        public io.dstore.Values.decimalValue getTableSizeMb() {
           if (tableSizeMbBuilder_ == null) {
-            return tableSizeMb_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : tableSizeMb_;
+            return tableSizeMb_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : tableSizeMb_;
           } else {
             return tableSizeMbBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
-        public Builder setTableSizeMb(io.dstore.engine.Values.decimalValue value) {
+        public Builder setTableSizeMb(io.dstore.Values.decimalValue value) {
           if (tableSizeMbBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3114,14 +3114,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
         public Builder setTableSizeMb(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (tableSizeMbBuilder_ == null) {
             tableSizeMb_ = builderForValue.build();
             onChanged();
@@ -3132,17 +3132,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
-        public Builder mergeTableSizeMb(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeTableSizeMb(io.dstore.Values.decimalValue value) {
           if (tableSizeMbBuilder_ == null) {
             if (tableSizeMb_ != null) {
               tableSizeMb_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(tableSizeMb_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(tableSizeMb_).mergeFrom(value).buildPartial();
             } else {
               tableSizeMb_ = value;
             }
@@ -3154,7 +3154,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
@@ -3172,45 +3172,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getTableSizeMbBuilder() {
+        public io.dstore.Values.decimalValue.Builder getTableSizeMbBuilder() {
           
           onChanged();
           return getTableSizeMbFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getTableSizeMbOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getTableSizeMbOrBuilder() {
           if (tableSizeMbBuilder_ != null) {
             return tableSizeMbBuilder_.getMessageOrBuilder();
           } else {
             return tableSizeMb_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : tableSizeMb_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : tableSizeMb_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue table_size_mb = 10005;</code>
+         * <code>optional .dstore.values.decimalValue table_size_mb = 10005;</code>
          *
          * <pre>
          * Gesamte Größe der Tabelle "TableName" in MB
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTableSizeMbFieldBuilder() {
           if (tableSizeMbBuilder_ == null) {
             tableSizeMbBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTableSizeMb(),
                     getParentForChildren(),
                     isClean());
@@ -3219,11 +3219,11 @@ public final class MiGetStorageAllocInfoAd {
           return tableSizeMbBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue dataSizeMb_ = null;
+        private io.dstore.Values.decimalValue dataSizeMb_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> dataSizeMbBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> dataSizeMbBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
@@ -3233,27 +3233,27 @@ public final class MiGetStorageAllocInfoAd {
           return dataSizeMbBuilder_ != null || dataSizeMb_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getDataSizeMb() {
+        public io.dstore.Values.decimalValue getDataSizeMb() {
           if (dataSizeMbBuilder_ == null) {
-            return dataSizeMb_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : dataSizeMb_;
+            return dataSizeMb_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : dataSizeMb_;
           } else {
             return dataSizeMbBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
-        public Builder setDataSizeMb(io.dstore.engine.Values.decimalValue value) {
+        public Builder setDataSizeMb(io.dstore.Values.decimalValue value) {
           if (dataSizeMbBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3267,14 +3267,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
         public Builder setDataSizeMb(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (dataSizeMbBuilder_ == null) {
             dataSizeMb_ = builderForValue.build();
             onChanged();
@@ -3285,17 +3285,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
-        public Builder mergeDataSizeMb(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeDataSizeMb(io.dstore.Values.decimalValue value) {
           if (dataSizeMbBuilder_ == null) {
             if (dataSizeMb_ != null) {
               dataSizeMb_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(dataSizeMb_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(dataSizeMb_).mergeFrom(value).buildPartial();
             } else {
               dataSizeMb_ = value;
             }
@@ -3307,7 +3307,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
@@ -3325,45 +3325,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getDataSizeMbBuilder() {
+        public io.dstore.Values.decimalValue.Builder getDataSizeMbBuilder() {
           
           onChanged();
           return getDataSizeMbFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getDataSizeMbOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getDataSizeMbOrBuilder() {
           if (dataSizeMbBuilder_ != null) {
             return dataSizeMbBuilder_.getMessageOrBuilder();
           } else {
             return dataSizeMb_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : dataSizeMb_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : dataSizeMb_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue data_size_mb = 10006;</code>
+         * <code>optional .dstore.values.decimalValue data_size_mb = 10006;</code>
          *
          * <pre>
          * Speicherverbrauch für die Daten der Tabelle "TableName" in MB
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getDataSizeMbFieldBuilder() {
           if (dataSizeMbBuilder_ == null) {
             dataSizeMbBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getDataSizeMb(),
                     getParentForChildren(),
                     isClean());
@@ -3372,11 +3372,11 @@ public final class MiGetStorageAllocInfoAd {
           return dataSizeMbBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue mballocated_ = null;
+        private io.dstore.Values.decimalValue mballocated_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> mballocatedBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> mballocatedBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
@@ -3386,27 +3386,27 @@ public final class MiGetStorageAllocInfoAd {
           return mballocatedBuilder_ != null || mballocated_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getMballocated() {
+        public io.dstore.Values.decimalValue getMballocated() {
           if (mballocatedBuilder_ == null) {
-            return mballocated_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : mballocated_;
+            return mballocated_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : mballocated_;
           } else {
             return mballocatedBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
-        public Builder setMballocated(io.dstore.engine.Values.decimalValue value) {
+        public Builder setMballocated(io.dstore.Values.decimalValue value) {
           if (mballocatedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3420,14 +3420,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
         public Builder setMballocated(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (mballocatedBuilder_ == null) {
             mballocated_ = builderForValue.build();
             onChanged();
@@ -3438,17 +3438,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
-        public Builder mergeMballocated(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeMballocated(io.dstore.Values.decimalValue value) {
           if (mballocatedBuilder_ == null) {
             if (mballocated_ != null) {
               mballocated_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(mballocated_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(mballocated_).mergeFrom(value).buildPartial();
             } else {
               mballocated_ = value;
             }
@@ -3460,7 +3460,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
@@ -3478,45 +3478,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getMballocatedBuilder() {
+        public io.dstore.Values.decimalValue.Builder getMballocatedBuilder() {
           
           onChanged();
           return getMballocatedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getMballocatedOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getMballocatedOrBuilder() {
           if (mballocatedBuilder_ != null) {
             return mballocatedBuilder_.getMessageOrBuilder();
           } else {
             return mballocated_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : mballocated_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : mballocated_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mballocated = 20001;</code>
+         * <code>optional .dstore.values.decimalValue mballocated = 20001;</code>
          *
          * <pre>
          * Wieviel MB für "SegmentName" alloziert sind, sprich die Größe des Segments
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getMballocatedFieldBuilder() {
           if (mballocatedBuilder_ == null) {
             mballocatedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getMballocated(),
                     getParentForChildren(),
                     isClean());
@@ -3525,11 +3525,11 @@ public final class MiGetStorageAllocInfoAd {
           return mballocatedBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue segmentName_ = null;
+        private io.dstore.Values.stringValue segmentName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> segmentNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> segmentNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
@@ -3539,27 +3539,27 @@ public final class MiGetStorageAllocInfoAd {
           return segmentNameBuilder_ != null || segmentName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getSegmentName() {
+        public io.dstore.Values.stringValue getSegmentName() {
           if (segmentNameBuilder_ == null) {
-            return segmentName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : segmentName_;
+            return segmentName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : segmentName_;
           } else {
             return segmentNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
-        public Builder setSegmentName(io.dstore.engine.Values.stringValue value) {
+        public Builder setSegmentName(io.dstore.Values.stringValue value) {
           if (segmentNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3573,14 +3573,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
         public Builder setSegmentName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (segmentNameBuilder_ == null) {
             segmentName_ = builderForValue.build();
             onChanged();
@@ -3591,17 +3591,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
-        public Builder mergeSegmentName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeSegmentName(io.dstore.Values.stringValue value) {
           if (segmentNameBuilder_ == null) {
             if (segmentName_ != null) {
               segmentName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(segmentName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(segmentName_).mergeFrom(value).buildPartial();
             } else {
               segmentName_ = value;
             }
@@ -3613,7 +3613,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
@@ -3631,45 +3631,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getSegmentNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getSegmentNameBuilder() {
           
           onChanged();
           return getSegmentNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getSegmentNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getSegmentNameOrBuilder() {
           if (segmentNameBuilder_ != null) {
             return segmentNameBuilder_.getMessageOrBuilder();
           } else {
             return segmentName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : segmentName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : segmentName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue segment_name = 20002;</code>
+         * <code>optional .dstore.values.stringValue segment_name = 20002;</code>
          *
          * <pre>
          * Name eines Segments in der Datenbank "DBName"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSegmentNameFieldBuilder() {
           if (segmentNameBuilder_ == null) {
             segmentNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSegmentName(),
                     getParentForChildren(),
                     isClean());
@@ -3678,11 +3678,11 @@ public final class MiGetStorageAllocInfoAd {
           return segmentNameBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue mbused_ = null;
+        private io.dstore.Values.decimalValue mbused_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> mbusedBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> mbusedBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
@@ -3692,27 +3692,27 @@ public final class MiGetStorageAllocInfoAd {
           return mbusedBuilder_ != null || mbused_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getMbused() {
+        public io.dstore.Values.decimalValue getMbused() {
           if (mbusedBuilder_ == null) {
-            return mbused_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : mbused_;
+            return mbused_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : mbused_;
           } else {
             return mbusedBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
-        public Builder setMbused(io.dstore.engine.Values.decimalValue value) {
+        public Builder setMbused(io.dstore.Values.decimalValue value) {
           if (mbusedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3726,14 +3726,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
         public Builder setMbused(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (mbusedBuilder_ == null) {
             mbused_ = builderForValue.build();
             onChanged();
@@ -3744,17 +3744,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
-        public Builder mergeMbused(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeMbused(io.dstore.Values.decimalValue value) {
           if (mbusedBuilder_ == null) {
             if (mbused_ != null) {
               mbused_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(mbused_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(mbused_).mergeFrom(value).buildPartial();
             } else {
               mbused_ = value;
             }
@@ -3766,7 +3766,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
@@ -3784,45 +3784,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getMbusedBuilder() {
+        public io.dstore.Values.decimalValue.Builder getMbusedBuilder() {
           
           onChanged();
           return getMbusedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getMbusedOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getMbusedOrBuilder() {
           if (mbusedBuilder_ != null) {
             return mbusedBuilder_.getMessageOrBuilder();
           } else {
             return mbused_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : mbused_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : mbused_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbused = 20003;</code>
+         * <code>optional .dstore.values.decimalValue mbused = 20003;</code>
          *
          * <pre>
          * Wieviel MB "SegmentName" derzeit tatsächlich belegt.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies "MB_allocated" ABZÜGLICH für "rollbacks" reserviertem Speicher und Anzahl freier Pages im Log-Segment.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getMbusedFieldBuilder() {
           if (mbusedBuilder_ == null) {
             mbusedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getMbused(),
                     getParentForChildren(),
                     isClean());
@@ -3831,11 +3831,11 @@ public final class MiGetStorageAllocInfoAd {
           return mbusedBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue freeSpaceInPercent_ = null;
+        private io.dstore.Values.decimalValue freeSpaceInPercent_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> freeSpaceInPercentBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> freeSpaceInPercentBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
@@ -3845,27 +3845,27 @@ public final class MiGetStorageAllocInfoAd {
           return freeSpaceInPercentBuilder_ != null || freeSpaceInPercent_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getFreeSpaceInPercent() {
+        public io.dstore.Values.decimalValue getFreeSpaceInPercent() {
           if (freeSpaceInPercentBuilder_ == null) {
-            return freeSpaceInPercent_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : freeSpaceInPercent_;
+            return freeSpaceInPercent_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : freeSpaceInPercent_;
           } else {
             return freeSpaceInPercentBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
-        public Builder setFreeSpaceInPercent(io.dstore.engine.Values.decimalValue value) {
+        public Builder setFreeSpaceInPercent(io.dstore.Values.decimalValue value) {
           if (freeSpaceInPercentBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3879,14 +3879,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
         public Builder setFreeSpaceInPercent(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (freeSpaceInPercentBuilder_ == null) {
             freeSpaceInPercent_ = builderForValue.build();
             onChanged();
@@ -3897,17 +3897,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
-        public Builder mergeFreeSpaceInPercent(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeFreeSpaceInPercent(io.dstore.Values.decimalValue value) {
           if (freeSpaceInPercentBuilder_ == null) {
             if (freeSpaceInPercent_ != null) {
               freeSpaceInPercent_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(freeSpaceInPercent_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(freeSpaceInPercent_).mergeFrom(value).buildPartial();
             } else {
               freeSpaceInPercent_ = value;
             }
@@ -3919,7 +3919,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
@@ -3937,45 +3937,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getFreeSpaceInPercentBuilder() {
+        public io.dstore.Values.decimalValue.Builder getFreeSpaceInPercentBuilder() {
           
           onChanged();
           return getFreeSpaceInPercentFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getFreeSpaceInPercentOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getFreeSpaceInPercentOrBuilder() {
           if (freeSpaceInPercentBuilder_ != null) {
             return freeSpaceInPercentBuilder_.getMessageOrBuilder();
           } else {
             return freeSpaceInPercent_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : freeSpaceInPercent_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : freeSpaceInPercent_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue free_space_in_percent = 20004;</code>
+         * <code>optional .dstore.values.decimalValue free_space_in_percent = 20004;</code>
          *
          * <pre>
          * Wieviel Prozent von "SegmentName" noch frei sind (also das Verhältnis von "MB_free" zu "MB_allocated" in Prozent)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getFreeSpaceInPercentFieldBuilder() {
           if (freeSpaceInPercentBuilder_ == null) {
             freeSpaceInPercentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getFreeSpaceInPercent(),
                     getParentForChildren(),
                     isClean());
@@ -3984,11 +3984,11 @@ public final class MiGetStorageAllocInfoAd {
           return freeSpaceInPercentBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue dBName_ = null;
+        private io.dstore.Values.stringValue dBName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> dBNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
@@ -3998,27 +3998,27 @@ public final class MiGetStorageAllocInfoAd {
           return dBNameBuilder_ != null || dBName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDBName() {
+        public io.dstore.Values.stringValue getDBName() {
           if (dBNameBuilder_ == null) {
-            return dBName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : dBName_;
+            return dBName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBName_;
           } else {
             return dBNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
-        public Builder setDBName(io.dstore.engine.Values.stringValue value) {
+        public Builder setDBName(io.dstore.Values.stringValue value) {
           if (dBNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4032,14 +4032,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
         public Builder setDBName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (dBNameBuilder_ == null) {
             dBName_ = builderForValue.build();
             onChanged();
@@ -4050,17 +4050,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
-        public Builder mergeDBName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDBName(io.dstore.Values.stringValue value) {
           if (dBNameBuilder_ == null) {
             if (dBName_ != null) {
               dBName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(dBName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(dBName_).mergeFrom(value).buildPartial();
             } else {
               dBName_ = value;
             }
@@ -4072,7 +4072,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
@@ -4090,45 +4090,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDBNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getDBNameBuilder() {
           
           onChanged();
           return getDBNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDBNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDBNameOrBuilder() {
           if (dBNameBuilder_ != null) {
             return dBNameBuilder_.getMessageOrBuilder();
           } else {
             return dBName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : dBName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : dBName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue d_b_name = 20005;</code>
+         * <code>optional .dstore.values.stringValue d_b_name = 20005;</code>
          *
          * <pre>
          * Name der in "&#64;GetStorageAllocInfoFor" angegebenen Datenbank
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDBNameFieldBuilder() {
           if (dBNameBuilder_ == null) {
             dBNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDBName(),
                     getParentForChildren(),
                     isClean());
@@ -4137,11 +4137,11 @@ public final class MiGetStorageAllocInfoAd {
           return dBNameBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue mbfree_ = null;
+        private io.dstore.Values.decimalValue mbfree_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> mbfreeBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> mbfreeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
@@ -4151,27 +4151,27 @@ public final class MiGetStorageAllocInfoAd {
           return mbfreeBuilder_ != null || mbfree_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getMbfree() {
+        public io.dstore.Values.decimalValue getMbfree() {
           if (mbfreeBuilder_ == null) {
-            return mbfree_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : mbfree_;
+            return mbfree_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : mbfree_;
           } else {
             return mbfreeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
-        public Builder setMbfree(io.dstore.engine.Values.decimalValue value) {
+        public Builder setMbfree(io.dstore.Values.decimalValue value) {
           if (mbfreeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4185,14 +4185,14 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
         public Builder setMbfree(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (mbfreeBuilder_ == null) {
             mbfree_ = builderForValue.build();
             onChanged();
@@ -4203,17 +4203,17 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
-        public Builder mergeMbfree(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeMbfree(io.dstore.Values.decimalValue value) {
           if (mbfreeBuilder_ == null) {
             if (mbfree_ != null) {
               mbfree_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(mbfree_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(mbfree_).mergeFrom(value).buildPartial();
             } else {
               mbfree_ = value;
             }
@@ -4225,7 +4225,7 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
@@ -4243,45 +4243,45 @@ public final class MiGetStorageAllocInfoAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getMbfreeBuilder() {
+        public io.dstore.Values.decimalValue.Builder getMbfreeBuilder() {
           
           onChanged();
           return getMbfreeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getMbfreeOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getMbfreeOrBuilder() {
           if (mbfreeBuilder_ != null) {
             return mbfreeBuilder_.getMessageOrBuilder();
           } else {
             return mbfree_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : mbfree_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : mbfree_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue mbfree = 20006;</code>
+         * <code>optional .dstore.values.decimalValue mbfree = 20006;</code>
          *
          * <pre>
          * Wieviel MB von "SegmentName" noch belegt werden können.Anmerkung : Im Falle des Log-Segments ("SegmentName = 'log only'") ist dies die Anzahl freier Pages im Log-Segment ABZÜGLICH für "rollbacks" reserviertem Speicher.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getMbfreeFieldBuilder() {
           if (mbfreeBuilder_ == null) {
             mbfreeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getMbfree(),
                     getParentForChildren(),
                     isClean());
@@ -5851,41 +5851,39 @@ public final class MiGetStorageAllocInfoAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/mi_GetStorage" +
       "AllocInfo_Ad.proto\022\'dstore.engine.mi_Get" +
-      "StorageAllocInfo_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\351\001\n\nParameters\022C\n\027g" +
-      "et_info_for_a_database\030\001 \001(\0132\".dstore.en" +
-      "gine.values.booleanValue\022%\n\034get_info_for" +
-      "_a_database_null\030\351\007 \001(\010\022E\n\032get_storage_a" +
-      "lloc_info_for\030\002 \001(\0132!.dstore.engine.valu",
-      "es.stringValue\022(\n\037get_storage_alloc_info" +
-      "_for_null\030\352\007 \001(\010\"\323\007\n\010Response\022)\n\005error\030\001" +
-      " \001(\0132\032.dstore.engine.error.Error\022H\n\020meta" +
-      "_information\030\002 \003(\0132..dstore.engine.metai" +
-      "nformation.MetaInformation\022/\n\007message\030\003 " +
-      "\003(\0132\036.dstore.engine.message.Message\022B\n\003r" +
-      "ow\030\004 \003(\01325.dstore.engine.mi_GetStorageAl" +
-      "locInfo_Ad.Response.Row\032\334\005\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005\0226\n\ntable_name\030\221N \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022:\n\rindex_size_m",
-      "b\030\222N \001(\0132\".dstore.engine.values.decimalV" +
-      "alue\022>\n\021number_of_indexes\030\223N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022;\n\016number_o" +
-      "f_rows\030\224N \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022:\n\rtable_size_mb\030\225N \001(\0132\".dsto" +
-      "re.engine.values.decimalValue\0229\n\014data_si" +
-      "ze_mb\030\226N \001(\0132\".dstore.engine.values.deci" +
-      "malValue\0229\n\013mballocated\030\241\234\001 \001(\0132\".dstore" +
-      ".engine.values.decimalValue\0229\n\014segment_n" +
-      "ame\030\242\234\001 \001(\0132!.dstore.engine.values.strin",
-      "gValue\0224\n\006mbused\030\243\234\001 \001(\0132\".dstore.engine" +
-      ".values.decimalValue\022C\n\025free_space_in_pe" +
-      "rcent\030\244\234\001 \001(\0132\".dstore.engine.values.dec" +
-      "imalValue\0225\n\010d_b_name\030\245\234\001 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\0224\n\006mbfree\030\246\234\001 \001" +
-      "(\0132\".dstore.engine.values.decimalValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "StorageAllocInfo_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"\333\001\n\nParameters\022<\n\027get_info" +
+      "_for_a_database\030\001 \001(\0132\033.dstore.values.bo" +
+      "oleanValue\022%\n\034get_info_for_a_database_nu" +
+      "ll\030\351\007 \001(\010\022>\n\032get_storage_alloc_info_for\030" +
+      "\002 \001(\0132\032.dstore.values.stringValue\022(\n\037get",
+      "_storage_alloc_info_for_null\030\352\007 \001(\010\"\377\006\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022B\n\003row\030\004 \003(\01325.dstore.eng" +
+      "ine.mi_GetStorageAllocInfo_Ad.Response.R" +
+      "ow\032\210\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\ntable_nam" +
+      "e\030\221N \001(\0132\032.dstore.values.stringValue\0223\n\r" +
+      "index_size_mb\030\222N \001(\0132\033.dstore.values.dec",
+      "imalValue\0227\n\021number_of_indexes\030\223N \001(\0132\033." +
+      "dstore.values.integerValue\0224\n\016number_of_" +
+      "rows\030\224N \001(\0132\033.dstore.values.integerValue" +
+      "\0223\n\rtable_size_mb\030\225N \001(\0132\033.dstore.values" +
+      ".decimalValue\0222\n\014data_size_mb\030\226N \001(\0132\033.d" +
+      "store.values.decimalValue\0222\n\013mballocated" +
+      "\030\241\234\001 \001(\0132\033.dstore.values.decimalValue\0222\n" +
+      "\014segment_name\030\242\234\001 \001(\0132\032.dstore.values.st" +
+      "ringValue\022-\n\006mbused\030\243\234\001 \001(\0132\033.dstore.val" +
+      "ues.decimalValue\022<\n\025free_space_in_percen",
+      "t\030\244\234\001 \001(\0132\033.dstore.values.decimalValue\022." +
+      "\n\010d_b_name\030\245\234\001 \001(\0132\032.dstore.values.strin" +
+      "gValue\022-\n\006mbfree\030\246\234\001 \001(\0132\033.dstore.values" +
+      ".decimalValueB\035\n\033io.dstore.engine.proced" +
+      "uresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5898,7 +5896,7 @@ public final class MiGetStorageAllocInfoAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5921,7 +5919,7 @@ public final class MiGetStorageAllocInfoAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetStorageAllocInfo_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableName", "IndexSizeMb", "NumberOfIndexes", "NumberOfRows", "TableSizeMb", "DataSizeMb", "Mballocated", "SegmentName", "Mbused", "FreeSpaceInPercent", "DBName", "Mbfree", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

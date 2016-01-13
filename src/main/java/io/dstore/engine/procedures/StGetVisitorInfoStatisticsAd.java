@@ -13,17 +13,17 @@ public final class StGetVisitorInfoStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
      */
-    io.dstore.engine.Values.timestampValue getFromDate();
+    io.dstore.Values.timestampValue getFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class StGetVisitorInfoStatisticsAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
      */
-    io.dstore.engine.Values.timestampValue getToDate();
+    io.dstore.Values.timestampValue getToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class StGetVisitorInfoStatisticsAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getInformationTypeId();
+    io.dstore.Values.integerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class StGetVisitorInfoStatisticsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class StGetVisitorInfoStatisticsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class StGetVisitorInfoStatisticsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class StGetVisitorInfoStatisticsAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.timestampValue fromDate_;
+    private io.dstore.Values.timestampValue fromDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
      */
-    public io.dstore.engine.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.Values.timestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -216,23 +216,23 @@ public final class StGetVisitorInfoStatisticsAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.timestampValue toDate_;
+    private io.dstore.Values.timestampValue toDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.Values.timestampValue getToDate() {
+      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -246,23 +246,23 @@ public final class StGetVisitorInfoStatisticsAd {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue informationTypeId_;
+    private io.dstore.Values.integerValue informationTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.Values.integerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -570,29 +570,29 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue fromDate_ = null;
+      private io.dstore.Values.timestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
-      public io.dstore.engine.Values.timestampValue getFromDate() {
+      public io.dstore.Values.timestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
-      public Builder setFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
       public Builder setFromDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
-      public Builder mergeFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -638,7 +638,7 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue toDate_ = null;
+      private io.dstore.Values.timestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue getToDate() {
+      public io.dstore.Values.timestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
-      public Builder setToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
       public Builder setToDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
-      public Builder mergeToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -781,7 +781,7 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue informationTypeId_ = null;
+      private io.dstore.Values.integerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getInformationTypeId() {
+      public io.dstore.Values.integerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public Builder setInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -924,7 +924,7 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class StGetVisitorInfoStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class StGetVisitorInfoStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
@@ -1294,24 +1294,24 @@ public final class StGetVisitorInfoStatisticsAd {
        */
       boolean hasNumberOfDistinctValues();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNumberOfDistinctValues();
+      io.dstore.Values.integerValue getNumberOfDistinctValues();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
@@ -1319,24 +1319,24 @@ public final class StGetVisitorInfoStatisticsAd {
        */
       boolean hasNumberOfValues();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNumberOfValues();
+      io.dstore.Values.integerValue getNumberOfValues();
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNumberOfValuesOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNumberOfValuesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
@@ -1344,21 +1344,21 @@ public final class StGetVisitorInfoStatisticsAd {
        */
       boolean hasStatisticInformation();
       /**
-       * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getStatisticInformation();
+      io.dstore.Values.stringValue getStatisticInformation();
       /**
-       * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getStatisticInformationOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetVisitorInfoStatistics_Ad.Response.Row}
@@ -1405,11 +1405,11 @@ public final class StGetVisitorInfoStatisticsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (numberOfDistinctValues_ != null) {
                   subBuilder = numberOfDistinctValues_.toBuilder();
                 }
-                numberOfDistinctValues_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                numberOfDistinctValues_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfDistinctValues_);
                   numberOfDistinctValues_ = subBuilder.buildPartial();
@@ -1418,11 +1418,11 @@ public final class StGetVisitorInfoStatisticsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (numberOfValues_ != null) {
                   subBuilder = numberOfValues_.toBuilder();
                 }
-                numberOfValues_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                numberOfValues_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfValues_);
                   numberOfValues_ = subBuilder.buildPartial();
@@ -1431,11 +1431,11 @@ public final class StGetVisitorInfoStatisticsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (statisticInformation_ != null) {
                   subBuilder = statisticInformation_.toBuilder();
                 }
-                statisticInformation_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                statisticInformation_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(statisticInformation_);
                   statisticInformation_ = subBuilder.buildPartial();
@@ -1477,9 +1477,9 @@ public final class StGetVisitorInfoStatisticsAd {
       }
 
       public static final int NUMBER_OF_DISTINCT_VALUES_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue numberOfDistinctValues_;
+      private io.dstore.Values.integerValue numberOfDistinctValues_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
@@ -1489,30 +1489,30 @@ public final class StGetVisitorInfoStatisticsAd {
         return numberOfDistinctValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfDistinctValues() {
-        return numberOfDistinctValues_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
+      public io.dstore.Values.integerValue getNumberOfDistinctValues() {
+        return numberOfDistinctValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+       * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
        *
        * <pre>
        * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder() {
         return getNumberOfDistinctValues();
       }
 
       public static final int NUMBER_OF_VALUES_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue numberOfValues_;
+      private io.dstore.Values.integerValue numberOfValues_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
@@ -1522,30 +1522,30 @@ public final class StGetVisitorInfoStatisticsAd {
         return numberOfValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfValues() {
-        return numberOfValues_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfValues_;
+      public io.dstore.Values.integerValue getNumberOfValues() {
+        return numberOfValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfValues_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+       * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
        *
        * <pre>
        * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfValuesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfValuesOrBuilder() {
         return getNumberOfValues();
       }
 
       public static final int STATISTIC_INFORMATION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue statisticInformation_;
+      private io.dstore.Values.stringValue statisticInformation_;
       /**
-       * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
@@ -1555,23 +1555,23 @@ public final class StGetVisitorInfoStatisticsAd {
         return statisticInformation_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getStatisticInformation() {
-        return statisticInformation_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : statisticInformation_;
+      public io.dstore.Values.stringValue getStatisticInformation() {
+        return statisticInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+       * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
        *
        * <pre>
        * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
         return getStatisticInformation();
       }
 
@@ -1870,11 +1870,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue numberOfDistinctValues_ = null;
+        private io.dstore.Values.integerValue numberOfDistinctValues_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfDistinctValuesBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfDistinctValuesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
@@ -1884,27 +1884,27 @@ public final class StGetVisitorInfoStatisticsAd {
           return numberOfDistinctValuesBuilder_ != null || numberOfDistinctValues_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNumberOfDistinctValues() {
+        public io.dstore.Values.integerValue getNumberOfDistinctValues() {
           if (numberOfDistinctValuesBuilder_ == null) {
-            return numberOfDistinctValues_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
+            return numberOfDistinctValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
           } else {
             return numberOfDistinctValuesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public Builder setNumberOfDistinctValues(io.dstore.engine.Values.integerValue value) {
+        public Builder setNumberOfDistinctValues(io.dstore.Values.integerValue value) {
           if (numberOfDistinctValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1918,14 +1918,14 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
         public Builder setNumberOfDistinctValues(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (numberOfDistinctValuesBuilder_ == null) {
             numberOfDistinctValues_ = builderForValue.build();
             onChanged();
@@ -1936,17 +1936,17 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public Builder mergeNumberOfDistinctValues(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNumberOfDistinctValues(io.dstore.Values.integerValue value) {
           if (numberOfDistinctValuesBuilder_ == null) {
             if (numberOfDistinctValues_ != null) {
               numberOfDistinctValues_ =
-                io.dstore.engine.Values.integerValue.newBuilder(numberOfDistinctValues_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(numberOfDistinctValues_).mergeFrom(value).buildPartial();
             } else {
               numberOfDistinctValues_ = value;
             }
@@ -1958,7 +1958,7 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
@@ -1976,45 +1976,45 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNumberOfDistinctValuesBuilder() {
+        public io.dstore.Values.integerValue.Builder getNumberOfDistinctValuesBuilder() {
           
           onChanged();
           return getNumberOfDistinctValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNumberOfDistinctValuesOrBuilder() {
           if (numberOfDistinctValuesBuilder_ != null) {
             return numberOfDistinctValuesBuilder_.getMessageOrBuilder();
           } else {
             return numberOfDistinctValues_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
+                io.dstore.Values.integerValue.getDefaultInstance() : numberOfDistinctValues_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_distinct_values = 10001;</code>
+         * <code>optional .dstore.values.integerValue number_of_distinct_values = 10001;</code>
          *
          * <pre>
          * Wieviele verschiedene Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele (verschiedene) Besucher ("VisitorID"s) gibt es im angegebenen Zeitraum
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNumberOfDistinctValuesFieldBuilder() {
           if (numberOfDistinctValuesBuilder_ == null) {
             numberOfDistinctValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNumberOfDistinctValues(),
                     getParentForChildren(),
                     isClean());
@@ -2023,11 +2023,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return numberOfDistinctValuesBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue numberOfValues_ = null;
+        private io.dstore.Values.integerValue numberOfValues_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfValuesBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfValuesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
@@ -2037,27 +2037,27 @@ public final class StGetVisitorInfoStatisticsAd {
           return numberOfValuesBuilder_ != null || numberOfValues_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNumberOfValues() {
+        public io.dstore.Values.integerValue getNumberOfValues() {
           if (numberOfValuesBuilder_ == null) {
-            return numberOfValues_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfValues_;
+            return numberOfValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfValues_;
           } else {
             return numberOfValuesBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public Builder setNumberOfValues(io.dstore.engine.Values.integerValue value) {
+        public Builder setNumberOfValues(io.dstore.Values.integerValue value) {
           if (numberOfValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2071,14 +2071,14 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
         public Builder setNumberOfValues(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (numberOfValuesBuilder_ == null) {
             numberOfValues_ = builderForValue.build();
             onChanged();
@@ -2089,17 +2089,17 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public Builder mergeNumberOfValues(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNumberOfValues(io.dstore.Values.integerValue value) {
           if (numberOfValuesBuilder_ == null) {
             if (numberOfValues_ != null) {
               numberOfValues_ =
-                io.dstore.engine.Values.integerValue.newBuilder(numberOfValues_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(numberOfValues_).mergeFrom(value).buildPartial();
             } else {
               numberOfValues_ = value;
             }
@@ -2111,7 +2111,7 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
@@ -2129,45 +2129,45 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNumberOfValuesBuilder() {
+        public io.dstore.Values.integerValue.Builder getNumberOfValuesBuilder() {
           
           onChanged();
           return getNumberOfValuesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNumberOfValuesOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNumberOfValuesOrBuilder() {
           if (numberOfValuesBuilder_ != null) {
             return numberOfValuesBuilder_.getMessageOrBuilder();
           } else {
             return numberOfValues_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfValues_;
+                io.dstore.Values.integerValue.getDefaultInstance() : numberOfValues_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue number_of_values = 10002;</code>
+         * <code>optional .dstore.values.integerValue number_of_values = 10002;</code>
          *
          * <pre>
          * Wieviele Werte zum durch "&#64;InformationTypeID" angegebenen Informations-Typ gibt es bzw. wieviele Datensätze gibt es im angegebenen Zeitraum
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNumberOfValuesFieldBuilder() {
           if (numberOfValuesBuilder_ == null) {
             numberOfValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNumberOfValues(),
                     getParentForChildren(),
                     isClean());
@@ -2176,11 +2176,11 @@ public final class StGetVisitorInfoStatisticsAd {
           return numberOfValuesBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue statisticInformation_ = null;
+        private io.dstore.Values.stringValue statisticInformation_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> statisticInformationBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statisticInformationBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
@@ -2190,27 +2190,27 @@ public final class StGetVisitorInfoStatisticsAd {
           return statisticInformationBuilder_ != null || statisticInformation_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getStatisticInformation() {
+        public io.dstore.Values.stringValue getStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
-            return statisticInformation_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : statisticInformation_;
+            return statisticInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
           } else {
             return statisticInformationBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
-        public Builder setStatisticInformation(io.dstore.engine.Values.stringValue value) {
+        public Builder setStatisticInformation(io.dstore.Values.stringValue value) {
           if (statisticInformationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2224,14 +2224,14 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
         public Builder setStatisticInformation(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (statisticInformationBuilder_ == null) {
             statisticInformation_ = builderForValue.build();
             onChanged();
@@ -2242,17 +2242,17 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
-        public Builder mergeStatisticInformation(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeStatisticInformation(io.dstore.Values.stringValue value) {
           if (statisticInformationBuilder_ == null) {
             if (statisticInformation_ != null) {
               statisticInformation_ =
-                io.dstore.engine.Values.stringValue.newBuilder(statisticInformation_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(statisticInformation_).mergeFrom(value).buildPartial();
             } else {
               statisticInformation_ = value;
             }
@@ -2264,7 +2264,7 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
@@ -2282,45 +2282,45 @@ public final class StGetVisitorInfoStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getStatisticInformationBuilder() {
+        public io.dstore.Values.stringValue.Builder getStatisticInformationBuilder() {
           
           onChanged();
           return getStatisticInformationFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
           if (statisticInformationBuilder_ != null) {
             return statisticInformationBuilder_.getMessageOrBuilder();
           } else {
             return statisticInformation_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : statisticInformation_;
+                io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue statistic_information = 10003;</code>
+         * <code>optional .dstore.values.stringValue statistic_information = 10003;</code>
          *
          * <pre>
          * Art der Information. Ist "&#64;InformationTypeID" angegeben, handelt es sich um die Bezeichnung dieses Informations-Typs, ansonsten steht hier der Wert "VisitorIDs"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getStatisticInformationFieldBuilder() {
           if (statisticInformationBuilder_ == null) {
             statisticInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getStatisticInformation(),
                     getParentForChildren(),
                     isClean());
@@ -3890,30 +3890,29 @@ public final class StGetVisitorInfoStatisticsAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/st_GetVisitor" +
       "InfoStatistics_Ad.proto\022,dstore.engine.s" +
-      "t_GetVisitorInfoStatistics_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\220\002\n\nParam" +
-      "eters\0227\n\tfrom_date\030\001 \001(\0132$.dstore.engine" +
-      ".values.timestampValue\022\027\n\016from_date_null" +
-      "\030\351\007 \001(\010\0225\n\007to_date\030\002 \001(\0132$.dstore.engine" +
-      ".values.timestampValue\022\025\n\014to_date_null\030\352",
-      "\007 \001(\010\022?\n\023information_type_id\030\003 \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022!\n\030inform" +
-      "ation_type_id_null\030\353\007 \001(\010\"\334\003\n\010Response\022)" +
-      "\n\005error\030\001 \001(\0132\032.dstore.engine.error.Erro" +
-      "r\022H\n\020meta_information\030\002 \003(\0132..dstore.eng" +
-      "ine.metainformation.MetaInformation\022/\n\007m" +
-      "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
-      "sage\022G\n\003row\030\004 \003(\0132:.dstore.engine.st_Get" +
-      "VisitorInfoStatistics_Ad.Response.Row\032\340\001" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022F\n\031number_of_dist",
-      "inct_values\030\221N \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022=\n\020number_of_values\030\222N \001(" +
-      "\0132\".dstore.engine.values.integerValue\022A\n" +
-      "\025statistic_information\030\223N \001(\0132!.dstore.e" +
-      "ngine.values.stringValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "t_GetVisitorInfoStatistics_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\373\001\n\nParameters\0220" +
+      "\n\tfrom_date\030\001 \001(\0132\035.dstore.values.timest" +
+      "ampValue\022\027\n\016from_date_null\030\351\007 \001(\010\022.\n\007to_" +
+      "date\030\002 \001(\0132\035.dstore.values.timestampValu" +
+      "e\022\025\n\014to_date_null\030\352\007 \001(\010\0228\n\023information_",
+      "type_id\030\003 \001(\0132\033.dstore.values.integerVal" +
+      "ue\022!\n\030information_type_id_null\030\353\007 \001(\010\"\307\003" +
+      "\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engin" +
+      "e.error.Error\022H\n\020meta_information\030\002 \003(\0132" +
+      "..dstore.engine.metainformation.MetaInfo" +
+      "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
+      ".message.Message\022G\n\003row\030\004 \003(\0132:.dstore.e" +
+      "ngine.st_GetVisitorInfoStatistics_Ad.Res" +
+      "ponse.Row\032\313\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\031nu" +
+      "mber_of_distinct_values\030\221N \001(\0132\033.dstore.",
+      "values.integerValue\0226\n\020number_of_values\030" +
+      "\222N \001(\0132\033.dstore.values.integerValue\022:\n\025s" +
+      "tatistic_information\030\223N \001(\0132\032.dstore.val" +
+      "ues.stringValueB\035\n\033io.dstore.engine.proc" +
+      "eduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3926,7 +3925,7 @@ public final class StGetVisitorInfoStatisticsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3949,7 +3948,7 @@ public final class StGetVisitorInfoStatisticsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_GetVisitorInfoStatistics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "NumberOfDistinctValues", "NumberOfValues", "StatisticInformation", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

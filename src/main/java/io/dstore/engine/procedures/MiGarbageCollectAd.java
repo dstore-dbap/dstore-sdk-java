@@ -13,17 +13,17 @@ public final class MiGarbageCollectAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+     * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
      */
     boolean hasCheckForCorrectDate();
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+     * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
      */
-    io.dstore.engine.Values.booleanValue getCheckForCorrectDate();
+    io.dstore.Values.booleanValue getCheckForCorrectDate();
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+     * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getCheckForCorrectDateOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getCheckForCorrectDateOrBuilder();
 
     /**
      * <code>optional bool check_for_correct_date_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class MiGarbageCollectAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (checkForCorrectDate_ != null) {
                 subBuilder = checkForCorrectDate_.toBuilder();
               }
-              checkForCorrectDate_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              checkForCorrectDate_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkForCorrectDate_);
                 checkForCorrectDate_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class MiGarbageCollectAd {
     }
 
     public static final int CHECK_FOR_CORRECT_DATE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.booleanValue checkForCorrectDate_;
+    private io.dstore.Values.booleanValue checkForCorrectDate_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+     * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
      */
     public boolean hasCheckForCorrectDate() {
       return checkForCorrectDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+     * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValue getCheckForCorrectDate() {
-      return checkForCorrectDate_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkForCorrectDate_;
+    public io.dstore.Values.booleanValue getCheckForCorrectDate() {
+      return checkForCorrectDate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkForCorrectDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+     * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getCheckForCorrectDateOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getCheckForCorrectDateOrBuilder() {
       return getCheckForCorrectDate();
     }
 
@@ -368,29 +368,29 @@ public final class MiGarbageCollectAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue checkForCorrectDate_ = null;
+      private io.dstore.Values.booleanValue checkForCorrectDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> checkForCorrectDateBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkForCorrectDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
       public boolean hasCheckForCorrectDate() {
         return checkForCorrectDateBuilder_ != null || checkForCorrectDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue getCheckForCorrectDate() {
+      public io.dstore.Values.booleanValue getCheckForCorrectDate() {
         if (checkForCorrectDateBuilder_ == null) {
-          return checkForCorrectDate_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkForCorrectDate_;
+          return checkForCorrectDate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkForCorrectDate_;
         } else {
           return checkForCorrectDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
-      public Builder setCheckForCorrectDate(io.dstore.engine.Values.booleanValue value) {
+      public Builder setCheckForCorrectDate(io.dstore.Values.booleanValue value) {
         if (checkForCorrectDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
       public Builder setCheckForCorrectDate(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (checkForCorrectDateBuilder_ == null) {
           checkForCorrectDate_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
-      public Builder mergeCheckForCorrectDate(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeCheckForCorrectDate(io.dstore.Values.booleanValue value) {
         if (checkForCorrectDateBuilder_ == null) {
           if (checkForCorrectDate_ != null) {
             checkForCorrectDate_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(checkForCorrectDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(checkForCorrectDate_).mergeFrom(value).buildPartial();
           } else {
             checkForCorrectDate_ = value;
           }
@@ -436,7 +436,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
       public Builder clearCheckForCorrectDate() {
         if (checkForCorrectDateBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getCheckForCorrectDateBuilder() {
+      public io.dstore.Values.booleanValue.Builder getCheckForCorrectDateBuilder() {
         
         onChanged();
         return getCheckForCorrectDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCheckForCorrectDateOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getCheckForCorrectDateOrBuilder() {
         if (checkForCorrectDateBuilder_ != null) {
           return checkForCorrectDateBuilder_.getMessageOrBuilder();
         } else {
           return checkForCorrectDate_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : checkForCorrectDate_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : checkForCorrectDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue check_for_correct_date = 1;</code>
+       * <code>optional .dstore.values.booleanValue check_for_correct_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCheckForCorrectDateFieldBuilder() {
         if (checkForCorrectDateBuilder_ == null) {
           checkForCorrectDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCheckForCorrectDate(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class MiGarbageCollectAd {
     java.lang.String[] descriptorData = {
       "\n3dstore/engine/procedures/mi_GarbageCol" +
       "lect_Ad.proto\022\"dstore.engine.mi_GarbageC" +
-      "ollect_Ad\032\032dstore/engine/values.proto\032\031d" +
-      "store/engine/error.proto\032\033dstore/engine/" +
-      "message.proto\032#dstore/engine/metainforma" +
-      "tion.proto\"v\n\nParameters\022B\n\026check_for_co" +
-      "rrect_date\030\001 \001(\0132\".dstore.engine.values." +
-      "booleanValue\022$\n\033check_for_correct_date_n" +
-      "ull\030\351\007 \001(\010\"\207\002\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
-      ".dstore.engine.error.Error\022H\n\020meta_infor",
-      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
-      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
-      "dstore.engine.message.Message\022=\n\003row\030\004 \003" +
-      "(\01320.dstore.engine.mi_GarbageCollect_Ad." +
-      "Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "ollect_Ad\032\023dstore/values.proto\032\031dstore/e" +
+      "ngine/error.proto\032\033dstore/engine/message" +
+      ".proto\032#dstore/engine/metainformation.pr" +
+      "oto\"o\n\nParameters\022;\n\026check_for_correct_d" +
+      "ate\030\001 \001(\0132\033.dstore.values.booleanValue\022$" +
+      "\n\033check_for_correct_date_null\030\351\007 \001(\010\"\207\002\n" +
+      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
+      ".error.Error\022H\n\020meta_information\030\002 \003(\0132.",
+      ".dstore.engine.metainformation.MetaInfor" +
+      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022=\n\003row\030\004 \003(\01320.dstore.en" +
+      "gine.mi_GarbageCollect_Ad.Response.Row\032\026" +
+      "\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engi" +
+      "ne.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class MiGarbageCollectAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class MiGarbageCollectAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GarbageCollect_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class OmModifyOrderContentAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
      */
     boolean hasOrderContentId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getOrderContentId();
+    io.dstore.Values.integerValue getOrderContentId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOrderContentIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder();
 
     /**
      * <code>optional bool order_content_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyOrderContentAd {
     boolean getOrderContentIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+     * <code>optional .dstore.values.stringValue order_no = 2;</code>
      */
     boolean hasOrderNo();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+     * <code>optional .dstore.values.stringValue order_no = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getOrderNo();
+    io.dstore.Values.stringValue getOrderNo();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+     * <code>optional .dstore.values.stringValue order_no = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getOrderNoOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder();
 
     /**
      * <code>optional bool order_no_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyOrderContentAd {
     boolean getOrderNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     boolean hasQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getQuantity();
+    io.dstore.Values.integerValue getQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getQuantityOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
 
     /**
      * <code>optional bool quantity_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmModifyOrderContentAd {
     boolean getQuantityNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+     * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
      */
     boolean hasNetSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+     * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
      */
-    io.dstore.engine.Values.decimalValue getNetSum();
+    io.dstore.Values.decimalValue getNetSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+     * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getNetSumOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder();
 
     /**
      * <code>optional bool net_sum_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmModifyOrderContentAd {
     boolean getNetSumNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+     * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
      */
     boolean hasGrossSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+     * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
      */
-    io.dstore.engine.Values.decimalValue getGrossSum();
+    io.dstore.Values.decimalValue getGrossSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+     * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getGrossSumOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getGrossSumOrBuilder();
 
     /**
      * <code>optional bool gross_sum_null = 1005;</code>
@@ -146,11 +146,11 @@ public final class OmModifyOrderContentAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (orderContentId_ != null) {
                 subBuilder = orderContentId_.toBuilder();
               }
-              orderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              orderContentId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderContentId_);
                 orderContentId_ = subBuilder.buildPartial();
@@ -159,11 +159,11 @@ public final class OmModifyOrderContentAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (orderNo_ != null) {
                 subBuilder = orderNo_.toBuilder();
               }
-              orderNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              orderNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderNo_);
                 orderNo_ = subBuilder.buildPartial();
@@ -172,11 +172,11 @@ public final class OmModifyOrderContentAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (quantity_ != null) {
                 subBuilder = quantity_.toBuilder();
               }
-              quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(quantity_);
                 quantity_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmModifyOrderContentAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (netSum_ != null) {
                 subBuilder = netSum_.toBuilder();
               }
-              netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              netSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(netSum_);
                 netSum_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmModifyOrderContentAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (grossSum_ != null) {
                 subBuilder = grossSum_.toBuilder();
               }
-              grossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              grossSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(grossSum_);
                 grossSum_ = subBuilder.buildPartial();
@@ -260,23 +260,23 @@ public final class OmModifyOrderContentAd {
     }
 
     public static final int ORDER_CONTENT_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue orderContentId_;
+    private io.dstore.Values.integerValue orderContentId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
      */
     public boolean hasOrderContentId() {
       return orderContentId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getOrderContentId() {
-      return orderContentId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderContentId_;
+    public io.dstore.Values.integerValue getOrderContentId() {
+      return orderContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
       return getOrderContentId();
     }
 
@@ -290,23 +290,23 @@ public final class OmModifyOrderContentAd {
     }
 
     public static final int ORDER_NO_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue orderNo_;
+    private io.dstore.Values.stringValue orderNo_;
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+     * <code>optional .dstore.values.stringValue order_no = 2;</code>
      */
     public boolean hasOrderNo() {
       return orderNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+     * <code>optional .dstore.values.stringValue order_no = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getOrderNo() {
-      return orderNo_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderNo_;
+    public io.dstore.Values.stringValue getOrderNo() {
+      return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+     * <code>optional .dstore.values.stringValue order_no = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
       return getOrderNo();
     }
 
@@ -320,23 +320,23 @@ public final class OmModifyOrderContentAd {
     }
 
     public static final int QUANTITY_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue quantity_;
+    private io.dstore.Values.integerValue quantity_;
     /**
-     * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
     public boolean hasQuantity() {
       return quantity_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getQuantity() {
-      return quantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : quantity_;
+    public io.dstore.Values.integerValue getQuantity() {
+      return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.integerValue quantity = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getQuantityOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
       return getQuantity();
     }
 
@@ -350,23 +350,23 @@ public final class OmModifyOrderContentAd {
     }
 
     public static final int NET_SUM_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.decimalValue netSum_;
+    private io.dstore.Values.decimalValue netSum_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+     * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
      */
     public boolean hasNetSum() {
       return netSum_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+     * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
      */
-    public io.dstore.engine.Values.decimalValue getNetSum() {
-      return netSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : netSum_;
+    public io.dstore.Values.decimalValue getNetSum() {
+      return netSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+     * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getNetSumOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder() {
       return getNetSum();
     }
 
@@ -380,23 +380,23 @@ public final class OmModifyOrderContentAd {
     }
 
     public static final int GROSS_SUM_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.decimalValue grossSum_;
+    private io.dstore.Values.decimalValue grossSum_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+     * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
      */
     public boolean hasGrossSum() {
       return grossSum_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+     * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
      */
-    public io.dstore.engine.Values.decimalValue getGrossSum() {
-      return grossSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : grossSum_;
+    public io.dstore.Values.decimalValue getGrossSum() {
+      return grossSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossSum_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+     * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getGrossSumOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getGrossSumOrBuilder() {
       return getGrossSum();
     }
 
@@ -772,29 +772,29 @@ public final class OmModifyOrderContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue orderContentId_ = null;
+      private io.dstore.Values.integerValue orderContentId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderContentIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderContentIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
       public boolean hasOrderContentId() {
         return orderContentIdBuilder_ != null || orderContentId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getOrderContentId() {
+      public io.dstore.Values.integerValue getOrderContentId() {
         if (orderContentIdBuilder_ == null) {
-          return orderContentId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderContentId_;
+          return orderContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
         } else {
           return orderContentIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
-      public Builder setOrderContentId(io.dstore.engine.Values.integerValue value) {
+      public Builder setOrderContentId(io.dstore.Values.integerValue value) {
         if (orderContentIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -808,10 +808,10 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
       public Builder setOrderContentId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (orderContentIdBuilder_ == null) {
           orderContentId_ = builderForValue.build();
           onChanged();
@@ -822,13 +822,13 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
-      public Builder mergeOrderContentId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOrderContentId(io.dstore.Values.integerValue value) {
         if (orderContentIdBuilder_ == null) {
           if (orderContentId_ != null) {
             orderContentId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(orderContentId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(orderContentId_).mergeFrom(value).buildPartial();
           } else {
             orderContentId_ = value;
           }
@@ -840,7 +840,7 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
       public Builder clearOrderContentId() {
         if (orderContentIdBuilder_ == null) {
@@ -854,33 +854,33 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOrderContentIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getOrderContentIdBuilder() {
         
         onChanged();
         return getOrderContentIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
         if (orderContentIdBuilder_ != null) {
           return orderContentIdBuilder_.getMessageOrBuilder();
         } else {
           return orderContentId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : orderContentId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_content_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_content_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderContentIdFieldBuilder() {
         if (orderContentIdBuilder_ == null) {
           orderContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderContentId(),
                   getParentForChildren(),
                   isClean());
@@ -915,29 +915,29 @@ public final class OmModifyOrderContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue orderNo_ = null;
+      private io.dstore.Values.stringValue orderNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> orderNoBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
       public boolean hasOrderNo() {
         return orderNoBuilder_ != null || orderNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getOrderNo() {
+      public io.dstore.Values.stringValue getOrderNo() {
         if (orderNoBuilder_ == null) {
-          return orderNo_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderNo_;
+          return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
         } else {
           return orderNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
-      public Builder setOrderNo(io.dstore.engine.Values.stringValue value) {
+      public Builder setOrderNo(io.dstore.Values.stringValue value) {
         if (orderNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -951,10 +951,10 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
       public Builder setOrderNo(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (orderNoBuilder_ == null) {
           orderNo_ = builderForValue.build();
           onChanged();
@@ -965,13 +965,13 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
-      public Builder mergeOrderNo(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeOrderNo(io.dstore.Values.stringValue value) {
         if (orderNoBuilder_ == null) {
           if (orderNo_ != null) {
             orderNo_ =
-              io.dstore.engine.Values.stringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
           } else {
             orderNo_ = value;
           }
@@ -983,7 +983,7 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
       public Builder clearOrderNo() {
         if (orderNoBuilder_ == null) {
@@ -997,33 +997,33 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getOrderNoBuilder() {
+      public io.dstore.Values.stringValue.Builder getOrderNoBuilder() {
         
         onChanged();
         return getOrderNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
         if (orderNoBuilder_ != null) {
           return orderNoBuilder_.getMessageOrBuilder();
         } else {
           return orderNo_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : orderNo_;
+              io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 2;</code>
+       * <code>optional .dstore.values.stringValue order_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderNoFieldBuilder() {
         if (orderNoBuilder_ == null) {
           orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderNo(),
                   getParentForChildren(),
                   isClean());
@@ -1058,29 +1058,29 @@ public final class OmModifyOrderContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue quantity_ = null;
+      private io.dstore.Values.integerValue quantity_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> quantityBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public boolean hasQuantity() {
         return quantityBuilder_ != null || quantity_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getQuantity() {
+      public io.dstore.Values.integerValue getQuantity() {
         if (quantityBuilder_ == null) {
-          return quantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : quantity_;
+          return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
         } else {
           return quantityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
-      public Builder setQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder setQuantity(io.dstore.Values.integerValue value) {
         if (quantityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1094,10 +1094,10 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public Builder setQuantity(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (quantityBuilder_ == null) {
           quantity_ = builderForValue.build();
           onChanged();
@@ -1108,13 +1108,13 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
-      public Builder mergeQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeQuantity(io.dstore.Values.integerValue value) {
         if (quantityBuilder_ == null) {
           if (quantity_ != null) {
             quantity_ =
-              io.dstore.engine.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
           } else {
             quantity_ = value;
           }
@@ -1126,7 +1126,7 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       public Builder clearQuantity() {
         if (quantityBuilder_ == null) {
@@ -1140,33 +1140,33 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getQuantityBuilder() {
+      public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
         
         onChanged();
         return getQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
         if (quantityBuilder_ != null) {
           return quantityBuilder_.getMessageOrBuilder();
         } else {
           return quantity_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : quantity_;
+              io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getQuantityFieldBuilder() {
         if (quantityBuilder_ == null) {
           quantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getQuantity(),
                   getParentForChildren(),
                   isClean());
@@ -1201,29 +1201,29 @@ public final class OmModifyOrderContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue netSum_ = null;
+      private io.dstore.Values.decimalValue netSum_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> netSumBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netSumBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
       public boolean hasNetSum() {
         return netSumBuilder_ != null || netSum_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
-      public io.dstore.engine.Values.decimalValue getNetSum() {
+      public io.dstore.Values.decimalValue getNetSum() {
         if (netSumBuilder_ == null) {
-          return netSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : netSum_;
+          return netSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
         } else {
           return netSumBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
-      public Builder setNetSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder setNetSum(io.dstore.Values.decimalValue value) {
         if (netSumBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1237,10 +1237,10 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
       public Builder setNetSum(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (netSumBuilder_ == null) {
           netSum_ = builderForValue.build();
           onChanged();
@@ -1251,13 +1251,13 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
-      public Builder mergeNetSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeNetSum(io.dstore.Values.decimalValue value) {
         if (netSumBuilder_ == null) {
           if (netSum_ != null) {
             netSum_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(netSum_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(netSum_).mergeFrom(value).buildPartial();
           } else {
             netSum_ = value;
           }
@@ -1269,7 +1269,7 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
       public Builder clearNetSum() {
         if (netSumBuilder_ == null) {
@@ -1283,33 +1283,33 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getNetSumBuilder() {
+      public io.dstore.Values.decimalValue.Builder getNetSumBuilder() {
         
         onChanged();
         return getNetSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getNetSumOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder() {
         if (netSumBuilder_ != null) {
           return netSumBuilder_.getMessageOrBuilder();
         } else {
           return netSum_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : netSum_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue net_sum = 4;</code>
+       * <code>optional .dstore.values.decimalValue net_sum = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getNetSumFieldBuilder() {
         if (netSumBuilder_ == null) {
           netSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getNetSum(),
                   getParentForChildren(),
                   isClean());
@@ -1344,29 +1344,29 @@ public final class OmModifyOrderContentAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue grossSum_ = null;
+      private io.dstore.Values.decimalValue grossSum_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> grossSumBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
       public boolean hasGrossSum() {
         return grossSumBuilder_ != null || grossSum_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
-      public io.dstore.engine.Values.decimalValue getGrossSum() {
+      public io.dstore.Values.decimalValue getGrossSum() {
         if (grossSumBuilder_ == null) {
-          return grossSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : grossSum_;
+          return grossSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossSum_;
         } else {
           return grossSumBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
-      public Builder setGrossSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder setGrossSum(io.dstore.Values.decimalValue value) {
         if (grossSumBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1380,10 +1380,10 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
       public Builder setGrossSum(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (grossSumBuilder_ == null) {
           grossSum_ = builderForValue.build();
           onChanged();
@@ -1394,13 +1394,13 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
-      public Builder mergeGrossSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeGrossSum(io.dstore.Values.decimalValue value) {
         if (grossSumBuilder_ == null) {
           if (grossSum_ != null) {
             grossSum_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(grossSum_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(grossSum_).mergeFrom(value).buildPartial();
           } else {
             grossSum_ = value;
           }
@@ -1412,7 +1412,7 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
       public Builder clearGrossSum() {
         if (grossSumBuilder_ == null) {
@@ -1426,33 +1426,33 @@ public final class OmModifyOrderContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getGrossSumBuilder() {
+      public io.dstore.Values.decimalValue.Builder getGrossSumBuilder() {
         
         onChanged();
         return getGrossSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getGrossSumOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getGrossSumOrBuilder() {
         if (grossSumBuilder_ != null) {
           return grossSumBuilder_.getMessageOrBuilder();
         } else {
           return grossSum_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : grossSum_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : grossSum_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue gross_sum = 5;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getGrossSumFieldBuilder() {
         if (grossSumBuilder_ == null) {
           grossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getGrossSum(),
                   getParentForChildren(),
                   isClean());
@@ -3643,28 +3643,27 @@ public final class OmModifyOrderContentAd {
     java.lang.String[] descriptorData = {
       "\n7dstore/engine/procedures/om_ModifyOrde" +
       "rContent_Ad.proto\022&dstore.engine.om_Modi" +
-      "fyOrderContent_Ad\032\032dstore/engine/values." +
-      "proto\032\031dstore/engine/error.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"\241\003\n\nParameters\022<\n\020ord" +
-      "er_content_id\030\001 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\036\n\025order_content_id_null" +
-      "\030\351\007 \001(\010\0223\n\010order_no\030\002 \001(\0132!.dstore.engin" +
-      "e.values.stringValue\022\026\n\rorder_no_null\030\352\007",
-      " \001(\010\0224\n\010quantity\030\003 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\026\n\rquantity_null\030\353\007 \001" +
-      "(\010\0223\n\007net_sum\030\004 \001(\0132\".dstore.engine.valu" +
-      "es.decimalValue\022\025\n\014net_sum_null\030\354\007 \001(\010\0225" +
-      "\n\tgross_sum\030\005 \001(\0132\".dstore.engine.values" +
-      ".decimalValue\022\027\n\016gross_sum_null\030\355\007 \001(\010\"\213" +
-      "\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
-      "ne.error.Error\022H\n\020meta_information\030\002 \003(\013" +
-      "2..dstore.engine.metainformation.MetaInf" +
-      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin",
-      "e.message.Message\022A\n\003row\030\004 \003(\01324.dstore." +
-      "engine.om_ModifyOrderContent_Ad.Response" +
-      ".Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstor" +
-      "e.engine.proceduresb\006proto3"
+      "fyOrderContent_Ad\032\023dstore/values.proto\032\031" +
+      "dstore/engine/error.proto\032\033dstore/engine" +
+      "/message.proto\032#dstore/engine/metainform" +
+      "ation.proto\"\376\002\n\nParameters\0225\n\020order_cont" +
+      "ent_id\030\001 \001(\0132\033.dstore.values.integerValu" +
+      "e\022\036\n\025order_content_id_null\030\351\007 \001(\010\022,\n\010ord" +
+      "er_no\030\002 \001(\0132\032.dstore.values.stringValue\022" +
+      "\026\n\rorder_no_null\030\352\007 \001(\010\022-\n\010quantity\030\003 \001(",
+      "\0132\033.dstore.values.integerValue\022\026\n\rquanti" +
+      "ty_null\030\353\007 \001(\010\022,\n\007net_sum\030\004 \001(\0132\033.dstore" +
+      ".values.decimalValue\022\025\n\014net_sum_null\030\354\007 " +
+      "\001(\010\022.\n\tgross_sum\030\005 \001(\0132\033.dstore.values.d" +
+      "ecimalValue\022\027\n\016gross_sum_null\030\355\007 \001(\010\"\213\002\n" +
+      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
+      ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
+      ".dstore.engine.metainformation.MetaInfor" +
+      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022A\n\003row\030\004 \003(\01324.dstore.en",
+      "gine.om_ModifyOrderContent_Ad.Response.R" +
+      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore." +
+      "engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3677,7 +3676,7 @@ public final class OmModifyOrderContentAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3700,7 +3699,7 @@ public final class OmModifyOrderContentAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyOrderContent_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

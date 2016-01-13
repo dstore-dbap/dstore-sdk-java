@@ -13,17 +13,17 @@ public final class OmModifyCampaignBonusItemsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+     * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
      */
     boolean hasBonusFromOneSetOnly();
     /**
-     * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+     * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
      */
-    io.dstore.engine.Values.booleanValue getBonusFromOneSetOnly();
+    io.dstore.Values.booleanValue getBonusFromOneSetOnly();
     /**
-     * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+     * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder();
 
     /**
      * <code>optional bool bonus_from_one_set_only_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyCampaignBonusItemsAd {
     boolean getBonusFromOneSetOnlyNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
      */
     boolean hasDeleteBenefit();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getDeleteBenefit();
+    io.dstore.Values.integerValue getDeleteBenefit();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getDeleteBenefitOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getDeleteBenefitOrBuilder();
 
     /**
      * <code>optional bool delete_benefit_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class OmModifyCampaignBonusItemsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (bonusFromOneSetOnly_ != null) {
                 subBuilder = bonusFromOneSetOnly_.toBuilder();
               }
-              bonusFromOneSetOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              bonusFromOneSetOnly_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(bonusFromOneSetOnly_);
                 bonusFromOneSetOnly_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class OmModifyCampaignBonusItemsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deleteBenefit_ != null) {
                 subBuilder = deleteBenefit_.toBuilder();
               }
-              deleteBenefit_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              deleteBenefit_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteBenefit_);
                 deleteBenefit_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class OmModifyCampaignBonusItemsAd {
     }
 
     public static final int BONUS_FROM_ONE_SET_ONLY_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.booleanValue bonusFromOneSetOnly_;
+    private io.dstore.Values.booleanValue bonusFromOneSetOnly_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+     * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
      */
     public boolean hasBonusFromOneSetOnly() {
       return bonusFromOneSetOnly_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+     * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValue getBonusFromOneSetOnly() {
-      return bonusFromOneSetOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
+    public io.dstore.Values.booleanValue getBonusFromOneSetOnly() {
+      return bonusFromOneSetOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+     * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
       return getBonusFromOneSetOnly();
     }
 
@@ -179,23 +179,23 @@ public final class OmModifyCampaignBonusItemsAd {
     }
 
     public static final int DELETE_BENEFIT_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue deleteBenefit_;
+    private io.dstore.Values.integerValue deleteBenefit_;
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
      */
     public boolean hasDeleteBenefit() {
       return deleteBenefit_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getDeleteBenefit() {
-      return deleteBenefit_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteBenefit_;
+    public io.dstore.Values.integerValue getDeleteBenefit() {
+      return deleteBenefit_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteBenefit_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+     * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getDeleteBenefitOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getDeleteBenefitOrBuilder() {
       return getDeleteBenefit();
     }
 
@@ -469,29 +469,29 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue bonusFromOneSetOnly_ = null;
+      private io.dstore.Values.booleanValue bonusFromOneSetOnly_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> bonusFromOneSetOnlyBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bonusFromOneSetOnlyBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
       public boolean hasBonusFromOneSetOnly() {
         return bonusFromOneSetOnlyBuilder_ != null || bonusFromOneSetOnly_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue getBonusFromOneSetOnly() {
+      public io.dstore.Values.booleanValue getBonusFromOneSetOnly() {
         if (bonusFromOneSetOnlyBuilder_ == null) {
-          return bonusFromOneSetOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
+          return bonusFromOneSetOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
         } else {
           return bonusFromOneSetOnlyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
-      public Builder setBonusFromOneSetOnly(io.dstore.engine.Values.booleanValue value) {
+      public Builder setBonusFromOneSetOnly(io.dstore.Values.booleanValue value) {
         if (bonusFromOneSetOnlyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
       public Builder setBonusFromOneSetOnly(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (bonusFromOneSetOnlyBuilder_ == null) {
           bonusFromOneSetOnly_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
-      public Builder mergeBonusFromOneSetOnly(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeBonusFromOneSetOnly(io.dstore.Values.booleanValue value) {
         if (bonusFromOneSetOnlyBuilder_ == null) {
           if (bonusFromOneSetOnly_ != null) {
             bonusFromOneSetOnly_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(bonusFromOneSetOnly_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(bonusFromOneSetOnly_).mergeFrom(value).buildPartial();
           } else {
             bonusFromOneSetOnly_ = value;
           }
@@ -537,7 +537,7 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
       public Builder clearBonusFromOneSetOnly() {
         if (bonusFromOneSetOnlyBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getBonusFromOneSetOnlyBuilder() {
+      public io.dstore.Values.booleanValue.Builder getBonusFromOneSetOnlyBuilder() {
         
         onChanged();
         return getBonusFromOneSetOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
         if (bonusFromOneSetOnlyBuilder_ != null) {
           return bonusFromOneSetOnlyBuilder_.getMessageOrBuilder();
         } else {
           return bonusFromOneSetOnly_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue bonus_from_one_set_only = 1;</code>
+       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getBonusFromOneSetOnlyFieldBuilder() {
         if (bonusFromOneSetOnlyBuilder_ == null) {
           bonusFromOneSetOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getBonusFromOneSetOnly(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue deleteBenefit_ = null;
+      private io.dstore.Values.integerValue deleteBenefit_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> deleteBenefitBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteBenefitBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
       public boolean hasDeleteBenefit() {
         return deleteBenefitBuilder_ != null || deleteBenefit_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getDeleteBenefit() {
+      public io.dstore.Values.integerValue getDeleteBenefit() {
         if (deleteBenefitBuilder_ == null) {
-          return deleteBenefit_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteBenefit_;
+          return deleteBenefit_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteBenefit_;
         } else {
           return deleteBenefitBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
-      public Builder setDeleteBenefit(io.dstore.engine.Values.integerValue value) {
+      public Builder setDeleteBenefit(io.dstore.Values.integerValue value) {
         if (deleteBenefitBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
       public Builder setDeleteBenefit(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (deleteBenefitBuilder_ == null) {
           deleteBenefit_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
-      public Builder mergeDeleteBenefit(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeDeleteBenefit(io.dstore.Values.integerValue value) {
         if (deleteBenefitBuilder_ == null) {
           if (deleteBenefit_ != null) {
             deleteBenefit_ =
-              io.dstore.engine.Values.integerValue.newBuilder(deleteBenefit_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(deleteBenefit_).mergeFrom(value).buildPartial();
           } else {
             deleteBenefit_ = value;
           }
@@ -680,7 +680,7 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
       public Builder clearDeleteBenefit() {
         if (deleteBenefitBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getDeleteBenefitBuilder() {
+      public io.dstore.Values.integerValue.Builder getDeleteBenefitBuilder() {
         
         onChanged();
         return getDeleteBenefitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDeleteBenefitOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDeleteBenefitOrBuilder() {
         if (deleteBenefitBuilder_ != null) {
           return deleteBenefitBuilder_.getMessageOrBuilder();
         } else {
           return deleteBenefit_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteBenefit_;
+              io.dstore.Values.integerValue.getDefaultInstance() : deleteBenefit_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_benefit = 2;</code>
+       * <code>optional .dstore.values.integerValue delete_benefit = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeleteBenefitFieldBuilder() {
         if (deleteBenefitBuilder_ == null) {
           deleteBenefitBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeleteBenefit(),
                   getParentForChildren(),
                   isClean());
@@ -902,17 +902,17 @@ public final class OmModifyCampaignBonusItemsAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getBenefitId();
+    io.dstore.Values.integerValue getBenefitId();
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ModifyCampaignBonusItems_Ad.Response}
@@ -993,11 +993,11 @@ public final class OmModifyCampaignBonusItemsAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (benefitId_ != null) {
                 subBuilder = benefitId_.toBuilder();
               }
-              benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitId_);
                 benefitId_ = subBuilder.buildPartial();
@@ -1541,23 +1541,23 @@ public final class OmModifyCampaignBonusItemsAd {
     }
 
     public static final int BENEFIT_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue benefitId_;
+    private io.dstore.Values.integerValue benefitId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getBenefitId() {
-      return benefitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitId_;
+    public io.dstore.Values.integerValue getBenefitId() {
+      return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+     * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
     }
 
@@ -2784,29 +2784,29 @@ public final class OmModifyCampaignBonusItemsAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue benefitId_ = null;
+      private io.dstore.Values.integerValue benefitId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> benefitIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getBenefitId() {
+      public io.dstore.Values.integerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
-          return benefitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitId_;
+          return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
         } else {
           return benefitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
-      public Builder setBenefitId(io.dstore.engine.Values.integerValue value) {
+      public Builder setBenefitId(io.dstore.Values.integerValue value) {
         if (benefitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2820,10 +2820,10 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
       public Builder setBenefitId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (benefitIdBuilder_ == null) {
           benefitId_ = builderForValue.build();
           onChanged();
@@ -2834,13 +2834,13 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
-      public Builder mergeBenefitId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
         if (benefitIdBuilder_ == null) {
           if (benefitId_ != null) {
             benefitId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
           } else {
             benefitId_ = value;
           }
@@ -2852,7 +2852,7 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -2866,33 +2866,33 @@ public final class OmModifyCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getBenefitIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
         
         onChanged();
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
           return benefitIdBuilder_.getMessageOrBuilder();
         } else {
           return benefitId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 101;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBenefitIdFieldBuilder() {
         if (benefitIdBuilder_ == null) {
           benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBenefitId(),
                   getParentForChildren(),
                   isClean());
@@ -2984,25 +2984,24 @@ public final class OmModifyCampaignBonusItemsAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_ModifyCamp" +
       "aignBonusItems_Ad.proto\022,dstore.engine.o" +
-      "m_ModifyCampaignBonusItems_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\322\001\n\nParam" +
-      "eters\022C\n\027bonus_from_one_set_only\030\001 \001(\0132\"" +
-      ".dstore.engine.values.booleanValue\022%\n\034bo" +
-      "nus_from_one_set_only_null\030\351\007 \001(\010\022:\n\016del" +
-      "ete_benefit\030\002 \001(\0132\".dstore.engine.values",
-      ".integerValue\022\034\n\023delete_benefit_null\030\352\007 " +
-      "\001(\010\"\311\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore" +
-      ".engine.error.Error\022H\n\020meta_information\030" +
-      "\002 \003(\0132..dstore.engine.metainformation.Me" +
-      "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
-      "engine.message.Message\022G\n\003row\030\004 \003(\0132:.ds" +
-      "tore.engine.om_ModifyCampaignBonusItems_" +
-      "Ad.Response.Row\0226\n\nbenefit_id\030e \001(\0132\".ds" +
-      "tore.engine.values.integerValue\032\026\n\003Row\022\017" +
-      "\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proc",
-      "eduresb\006proto3"
+      "m_ModifyCampaignBonusItems_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\304\001\n\nParameters\022<" +
+      "\n\027bonus_from_one_set_only\030\001 \001(\0132\033.dstore" +
+      ".values.booleanValue\022%\n\034bonus_from_one_s" +
+      "et_only_null\030\351\007 \001(\010\0223\n\016delete_benefit\030\002 " +
+      "\001(\0132\033.dstore.values.integerValue\022\034\n\023dele",
+      "te_benefit_null\030\352\007 \001(\010\"\302\002\n\010Response\022)\n\005e" +
+      "rror\030\001 \001(\0132\032.dstore.engine.error.Error\022H" +
+      "\n\020meta_information\030\002 \003(\0132..dstore.engine" +
+      ".metainformation.MetaInformation\022/\n\007mess" +
+      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
+      "e\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_Modify" +
+      "CampaignBonusItems_Ad.Response.Row\022/\n\nbe" +
+      "nefit_id\030e \001(\0132\033.dstore.values.integerVa" +
+      "lue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore" +
+      ".engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3015,7 +3014,7 @@ public final class OmModifyCampaignBonusItemsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3038,7 +3037,7 @@ public final class OmModifyCampaignBonusItemsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampaignBonusItems_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

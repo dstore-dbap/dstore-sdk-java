@@ -13,17 +13,17 @@ public final class MiGetApplicPartSettingsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
      */
     boolean hasApplicationPartId();
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getApplicationPartId();
+    io.dstore.Values.integerValue getApplicationPartId();
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
 
     /**
      * <code>optional bool application_part_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetApplicPartSettingsPu {
     boolean getApplicationPartIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getKeyVariable();
+    io.dstore.Values.stringValue getKeyVariable();
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiGetApplicPartSettingsPu {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
      */
     boolean hasSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getSearchForKeyVariableWithLike();
+    io.dstore.Values.booleanValue getSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder();
 
     /**
      * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiGetApplicPartSettingsPu {
     boolean getSearchForKeyVariableWithLikeNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+     * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
      */
     boolean hasGetValuesForGlobalUser();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+     * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getGetValuesForGlobalUser();
+    io.dstore.Values.integerValue getGetValuesForGlobalUser();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+     * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGetValuesForGlobalUserOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGetValuesForGlobalUserOrBuilder();
 
     /**
      * <code>optional bool get_values_for_global_user_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class MiGetApplicPartSettingsPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (applicationPartId_ != null) {
                 subBuilder = applicationPartId_.toBuilder();
               }
-              applicationPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              applicationPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(applicationPartId_);
                 applicationPartId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class MiGetApplicPartSettingsPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class MiGetApplicPartSettingsPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (searchForKeyVariableWithLike_ != null) {
                 subBuilder = searchForKeyVariableWithLike_.toBuilder();
               }
-              searchForKeyVariableWithLike_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              searchForKeyVariableWithLike_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchForKeyVariableWithLike_);
                 searchForKeyVariableWithLike_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiGetApplicPartSettingsPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (getValuesForGlobalUser_ != null) {
                 subBuilder = getValuesForGlobalUser_.toBuilder();
               }
-              getValuesForGlobalUser_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              getValuesForGlobalUser_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getValuesForGlobalUser_);
                 getValuesForGlobalUser_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class MiGetApplicPartSettingsPu {
     }
 
     public static final int APPLICATION_PART_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue applicationPartId_;
+    private io.dstore.Values.integerValue applicationPartId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
      */
     public boolean hasApplicationPartId() {
       return applicationPartId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getApplicationPartId() {
-      return applicationPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+    public io.dstore.Values.integerValue getApplicationPartId() {
+      return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+     * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
       return getApplicationPartId();
     }
 
@@ -253,23 +253,23 @@ public final class MiGetApplicPartSettingsPu {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue keyVariable_;
+    private io.dstore.Values.stringValue keyVariable_;
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.Values.stringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -283,23 +283,23 @@ public final class MiGetApplicPartSettingsPu {
     }
 
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue searchForKeyVariableWithLike_;
+    private io.dstore.Values.booleanValue searchForKeyVariableWithLike_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
      */
     public boolean hasSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getSearchForKeyVariableWithLike() {
-      return searchForKeyVariableWithLike_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
+    public io.dstore.Values.booleanValue getSearchForKeyVariableWithLike() {
+      return searchForKeyVariableWithLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
       return getSearchForKeyVariableWithLike();
     }
 
@@ -313,23 +313,23 @@ public final class MiGetApplicPartSettingsPu {
     }
 
     public static final int GET_VALUES_FOR_GLOBAL_USER_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue getValuesForGlobalUser_;
+    private io.dstore.Values.integerValue getValuesForGlobalUser_;
     /**
-     * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+     * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
      */
     public boolean hasGetValuesForGlobalUser() {
       return getValuesForGlobalUser_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+     * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getGetValuesForGlobalUser() {
-      return getValuesForGlobalUser_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getValuesForGlobalUser_;
+    public io.dstore.Values.integerValue getGetValuesForGlobalUser() {
+      return getValuesForGlobalUser_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getValuesForGlobalUser_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+     * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGetValuesForGlobalUserOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGetValuesForGlobalUserOrBuilder() {
       return getGetValuesForGlobalUser();
     }
 
@@ -671,29 +671,29 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue applicationPartId_ = null;
+      private io.dstore.Values.integerValue applicationPartId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> applicationPartIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationPartIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
       public boolean hasApplicationPartId() {
         return applicationPartIdBuilder_ != null || applicationPartId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getApplicationPartId() {
+      public io.dstore.Values.integerValue getApplicationPartId() {
         if (applicationPartIdBuilder_ == null) {
-          return applicationPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+          return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
         } else {
           return applicationPartIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
-      public Builder setApplicationPartId(io.dstore.engine.Values.integerValue value) {
+      public Builder setApplicationPartId(io.dstore.Values.integerValue value) {
         if (applicationPartIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
       public Builder setApplicationPartId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (applicationPartIdBuilder_ == null) {
           applicationPartId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
-      public Builder mergeApplicationPartId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeApplicationPartId(io.dstore.Values.integerValue value) {
         if (applicationPartIdBuilder_ == null) {
           if (applicationPartId_ != null) {
             applicationPartId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
           } else {
             applicationPartId_ = value;
           }
@@ -739,7 +739,7 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
       public Builder clearApplicationPartId() {
         if (applicationPartIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getApplicationPartIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getApplicationPartIdBuilder() {
         
         onChanged();
         return getApplicationPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
         if (applicationPartIdBuilder_ != null) {
           return applicationPartIdBuilder_.getMessageOrBuilder();
         } else {
           return applicationPartId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 1;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getApplicationPartIdFieldBuilder() {
         if (applicationPartIdBuilder_ == null) {
           applicationPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getApplicationPartId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue keyVariable_ = null;
+      private io.dstore.Values.stringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getKeyVariable() {
+      public io.dstore.Values.stringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
-      public Builder setKeyVariable(io.dstore.engine.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.engine.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -882,7 +882,7 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue searchForKeyVariableWithLike_ = null;
+      private io.dstore.Values.booleanValue searchForKeyVariableWithLike_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> searchForKeyVariableWithLikeBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> searchForKeyVariableWithLikeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
       public boolean hasSearchForKeyVariableWithLike() {
         return searchForKeyVariableWithLikeBuilder_ != null || searchForKeyVariableWithLike_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getSearchForKeyVariableWithLike() {
+      public io.dstore.Values.booleanValue getSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
-          return searchForKeyVariableWithLike_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
+          return searchForKeyVariableWithLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
         } else {
           return searchForKeyVariableWithLikeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
-      public Builder setSearchForKeyVariableWithLike(io.dstore.engine.Values.booleanValue value) {
+      public Builder setSearchForKeyVariableWithLike(io.dstore.Values.booleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder setSearchForKeyVariableWithLike(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
           searchForKeyVariableWithLike_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
-      public Builder mergeSearchForKeyVariableWithLike(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeSearchForKeyVariableWithLike(io.dstore.Values.booleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
           if (searchForKeyVariableWithLike_ != null) {
             searchForKeyVariableWithLike_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(searchForKeyVariableWithLike_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(searchForKeyVariableWithLike_).mergeFrom(value).buildPartial();
           } else {
             searchForKeyVariableWithLike_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder clearSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getSearchForKeyVariableWithLikeBuilder() {
+      public io.dstore.Values.booleanValue.Builder getSearchForKeyVariableWithLikeBuilder() {
         
         onChanged();
         return getSearchForKeyVariableWithLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
         if (searchForKeyVariableWithLikeBuilder_ != null) {
           return searchForKeyVariableWithLikeBuilder_.getMessageOrBuilder();
         } else {
           return searchForKeyVariableWithLike_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue search_for_key_variable_with_like = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSearchForKeyVariableWithLikeFieldBuilder() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
           searchForKeyVariableWithLikeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSearchForKeyVariableWithLike(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue getValuesForGlobalUser_ = null;
+      private io.dstore.Values.integerValue getValuesForGlobalUser_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> getValuesForGlobalUserBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getValuesForGlobalUserBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
       public boolean hasGetValuesForGlobalUser() {
         return getValuesForGlobalUserBuilder_ != null || getValuesForGlobalUser_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getGetValuesForGlobalUser() {
+      public io.dstore.Values.integerValue getGetValuesForGlobalUser() {
         if (getValuesForGlobalUserBuilder_ == null) {
-          return getValuesForGlobalUser_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getValuesForGlobalUser_;
+          return getValuesForGlobalUser_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getValuesForGlobalUser_;
         } else {
           return getValuesForGlobalUserBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
-      public Builder setGetValuesForGlobalUser(io.dstore.engine.Values.integerValue value) {
+      public Builder setGetValuesForGlobalUser(io.dstore.Values.integerValue value) {
         if (getValuesForGlobalUserBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
       public Builder setGetValuesForGlobalUser(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (getValuesForGlobalUserBuilder_ == null) {
           getValuesForGlobalUser_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
-      public Builder mergeGetValuesForGlobalUser(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGetValuesForGlobalUser(io.dstore.Values.integerValue value) {
         if (getValuesForGlobalUserBuilder_ == null) {
           if (getValuesForGlobalUser_ != null) {
             getValuesForGlobalUser_ =
-              io.dstore.engine.Values.integerValue.newBuilder(getValuesForGlobalUser_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(getValuesForGlobalUser_).mergeFrom(value).buildPartial();
           } else {
             getValuesForGlobalUser_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
       public Builder clearGetValuesForGlobalUser() {
         if (getValuesForGlobalUserBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class MiGetApplicPartSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGetValuesForGlobalUserBuilder() {
+      public io.dstore.Values.integerValue.Builder getGetValuesForGlobalUserBuilder() {
         
         onChanged();
         return getGetValuesForGlobalUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGetValuesForGlobalUserOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGetValuesForGlobalUserOrBuilder() {
         if (getValuesForGlobalUserBuilder_ != null) {
           return getValuesForGlobalUserBuilder_.getMessageOrBuilder();
         } else {
           return getValuesForGlobalUser_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : getValuesForGlobalUser_;
+              io.dstore.Values.integerValue.getDefaultInstance() : getValuesForGlobalUser_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_values_for_global_user = 4;</code>
+       * <code>optional .dstore.values.integerValue get_values_for_global_user = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGetValuesForGlobalUserFieldBuilder() {
         if (getValuesForGlobalUserBuilder_ == null) {
           getValuesForGlobalUserBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGetValuesForGlobalUser(),
                   getParentForChildren(),
                   isClean());
@@ -1530,7 +1530,7 @@ public final class MiGetApplicPartSettingsPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -1538,24 +1538,24 @@ public final class MiGetApplicPartSettingsPu {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -1563,24 +1563,24 @@ public final class MiGetApplicPartSettingsPu {
        */
       boolean hasKeyVariable();
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getKeyVariable();
+      io.dstore.Values.stringValue getKeyVariable();
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
        *
        * <pre>
        * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
@@ -1588,24 +1588,24 @@ public final class MiGetApplicPartSettingsPu {
        */
       boolean hasApplicationPartId();
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
        *
        * <pre>
        * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getApplicationPartId();
+      io.dstore.Values.integerValue getApplicationPartId();
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
        *
        * <pre>
        * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+       * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
        *
        * <pre>
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
@@ -1613,21 +1613,21 @@ public final class MiGetApplicPartSettingsPu {
        */
       boolean hasValueDerivedFromGlobalUser();
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+       * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
        *
        * <pre>
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getValueDerivedFromGlobalUser();
+      io.dstore.Values.booleanValue getValueDerivedFromGlobalUser();
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+       * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
        *
        * <pre>
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetApplicPartSettings_Pu.Response.Row}
@@ -1674,11 +1674,11 @@ public final class MiGetApplicPartSettingsPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1687,11 +1687,11 @@ public final class MiGetApplicPartSettingsPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1700,11 +1700,11 @@ public final class MiGetApplicPartSettingsPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (applicationPartId_ != null) {
                   subBuilder = applicationPartId_.toBuilder();
                 }
-                applicationPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                applicationPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applicationPartId_);
                   applicationPartId_ = subBuilder.buildPartial();
@@ -1713,11 +1713,11 @@ public final class MiGetApplicPartSettingsPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (valueDerivedFromGlobalUser_ != null) {
                   subBuilder = valueDerivedFromGlobalUser_.toBuilder();
                 }
-                valueDerivedFromGlobalUser_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                valueDerivedFromGlobalUser_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueDerivedFromGlobalUser_);
                   valueDerivedFromGlobalUser_ = subBuilder.buildPartial();
@@ -1759,9 +1759,9 @@ public final class MiGetApplicPartSettingsPu {
       }
 
       public static final int VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -1771,30 +1771,30 @@ public final class MiGetApplicPartSettingsPu {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int KEY_VARIABLE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue keyVariable_;
+      private io.dstore.Values.stringValue keyVariable_;
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -1804,30 +1804,30 @@ public final class MiGetApplicPartSettingsPu {
         return keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getKeyVariable() {
-        return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+      public io.dstore.Values.stringValue getKeyVariable() {
+        return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
        *
        * <pre>
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
       }
 
       public static final int APPLICATION_PART_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue applicationPartId_;
+      private io.dstore.Values.integerValue applicationPartId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
        *
        * <pre>
        * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
@@ -1837,30 +1837,30 @@ public final class MiGetApplicPartSettingsPu {
         return applicationPartId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
        *
        * <pre>
        * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getApplicationPartId() {
-        return applicationPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+      public io.dstore.Values.integerValue getApplicationPartId() {
+        return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
        *
        * <pre>
        * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
         return getApplicationPartId();
       }
 
       public static final int VALUE_DERIVED_FROM_GLOBAL_USER_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.booleanValue valueDerivedFromGlobalUser_;
+      private io.dstore.Values.booleanValue valueDerivedFromGlobalUser_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+       * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
        *
        * <pre>
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
@@ -1870,23 +1870,23 @@ public final class MiGetApplicPartSettingsPu {
         return valueDerivedFromGlobalUser_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+       * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
        *
        * <pre>
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getValueDerivedFromGlobalUser() {
-        return valueDerivedFromGlobalUser_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
+      public io.dstore.Values.booleanValue getValueDerivedFromGlobalUser() {
+        return valueDerivedFromGlobalUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+       * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
        *
        * <pre>
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
         return getValueDerivedFromGlobalUser();
       }
 
@@ -2206,11 +2206,11 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -2220,27 +2220,27 @@ public final class MiGetApplicPartSettingsPu {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2254,14 +2254,14 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2272,17 +2272,17 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2294,7 +2294,7 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -2312,45 +2312,45 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2359,11 +2359,11 @@ public final class MiGetApplicPartSettingsPu {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue keyVariable_ = null;
+        private io.dstore.Values.stringValue keyVariable_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> keyVariableBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -2373,27 +2373,27 @@ public final class MiGetApplicPartSettingsPu {
           return keyVariableBuilder_ != null || keyVariable_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getKeyVariable() {
+        public io.dstore.Values.stringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
-            return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+            return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
           } else {
             return keyVariableBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public Builder setKeyVariable(io.dstore.engine.Values.stringValue value) {
+        public Builder setKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2407,14 +2407,14 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
         public Builder setKeyVariable(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (keyVariableBuilder_ == null) {
             keyVariable_ = builderForValue.build();
             onChanged();
@@ -2425,17 +2425,17 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public Builder mergeKeyVariable(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
             if (keyVariable_ != null) {
               keyVariable_ =
-                io.dstore.engine.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
             } else {
               keyVariable_ = value;
             }
@@ -2447,7 +2447,7 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
@@ -2465,45 +2465,45 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getKeyVariableBuilder() {
+        public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
           
           onChanged();
           return getKeyVariableFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
             return keyVariableBuilder_.getMessageOrBuilder();
           } else {
             return keyVariable_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+                io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
          *
          * <pre>
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getKeyVariableFieldBuilder() {
           if (keyVariableBuilder_ == null) {
             keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getKeyVariable(),
                     getParentForChildren(),
                     isClean());
@@ -2512,11 +2512,11 @@ public final class MiGetApplicPartSettingsPu {
           return keyVariableBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue applicationPartId_ = null;
+        private io.dstore.Values.integerValue applicationPartId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> applicationPartIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationPartIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
@@ -2526,27 +2526,27 @@ public final class MiGetApplicPartSettingsPu {
           return applicationPartIdBuilder_ != null || applicationPartId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getApplicationPartId() {
+        public io.dstore.Values.integerValue getApplicationPartId() {
           if (applicationPartIdBuilder_ == null) {
-            return applicationPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+            return applicationPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
           } else {
             return applicationPartIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
-        public Builder setApplicationPartId(io.dstore.engine.Values.integerValue value) {
+        public Builder setApplicationPartId(io.dstore.Values.integerValue value) {
           if (applicationPartIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2560,14 +2560,14 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
         public Builder setApplicationPartId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (applicationPartIdBuilder_ == null) {
             applicationPartId_ = builderForValue.build();
             onChanged();
@@ -2578,17 +2578,17 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
-        public Builder mergeApplicationPartId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeApplicationPartId(io.dstore.Values.integerValue value) {
           if (applicationPartIdBuilder_ == null) {
             if (applicationPartId_ != null) {
               applicationPartId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(applicationPartId_).mergeFrom(value).buildPartial();
             } else {
               applicationPartId_ = value;
             }
@@ -2600,7 +2600,7 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
@@ -2618,45 +2618,45 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getApplicationPartIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getApplicationPartIdBuilder() {
           
           onChanged();
           return getApplicationPartIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getApplicationPartIdOrBuilder() {
           if (applicationPartIdBuilder_ != null) {
             return applicationPartIdBuilder_.getMessageOrBuilder();
           } else {
             return applicationPartId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : applicationPartId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : applicationPartId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue application_part_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue application_part_id = 10003;</code>
          *
          * <pre>
          * ID eines Teils einer "dStore"-Anwendung, zu dem die Einstellung "Value" hinterlegt ist (entspricht entweder "&#64;ApplicationID" oder einer ID, die via "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getApplicationPartIdFieldBuilder() {
           if (applicationPartIdBuilder_ == null) {
             applicationPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getApplicationPartId(),
                     getParentForChildren(),
                     isClean());
@@ -2665,11 +2665,11 @@ public final class MiGetApplicPartSettingsPu {
           return applicationPartIdBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue valueDerivedFromGlobalUser_ = null;
+        private io.dstore.Values.booleanValue valueDerivedFromGlobalUser_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> valueDerivedFromGlobalUserBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueDerivedFromGlobalUserBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
@@ -2679,27 +2679,27 @@ public final class MiGetApplicPartSettingsPu {
           return valueDerivedFromGlobalUserBuilder_ != null || valueDerivedFromGlobalUser_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getValueDerivedFromGlobalUser() {
+        public io.dstore.Values.booleanValue getValueDerivedFromGlobalUser() {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
-            return valueDerivedFromGlobalUser_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
+            return valueDerivedFromGlobalUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
           } else {
             return valueDerivedFromGlobalUserBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
-        public Builder setValueDerivedFromGlobalUser(io.dstore.engine.Values.booleanValue value) {
+        public Builder setValueDerivedFromGlobalUser(io.dstore.Values.booleanValue value) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2713,14 +2713,14 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
         public Builder setValueDerivedFromGlobalUser(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
             valueDerivedFromGlobalUser_ = builderForValue.build();
             onChanged();
@@ -2731,17 +2731,17 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
-        public Builder mergeValueDerivedFromGlobalUser(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeValueDerivedFromGlobalUser(io.dstore.Values.booleanValue value) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
             if (valueDerivedFromGlobalUser_ != null) {
               valueDerivedFromGlobalUser_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(valueDerivedFromGlobalUser_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(valueDerivedFromGlobalUser_).mergeFrom(value).buildPartial();
             } else {
               valueDerivedFromGlobalUser_ = value;
             }
@@ -2753,7 +2753,7 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
@@ -2771,45 +2771,45 @@ public final class MiGetApplicPartSettingsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getValueDerivedFromGlobalUserBuilder() {
+        public io.dstore.Values.booleanValue.Builder getValueDerivedFromGlobalUserBuilder() {
           
           onChanged();
           return getValueDerivedFromGlobalUserFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
           if (valueDerivedFromGlobalUserBuilder_ != null) {
             return valueDerivedFromGlobalUserBuilder_.getMessageOrBuilder();
           } else {
             return valueDerivedFromGlobalUser_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue value_derived_from_global_user = 10004;</code>
+         * <code>optional .dstore.values.booleanValue value_derived_from_global_user = 10004;</code>
          *
          * <pre>
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getValueDerivedFromGlobalUserFieldBuilder() {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
             valueDerivedFromGlobalUserBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getValueDerivedFromGlobalUser(),
                     getParentForChildren(),
                     isClean());
@@ -4379,35 +4379,34 @@ public final class MiGetApplicPartSettingsPu {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/mi_GetApplicP" +
       "artSettings_Pu.proto\022)dstore.engine.mi_G" +
-      "etApplicPartSettings_Pu\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\267\003\n\nParameters\022" +
-      "?\n\023application_part_id\030\001 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022!\n\030application_" +
-      "part_id_null\030\351\007 \001(\010\0227\n\014key_variable\030\002 \001(" +
-      "\0132!.dstore.engine.values.stringValue\022\032\n\021",
-      "key_variable_null\030\352\007 \001(\010\022M\n!search_for_k" +
-      "ey_variable_with_like\030\003 \001(\0132\".dstore.eng" +
-      "ine.values.booleanValue\022/\n&search_for_ke" +
-      "y_variable_with_like_null\030\353\007 \001(\010\022F\n\032get_" +
-      "values_for_global_user\030\004 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022(\n\037get_values_f" +
-      "or_global_user_null\030\354\007 \001(\010\"\213\004\n\010Response\022" +
-      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
-      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en" +
-      "gine.metainformation.MetaInformation\022/\n\007",
-      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
-      "ssage\022D\n\003row\030\004 \003(\01327.dstore.engine.mi_Ge" +
-      "tApplicPartSettings_Pu.Response.Row\032\222\002\n\003" +
-      "Row\022\017\n\006row_id\030\220N \001(\005\0221\n\005value\030\221N \001(\0132!.d" +
-      "store.engine.values.stringValue\0228\n\014key_v" +
-      "ariable\030\222N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022@\n\023application_part_id\030\223N \001(\0132" +
-      "\".dstore.engine.values.integerValue\022K\n\036v" +
-      "alue_derived_from_global_user\030\224N \001(\0132\".d" +
-      "store.engine.values.booleanValueB\035\n\033io.d",
-      "store.engine.proceduresb\006proto3"
+      "etApplicPartSettings_Pu\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\233\003\n\nParameters\0228\n\023appl" +
+      "ication_part_id\030\001 \001(\0132\033.dstore.values.in" +
+      "tegerValue\022!\n\030application_part_id_null\030\351" +
+      "\007 \001(\010\0220\n\014key_variable\030\002 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022\032\n\021key_variable_null\030\352\007 ",
+      "\001(\010\022F\n!search_for_key_variable_with_like" +
+      "\030\003 \001(\0132\033.dstore.values.booleanValue\022/\n&s" +
+      "earch_for_key_variable_with_like_null\030\353\007" +
+      " \001(\010\022?\n\032get_values_for_global_user\030\004 \001(\013" +
+      "2\033.dstore.values.integerValue\022(\n\037get_val" +
+      "ues_for_global_user_null\030\354\007 \001(\010\"\357\003\n\010Resp" +
+      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
+      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
+      "re.engine.metainformation.MetaInformatio" +
+      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa",
+      "ge.Message\022D\n\003row\030\004 \003(\01327.dstore.engine." +
+      "mi_GetApplicPartSettings_Pu.Response.Row" +
+      "\032\366\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\005value\030\221N \001(" +
+      "\0132\032.dstore.values.stringValue\0221\n\014key_var" +
+      "iable\030\222N \001(\0132\032.dstore.values.stringValue" +
+      "\0229\n\023application_part_id\030\223N \001(\0132\033.dstore." +
+      "values.integerValue\022D\n\036value_derived_fro" +
+      "m_global_user\030\224N \001(\0132\033.dstore.values.boo" +
+      "leanValueB\035\n\033io.dstore.engine.procedures" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4420,7 +4419,7 @@ public final class MiGetApplicPartSettingsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4443,7 +4442,7 @@ public final class MiGetApplicPartSettingsPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetApplicPartSettings_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value", "KeyVariable", "ApplicationPartId", "ValueDerivedFromGlobalUser", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

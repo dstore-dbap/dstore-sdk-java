@@ -13,17 +13,17 @@ public final class StGetPagesInCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+     * <code>optional .dstore.values.integerValue page_no = 1;</code>
      */
     boolean hasPageNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+     * <code>optional .dstore.values.integerValue page_no = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPageNo();
+    io.dstore.Values.integerValue getPageNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+     * <code>optional .dstore.values.integerValue page_no = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPageNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder();
 
     /**
      * <code>optional bool page_no_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class StGetPagesInCategoriesAd {
     boolean getPageNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
      */
     boolean hasPageCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getPageCategoryId();
+    io.dstore.Values.integerValue getPageCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPageCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder();
 
     /**
      * <code>optional bool page_category_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class StGetPagesInCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (pageNo_ != null) {
                 subBuilder = pageNo_.toBuilder();
               }
-              pageNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              pageNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pageNo_);
                 pageNo_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class StGetPagesInCategoriesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (pageCategoryId_ != null) {
                 subBuilder = pageCategoryId_.toBuilder();
               }
-              pageCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              pageCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pageCategoryId_);
                 pageCategoryId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class StGetPagesInCategoriesAd {
     }
 
     public static final int PAGE_NO_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue pageNo_;
+    private io.dstore.Values.integerValue pageNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+     * <code>optional .dstore.values.integerValue page_no = 1;</code>
      */
     public boolean hasPageNo() {
       return pageNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+     * <code>optional .dstore.values.integerValue page_no = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPageNo() {
-      return pageNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageNo_;
+    public io.dstore.Values.integerValue getPageNo() {
+      return pageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+     * <code>optional .dstore.values.integerValue page_no = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPageNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder() {
       return getPageNo();
     }
 
@@ -179,23 +179,23 @@ public final class StGetPagesInCategoriesAd {
     }
 
     public static final int PAGE_CATEGORY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue pageCategoryId_;
+    private io.dstore.Values.integerValue pageCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
      */
     public boolean hasPageCategoryId() {
       return pageCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getPageCategoryId() {
-      return pageCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageCategoryId_;
+    public io.dstore.Values.integerValue getPageCategoryId() {
+      return pageCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
       return getPageCategoryId();
     }
 
@@ -469,29 +469,29 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue pageNo_ = null;
+      private io.dstore.Values.integerValue pageNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> pageNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
       public boolean hasPageNo() {
         return pageNoBuilder_ != null || pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPageNo() {
+      public io.dstore.Values.integerValue getPageNo() {
         if (pageNoBuilder_ == null) {
-          return pageNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageNo_;
+          return pageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
         } else {
           return pageNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
-      public Builder setPageNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setPageNo(io.dstore.Values.integerValue value) {
         if (pageNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
       public Builder setPageNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (pageNoBuilder_ == null) {
           pageNo_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
-      public Builder mergePageNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePageNo(io.dstore.Values.integerValue value) {
         if (pageNoBuilder_ == null) {
           if (pageNo_ != null) {
             pageNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(pageNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(pageNo_).mergeFrom(value).buildPartial();
           } else {
             pageNo_ = value;
           }
@@ -537,7 +537,7 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
       public Builder clearPageNo() {
         if (pageNoBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPageNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getPageNoBuilder() {
         
         onChanged();
         return getPageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPageNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder() {
         if (pageNoBuilder_ != null) {
           return pageNoBuilder_.getMessageOrBuilder();
         } else {
           return pageNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : pageNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 1;</code>
+       * <code>optional .dstore.values.integerValue page_no = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPageNoFieldBuilder() {
         if (pageNoBuilder_ == null) {
           pageNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPageNo(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue pageCategoryId_ = null;
+      private io.dstore.Values.integerValue pageCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
       public boolean hasPageCategoryId() {
         return pageCategoryIdBuilder_ != null || pageCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getPageCategoryId() {
+      public io.dstore.Values.integerValue getPageCategoryId() {
         if (pageCategoryIdBuilder_ == null) {
-          return pageCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageCategoryId_;
+          return pageCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
         } else {
           return pageCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
-      public Builder setPageCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPageCategoryId(io.dstore.Values.integerValue value) {
         if (pageCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
       public Builder setPageCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (pageCategoryIdBuilder_ == null) {
           pageCategoryId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
-      public Builder mergePageCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePageCategoryId(io.dstore.Values.integerValue value) {
         if (pageCategoryIdBuilder_ == null) {
           if (pageCategoryId_ != null) {
             pageCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(pageCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(pageCategoryId_).mergeFrom(value).buildPartial();
           } else {
             pageCategoryId_ = value;
           }
@@ -680,7 +680,7 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
       public Builder clearPageCategoryId() {
         if (pageCategoryIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class StGetPagesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPageCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPageCategoryIdBuilder() {
         
         onChanged();
         return getPageCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
         if (pageCategoryIdBuilder_ != null) {
           return pageCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return pageCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : pageCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPageCategoryIdFieldBuilder() {
         if (pageCategoryIdBuilder_ == null) {
           pageCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPageCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class StGetPagesInCategoriesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+       * <code>optional .dstore.values.stringValue filename = 10001;</code>
        *
        * <pre>
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
@@ -1050,24 +1050,24 @@ public final class StGetPagesInCategoriesAd {
        */
       boolean hasFilename();
       /**
-       * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+       * <code>optional .dstore.values.stringValue filename = 10001;</code>
        *
        * <pre>
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFilename();
+      io.dstore.Values.stringValue getFilename();
       /**
-       * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+       * <code>optional .dstore.values.stringValue filename = 10001;</code>
        *
        * <pre>
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFilenameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFilenameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
@@ -1075,24 +1075,24 @@ public final class StGetPagesInCategoriesAd {
        */
       boolean hasPageCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPageCategoryId();
+      io.dstore.Values.integerValue getPageCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPageCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue page_no = 10003;</code>
        *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
@@ -1100,24 +1100,24 @@ public final class StGetPagesInCategoriesAd {
        */
       boolean hasPageNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue page_no = 10003;</code>
        *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPageNo();
+      io.dstore.Values.integerValue getPageNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue page_no = 10003;</code>
        *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPageNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+       * <code>optional .dstore.values.stringValue page = 10004;</code>
        *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
@@ -1125,24 +1125,24 @@ public final class StGetPagesInCategoriesAd {
        */
       boolean hasPage();
       /**
-       * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+       * <code>optional .dstore.values.stringValue page = 10004;</code>
        *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPage();
+      io.dstore.Values.stringValue getPage();
       /**
-       * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+       * <code>optional .dstore.values.stringValue page = 10004;</code>
        *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPageOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPageOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
        *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
@@ -1150,21 +1150,21 @@ public final class StGetPagesInCategoriesAd {
        */
       boolean hasPageCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
        *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPageCategoryDescription();
+      io.dstore.Values.stringValue getPageCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
        *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetPagesInCategories_Ad.Response.Row}
@@ -1211,11 +1211,11 @@ public final class StGetPagesInCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (filename_ != null) {
                   subBuilder = filename_.toBuilder();
                 }
-                filename_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                filename_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filename_);
                   filename_ = subBuilder.buildPartial();
@@ -1224,11 +1224,11 @@ public final class StGetPagesInCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (pageCategoryId_ != null) {
                   subBuilder = pageCategoryId_.toBuilder();
                 }
-                pageCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                pageCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(pageCategoryId_);
                   pageCategoryId_ = subBuilder.buildPartial();
@@ -1237,11 +1237,11 @@ public final class StGetPagesInCategoriesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (pageNo_ != null) {
                   subBuilder = pageNo_.toBuilder();
                 }
-                pageNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                pageNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(pageNo_);
                   pageNo_ = subBuilder.buildPartial();
@@ -1250,11 +1250,11 @@ public final class StGetPagesInCategoriesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (page_ != null) {
                   subBuilder = page_.toBuilder();
                 }
-                page_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                page_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(page_);
                   page_ = subBuilder.buildPartial();
@@ -1263,11 +1263,11 @@ public final class StGetPagesInCategoriesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (pageCategoryDescription_ != null) {
                   subBuilder = pageCategoryDescription_.toBuilder();
                 }
-                pageCategoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                pageCategoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(pageCategoryDescription_);
                   pageCategoryDescription_ = subBuilder.buildPartial();
@@ -1309,9 +1309,9 @@ public final class StGetPagesInCategoriesAd {
       }
 
       public static final int FILENAME_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue filename_;
+      private io.dstore.Values.stringValue filename_;
       /**
-       * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+       * <code>optional .dstore.values.stringValue filename = 10001;</code>
        *
        * <pre>
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
@@ -1321,30 +1321,30 @@ public final class StGetPagesInCategoriesAd {
         return filename_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+       * <code>optional .dstore.values.stringValue filename = 10001;</code>
        *
        * <pre>
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFilename() {
-        return filename_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filename_;
+      public io.dstore.Values.stringValue getFilename() {
+        return filename_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filename_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+       * <code>optional .dstore.values.stringValue filename = 10001;</code>
        *
        * <pre>
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFilenameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFilenameOrBuilder() {
         return getFilename();
       }
 
       public static final int PAGE_CATEGORY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue pageCategoryId_;
+      private io.dstore.Values.integerValue pageCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
@@ -1354,30 +1354,30 @@ public final class StGetPagesInCategoriesAd {
         return pageCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPageCategoryId() {
-        return pageCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageCategoryId_;
+      public io.dstore.Values.integerValue getPageCategoryId() {
+        return pageCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
         return getPageCategoryId();
       }
 
       public static final int PAGE_NO_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue pageNo_;
+      private io.dstore.Values.integerValue pageNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue page_no = 10003;</code>
        *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
@@ -1387,30 +1387,30 @@ public final class StGetPagesInCategoriesAd {
         return pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue page_no = 10003;</code>
        *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPageNo() {
-        return pageNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageNo_;
+      public io.dstore.Values.integerValue getPageNo() {
+        return pageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+       * <code>optional .dstore.values.integerValue page_no = 10003;</code>
        *
        * <pre>
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPageNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder() {
         return getPageNo();
       }
 
       public static final int PAGE_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue page_;
+      private io.dstore.Values.stringValue page_;
       /**
-       * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+       * <code>optional .dstore.values.stringValue page = 10004;</code>
        *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
@@ -1420,30 +1420,30 @@ public final class StGetPagesInCategoriesAd {
         return page_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+       * <code>optional .dstore.values.stringValue page = 10004;</code>
        *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPage() {
-        return page_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : page_;
+      public io.dstore.Values.stringValue getPage() {
+        return page_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : page_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+       * <code>optional .dstore.values.stringValue page = 10004;</code>
        *
        * <pre>
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPageOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPageOrBuilder() {
         return getPage();
       }
 
       public static final int PAGE_CATEGORY_DESCRIPTION_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue pageCategoryDescription_;
+      private io.dstore.Values.stringValue pageCategoryDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
        *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
@@ -1453,23 +1453,23 @@ public final class StGetPagesInCategoriesAd {
         return pageCategoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
        *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPageCategoryDescription() {
-        return pageCategoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
+      public io.dstore.Values.stringValue getPageCategoryDescription() {
+        return pageCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
        *
        * <pre>
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
         return getPageCategoryDescription();
       }
 
@@ -1810,11 +1810,11 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue filename_ = null;
+        private io.dstore.Values.stringValue filename_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> filenameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filenameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
@@ -1824,27 +1824,27 @@ public final class StGetPagesInCategoriesAd {
           return filenameBuilder_ != null || filename_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFilename() {
+        public io.dstore.Values.stringValue getFilename() {
           if (filenameBuilder_ == null) {
-            return filename_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filename_;
+            return filename_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filename_;
           } else {
             return filenameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
-        public Builder setFilename(io.dstore.engine.Values.stringValue value) {
+        public Builder setFilename(io.dstore.Values.stringValue value) {
           if (filenameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1858,14 +1858,14 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
         public Builder setFilename(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (filenameBuilder_ == null) {
             filename_ = builderForValue.build();
             onChanged();
@@ -1876,17 +1876,17 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
-        public Builder mergeFilename(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFilename(io.dstore.Values.stringValue value) {
           if (filenameBuilder_ == null) {
             if (filename_ != null) {
               filename_ =
-                io.dstore.engine.Values.stringValue.newBuilder(filename_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(filename_).mergeFrom(value).buildPartial();
             } else {
               filename_ = value;
             }
@@ -1898,7 +1898,7 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
@@ -1916,45 +1916,45 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFilenameBuilder() {
+        public io.dstore.Values.stringValue.Builder getFilenameBuilder() {
           
           onChanged();
           return getFilenameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFilenameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFilenameOrBuilder() {
           if (filenameBuilder_ != null) {
             return filenameBuilder_.getMessageOrBuilder();
           } else {
             return filename_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : filename_;
+                io.dstore.Values.stringValue.getDefaultInstance() : filename_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue filename = 10001;</code>
+         * <code>optional .dstore.values.stringValue filename = 10001;</code>
          *
          * <pre>
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFilenameFieldBuilder() {
           if (filenameBuilder_ == null) {
             filenameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFilename(),
                     getParentForChildren(),
                     isClean());
@@ -1963,11 +1963,11 @@ public final class StGetPagesInCategoriesAd {
           return filenameBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue pageCategoryId_ = null;
+        private io.dstore.Values.integerValue pageCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
@@ -1977,27 +1977,27 @@ public final class StGetPagesInCategoriesAd {
           return pageCategoryIdBuilder_ != null || pageCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPageCategoryId() {
+        public io.dstore.Values.integerValue getPageCategoryId() {
           if (pageCategoryIdBuilder_ == null) {
-            return pageCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageCategoryId_;
+            return pageCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
           } else {
             return pageCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
-        public Builder setPageCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPageCategoryId(io.dstore.Values.integerValue value) {
           if (pageCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2011,14 +2011,14 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
         public Builder setPageCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (pageCategoryIdBuilder_ == null) {
             pageCategoryId_ = builderForValue.build();
             onChanged();
@@ -2029,17 +2029,17 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
-        public Builder mergePageCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePageCategoryId(io.dstore.Values.integerValue value) {
           if (pageCategoryIdBuilder_ == null) {
             if (pageCategoryId_ != null) {
               pageCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(pageCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(pageCategoryId_).mergeFrom(value).buildPartial();
             } else {
               pageCategoryId_ = value;
             }
@@ -2051,7 +2051,7 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
@@ -2069,45 +2069,45 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPageCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPageCategoryIdBuilder() {
           
           onChanged();
           return getPageCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPageCategoryIdOrBuilder() {
           if (pageCategoryIdBuilder_ != null) {
             return pageCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return pageCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : pageCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : pageCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue page_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie, in die die Seite "PageNo" eingeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPageCategoryIdFieldBuilder() {
           if (pageCategoryIdBuilder_ == null) {
             pageCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPageCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -2116,11 +2116,11 @@ public final class StGetPagesInCategoriesAd {
           return pageCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue pageNo_ = null;
+        private io.dstore.Values.integerValue pageNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> pageNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
@@ -2130,27 +2130,27 @@ public final class StGetPagesInCategoriesAd {
           return pageNoBuilder_ != null || pageNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPageNo() {
+        public io.dstore.Values.integerValue getPageNo() {
           if (pageNoBuilder_ == null) {
-            return pageNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageNo_;
+            return pageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
           } else {
             return pageNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
-        public Builder setPageNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setPageNo(io.dstore.Values.integerValue value) {
           if (pageNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2164,14 +2164,14 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
         public Builder setPageNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (pageNoBuilder_ == null) {
             pageNo_ = builderForValue.build();
             onChanged();
@@ -2182,17 +2182,17 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
-        public Builder mergePageNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePageNo(io.dstore.Values.integerValue value) {
           if (pageNoBuilder_ == null) {
             if (pageNo_ != null) {
               pageNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(pageNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(pageNo_).mergeFrom(value).buildPartial();
             } else {
               pageNo_ = value;
             }
@@ -2204,7 +2204,7 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
@@ -2222,45 +2222,45 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPageNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getPageNoBuilder() {
           
           onChanged();
           return getPageNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPageNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPageNoOrBuilder() {
           if (pageNoBuilder_ != null) {
             return pageNoBuilder_.getMessageOrBuilder();
           } else {
             return pageNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : pageNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : pageNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_no = 10003;</code>
+         * <code>optional .dstore.values.integerValue page_no = 10003;</code>
          *
          * <pre>
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPageNoFieldBuilder() {
           if (pageNoBuilder_ == null) {
             pageNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPageNo(),
                     getParentForChildren(),
                     isClean());
@@ -2269,11 +2269,11 @@ public final class StGetPagesInCategoriesAd {
           return pageNoBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue page_ = null;
+        private io.dstore.Values.stringValue page_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> pageBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
@@ -2283,27 +2283,27 @@ public final class StGetPagesInCategoriesAd {
           return pageBuilder_ != null || page_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPage() {
+        public io.dstore.Values.stringValue getPage() {
           if (pageBuilder_ == null) {
-            return page_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : page_;
+            return page_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : page_;
           } else {
             return pageBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
-        public Builder setPage(io.dstore.engine.Values.stringValue value) {
+        public Builder setPage(io.dstore.Values.stringValue value) {
           if (pageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2317,14 +2317,14 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
         public Builder setPage(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (pageBuilder_ == null) {
             page_ = builderForValue.build();
             onChanged();
@@ -2335,17 +2335,17 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
-        public Builder mergePage(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePage(io.dstore.Values.stringValue value) {
           if (pageBuilder_ == null) {
             if (page_ != null) {
               page_ =
-                io.dstore.engine.Values.stringValue.newBuilder(page_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(page_).mergeFrom(value).buildPartial();
             } else {
               page_ = value;
             }
@@ -2357,7 +2357,7 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
@@ -2375,45 +2375,45 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPageBuilder() {
+        public io.dstore.Values.stringValue.Builder getPageBuilder() {
           
           onChanged();
           return getPageFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPageOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPageOrBuilder() {
           if (pageBuilder_ != null) {
             return pageBuilder_.getMessageOrBuilder();
           } else {
             return page_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : page_;
+                io.dstore.Values.stringValue.getDefaultInstance() : page_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page = 10004;</code>
+         * <code>optional .dstore.values.stringValue page = 10004;</code>
          *
          * <pre>
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPageFieldBuilder() {
           if (pageBuilder_ == null) {
             pageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPage(),
                     getParentForChildren(),
                     isClean());
@@ -2422,11 +2422,11 @@ public final class StGetPagesInCategoriesAd {
           return pageBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue pageCategoryDescription_ = null;
+        private io.dstore.Values.stringValue pageCategoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> pageCategoryDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageCategoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
@@ -2436,27 +2436,27 @@ public final class StGetPagesInCategoriesAd {
           return pageCategoryDescriptionBuilder_ != null || pageCategoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPageCategoryDescription() {
+        public io.dstore.Values.stringValue getPageCategoryDescription() {
           if (pageCategoryDescriptionBuilder_ == null) {
-            return pageCategoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
+            return pageCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
           } else {
             return pageCategoryDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
-        public Builder setPageCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setPageCategoryDescription(io.dstore.Values.stringValue value) {
           if (pageCategoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2470,14 +2470,14 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
         public Builder setPageCategoryDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (pageCategoryDescriptionBuilder_ == null) {
             pageCategoryDescription_ = builderForValue.build();
             onChanged();
@@ -2488,17 +2488,17 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
-        public Builder mergePageCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePageCategoryDescription(io.dstore.Values.stringValue value) {
           if (pageCategoryDescriptionBuilder_ == null) {
             if (pageCategoryDescription_ != null) {
               pageCategoryDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(pageCategoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(pageCategoryDescription_).mergeFrom(value).buildPartial();
             } else {
               pageCategoryDescription_ = value;
             }
@@ -2510,7 +2510,7 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
@@ -2528,45 +2528,45 @@ public final class StGetPagesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPageCategoryDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getPageCategoryDescriptionBuilder() {
           
           onChanged();
           return getPageCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
           if (pageCategoryDescriptionBuilder_ != null) {
             return pageCategoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return pageCategoryDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : pageCategoryDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue page_category_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue page_category_description = 10005;</code>
          *
          * <pre>
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPageCategoryDescriptionFieldBuilder() {
           if (pageCategoryDescriptionBuilder_ == null) {
             pageCategoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPageCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4136,30 +4136,28 @@ public final class StGetPagesInCategoriesAd {
     java.lang.String[] descriptorData = {
       "\n9dstore/engine/procedures/st_GetPagesIn" +
       "Categories_Ad.proto\022(dstore.engine.st_Ge" +
-      "tPagesInCategories_Ad\032\032dstore/engine/val" +
-      "ues.proto\032\031dstore/engine/error.proto\032\033ds" +
-      "tore/engine/message.proto\032#dstore/engine" +
-      "/metainformation.proto\"\266\001\n\nParameters\0223\n" +
-      "\007page_no\030\001 \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022\025\n\014page_no_null\030\351\007 \001(\010\022<\n\020pag" +
-      "e_category_id\030\002 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\036\n\025page_category_id_null",
-      "\030\352\007 \001(\010\"\262\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
-      "tore.engine.error.Error\022H\n\020meta_informat" +
-      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
-      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
-      "ore.engine.message.Message\022C\n\003row\030\004 \003(\0132" +
-      "6.dstore.engine.st_GetPagesInCategories_" +
-      "Ad.Response.Row\032\272\002\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
-      "\0224\n\010filename\030\221N \001(\0132!.dstore.engine.valu" +
-      "es.stringValue\022=\n\020page_category_id\030\222N \001(" +
-      "\0132\".dstore.engine.values.integerValue\0224\n",
-      "\007page_no\030\223N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0220\n\004page\030\224N \001(\0132!.dstore.engi" +
-      "ne.values.stringValue\022E\n\031page_category_d" +
-      "escription\030\225N \001(\0132!.dstore.engine.values" +
-      ".stringValueB\035\n\033io.dstore.engine.procedu" +
-      "resb\006proto3"
+      "tPagesInCategories_Ad\032\023dstore/values.pro" +
+      "to\032\031dstore/engine/error.proto\032\033dstore/en" +
+      "gine/message.proto\032#dstore/engine/metain" +
+      "formation.proto\"\250\001\n\nParameters\022,\n\007page_n" +
+      "o\030\001 \001(\0132\033.dstore.values.integerValue\022\025\n\014" +
+      "page_no_null\030\351\007 \001(\010\0225\n\020page_category_id\030" +
+      "\002 \001(\0132\033.dstore.values.integerValue\022\036\n\025pa" +
+      "ge_category_id_null\030\352\007 \001(\010\"\217\004\n\010Response\022",
+      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
+      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en" +
+      "gine.metainformation.MetaInformation\022/\n\007" +
+      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
+      "ssage\022C\n\003row\030\004 \003(\01326.dstore.engine.st_Ge" +
+      "tPagesInCategories_Ad.Response.Row\032\227\002\n\003R" +
+      "ow\022\017\n\006row_id\030\220N \001(\005\022-\n\010filename\030\221N \001(\0132\032" +
+      ".dstore.values.stringValue\0226\n\020page_categ" +
+      "ory_id\030\222N \001(\0132\033.dstore.values.integerVal" +
+      "ue\022-\n\007page_no\030\223N \001(\0132\033.dstore.values.int",
+      "egerValue\022)\n\004page\030\224N \001(\0132\032.dstore.values" +
+      ".stringValue\022>\n\031page_category_descriptio" +
+      "n\030\225N \001(\0132\032.dstore.values.stringValueB\035\n\033" +
+      "io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4172,7 +4170,7 @@ public final class StGetPagesInCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4195,7 +4193,7 @@ public final class StGetPagesInCategoriesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_GetPagesInCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Filename", "PageCategoryId", "PageNo", "Page", "PageCategoryDescription", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

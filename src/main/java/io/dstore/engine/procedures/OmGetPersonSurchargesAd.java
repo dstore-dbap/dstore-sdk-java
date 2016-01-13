@@ -13,17 +13,17 @@ public final class OmGetPersonSurchargesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonTypeId();
+    io.dstore.Values.integerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetPersonSurchargesAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_id = 2;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonId();
+    io.dstore.Values.integerValue getPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmGetPersonSurchargesAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getTreeNodeId();
+    io.dstore.Values.integerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmGetPersonSurchargesAd {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
      */
     boolean hasOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId1();
+    io.dstore.Values.integerValue getOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id1_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmGetPersonSurchargesAd {
     boolean getOutputCharacteristicId1Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
      */
     boolean hasOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId2();
+    io.dstore.Values.integerValue getOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id2_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class OmGetPersonSurchargesAd {
     boolean getOutputCharacteristicId2Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
      */
     boolean hasOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId3();
+    io.dstore.Values.integerValue getOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id3_null = 1006;</code>
@@ -165,11 +165,11 @@ public final class OmGetPersonSurchargesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -178,11 +178,11 @@ public final class OmGetPersonSurchargesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -191,11 +191,11 @@ public final class OmGetPersonSurchargesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class OmGetPersonSurchargesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId1_ != null) {
                 subBuilder = outputCharacteristicId1_.toBuilder();
               }
-              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId1_);
                 outputCharacteristicId1_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class OmGetPersonSurchargesAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId2_ != null) {
                 subBuilder = outputCharacteristicId2_.toBuilder();
               }
-              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId2_);
                 outputCharacteristicId2_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class OmGetPersonSurchargesAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId3_ != null) {
                 subBuilder = outputCharacteristicId3_.toBuilder();
               }
-              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId3_);
                 outputCharacteristicId3_ = subBuilder.buildPartial();
@@ -297,23 +297,23 @@ public final class OmGetPersonSurchargesAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue personTypeId_;
+    private io.dstore.Values.integerValue personTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.Values.integerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -327,23 +327,23 @@ public final class OmGetPersonSurchargesAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue personId_;
+    private io.dstore.Values.integerValue personId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_id = 2;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.Values.integerValue getPersonId() {
+      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.integerValue person_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -357,23 +357,23 @@ public final class OmGetPersonSurchargesAd {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue treeNodeId_;
+    private io.dstore.Values.integerValue treeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.Values.integerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -387,23 +387,23 @@ public final class OmGetPersonSurchargesAd {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID1_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId1_;
+    private io.dstore.Values.integerValue outputCharacteristicId1_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
      */
     public boolean hasOutputCharacteristicId1() {
       return outputCharacteristicId1_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
-      return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId1() {
+      return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
       return getOutputCharacteristicId1();
     }
 
@@ -417,23 +417,23 @@ public final class OmGetPersonSurchargesAd {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID2_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId2_;
+    private io.dstore.Values.integerValue outputCharacteristicId2_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
      */
     public boolean hasOutputCharacteristicId2() {
       return outputCharacteristicId2_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
-      return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId2() {
+      return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
       return getOutputCharacteristicId2();
     }
 
@@ -447,23 +447,23 @@ public final class OmGetPersonSurchargesAd {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID3_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId3_;
+    private io.dstore.Values.integerValue outputCharacteristicId3_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
      */
     public boolean hasOutputCharacteristicId3() {
       return outputCharacteristicId3_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
-      return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId3() {
+      return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
       return getOutputCharacteristicId3();
     }
 
@@ -873,29 +873,29 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personTypeId_ = null;
+      private io.dstore.Values.integerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonTypeId() {
+      public io.dstore.Values.integerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -909,10 +909,10 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -923,13 +923,13 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -941,7 +941,7 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -955,33 +955,33 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1016,29 +1016,29 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personId_ = null;
+      private io.dstore.Values.integerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
+      public io.dstore.Values.integerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
-      public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1052,10 +1052,10 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
       public Builder setPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1066,13 +1066,13 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
-      public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1084,7 +1084,7 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1098,33 +1098,33 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1159,29 +1159,29 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+      private io.dstore.Values.integerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
+      public io.dstore.Values.integerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
-      public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1195,10 +1195,10 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -1209,13 +1209,13 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -1227,7 +1227,7 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -1241,33 +1241,33 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1302,29 +1302,29 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId1_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId1_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
       public boolean hasOutputCharacteristicId1() {
         return outputCharacteristicId1Builder_ != null || outputCharacteristicId1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
-          return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+          return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         } else {
           return outputCharacteristicId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
-      public Builder setOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1338,10 +1338,10 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
       public Builder setOutputCharacteristicId1(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1_ = builderForValue.build();
           onChanged();
@@ -1352,13 +1352,13 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
-      public Builder mergeOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (outputCharacteristicId1_ != null) {
             outputCharacteristicId1_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId1_ = value;
           }
@@ -1370,7 +1370,7 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
       public Builder clearOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
@@ -1384,33 +1384,33 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
         
         onChanged();
         return getOutputCharacteristicId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
         if (outputCharacteristicId1Builder_ != null) {
           return outputCharacteristicId1Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId1_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 4;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId1FieldBuilder() {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId1(),
                   getParentForChildren(),
                   isClean());
@@ -1445,29 +1445,29 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId2_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId2_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
       public boolean hasOutputCharacteristicId2() {
         return outputCharacteristicId2Builder_ != null || outputCharacteristicId2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
-          return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+          return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         } else {
           return outputCharacteristicId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
-      public Builder setOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1481,10 +1481,10 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
       public Builder setOutputCharacteristicId2(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2_ = builderForValue.build();
           onChanged();
@@ -1495,13 +1495,13 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
-      public Builder mergeOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (outputCharacteristicId2_ != null) {
             outputCharacteristicId2_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId2_ = value;
           }
@@ -1513,7 +1513,7 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
       public Builder clearOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
@@ -1527,33 +1527,33 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
         
         onChanged();
         return getOutputCharacteristicId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
         if (outputCharacteristicId2Builder_ != null) {
           return outputCharacteristicId2Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId2_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 5;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId2FieldBuilder() {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId2(),
                   getParentForChildren(),
                   isClean());
@@ -1588,29 +1588,29 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId3_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId3_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
       public boolean hasOutputCharacteristicId3() {
         return outputCharacteristicId3Builder_ != null || outputCharacteristicId3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
-          return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+          return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         } else {
           return outputCharacteristicId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
-      public Builder setOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1624,10 +1624,10 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
       public Builder setOutputCharacteristicId3(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3_ = builderForValue.build();
           onChanged();
@@ -1638,13 +1638,13 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
-      public Builder mergeOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (outputCharacteristicId3_ != null) {
             outputCharacteristicId3_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId3_ = value;
           }
@@ -1656,7 +1656,7 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
       public Builder clearOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
@@ -1670,33 +1670,33 @@ public final class OmGetPersonSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
         
         onChanged();
         return getOutputCharacteristicId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
         if (outputCharacteristicId3Builder_ != null) {
           return outputCharacteristicId3Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId3_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 6;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId3FieldBuilder() {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId3(),
                   getParentForChildren(),
                   isClean());
@@ -2018,7 +2018,7 @@ public final class OmGetPersonSurchargesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -2026,24 +2026,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1RestrictedByPattern();
+      io.dstore.Values.stringValue getValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -2051,24 +2051,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2RestrictedByPattern();
+      io.dstore.Values.stringValue getValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+       * <code>optional .dstore.values.booleanValue relative = 10003;</code>
        *
        * <pre>
        * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
@@ -2076,24 +2076,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasRelative();
       /**
-       * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+       * <code>optional .dstore.values.booleanValue relative = 10003;</code>
        *
        * <pre>
        * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getRelative();
+      io.dstore.Values.booleanValue getRelative();
       /**
-       * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+       * <code>optional .dstore.values.booleanValue relative = 10003;</code>
        *
        * <pre>
        * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getRelativeOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -2101,24 +2101,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3();
+      io.dstore.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -2126,24 +2126,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1();
+      io.dstore.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2151,24 +2151,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasUnitSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getUnitSymbol();
+      io.dstore.Values.stringValue getUnitSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10007;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -2176,24 +2176,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10007;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2();
+      io.dstore.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10007;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
        *
        * <pre>
        * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
@@ -2201,24 +2201,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasSurchargeValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
        *
        * <pre>
        * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getSurchargeValue();
+      io.dstore.Values.decimalValue getSurchargeValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
        *
        * <pre>
        * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10009;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
@@ -2226,24 +2226,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasNodeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10009;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getNodeDescription();
+      io.dstore.Values.stringValue getNodeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10009;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10010;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -2251,24 +2251,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10010;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getActive();
+      io.dstore.Values.booleanValue getActive();
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10010;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10011;</code>
        *
        * <pre>
        * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
@@ -2276,24 +2276,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasPersonId();
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10011;</code>
        *
        * <pre>
        * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPersonId();
+      io.dstore.Values.integerValue getPersonId();
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10011;</code>
        *
        * <pre>
        * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
        *
        * <pre>
        * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
@@ -2301,24 +2301,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasUnitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
        *
        * <pre>
        * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getUnitId();
+      io.dstore.Values.integerValue getUnitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
        *
        * <pre>
        * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getUnitIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
@@ -2326,24 +2326,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTreeNodeId();
+      io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -2351,24 +2351,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeId();
+      io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -2376,24 +2376,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getSurchargeTypeDescription();
+      io.dstore.Values.stringValue getSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
@@ -2401,24 +2401,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasSurchargeTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSurchargeTypeId();
+      io.dstore.Values.integerValue getSurchargeTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -2426,24 +2426,24 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3RestrictedByPattern();
+      io.dstore.Values.stringValue getValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10018;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
@@ -2451,21 +2451,21 @@ public final class OmGetPersonSurchargesAd {
        */
       boolean hasLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10018;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLevelId();
+      io.dstore.Values.integerValue getLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10018;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPersonSurcharges_Ad.Response.Row}
@@ -2512,11 +2512,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1RestrictedByPattern_ != null) {
                   subBuilder = value1RestrictedByPattern_.toBuilder();
                 }
-                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1RestrictedByPattern_);
                   value1RestrictedByPattern_ = subBuilder.buildPartial();
@@ -2525,11 +2525,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2RestrictedByPattern_ != null) {
                   subBuilder = value2RestrictedByPattern_.toBuilder();
                 }
-                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2RestrictedByPattern_);
                   value2RestrictedByPattern_ = subBuilder.buildPartial();
@@ -2538,11 +2538,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (relative_ != null) {
                   subBuilder = relative_.toBuilder();
                 }
-                relative_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                relative_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relative_);
                   relative_ = subBuilder.buildPartial();
@@ -2551,11 +2551,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -2564,11 +2564,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -2577,11 +2577,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -2590,11 +2590,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -2603,11 +2603,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -2616,11 +2616,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -2629,11 +2629,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                active_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -2642,11 +2642,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2655,11 +2655,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (unitId_ != null) {
                   subBuilder = unitId_.toBuilder();
                 }
-                unitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                unitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitId_);
                   unitId_ = subBuilder.buildPartial();
@@ -2668,11 +2668,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80106: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2681,11 +2681,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80114: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2694,11 +2694,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80122: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -2707,11 +2707,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80130: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -2720,11 +2720,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80138: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3RestrictedByPattern_ != null) {
                   subBuilder = value3RestrictedByPattern_.toBuilder();
                 }
-                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3RestrictedByPattern_);
                   value3RestrictedByPattern_ = subBuilder.buildPartial();
@@ -2733,11 +2733,11 @@ public final class OmGetPersonSurchargesAd {
                 break;
               }
               case 80146: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (levelId_ != null) {
                   subBuilder = levelId_.toBuilder();
                 }
-                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                levelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelId_);
                   levelId_ = subBuilder.buildPartial();
@@ -2779,9 +2779,9 @@ public final class OmGetPersonSurchargesAd {
       }
 
       public static final int VALUE1_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue value1RestrictedByPattern_;
+      private io.dstore.Values.stringValue value1RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -2791,30 +2791,30 @@ public final class OmGetPersonSurchargesAd {
         return value1RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
-        return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
+        return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
         return getValue1RestrictedByPattern();
       }
 
       public static final int VALUE2_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue value2RestrictedByPattern_;
+      private io.dstore.Values.stringValue value2RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -2824,30 +2824,30 @@ public final class OmGetPersonSurchargesAd {
         return value2RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
-        return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
+        return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
         return getValue2RestrictedByPattern();
       }
 
       public static final int RELATIVE_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.booleanValue relative_;
+      private io.dstore.Values.booleanValue relative_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+       * <code>optional .dstore.values.booleanValue relative = 10003;</code>
        *
        * <pre>
        * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
@@ -2857,30 +2857,30 @@ public final class OmGetPersonSurchargesAd {
         return relative_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+       * <code>optional .dstore.values.booleanValue relative = 10003;</code>
        *
        * <pre>
        * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getRelative() {
-        return relative_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : relative_;
+      public io.dstore.Values.booleanValue getRelative() {
+        return relative_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+       * <code>optional .dstore.values.booleanValue relative = 10003;</code>
        *
        * <pre>
        * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getRelativeOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder() {
         return getRelative();
       }
 
       public static final int VALUE3_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue value3_;
+      private io.dstore.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -2890,30 +2890,30 @@ public final class OmGetPersonSurchargesAd {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3() {
-        return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+      public io.dstore.Values.stringValue getValue3() {
+        return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
       }
 
       public static final int VALUE1_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue value1_;
+      private io.dstore.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -2923,30 +2923,30 @@ public final class OmGetPersonSurchargesAd {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1() {
-        return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+      public io.dstore.Values.stringValue getValue1() {
+        return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10005;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
       }
 
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue unitSymbol_;
+      private io.dstore.Values.stringValue unitSymbol_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2956,30 +2956,30 @@ public final class OmGetPersonSurchargesAd {
         return unitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getUnitSymbol() {
-        return unitSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : unitSymbol_;
+      public io.dstore.Values.stringValue getUnitSymbol() {
+        return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
       }
 
       public static final int VALUE2_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue value2_;
+      private io.dstore.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10007;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -2989,30 +2989,30 @@ public final class OmGetPersonSurchargesAd {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10007;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2() {
-        return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+      public io.dstore.Values.stringValue getValue2() {
+        return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10007;</code>
        *
        * <pre>
        * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
       }
 
       public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.decimalValue surchargeValue_;
+      private io.dstore.Values.decimalValue surchargeValue_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
        *
        * <pre>
        * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
@@ -3022,30 +3022,30 @@ public final class OmGetPersonSurchargesAd {
         return surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
        *
        * <pre>
        * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getSurchargeValue() {
-        return surchargeValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+      public io.dstore.Values.decimalValue getSurchargeValue() {
+        return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
        *
        * <pre>
        * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
         return getSurchargeValue();
       }
 
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue nodeDescription_;
+      private io.dstore.Values.stringValue nodeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10009;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
@@ -3055,30 +3055,30 @@ public final class OmGetPersonSurchargesAd {
         return nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10009;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getNodeDescription() {
-        return nodeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+      public io.dstore.Values.stringValue getNodeDescription() {
+        return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10009;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
       }
 
       public static final int ACTIVE_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.booleanValue active_;
+      private io.dstore.Values.booleanValue active_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10010;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -3088,30 +3088,30 @@ public final class OmGetPersonSurchargesAd {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10010;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getActive() {
-        return active_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+      public io.dstore.Values.booleanValue getActive() {
+        return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10010;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.integerValue personId_;
+      private io.dstore.Values.integerValue personId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10011;</code>
        *
        * <pre>
        * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
@@ -3121,30 +3121,30 @@ public final class OmGetPersonSurchargesAd {
         return personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10011;</code>
        *
        * <pre>
        * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.Values.integerValue getPersonId() {
+        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue person_id = 10011;</code>
        *
        * <pre>
        * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int UNIT_ID_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.integerValue unitId_;
+      private io.dstore.Values.integerValue unitId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
        *
        * <pre>
        * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
@@ -3154,30 +3154,30 @@ public final class OmGetPersonSurchargesAd {
         return unitId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
        *
        * <pre>
        * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getUnitId() {
-        return unitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : unitId_;
+      public io.dstore.Values.integerValue getUnitId() {
+        return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
        *
        * <pre>
        * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
         return getUnitId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10013;
-      private io.dstore.engine.Values.integerValue treeNodeId_;
+      private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
@@ -3187,30 +3187,30 @@ public final class OmGetPersonSurchargesAd {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.Values.integerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10014;
-      private io.dstore.engine.Values.integerValue nodeId_;
+      private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -3220,30 +3220,30 @@ public final class OmGetPersonSurchargesAd {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.Values.integerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10015;
-      private io.dstore.engine.Values.stringValue surchargeTypeDescription_;
+      private io.dstore.Values.stringValue surchargeTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -3253,30 +3253,30 @@ public final class OmGetPersonSurchargesAd {
         return surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getSurchargeTypeDescription() {
-        return surchargeTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+      public io.dstore.Values.stringValue getSurchargeTypeDescription() {
+        return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         return getSurchargeTypeDescription();
       }
 
       public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10016;
-      private io.dstore.engine.Values.integerValue surchargeTypeId_;
+      private io.dstore.Values.integerValue surchargeTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
@@ -3286,30 +3286,30 @@ public final class OmGetPersonSurchargesAd {
         return surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSurchargeTypeId() {
-        return surchargeTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+      public io.dstore.Values.integerValue getSurchargeTypeId() {
+        return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
       }
 
       public static final int VALUE3_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10017;
-      private io.dstore.engine.Values.stringValue value3RestrictedByPattern_;
+      private io.dstore.Values.stringValue value3RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -3319,30 +3319,30 @@ public final class OmGetPersonSurchargesAd {
         return value3RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
-        return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
+        return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
         return getValue3RestrictedByPattern();
       }
 
       public static final int LEVEL_ID_FIELD_NUMBER = 10018;
-      private io.dstore.engine.Values.integerValue levelId_;
+      private io.dstore.Values.integerValue levelId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10018;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
@@ -3352,23 +3352,23 @@ public final class OmGetPersonSurchargesAd {
         return levelId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10018;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLevelId() {
-        return levelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+      public io.dstore.Values.integerValue getLevelId() {
+        return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10018;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
       }
 
@@ -3982,11 +3982,11 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue value1RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value1RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -3996,27 +3996,27 @@ public final class OmGetPersonSurchargesAd {
           return value1RestrictedByPatternBuilder_ != null || value1RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
-            return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+            return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           } else {
             return value1RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder setValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4030,14 +4030,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         public Builder setValue1RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -4048,17 +4048,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value1RestrictedByPattern_ != null) {
               value1RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value1RestrictedByPattern_ = value;
             }
@@ -4070,7 +4070,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -4088,45 +4088,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue1RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
           if (value1RestrictedByPatternBuilder_ != null) {
             return value1RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value1RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1RestrictedByPatternFieldBuilder() {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -4135,11 +4135,11 @@ public final class OmGetPersonSurchargesAd {
           return value1RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value2RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -4149,27 +4149,27 @@ public final class OmGetPersonSurchargesAd {
           return value2RestrictedByPatternBuilder_ != null || value2RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
-            return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+            return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           } else {
             return value2RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder setValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4183,14 +4183,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         public Builder setValue2RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -4201,17 +4201,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder mergeValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value2RestrictedByPattern_ != null) {
               value2RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value2RestrictedByPattern_ = value;
             }
@@ -4223,7 +4223,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -4241,45 +4241,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue2RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
           if (value2RestrictedByPatternBuilder_ != null) {
             return value2RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value2RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10002;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2RestrictedByPatternFieldBuilder() {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -4288,11 +4288,11 @@ public final class OmGetPersonSurchargesAd {
           return value2RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue relative_ = null;
+        private io.dstore.Values.booleanValue relative_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> relativeBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> relativeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
@@ -4302,27 +4302,27 @@ public final class OmGetPersonSurchargesAd {
           return relativeBuilder_ != null || relative_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getRelative() {
+        public io.dstore.Values.booleanValue getRelative() {
           if (relativeBuilder_ == null) {
-            return relative_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : relative_;
+            return relative_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
           } else {
             return relativeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
-        public Builder setRelative(io.dstore.engine.Values.booleanValue value) {
+        public Builder setRelative(io.dstore.Values.booleanValue value) {
           if (relativeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4336,14 +4336,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
         public Builder setRelative(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (relativeBuilder_ == null) {
             relative_ = builderForValue.build();
             onChanged();
@@ -4354,17 +4354,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
-        public Builder mergeRelative(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeRelative(io.dstore.Values.booleanValue value) {
           if (relativeBuilder_ == null) {
             if (relative_ != null) {
               relative_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(relative_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(relative_).mergeFrom(value).buildPartial();
             } else {
               relative_ = value;
             }
@@ -4376,7 +4376,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
@@ -4394,45 +4394,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getRelativeBuilder() {
+        public io.dstore.Values.booleanValue.Builder getRelativeBuilder() {
           
           onChanged();
           return getRelativeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getRelativeOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder() {
           if (relativeBuilder_ != null) {
             return relativeBuilder_.getMessageOrBuilder();
           } else {
             return relative_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : relative_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue relative = 10003;</code>
+         * <code>optional .dstore.values.booleanValue relative = 10003;</code>
          *
          * <pre>
          * Ist der Rabatt/Aufschlag "SurchargeValue" ein absoluter Wert ("0") oder eine relative (d.h. Prozent-) Angabe ("1") ?
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getRelativeFieldBuilder() {
           if (relativeBuilder_ == null) {
             relativeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getRelative(),
                     getParentForChildren(),
                     isClean());
@@ -4441,11 +4441,11 @@ public final class OmGetPersonSurchargesAd {
           return relativeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3_ = null;
+        private io.dstore.Values.stringValue value3_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -4455,27 +4455,27 @@ public final class OmGetPersonSurchargesAd {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3() {
+        public io.dstore.Values.stringValue getValue3() {
           if (value3Builder_ == null) {
-            return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+            return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           } else {
             return value3Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder setValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4489,14 +4489,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         public Builder setValue3(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3Builder_ == null) {
             value3_ = builderForValue.build();
             onChanged();
@@ -4507,17 +4507,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder mergeValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value3_ != null) {
               value3_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
             } else {
               value3_ = value;
             }
@@ -4529,7 +4529,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -4547,45 +4547,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3Builder() {
+        public io.dstore.Values.stringValue.Builder getValue3Builder() {
           
           onChanged();
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
             return value3Builder_.getMessageOrBuilder();
           } else {
             return value3_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
             value3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
                     isClean());
@@ -4594,11 +4594,11 @@ public final class OmGetPersonSurchargesAd {
           return value3Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value1_ = null;
+        private io.dstore.Values.stringValue value1_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -4608,27 +4608,27 @@ public final class OmGetPersonSurchargesAd {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1() {
+        public io.dstore.Values.stringValue getValue1() {
           if (value1Builder_ == null) {
-            return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+            return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           } else {
             return value1Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder setValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4642,14 +4642,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         public Builder setValue1(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1Builder_ == null) {
             value1_ = builderForValue.build();
             onChanged();
@@ -4660,17 +4660,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder mergeValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value1_ != null) {
               value1_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
             } else {
               value1_ = value;
             }
@@ -4682,7 +4682,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -4700,45 +4700,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1Builder() {
+        public io.dstore.Values.stringValue.Builder getValue1Builder() {
           
           onChanged();
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
             return value1Builder_.getMessageOrBuilder();
           } else {
             return value1_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10005;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10005;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
             value1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
                     isClean());
@@ -4747,11 +4747,11 @@ public final class OmGetPersonSurchargesAd {
           return value1Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue unitSymbol_ = null;
+        private io.dstore.Values.stringValue unitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> unitSymbolBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -4761,27 +4761,27 @@ public final class OmGetPersonSurchargesAd {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getUnitSymbol() {
+        public io.dstore.Values.stringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
-            return unitSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : unitSymbol_;
+            return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
           } else {
             return unitSymbolBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
-        public Builder setUnitSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4795,14 +4795,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
         public Builder setUnitSymbol(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (unitSymbolBuilder_ == null) {
             unitSymbol_ = builderForValue.build();
             onChanged();
@@ -4813,17 +4813,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
-        public Builder mergeUnitSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (unitSymbol_ != null) {
               unitSymbol_ =
-                io.dstore.engine.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
             } else {
               unitSymbol_ = value;
             }
@@ -4835,7 +4835,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -4853,45 +4853,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getUnitSymbolBuilder() {
+        public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
           
           onChanged();
           return getUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
             return unitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return unitSymbol_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : unitSymbol_;
+                io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10006;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
             unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -4900,11 +4900,11 @@ public final class OmGetPersonSurchargesAd {
           return unitSymbolBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2_ = null;
+        private io.dstore.Values.stringValue value2_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -4914,27 +4914,27 @@ public final class OmGetPersonSurchargesAd {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2() {
+        public io.dstore.Values.stringValue getValue2() {
           if (value2Builder_ == null) {
-            return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+            return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           } else {
             return value2Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder setValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4948,14 +4948,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         public Builder setValue2(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2Builder_ == null) {
             value2_ = builderForValue.build();
             onChanged();
@@ -4966,17 +4966,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder mergeValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value2_ != null) {
               value2_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
             } else {
               value2_ = value;
             }
@@ -4988,7 +4988,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -5006,45 +5006,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2Builder() {
+        public io.dstore.Values.stringValue.Builder getValue2Builder() {
           
           onChanged();
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
             return value2Builder_.getMessageOrBuilder();
           } else {
             return value2_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10007;</code>
          *
          * <pre>
          * Eigenschaft der Person "PersonID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
             value2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
                     isClean());
@@ -5053,11 +5053,11 @@ public final class OmGetPersonSurchargesAd {
           return value2Builder_;
         }
 
-        private io.dstore.engine.Values.decimalValue surchargeValue_ = null;
+        private io.dstore.Values.decimalValue surchargeValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> surchargeValueBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
@@ -5067,27 +5067,27 @@ public final class OmGetPersonSurchargesAd {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getSurchargeValue() {
+        public io.dstore.Values.decimalValue getSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
-            return surchargeValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+            return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
           } else {
             return surchargeValueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
-        public Builder setSurchargeValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder setSurchargeValue(io.dstore.Values.decimalValue value) {
           if (surchargeValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5101,14 +5101,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
         public Builder setSurchargeValue(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (surchargeValueBuilder_ == null) {
             surchargeValue_ = builderForValue.build();
             onChanged();
@@ -5119,17 +5119,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
-        public Builder mergeSurchargeValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeSurchargeValue(io.dstore.Values.decimalValue value) {
           if (surchargeValueBuilder_ == null) {
             if (surchargeValue_ != null) {
               surchargeValue_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
             } else {
               surchargeValue_ = value;
             }
@@ -5141,7 +5141,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
@@ -5159,45 +5159,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getSurchargeValueBuilder() {
+        public io.dstore.Values.decimalValue.Builder getSurchargeValueBuilder() {
           
           onChanged();
           return getSurchargeValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
           if (surchargeValueBuilder_ != null) {
             return surchargeValueBuilder_.getMessageOrBuilder();
           } else {
             return surchargeValue_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10008;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10008;</code>
          *
          * <pre>
          * Der zur Person "PersonID" für das Element "TreeNodeID" hinterlegte Rabatt/Aufschlag. Ein negativer Wert bedeutet, daß es sich um einen Rabatt handelt (z.B. wenn die Rabatt-/Aufschlagsart "Sonder-Rabatt" o.ä. ist).
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getSurchargeValueFieldBuilder() {
           if (surchargeValueBuilder_ == null) {
             surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getSurchargeValue(),
                     getParentForChildren(),
                     isClean());
@@ -5206,11 +5206,11 @@ public final class OmGetPersonSurchargesAd {
           return surchargeValueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue nodeDescription_ = null;
+        private io.dstore.Values.stringValue nodeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
@@ -5220,27 +5220,27 @@ public final class OmGetPersonSurchargesAd {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getNodeDescription() {
+        public io.dstore.Values.stringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
-            return nodeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+            return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
           } else {
             return nodeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public Builder setNodeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5254,14 +5254,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
         public Builder setNodeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescription_ = builderForValue.build();
             onChanged();
@@ -5272,17 +5272,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public Builder mergeNodeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (nodeDescription_ != null) {
               nodeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
             } else {
               nodeDescription_ = value;
             }
@@ -5294,7 +5294,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
@@ -5312,45 +5312,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getNodeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
           
           onChanged();
           return getNodeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
             return nodeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return nodeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10009;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -5359,11 +5359,11 @@ public final class OmGetPersonSurchargesAd {
           return nodeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue active_ = null;
+        private io.dstore.Values.booleanValue active_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> activeBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -5373,27 +5373,27 @@ public final class OmGetPersonSurchargesAd {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getActive() {
+        public io.dstore.Values.booleanValue getActive() {
           if (activeBuilder_ == null) {
-            return active_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+            return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
           } else {
             return activeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public Builder setActive(io.dstore.engine.Values.booleanValue value) {
+        public Builder setActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5407,14 +5407,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
         public Builder setActive(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (activeBuilder_ == null) {
             active_ = builderForValue.build();
             onChanged();
@@ -5425,17 +5425,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public Builder mergeActive(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
             if (active_ != null) {
               active_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
             } else {
               active_ = value;
             }
@@ -5447,7 +5447,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -5465,45 +5465,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getActiveBuilder() {
+        public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
           
           onChanged();
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
             return activeBuilder_.getMessageOrBuilder();
           } else {
             return active_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : active_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10010;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
             activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
                     isClean());
@@ -5512,11 +5512,11 @@ public final class OmGetPersonSurchargesAd {
           return activeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue personId_ = null;
+        private io.dstore.Values.integerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
@@ -5526,27 +5526,27 @@ public final class OmGetPersonSurchargesAd {
           return personIdBuilder_ != null || personId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPersonId() {
+        public io.dstore.Values.integerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
-        public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5560,14 +5560,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
         public Builder setPersonId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -5578,17 +5578,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
-        public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.Values.integerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -5600,7 +5600,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
@@ -5618,45 +5618,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue person_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue person_id = 10011;</code>
          *
          * <pre>
          * ID einer Person (des Typs "&#64;PersonTypeID" oder gleich "&#64;PersonID"), der "Surcharges" zugewiesen sind
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -5665,11 +5665,11 @@ public final class OmGetPersonSurchargesAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue unitId_ = null;
+        private io.dstore.Values.integerValue unitId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> unitIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
@@ -5679,27 +5679,27 @@ public final class OmGetPersonSurchargesAd {
           return unitIdBuilder_ != null || unitId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getUnitId() {
+        public io.dstore.Values.integerValue getUnitId() {
           if (unitIdBuilder_ == null) {
-            return unitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : unitId_;
+            return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
           } else {
             return unitIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public Builder setUnitId(io.dstore.engine.Values.integerValue value) {
+        public Builder setUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5713,14 +5713,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
         public Builder setUnitId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (unitIdBuilder_ == null) {
             unitId_ = builderForValue.build();
             onChanged();
@@ -5731,17 +5731,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public Builder mergeUnitId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
             if (unitId_ != null) {
               unitId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
             } else {
               unitId_ = value;
             }
@@ -5753,7 +5753,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
@@ -5771,45 +5771,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getUnitIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
           
           onChanged();
           return getUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
           if (unitIdBuilder_ != null) {
             return unitIdBuilder_.getMessageOrBuilder();
           } else {
             return unitId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : unitId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10012;</code>
          *
          * <pre>
          * ID einer Währungs-Einheit (wenn "Relative = 0") oder der Prozent-Einheit (wenn "Relative = 1" ist) - also die Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUnitIdFieldBuilder() {
           if (unitIdBuilder_ == null) {
             unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -5818,11 +5818,11 @@ public final class OmGetPersonSurchargesAd {
           return unitIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+        private io.dstore.Values.integerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
@@ -5832,27 +5832,27 @@ public final class OmGetPersonSurchargesAd {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTreeNodeId() {
+        public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
-        public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5866,14 +5866,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
         public Builder setTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -5884,17 +5884,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
-        public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -5906,7 +5906,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
@@ -5924,45 +5924,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10013;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, auf das sich der Rabatt/-Aufschlag "SurchargeTypeID" für die Person "PersonID" bezieht. Dieser gilt dann auch für alle NACHFOLGER (bis auf die, denen direkt eine andere "SurchargeTypeID" zugwiesen ist).
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5971,11 +5971,11 @@ public final class OmGetPersonSurchargesAd {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeId_ = null;
+        private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -5985,27 +5985,27 @@ public final class OmGetPersonSurchargesAd {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeId() {
+        public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public Builder setNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6019,14 +6019,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
         public Builder setNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -6037,17 +6037,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public Builder mergeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -6059,7 +6059,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
@@ -6077,45 +6077,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6124,11 +6124,11 @@ public final class OmGetPersonSurchargesAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue surchargeTypeDescription_ = null;
+        private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6138,27 +6138,27 @@ public final class OmGetPersonSurchargesAd {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getSurchargeTypeDescription() {
+        public io.dstore.Values.stringValue getSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
-            return surchargeTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+            return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
           } else {
             return surchargeTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public Builder setSurchargeTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6172,14 +6172,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
         public Builder setSurchargeTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             surchargeTypeDescription_ = builderForValue.build();
             onChanged();
@@ -6190,17 +6190,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public Builder mergeSurchargeTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             if (surchargeTypeDescription_ != null) {
               surchargeTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeDescription_ = value;
             }
@@ -6212,7 +6212,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6230,45 +6230,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
           
           onChanged();
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
           if (surchargeTypeDescriptionBuilder_ != null) {
             return surchargeTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10015;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10015;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeTypeDescriptionFieldBuilder() {
           if (surchargeTypeDescriptionBuilder_ == null) {
             surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -6277,11 +6277,11 @@ public final class OmGetPersonSurchargesAd {
           return surchargeTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue surchargeTypeId_ = null;
+        private io.dstore.Values.integerValue surchargeTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
@@ -6291,27 +6291,27 @@ public final class OmGetPersonSurchargesAd {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSurchargeTypeId() {
+        public io.dstore.Values.integerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
-            return surchargeTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+            return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
           } else {
             return surchargeTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
-        public Builder setSurchargeTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6325,14 +6325,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
         public Builder setSurchargeTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeId_ = builderForValue.build();
             onChanged();
@@ -6343,17 +6343,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
-        public Builder mergeSurchargeTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (surchargeTypeId_ != null) {
               surchargeTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeId_ = value;
             }
@@ -6365,7 +6365,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
@@ -6383,45 +6383,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
           
           onChanged();
           return getSurchargeTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
             return surchargeTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10016;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10016;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art (z.B. "Sonder-Rabatt", "Händler-Rabatt" o.ä.), die der Person "PersonID" für das Element "TreeNodeID" (und deren Nachfolger) zugewiesen ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeTypeIdFieldBuilder() {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -6430,11 +6430,11 @@ public final class OmGetPersonSurchargesAd {
           return surchargeTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value3RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -6444,27 +6444,27 @@ public final class OmGetPersonSurchargesAd {
           return value3RestrictedByPatternBuilder_ != null || value3RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
           if (value3RestrictedByPatternBuilder_ == null) {
-            return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+            return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           } else {
             return value3RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder setValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6478,14 +6478,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         public Builder setValue3RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -6496,17 +6496,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value3RestrictedByPattern_ != null) {
               value3RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value3RestrictedByPattern_ = value;
             }
@@ -6518,7 +6518,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -6536,45 +6536,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue3RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
           if (value3RestrictedByPatternBuilder_ != null) {
             return value3RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value3RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10017;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10017;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3RestrictedByPatternFieldBuilder() {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -6583,11 +6583,11 @@ public final class OmGetPersonSurchargesAd {
           return value3RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue levelId_ = null;
+        private io.dstore.Values.integerValue levelId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
@@ -6597,27 +6597,27 @@ public final class OmGetPersonSurchargesAd {
           return levelIdBuilder_ != null || levelId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLevelId() {
+        public io.dstore.Values.integerValue getLevelId() {
           if (levelIdBuilder_ == null) {
-            return levelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+            return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
           } else {
             return levelIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder setLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLevelId(io.dstore.Values.integerValue value) {
           if (levelIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6631,14 +6631,14 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
         public Builder setLevelId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (levelIdBuilder_ == null) {
             levelId_ = builderForValue.build();
             onChanged();
@@ -6649,17 +6649,17 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder mergeLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLevelId(io.dstore.Values.integerValue value) {
           if (levelIdBuilder_ == null) {
             if (levelId_ != null) {
               levelId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
             } else {
               levelId_ = value;
             }
@@ -6671,7 +6671,7 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
@@ -6689,45 +6689,45 @@ public final class OmGetPersonSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLevelIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLevelIdBuilder() {
           
           onChanged();
           return getLevelIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
             return levelIdBuilder_.getMessageOrBuilder();
           } else {
             return levelId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10018;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelIdFieldBuilder() {
           if (levelIdBuilder_ == null) {
             levelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelId(),
                     getParentForChildren(),
                     isClean());
@@ -8297,60 +8297,56 @@ public final class OmGetPersonSurchargesAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/om_GetPersonS" +
       "urcharges_Ad.proto\022\'dstore.engine.om_Get" +
-      "PersonSurcharges_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\334\004\n\nParameters\022:\n\016p" +
-      "erson_type_id\030\001 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\034\n\023person_type_id_null\030\351" +
-      "\007 \001(\010\0225\n\tperson_id\030\002 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022\027\n\016person_id_null\030\352",
-      "\007 \001(\010\0228\n\014tree_node_id\030\003 \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\022\032\n\021tree_node_id_" +
-      "null\030\353\007 \001(\010\022E\n\031output_characteristic_id1" +
-      "\030\004 \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022\'\n\036output_characteristic_id1_null\030\354\007 " +
-      "\001(\010\022E\n\031output_characteristic_id2\030\005 \001(\0132\"" +
-      ".dstore.engine.values.integerValue\022\'\n\036ou" +
-      "tput_characteristic_id2_null\030\355\007 \001(\010\022E\n\031o" +
-      "utput_characteristic_id3\030\006 \001(\0132\".dstore." +
-      "engine.values.integerValue\022\'\n\036output_cha",
-      "racteristic_id3_null\030\356\007 \001(\010\"\306\n\n\010Response" +
-      "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
-      "ror\022H\n\020meta_information\030\002 \003(\0132..dstore.e" +
-      "ngine.metainformation.MetaInformation\022/\n" +
-      "\007message\030\003 \003(\0132\036.dstore.engine.message.M" +
-      "essage\022B\n\003row\030\004 \003(\01325.dstore.engine.om_G" +
-      "etPersonSurcharges_Ad.Response.Row\032\317\010\n\003R" +
-      "ow\022\017\n\006row_id\030\220N \001(\005\022H\n\034value1_restricted" +
-      "_by_pattern\030\221N \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022H\n\034value2_restricted_by_pa",
-      "ttern\030\222N \001(\0132!.dstore.engine.values.stri" +
-      "ngValue\0225\n\010relative\030\223N \001(\0132\".dstore.engi" +
-      "ne.values.booleanValue\0222\n\006value3\030\224N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0222\n\006va" +
-      "lue1\030\225N \001(\0132!.dstore.engine.values.strin" +
-      "gValue\0227\n\013unit_symbol\030\226N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\0222\n\006value2\030\227N \001(\013" +
-      "2!.dstore.engine.values.stringValue\022<\n\017s" +
-      "urcharge_value\030\230N \001(\0132\".dstore.engine.va" +
-      "lues.decimalValue\022<\n\020node_description\030\231N",
-      " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "3\n\006active\030\232N \001(\0132\".dstore.engine.values." +
-      "booleanValue\0226\n\tperson_id\030\233N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\0224\n\007unit_id\030" +
-      "\234N \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\0229\n\014tree_node_id\030\235N \001(\0132\".dstore.engin" +
-      "e.values.integerValue\0224\n\007node_id\030\236N \001(\0132" +
-      "\".dstore.engine.values.integerValue\022F\n\032s" +
-      "urcharge_type_description\030\237N \001(\0132!.dstor" +
-      "e.engine.values.stringValue\022>\n\021surcharge",
-      "_type_id\030\240N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022H\n\034value3_restricted_by_patt" +
-      "ern\030\241N \001(\0132!.dstore.engine.values.string" +
-      "Value\0225\n\010level_id\030\242N \001(\0132\".dstore.engine" +
-      ".values.integerValueB\035\n\033io.dstore.engine" +
-      ".proceduresb\006proto3"
+      "PersonSurcharges_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"\262\004\n\nParameters\0223\n\016person_t" +
+      "ype_id\030\001 \001(\0132\033.dstore.values.integerValu" +
+      "e\022\034\n\023person_type_id_null\030\351\007 \001(\010\022.\n\tperso" +
+      "n_id\030\002 \001(\0132\033.dstore.values.integerValue\022" +
+      "\027\n\016person_id_null\030\352\007 \001(\010\0221\n\014tree_node_id",
+      "\030\003 \001(\0132\033.dstore.values.integerValue\022\032\n\021t" +
+      "ree_node_id_null\030\353\007 \001(\010\022>\n\031output_charac" +
+      "teristic_id1\030\004 \001(\0132\033.dstore.values.integ" +
+      "erValue\022\'\n\036output_characteristic_id1_nul" +
+      "l\030\354\007 \001(\010\022>\n\031output_characteristic_id2\030\005 " +
+      "\001(\0132\033.dstore.values.integerValue\022\'\n\036outp" +
+      "ut_characteristic_id2_null\030\355\007 \001(\010\022>\n\031out" +
+      "put_characteristic_id3\030\006 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\'\n\036output_characterist" +
+      "ic_id3_null\030\356\007 \001(\010\"\310\t\n\010Response\022)\n\005error",
+      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
+      "ta_information\030\002 \003(\0132..dstore.engine.met" +
+      "ainformation.MetaInformation\022/\n\007message\030" +
+      "\003 \003(\0132\036.dstore.engine.message.Message\022B\n" +
+      "\003row\030\004 \003(\01325.dstore.engine.om_GetPersonS" +
+      "urcharges_Ad.Response.Row\032\321\007\n\003Row\022\017\n\006row" +
+      "_id\030\220N \001(\005\022A\n\034value1_restricted_by_patte" +
+      "rn\030\221N \001(\0132\032.dstore.values.stringValue\022A\n" +
+      "\034value2_restricted_by_pattern\030\222N \001(\0132\032.d" +
+      "store.values.stringValue\022.\n\010relative\030\223N ",
+      "\001(\0132\033.dstore.values.booleanValue\022+\n\006valu" +
+      "e3\030\224N \001(\0132\032.dstore.values.stringValue\022+\n" +
+      "\006value1\030\225N \001(\0132\032.dstore.values.stringVal" +
+      "ue\0220\n\013unit_symbol\030\226N \001(\0132\032.dstore.values" +
+      ".stringValue\022+\n\006value2\030\227N \001(\0132\032.dstore.v" +
+      "alues.stringValue\0225\n\017surcharge_value\030\230N " +
+      "\001(\0132\033.dstore.values.decimalValue\0225\n\020node" +
+      "_description\030\231N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022,\n\006active\030\232N \001(\0132\033.dstore.values" +
+      ".booleanValue\022/\n\tperson_id\030\233N \001(\0132\033.dsto",
+      "re.values.integerValue\022-\n\007unit_id\030\234N \001(\013" +
+      "2\033.dstore.values.integerValue\0222\n\014tree_no" +
+      "de_id\030\235N \001(\0132\033.dstore.values.integerValu" +
+      "e\022-\n\007node_id\030\236N \001(\0132\033.dstore.values.inte" +
+      "gerValue\022?\n\032surcharge_type_description\030\237" +
+      "N \001(\0132\032.dstore.values.stringValue\0227\n\021sur" +
+      "charge_type_id\030\240N \001(\0132\033.dstore.values.in" +
+      "tegerValue\022A\n\034value3_restricted_by_patte" +
+      "rn\030\241N \001(\0132\032.dstore.values.stringValue\022.\n" +
+      "\010level_id\030\242N \001(\0132\033.dstore.values.integer",
+      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8363,7 +8359,7 @@ public final class OmGetPersonSurchargesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -8386,7 +8382,7 @@ public final class OmGetPersonSurchargesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPersonSurcharges_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value1RestrictedByPattern", "Value2RestrictedByPattern", "Relative", "Value3", "Value1", "UnitSymbol", "Value2", "SurchargeValue", "NodeDescription", "Active", "PersonId", "UnitId", "TreeNodeId", "NodeId", "SurchargeTypeDescription", "SurchargeTypeId", "Value3RestrictedByPattern", "LevelId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

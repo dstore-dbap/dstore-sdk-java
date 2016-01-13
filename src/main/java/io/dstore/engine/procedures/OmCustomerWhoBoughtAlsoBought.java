@@ -13,17 +13,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+     * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
      */
     boolean hasVariantOrItemNo();
     /**
-     * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+     * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getVariantOrItemNo();
+    io.dstore.Values.stringValue getVariantOrItemNo();
     /**
-     * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+     * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getVariantOrItemNoOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getVariantOrItemNoOrBuilder();
 
     /**
      * <code>optional bool variant_or_item_no_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getVariantOrItemNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+     * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
      */
     boolean hasIncludeSiblingVariants();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+     * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeSiblingVariants();
+    io.dstore.Values.booleanValue getIncludeSiblingVariants();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+     * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeSiblingVariantsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeSiblingVariantsOrBuilder();
 
     /**
      * <code>optional bool include_sibling_variants_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getIncludeSiblingVariantsNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
      */
-    io.dstore.engine.Values.timestampValue getFromDate();
+    io.dstore.Values.timestampValue getFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
      */
-    io.dstore.engine.Values.timestampValue getToDate();
+    io.dstore.Values.timestampValue getToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+     * <code>optional .dstore.values.booleanValue only_active = 5;</code>
      */
     boolean hasOnlyActive();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+     * <code>optional .dstore.values.booleanValue only_active = 5;</code>
      */
-    io.dstore.engine.Values.booleanValue getOnlyActive();
+    io.dstore.Values.booleanValue getOnlyActive();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+     * <code>optional .dstore.values.booleanValue only_active = 5;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOnlyActiveOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOnlyActiveOrBuilder();
 
     /**
      * <code>optional bool only_active_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getOnlyActiveNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+     * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
      */
     boolean hasGetAdditionalInfo();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+     * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
      */
-    io.dstore.engine.Values.booleanValue getGetAdditionalInfo();
+    io.dstore.Values.booleanValue getGetAdditionalInfo();
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+     * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getGetAdditionalInfoOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getGetAdditionalInfoOrBuilder();
 
     /**
      * <code>optional bool get_additional_info_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getGetAdditionalInfoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
      */
     boolean hasFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getFilterByCharacteristicId();
+    io.dstore.Values.integerValue getFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool filter_by_characteristic_id_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getFilterByCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
      */
     boolean hasFilterByCharacValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
      */
-    io.dstore.engine.Values.stringValue getFilterByCharacValue();
+    io.dstore.Values.stringValue getFilterByCharacValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
 
     /**
      * <code>optional bool filter_by_charac_value_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getFilterByCharacValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
      */
     boolean hasNegateFilterByParams();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
      */
-    io.dstore.engine.Values.booleanValue getNegateFilterByParams();
+    io.dstore.Values.booleanValue getNegateFilterByParams();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
 
     /**
      * <code>optional bool negate_filter_by_params_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
     boolean getNegateFilterByParamsNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
      */
     boolean hasIncludeVariantOrItemNoNodes();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeVariantOrItemNoNodes();
+    io.dstore.Values.booleanValue getIncludeVariantOrItemNoNodes();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeVariantOrItemNoNodesOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeVariantOrItemNoNodesOrBuilder();
 
     /**
      * <code>optional bool include_variant_or_item_no_nodes_null = 1010;</code>
@@ -241,11 +241,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (variantOrItemNo_ != null) {
                 subBuilder = variantOrItemNo_.toBuilder();
               }
-              variantOrItemNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              variantOrItemNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(variantOrItemNo_);
                 variantOrItemNo_ = subBuilder.buildPartial();
@@ -254,11 +254,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeSiblingVariants_ != null) {
                 subBuilder = includeSiblingVariants_.toBuilder();
               }
-              includeSiblingVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeSiblingVariants_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeSiblingVariants_);
                 includeSiblingVariants_ = subBuilder.buildPartial();
@@ -267,11 +267,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -280,11 +280,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -293,11 +293,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (onlyActive_ != null) {
                 subBuilder = onlyActive_.toBuilder();
               }
-              onlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              onlyActive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyActive_);
                 onlyActive_ = subBuilder.buildPartial();
@@ -306,11 +306,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (getAdditionalInfo_ != null) {
                 subBuilder = getAdditionalInfo_.toBuilder();
               }
-              getAdditionalInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              getAdditionalInfo_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getAdditionalInfo_);
                 getAdditionalInfo_ = subBuilder.buildPartial();
@@ -319,11 +319,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (filterByCharacteristicId_ != null) {
                 subBuilder = filterByCharacteristicId_.toBuilder();
               }
-              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              filterByCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacteristicId_);
                 filterByCharacteristicId_ = subBuilder.buildPartial();
@@ -332,11 +332,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (filterByCharacValue_ != null) {
                 subBuilder = filterByCharacValue_.toBuilder();
               }
-              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              filterByCharacValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacValue_);
                 filterByCharacValue_ = subBuilder.buildPartial();
@@ -345,11 +345,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (negateFilterByParams_ != null) {
                 subBuilder = negateFilterByParams_.toBuilder();
               }
-              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              negateFilterByParams_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilterByParams_);
                 negateFilterByParams_ = subBuilder.buildPartial();
@@ -358,11 +358,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeVariantOrItemNoNodes_ != null) {
                 subBuilder = includeVariantOrItemNoNodes_.toBuilder();
               }
-              includeVariantOrItemNoNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeVariantOrItemNoNodes_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeVariantOrItemNoNodes_);
                 includeVariantOrItemNoNodes_ = subBuilder.buildPartial();
@@ -445,23 +445,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int VARIANT_OR_ITEM_NO_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue variantOrItemNo_;
+    private io.dstore.Values.stringValue variantOrItemNo_;
     /**
-     * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+     * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
      */
     public boolean hasVariantOrItemNo() {
       return variantOrItemNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+     * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getVariantOrItemNo() {
-      return variantOrItemNo_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : variantOrItemNo_;
+    public io.dstore.Values.stringValue getVariantOrItemNo() {
+      return variantOrItemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : variantOrItemNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+     * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getVariantOrItemNoOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getVariantOrItemNoOrBuilder() {
       return getVariantOrItemNo();
     }
 
@@ -475,23 +475,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int INCLUDE_SIBLING_VARIANTS_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue includeSiblingVariants_;
+    private io.dstore.Values.booleanValue includeSiblingVariants_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+     * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
      */
     public boolean hasIncludeSiblingVariants() {
       return includeSiblingVariants_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+     * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeSiblingVariants() {
-      return includeSiblingVariants_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeSiblingVariants_;
+    public io.dstore.Values.booleanValue getIncludeSiblingVariants() {
+      return includeSiblingVariants_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeSiblingVariants_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+     * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeSiblingVariantsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeSiblingVariantsOrBuilder() {
       return getIncludeSiblingVariants();
     }
 
@@ -505,23 +505,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.timestampValue fromDate_;
+    private io.dstore.Values.timestampValue fromDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.Values.timestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -535,23 +535,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.timestampValue toDate_;
+    private io.dstore.Values.timestampValue toDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.Values.timestampValue getToDate() {
+      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -565,23 +565,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int ONLY_ACTIVE_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.booleanValue onlyActive_;
+    private io.dstore.Values.booleanValue onlyActive_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+     * <code>optional .dstore.values.booleanValue only_active = 5;</code>
      */
     public boolean hasOnlyActive() {
       return onlyActive_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+     * <code>optional .dstore.values.booleanValue only_active = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOnlyActive() {
-      return onlyActive_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyActive_;
+    public io.dstore.Values.booleanValue getOnlyActive() {
+      return onlyActive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyActive_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+     * <code>optional .dstore.values.booleanValue only_active = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOnlyActiveOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOnlyActiveOrBuilder() {
       return getOnlyActive();
     }
 
@@ -595,23 +595,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int GET_ADDITIONAL_INFO_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.booleanValue getAdditionalInfo_;
+    private io.dstore.Values.booleanValue getAdditionalInfo_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+     * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
      */
     public boolean hasGetAdditionalInfo() {
       return getAdditionalInfo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+     * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValue getGetAdditionalInfo() {
-      return getAdditionalInfo_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getAdditionalInfo_;
+    public io.dstore.Values.booleanValue getGetAdditionalInfo() {
+      return getAdditionalInfo_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getAdditionalInfo_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+     * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getGetAdditionalInfoOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getGetAdditionalInfoOrBuilder() {
       return getGetAdditionalInfo();
     }
 
@@ -625,23 +625,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int FILTER_BY_CHARACTERISTIC_ID_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue filterByCharacteristicId_;
+    private io.dstore.Values.integerValue filterByCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
      */
     public boolean hasFilterByCharacteristicId() {
       return filterByCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getFilterByCharacteristicId() {
-      return filterByCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+    public io.dstore.Values.integerValue getFilterByCharacteristicId() {
+      return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
       return getFilterByCharacteristicId();
     }
 
@@ -655,23 +655,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int FILTER_BY_CHARAC_VALUE_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.stringValue filterByCharacValue_;
+    private io.dstore.Values.stringValue filterByCharacValue_;
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
      */
     public boolean hasFilterByCharacValue() {
       return filterByCharacValue_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
      */
-    public io.dstore.engine.Values.stringValue getFilterByCharacValue() {
-      return filterByCharacValue_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+    public io.dstore.Values.stringValue getFilterByCharacValue() {
+      return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
       return getFilterByCharacValue();
     }
 
@@ -685,23 +685,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int NEGATE_FILTER_BY_PARAMS_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.booleanValue negateFilterByParams_;
+    private io.dstore.Values.booleanValue negateFilterByParams_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
      */
     public boolean hasNegateFilterByParams() {
       return negateFilterByParams_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
      */
-    public io.dstore.engine.Values.booleanValue getNegateFilterByParams() {
-      return negateFilterByParams_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+    public io.dstore.Values.booleanValue getNegateFilterByParams() {
+      return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
       return getNegateFilterByParams();
     }
 
@@ -715,23 +715,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
     }
 
     public static final int INCLUDE_VARIANT_OR_ITEM_NO_NODES_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.booleanValue includeVariantOrItemNoNodes_;
+    private io.dstore.Values.booleanValue includeVariantOrItemNoNodes_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
      */
     public boolean hasIncludeVariantOrItemNoNodes() {
       return includeVariantOrItemNoNodes_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeVariantOrItemNoNodes() {
-      return includeVariantOrItemNoNodes_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeVariantOrItemNoNodes_;
+    public io.dstore.Values.booleanValue getIncludeVariantOrItemNoNodes() {
+      return includeVariantOrItemNoNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeVariantOrItemNoNodes_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+     * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeVariantOrItemNoNodesOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeVariantOrItemNoNodesOrBuilder() {
       return getIncludeVariantOrItemNoNodes();
     }
 
@@ -1277,29 +1277,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue variantOrItemNo_ = null;
+      private io.dstore.Values.stringValue variantOrItemNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> variantOrItemNoBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> variantOrItemNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
       public boolean hasVariantOrItemNo() {
         return variantOrItemNoBuilder_ != null || variantOrItemNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getVariantOrItemNo() {
+      public io.dstore.Values.stringValue getVariantOrItemNo() {
         if (variantOrItemNoBuilder_ == null) {
-          return variantOrItemNo_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : variantOrItemNo_;
+          return variantOrItemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : variantOrItemNo_;
         } else {
           return variantOrItemNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
-      public Builder setVariantOrItemNo(io.dstore.engine.Values.stringValue value) {
+      public Builder setVariantOrItemNo(io.dstore.Values.stringValue value) {
         if (variantOrItemNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1313,10 +1313,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
       public Builder setVariantOrItemNo(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (variantOrItemNoBuilder_ == null) {
           variantOrItemNo_ = builderForValue.build();
           onChanged();
@@ -1327,13 +1327,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
-      public Builder mergeVariantOrItemNo(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeVariantOrItemNo(io.dstore.Values.stringValue value) {
         if (variantOrItemNoBuilder_ == null) {
           if (variantOrItemNo_ != null) {
             variantOrItemNo_ =
-              io.dstore.engine.Values.stringValue.newBuilder(variantOrItemNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(variantOrItemNo_).mergeFrom(value).buildPartial();
           } else {
             variantOrItemNo_ = value;
           }
@@ -1345,7 +1345,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
       public Builder clearVariantOrItemNo() {
         if (variantOrItemNoBuilder_ == null) {
@@ -1359,33 +1359,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getVariantOrItemNoBuilder() {
+      public io.dstore.Values.stringValue.Builder getVariantOrItemNoBuilder() {
         
         onChanged();
         return getVariantOrItemNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getVariantOrItemNoOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getVariantOrItemNoOrBuilder() {
         if (variantOrItemNoBuilder_ != null) {
           return variantOrItemNoBuilder_.getMessageOrBuilder();
         } else {
           return variantOrItemNo_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : variantOrItemNo_;
+              io.dstore.Values.stringValue.getDefaultInstance() : variantOrItemNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue variant_or_item_no = 1;</code>
+       * <code>optional .dstore.values.stringValue variant_or_item_no = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getVariantOrItemNoFieldBuilder() {
         if (variantOrItemNoBuilder_ == null) {
           variantOrItemNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getVariantOrItemNo(),
                   getParentForChildren(),
                   isClean());
@@ -1420,29 +1420,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeSiblingVariants_ = null;
+      private io.dstore.Values.booleanValue includeSiblingVariants_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeSiblingVariantsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeSiblingVariantsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
       public boolean hasIncludeSiblingVariants() {
         return includeSiblingVariantsBuilder_ != null || includeSiblingVariants_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeSiblingVariants() {
+      public io.dstore.Values.booleanValue getIncludeSiblingVariants() {
         if (includeSiblingVariantsBuilder_ == null) {
-          return includeSiblingVariants_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeSiblingVariants_;
+          return includeSiblingVariants_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeSiblingVariants_;
         } else {
           return includeSiblingVariantsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
-      public Builder setIncludeSiblingVariants(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeSiblingVariants(io.dstore.Values.booleanValue value) {
         if (includeSiblingVariantsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1456,10 +1456,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
       public Builder setIncludeSiblingVariants(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeSiblingVariantsBuilder_ == null) {
           includeSiblingVariants_ = builderForValue.build();
           onChanged();
@@ -1470,13 +1470,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
-      public Builder mergeIncludeSiblingVariants(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeSiblingVariants(io.dstore.Values.booleanValue value) {
         if (includeSiblingVariantsBuilder_ == null) {
           if (includeSiblingVariants_ != null) {
             includeSiblingVariants_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeSiblingVariants_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeSiblingVariants_).mergeFrom(value).buildPartial();
           } else {
             includeSiblingVariants_ = value;
           }
@@ -1488,7 +1488,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
       public Builder clearIncludeSiblingVariants() {
         if (includeSiblingVariantsBuilder_ == null) {
@@ -1502,33 +1502,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeSiblingVariantsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeSiblingVariantsBuilder() {
         
         onChanged();
         return getIncludeSiblingVariantsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeSiblingVariantsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeSiblingVariantsOrBuilder() {
         if (includeSiblingVariantsBuilder_ != null) {
           return includeSiblingVariantsBuilder_.getMessageOrBuilder();
         } else {
           return includeSiblingVariants_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeSiblingVariants_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeSiblingVariants_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_sibling_variants = 2;</code>
+       * <code>optional .dstore.values.booleanValue include_sibling_variants = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeSiblingVariantsFieldBuilder() {
         if (includeSiblingVariantsBuilder_ == null) {
           includeSiblingVariantsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeSiblingVariants(),
                   getParentForChildren(),
                   isClean());
@@ -1563,29 +1563,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue fromDate_ = null;
+      private io.dstore.Values.timestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue getFromDate() {
+      public io.dstore.Values.timestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
-      public Builder setFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1599,10 +1599,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
       public Builder setFromDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1613,13 +1613,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
-      public Builder mergeFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1631,7 +1631,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1645,33 +1645,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1706,29 +1706,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue toDate_ = null;
+      private io.dstore.Values.timestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue getToDate() {
+      public io.dstore.Values.timestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
-      public Builder setToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1742,10 +1742,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
       public Builder setToDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1756,13 +1756,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
-      public Builder mergeToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1774,7 +1774,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1788,33 +1788,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1849,29 +1849,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue onlyActive_ = null;
+      private io.dstore.Values.booleanValue onlyActive_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> onlyActiveBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyActiveBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
       public boolean hasOnlyActive() {
         return onlyActiveBuilder_ != null || onlyActive_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOnlyActive() {
+      public io.dstore.Values.booleanValue getOnlyActive() {
         if (onlyActiveBuilder_ == null) {
-          return onlyActive_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyActive_;
+          return onlyActive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyActive_;
         } else {
           return onlyActiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
-      public Builder setOnlyActive(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOnlyActive(io.dstore.Values.booleanValue value) {
         if (onlyActiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1885,10 +1885,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
       public Builder setOnlyActive(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (onlyActiveBuilder_ == null) {
           onlyActive_ = builderForValue.build();
           onChanged();
@@ -1899,13 +1899,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
-      public Builder mergeOnlyActive(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOnlyActive(io.dstore.Values.booleanValue value) {
         if (onlyActiveBuilder_ == null) {
           if (onlyActive_ != null) {
             onlyActive_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(onlyActive_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(onlyActive_).mergeFrom(value).buildPartial();
           } else {
             onlyActive_ = value;
           }
@@ -1917,7 +1917,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
       public Builder clearOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -1931,33 +1931,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOnlyActiveBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOnlyActiveBuilder() {
         
         onChanged();
         return getOnlyActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOnlyActiveOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOnlyActiveOrBuilder() {
         if (onlyActiveBuilder_ != null) {
           return onlyActiveBuilder_.getMessageOrBuilder();
         } else {
           return onlyActive_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyActive_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : onlyActive_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_active = 5;</code>
+       * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyActiveFieldBuilder() {
         if (onlyActiveBuilder_ == null) {
           onlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyActive(),
                   getParentForChildren(),
                   isClean());
@@ -1992,29 +1992,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue getAdditionalInfo_ = null;
+      private io.dstore.Values.booleanValue getAdditionalInfo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> getAdditionalInfoBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getAdditionalInfoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
       public boolean hasGetAdditionalInfo() {
         return getAdditionalInfoBuilder_ != null || getAdditionalInfo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue getGetAdditionalInfo() {
+      public io.dstore.Values.booleanValue getGetAdditionalInfo() {
         if (getAdditionalInfoBuilder_ == null) {
-          return getAdditionalInfo_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : getAdditionalInfo_;
+          return getAdditionalInfo_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getAdditionalInfo_;
         } else {
           return getAdditionalInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
-      public Builder setGetAdditionalInfo(io.dstore.engine.Values.booleanValue value) {
+      public Builder setGetAdditionalInfo(io.dstore.Values.booleanValue value) {
         if (getAdditionalInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2028,10 +2028,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
       public Builder setGetAdditionalInfo(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (getAdditionalInfoBuilder_ == null) {
           getAdditionalInfo_ = builderForValue.build();
           onChanged();
@@ -2042,13 +2042,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
-      public Builder mergeGetAdditionalInfo(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeGetAdditionalInfo(io.dstore.Values.booleanValue value) {
         if (getAdditionalInfoBuilder_ == null) {
           if (getAdditionalInfo_ != null) {
             getAdditionalInfo_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(getAdditionalInfo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(getAdditionalInfo_).mergeFrom(value).buildPartial();
           } else {
             getAdditionalInfo_ = value;
           }
@@ -2060,7 +2060,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
       public Builder clearGetAdditionalInfo() {
         if (getAdditionalInfoBuilder_ == null) {
@@ -2074,33 +2074,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getGetAdditionalInfoBuilder() {
+      public io.dstore.Values.booleanValue.Builder getGetAdditionalInfoBuilder() {
         
         onChanged();
         return getGetAdditionalInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getGetAdditionalInfoOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getGetAdditionalInfoOrBuilder() {
         if (getAdditionalInfoBuilder_ != null) {
           return getAdditionalInfoBuilder_.getMessageOrBuilder();
         } else {
           return getAdditionalInfo_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : getAdditionalInfo_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : getAdditionalInfo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue get_additional_info = 6;</code>
+       * <code>optional .dstore.values.booleanValue get_additional_info = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetAdditionalInfoFieldBuilder() {
         if (getAdditionalInfoBuilder_ == null) {
           getAdditionalInfoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetAdditionalInfo(),
                   getParentForChildren(),
                   isClean());
@@ -2135,29 +2135,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue filterByCharacteristicId_ = null;
+      private io.dstore.Values.integerValue filterByCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
       public boolean hasFilterByCharacteristicId() {
         return filterByCharacteristicIdBuilder_ != null || filterByCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getFilterByCharacteristicId() {
+      public io.dstore.Values.integerValue getFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
-          return filterByCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+          return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
         } else {
           return filterByCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
-      public Builder setFilterByCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setFilterByCharacteristicId(io.dstore.Values.integerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2171,10 +2171,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
       public Builder setFilterByCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2185,13 +2185,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
-      public Builder mergeFilterByCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFilterByCharacteristicId(io.dstore.Values.integerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (filterByCharacteristicId_ != null) {
             filterByCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacteristicId_ = value;
           }
@@ -2203,7 +2203,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
       public Builder clearFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -2217,33 +2217,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
         
         onChanged();
         return getFilterByCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
         if (filterByCharacteristicIdBuilder_ != null) {
           return filterByCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFilterByCharacteristicIdFieldBuilder() {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFilterByCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2278,29 +2278,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue filterByCharacValue_ = null;
+      private io.dstore.Values.stringValue filterByCharacValue_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
       public boolean hasFilterByCharacValue() {
         return filterByCharacValueBuilder_ != null || filterByCharacValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
-      public io.dstore.engine.Values.stringValue getFilterByCharacValue() {
+      public io.dstore.Values.stringValue getFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
-          return filterByCharacValue_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+          return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
         } else {
           return filterByCharacValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
-      public Builder setFilterByCharacValue(io.dstore.engine.Values.stringValue value) {
+      public Builder setFilterByCharacValue(io.dstore.Values.stringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2314,10 +2314,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
       public Builder setFilterByCharacValue(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValue_ = builderForValue.build();
           onChanged();
@@ -2328,13 +2328,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
-      public Builder mergeFilterByCharacValue(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeFilterByCharacValue(io.dstore.Values.stringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (filterByCharacValue_ != null) {
             filterByCharacValue_ =
-              io.dstore.engine.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacValue_ = value;
           }
@@ -2346,7 +2346,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
       public Builder clearFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
@@ -2360,33 +2360,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getFilterByCharacValueBuilder() {
+      public io.dstore.Values.stringValue.Builder getFilterByCharacValueBuilder() {
         
         onChanged();
         return getFilterByCharacValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
         if (filterByCharacValueBuilder_ != null) {
           return filterByCharacValueBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacValue_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+              io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 8;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFilterByCharacValueFieldBuilder() {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFilterByCharacValue(),
                   getParentForChildren(),
                   isClean());
@@ -2421,29 +2421,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue negateFilterByParams_ = null;
+      private io.dstore.Values.booleanValue negateFilterByParams_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
       public boolean hasNegateFilterByParams() {
         return negateFilterByParamsBuilder_ != null || negateFilterByParams_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
-      public io.dstore.engine.Values.booleanValue getNegateFilterByParams() {
+      public io.dstore.Values.booleanValue getNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
-          return negateFilterByParams_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+          return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
         } else {
           return negateFilterByParamsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
-      public Builder setNegateFilterByParams(io.dstore.engine.Values.booleanValue value) {
+      public Builder setNegateFilterByParams(io.dstore.Values.booleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2457,10 +2457,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
       public Builder setNegateFilterByParams(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParams_ = builderForValue.build();
           onChanged();
@@ -2471,13 +2471,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
-      public Builder mergeNegateFilterByParams(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeNegateFilterByParams(io.dstore.Values.booleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (negateFilterByParams_ != null) {
             negateFilterByParams_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
           } else {
             negateFilterByParams_ = value;
           }
@@ -2489,7 +2489,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
       public Builder clearNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
@@ -2503,33 +2503,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
         
         onChanged();
         return getNegateFilterByParamsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
         if (negateFilterByParamsBuilder_ != null) {
           return negateFilterByParamsBuilder_.getMessageOrBuilder();
         } else {
           return negateFilterByParams_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 9;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getNegateFilterByParamsFieldBuilder() {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParamsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getNegateFilterByParams(),
                   getParentForChildren(),
                   isClean());
@@ -2564,29 +2564,29 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeVariantOrItemNoNodes_ = null;
+      private io.dstore.Values.booleanValue includeVariantOrItemNoNodes_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeVariantOrItemNoNodesBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeVariantOrItemNoNodesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
       public boolean hasIncludeVariantOrItemNoNodes() {
         return includeVariantOrItemNoNodesBuilder_ != null || includeVariantOrItemNoNodes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeVariantOrItemNoNodes() {
+      public io.dstore.Values.booleanValue getIncludeVariantOrItemNoNodes() {
         if (includeVariantOrItemNoNodesBuilder_ == null) {
-          return includeVariantOrItemNoNodes_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeVariantOrItemNoNodes_;
+          return includeVariantOrItemNoNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeVariantOrItemNoNodes_;
         } else {
           return includeVariantOrItemNoNodesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
-      public Builder setIncludeVariantOrItemNoNodes(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeVariantOrItemNoNodes(io.dstore.Values.booleanValue value) {
         if (includeVariantOrItemNoNodesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2600,10 +2600,10 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
       public Builder setIncludeVariantOrItemNoNodes(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeVariantOrItemNoNodesBuilder_ == null) {
           includeVariantOrItemNoNodes_ = builderForValue.build();
           onChanged();
@@ -2614,13 +2614,13 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
-      public Builder mergeIncludeVariantOrItemNoNodes(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeVariantOrItemNoNodes(io.dstore.Values.booleanValue value) {
         if (includeVariantOrItemNoNodesBuilder_ == null) {
           if (includeVariantOrItemNoNodes_ != null) {
             includeVariantOrItemNoNodes_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeVariantOrItemNoNodes_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeVariantOrItemNoNodes_).mergeFrom(value).buildPartial();
           } else {
             includeVariantOrItemNoNodes_ = value;
           }
@@ -2632,7 +2632,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
       public Builder clearIncludeVariantOrItemNoNodes() {
         if (includeVariantOrItemNoNodesBuilder_ == null) {
@@ -2646,33 +2646,33 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeVariantOrItemNoNodesBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeVariantOrItemNoNodesBuilder() {
         
         onChanged();
         return getIncludeVariantOrItemNoNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeVariantOrItemNoNodesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeVariantOrItemNoNodesOrBuilder() {
         if (includeVariantOrItemNoNodesBuilder_ != null) {
           return includeVariantOrItemNoNodesBuilder_.getMessageOrBuilder();
         } else {
           return includeVariantOrItemNoNodes_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeVariantOrItemNoNodes_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeVariantOrItemNoNodes_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
+       * <code>optional .dstore.values.booleanValue include_variant_or_item_no_nodes = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeVariantOrItemNoNodesFieldBuilder() {
         if (includeVariantOrItemNoNodesBuilder_ == null) {
           includeVariantOrItemNoNodesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeVariantOrItemNoNodes(),
                   getParentForChildren(),
                   isClean());
@@ -2994,7 +2994,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+       * <code>optional .dstore.values.stringValue category = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Product"
@@ -3002,24 +3002,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+       * <code>optional .dstore.values.stringValue category = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Product"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCategory();
+      io.dstore.Values.stringValue getCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+       * <code>optional .dstore.values.stringValue category = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Product"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCategoryOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCategoryOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+       * <code>optional .dstore.values.integerValue counter = 10002;</code>
        *
        * <pre>
        * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
@@ -3027,24 +3027,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasCounter();
       /**
-       * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+       * <code>optional .dstore.values.integerValue counter = 10002;</code>
        *
        * <pre>
        * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCounter();
+      io.dstore.Values.integerValue getCounter();
       /**
-       * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+       * <code>optional .dstore.values.integerValue counter = 10002;</code>
        *
        * <pre>
        * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCounterOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCounterOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
@@ -3052,24 +3052,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeId();
+      io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
@@ -3077,24 +3077,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTreeNodeId();
+      io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+       * <code>optional .dstore.values.stringValue product = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
@@ -3102,24 +3102,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasProduct();
       /**
-       * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+       * <code>optional .dstore.values.stringValue product = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getProduct();
+      io.dstore.Values.stringValue getProduct();
       /**
-       * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+       * <code>optional .dstore.values.stringValue product = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getProductOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getProductOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+       * <code>optional .dstore.values.stringValue domain = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Category"
@@ -3127,24 +3127,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasDomain();
       /**
-       * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+       * <code>optional .dstore.values.stringValue domain = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Category"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDomain();
+      io.dstore.Values.stringValue getDomain();
       /**
-       * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+       * <code>optional .dstore.values.stringValue domain = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Category"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDomainOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDomainOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+       * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
@@ -3152,24 +3152,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasCategoryTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+       * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCategoryTreeNodeId();
+      io.dstore.Values.integerValue getCategoryTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+       * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCategoryTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCategoryTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+       * <code>optional .dstore.values.booleanValue active = 20002;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -3177,24 +3177,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+       * <code>optional .dstore.values.booleanValue active = 20002;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getActive();
+      io.dstore.Values.booleanValue getActive();
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+       * <code>optional .dstore.values.booleanValue active = 20002;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+       * <code>optional .dstore.values.integerValue level_no = 20005;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
@@ -3202,24 +3202,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasLevelNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+       * <code>optional .dstore.values.integerValue level_no = 20005;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLevelNo();
+      io.dstore.Values.integerValue getLevelNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+       * <code>optional .dstore.values.integerValue level_no = 20005;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
@@ -3227,24 +3227,24 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasDomainTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getDomainTreeNodeId();
+      io.dstore.Values.integerValue getDomainTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+       * <code>optional .dstore.values.integerValue level_id = 20011;</code>
        *
        * <pre>
        * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
@@ -3252,21 +3252,21 @@ public final class OmCustomerWhoBoughtAlsoBought {
        */
       boolean hasLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+       * <code>optional .dstore.values.integerValue level_id = 20011;</code>
        *
        * <pre>
        * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLevelId();
+      io.dstore.Values.integerValue getLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+       * <code>optional .dstore.values.integerValue level_id = 20011;</code>
        *
        * <pre>
        * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_CustomerWhoBoughtAlsoBought.Response.Row}
@@ -3313,11 +3313,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (category_ != null) {
                   subBuilder = category_.toBuilder();
                 }
-                category_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                category_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(category_);
                   category_ = subBuilder.buildPartial();
@@ -3326,11 +3326,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (counter_ != null) {
                   subBuilder = counter_.toBuilder();
                 }
-                counter_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                counter_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(counter_);
                   counter_ = subBuilder.buildPartial();
@@ -3339,11 +3339,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -3352,11 +3352,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -3365,11 +3365,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (product_ != null) {
                   subBuilder = product_.toBuilder();
                 }
-                product_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                product_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(product_);
                   product_ = subBuilder.buildPartial();
@@ -3378,11 +3378,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (domain_ != null) {
                   subBuilder = domain_.toBuilder();
                 }
-                domain_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                domain_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domain_);
                   domain_ = subBuilder.buildPartial();
@@ -3391,11 +3391,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 160010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (categoryTreeNodeId_ != null) {
                   subBuilder = categoryTreeNodeId_.toBuilder();
                 }
-                categoryTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                categoryTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryTreeNodeId_);
                   categoryTreeNodeId_ = subBuilder.buildPartial();
@@ -3404,11 +3404,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 160018: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                active_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -3417,11 +3417,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 160042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -3430,11 +3430,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 160050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (domainTreeNodeId_ != null) {
                   subBuilder = domainTreeNodeId_.toBuilder();
                 }
-                domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                domainTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domainTreeNodeId_);
                   domainTreeNodeId_ = subBuilder.buildPartial();
@@ -3443,11 +3443,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 break;
               }
               case 160090: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (levelId_ != null) {
                   subBuilder = levelId_.toBuilder();
                 }
-                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                levelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelId_);
                   levelId_ = subBuilder.buildPartial();
@@ -3489,9 +3489,9 @@ public final class OmCustomerWhoBoughtAlsoBought {
       }
 
       public static final int CATEGORY_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue category_;
+      private io.dstore.Values.stringValue category_;
       /**
-       * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+       * <code>optional .dstore.values.stringValue category = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Product"
@@ -3501,30 +3501,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return category_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+       * <code>optional .dstore.values.stringValue category = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Product"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCategory() {
-        return category_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : category_;
+      public io.dstore.Values.stringValue getCategory() {
+        return category_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : category_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+       * <code>optional .dstore.values.stringValue category = 10001;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Product"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCategoryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCategoryOrBuilder() {
         return getCategory();
       }
 
       public static final int COUNTER_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue counter_;
+      private io.dstore.Values.integerValue counter_;
       /**
-       * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+       * <code>optional .dstore.values.integerValue counter = 10002;</code>
        *
        * <pre>
        * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
@@ -3534,30 +3534,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return counter_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+       * <code>optional .dstore.values.integerValue counter = 10002;</code>
        *
        * <pre>
        * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCounter() {
-        return counter_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : counter_;
+      public io.dstore.Values.integerValue getCounter() {
+        return counter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : counter_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+       * <code>optional .dstore.values.integerValue counter = 10002;</code>
        *
        * <pre>
        * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCounterOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCounterOrBuilder() {
         return getCounter();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue nodeId_;
+      private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
@@ -3567,30 +3567,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.Values.integerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue treeNodeId_;
+      private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
@@ -3600,30 +3600,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.Values.integerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int PRODUCT_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue product_;
+      private io.dstore.Values.stringValue product_;
       /**
-       * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+       * <code>optional .dstore.values.stringValue product = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
@@ -3633,30 +3633,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return product_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+       * <code>optional .dstore.values.stringValue product = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getProduct() {
-        return product_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : product_;
+      public io.dstore.Values.stringValue getProduct() {
+        return product_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : product_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+       * <code>optional .dstore.values.stringValue product = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getProductOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getProductOrBuilder() {
         return getProduct();
       }
 
       public static final int DOMAIN_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue domain_;
+      private io.dstore.Values.stringValue domain_;
       /**
-       * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+       * <code>optional .dstore.values.stringValue domain = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Category"
@@ -3666,30 +3666,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return domain_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+       * <code>optional .dstore.values.stringValue domain = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Category"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDomain() {
-        return domain_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : domain_;
+      public io.dstore.Values.stringValue getDomain() {
+        return domain_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : domain_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+       * <code>optional .dstore.values.stringValue domain = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Vorgänger-Elementes von "Category"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDomainOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDomainOrBuilder() {
         return getDomain();
       }
 
       public static final int CATEGORY_TREE_NODE_ID_FIELD_NUMBER = 20001;
-      private io.dstore.engine.Values.integerValue categoryTreeNodeId_;
+      private io.dstore.Values.integerValue categoryTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+       * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
@@ -3699,30 +3699,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return categoryTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+       * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCategoryTreeNodeId() {
-        return categoryTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : categoryTreeNodeId_;
+      public io.dstore.Values.integerValue getCategoryTreeNodeId() {
+        return categoryTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : categoryTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+       * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCategoryTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCategoryTreeNodeIdOrBuilder() {
         return getCategoryTreeNodeId();
       }
 
       public static final int ACTIVE_FIELD_NUMBER = 20002;
-      private io.dstore.engine.Values.booleanValue active_;
+      private io.dstore.Values.booleanValue active_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+       * <code>optional .dstore.values.booleanValue active = 20002;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -3732,30 +3732,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+       * <code>optional .dstore.values.booleanValue active = 20002;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getActive() {
-        return active_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+      public io.dstore.Values.booleanValue getActive() {
+        return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+       * <code>optional .dstore.values.booleanValue active = 20002;</code>
        *
        * <pre>
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
       }
 
       public static final int LEVEL_NO_FIELD_NUMBER = 20005;
-      private io.dstore.engine.Values.integerValue levelNo_;
+      private io.dstore.Values.integerValue levelNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+       * <code>optional .dstore.values.integerValue level_no = 20005;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
@@ -3765,30 +3765,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+       * <code>optional .dstore.values.integerValue level_no = 20005;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLevelNo() {
-        return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+      public io.dstore.Values.integerValue getLevelNo() {
+        return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+       * <code>optional .dstore.values.integerValue level_no = 20005;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
       }
 
       public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 20006;
-      private io.dstore.engine.Values.integerValue domainTreeNodeId_;
+      private io.dstore.Values.integerValue domainTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
@@ -3798,30 +3798,30 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getDomainTreeNodeId() {
-        return domainTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+      public io.dstore.Values.integerValue getDomainTreeNodeId() {
+        return domainTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         return getDomainTreeNodeId();
       }
 
       public static final int LEVEL_ID_FIELD_NUMBER = 20011;
-      private io.dstore.engine.Values.integerValue levelId_;
+      private io.dstore.Values.integerValue levelId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+       * <code>optional .dstore.values.integerValue level_id = 20011;</code>
        *
        * <pre>
        * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
@@ -3831,23 +3831,23 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return levelId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+       * <code>optional .dstore.values.integerValue level_id = 20011;</code>
        *
        * <pre>
        * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLevelId() {
-        return levelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+      public io.dstore.Values.integerValue getLevelId() {
+        return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+       * <code>optional .dstore.values.integerValue level_id = 20011;</code>
        *
        * <pre>
        * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
       }
 
@@ -4314,11 +4314,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue category_ = null;
+        private io.dstore.Values.stringValue category_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> categoryBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
@@ -4328,27 +4328,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return categoryBuilder_ != null || category_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCategory() {
+        public io.dstore.Values.stringValue getCategory() {
           if (categoryBuilder_ == null) {
-            return category_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : category_;
+            return category_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : category_;
           } else {
             return categoryBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
-        public Builder setCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder setCategory(io.dstore.Values.stringValue value) {
           if (categoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4362,14 +4362,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
         public Builder setCategory(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (categoryBuilder_ == null) {
             category_ = builderForValue.build();
             onChanged();
@@ -4380,17 +4380,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
-        public Builder mergeCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCategory(io.dstore.Values.stringValue value) {
           if (categoryBuilder_ == null) {
             if (category_ != null) {
               category_ =
-                io.dstore.engine.Values.stringValue.newBuilder(category_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(category_).mergeFrom(value).buildPartial();
             } else {
               category_ = value;
             }
@@ -4402,7 +4402,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
@@ -4420,45 +4420,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCategoryBuilder() {
+        public io.dstore.Values.stringValue.Builder getCategoryBuilder() {
           
           onChanged();
           return getCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCategoryOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCategoryOrBuilder() {
           if (categoryBuilder_ != null) {
             return categoryBuilder_.getMessageOrBuilder();
           } else {
             return category_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : category_;
+                io.dstore.Values.stringValue.getDefaultInstance() : category_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category = 10001;</code>
+         * <code>optional .dstore.values.stringValue category = 10001;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Product"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCategoryFieldBuilder() {
           if (categoryBuilder_ == null) {
             categoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCategory(),
                     getParentForChildren(),
                     isClean());
@@ -4467,11 +4467,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return categoryBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue counter_ = null;
+        private io.dstore.Values.integerValue counter_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> counterBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> counterBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
@@ -4481,27 +4481,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return counterBuilder_ != null || counter_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCounter() {
+        public io.dstore.Values.integerValue getCounter() {
           if (counterBuilder_ == null) {
-            return counter_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : counter_;
+            return counter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : counter_;
           } else {
             return counterBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
-        public Builder setCounter(io.dstore.engine.Values.integerValue value) {
+        public Builder setCounter(io.dstore.Values.integerValue value) {
           if (counterBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4515,14 +4515,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
         public Builder setCounter(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (counterBuilder_ == null) {
             counter_ = builderForValue.build();
             onChanged();
@@ -4533,17 +4533,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
-        public Builder mergeCounter(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCounter(io.dstore.Values.integerValue value) {
           if (counterBuilder_ == null) {
             if (counter_ != null) {
               counter_ =
-                io.dstore.engine.Values.integerValue.newBuilder(counter_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(counter_).mergeFrom(value).buildPartial();
             } else {
               counter_ = value;
             }
@@ -4555,7 +4555,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
@@ -4573,45 +4573,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCounterBuilder() {
+        public io.dstore.Values.integerValue.Builder getCounterBuilder() {
           
           onChanged();
           return getCounterFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCounterOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCounterOrBuilder() {
           if (counterBuilder_ != null) {
             return counterBuilder_.getMessageOrBuilder();
           } else {
             return counter_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : counter_;
+                io.dstore.Values.integerValue.getDefaultInstance() : counter_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue counter = 10002;</code>
+         * <code>optional .dstore.values.integerValue counter = 10002;</code>
          *
          * <pre>
          * Wie oft wurde der Artikel "NodeID" bestellt (nicht : wieVIEL wurde von dem Artikel bestellt !)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCounterFieldBuilder() {
           if (counterBuilder_ == null) {
             counterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCounter(),
                     getParentForChildren(),
                     isClean());
@@ -4620,11 +4620,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return counterBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeId_ = null;
+        private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
@@ -4634,27 +4634,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeId() {
+        public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
-        public Builder setNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4668,14 +4668,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
         public Builder setNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -4686,17 +4686,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
-        public Builder mergeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -4708,7 +4708,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
@@ -4726,45 +4726,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das Kunden bestellt haben, die den Artikel "&#64;VariantOrItemNo" gekauft haben
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -4773,11 +4773,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+        private io.dstore.Values.integerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
@@ -4787,27 +4787,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTreeNodeId() {
+        public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
-        public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4821,14 +4821,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
         public Builder setTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -4839,17 +4839,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
-        public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -4861,7 +4861,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
@@ -4879,45 +4879,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -4926,11 +4926,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue product_ = null;
+        private io.dstore.Values.stringValue product_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> productBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> productBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
@@ -4940,27 +4940,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return productBuilder_ != null || product_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getProduct() {
+        public io.dstore.Values.stringValue getProduct() {
           if (productBuilder_ == null) {
-            return product_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : product_;
+            return product_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : product_;
           } else {
             return productBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
-        public Builder setProduct(io.dstore.engine.Values.stringValue value) {
+        public Builder setProduct(io.dstore.Values.stringValue value) {
           if (productBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4974,14 +4974,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
         public Builder setProduct(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (productBuilder_ == null) {
             product_ = builderForValue.build();
             onChanged();
@@ -4992,17 +4992,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
-        public Builder mergeProduct(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeProduct(io.dstore.Values.stringValue value) {
           if (productBuilder_ == null) {
             if (product_ != null) {
               product_ =
-                io.dstore.engine.Values.stringValue.newBuilder(product_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(product_).mergeFrom(value).buildPartial();
             } else {
               product_ = value;
             }
@@ -5014,7 +5014,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
@@ -5032,45 +5032,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getProductBuilder() {
+        public io.dstore.Values.stringValue.Builder getProductBuilder() {
           
           onChanged();
           return getProductFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getProductOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getProductOrBuilder() {
           if (productBuilder_ != null) {
             return productBuilder_.getMessageOrBuilder();
           } else {
             return product_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : product_;
+                io.dstore.Values.stringValue.getDefaultInstance() : product_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue product = 10005;</code>
+         * <code>optional .dstore.values.stringValue product = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getProductFieldBuilder() {
           if (productBuilder_ == null) {
             productBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getProduct(),
                     getParentForChildren(),
                     isClean());
@@ -5079,11 +5079,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return productBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue domain_ = null;
+        private io.dstore.Values.stringValue domain_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> domainBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> domainBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
@@ -5093,27 +5093,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return domainBuilder_ != null || domain_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDomain() {
+        public io.dstore.Values.stringValue getDomain() {
           if (domainBuilder_ == null) {
-            return domain_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : domain_;
+            return domain_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : domain_;
           } else {
             return domainBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
-        public Builder setDomain(io.dstore.engine.Values.stringValue value) {
+        public Builder setDomain(io.dstore.Values.stringValue value) {
           if (domainBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5127,14 +5127,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
         public Builder setDomain(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (domainBuilder_ == null) {
             domain_ = builderForValue.build();
             onChanged();
@@ -5145,17 +5145,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
-        public Builder mergeDomain(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDomain(io.dstore.Values.stringValue value) {
           if (domainBuilder_ == null) {
             if (domain_ != null) {
               domain_ =
-                io.dstore.engine.Values.stringValue.newBuilder(domain_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(domain_).mergeFrom(value).buildPartial();
             } else {
               domain_ = value;
             }
@@ -5167,7 +5167,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
@@ -5185,45 +5185,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDomainBuilder() {
+        public io.dstore.Values.stringValue.Builder getDomainBuilder() {
           
           onChanged();
           return getDomainFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDomainOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDomainOrBuilder() {
           if (domainBuilder_ != null) {
             return domainBuilder_.getMessageOrBuilder();
           } else {
             return domain_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : domain_;
+                io.dstore.Values.stringValue.getDefaultInstance() : domain_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue domain = 10006;</code>
+         * <code>optional .dstore.values.stringValue domain = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Vorgänger-Elementes von "Category"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDomainFieldBuilder() {
           if (domainBuilder_ == null) {
             domainBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDomain(),
                     getParentForChildren(),
                     isClean());
@@ -5232,11 +5232,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return domainBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue categoryTreeNodeId_ = null;
+        private io.dstore.Values.integerValue categoryTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> categoryTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> categoryTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
@@ -5246,27 +5246,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return categoryTreeNodeIdBuilder_ != null || categoryTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCategoryTreeNodeId() {
+        public io.dstore.Values.integerValue getCategoryTreeNodeId() {
           if (categoryTreeNodeIdBuilder_ == null) {
-            return categoryTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : categoryTreeNodeId_;
+            return categoryTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : categoryTreeNodeId_;
           } else {
             return categoryTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
-        public Builder setCategoryTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCategoryTreeNodeId(io.dstore.Values.integerValue value) {
           if (categoryTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5280,14 +5280,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
         public Builder setCategoryTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (categoryTreeNodeIdBuilder_ == null) {
             categoryTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -5298,17 +5298,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
-        public Builder mergeCategoryTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCategoryTreeNodeId(io.dstore.Values.integerValue value) {
           if (categoryTreeNodeIdBuilder_ == null) {
             if (categoryTreeNodeId_ != null) {
               categoryTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(categoryTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(categoryTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               categoryTreeNodeId_ = value;
             }
@@ -5320,7 +5320,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
@@ -5338,45 +5338,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCategoryTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCategoryTreeNodeIdBuilder() {
           
           onChanged();
           return getCategoryTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCategoryTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCategoryTreeNodeIdOrBuilder() {
           if (categoryTreeNodeIdBuilder_ != null) {
             return categoryTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return categoryTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : categoryTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : categoryTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue category_tree_node_id = 20001;</code>
+         * <code>optional .dstore.values.integerValue category_tree_node_id = 20001;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Category") von "TreeNodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCategoryTreeNodeIdFieldBuilder() {
           if (categoryTreeNodeIdBuilder_ == null) {
             categoryTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCategoryTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5385,11 +5385,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return categoryTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue active_ = null;
+        private io.dstore.Values.booleanValue active_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> activeBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -5399,27 +5399,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getActive() {
+        public io.dstore.Values.booleanValue getActive() {
           if (activeBuilder_ == null) {
-            return active_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+            return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
           } else {
             return activeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public Builder setActive(io.dstore.engine.Values.booleanValue value) {
+        public Builder setActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5433,14 +5433,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
         public Builder setActive(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (activeBuilder_ == null) {
             active_ = builderForValue.build();
             onChanged();
@@ -5451,17 +5451,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public Builder mergeActive(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeActive(io.dstore.Values.booleanValue value) {
           if (activeBuilder_ == null) {
             if (active_ != null) {
               active_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
             } else {
               active_ = value;
             }
@@ -5473,7 +5473,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
@@ -5491,45 +5491,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getActiveBuilder() {
+        public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
           
           onChanged();
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getActiveOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
             return activeBuilder_.getMessageOrBuilder();
           } else {
             return active_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : active_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : active_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue active = 20002;</code>
+         * <code>optional .dstore.values.booleanValue active = 20002;</code>
          *
          * <pre>
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
             activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
                     isClean());
@@ -5538,11 +5538,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return activeBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue levelNo_ = null;
+        private io.dstore.Values.integerValue levelNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
@@ -5552,27 +5552,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return levelNoBuilder_ != null || levelNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLevelNo() {
+        public io.dstore.Values.integerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
-            return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+            return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
           } else {
             return levelNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder setLevelNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setLevelNo(io.dstore.Values.integerValue value) {
           if (levelNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5586,14 +5586,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
         public Builder setLevelNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (levelNoBuilder_ == null) {
             levelNo_ = builderForValue.build();
             onChanged();
@@ -5604,17 +5604,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder mergeLevelNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
           if (levelNoBuilder_ == null) {
             if (levelNo_ != null) {
               levelNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
             } else {
               levelNo_ = value;
             }
@@ -5626,7 +5626,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
@@ -5644,45 +5644,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLevelNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
           
           onChanged();
           return getLevelNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
             return levelNoBuilder_.getMessageOrBuilder();
           } else {
             return levelNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 20005;</code>
+         * <code>optional .dstore.values.integerValue level_no = 20005;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelNoFieldBuilder() {
           if (levelNoBuilder_ == null) {
             levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelNo(),
                     getParentForChildren(),
                     isClean());
@@ -5691,11 +5691,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return levelNoBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue domainTreeNodeId_ = null;
+        private io.dstore.Values.integerValue domainTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
@@ -5705,27 +5705,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getDomainTreeNodeId() {
+        public io.dstore.Values.integerValue getDomainTreeNodeId() {
           if (domainTreeNodeIdBuilder_ == null) {
-            return domainTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+            return domainTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
           } else {
             return domainTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
-        public Builder setDomainTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setDomainTreeNodeId(io.dstore.Values.integerValue value) {
           if (domainTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5739,14 +5739,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
         public Builder setDomainTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (domainTreeNodeIdBuilder_ == null) {
             domainTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -5757,17 +5757,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
-        public Builder mergeDomainTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeDomainTreeNodeId(io.dstore.Values.integerValue value) {
           if (domainTreeNodeIdBuilder_ == null) {
             if (domainTreeNodeId_ != null) {
               domainTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(domainTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(domainTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               domainTreeNodeId_ = value;
             }
@@ -5779,7 +5779,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
@@ -5797,45 +5797,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getDomainTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getDomainTreeNodeIdBuilder() {
           
           onChanged();
           return getDomainTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
           if (domainTreeNodeIdBuilder_ != null) {
             return domainTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return domainTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 20006;</code>
+         * <code>optional .dstore.values.integerValue domain_tree_node_id = 20006;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes (mit der Bezeichnung "Domain") von "CategoryTreeNodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getDomainTreeNodeIdFieldBuilder() {
           if (domainTreeNodeIdBuilder_ == null) {
             domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getDomainTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5844,11 +5844,11 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return domainTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue levelId_ = null;
+        private io.dstore.Values.integerValue levelId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
@@ -5858,27 +5858,27 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return levelIdBuilder_ != null || levelId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLevelId() {
+        public io.dstore.Values.integerValue getLevelId() {
           if (levelIdBuilder_ == null) {
-            return levelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+            return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
           } else {
             return levelIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
-        public Builder setLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLevelId(io.dstore.Values.integerValue value) {
           if (levelIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5892,14 +5892,14 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
         public Builder setLevelId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (levelIdBuilder_ == null) {
             levelId_ = builderForValue.build();
             onChanged();
@@ -5910,17 +5910,17 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
-        public Builder mergeLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLevelId(io.dstore.Values.integerValue value) {
           if (levelIdBuilder_ == null) {
             if (levelId_ != null) {
               levelId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
             } else {
               levelId_ = value;
             }
@@ -5932,7 +5932,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
@@ -5950,45 +5950,45 @@ public final class OmCustomerWhoBoughtAlsoBought {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLevelIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLevelIdBuilder() {
           
           onChanged();
           return getLevelIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
             return levelIdBuilder_.getMessageOrBuilder();
           } else {
             return levelId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 20011;</code>
+         * <code>optional .dstore.values.integerValue level_id = 20011;</code>
          *
          * <pre>
          * ID der Hierarchie von "NodeID" (entweder Produkt oder Variante)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelIdFieldBuilder() {
           if (levelIdBuilder_ == null) {
             levelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelId(),
                     getParentForChildren(),
                     isClean());
@@ -7558,59 +7558,56 @@ public final class OmCustomerWhoBoughtAlsoBought {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_CustomerWh" +
       "oBoughtAlsoBought.proto\022,dstore.engine.o" +
-      "m_CustomerWhoBoughtAlsoBought\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\372\007\n\nParam" +
-      "eters\022=\n\022variant_or_item_no\030\001 \001(\0132!.dsto" +
-      "re.engine.values.stringValue\022 \n\027variant_" +
-      "or_item_no_null\030\351\007 \001(\010\022D\n\030include_siblin" +
-      "g_variants\030\002 \001(\0132\".dstore.engine.values.",
-      "booleanValue\022&\n\035include_sibling_variants" +
-      "_null\030\352\007 \001(\010\0227\n\tfrom_date\030\003 \001(\0132$.dstore" +
-      ".engine.values.timestampValue\022\027\n\016from_da" +
-      "te_null\030\353\007 \001(\010\0225\n\007to_date\030\004 \001(\0132$.dstore" +
-      ".engine.values.timestampValue\022\025\n\014to_date" +
-      "_null\030\354\007 \001(\010\0227\n\013only_active\030\005 \001(\0132\".dsto" +
-      "re.engine.values.booleanValue\022\031\n\020only_ac" +
-      "tive_null\030\355\007 \001(\010\022?\n\023get_additional_info\030" +
-      "\006 \001(\0132\".dstore.engine.values.booleanValu" +
-      "e\022!\n\030get_additional_info_null\030\356\007 \001(\010\022G\n\033",
-      "filter_by_characteristic_id\030\007 \001(\0132\".dsto" +
-      "re.engine.values.integerValue\022)\n filter_" +
-      "by_characteristic_id_null\030\357\007 \001(\010\022A\n\026filt" +
-      "er_by_charac_value\030\010 \001(\0132!.dstore.engine" +
-      ".values.stringValue\022$\n\033filter_by_charac_" +
-      "value_null\030\360\007 \001(\010\022C\n\027negate_filter_by_pa" +
-      "rams\030\t \001(\0132\".dstore.engine.values.boolea" +
-      "nValue\022%\n\034negate_filter_by_params_null\030\361" +
-      "\007 \001(\010\022L\n include_variant_or_item_no_node" +
-      "s\030\n \001(\0132\".dstore.engine.values.booleanVa",
-      "lue\022.\n%include_variant_or_item_no_nodes_" +
-      "null\030\362\007 \001(\010\"\206\007\n\010Response\022)\n\005error\030\001 \001(\0132" +
-      "\032.dstore.engine.error.Error\022H\n\020meta_info" +
-      "rmation\030\002 \003(\0132..dstore.engine.metainform" +
-      "ation.MetaInformation\022/\n\007message\030\003 \003(\0132\036" +
-      ".dstore.engine.message.Message\022G\n\003row\030\004 " +
-      "\003(\0132:.dstore.engine.om_CustomerWhoBought" +
-      "AlsoBought.Response.Row\032\212\005\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005\0224\n\010category\030\221N \001(\0132!.dstore.eng" +
-      "ine.values.stringValue\0224\n\007counter\030\222N \001(\013",
-      "2\".dstore.engine.values.integerValue\0224\n\007" +
-      "node_id\030\223N \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\0229\n\014tree_node_id\030\224N \001(\0132\".dsto" +
-      "re.engine.values.integerValue\0223\n\007product" +
-      "\030\225N \001(\0132!.dstore.engine.values.stringVal" +
-      "ue\0222\n\006domain\030\226N \001(\0132!.dstore.engine.valu" +
-      "es.stringValue\022C\n\025category_tree_node_id\030" +
-      "\241\234\001 \001(\0132\".dstore.engine.values.integerVa" +
-      "lue\0224\n\006active\030\242\234\001 \001(\0132\".dstore.engine.va" +
-      "lues.booleanValue\0226\n\010level_no\030\245\234\001 \001(\0132\".",
-      "dstore.engine.values.integerValue\022A\n\023dom" +
-      "ain_tree_node_id\030\246\234\001 \001(\0132\".dstore.engine" +
-      ".values.integerValue\0226\n\010level_id\030\253\234\001 \001(\013" +
-      "2\".dstore.engine.values.integerValueB\035\n\033" +
-      "io.dstore.engine.proceduresb\006proto3"
+      "m_CustomerWhoBoughtAlsoBought\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\264\007\n\nParameters\0226" +
+      "\n\022variant_or_item_no\030\001 \001(\0132\032.dstore.valu" +
+      "es.stringValue\022 \n\027variant_or_item_no_nul" +
+      "l\030\351\007 \001(\010\022=\n\030include_sibling_variants\030\002 \001" +
+      "(\0132\033.dstore.values.booleanValue\022&\n\035inclu",
+      "de_sibling_variants_null\030\352\007 \001(\010\0220\n\tfrom_" +
+      "date\030\003 \001(\0132\035.dstore.values.timestampValu" +
+      "e\022\027\n\016from_date_null\030\353\007 \001(\010\022.\n\007to_date\030\004 " +
+      "\001(\0132\035.dstore.values.timestampValue\022\025\n\014to" +
+      "_date_null\030\354\007 \001(\010\0220\n\013only_active\030\005 \001(\0132\033" +
+      ".dstore.values.booleanValue\022\031\n\020only_acti" +
+      "ve_null\030\355\007 \001(\010\0228\n\023get_additional_info\030\006 " +
+      "\001(\0132\033.dstore.values.booleanValue\022!\n\030get_" +
+      "additional_info_null\030\356\007 \001(\010\022@\n\033filter_by" +
+      "_characteristic_id\030\007 \001(\0132\033.dstore.values",
+      ".integerValue\022)\n filter_by_characteristi" +
+      "c_id_null\030\357\007 \001(\010\022:\n\026filter_by_charac_val" +
+      "ue\030\010 \001(\0132\032.dstore.values.stringValue\022$\n\033" +
+      "filter_by_charac_value_null\030\360\007 \001(\010\022<\n\027ne" +
+      "gate_filter_by_params\030\t \001(\0132\033.dstore.val" +
+      "ues.booleanValue\022%\n\034negate_filter_by_par" +
+      "ams_null\030\361\007 \001(\010\022E\n include_variant_or_it" +
+      "em_no_nodes\030\n \001(\0132\033.dstore.values.boolea" +
+      "nValue\022.\n%include_variant_or_item_no_nod" +
+      "es_null\030\362\007 \001(\010\"\271\006\n\010Response\022)\n\005error\030\001 \001",
+      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
+      "nformation\030\002 \003(\0132..dstore.engine.metainf" +
+      "ormation.MetaInformation\022/\n\007message\030\003 \003(" +
+      "\0132\036.dstore.engine.message.Message\022G\n\003row" +
+      "\030\004 \003(\0132:.dstore.engine.om_CustomerWhoBou" +
+      "ghtAlsoBought.Response.Row\032\275\004\n\003Row\022\017\n\006ro" +
+      "w_id\030\220N \001(\005\022-\n\010category\030\221N \001(\0132\032.dstore." +
+      "values.stringValue\022-\n\007counter\030\222N \001(\0132\033.d" +
+      "store.values.integerValue\022-\n\007node_id\030\223N " +
+      "\001(\0132\033.dstore.values.integerValue\0222\n\014tree",
+      "_node_id\030\224N \001(\0132\033.dstore.values.integerV" +
+      "alue\022,\n\007product\030\225N \001(\0132\032.dstore.values.s" +
+      "tringValue\022+\n\006domain\030\226N \001(\0132\032.dstore.val" +
+      "ues.stringValue\022<\n\025category_tree_node_id" +
+      "\030\241\234\001 \001(\0132\033.dstore.values.integerValue\022-\n" +
+      "\006active\030\242\234\001 \001(\0132\033.dstore.values.booleanV" +
+      "alue\022/\n\010level_no\030\245\234\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022:\n\023domain_tree_node_id\030\246\234\001" +
+      " \001(\0132\033.dstore.values.integerValue\022/\n\010lev" +
+      "el_id\030\253\234\001 \001(\0132\033.dstore.values.integerVal",
+      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7623,7 +7620,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -7646,7 +7643,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_CustomerWhoBoughtAlsoBought_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Category", "Counter", "NodeId", "TreeNodeId", "Product", "Domain", "CategoryTreeNodeId", "Active", "LevelNo", "DomainTreeNodeId", "LevelId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

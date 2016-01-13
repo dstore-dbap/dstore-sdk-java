@@ -13,17 +13,17 @@ public final class CoGetMemberBinariesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class CoGetMemberBinariesPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getPersonIdentificationValues();
+    io.dstore.Values.stringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class CoGetMemberBinariesPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityId();
+    io.dstore.Values.integerValue getCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class CoGetMemberBinariesPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityMemberId();
+    io.dstore.Values.integerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool community_member_id_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class CoGetMemberBinariesPu {
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId();
+    io.dstore.Values.integerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
      * <code>optional bool community_binary_category_id_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class CoGetMemberBinariesPu {
     boolean getCommunityBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 6;</code>
      */
     boolean hasBinaryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getBinaryId();
+    io.dstore.Values.integerValue getBinaryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
 
     /**
      * <code>optional bool binary_id_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class CoGetMemberBinariesPu {
     boolean getBinaryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 7;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getSortNo();
+    io.dstore.Values.integerValue getSortNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class CoGetMemberBinariesPu {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
      */
     boolean hasOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId1();
+    io.dstore.Values.integerValue getOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id1_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class CoGetMemberBinariesPu {
     boolean getOutputCharacteristicId1Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
      */
     boolean hasOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId2();
+    io.dstore.Values.integerValue getOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id2_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class CoGetMemberBinariesPu {
     boolean getOutputCharacteristicId2Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
      */
     boolean hasOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId3();
+    io.dstore.Values.integerValue getOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id3_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class CoGetMemberBinariesPu {
     boolean getOutputCharacteristicId3Null();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    io.dstore.engine.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1011;</code>
@@ -260,11 +260,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -273,11 +273,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -286,11 +286,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -299,11 +299,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -312,11 +312,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -325,11 +325,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (binaryId_ != null) {
                 subBuilder = binaryId_.toBuilder();
               }
-              binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryId_);
                 binaryId_ = subBuilder.buildPartial();
@@ -338,11 +338,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -351,11 +351,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId1_ != null) {
                 subBuilder = outputCharacteristicId1_.toBuilder();
               }
-              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId1_);
                 outputCharacteristicId1_ = subBuilder.buildPartial();
@@ -364,11 +364,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId2_ != null) {
                 subBuilder = outputCharacteristicId2_.toBuilder();
               }
-              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId2_);
                 outputCharacteristicId2_ = subBuilder.buildPartial();
@@ -377,11 +377,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId3_ != null) {
                 subBuilder = outputCharacteristicId3_.toBuilder();
               }
-              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId3_);
                 outputCharacteristicId3_ = subBuilder.buildPartial();
@@ -390,11 +390,11 @@ public final class CoGetMemberBinariesPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -482,23 +482,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -512,23 +512,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue personIdentificationValues_;
+    private io.dstore.Values.stringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -542,23 +542,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue communityId_;
+    private io.dstore.Values.integerValue communityId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.Values.integerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -572,23 +572,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue communityMemberId_;
+    private io.dstore.Values.integerValue communityMemberId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityMemberId() {
-      return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    public io.dstore.Values.integerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
     }
 
@@ -602,23 +602,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue communityBinaryCategoryId_;
+    private io.dstore.Values.integerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId() {
-      return communityBinaryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+    public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
+      return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
     }
 
@@ -632,23 +632,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int BINARY_ID_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue binaryId_;
+    private io.dstore.Values.integerValue binaryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 6;</code>
      */
     public boolean hasBinaryId() {
       return binaryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getBinaryId() {
-      return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+    public io.dstore.Values.integerValue getBinaryId() {
+      return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+     * <code>optional .dstore.values.integerValue binary_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
       return getBinaryId();
     }
 
@@ -662,23 +662,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue sortNo_;
+    private io.dstore.Values.integerValue sortNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 7;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.Values.integerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+     * <code>optional .dstore.values.integerValue sort_no = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -692,23 +692,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID1_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId1_;
+    private io.dstore.Values.integerValue outputCharacteristicId1_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
      */
     public boolean hasOutputCharacteristicId1() {
       return outputCharacteristicId1_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
-      return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId1() {
+      return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
       return getOutputCharacteristicId1();
     }
 
@@ -722,23 +722,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID2_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId2_;
+    private io.dstore.Values.integerValue outputCharacteristicId2_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
      */
     public boolean hasOutputCharacteristicId2() {
       return outputCharacteristicId2_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
-      return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId2() {
+      return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
       return getOutputCharacteristicId2();
     }
 
@@ -752,23 +752,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID3_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId3_;
+    private io.dstore.Values.integerValue outputCharacteristicId3_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
      */
     public boolean hasOutputCharacteristicId3() {
       return outputCharacteristicId3_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
-      return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId3() {
+      return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
       return getOutputCharacteristicId3();
     }
 
@@ -782,23 +782,23 @@ public final class CoGetMemberBinariesPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.stringValue separatorInIdentVals_;
+    private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1378,29 +1378,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1414,10 +1414,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1428,13 +1428,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1446,7 +1446,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1460,33 +1460,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1521,29 +1521,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.Values.stringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.Values.stringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1557,10 +1557,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1571,13 +1571,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.engine.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1589,7 +1589,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1603,33 +1603,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1664,29 +1664,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityId_ = null;
+      private io.dstore.Values.integerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityId() {
+      public io.dstore.Values.integerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public Builder setCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1700,10 +1700,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1714,13 +1714,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public Builder mergeCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1732,7 +1732,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1746,33 +1746,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1807,29 +1807,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityMemberId_ = null;
+      private io.dstore.Values.integerValue communityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityMemberId() {
+      public io.dstore.Values.integerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
-          return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
         } else {
           return communityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public Builder setCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1843,10 +1843,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityMemberIdBuilder_ == null) {
           communityMemberId_ = builderForValue.build();
           onChanged();
@@ -1857,13 +1857,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public Builder mergeCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (communityMemberId_ != null) {
             communityMemberId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
           } else {
             communityMemberId_ = value;
           }
@@ -1875,7 +1875,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -1889,33 +1889,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
         
         onChanged();
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
           return communityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityMemberIdFieldBuilder() {
         if (communityMemberIdBuilder_ == null) {
           communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -1950,29 +1950,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityBinaryCategoryId_ = null;
+      private io.dstore.Values.integerValue communityBinaryCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId() {
+      public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
-          return communityBinaryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+          return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
         } else {
           return communityBinaryCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
-      public Builder setCommunityBinaryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1986,10 +1986,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
       public Builder setCommunityBinaryCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryId_ = builderForValue.build();
           onChanged();
@@ -2000,13 +2000,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
-      public Builder mergeCommunityBinaryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (communityBinaryCategoryId_ != null) {
             communityBinaryCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
           } else {
             communityBinaryCategoryId_ = value;
           }
@@ -2018,7 +2018,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -2032,33 +2032,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
         onChanged();
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
           return communityBinaryCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return communityBinaryCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityBinaryCategoryIdFieldBuilder() {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityBinaryCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -2093,29 +2093,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue binaryId_ = null;
+      private io.dstore.Values.integerValue binaryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
       public boolean hasBinaryId() {
         return binaryIdBuilder_ != null || binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getBinaryId() {
+      public io.dstore.Values.integerValue getBinaryId() {
         if (binaryIdBuilder_ == null) {
-          return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+          return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
         } else {
           return binaryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
-      public Builder setBinaryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setBinaryId(io.dstore.Values.integerValue value) {
         if (binaryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2129,10 +2129,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
       public Builder setBinaryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (binaryIdBuilder_ == null) {
           binaryId_ = builderForValue.build();
           onChanged();
@@ -2143,13 +2143,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
-      public Builder mergeBinaryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
         if (binaryIdBuilder_ == null) {
           if (binaryId_ != null) {
             binaryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
           } else {
             binaryId_ = value;
           }
@@ -2161,7 +2161,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
       public Builder clearBinaryId() {
         if (binaryIdBuilder_ == null) {
@@ -2175,33 +2175,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getBinaryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
         
         onChanged();
         return getBinaryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
         if (binaryIdBuilder_ != null) {
           return binaryIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 6;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBinaryIdFieldBuilder() {
         if (binaryIdBuilder_ == null) {
           binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBinaryId(),
                   getParentForChildren(),
                   isClean());
@@ -2236,29 +2236,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue sortNo_ = null;
+      private io.dstore.Values.integerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getSortNo() {
+      public io.dstore.Values.integerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
-      public Builder setSortNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.Values.integerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2272,10 +2272,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
       public Builder setSortNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -2286,13 +2286,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
-      public Builder mergeSortNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -2304,7 +2304,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -2318,33 +2318,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 7;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -2379,29 +2379,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId1_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId1_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
       public boolean hasOutputCharacteristicId1() {
         return outputCharacteristicId1Builder_ != null || outputCharacteristicId1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
-          return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+          return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         } else {
           return outputCharacteristicId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
-      public Builder setOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2415,10 +2415,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
       public Builder setOutputCharacteristicId1(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1_ = builderForValue.build();
           onChanged();
@@ -2429,13 +2429,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
-      public Builder mergeOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (outputCharacteristicId1_ != null) {
             outputCharacteristicId1_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId1_ = value;
           }
@@ -2447,7 +2447,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
       public Builder clearOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
@@ -2461,33 +2461,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
         
         onChanged();
         return getOutputCharacteristicId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
         if (outputCharacteristicId1Builder_ != null) {
           return outputCharacteristicId1Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId1_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId1FieldBuilder() {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId1(),
                   getParentForChildren(),
                   isClean());
@@ -2522,29 +2522,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId2_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId2_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
       public boolean hasOutputCharacteristicId2() {
         return outputCharacteristicId2Builder_ != null || outputCharacteristicId2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
-          return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+          return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         } else {
           return outputCharacteristicId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
-      public Builder setOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2558,10 +2558,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
       public Builder setOutputCharacteristicId2(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2_ = builderForValue.build();
           onChanged();
@@ -2572,13 +2572,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
-      public Builder mergeOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (outputCharacteristicId2_ != null) {
             outputCharacteristicId2_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId2_ = value;
           }
@@ -2590,7 +2590,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
       public Builder clearOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
@@ -2604,33 +2604,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
         
         onChanged();
         return getOutputCharacteristicId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
         if (outputCharacteristicId2Builder_ != null) {
           return outputCharacteristicId2Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId2_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId2FieldBuilder() {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId2(),
                   getParentForChildren(),
                   isClean());
@@ -2665,29 +2665,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId3_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId3_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
       public boolean hasOutputCharacteristicId3() {
         return outputCharacteristicId3Builder_ != null || outputCharacteristicId3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
-          return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+          return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         } else {
           return outputCharacteristicId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
-      public Builder setOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2701,10 +2701,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
       public Builder setOutputCharacteristicId3(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3_ = builderForValue.build();
           onChanged();
@@ -2715,13 +2715,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
-      public Builder mergeOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (outputCharacteristicId3_ != null) {
             outputCharacteristicId3_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId3_ = value;
           }
@@ -2733,7 +2733,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
       public Builder clearOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
@@ -2747,33 +2747,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
         
         onChanged();
         return getOutputCharacteristicId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
         if (outputCharacteristicId3Builder_ != null) {
           return outputCharacteristicId3Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId3_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId3FieldBuilder() {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId3(),
                   getParentForChildren(),
                   isClean());
@@ -2808,29 +2808,29 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2844,10 +2844,10 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2858,13 +2858,13 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.engine.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2876,7 +2876,7 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2890,33 +2890,33 @@ public final class CoGetMemberBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -3238,7 +3238,7 @@ public final class CoGetMemberBinariesPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -3246,24 +3246,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1RestrictedByPattern();
+      io.dstore.Values.stringValue getValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
@@ -3271,24 +3271,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasBinaryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBinaryId();
+      io.dstore.Values.integerValue getBinaryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -3296,24 +3296,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2RestrictedByPattern();
+      io.dstore.Values.stringValue getValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
        *
        * <pre>
        * Beschreibung des Binärobjektes "BinaryID"
@@ -3321,24 +3321,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasBinaryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
        *
        * <pre>
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getBinaryDescription();
+      io.dstore.Values.stringValue getBinaryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
        *
        * <pre>
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
        *
        * <pre>
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
@@ -3346,24 +3346,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasInputDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
        *
        * <pre>
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getInputDateAndTime();
+      io.dstore.Values.timestampValue getInputDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
        *
        * <pre>
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue content_type = 10006;</code>
        *
        * <pre>
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
@@ -3371,24 +3371,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasContentType();
       /**
-       * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue content_type = 10006;</code>
        *
        * <pre>
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getContentType();
+      io.dstore.Values.stringValue getContentType();
       /**
-       * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue content_type = 10006;</code>
        *
        * <pre>
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getContentTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -3396,24 +3396,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3();
+      io.dstore.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
        *
        * <pre>
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
@@ -3421,24 +3421,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasFileDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
        *
        * <pre>
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getFileDateAndTime();
+      io.dstore.Values.timestampValue getFileDateAndTime();
       /**
-       * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
        *
        * <pre>
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -3446,24 +3446,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1();
+      io.dstore.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
        *
        * <pre>
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
@@ -3471,24 +3471,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasFilesizeInKB();
       /**
-       * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
        *
        * <pre>
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getFilesizeInKB();
+      io.dstore.Values.integerValue getFilesizeInKB();
       /**
-       * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
        *
        * <pre>
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getFilesizeInKBOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10011;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -3496,24 +3496,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10011;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2();
+      io.dstore.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10011;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
@@ -3521,24 +3521,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSortNo();
+      io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
@@ -3546,24 +3546,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasFromCommunityMemberId();
       /**
-       * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getFromCommunityMemberId();
+      io.dstore.Values.integerValue getFromCommunityMemberId();
       /**
-       * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+       * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
        *
        * <pre>
        * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
@@ -3571,24 +3571,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasQuotedFileSizeInKB();
       /**
-       * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+       * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
        *
        * <pre>
        * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getQuotedFileSizeInKB();
+      io.dstore.Values.integerValue getQuotedFileSizeInKB();
       /**
-       * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+       * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
        *
        * <pre>
        * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getQuotedFileSizeInKBOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getQuotedFileSizeInKBOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+       * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
        *
        * <pre>
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
@@ -3596,24 +3596,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasMD5Hash();
       /**
-       * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+       * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
        *
        * <pre>
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getMD5Hash();
+      io.dstore.Values.stringValue getMD5Hash();
       /**
-       * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+       * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
        *
        * <pre>
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getMD5HashOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getMD5HashOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -3621,24 +3621,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3RestrictedByPattern();
+      io.dstore.Values.stringValue getValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+       * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
        *
        * <pre>
        * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
@@ -3646,24 +3646,24 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasInputDateAndTimeChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+       * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
        *
        * <pre>
        * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getInputDateAndTimeChar();
+      io.dstore.Values.stringValue getInputDateAndTimeChar();
       /**
-       * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+       * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
        *
        * <pre>
        * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getInputDateAndTimeCharOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getInputDateAndTimeCharOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10018;</code>
        *
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3671,21 +3671,21 @@ public final class CoGetMemberBinariesPu {
        */
       boolean hasNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10018;</code>
        *
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getNickname();
+      io.dstore.Values.stringValue getNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10018;</code>
        *
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetMemberBinaries_Pu.Response.Row}
@@ -3732,11 +3732,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1RestrictedByPattern_ != null) {
                   subBuilder = value1RestrictedByPattern_.toBuilder();
                 }
-                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1RestrictedByPattern_);
                   value1RestrictedByPattern_ = subBuilder.buildPartial();
@@ -3745,11 +3745,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (binaryId_ != null) {
                   subBuilder = binaryId_.toBuilder();
                 }
-                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryId_);
                   binaryId_ = subBuilder.buildPartial();
@@ -3758,11 +3758,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2RestrictedByPattern_ != null) {
                   subBuilder = value2RestrictedByPattern_.toBuilder();
                 }
-                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2RestrictedByPattern_);
                   value2RestrictedByPattern_ = subBuilder.buildPartial();
@@ -3771,11 +3771,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (binaryDescription_ != null) {
                   subBuilder = binaryDescription_.toBuilder();
                 }
-                binaryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                binaryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryDescription_);
                   binaryDescription_ = subBuilder.buildPartial();
@@ -3784,11 +3784,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (inputDateAndTime_ != null) {
                   subBuilder = inputDateAndTime_.toBuilder();
                 }
-                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                inputDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTime_);
                   inputDateAndTime_ = subBuilder.buildPartial();
@@ -3797,11 +3797,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (contentType_ != null) {
                   subBuilder = contentType_.toBuilder();
                 }
-                contentType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                contentType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(contentType_);
                   contentType_ = subBuilder.buildPartial();
@@ -3810,11 +3810,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -3823,11 +3823,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (fileDateAndTime_ != null) {
                   subBuilder = fileDateAndTime_.toBuilder();
                 }
-                fileDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                fileDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fileDateAndTime_);
                   fileDateAndTime_ = subBuilder.buildPartial();
@@ -3836,11 +3836,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -3849,11 +3849,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (filesizeInKB_ != null) {
                   subBuilder = filesizeInKB_.toBuilder();
                 }
-                filesizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                filesizeInKB_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filesizeInKB_);
                   filesizeInKB_ = subBuilder.buildPartial();
@@ -3862,11 +3862,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -3875,11 +3875,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -3888,11 +3888,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80106: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (fromCommunityMemberId_ != null) {
                   subBuilder = fromCommunityMemberId_.toBuilder();
                 }
-                fromCommunityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                fromCommunityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromCommunityMemberId_);
                   fromCommunityMemberId_ = subBuilder.buildPartial();
@@ -3901,11 +3901,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80114: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (quotedFileSizeInKB_ != null) {
                   subBuilder = quotedFileSizeInKB_.toBuilder();
                 }
-                quotedFileSizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                quotedFileSizeInKB_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quotedFileSizeInKB_);
                   quotedFileSizeInKB_ = subBuilder.buildPartial();
@@ -3914,11 +3914,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80122: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (mD5Hash_ != null) {
                   subBuilder = mD5Hash_.toBuilder();
                 }
-                mD5Hash_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                mD5Hash_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mD5Hash_);
                   mD5Hash_ = subBuilder.buildPartial();
@@ -3927,11 +3927,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80130: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3RestrictedByPattern_ != null) {
                   subBuilder = value3RestrictedByPattern_.toBuilder();
                 }
-                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3RestrictedByPattern_);
                   value3RestrictedByPattern_ = subBuilder.buildPartial();
@@ -3940,11 +3940,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80138: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (inputDateAndTimeChar_ != null) {
                   subBuilder = inputDateAndTimeChar_.toBuilder();
                 }
-                inputDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                inputDateAndTimeChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTimeChar_);
                   inputDateAndTimeChar_ = subBuilder.buildPartial();
@@ -3953,11 +3953,11 @@ public final class CoGetMemberBinariesPu {
                 break;
               }
               case 80146: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (nickname_ != null) {
                   subBuilder = nickname_.toBuilder();
                 }
-                nickname_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                nickname_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nickname_);
                   nickname_ = subBuilder.buildPartial();
@@ -3999,9 +3999,9 @@ public final class CoGetMemberBinariesPu {
       }
 
       public static final int VALUE1_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue value1RestrictedByPattern_;
+      private io.dstore.Values.stringValue value1RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -4011,30 +4011,30 @@ public final class CoGetMemberBinariesPu {
         return value1RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
-        return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
+        return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
         return getValue1RestrictedByPattern();
       }
 
       public static final int BINARY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue binaryId_;
+      private io.dstore.Values.integerValue binaryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
@@ -4044,30 +4044,30 @@ public final class CoGetMemberBinariesPu {
         return binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBinaryId() {
-        return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+      public io.dstore.Values.integerValue getBinaryId() {
+        return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
         return getBinaryId();
       }
 
       public static final int VALUE2_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue value2RestrictedByPattern_;
+      private io.dstore.Values.stringValue value2RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -4077,30 +4077,30 @@ public final class CoGetMemberBinariesPu {
         return value2RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
-        return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
+        return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
         return getValue2RestrictedByPattern();
       }
 
       public static final int BINARY_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue binaryDescription_;
+      private io.dstore.Values.stringValue binaryDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
        *
        * <pre>
        * Beschreibung des Binärobjektes "BinaryID"
@@ -4110,30 +4110,30 @@ public final class CoGetMemberBinariesPu {
         return binaryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
        *
        * <pre>
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getBinaryDescription() {
-        return binaryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : binaryDescription_;
+      public io.dstore.Values.stringValue getBinaryDescription() {
+        return binaryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+       * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
        *
        * <pre>
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
         return getBinaryDescription();
       }
 
       public static final int INPUT_DATE_AND_TIME_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.timestampValue inputDateAndTime_;
+      private io.dstore.Values.timestampValue inputDateAndTime_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
        *
        * <pre>
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
@@ -4143,30 +4143,30 @@ public final class CoGetMemberBinariesPu {
         return inputDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
        *
        * <pre>
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getInputDateAndTime() {
-        return inputDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+      public io.dstore.Values.timestampValue getInputDateAndTime() {
+        return inputDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
        *
        * <pre>
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
         return getInputDateAndTime();
       }
 
       public static final int CONTENT_TYPE_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue contentType_;
+      private io.dstore.Values.stringValue contentType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue content_type = 10006;</code>
        *
        * <pre>
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
@@ -4176,30 +4176,30 @@ public final class CoGetMemberBinariesPu {
         return contentType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue content_type = 10006;</code>
        *
        * <pre>
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getContentType() {
-        return contentType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : contentType_;
+      public io.dstore.Values.stringValue getContentType() {
+        return contentType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+       * <code>optional .dstore.values.stringValue content_type = 10006;</code>
        *
        * <pre>
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getContentTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder() {
         return getContentType();
       }
 
       public static final int VALUE3_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue value3_;
+      private io.dstore.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -4209,30 +4209,30 @@ public final class CoGetMemberBinariesPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3() {
-        return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+      public io.dstore.Values.stringValue getValue3() {
+        return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
       }
 
       public static final int FILE_DATE_AND_TIME_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.timestampValue fileDateAndTime_;
+      private io.dstore.Values.timestampValue fileDateAndTime_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
        *
        * <pre>
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
@@ -4242,30 +4242,30 @@ public final class CoGetMemberBinariesPu {
         return fileDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
        *
        * <pre>
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getFileDateAndTime() {
-        return fileDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
+      public io.dstore.Values.timestampValue getFileDateAndTime() {
+        return fileDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
        *
        * <pre>
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder() {
         return getFileDateAndTime();
       }
 
       public static final int VALUE1_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue value1_;
+      private io.dstore.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -4275,30 +4275,30 @@ public final class CoGetMemberBinariesPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1() {
-        return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+      public io.dstore.Values.stringValue getValue1() {
+        return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
       }
 
       public static final int FILESIZE_IN_K_B_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.integerValue filesizeInKB_;
+      private io.dstore.Values.integerValue filesizeInKB_;
       /**
-       * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
        *
        * <pre>
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
@@ -4308,30 +4308,30 @@ public final class CoGetMemberBinariesPu {
         return filesizeInKB_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
        *
        * <pre>
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getFilesizeInKB() {
-        return filesizeInKB_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filesizeInKB_;
+      public io.dstore.Values.integerValue getFilesizeInKB() {
+        return filesizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+       * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
        *
        * <pre>
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
         return getFilesizeInKB();
       }
 
       public static final int VALUE2_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.stringValue value2_;
+      private io.dstore.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10011;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -4341,30 +4341,30 @@ public final class CoGetMemberBinariesPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10011;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2() {
-        return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+      public io.dstore.Values.stringValue getValue2() {
+        return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10011;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.integerValue sortNo_;
+      private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
@@ -4374,30 +4374,30 @@ public final class CoGetMemberBinariesPu {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.Values.integerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int FROM_COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10013;
-      private io.dstore.engine.Values.integerValue fromCommunityMemberId_;
+      private io.dstore.Values.integerValue fromCommunityMemberId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
@@ -4407,30 +4407,30 @@ public final class CoGetMemberBinariesPu {
         return fromCommunityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getFromCommunityMemberId() {
-        return fromCommunityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
+      public io.dstore.Values.integerValue getFromCommunityMemberId() {
+        return fromCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+       * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
         return getFromCommunityMemberId();
       }
 
       public static final int QUOTED_FILE_SIZE_IN_K_B_FIELD_NUMBER = 10014;
-      private io.dstore.engine.Values.integerValue quotedFileSizeInKB_;
+      private io.dstore.Values.integerValue quotedFileSizeInKB_;
       /**
-       * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+       * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
        *
        * <pre>
        * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
@@ -4440,30 +4440,30 @@ public final class CoGetMemberBinariesPu {
         return quotedFileSizeInKB_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+       * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
        *
        * <pre>
        * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getQuotedFileSizeInKB() {
-        return quotedFileSizeInKB_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : quotedFileSizeInKB_;
+      public io.dstore.Values.integerValue getQuotedFileSizeInKB() {
+        return quotedFileSizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quotedFileSizeInKB_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+       * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
        *
        * <pre>
        * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getQuotedFileSizeInKBOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getQuotedFileSizeInKBOrBuilder() {
         return getQuotedFileSizeInKB();
       }
 
       public static final int M_D5_HASH_FIELD_NUMBER = 10015;
-      private io.dstore.engine.Values.stringValue mD5Hash_;
+      private io.dstore.Values.stringValue mD5Hash_;
       /**
-       * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+       * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
        *
        * <pre>
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
@@ -4473,30 +4473,30 @@ public final class CoGetMemberBinariesPu {
         return mD5Hash_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+       * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
        *
        * <pre>
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getMD5Hash() {
-        return mD5Hash_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : mD5Hash_;
+      public io.dstore.Values.stringValue getMD5Hash() {
+        return mD5Hash_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : mD5Hash_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+       * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
        *
        * <pre>
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getMD5HashOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getMD5HashOrBuilder() {
         return getMD5Hash();
       }
 
       public static final int VALUE3_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10016;
-      private io.dstore.engine.Values.stringValue value3RestrictedByPattern_;
+      private io.dstore.Values.stringValue value3RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -4506,30 +4506,30 @@ public final class CoGetMemberBinariesPu {
         return value3RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
-        return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
+        return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
         return getValue3RestrictedByPattern();
       }
 
       public static final int INPUT_DATE_AND_TIME_CHAR_FIELD_NUMBER = 10017;
-      private io.dstore.engine.Values.stringValue inputDateAndTimeChar_;
+      private io.dstore.Values.stringValue inputDateAndTimeChar_;
       /**
-       * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+       * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
        *
        * <pre>
        * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
@@ -4539,30 +4539,30 @@ public final class CoGetMemberBinariesPu {
         return inputDateAndTimeChar_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+       * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
        *
        * <pre>
        * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getInputDateAndTimeChar() {
-        return inputDateAndTimeChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : inputDateAndTimeChar_;
+      public io.dstore.Values.stringValue getInputDateAndTimeChar() {
+        return inputDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : inputDateAndTimeChar_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+       * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
        *
        * <pre>
        * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInputDateAndTimeCharOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInputDateAndTimeCharOrBuilder() {
         return getInputDateAndTimeChar();
       }
 
       public static final int NICKNAME_FIELD_NUMBER = 10018;
-      private io.dstore.engine.Values.stringValue nickname_;
+      private io.dstore.Values.stringValue nickname_;
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10018;</code>
        *
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -4572,23 +4572,23 @@ public final class CoGetMemberBinariesPu {
         return nickname_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10018;</code>
        *
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getNickname() {
-        return nickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+      public io.dstore.Values.stringValue getNickname() {
+        return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10018;</code>
        *
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
         return getNickname();
       }
 
@@ -5202,11 +5202,11 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue value1RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value1RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -5216,27 +5216,27 @@ public final class CoGetMemberBinariesPu {
           return value1RestrictedByPatternBuilder_ != null || value1RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
-            return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+            return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           } else {
             return value1RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder setValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5250,14 +5250,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         public Builder setValue1RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -5268,17 +5268,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value1RestrictedByPattern_ != null) {
               value1RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value1RestrictedByPattern_ = value;
             }
@@ -5290,7 +5290,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -5308,45 +5308,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue1RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
           if (value1RestrictedByPatternBuilder_ != null) {
             return value1RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value1RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1RestrictedByPatternFieldBuilder() {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -5355,11 +5355,11 @@ public final class CoGetMemberBinariesPu {
           return value1RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue binaryId_ = null;
+        private io.dstore.Values.integerValue binaryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
@@ -5369,27 +5369,27 @@ public final class CoGetMemberBinariesPu {
           return binaryIdBuilder_ != null || binaryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBinaryId() {
+        public io.dstore.Values.integerValue getBinaryId() {
           if (binaryIdBuilder_ == null) {
-            return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+            return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
           } else {
             return binaryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
-        public Builder setBinaryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5403,14 +5403,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
         public Builder setBinaryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (binaryIdBuilder_ == null) {
             binaryId_ = builderForValue.build();
             onChanged();
@@ -5421,17 +5421,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
-        public Builder mergeBinaryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
             if (binaryId_ != null) {
               binaryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
             } else {
               binaryId_ = value;
             }
@@ -5443,7 +5443,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
@@ -5461,45 +5461,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBinaryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
           
           onChanged();
           return getBinaryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
           if (binaryIdBuilder_ != null) {
             return binaryIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * ID eines "Binaries" aus der Kategorie "&#64;CommunityBinaryCategoryID", das dem Mitglied "&#64;CommunityMemberID" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryIdFieldBuilder() {
           if (binaryIdBuilder_ == null) {
             binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryId(),
                     getParentForChildren(),
                     isClean());
@@ -5508,11 +5508,11 @@ public final class CoGetMemberBinariesPu {
           return binaryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value2RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -5522,27 +5522,27 @@ public final class CoGetMemberBinariesPu {
           return value2RestrictedByPatternBuilder_ != null || value2RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
-            return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+            return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           } else {
             return value2RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder setValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5556,14 +5556,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         public Builder setValue2RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -5574,17 +5574,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder mergeValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value2RestrictedByPattern_ != null) {
               value2RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value2RestrictedByPattern_ = value;
             }
@@ -5596,7 +5596,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -5614,45 +5614,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue2RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
           if (value2RestrictedByPatternBuilder_ != null) {
             return value2RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value2RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2RestrictedByPatternFieldBuilder() {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -5661,11 +5661,11 @@ public final class CoGetMemberBinariesPu {
           return value2RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue binaryDescription_ = null;
+        private io.dstore.Values.stringValue binaryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> binaryDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
@@ -5675,27 +5675,27 @@ public final class CoGetMemberBinariesPu {
           return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getBinaryDescription() {
+        public io.dstore.Values.stringValue getBinaryDescription() {
           if (binaryDescriptionBuilder_ == null) {
-            return binaryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : binaryDescription_;
+            return binaryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
           } else {
             return binaryDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
-        public Builder setBinaryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setBinaryDescription(io.dstore.Values.stringValue value) {
           if (binaryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5709,14 +5709,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
         public Builder setBinaryDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (binaryDescriptionBuilder_ == null) {
             binaryDescription_ = builderForValue.build();
             onChanged();
@@ -5727,17 +5727,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
-        public Builder mergeBinaryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeBinaryDescription(io.dstore.Values.stringValue value) {
           if (binaryDescriptionBuilder_ == null) {
             if (binaryDescription_ != null) {
               binaryDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(binaryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(binaryDescription_).mergeFrom(value).buildPartial();
             } else {
               binaryDescription_ = value;
             }
@@ -5749,7 +5749,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
@@ -5767,45 +5767,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getBinaryDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getBinaryDescriptionBuilder() {
           
           onChanged();
           return getBinaryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
           if (binaryDescriptionBuilder_ != null) {
             return binaryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return binaryDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : binaryDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue binary_description = 10004;</code>
+         * <code>optional .dstore.values.stringValue binary_description = 10004;</code>
          *
          * <pre>
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBinaryDescriptionFieldBuilder() {
           if (binaryDescriptionBuilder_ == null) {
             binaryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBinaryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -5814,11 +5814,11 @@ public final class CoGetMemberBinariesPu {
           return binaryDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue inputDateAndTime_ = null;
+        private io.dstore.Values.timestampValue inputDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> inputDateAndTimeBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> inputDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
@@ -5828,27 +5828,27 @@ public final class CoGetMemberBinariesPu {
           return inputDateAndTimeBuilder_ != null || inputDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getInputDateAndTime() {
+        public io.dstore.Values.timestampValue getInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
-            return inputDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+            return inputDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
           } else {
             return inputDateAndTimeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
-        public Builder setInputDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder setInputDateAndTime(io.dstore.Values.timestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5862,14 +5862,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
         public Builder setInputDateAndTime(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (inputDateAndTimeBuilder_ == null) {
             inputDateAndTime_ = builderForValue.build();
             onChanged();
@@ -5880,17 +5880,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
-        public Builder mergeInputDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeInputDateAndTime(io.dstore.Values.timestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
             if (inputDateAndTime_ != null) {
               inputDateAndTime_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(inputDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(inputDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               inputDateAndTime_ = value;
             }
@@ -5902,7 +5902,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
@@ -5920,45 +5920,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getInputDateAndTimeBuilder() {
+        public io.dstore.Values.timestampValue.Builder getInputDateAndTimeBuilder() {
           
           onChanged();
           return getInputDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
           if (inputDateAndTimeBuilder_ != null) {
             return inputDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return inputDateAndTime_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue input_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.timestampValue input_date_and_time = 10005;</code>
          *
          * <pre>
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getInputDateAndTimeFieldBuilder() {
           if (inputDateAndTimeBuilder_ == null) {
             inputDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getInputDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -5967,11 +5967,11 @@ public final class CoGetMemberBinariesPu {
           return inputDateAndTimeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue contentType_ = null;
+        private io.dstore.Values.stringValue contentType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> contentTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> contentTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
@@ -5981,27 +5981,27 @@ public final class CoGetMemberBinariesPu {
           return contentTypeBuilder_ != null || contentType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getContentType() {
+        public io.dstore.Values.stringValue getContentType() {
           if (contentTypeBuilder_ == null) {
-            return contentType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : contentType_;
+            return contentType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
           } else {
             return contentTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
-        public Builder setContentType(io.dstore.engine.Values.stringValue value) {
+        public Builder setContentType(io.dstore.Values.stringValue value) {
           if (contentTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6015,14 +6015,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
         public Builder setContentType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (contentTypeBuilder_ == null) {
             contentType_ = builderForValue.build();
             onChanged();
@@ -6033,17 +6033,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
-        public Builder mergeContentType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeContentType(io.dstore.Values.stringValue value) {
           if (contentTypeBuilder_ == null) {
             if (contentType_ != null) {
               contentType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(contentType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(contentType_).mergeFrom(value).buildPartial();
             } else {
               contentType_ = value;
             }
@@ -6055,7 +6055,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
@@ -6073,45 +6073,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getContentTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getContentTypeBuilder() {
           
           onChanged();
           return getContentTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getContentTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder() {
           if (contentTypeBuilder_ != null) {
             return contentTypeBuilder_.getMessageOrBuilder();
           } else {
             return contentType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : contentType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue content_type = 10006;</code>
+         * <code>optional .dstore.values.stringValue content_type = 10006;</code>
          *
          * <pre>
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getContentTypeFieldBuilder() {
           if (contentTypeBuilder_ == null) {
             contentTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getContentType(),
                     getParentForChildren(),
                     isClean());
@@ -6120,11 +6120,11 @@ public final class CoGetMemberBinariesPu {
           return contentTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3_ = null;
+        private io.dstore.Values.stringValue value3_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -6134,27 +6134,27 @@ public final class CoGetMemberBinariesPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3() {
+        public io.dstore.Values.stringValue getValue3() {
           if (value3Builder_ == null) {
-            return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+            return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           } else {
             return value3Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder setValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6168,14 +6168,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         public Builder setValue3(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3Builder_ == null) {
             value3_ = builderForValue.build();
             onChanged();
@@ -6186,17 +6186,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder mergeValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value3_ != null) {
               value3_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
             } else {
               value3_ = value;
             }
@@ -6208,7 +6208,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -6226,45 +6226,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3Builder() {
+        public io.dstore.Values.stringValue.Builder getValue3Builder() {
           
           onChanged();
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
             return value3Builder_.getMessageOrBuilder();
           } else {
             return value3_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
             value3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
                     isClean());
@@ -6273,11 +6273,11 @@ public final class CoGetMemberBinariesPu {
           return value3Builder_;
         }
 
-        private io.dstore.engine.Values.timestampValue fileDateAndTime_ = null;
+        private io.dstore.Values.timestampValue fileDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> fileDateAndTimeBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fileDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
@@ -6287,27 +6287,27 @@ public final class CoGetMemberBinariesPu {
           return fileDateAndTimeBuilder_ != null || fileDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getFileDateAndTime() {
+        public io.dstore.Values.timestampValue getFileDateAndTime() {
           if (fileDateAndTimeBuilder_ == null) {
-            return fileDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
+            return fileDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
           } else {
             return fileDateAndTimeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public Builder setFileDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder setFileDateAndTime(io.dstore.Values.timestampValue value) {
           if (fileDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6321,14 +6321,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
         public Builder setFileDateAndTime(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (fileDateAndTimeBuilder_ == null) {
             fileDateAndTime_ = builderForValue.build();
             onChanged();
@@ -6339,17 +6339,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public Builder mergeFileDateAndTime(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeFileDateAndTime(io.dstore.Values.timestampValue value) {
           if (fileDateAndTimeBuilder_ == null) {
             if (fileDateAndTime_ != null) {
               fileDateAndTime_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(fileDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(fileDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               fileDateAndTime_ = value;
             }
@@ -6361,7 +6361,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
@@ -6379,45 +6379,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getFileDateAndTimeBuilder() {
+        public io.dstore.Values.timestampValue.Builder getFileDateAndTimeBuilder() {
           
           onChanged();
           return getFileDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder() {
           if (fileDateAndTimeBuilder_ != null) {
             return fileDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return fileDateAndTime_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue file_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.timestampValue file_date_and_time = 10008;</code>
          *
          * <pre>
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getFileDateAndTimeFieldBuilder() {
           if (fileDateAndTimeBuilder_ == null) {
             fileDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getFileDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -6426,11 +6426,11 @@ public final class CoGetMemberBinariesPu {
           return fileDateAndTimeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value1_ = null;
+        private io.dstore.Values.stringValue value1_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -6440,27 +6440,27 @@ public final class CoGetMemberBinariesPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1() {
+        public io.dstore.Values.stringValue getValue1() {
           if (value1Builder_ == null) {
-            return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+            return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           } else {
             return value1Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder setValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6474,14 +6474,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         public Builder setValue1(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1Builder_ == null) {
             value1_ = builderForValue.build();
             onChanged();
@@ -6492,17 +6492,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder mergeValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value1_ != null) {
               value1_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
             } else {
               value1_ = value;
             }
@@ -6514,7 +6514,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -6532,45 +6532,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1Builder() {
+        public io.dstore.Values.stringValue.Builder getValue1Builder() {
           
           onChanged();
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
             return value1Builder_.getMessageOrBuilder();
           } else {
             return value1_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
             value1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
                     isClean());
@@ -6579,11 +6579,11 @@ public final class CoGetMemberBinariesPu {
           return value1Builder_;
         }
 
-        private io.dstore.engine.Values.integerValue filesizeInKB_ = null;
+        private io.dstore.Values.integerValue filesizeInKB_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> filesizeInKBBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filesizeInKBBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
@@ -6593,27 +6593,27 @@ public final class CoGetMemberBinariesPu {
           return filesizeInKBBuilder_ != null || filesizeInKB_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getFilesizeInKB() {
+        public io.dstore.Values.integerValue getFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
-            return filesizeInKB_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filesizeInKB_;
+            return filesizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
           } else {
             return filesizeInKBBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
-        public Builder setFilesizeInKB(io.dstore.engine.Values.integerValue value) {
+        public Builder setFilesizeInKB(io.dstore.Values.integerValue value) {
           if (filesizeInKBBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6627,14 +6627,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
         public Builder setFilesizeInKB(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (filesizeInKBBuilder_ == null) {
             filesizeInKB_ = builderForValue.build();
             onChanged();
@@ -6645,17 +6645,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
-        public Builder mergeFilesizeInKB(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeFilesizeInKB(io.dstore.Values.integerValue value) {
           if (filesizeInKBBuilder_ == null) {
             if (filesizeInKB_ != null) {
               filesizeInKB_ =
-                io.dstore.engine.Values.integerValue.newBuilder(filesizeInKB_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(filesizeInKB_).mergeFrom(value).buildPartial();
             } else {
               filesizeInKB_ = value;
             }
@@ -6667,7 +6667,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
@@ -6685,45 +6685,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getFilesizeInKBBuilder() {
+        public io.dstore.Values.integerValue.Builder getFilesizeInKBBuilder() {
           
           onChanged();
           return getFilesizeInKBFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
           if (filesizeInKBBuilder_ != null) {
             return filesizeInKBBuilder_.getMessageOrBuilder();
           } else {
             return filesizeInKB_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : filesizeInKB_;
+                io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue filesize_in_k_b = 10010;</code>
+         * <code>optional .dstore.values.integerValue filesize_in_k_b = 10010;</code>
          *
          * <pre>
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFilesizeInKBFieldBuilder() {
           if (filesizeInKBBuilder_ == null) {
             filesizeInKBBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFilesizeInKB(),
                     getParentForChildren(),
                     isClean());
@@ -6732,11 +6732,11 @@ public final class CoGetMemberBinariesPu {
           return filesizeInKBBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2_ = null;
+        private io.dstore.Values.stringValue value2_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -6746,27 +6746,27 @@ public final class CoGetMemberBinariesPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2() {
+        public io.dstore.Values.stringValue getValue2() {
           if (value2Builder_ == null) {
-            return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+            return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           } else {
             return value2Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder setValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6780,14 +6780,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         public Builder setValue2(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2Builder_ == null) {
             value2_ = builderForValue.build();
             onChanged();
@@ -6798,17 +6798,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder mergeValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value2_ != null) {
               value2_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
             } else {
               value2_ = value;
             }
@@ -6820,7 +6820,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -6838,45 +6838,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2Builder() {
+        public io.dstore.Values.stringValue.Builder getValue2Builder() {
           
           onChanged();
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
             return value2Builder_.getMessageOrBuilder();
           } else {
             return value2_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10011;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10011;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
             value2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
                     isClean());
@@ -6885,11 +6885,11 @@ public final class CoGetMemberBinariesPu {
           return value2Builder_;
         }
 
-        private io.dstore.engine.Values.integerValue sortNo_ = null;
+        private io.dstore.Values.integerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
@@ -6899,27 +6899,27 @@ public final class CoGetMemberBinariesPu {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSortNo() {
+        public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
-        public Builder setSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6933,14 +6933,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
         public Builder setSortNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -6951,17 +6951,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
-        public Builder mergeSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -6973,7 +6973,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
@@ -6991,45 +6991,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10012;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10012;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge des Binärobjektes "BinaryID" innerhalb aller "Binaries", die dem Mitglied "&#64;CommunityMemberID" in der Kategorie zugeordnet sind
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -7038,11 +7038,11 @@ public final class CoGetMemberBinariesPu {
           return sortNoBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue fromCommunityMemberId_ = null;
+        private io.dstore.Values.integerValue fromCommunityMemberId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromCommunityMemberIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromCommunityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
@@ -7052,27 +7052,27 @@ public final class CoGetMemberBinariesPu {
           return fromCommunityMemberIdBuilder_ != null || fromCommunityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getFromCommunityMemberId() {
+        public io.dstore.Values.integerValue getFromCommunityMemberId() {
           if (fromCommunityMemberIdBuilder_ == null) {
-            return fromCommunityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
+            return fromCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
           } else {
             return fromCommunityMemberIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
-        public Builder setFromCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+        public Builder setFromCommunityMemberId(io.dstore.Values.integerValue value) {
           if (fromCommunityMemberIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7086,14 +7086,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
         public Builder setFromCommunityMemberId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (fromCommunityMemberIdBuilder_ == null) {
             fromCommunityMemberId_ = builderForValue.build();
             onChanged();
@@ -7104,17 +7104,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
-        public Builder mergeFromCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeFromCommunityMemberId(io.dstore.Values.integerValue value) {
           if (fromCommunityMemberIdBuilder_ == null) {
             if (fromCommunityMemberId_ != null) {
               fromCommunityMemberId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(fromCommunityMemberId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(fromCommunityMemberId_).mergeFrom(value).buildPartial();
             } else {
               fromCommunityMemberId_ = value;
             }
@@ -7126,7 +7126,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
@@ -7144,45 +7144,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getFromCommunityMemberIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getFromCommunityMemberIdBuilder() {
           
           onChanged();
           return getFromCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
           if (fromCommunityMemberIdBuilder_ != null) {
             return fromCommunityMemberIdBuilder_.getMessageOrBuilder();
           } else {
             return fromCommunityMemberId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue from_community_member_id = 10013;</code>
+         * <code>optional .dstore.values.integerValue from_community_member_id = 10013;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, von dem die "BinaryID" ursprünglich ist (im Regelfall "&#64;CommunityMemberID" selbst)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFromCommunityMemberIdFieldBuilder() {
           if (fromCommunityMemberIdBuilder_ == null) {
             fromCommunityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFromCommunityMemberId(),
                     getParentForChildren(),
                     isClean());
@@ -7191,11 +7191,11 @@ public final class CoGetMemberBinariesPu {
           return fromCommunityMemberIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue quotedFileSizeInKB_ = null;
+        private io.dstore.Values.integerValue quotedFileSizeInKB_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> quotedFileSizeInKBBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quotedFileSizeInKBBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
@@ -7205,27 +7205,27 @@ public final class CoGetMemberBinariesPu {
           return quotedFileSizeInKBBuilder_ != null || quotedFileSizeInKB_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getQuotedFileSizeInKB() {
+        public io.dstore.Values.integerValue getQuotedFileSizeInKB() {
           if (quotedFileSizeInKBBuilder_ == null) {
-            return quotedFileSizeInKB_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : quotedFileSizeInKB_;
+            return quotedFileSizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quotedFileSizeInKB_;
           } else {
             return quotedFileSizeInKBBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
-        public Builder setQuotedFileSizeInKB(io.dstore.engine.Values.integerValue value) {
+        public Builder setQuotedFileSizeInKB(io.dstore.Values.integerValue value) {
           if (quotedFileSizeInKBBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7239,14 +7239,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
         public Builder setQuotedFileSizeInKB(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (quotedFileSizeInKBBuilder_ == null) {
             quotedFileSizeInKB_ = builderForValue.build();
             onChanged();
@@ -7257,17 +7257,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
-        public Builder mergeQuotedFileSizeInKB(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeQuotedFileSizeInKB(io.dstore.Values.integerValue value) {
           if (quotedFileSizeInKBBuilder_ == null) {
             if (quotedFileSizeInKB_ != null) {
               quotedFileSizeInKB_ =
-                io.dstore.engine.Values.integerValue.newBuilder(quotedFileSizeInKB_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(quotedFileSizeInKB_).mergeFrom(value).buildPartial();
             } else {
               quotedFileSizeInKB_ = value;
             }
@@ -7279,7 +7279,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
@@ -7297,45 +7297,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getQuotedFileSizeInKBBuilder() {
+        public io.dstore.Values.integerValue.Builder getQuotedFileSizeInKBBuilder() {
           
           onChanged();
           return getQuotedFileSizeInKBFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getQuotedFileSizeInKBOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getQuotedFileSizeInKBOrBuilder() {
           if (quotedFileSizeInKBBuilder_ != null) {
             return quotedFileSizeInKBBuilder_.getMessageOrBuilder();
           } else {
             return quotedFileSizeInKB_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : quotedFileSizeInKB_;
+                io.dstore.Values.integerValue.getDefaultInstance() : quotedFileSizeInKB_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue quoted_file_size_in_k_b = 10014;</code>
+         * <code>optional .dstore.values.integerValue quoted_file_size_in_k_b = 10014;</code>
          *
          * <pre>
          * Wieviel KiloBytes werden "&#64;CommunityMemberID" auf seine Quota angerechnet ? Dieser Wert entspricht "FilesizeInKB", wenn "FromCommunityMemberID = &#64;CommunityMemberID" ist, ansonsten wird "0" zurückgegeben.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getQuotedFileSizeInKBFieldBuilder() {
           if (quotedFileSizeInKBBuilder_ == null) {
             quotedFileSizeInKBBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getQuotedFileSizeInKB(),
                     getParentForChildren(),
                     isClean());
@@ -7344,11 +7344,11 @@ public final class CoGetMemberBinariesPu {
           return quotedFileSizeInKBBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue mD5Hash_ = null;
+        private io.dstore.Values.stringValue mD5Hash_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> mD5HashBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> mD5HashBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
@@ -7358,27 +7358,27 @@ public final class CoGetMemberBinariesPu {
           return mD5HashBuilder_ != null || mD5Hash_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getMD5Hash() {
+        public io.dstore.Values.stringValue getMD5Hash() {
           if (mD5HashBuilder_ == null) {
-            return mD5Hash_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : mD5Hash_;
+            return mD5Hash_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : mD5Hash_;
           } else {
             return mD5HashBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public Builder setMD5Hash(io.dstore.engine.Values.stringValue value) {
+        public Builder setMD5Hash(io.dstore.Values.stringValue value) {
           if (mD5HashBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7392,14 +7392,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
         public Builder setMD5Hash(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (mD5HashBuilder_ == null) {
             mD5Hash_ = builderForValue.build();
             onChanged();
@@ -7410,17 +7410,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public Builder mergeMD5Hash(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeMD5Hash(io.dstore.Values.stringValue value) {
           if (mD5HashBuilder_ == null) {
             if (mD5Hash_ != null) {
               mD5Hash_ =
-                io.dstore.engine.Values.stringValue.newBuilder(mD5Hash_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(mD5Hash_).mergeFrom(value).buildPartial();
             } else {
               mD5Hash_ = value;
             }
@@ -7432,7 +7432,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
@@ -7450,45 +7450,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getMD5HashBuilder() {
+        public io.dstore.Values.stringValue.Builder getMD5HashBuilder() {
           
           onChanged();
           return getMD5HashFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getMD5HashOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getMD5HashOrBuilder() {
           if (mD5HashBuilder_ != null) {
             return mD5HashBuilder_.getMessageOrBuilder();
           } else {
             return mD5Hash_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : mD5Hash_;
+                io.dstore.Values.stringValue.getDefaultInstance() : mD5Hash_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue m_d5_hash = 10015;</code>
+         * <code>optional .dstore.values.stringValue m_d5_hash = 10015;</code>
          *
          * <pre>
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getMD5HashFieldBuilder() {
           if (mD5HashBuilder_ == null) {
             mD5HashBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getMD5Hash(),
                     getParentForChildren(),
                     isClean());
@@ -7497,11 +7497,11 @@ public final class CoGetMemberBinariesPu {
           return mD5HashBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value3RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -7511,27 +7511,27 @@ public final class CoGetMemberBinariesPu {
           return value3RestrictedByPatternBuilder_ != null || value3RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
           if (value3RestrictedByPatternBuilder_ == null) {
-            return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+            return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           } else {
             return value3RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder setValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7545,14 +7545,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         public Builder setValue3RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -7563,17 +7563,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value3RestrictedByPattern_ != null) {
               value3RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value3RestrictedByPattern_ = value;
             }
@@ -7585,7 +7585,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -7603,45 +7603,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue3RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
           if (value3RestrictedByPatternBuilder_ != null) {
             return value3RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value3RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10016;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3RestrictedByPatternFieldBuilder() {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -7650,11 +7650,11 @@ public final class CoGetMemberBinariesPu {
           return value3RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue inputDateAndTimeChar_ = null;
+        private io.dstore.Values.stringValue inputDateAndTimeChar_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> inputDateAndTimeCharBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> inputDateAndTimeCharBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
@@ -7664,27 +7664,27 @@ public final class CoGetMemberBinariesPu {
           return inputDateAndTimeCharBuilder_ != null || inputDateAndTimeChar_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getInputDateAndTimeChar() {
+        public io.dstore.Values.stringValue getInputDateAndTimeChar() {
           if (inputDateAndTimeCharBuilder_ == null) {
-            return inputDateAndTimeChar_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : inputDateAndTimeChar_;
+            return inputDateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : inputDateAndTimeChar_;
           } else {
             return inputDateAndTimeCharBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
-        public Builder setInputDateAndTimeChar(io.dstore.engine.Values.stringValue value) {
+        public Builder setInputDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (inputDateAndTimeCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7698,14 +7698,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
         public Builder setInputDateAndTimeChar(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (inputDateAndTimeCharBuilder_ == null) {
             inputDateAndTimeChar_ = builderForValue.build();
             onChanged();
@@ -7716,17 +7716,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
-        public Builder mergeInputDateAndTimeChar(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeInputDateAndTimeChar(io.dstore.Values.stringValue value) {
           if (inputDateAndTimeCharBuilder_ == null) {
             if (inputDateAndTimeChar_ != null) {
               inputDateAndTimeChar_ =
-                io.dstore.engine.Values.stringValue.newBuilder(inputDateAndTimeChar_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(inputDateAndTimeChar_).mergeFrom(value).buildPartial();
             } else {
               inputDateAndTimeChar_ = value;
             }
@@ -7738,7 +7738,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
@@ -7756,45 +7756,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getInputDateAndTimeCharBuilder() {
+        public io.dstore.Values.stringValue.Builder getInputDateAndTimeCharBuilder() {
           
           onChanged();
           return getInputDateAndTimeCharFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getInputDateAndTimeCharOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getInputDateAndTimeCharOrBuilder() {
           if (inputDateAndTimeCharBuilder_ != null) {
             return inputDateAndTimeCharBuilder_.getMessageOrBuilder();
           } else {
             return inputDateAndTimeChar_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : inputDateAndTimeChar_;
+                io.dstore.Values.stringValue.getDefaultInstance() : inputDateAndTimeChar_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue input_date_and_time_char = 10017;</code>
+         * <code>optional .dstore.values.stringValue input_date_and_time_char = 10017;</code>
          *
          * <pre>
          * "InputDateAndTime" als String (Format "15.04.2001 20:56:39")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInputDateAndTimeCharFieldBuilder() {
           if (inputDateAndTimeCharBuilder_ == null) {
             inputDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInputDateAndTimeChar(),
                     getParentForChildren(),
                     isClean());
@@ -7803,11 +7803,11 @@ public final class CoGetMemberBinariesPu {
           return inputDateAndTimeCharBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue nickname_ = null;
+        private io.dstore.Values.stringValue nickname_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nicknameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -7817,27 +7817,27 @@ public final class CoGetMemberBinariesPu {
           return nicknameBuilder_ != null || nickname_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getNickname() {
+        public io.dstore.Values.stringValue getNickname() {
           if (nicknameBuilder_ == null) {
-            return nickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+            return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
           } else {
             return nicknameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public Builder setNickname(io.dstore.engine.Values.stringValue value) {
+        public Builder setNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7851,14 +7851,14 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
         public Builder setNickname(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (nicknameBuilder_ == null) {
             nickname_ = builderForValue.build();
             onChanged();
@@ -7869,17 +7869,17 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public Builder mergeNickname(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
             if (nickname_ != null) {
               nickname_ =
-                io.dstore.engine.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
             } else {
               nickname_ = value;
             }
@@ -7891,7 +7891,7 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -7909,45 +7909,45 @@ public final class CoGetMemberBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getNicknameBuilder() {
+        public io.dstore.Values.stringValue.Builder getNicknameBuilder() {
           
           onChanged();
           return getNicknameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
           if (nicknameBuilder_ != null) {
             return nicknameBuilder_.getMessageOrBuilder();
           } else {
             return nickname_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+                io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10018;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10018;</code>
          *
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNicknameFieldBuilder() {
           if (nicknameBuilder_ == null) {
             nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNickname(),
                     getParentForChildren(),
                     isClean());
@@ -9517,74 +9517,68 @@ public final class CoGetMemberBinariesPu {
     java.lang.String[] descriptorData = {
       "\n6dstore/engine/procedures/co_GetMemberB" +
       "inaries_Pu.proto\022%dstore.engine.co_GetMe" +
-      "mberBinaries_Pu\032\032dstore/engine/values.pr" +
-      "oto\032\031dstore/engine/error.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\327\010\n\nParameters\0224\n\tuniqu" +
-      "e_id\030\001 \001(\0132!.dstore.engine.values.string" +
-      "Value\022\027\n\016unique_id_null\030\351\007 \001(\010\022G\n\034person" +
-      "_identification_values\030\002 \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022*\n!person_identi",
-      "fication_values_null\030\352\007 \001(\010\0228\n\014community" +
-      "_id\030\003 \001(\0132\".dstore.engine.values.integer" +
-      "Value\022\032\n\021community_id_null\030\353\007 \001(\010\022?\n\023com" +
-      "munity_member_id\030\004 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022!\n\030community_member_i" +
-      "d_null\030\354\007 \001(\010\022H\n\034community_binary_catego" +
-      "ry_id\030\005 \001(\0132\".dstore.engine.values.integ" +
-      "erValue\022*\n!community_binary_category_id_" +
-      "null\030\355\007 \001(\010\0225\n\tbinary_id\030\006 \001(\0132\".dstore." +
-      "engine.values.integerValue\022\027\n\016binary_id_",
-      "null\030\356\007 \001(\010\0223\n\007sort_no\030\007 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022\025\n\014sort_no_null" +
-      "\030\357\007 \001(\010\022E\n\031output_characteristic_id1\030\010 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022\'" +
-      "\n\036output_characteristic_id1_null\030\360\007 \001(\010\022" +
-      "E\n\031output_characteristic_id2\030\t \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022\'\n\036output" +
-      "_characteristic_id2_null\030\361\007 \001(\010\022E\n\031outpu" +
-      "t_characteristic_id3\030\n \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022\'\n\036output_charact",
-      "eristic_id3_null\030\362\007 \001(\010\022B\n\027separator_in_" +
-      "ident_vals\030\013 \001(\0132!.dstore.engine.values." +
-      "stringValue\022%\n\034separator_in_ident_vals_n" +
-      "ull\030\363\007 \001(\010\"\362\n\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
-      ".dstore.engine.error.Error\022H\n\020meta_infor" +
-      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
-      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
-      "dstore.engine.message.Message\022@\n\003row\030\004 \003" +
-      "(\01323.dstore.engine.co_GetMemberBinaries_" +
-      "Pu.Response.Row\032\375\010\n\003Row\022\017\n\006row_id\030\220N \001(\005",
-      "\022H\n\034value1_restricted_by_pattern\030\221N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0226\n\tbi" +
-      "nary_id\030\222N \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022H\n\034value2_restricted_by_patte" +
-      "rn\030\223N \001(\0132!.dstore.engine.values.stringV" +
-      "alue\022>\n\022binary_description\030\224N \001(\0132!.dsto" +
-      "re.engine.values.stringValue\022B\n\023input_da" +
-      "te_and_time\030\225N \001(\0132$.dstore.engine.value" +
-      "s.timestampValue\0228\n\014content_type\030\226N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0222\n\006va",
-      "lue3\030\227N \001(\0132!.dstore.engine.values.strin" +
-      "gValue\022A\n\022file_date_and_time\030\230N \001(\0132$.ds" +
-      "tore.engine.values.timestampValue\0222\n\006val" +
-      "ue1\030\231N \001(\0132!.dstore.engine.values.string" +
-      "Value\022<\n\017filesize_in_k_b\030\232N \001(\0132\".dstore" +
-      ".engine.values.integerValue\0222\n\006value2\030\233N" +
-      " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "4\n\007sort_no\030\234N \001(\0132\".dstore.engine.values" +
-      ".integerValue\022E\n\030from_community_member_i" +
-      "d\030\235N \001(\0132\".dstore.engine.values.integerV",
-      "alue\022D\n\027quoted_file_size_in_k_b\030\236N \001(\0132\"" +
-      ".dstore.engine.values.integerValue\0225\n\tm_" +
-      "d5_hash\030\237N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022H\n\034value3_restricted_by_patter" +
-      "n\030\240N \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\022D\n\030input_date_and_time_char\030\241N \001(\0132!" +
-      ".dstore.engine.values.stringValue\0224\n\010nic" +
-      "kname\030\242N \001(\0132!.dstore.engine.values.stri" +
-      "ngValueB\035\n\033io.dstore.engine.proceduresb\006" +
-      "proto3"
+      "mberBinaries_Pu\032\023dstore/values.proto\032\031ds" +
+      "tore/engine/error.proto\032\033dstore/engine/m" +
+      "essage.proto\032#dstore/engine/metainformat" +
+      "ion.proto\"\212\010\n\nParameters\022-\n\tunique_id\030\001 " +
+      "\001(\0132\032.dstore.values.stringValue\022\027\n\016uniqu" +
+      "e_id_null\030\351\007 \001(\010\022@\n\034person_identificatio" +
+      "n_values\030\002 \001(\0132\032.dstore.values.stringVal" +
+      "ue\022*\n!person_identification_values_null\030",
+      "\352\007 \001(\010\0221\n\014community_id\030\003 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\032\n\021community_id_null\030\353" +
+      "\007 \001(\010\0228\n\023community_member_id\030\004 \001(\0132\033.dst" +
+      "ore.values.integerValue\022!\n\030community_mem" +
+      "ber_id_null\030\354\007 \001(\010\022A\n\034community_binary_c" +
+      "ategory_id\030\005 \001(\0132\033.dstore.values.integer" +
+      "Value\022*\n!community_binary_category_id_nu" +
+      "ll\030\355\007 \001(\010\022.\n\tbinary_id\030\006 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\027\n\016binary_id_null\030\356\007 \001" +
+      "(\010\022,\n\007sort_no\030\007 \001(\0132\033.dstore.values.inte",
+      "gerValue\022\025\n\014sort_no_null\030\357\007 \001(\010\022>\n\031outpu" +
+      "t_characteristic_id1\030\010 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022\'\n\036output_characteristic" +
+      "_id1_null\030\360\007 \001(\010\022>\n\031output_characteristi" +
+      "c_id2\030\t \001(\0132\033.dstore.values.integerValue" +
+      "\022\'\n\036output_characteristic_id2_null\030\361\007 \001(" +
+      "\010\022>\n\031output_characteristic_id3\030\n \001(\0132\033.d" +
+      "store.values.integerValue\022\'\n\036output_char" +
+      "acteristic_id3_null\030\362\007 \001(\010\022;\n\027separator_" +
+      "in_ident_vals\030\013 \001(\0132\032.dstore.values.stri",
+      "ngValue\022%\n\034separator_in_ident_vals_null\030" +
+      "\363\007 \001(\010\"\364\t\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
+      "ore.engine.error.Error\022H\n\020meta_informati" +
+      "on\030\002 \003(\0132..dstore.engine.metainformation" +
+      ".MetaInformation\022/\n\007message\030\003 \003(\0132\036.dsto" +
+      "re.engine.message.Message\022@\n\003row\030\004 \003(\01323" +
+      ".dstore.engine.co_GetMemberBinaries_Pu.R" +
+      "esponse.Row\032\377\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022A\n\034" +
+      "value1_restricted_by_pattern\030\221N \001(\0132\032.ds" +
+      "tore.values.stringValue\022/\n\tbinary_id\030\222N ",
+      "\001(\0132\033.dstore.values.integerValue\022A\n\034valu" +
+      "e2_restricted_by_pattern\030\223N \001(\0132\032.dstore" +
+      ".values.stringValue\0227\n\022binary_descriptio" +
+      "n\030\224N \001(\0132\032.dstore.values.stringValue\022;\n\023" +
+      "input_date_and_time\030\225N \001(\0132\035.dstore.valu" +
+      "es.timestampValue\0221\n\014content_type\030\226N \001(\013" +
+      "2\032.dstore.values.stringValue\022+\n\006value3\030\227" +
+      "N \001(\0132\032.dstore.values.stringValue\022:\n\022fil" +
+      "e_date_and_time\030\230N \001(\0132\035.dstore.values.t" +
+      "imestampValue\022+\n\006value1\030\231N \001(\0132\032.dstore.",
+      "values.stringValue\0225\n\017filesize_in_k_b\030\232N" +
+      " \001(\0132\033.dstore.values.integerValue\022+\n\006val" +
+      "ue2\030\233N \001(\0132\032.dstore.values.stringValue\022-" +
+      "\n\007sort_no\030\234N \001(\0132\033.dstore.values.integer" +
+      "Value\022>\n\030from_community_member_id\030\235N \001(\013" +
+      "2\033.dstore.values.integerValue\022=\n\027quoted_" +
+      "file_size_in_k_b\030\236N \001(\0132\033.dstore.values." +
+      "integerValue\022.\n\tm_d5_hash\030\237N \001(\0132\032.dstor" +
+      "e.values.stringValue\022A\n\034value3_restricte" +
+      "d_by_pattern\030\240N \001(\0132\032.dstore.values.stri",
+      "ngValue\022=\n\030input_date_and_time_char\030\241N \001" +
+      "(\0132\032.dstore.values.stringValue\022-\n\010nickna" +
+      "me\030\242N \001(\0132\032.dstore.values.stringValueB\035\n" +
+      "\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9597,7 +9591,7 @@ public final class CoGetMemberBinariesPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -9620,7 +9614,7 @@ public final class CoGetMemberBinariesPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetMemberBinaries_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value1RestrictedByPattern", "BinaryId", "Value2RestrictedByPattern", "BinaryDescription", "InputDateAndTime", "ContentType", "Value3", "FileDateAndTime", "Value1", "FilesizeInKB", "Value2", "SortNo", "FromCommunityMemberId", "QuotedFileSizeInKB", "MD5Hash", "Value3RestrictedByPattern", "InputDateAndTimeChar", "Nickname", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

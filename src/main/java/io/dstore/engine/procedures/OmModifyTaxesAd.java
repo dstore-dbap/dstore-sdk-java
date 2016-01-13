@@ -13,17 +13,17 @@ public final class OmModifyTaxesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
      */
     boolean hasTaxTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTaxTypeId();
+    io.dstore.Values.integerValue getTaxTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTaxTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder();
 
     /**
      * <code>optional bool tax_type_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyTaxesAd {
     boolean getTaxTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
      */
     boolean hasTaxRate();
     /**
-     * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
      */
-    io.dstore.engine.Values.decimalValue getTaxRate();
+    io.dstore.Values.decimalValue getTaxRate();
     /**
-     * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getTaxRateOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder();
 
     /**
      * <code>optional bool tax_rate_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyTaxesAd {
     boolean getTaxRateNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
     boolean hasValidFrom();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    io.dstore.engine.Values.timestampValue getValidFrom();
+    io.dstore.Values.timestampValue getValidFrom();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
 
     /**
      * <code>optional bool valid_from_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmModifyTaxesAd {
     boolean getValidFromNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
     boolean hasValidTo();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    io.dstore.engine.Values.timestampValue getValidTo();
+    io.dstore.Values.timestampValue getValidTo();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
 
     /**
      * <code>optional bool valid_to_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class OmModifyTaxesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (taxTypeId_ != null) {
                 subBuilder = taxTypeId_.toBuilder();
               }
-              taxTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              taxTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(taxTypeId_);
                 taxTypeId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class OmModifyTaxesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (taxRate_ != null) {
                 subBuilder = taxRate_.toBuilder();
               }
-              taxRate_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              taxRate_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(taxRate_);
                 taxRate_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class OmModifyTaxesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (validFrom_ != null) {
                 subBuilder = validFrom_.toBuilder();
               }
-              validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validFrom_);
                 validFrom_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmModifyTaxesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (validTo_ != null) {
                 subBuilder = validTo_.toBuilder();
               }
-              validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validTo_);
                 validTo_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class OmModifyTaxesAd {
     }
 
     public static final int TAX_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue taxTypeId_;
+    private io.dstore.Values.integerValue taxTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
      */
     public boolean hasTaxTypeId() {
       return taxTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTaxTypeId() {
-      return taxTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : taxTypeId_;
+    public io.dstore.Values.integerValue getTaxTypeId() {
+      return taxTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
       return getTaxTypeId();
     }
 
@@ -253,23 +253,23 @@ public final class OmModifyTaxesAd {
     }
 
     public static final int TAX_RATE_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.decimalValue taxRate_;
+    private io.dstore.Values.decimalValue taxRate_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
      */
     public boolean hasTaxRate() {
       return taxRate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
      */
-    public io.dstore.engine.Values.decimalValue getTaxRate() {
-      return taxRate_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : taxRate_;
+    public io.dstore.Values.decimalValue getTaxRate() {
+      return taxRate_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
       return getTaxRate();
     }
 
@@ -283,23 +283,23 @@ public final class OmModifyTaxesAd {
     }
 
     public static final int VALID_FROM_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.timestampValue validFrom_;
+    private io.dstore.Values.timestampValue validFrom_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
     public boolean hasValidFrom() {
       return validFrom_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValue getValidFrom() {
-      return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+    public io.dstore.Values.timestampValue getValidFrom() {
+      return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
       return getValidFrom();
     }
 
@@ -313,23 +313,23 @@ public final class OmModifyTaxesAd {
     }
 
     public static final int VALID_TO_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.timestampValue validTo_;
+    private io.dstore.Values.timestampValue validTo_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
     public boolean hasValidTo() {
       return validTo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValue getValidTo() {
-      return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+    public io.dstore.Values.timestampValue getValidTo() {
+      return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
       return getValidTo();
     }
 
@@ -671,29 +671,29 @@ public final class OmModifyTaxesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue taxTypeId_ = null;
+      private io.dstore.Values.integerValue taxTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> taxTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> taxTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
       public boolean hasTaxTypeId() {
         return taxTypeIdBuilder_ != null || taxTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTaxTypeId() {
+      public io.dstore.Values.integerValue getTaxTypeId() {
         if (taxTypeIdBuilder_ == null) {
-          return taxTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : taxTypeId_;
+          return taxTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
         } else {
           return taxTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
-      public Builder setTaxTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTaxTypeId(io.dstore.Values.integerValue value) {
         if (taxTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
       public Builder setTaxTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (taxTypeIdBuilder_ == null) {
           taxTypeId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
-      public Builder mergeTaxTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTaxTypeId(io.dstore.Values.integerValue value) {
         if (taxTypeIdBuilder_ == null) {
           if (taxTypeId_ != null) {
             taxTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(taxTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(taxTypeId_).mergeFrom(value).buildPartial();
           } else {
             taxTypeId_ = value;
           }
@@ -739,7 +739,7 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
       public Builder clearTaxTypeId() {
         if (taxTypeIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTaxTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTaxTypeIdBuilder() {
         
         onChanged();
         return getTaxTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
         if (taxTypeIdBuilder_ != null) {
           return taxTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return taxTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : taxTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTaxTypeIdFieldBuilder() {
         if (taxTypeIdBuilder_ == null) {
           taxTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTaxTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class OmModifyTaxesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue taxRate_ = null;
+      private io.dstore.Values.decimalValue taxRate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> taxRateBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> taxRateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
       public boolean hasTaxRate() {
         return taxRateBuilder_ != null || taxRate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
-      public io.dstore.engine.Values.decimalValue getTaxRate() {
+      public io.dstore.Values.decimalValue getTaxRate() {
         if (taxRateBuilder_ == null) {
-          return taxRate_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : taxRate_;
+          return taxRate_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
         } else {
           return taxRateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
-      public Builder setTaxRate(io.dstore.engine.Values.decimalValue value) {
+      public Builder setTaxRate(io.dstore.Values.decimalValue value) {
         if (taxRateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
       public Builder setTaxRate(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (taxRateBuilder_ == null) {
           taxRate_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
-      public Builder mergeTaxRate(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeTaxRate(io.dstore.Values.decimalValue value) {
         if (taxRateBuilder_ == null) {
           if (taxRate_ != null) {
             taxRate_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(taxRate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(taxRate_).mergeFrom(value).buildPartial();
           } else {
             taxRate_ = value;
           }
@@ -882,7 +882,7 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
       public Builder clearTaxRate() {
         if (taxRateBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getTaxRateBuilder() {
+      public io.dstore.Values.decimalValue.Builder getTaxRateBuilder() {
         
         onChanged();
         return getTaxRateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
         if (taxRateBuilder_ != null) {
           return taxRateBuilder_.getMessageOrBuilder();
         } else {
           return taxRate_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : taxRate_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTaxRateFieldBuilder() {
         if (taxRateBuilder_ == null) {
           taxRateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTaxRate(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class OmModifyTaxesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue validFrom_ = null;
+      private io.dstore.Values.timestampValue validFrom_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validFromBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       public boolean hasValidFrom() {
         return validFromBuilder_ != null || validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue getValidFrom() {
+      public io.dstore.Values.timestampValue getValidFrom() {
         if (validFromBuilder_ == null) {
-          return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+          return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
         } else {
           return validFromBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public Builder setValidFrom(io.dstore.engine.Values.timestampValue value) {
+      public Builder setValidFrom(io.dstore.Values.timestampValue value) {
         if (validFromBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       public Builder setValidFrom(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (validFromBuilder_ == null) {
           validFrom_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public Builder mergeValidFrom(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
         if (validFromBuilder_ == null) {
           if (validFrom_ != null) {
             validFrom_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
           } else {
             validFrom_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       public Builder clearValidFrom() {
         if (validFromBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getValidFromBuilder() {
+      public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
         
         onChanged();
         return getValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
         if (validFromBuilder_ != null) {
           return validFromBuilder_.getMessageOrBuilder();
         } else {
           return validFrom_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidFromFieldBuilder() {
         if (validFromBuilder_ == null) {
           validFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidFrom(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class OmModifyTaxesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue validTo_ = null;
+      private io.dstore.Values.timestampValue validTo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validToBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       public boolean hasValidTo() {
         return validToBuilder_ != null || validTo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue getValidTo() {
+      public io.dstore.Values.timestampValue getValidTo() {
         if (validToBuilder_ == null) {
-          return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+          return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
         } else {
           return validToBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public Builder setValidTo(io.dstore.engine.Values.timestampValue value) {
+      public Builder setValidTo(io.dstore.Values.timestampValue value) {
         if (validToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       public Builder setValidTo(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (validToBuilder_ == null) {
           validTo_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public Builder mergeValidTo(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
         if (validToBuilder_ == null) {
           if (validTo_ != null) {
             validTo_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
           } else {
             validTo_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       public Builder clearValidTo() {
         if (validToBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class OmModifyTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getValidToBuilder() {
+      public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
         
         onChanged();
         return getValidToFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
         if (validToBuilder_ != null) {
           return validToBuilder_.getMessageOrBuilder();
         } else {
           return validTo_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidToFieldBuilder() {
         if (validToBuilder_ == null) {
           validToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidTo(),
                   getParentForChildren(),
                   isClean());
@@ -3399,26 +3399,25 @@ public final class OmModifyTaxesAd {
     java.lang.String[] descriptorData = {
       "\n0dstore/engine/procedures/om_ModifyTaxe" +
       "s_Ad.proto\022\037dstore.engine.om_ModifyTaxes" +
-      "_Ad\032\032dstore/engine/values.proto\032\031dstore/" +
-      "engine/error.proto\032\033dstore/engine/messag" +
-      "e.proto\032#dstore/engine/metainformation.p" +
-      "roto\"\322\002\n\nParameters\0227\n\013tax_type_id\030\001 \001(\013" +
-      "2\".dstore.engine.values.integerValue\022\031\n\020" +
-      "tax_type_id_null\030\351\007 \001(\010\0224\n\010tax_rate\030\002 \001(" +
-      "\0132\".dstore.engine.values.decimalValue\022\026\n" +
-      "\rtax_rate_null\030\352\007 \001(\010\0228\n\nvalid_from\030\003 \001(",
-      "\0132$.dstore.engine.values.timestampValue\022" +
-      "\030\n\017valid_from_null\030\353\007 \001(\010\0226\n\010valid_to\030\004 " +
-      "\001(\0132$.dstore.engine.values.timestampValu" +
-      "e\022\026\n\rvalid_to_null\030\354\007 \001(\010\"\204\002\n\010Response\022)" +
-      "\n\005error\030\001 \001(\0132\032.dstore.engine.error.Erro" +
-      "r\022H\n\020meta_information\030\002 \003(\0132..dstore.eng" +
-      "ine.metainformation.MetaInformation\022/\n\007m" +
-      "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
-      "sage\022:\n\003row\030\004 \003(\0132-.dstore.engine.om_Mod" +
-      "ifyTaxes_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_i",
-      "d\030\220N \001(\005B\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "_Ad\032\023dstore/values.proto\032\031dstore/engine/" +
+      "error.proto\032\033dstore/engine/message.proto" +
+      "\032#dstore/engine/metainformation.proto\"\266\002" +
+      "\n\nParameters\0220\n\013tax_type_id\030\001 \001(\0132\033.dsto" +
+      "re.values.integerValue\022\031\n\020tax_type_id_nu" +
+      "ll\030\351\007 \001(\010\022-\n\010tax_rate\030\002 \001(\0132\033.dstore.val" +
+      "ues.decimalValue\022\026\n\rtax_rate_null\030\352\007 \001(\010" +
+      "\0221\n\nvalid_from\030\003 \001(\0132\035.dstore.values.tim",
+      "estampValue\022\030\n\017valid_from_null\030\353\007 \001(\010\022/\n" +
+      "\010valid_to\030\004 \001(\0132\035.dstore.values.timestam" +
+      "pValue\022\026\n\rvalid_to_null\030\354\007 \001(\010\"\204\002\n\010Respo" +
+      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
+      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
+      "e.engine.metainformation.MetaInformation" +
+      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
+      "e.Message\022:\n\003row\030\004 \003(\0132-.dstore.engine.o" +
+      "m_ModifyTaxes_Ad.Response.Row\032\026\n\003Row\022\017\n\006" +
+      "row_id\030\220N \001(\005B\035\n\033io.dstore.engine.proced",
+      "uresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3431,7 +3430,7 @@ public final class OmModifyTaxesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3454,7 +3453,7 @@ public final class OmModifyTaxesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyTaxes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

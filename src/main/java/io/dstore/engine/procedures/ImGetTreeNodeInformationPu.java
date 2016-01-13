@@ -13,17 +13,17 @@ public final class ImGetTreeNodeInformationPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
      */
     boolean hasNodeOrTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getNodeOrTreeNodeId();
+    io.dstore.Values.integerValue getNodeOrTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNodeOrTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNodeOrTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool node_or_tree_node_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGetTreeNodeInformationPu {
     boolean getNodeOrTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
      */
     boolean hasIsTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getIsTreeNodeId();
+    io.dstore.Values.booleanValue getIsTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool is_tree_node_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class ImGetTreeNodeInformationPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeOrTreeNodeId_ != null) {
                 subBuilder = nodeOrTreeNodeId_.toBuilder();
               }
-              nodeOrTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nodeOrTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeOrTreeNodeId_);
                 nodeOrTreeNodeId_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class ImGetTreeNodeInformationPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (isTreeNodeId_ != null) {
                 subBuilder = isTreeNodeId_.toBuilder();
               }
-              isTreeNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              isTreeNodeId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isTreeNodeId_);
                 isTreeNodeId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class ImGetTreeNodeInformationPu {
     }
 
     public static final int NODE_OR_TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue nodeOrTreeNodeId_;
+    private io.dstore.Values.integerValue nodeOrTreeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
      */
     public boolean hasNodeOrTreeNodeId() {
       return nodeOrTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getNodeOrTreeNodeId() {
-      return nodeOrTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeOrTreeNodeId_;
+    public io.dstore.Values.integerValue getNodeOrTreeNodeId() {
+      return nodeOrTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeOrTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNodeOrTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNodeOrTreeNodeIdOrBuilder() {
       return getNodeOrTreeNodeId();
     }
 
@@ -179,23 +179,23 @@ public final class ImGetTreeNodeInformationPu {
     }
 
     public static final int IS_TREE_NODE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue isTreeNodeId_;
+    private io.dstore.Values.booleanValue isTreeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
      */
     public boolean hasIsTreeNodeId() {
       return isTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIsTreeNodeId() {
-      return isTreeNodeId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+    public io.dstore.Values.booleanValue getIsTreeNodeId() {
+      return isTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
       return getIsTreeNodeId();
     }
 
@@ -469,29 +469,29 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nodeOrTreeNodeId_ = null;
+      private io.dstore.Values.integerValue nodeOrTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeOrTreeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeOrTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
       public boolean hasNodeOrTreeNodeId() {
         return nodeOrTreeNodeIdBuilder_ != null || nodeOrTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getNodeOrTreeNodeId() {
+      public io.dstore.Values.integerValue getNodeOrTreeNodeId() {
         if (nodeOrTreeNodeIdBuilder_ == null) {
-          return nodeOrTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeOrTreeNodeId_;
+          return nodeOrTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeOrTreeNodeId_;
         } else {
           return nodeOrTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
-      public Builder setNodeOrTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNodeOrTreeNodeId(io.dstore.Values.integerValue value) {
         if (nodeOrTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
       public Builder setNodeOrTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nodeOrTreeNodeIdBuilder_ == null) {
           nodeOrTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
-      public Builder mergeNodeOrTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNodeOrTreeNodeId(io.dstore.Values.integerValue value) {
         if (nodeOrTreeNodeIdBuilder_ == null) {
           if (nodeOrTreeNodeId_ != null) {
             nodeOrTreeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nodeOrTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nodeOrTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             nodeOrTreeNodeId_ = value;
           }
@@ -537,7 +537,7 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
       public Builder clearNodeOrTreeNodeId() {
         if (nodeOrTreeNodeIdBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNodeOrTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNodeOrTreeNodeIdBuilder() {
         
         onChanged();
         return getNodeOrTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeOrTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeOrTreeNodeIdOrBuilder() {
         if (nodeOrTreeNodeIdBuilder_ != null) {
           return nodeOrTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeOrTreeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeOrTreeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeOrTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_or_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue node_or_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeOrTreeNodeIdFieldBuilder() {
         if (nodeOrTreeNodeIdBuilder_ == null) {
           nodeOrTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeOrTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue isTreeNodeId_ = null;
+      private io.dstore.Values.booleanValue isTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> isTreeNodeIdBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
       public boolean hasIsTreeNodeId() {
         return isTreeNodeIdBuilder_ != null || isTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIsTreeNodeId() {
+      public io.dstore.Values.booleanValue getIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
-          return isTreeNodeId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+          return isTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
         } else {
           return isTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
-      public Builder setIsTreeNodeId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIsTreeNodeId(io.dstore.Values.booleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
       public Builder setIsTreeNodeId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (isTreeNodeIdBuilder_ == null) {
           isTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
-      public Builder mergeIsTreeNodeId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIsTreeNodeId(io.dstore.Values.booleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
           if (isTreeNodeId_ != null) {
             isTreeNodeId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(isTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(isTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             isTreeNodeId_ = value;
           }
@@ -680,7 +680,7 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
       public Builder clearIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class ImGetTreeNodeInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIsTreeNodeIdBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIsTreeNodeIdBuilder() {
         
         onChanged();
         return getIsTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
         if (isTreeNodeIdBuilder_ != null) {
           return isTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return isTreeNodeId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIsTreeNodeIdFieldBuilder() {
         if (isTreeNodeIdBuilder_ == null) {
           isTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIsTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class ImGetTreeNodeInformationPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
@@ -1050,24 +1050,24 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasPredecessor();
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPredecessor();
+      io.dstore.Values.integerValue getPredecessor();
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
@@ -1075,24 +1075,24 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasLevelNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLevelNo();
+      io.dstore.Values.integerValue getLevelNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -1100,24 +1100,24 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeId();
+      io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -1125,24 +1125,24 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTreeNodeId();
+      io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+       * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
@@ -1150,24 +1150,24 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasInheritsFrom();
       /**
-       * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+       * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getInheritsFrom();
+      io.dstore.Values.integerValue getInheritsFrom();
       /**
-       * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+       * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getInheritsFromOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getInheritsFromOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10006;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
@@ -1175,24 +1175,24 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10006;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLevelId();
+      io.dstore.Values.integerValue getLevelId();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10006;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
        *
        * <pre>
        * ID eines Symbols, das der "NodeID" zugeordnet ist
@@ -1200,21 +1200,21 @@ public final class ImGetTreeNodeInformationPu {
        */
       boolean hasSymbolId();
       /**
-       * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
        *
        * <pre>
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSymbolId();
+      io.dstore.Values.integerValue getSymbolId();
       /**
-       * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
        *
        * <pre>
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSymbolIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetTreeNodeInformation_Pu.Response.Row}
@@ -1261,11 +1261,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (predecessor_ != null) {
                   subBuilder = predecessor_.toBuilder();
                 }
-                predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                predecessor_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessor_);
                   predecessor_ = subBuilder.buildPartial();
@@ -1274,11 +1274,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -1287,11 +1287,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -1300,11 +1300,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -1313,11 +1313,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (inheritsFrom_ != null) {
                   subBuilder = inheritsFrom_.toBuilder();
                 }
-                inheritsFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                inheritsFrom_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritsFrom_);
                   inheritsFrom_ = subBuilder.buildPartial();
@@ -1326,11 +1326,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (levelId_ != null) {
                   subBuilder = levelId_.toBuilder();
                 }
-                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                levelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelId_);
                   levelId_ = subBuilder.buildPartial();
@@ -1339,11 +1339,11 @@ public final class ImGetTreeNodeInformationPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (symbolId_ != null) {
                   subBuilder = symbolId_.toBuilder();
                 }
-                symbolId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                symbolId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(symbolId_);
                   symbolId_ = subBuilder.buildPartial();
@@ -1385,9 +1385,9 @@ public final class ImGetTreeNodeInformationPu {
       }
 
       public static final int PREDECESSOR_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue predecessor_;
+      private io.dstore.Values.integerValue predecessor_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
@@ -1397,30 +1397,30 @@ public final class ImGetTreeNodeInformationPu {
         return predecessor_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPredecessor() {
-        return predecessor_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+      public io.dstore.Values.integerValue getPredecessor() {
+        return predecessor_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+       * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
        *
        * <pre>
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder() {
         return getPredecessor();
       }
 
       public static final int LEVEL_NO_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue levelNo_;
+      private io.dstore.Values.integerValue levelNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
@@ -1430,30 +1430,30 @@ public final class ImGetTreeNodeInformationPu {
         return levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLevelNo() {
-        return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+      public io.dstore.Values.integerValue getLevelNo() {
+        return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue nodeId_;
+      private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -1463,30 +1463,30 @@ public final class ImGetTreeNodeInformationPu {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.Values.integerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
        *
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue treeNodeId_;
+      private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -1496,30 +1496,30 @@ public final class ImGetTreeNodeInformationPu {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.Values.integerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int INHERITS_FROM_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue inheritsFrom_;
+      private io.dstore.Values.integerValue inheritsFrom_;
       /**
-       * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+       * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
@@ -1529,30 +1529,30 @@ public final class ImGetTreeNodeInformationPu {
         return inheritsFrom_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+       * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getInheritsFrom() {
-        return inheritsFrom_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : inheritsFrom_;
+      public io.dstore.Values.integerValue getInheritsFrom() {
+        return inheritsFrom_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritsFrom_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+       * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInheritsFromOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInheritsFromOrBuilder() {
         return getInheritsFrom();
       }
 
       public static final int LEVEL_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue levelId_;
+      private io.dstore.Values.integerValue levelId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10006;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
@@ -1562,30 +1562,30 @@ public final class ImGetTreeNodeInformationPu {
         return levelId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10006;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLevelId() {
-        return levelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+      public io.dstore.Values.integerValue getLevelId() {
+        return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue level_id = 10006;</code>
        *
        * <pre>
        * ID der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
       }
 
       public static final int SYMBOL_ID_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue symbolId_;
+      private io.dstore.Values.integerValue symbolId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
        *
        * <pre>
        * ID eines Symbols, das der "NodeID" zugeordnet ist
@@ -1595,23 +1595,23 @@ public final class ImGetTreeNodeInformationPu {
         return symbolId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
        *
        * <pre>
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSymbolId() {
-        return symbolId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : symbolId_;
+      public io.dstore.Values.integerValue getSymbolId() {
+        return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
        *
        * <pre>
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
         return getSymbolId();
       }
 
@@ -1994,11 +1994,11 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue predecessor_ = null;
+        private io.dstore.Values.integerValue predecessor_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predecessorBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
@@ -2008,27 +2008,27 @@ public final class ImGetTreeNodeInformationPu {
           return predecessorBuilder_ != null || predecessor_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPredecessor() {
+        public io.dstore.Values.integerValue getPredecessor() {
           if (predecessorBuilder_ == null) {
-            return predecessor_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+            return predecessor_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
           } else {
             return predecessorBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public Builder setPredecessor(io.dstore.engine.Values.integerValue value) {
+        public Builder setPredecessor(io.dstore.Values.integerValue value) {
           if (predecessorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2042,14 +2042,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
         public Builder setPredecessor(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (predecessorBuilder_ == null) {
             predecessor_ = builderForValue.build();
             onChanged();
@@ -2060,17 +2060,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public Builder mergePredecessor(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePredecessor(io.dstore.Values.integerValue value) {
           if (predecessorBuilder_ == null) {
             if (predecessor_ != null) {
               predecessor_ =
-                io.dstore.engine.Values.integerValue.newBuilder(predecessor_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(predecessor_).mergeFrom(value).buildPartial();
             } else {
               predecessor_ = value;
             }
@@ -2082,7 +2082,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
@@ -2100,45 +2100,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPredecessorBuilder() {
+        public io.dstore.Values.integerValue.Builder getPredecessorBuilder() {
           
           onChanged();
           return getPredecessorFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPredecessorOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPredecessorOrBuilder() {
           if (predecessorBuilder_ != null) {
             return predecessorBuilder_.getMessageOrBuilder();
           } else {
             return predecessor_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessor_;
+                io.dstore.Values.integerValue.getDefaultInstance() : predecessor_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessor = 10001;</code>
+         * <code>optional .dstore.values.integerValue predecessor = 10001;</code>
          *
          * <pre>
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPredecessorFieldBuilder() {
           if (predecessorBuilder_ == null) {
             predecessorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPredecessor(),
                     getParentForChildren(),
                     isClean());
@@ -2147,11 +2147,11 @@ public final class ImGetTreeNodeInformationPu {
           return predecessorBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue levelNo_ = null;
+        private io.dstore.Values.integerValue levelNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
@@ -2161,27 +2161,27 @@ public final class ImGetTreeNodeInformationPu {
           return levelNoBuilder_ != null || levelNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLevelNo() {
+        public io.dstore.Values.integerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
-            return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+            return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
           } else {
             return levelNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder setLevelNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setLevelNo(io.dstore.Values.integerValue value) {
           if (levelNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2195,14 +2195,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
         public Builder setLevelNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (levelNoBuilder_ == null) {
             levelNo_ = builderForValue.build();
             onChanged();
@@ -2213,17 +2213,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder mergeLevelNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
           if (levelNoBuilder_ == null) {
             if (levelNo_ != null) {
               levelNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
             } else {
               levelNo_ = value;
             }
@@ -2235,7 +2235,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
@@ -2253,45 +2253,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLevelNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
           
           onChanged();
           return getLevelNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
             return levelNoBuilder_.getMessageOrBuilder();
           } else {
             return levelNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelNoFieldBuilder() {
           if (levelNoBuilder_ == null) {
             levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelNo(),
                     getParentForChildren(),
                     isClean());
@@ -2300,11 +2300,11 @@ public final class ImGetTreeNodeInformationPu {
           return levelNoBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeId_ = null;
+        private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -2314,27 +2314,27 @@ public final class ImGetTreeNodeInformationPu {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeId() {
+        public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public Builder setNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2348,14 +2348,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
         public Builder setNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -2366,17 +2366,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public Builder mergeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -2388,7 +2388,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -2406,45 +2406,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
          *
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes - entspricht im Fall "&#64;IsTreeNodeID = 0" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2453,11 +2453,11 @@ public final class ImGetTreeNodeInformationPu {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+        private io.dstore.Values.integerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -2467,27 +2467,27 @@ public final class ImGetTreeNodeInformationPu {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTreeNodeId() {
+        public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2501,14 +2501,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
         public Builder setTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -2519,17 +2519,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -2541,7 +2541,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
@@ -2559,45 +2559,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum - entspricht im Fall "&#64;IsTreeNodeID = 1" dem Wert von "&#64;NodeOrTreeNodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2606,11 +2606,11 @@ public final class ImGetTreeNodeInformationPu {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue inheritsFrom_ = null;
+        private io.dstore.Values.integerValue inheritsFrom_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> inheritsFromBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritsFromBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
@@ -2620,27 +2620,27 @@ public final class ImGetTreeNodeInformationPu {
           return inheritsFromBuilder_ != null || inheritsFrom_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getInheritsFrom() {
+        public io.dstore.Values.integerValue getInheritsFrom() {
           if (inheritsFromBuilder_ == null) {
-            return inheritsFrom_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : inheritsFrom_;
+            return inheritsFrom_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritsFrom_;
           } else {
             return inheritsFromBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
-        public Builder setInheritsFrom(io.dstore.engine.Values.integerValue value) {
+        public Builder setInheritsFrom(io.dstore.Values.integerValue value) {
           if (inheritsFromBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2654,14 +2654,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
         public Builder setInheritsFrom(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (inheritsFromBuilder_ == null) {
             inheritsFrom_ = builderForValue.build();
             onChanged();
@@ -2672,17 +2672,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
-        public Builder mergeInheritsFrom(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeInheritsFrom(io.dstore.Values.integerValue value) {
           if (inheritsFromBuilder_ == null) {
             if (inheritsFrom_ != null) {
               inheritsFrom_ =
-                io.dstore.engine.Values.integerValue.newBuilder(inheritsFrom_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(inheritsFrom_).mergeFrom(value).buildPartial();
             } else {
               inheritsFrom_ = value;
             }
@@ -2694,7 +2694,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
@@ -2712,45 +2712,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getInheritsFromBuilder() {
+        public io.dstore.Values.integerValue.Builder getInheritsFromBuilder() {
           
           onChanged();
           return getInheritsFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getInheritsFromOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getInheritsFromOrBuilder() {
           if (inheritsFromBuilder_ != null) {
             return inheritsFromBuilder_.getMessageOrBuilder();
           } else {
             return inheritsFrom_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : inheritsFrom_;
+                io.dstore.Values.integerValue.getDefaultInstance() : inheritsFrom_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue inherits_from = 10005;</code>
+         * <code>optional .dstore.values.integerValue inherits_from = 10005;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, VON dem "TreeNodeID" Eigenschaften erbt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInheritsFromFieldBuilder() {
           if (inheritsFromBuilder_ == null) {
             inheritsFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInheritsFrom(),
                     getParentForChildren(),
                     isClean());
@@ -2759,11 +2759,11 @@ public final class ImGetTreeNodeInformationPu {
           return inheritsFromBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue levelId_ = null;
+        private io.dstore.Values.integerValue levelId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
@@ -2773,27 +2773,27 @@ public final class ImGetTreeNodeInformationPu {
           return levelIdBuilder_ != null || levelId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLevelId() {
+        public io.dstore.Values.integerValue getLevelId() {
           if (levelIdBuilder_ == null) {
-            return levelId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+            return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
           } else {
             return levelIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder setLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLevelId(io.dstore.Values.integerValue value) {
           if (levelIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2807,14 +2807,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
         public Builder setLevelId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (levelIdBuilder_ == null) {
             levelId_ = builderForValue.build();
             onChanged();
@@ -2825,17 +2825,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder mergeLevelId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLevelId(io.dstore.Values.integerValue value) {
           if (levelIdBuilder_ == null) {
             if (levelId_ != null) {
               levelId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
             } else {
               levelId_ = value;
             }
@@ -2847,7 +2847,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
@@ -2865,45 +2865,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLevelIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLevelIdBuilder() {
           
           onChanged();
           return getLevelIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
             return levelIdBuilder_.getMessageOrBuilder();
           } else {
             return levelId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : levelId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue level_id = 10006;</code>
          *
          * <pre>
          * ID der Hierarchie der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelIdFieldBuilder() {
           if (levelIdBuilder_ == null) {
             levelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelId(),
                     getParentForChildren(),
                     isClean());
@@ -2912,11 +2912,11 @@ public final class ImGetTreeNodeInformationPu {
           return levelIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue symbolId_ = null;
+        private io.dstore.Values.integerValue symbolId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> symbolIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> symbolIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
@@ -2926,27 +2926,27 @@ public final class ImGetTreeNodeInformationPu {
           return symbolIdBuilder_ != null || symbolId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSymbolId() {
+        public io.dstore.Values.integerValue getSymbolId() {
           if (symbolIdBuilder_ == null) {
-            return symbolId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : symbolId_;
+            return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
           } else {
             return symbolIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
-        public Builder setSymbolId(io.dstore.engine.Values.integerValue value) {
+        public Builder setSymbolId(io.dstore.Values.integerValue value) {
           if (symbolIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2960,14 +2960,14 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
         public Builder setSymbolId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (symbolIdBuilder_ == null) {
             symbolId_ = builderForValue.build();
             onChanged();
@@ -2978,17 +2978,17 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
-        public Builder mergeSymbolId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSymbolId(io.dstore.Values.integerValue value) {
           if (symbolIdBuilder_ == null) {
             if (symbolId_ != null) {
               symbolId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
             } else {
               symbolId_ = value;
             }
@@ -3000,7 +3000,7 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
@@ -3018,45 +3018,45 @@ public final class ImGetTreeNodeInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSymbolIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getSymbolIdBuilder() {
           
           onChanged();
           return getSymbolIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
           if (symbolIdBuilder_ != null) {
             return symbolIdBuilder_.getMessageOrBuilder();
           } else {
             return symbolId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : symbolId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue symbol_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue symbol_id = 10007;</code>
          *
          * <pre>
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSymbolIdFieldBuilder() {
           if (symbolIdBuilder_ == null) {
             symbolIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSymbolId(),
                     getParentForChildren(),
                     isClean());
@@ -4626,33 +4626,31 @@ public final class ImGetTreeNodeInformationPu {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/im_GetTreeNod" +
       "eInformation_Pu.proto\022*dstore.engine.im_" +
-      "GetTreeNodeInformation_Pu\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"\316\001\n\nParameter" +
-      "s\022@\n\024node_or_tree_node_id\030\001 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022\"\n\031node_or_t" +
-      "ree_node_id_null\030\351\007 \001(\010\022;\n\017is_tree_node_" +
-      "id\030\002 \001(\0132\".dstore.engine.values.booleanV",
-      "alue\022\035\n\024is_tree_node_id_null\030\352\007 \001(\010\"\235\005\n\010" +
-      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
-      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
-      "dstore.engine.metainformation.MetaInform" +
-      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
-      "essage.Message\022E\n\003row\030\004 \003(\01328.dstore.eng" +
-      "ine.im_GetTreeNodeInformation_Pu.Respons" +
-      "e.Row\032\243\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\013predec" +
-      "essor\030\221N \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\0225\n\010level_no\030\222N \001(\0132\".dstore.eng",
-      "ine.values.integerValue\0224\n\007node_id\030\223N \001(" +
-      "\0132\".dstore.engine.values.integerValue\0229\n" +
-      "\014tree_node_id\030\224N \001(\0132\".dstore.engine.val" +
-      "ues.integerValue\022:\n\rinherits_from\030\225N \001(\013" +
-      "2\".dstore.engine.values.integerValue\0225\n\010" +
-      "level_id\030\226N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0226\n\tsymbol_id\030\227N \001(\0132\".dstore" +
-      ".engine.values.integerValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "GetTreeNodeInformation_Pu\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"\300\001\n\nParameters\0229\n\024no" +
+      "de_or_tree_node_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022\"\n\031node_or_tree_node_id_nu" +
+      "ll\030\351\007 \001(\010\0224\n\017is_tree_node_id\030\002 \001(\0132\033.dst" +
+      "ore.values.booleanValue\022\035\n\024is_tree_node_",
+      "id_null\030\352\007 \001(\010\"\354\004\n\010Response\022)\n\005error\030\001 \001" +
+      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
+      "nformation\030\002 \003(\0132..dstore.engine.metainf" +
+      "ormation.MetaInformation\022/\n\007message\030\003 \003(" +
+      "\0132\036.dstore.engine.message.Message\022E\n\003row" +
+      "\030\004 \003(\01328.dstore.engine.im_GetTreeNodeInf" +
+      "ormation_Pu.Response.Row\032\362\002\n\003Row\022\017\n\006row_" +
+      "id\030\220N \001(\005\0221\n\013predecessor\030\221N \001(\0132\033.dstore" +
+      ".values.integerValue\022.\n\010level_no\030\222N \001(\0132" +
+      "\033.dstore.values.integerValue\022-\n\007node_id\030",
+      "\223N \001(\0132\033.dstore.values.integerValue\0222\n\014t" +
+      "ree_node_id\030\224N \001(\0132\033.dstore.values.integ" +
+      "erValue\0223\n\rinherits_from\030\225N \001(\0132\033.dstore" +
+      ".values.integerValue\022.\n\010level_id\030\226N \001(\0132" +
+      "\033.dstore.values.integerValue\022/\n\tsymbol_i" +
+      "d\030\227N \001(\0132\033.dstore.values.integerValueB\035\n" +
+      "\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4665,7 +4663,7 @@ public final class ImGetTreeNodeInformationPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4688,7 +4686,7 @@ public final class ImGetTreeNodeInformationPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetTreeNodeInformation_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Predecessor", "LevelNo", "NodeId", "TreeNodeId", "InheritsFrom", "LevelId", "SymbolId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

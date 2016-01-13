@@ -13,17 +13,17 @@ public final class OmRemoveVoucherFromTrolleyPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+     * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
      */
     boolean hasVoucherCode();
     /**
-     * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+     * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getVoucherCode();
+    io.dstore.Values.stringValue getVoucherCode();
     /**
-     * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+     * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getVoucherCodeOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder();
 
     /**
      * <code>optional bool voucher_code_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmRemoveVoucherFromTrolleyPu {
     boolean getVoucherCodeNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class OmRemoveVoucherFromTrolleyPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (voucherCode_ != null) {
                 subBuilder = voucherCode_.toBuilder();
               }
-              voucherCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              voucherCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherCode_);
                 voucherCode_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class OmRemoveVoucherFromTrolleyPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class OmRemoveVoucherFromTrolleyPu {
     }
 
     public static final int VOUCHER_CODE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue voucherCode_;
+    private io.dstore.Values.stringValue voucherCode_;
     /**
-     * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+     * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
      */
     public boolean hasVoucherCode() {
       return voucherCode_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+     * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getVoucherCode() {
-      return voucherCode_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : voucherCode_;
+    public io.dstore.Values.stringValue getVoucherCode() {
+      return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+     * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
       return getVoucherCode();
     }
 
@@ -179,23 +179,23 @@ public final class OmRemoveVoucherFromTrolleyPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -469,29 +469,29 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue voucherCode_ = null;
+      private io.dstore.Values.stringValue voucherCode_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> voucherCodeBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherCodeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
       public boolean hasVoucherCode() {
         return voucherCodeBuilder_ != null || voucherCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getVoucherCode() {
+      public io.dstore.Values.stringValue getVoucherCode() {
         if (voucherCodeBuilder_ == null) {
-          return voucherCode_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : voucherCode_;
+          return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
         } else {
           return voucherCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
-      public Builder setVoucherCode(io.dstore.engine.Values.stringValue value) {
+      public Builder setVoucherCode(io.dstore.Values.stringValue value) {
         if (voucherCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
       public Builder setVoucherCode(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (voucherCodeBuilder_ == null) {
           voucherCode_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
-      public Builder mergeVoucherCode(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeVoucherCode(io.dstore.Values.stringValue value) {
         if (voucherCodeBuilder_ == null) {
           if (voucherCode_ != null) {
             voucherCode_ =
-              io.dstore.engine.Values.stringValue.newBuilder(voucherCode_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(voucherCode_).mergeFrom(value).buildPartial();
           } else {
             voucherCode_ = value;
           }
@@ -537,7 +537,7 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
       public Builder clearVoucherCode() {
         if (voucherCodeBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getVoucherCodeBuilder() {
+      public io.dstore.Values.stringValue.Builder getVoucherCodeBuilder() {
         
         onChanged();
         return getVoucherCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
         if (voucherCodeBuilder_ != null) {
           return voucherCodeBuilder_.getMessageOrBuilder();
         } else {
           return voucherCode_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : voucherCode_;
+              io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue voucher_code = 1;</code>
+       * <code>optional .dstore.values.stringValue voucher_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getVoucherCodeFieldBuilder() {
         if (voucherCodeBuilder_ == null) {
           voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getVoucherCode(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -680,7 +680,7 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class OmRemoveVoucherFromTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -2911,23 +2911,22 @@ public final class OmRemoveVoucherFromTrolleyPu {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_RemoveVouc" +
       "herFromTrolley_Pu.proto\022,dstore.engine.o" +
-      "m_RemoveVoucherFromTrolley_Pu\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\260\001\n\nParam" +
-      "eters\0227\n\014voucher_code\030\001 \001(\0132!.dstore.eng" +
-      "ine.values.stringValue\022\032\n\021voucher_code_n" +
-      "ull\030\351\007 \001(\010\0224\n\tunique_id\030\002 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022\027\n\016unique_id_nu",
-      "ll\030\352\007 \001(\010\"\221\002\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
-      "dstore.engine.error.Error\022H\n\020meta_inform" +
-      "ation\030\002 \003(\0132..dstore.engine.metainformat" +
-      "ion.MetaInformation\022/\n\007message\030\003 \003(\0132\036.d" +
-      "store.engine.message.Message\022G\n\003row\030\004 \003(" +
-      "\0132:.dstore.engine.om_RemoveVoucherFromTr" +
-      "olley_Pu.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220" +
-      "N \001(\005B\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "m_RemoveVoucherFromTrolley_Pu\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\242\001\n\nParameters\0220" +
+      "\n\014voucher_code\030\001 \001(\0132\032.dstore.values.str" +
+      "ingValue\022\032\n\021voucher_code_null\030\351\007 \001(\010\022-\n\t" +
+      "unique_id\030\002 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\027\n\016unique_id_null\030\352\007 \001(\010\"\221\002\n\010Respons",
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore." +
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_" +
+      "RemoveVoucherFromTrolley_Pu.Response.Row" +
+      "\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.en" +
+      "gine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2940,7 +2939,7 @@ public final class OmRemoveVoucherFromTrolleyPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2963,7 +2962,7 @@ public final class OmRemoveVoucherFromTrolleyPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_RemoveVoucherFromTrolley_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

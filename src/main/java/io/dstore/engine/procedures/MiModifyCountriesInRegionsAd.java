@@ -13,17 +13,17 @@ public final class MiModifyCountriesInRegionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCountryId();
+    io.dstore.Values.integerValue getCountryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
 
     /**
      * <code>optional bool country_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiModifyCountriesInRegionsAd {
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.integerValue region_id = 2;</code>
      */
     boolean hasRegionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.integerValue region_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getRegionId();
+    io.dstore.Values.integerValue getRegionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.integerValue region_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRegionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder();
 
     /**
      * <code>optional bool region_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiModifyCountriesInRegionsAd {
     boolean getRegionIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
      */
     boolean hasRevoke();
     /**
-     * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getRevoke();
+    io.dstore.Values.booleanValue getRevoke();
     /**
-     * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getRevokeOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getRevokeOrBuilder();
 
     /**
      * <code>optional bool revoke_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class MiModifyCountriesInRegionsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (countryId_ != null) {
                 subBuilder = countryId_.toBuilder();
               }
-              countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(countryId_);
                 countryId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class MiModifyCountriesInRegionsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (regionId_ != null) {
                 subBuilder = regionId_.toBuilder();
               }
-              regionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              regionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(regionId_);
                 regionId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class MiModifyCountriesInRegionsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (revoke_ != null) {
                 subBuilder = revoke_.toBuilder();
               }
-              revoke_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              revoke_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(revoke_);
                 revoke_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class MiModifyCountriesInRegionsAd {
     }
 
     public static final int COUNTRY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue countryId_;
+    private io.dstore.Values.integerValue countryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCountryId() {
-      return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+    public io.dstore.Values.integerValue getCountryId() {
+      return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.integerValue country_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
     }
 
@@ -216,23 +216,23 @@ public final class MiModifyCountriesInRegionsAd {
     }
 
     public static final int REGION_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue regionId_;
+    private io.dstore.Values.integerValue regionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.integerValue region_id = 2;</code>
      */
     public boolean hasRegionId() {
       return regionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.integerValue region_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getRegionId() {
-      return regionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : regionId_;
+    public io.dstore.Values.integerValue getRegionId() {
+      return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.integerValue region_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
       return getRegionId();
     }
 
@@ -246,23 +246,23 @@ public final class MiModifyCountriesInRegionsAd {
     }
 
     public static final int REVOKE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue revoke_;
+    private io.dstore.Values.booleanValue revoke_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
      */
     public boolean hasRevoke() {
       return revoke_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getRevoke() {
-      return revoke_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : revoke_;
+    public io.dstore.Values.booleanValue getRevoke() {
+      return revoke_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : revoke_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getRevokeOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getRevokeOrBuilder() {
       return getRevoke();
     }
 
@@ -570,29 +570,29 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue countryId_ = null;
+      private io.dstore.Values.integerValue countryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> countryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCountryId() {
+      public io.dstore.Values.integerValue getCountryId() {
         if (countryIdBuilder_ == null) {
-          return countryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+          return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
         } else {
           return countryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public Builder setCountryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCountryId(io.dstore.Values.integerValue value) {
         if (countryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       public Builder setCountryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (countryIdBuilder_ == null) {
           countryId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public Builder mergeCountryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCountryId(io.dstore.Values.integerValue value) {
         if (countryIdBuilder_ == null) {
           if (countryId_ != null) {
             countryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
           } else {
             countryId_ = value;
           }
@@ -638,7 +638,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCountryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
         
         onChanged();
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
           return countryIdBuilder_.getMessageOrBuilder();
         } else {
           return countryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : countryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.integerValue country_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCountryIdFieldBuilder() {
         if (countryIdBuilder_ == null) {
           countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCountryId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue regionId_ = null;
+      private io.dstore.Values.integerValue regionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> regionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> regionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
       public boolean hasRegionId() {
         return regionIdBuilder_ != null || regionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getRegionId() {
+      public io.dstore.Values.integerValue getRegionId() {
         if (regionIdBuilder_ == null) {
-          return regionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : regionId_;
+          return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
         } else {
           return regionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
-      public Builder setRegionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setRegionId(io.dstore.Values.integerValue value) {
         if (regionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
       public Builder setRegionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (regionIdBuilder_ == null) {
           regionId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
-      public Builder mergeRegionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRegionId(io.dstore.Values.integerValue value) {
         if (regionIdBuilder_ == null) {
           if (regionId_ != null) {
             regionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
           } else {
             regionId_ = value;
           }
@@ -781,7 +781,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
       public Builder clearRegionId() {
         if (regionIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRegionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getRegionIdBuilder() {
         
         onChanged();
         return getRegionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
         if (regionIdBuilder_ != null) {
           return regionIdBuilder_.getMessageOrBuilder();
         } else {
           return regionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : regionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.integerValue region_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRegionIdFieldBuilder() {
         if (regionIdBuilder_ == null) {
           regionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRegionId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue revoke_ = null;
+      private io.dstore.Values.booleanValue revoke_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> revokeBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> revokeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
       public boolean hasRevoke() {
         return revokeBuilder_ != null || revoke_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getRevoke() {
+      public io.dstore.Values.booleanValue getRevoke() {
         if (revokeBuilder_ == null) {
-          return revoke_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : revoke_;
+          return revoke_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : revoke_;
         } else {
           return revokeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
-      public Builder setRevoke(io.dstore.engine.Values.booleanValue value) {
+      public Builder setRevoke(io.dstore.Values.booleanValue value) {
         if (revokeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
       public Builder setRevoke(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (revokeBuilder_ == null) {
           revoke_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
-      public Builder mergeRevoke(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeRevoke(io.dstore.Values.booleanValue value) {
         if (revokeBuilder_ == null) {
           if (revoke_ != null) {
             revoke_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(revoke_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(revoke_).mergeFrom(value).buildPartial();
           } else {
             revoke_ = value;
           }
@@ -924,7 +924,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
       public Builder clearRevoke() {
         if (revokeBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getRevokeBuilder() {
+      public io.dstore.Values.booleanValue.Builder getRevokeBuilder() {
         
         onChanged();
         return getRevokeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getRevokeOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getRevokeOrBuilder() {
         if (revokeBuilder_ != null) {
           return revokeBuilder_.getMessageOrBuilder();
         } else {
           return revoke_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : revoke_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : revoke_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getRevokeFieldBuilder() {
         if (revokeBuilder_ == null) {
           revokeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getRevoke(),
                   getParentForChildren(),
                   isClean());
@@ -3155,24 +3155,24 @@ public final class MiModifyCountriesInRegionsAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/mi_ModifyCoun" +
       "triesInRegions_Ad.proto\022,dstore.engine.m" +
-      "i_ModifyCountriesInRegions_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\370\001\n\nParam" +
-      "eters\0226\n\ncountry_id\030\001 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022\030\n\017country_id_null" +
-      "\030\351\007 \001(\010\0225\n\tregion_id\030\002 \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022\027\n\016region_id_null",
-      "\030\352\007 \001(\010\0222\n\006revoke\030\003 \001(\0132\".dstore.engine." +
-      "values.booleanValue\022\024\n\013revoke_null\030\353\007 \001(" +
-      "\010\"\221\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.e" +
-      "ngine.error.Error\022H\n\020meta_information\030\002 " +
-      "\003(\0132..dstore.engine.metainformation.Meta" +
-      "Information\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
-      "gine.message.Message\022G\n\003row\030\004 \003(\0132:.dsto" +
-      "re.engine.mi_ModifyCountriesInRegions_Ad" +
-      ".Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n" +
-      "\033io.dstore.engine.proceduresb\006proto3"
+      "i_ModifyCountriesInRegions_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\343\001\n\nParameters\022/" +
+      "\n\ncountry_id\030\001 \001(\0132\033.dstore.values.integ" +
+      "erValue\022\030\n\017country_id_null\030\351\007 \001(\010\022.\n\treg" +
+      "ion_id\030\002 \001(\0132\033.dstore.values.integerValu" +
+      "e\022\027\n\016region_id_null\030\352\007 \001(\010\022+\n\006revoke\030\003 \001",
+      "(\0132\033.dstore.values.booleanValue\022\024\n\013revok" +
+      "e_null\030\353\007 \001(\010\"\221\002\n\010Response\022)\n\005error\030\001 \001(" +
+      "\0132\032.dstore.engine.error.Error\022H\n\020meta_in" +
+      "formation\030\002 \003(\0132..dstore.engine.metainfo" +
+      "rmation.MetaInformation\022/\n\007message\030\003 \003(\013" +
+      "2\036.dstore.engine.message.Message\022G\n\003row\030" +
+      "\004 \003(\0132:.dstore.engine.mi_ModifyCountries" +
+      "InRegions_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_" +
+      "id\030\220N \001(\005B\035\n\033io.dstore.engine.procedures" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3185,7 +3185,7 @@ public final class MiModifyCountriesInRegionsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3208,7 +3208,7 @@ public final class MiModifyCountriesInRegionsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyCountriesInRegions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

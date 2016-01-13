@@ -13,17 +13,17 @@ public final class MiExportLoginsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
      */
     boolean hasIncludeSpecialUser();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeSpecialUser();
+    io.dstore.Values.booleanValue getIncludeSpecialUser();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder();
 
     /**
      * <code>optional bool include_special_user_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class MiExportLoginsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeSpecialUser_ != null) {
                 subBuilder = includeSpecialUser_.toBuilder();
               }
-              includeSpecialUser_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeSpecialUser_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeSpecialUser_);
                 includeSpecialUser_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class MiExportLoginsAd {
     }
 
     public static final int INCLUDE_SPECIAL_USER_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.booleanValue includeSpecialUser_;
+    private io.dstore.Values.booleanValue includeSpecialUser_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
      */
     public boolean hasIncludeSpecialUser() {
       return includeSpecialUser_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeSpecialUser() {
-      return includeSpecialUser_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
+    public io.dstore.Values.booleanValue getIncludeSpecialUser() {
+      return includeSpecialUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
       return getIncludeSpecialUser();
     }
 
@@ -368,29 +368,29 @@ public final class MiExportLoginsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeSpecialUser_ = null;
+      private io.dstore.Values.booleanValue includeSpecialUser_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeSpecialUserBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeSpecialUserBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
       public boolean hasIncludeSpecialUser() {
         return includeSpecialUserBuilder_ != null || includeSpecialUser_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeSpecialUser() {
+      public io.dstore.Values.booleanValue getIncludeSpecialUser() {
         if (includeSpecialUserBuilder_ == null) {
-          return includeSpecialUser_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
+          return includeSpecialUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
         } else {
           return includeSpecialUserBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
-      public Builder setIncludeSpecialUser(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeSpecialUser(io.dstore.Values.booleanValue value) {
         if (includeSpecialUserBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class MiExportLoginsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
       public Builder setIncludeSpecialUser(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeSpecialUserBuilder_ == null) {
           includeSpecialUser_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class MiExportLoginsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
-      public Builder mergeIncludeSpecialUser(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeSpecialUser(io.dstore.Values.booleanValue value) {
         if (includeSpecialUserBuilder_ == null) {
           if (includeSpecialUser_ != null) {
             includeSpecialUser_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeSpecialUser_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeSpecialUser_).mergeFrom(value).buildPartial();
           } else {
             includeSpecialUser_ = value;
           }
@@ -436,7 +436,7 @@ public final class MiExportLoginsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
       public Builder clearIncludeSpecialUser() {
         if (includeSpecialUserBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class MiExportLoginsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeSpecialUserBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeSpecialUserBuilder() {
         
         onChanged();
         return getIncludeSpecialUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
         if (includeSpecialUserBuilder_ != null) {
           return includeSpecialUserBuilder_.getMessageOrBuilder();
         } else {
           return includeSpecialUser_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeSpecialUserFieldBuilder() {
         if (includeSpecialUserBuilder_ == null) {
           includeSpecialUserBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeSpecialUser(),
                   getParentForChildren(),
                   isClean());
@@ -2667,20 +2667,20 @@ public final class MiExportLoginsAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/mi_ExportLogi" +
       "ns_Ad.proto\022 dstore.engine.mi_ExportLogi" +
-      "ns_Ad\032\032dstore/engine/values.proto\032\031dstor" +
-      "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"r\n\nParameters\022@\n\024include_special_" +
-      "user\030\001 \001(\0132\".dstore.engine.values.boolea" +
-      "nValue\022\"\n\031include_special_user_null\030\351\007 \001" +
-      "(\010\"\205\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002",
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022;\n\003row\030\004 \003(\0132..dst" +
-      "ore.engine.mi_ExportLogins_Ad.Response.R" +
-      "ow\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore." +
-      "engine.proceduresb\006proto3"
+      "ns_Ad\032\023dstore/values.proto\032\031dstore/engin" +
+      "e/error.proto\032\033dstore/engine/message.pro" +
+      "to\032#dstore/engine/metainformation.proto\"" +
+      "k\n\nParameters\0229\n\024include_special_user\030\001 " +
+      "\001(\0132\033.dstore.values.booleanValue\022\"\n\031incl" +
+      "ude_special_user_null\030\351\007 \001(\010\"\205\002\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore.",
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022;\n\003row\030\004 \003(\0132..dstore.engine.mi_" +
+      "ExportLogins_Ad.Response.Row\032\026\n\003Row\022\017\n\006r" +
+      "ow_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2693,7 +2693,7 @@ public final class MiExportLoginsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2716,7 +2716,7 @@ public final class MiExportLoginsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ExportLogins_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

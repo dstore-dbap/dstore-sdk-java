@@ -13,17 +13,17 @@ public final class OmGetCampaignCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
      */
     boolean hasCampaignCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCampaignCategoryId();
+    io.dstore.Values.integerValue getCampaignCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder();
 
     /**
      * <code>optional bool campaign_category_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class OmGetCampaignCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (campaignCategoryId_ != null) {
                 subBuilder = campaignCategoryId_.toBuilder();
               }
-              campaignCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              campaignCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignCategoryId_);
                 campaignCategoryId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class OmGetCampaignCategoriesAd {
     }
 
     public static final int CAMPAIGN_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue campaignCategoryId_;
+    private io.dstore.Values.integerValue campaignCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
      */
     public boolean hasCampaignCategoryId() {
       return campaignCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCampaignCategoryId() {
-      return campaignCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
+    public io.dstore.Values.integerValue getCampaignCategoryId() {
+      return campaignCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
       return getCampaignCategoryId();
     }
 
@@ -368,29 +368,29 @@ public final class OmGetCampaignCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue campaignCategoryId_ = null;
+      private io.dstore.Values.integerValue campaignCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
       public boolean hasCampaignCategoryId() {
         return campaignCategoryIdBuilder_ != null || campaignCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCampaignCategoryId() {
+      public io.dstore.Values.integerValue getCampaignCategoryId() {
         if (campaignCategoryIdBuilder_ == null) {
-          return campaignCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
+          return campaignCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
         } else {
           return campaignCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
-      public Builder setCampaignCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCampaignCategoryId(io.dstore.Values.integerValue value) {
         if (campaignCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class OmGetCampaignCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
       public Builder setCampaignCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (campaignCategoryIdBuilder_ == null) {
           campaignCategoryId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class OmGetCampaignCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
-      public Builder mergeCampaignCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCampaignCategoryId(io.dstore.Values.integerValue value) {
         if (campaignCategoryIdBuilder_ == null) {
           if (campaignCategoryId_ != null) {
             campaignCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(campaignCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(campaignCategoryId_).mergeFrom(value).buildPartial();
           } else {
             campaignCategoryId_ = value;
           }
@@ -436,7 +436,7 @@ public final class OmGetCampaignCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
       public Builder clearCampaignCategoryId() {
         if (campaignCategoryIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class OmGetCampaignCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCampaignCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCampaignCategoryIdBuilder() {
         
         onChanged();
         return getCampaignCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
         if (campaignCategoryIdBuilder_ != null) {
           return campaignCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignCategoryIdFieldBuilder() {
         if (campaignCategoryIdBuilder_ == null) {
           campaignCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class OmGetCampaignCategoriesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Kategorie "CampaignCategoryID"
@@ -806,24 +806,24 @@ public final class OmGetCampaignCategoriesAd {
        */
       boolean hasCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Kategorie "CampaignCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCategoryDescription();
+      io.dstore.Values.stringValue getCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Kategorie "CampaignCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Kategorie für Verkaufsaktionen
@@ -831,21 +831,21 @@ public final class OmGetCampaignCategoriesAd {
        */
       boolean hasCampaignCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Kategorie für Verkaufsaktionen
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCampaignCategoryId();
+      io.dstore.Values.integerValue getCampaignCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Kategorie für Verkaufsaktionen
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignCategories_Ad.Response.Row}
@@ -892,11 +892,11 @@ public final class OmGetCampaignCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (categoryDescription_ != null) {
                   subBuilder = categoryDescription_.toBuilder();
                 }
-                categoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryDescription_);
                   categoryDescription_ = subBuilder.buildPartial();
@@ -905,11 +905,11 @@ public final class OmGetCampaignCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (campaignCategoryId_ != null) {
                   subBuilder = campaignCategoryId_.toBuilder();
                 }
-                campaignCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                campaignCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignCategoryId_);
                   campaignCategoryId_ = subBuilder.buildPartial();
@@ -951,9 +951,9 @@ public final class OmGetCampaignCategoriesAd {
       }
 
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue categoryDescription_;
+      private io.dstore.Values.stringValue categoryDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Kategorie "CampaignCategoryID"
@@ -963,30 +963,30 @@ public final class OmGetCampaignCategoriesAd {
         return categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Kategorie "CampaignCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCategoryDescription() {
-        return categoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+      public io.dstore.Values.stringValue getCategoryDescription() {
+        return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Kategorie "CampaignCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
       }
 
       public static final int CAMPAIGN_CATEGORY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue campaignCategoryId_;
+      private io.dstore.Values.integerValue campaignCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Kategorie für Verkaufsaktionen
@@ -996,23 +996,23 @@ public final class OmGetCampaignCategoriesAd {
         return campaignCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Kategorie für Verkaufsaktionen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCampaignCategoryId() {
-        return campaignCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
+      public io.dstore.Values.integerValue getCampaignCategoryId() {
+        return campaignCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Kategorie für Verkaufsaktionen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
         return getCampaignCategoryId();
       }
 
@@ -1290,11 +1290,11 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue categoryDescription_ = null;
+        private io.dstore.Values.stringValue categoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
@@ -1304,27 +1304,27 @@ public final class OmGetCampaignCategoriesAd {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCategoryDescription() {
+        public io.dstore.Values.stringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
-            return categoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+            return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
           } else {
             return categoryDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
-        public Builder setCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1338,14 +1338,14 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
         public Builder setCategoryDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescription_ = builderForValue.build();
             onChanged();
@@ -1356,17 +1356,17 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
-        public Builder mergeCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (categoryDescription_ != null) {
               categoryDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
             } else {
               categoryDescription_ = value;
             }
@@ -1378,7 +1378,7 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
@@ -1396,45 +1396,45 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
           
           onChanged();
           return getCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
             return categoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return categoryDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : categoryDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Kategorie "CampaignCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCategoryDescriptionFieldBuilder() {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1443,11 +1443,11 @@ public final class OmGetCampaignCategoriesAd {
           return categoryDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue campaignCategoryId_ = null;
+        private io.dstore.Values.integerValue campaignCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
@@ -1457,27 +1457,27 @@ public final class OmGetCampaignCategoriesAd {
           return campaignCategoryIdBuilder_ != null || campaignCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCampaignCategoryId() {
+        public io.dstore.Values.integerValue getCampaignCategoryId() {
           if (campaignCategoryIdBuilder_ == null) {
-            return campaignCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
+            return campaignCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
           } else {
             return campaignCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
-        public Builder setCampaignCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCampaignCategoryId(io.dstore.Values.integerValue value) {
           if (campaignCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1491,14 +1491,14 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
         public Builder setCampaignCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (campaignCategoryIdBuilder_ == null) {
             campaignCategoryId_ = builderForValue.build();
             onChanged();
@@ -1509,17 +1509,17 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
-        public Builder mergeCampaignCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCampaignCategoryId(io.dstore.Values.integerValue value) {
           if (campaignCategoryIdBuilder_ == null) {
             if (campaignCategoryId_ != null) {
               campaignCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(campaignCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(campaignCategoryId_).mergeFrom(value).buildPartial();
             } else {
               campaignCategoryId_ = value;
             }
@@ -1531,7 +1531,7 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
@@ -1549,45 +1549,45 @@ public final class OmGetCampaignCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCampaignCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCampaignCategoryIdBuilder() {
           
           onChanged();
           return getCampaignCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCampaignCategoryIdOrBuilder() {
           if (campaignCategoryIdBuilder_ != null) {
             return campaignCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return campaignCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : campaignCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_category_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Kategorie für Verkaufsaktionen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCampaignCategoryIdFieldBuilder() {
           if (campaignCategoryIdBuilder_ == null) {
             campaignCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCampaignCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -3157,24 +3157,23 @@ public final class OmGetCampaignCategoriesAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/om_GetCampaig" +
       "nCategories_Ad.proto\022)dstore.engine.om_G" +
-      "etCampaignCategories_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"r\n\nParameters\022@" +
-      "\n\024campaign_category_id\030\001 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022\"\n\031campaign_cat" +
-      "egory_id_null\030\351\007 \001(\010\"\224\003\n\010Response\022)\n\005err" +
-      "or\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020",
-      "meta_information\030\002 \003(\0132..dstore.engine.m" +
-      "etainformation.MetaInformation\022/\n\007messag" +
-      "e\030\003 \003(\0132\036.dstore.engine.message.Message\022" +
-      "D\n\003row\030\004 \003(\01327.dstore.engine.om_GetCampa" +
-      "ignCategories_Ad.Response.Row\032\233\001\n\003Row\022\017\n" +
-      "\006row_id\030\220N \001(\005\022@\n\024category_description\030\221" +
-      "N \001(\0132!.dstore.engine.values.stringValue" +
-      "\022A\n\024campaign_category_id\030\222N \001(\0132\".dstore" +
-      ".engine.values.integerValueB\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "etCampaignCategories_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"k\n\nParameters\0229\n\024campa" +
+      "ign_category_id\030\001 \001(\0132\033.dstore.values.in" +
+      "tegerValue\022\"\n\031campaign_category_id_null\030" +
+      "\351\007 \001(\010\"\206\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
+      "ore.engine.error.Error\022H\n\020meta_informati",
+      "on\030\002 \003(\0132..dstore.engine.metainformation" +
+      ".MetaInformation\022/\n\007message\030\003 \003(\0132\036.dsto" +
+      "re.engine.message.Message\022D\n\003row\030\004 \003(\01327" +
+      ".dstore.engine.om_GetCampaignCategories_" +
+      "Ad.Response.Row\032\215\001\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
+      "\0229\n\024category_description\030\221N \001(\0132\032.dstore" +
+      ".values.stringValue\022:\n\024campaign_category" +
+      "_id\030\222N \001(\0132\033.dstore.values.integerValueB" +
+      "\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3187,7 +3186,7 @@ public final class OmGetCampaignCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3210,7 +3209,7 @@ public final class OmGetCampaignCategoriesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CategoryDescription", "CampaignCategoryId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class ImGetValuesInCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
     boolean hasValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getValueId();
+    io.dstore.Values.integerValue getValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
     /**
      * <code>optional bool value_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGetValuesInCategoriesAd {
     boolean getValueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
      */
     boolean hasValueCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getValueCategoryId();
+    io.dstore.Values.integerValue getValueCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getValueCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getValueCategoryIdOrBuilder();
 
     /**
      * <code>optional bool value_category_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImGetValuesInCategoriesAd {
     boolean getValueCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+    io.dstore.Values.integerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class ImGetValuesInCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (valueId_ != null) {
                 subBuilder = valueId_.toBuilder();
               }
-              valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueId_);
                 valueId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class ImGetValuesInCategoriesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (valueCategoryId_ != null) {
                 subBuilder = valueCategoryId_.toBuilder();
               }
-              valueCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              valueCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueCategoryId_);
                 valueCategoryId_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class ImGetValuesInCategoriesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class ImGetValuesInCategoriesAd {
     }
 
     public static final int VALUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue valueId_;
+    private io.dstore.Values.integerValue valueId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
     public boolean hasValueId() {
       return valueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getValueId() {
-      return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+    public io.dstore.Values.integerValue getValueId() {
+      return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
       return getValueId();
     }
 
@@ -216,23 +216,23 @@ public final class ImGetValuesInCategoriesAd {
     }
 
     public static final int VALUE_CATEGORY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue valueCategoryId_;
+    private io.dstore.Values.integerValue valueCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
      */
     public boolean hasValueCategoryId() {
       return valueCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getValueCategoryId() {
-      return valueCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueCategoryId_;
+    public io.dstore.Values.integerValue getValueCategoryId() {
+      return valueCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+     * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
       return getValueCategoryId();
     }
 
@@ -246,23 +246,23 @@ public final class ImGetValuesInCategoriesAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.Values.integerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -570,29 +570,29 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue valueId_ = null;
+      private io.dstore.Values.integerValue valueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public boolean hasValueId() {
         return valueIdBuilder_ != null || valueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getValueId() {
+      public io.dstore.Values.integerValue getValueId() {
         if (valueIdBuilder_ == null) {
-          return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+          return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
         } else {
           return valueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public Builder setValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder setValueId(io.dstore.Values.integerValue value) {
         if (valueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public Builder setValueId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (valueIdBuilder_ == null) {
           valueId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public Builder mergeValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeValueId(io.dstore.Values.integerValue value) {
         if (valueIdBuilder_ == null) {
           if (valueId_ != null) {
             valueId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
           } else {
             valueId_ = value;
           }
@@ -638,7 +638,7 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public Builder clearValueId() {
         if (valueIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getValueIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
         
         onChanged();
         return getValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         if (valueIdBuilder_ != null) {
           return valueIdBuilder_.getMessageOrBuilder();
         } else {
           return valueId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueIdFieldBuilder() {
         if (valueIdBuilder_ == null) {
           valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue valueCategoryId_ = null;
+      private io.dstore.Values.integerValue valueCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
       public boolean hasValueCategoryId() {
         return valueCategoryIdBuilder_ != null || valueCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getValueCategoryId() {
+      public io.dstore.Values.integerValue getValueCategoryId() {
         if (valueCategoryIdBuilder_ == null) {
-          return valueCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueCategoryId_;
+          return valueCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueCategoryId_;
         } else {
           return valueCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
-      public Builder setValueCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setValueCategoryId(io.dstore.Values.integerValue value) {
         if (valueCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
       public Builder setValueCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (valueCategoryIdBuilder_ == null) {
           valueCategoryId_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
-      public Builder mergeValueCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeValueCategoryId(io.dstore.Values.integerValue value) {
         if (valueCategoryIdBuilder_ == null) {
           if (valueCategoryId_ != null) {
             valueCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(valueCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(valueCategoryId_).mergeFrom(value).buildPartial();
           } else {
             valueCategoryId_ = value;
           }
@@ -781,7 +781,7 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
       public Builder clearValueCategoryId() {
         if (valueCategoryIdBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getValueCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getValueCategoryIdBuilder() {
         
         onChanged();
         return getValueCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
         if (valueCategoryIdBuilder_ != null) {
           return valueCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return valueCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : valueCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : valueCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 2;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueCategoryIdFieldBuilder() {
         if (valueCategoryIdBuilder_ == null) {
           valueCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -924,7 +924,7 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class ImGetValuesInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1286,7 +1286,7 @@ public final class ImGetValuesInCategoriesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
@@ -1294,24 +1294,24 @@ public final class ImGetValuesInCategoriesAd {
        */
       boolean hasValueCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getValueCategoryId();
+      io.dstore.Values.integerValue getValueCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getValueCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getValueCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID"
@@ -1319,24 +1319,24 @@ public final class ImGetValuesInCategoriesAd {
        */
       boolean hasCharacteristicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCharacteristicDescription();
+      io.dstore.Values.stringValue getCharacteristicDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
@@ -1344,24 +1344,24 @@ public final class ImGetValuesInCategoriesAd {
        */
       boolean hasNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+      io.dstore.Values.integerValue getNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        *
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
@@ -1369,24 +1369,24 @@ public final class ImGetValuesInCategoriesAd {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        *
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        *
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10005;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
@@ -1394,24 +1394,24 @@ public final class ImGetValuesInCategoriesAd {
        */
       boolean hasValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10005;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getValueId();
+      io.dstore.Values.integerValue getValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10005;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+       * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ValueCategoryID"
@@ -1419,21 +1419,21 @@ public final class ImGetValuesInCategoriesAd {
        */
       boolean hasValueCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+       * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ValueCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValueCategoryDescription();
+      io.dstore.Values.stringValue getValueCategoryDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+       * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ValueCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueCategoryDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueCategoryDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetValuesInCategories_Ad.Response.Row}
@@ -1480,11 +1480,11 @@ public final class ImGetValuesInCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (valueCategoryId_ != null) {
                   subBuilder = valueCategoryId_.toBuilder();
                 }
-                valueCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                valueCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueCategoryId_);
                   valueCategoryId_ = subBuilder.buildPartial();
@@ -1493,11 +1493,11 @@ public final class ImGetValuesInCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -1506,11 +1506,11 @@ public final class ImGetValuesInCategoriesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -1519,11 +1519,11 @@ public final class ImGetValuesInCategoriesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1532,11 +1532,11 @@ public final class ImGetValuesInCategoriesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -1545,11 +1545,11 @@ public final class ImGetValuesInCategoriesAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (valueCategoryDescription_ != null) {
                   subBuilder = valueCategoryDescription_.toBuilder();
                 }
-                valueCategoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                valueCategoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueCategoryDescription_);
                   valueCategoryDescription_ = subBuilder.buildPartial();
@@ -1591,9 +1591,9 @@ public final class ImGetValuesInCategoriesAd {
       }
 
       public static final int VALUE_CATEGORY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue valueCategoryId_;
+      private io.dstore.Values.integerValue valueCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
@@ -1603,30 +1603,30 @@ public final class ImGetValuesInCategoriesAd {
         return valueCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getValueCategoryId() {
-        return valueCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueCategoryId_;
+      public io.dstore.Values.integerValue getValueCategoryId() {
+        return valueCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
        *
        * <pre>
        * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
         return getValueCategoryId();
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue characteristicDescription_;
+      private io.dstore.Values.stringValue characteristicDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID"
@@ -1636,30 +1636,30 @@ public final class ImGetValuesInCategoriesAd {
         return characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.Values.stringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
        *
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.Values.integerValue nodeCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
@@ -1669,30 +1669,30 @@ public final class ImGetValuesInCategoriesAd {
         return nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        *
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
@@ -1702,30 +1702,30 @@ public final class ImGetValuesInCategoriesAd {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        *
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.stringValue value = 10004;</code>
        *
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue valueId_;
+      private io.dstore.Values.integerValue valueId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10005;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
@@ -1735,30 +1735,30 @@ public final class ImGetValuesInCategoriesAd {
         return valueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10005;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.Values.integerValue getValueId() {
+        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10005;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
       public static final int VALUE_CATEGORY_DESCRIPTION_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue valueCategoryDescription_;
+      private io.dstore.Values.stringValue valueCategoryDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+       * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ValueCategoryID"
@@ -1768,23 +1768,23 @@ public final class ImGetValuesInCategoriesAd {
         return valueCategoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+       * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ValueCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValueCategoryDescription() {
-        return valueCategoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : valueCategoryDescription_;
+      public io.dstore.Values.stringValue getValueCategoryDescription() {
+        return valueCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueCategoryDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+       * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ValueCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueCategoryDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueCategoryDescriptionOrBuilder() {
         return getValueCategoryDescription();
       }
 
@@ -2146,11 +2146,11 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue valueCategoryId_ = null;
+        private io.dstore.Values.integerValue valueCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
@@ -2160,27 +2160,27 @@ public final class ImGetValuesInCategoriesAd {
           return valueCategoryIdBuilder_ != null || valueCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getValueCategoryId() {
+        public io.dstore.Values.integerValue getValueCategoryId() {
           if (valueCategoryIdBuilder_ == null) {
-            return valueCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueCategoryId_;
+            return valueCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueCategoryId_;
           } else {
             return valueCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
-        public Builder setValueCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setValueCategoryId(io.dstore.Values.integerValue value) {
           if (valueCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2194,14 +2194,14 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
         public Builder setValueCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (valueCategoryIdBuilder_ == null) {
             valueCategoryId_ = builderForValue.build();
             onChanged();
@@ -2212,17 +2212,17 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
-        public Builder mergeValueCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeValueCategoryId(io.dstore.Values.integerValue value) {
           if (valueCategoryIdBuilder_ == null) {
             if (valueCategoryId_ != null) {
               valueCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(valueCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(valueCategoryId_).mergeFrom(value).buildPartial();
             } else {
               valueCategoryId_ = value;
             }
@@ -2234,7 +2234,7 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
@@ -2252,45 +2252,45 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getValueCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getValueCategoryIdBuilder() {
           
           onChanged();
           return getValueCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getValueCategoryIdOrBuilder() {
           if (valueCategoryIdBuilder_ != null) {
             return valueCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return valueCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : valueCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : valueCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_category_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue value_category_id = 10001;</code>
          *
          * <pre>
          * ID einer Kategorie, der die Eigenschaft "ValueID" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueCategoryIdFieldBuilder() {
           if (valueCategoryIdBuilder_ == null) {
             valueCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -2299,11 +2299,11 @@ public final class ImGetValuesInCategoriesAd {
           return valueCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.Values.stringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
@@ -2313,27 +2313,27 @@ public final class ImGetValuesInCategoriesAd {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.Values.stringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
-        public Builder setCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2347,14 +2347,14 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -2365,17 +2365,17 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -2387,7 +2387,7 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
@@ -2405,45 +2405,45 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue characteristic_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          *
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2452,11 +2452,11 @@ public final class ImGetValuesInCategoriesAd {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
@@ -2466,27 +2466,27 @@ public final class ImGetValuesInCategoriesAd {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.Values.integerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
-        public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2500,14 +2500,14 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2518,17 +2518,17 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -2540,7 +2540,7 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
@@ -2558,45 +2558,45 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem die Eigenschaft "ValueID" gehört
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2605,11 +2605,11 @@ public final class ImGetValuesInCategoriesAd {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
@@ -2619,27 +2619,27 @@ public final class ImGetValuesInCategoriesAd {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2653,14 +2653,14 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2671,17 +2671,17 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2693,7 +2693,7 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
@@ -2711,45 +2711,45 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.stringValue value = 10004;</code>
          *
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2758,11 +2758,11 @@ public final class ImGetValuesInCategoriesAd {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue valueId_ = null;
+        private io.dstore.Values.integerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
@@ -2772,27 +2772,27 @@ public final class ImGetValuesInCategoriesAd {
           return valueIdBuilder_ != null || valueId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getValueId() {
+        public io.dstore.Values.integerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
-        public Builder setValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder setValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2806,14 +2806,14 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
         public Builder setValueId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -2824,17 +2824,17 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
-        public Builder mergeValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -2846,7 +2846,7 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
@@ -2864,45 +2864,45 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value" zum Merkmal "NodeCharacteristicID", das der Kategorie "ValueCategoryID" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -2911,11 +2911,11 @@ public final class ImGetValuesInCategoriesAd {
           return valueIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue valueCategoryDescription_ = null;
+        private io.dstore.Values.stringValue valueCategoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueCategoryDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueCategoryDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
@@ -2925,27 +2925,27 @@ public final class ImGetValuesInCategoriesAd {
           return valueCategoryDescriptionBuilder_ != null || valueCategoryDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValueCategoryDescription() {
+        public io.dstore.Values.stringValue getValueCategoryDescription() {
           if (valueCategoryDescriptionBuilder_ == null) {
-            return valueCategoryDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : valueCategoryDescription_;
+            return valueCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueCategoryDescription_;
           } else {
             return valueCategoryDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
-        public Builder setValueCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setValueCategoryDescription(io.dstore.Values.stringValue value) {
           if (valueCategoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2959,14 +2959,14 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
         public Builder setValueCategoryDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueCategoryDescriptionBuilder_ == null) {
             valueCategoryDescription_ = builderForValue.build();
             onChanged();
@@ -2977,17 +2977,17 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
-        public Builder mergeValueCategoryDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValueCategoryDescription(io.dstore.Values.stringValue value) {
           if (valueCategoryDescriptionBuilder_ == null) {
             if (valueCategoryDescription_ != null) {
               valueCategoryDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(valueCategoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(valueCategoryDescription_).mergeFrom(value).buildPartial();
             } else {
               valueCategoryDescription_ = value;
             }
@@ -2999,7 +2999,7 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
@@ -3017,45 +3017,45 @@ public final class ImGetValuesInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueCategoryDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueCategoryDescriptionBuilder() {
           
           onChanged();
           return getValueCategoryDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueCategoryDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueCategoryDescriptionOrBuilder() {
           if (valueCategoryDescriptionBuilder_ != null) {
             return valueCategoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return valueCategoryDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : valueCategoryDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : valueCategoryDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_category_description = 10006;</code>
+         * <code>optional .dstore.values.stringValue value_category_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ValueCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueCategoryDescriptionFieldBuilder() {
           if (valueCategoryDescriptionBuilder_ == null) {
             valueCategoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValueCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4625,35 +4625,33 @@ public final class ImGetValuesInCategoriesAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/im_GetValuesI" +
       "nCategories_Ad.proto\022)dstore.engine.im_G" +
-      "etValuesInCategories_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\244\002\n\nParameters\022" +
-      "4\n\010value_id\030\001 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\026\n\rvalue_id_null\030\351\007 \001(\010\022=\n" +
-      "\021value_category_id\030\002 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022\037\n\026value_category_i",
-      "d_null\030\352\007 \001(\010\022B\n\026node_characteristic_id\030" +
-      "\003 \001(\0132\".dstore.engine.values.integerValu" +
-      "e\022$\n\033node_characteristic_id_null\030\353\007 \001(\010\"" +
-      "\216\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.eng" +
-      "ine.error.Error\022H\n\020meta_information\030\002 \003(" +
-      "\0132..dstore.engine.metainformation.MetaIn" +
-      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
-      "ne.message.Message\022D\n\003row\030\004 \003(\01327.dstore" +
-      ".engine.im_GetValuesInCategories_Ad.Resp" +
-      "onse.Row\032\225\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\021val",
-      "ue_category_id\030\221N \001(\0132\".dstore.engine.va" +
-      "lues.integerValue\022F\n\032characteristic_desc" +
-      "ription\030\222N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022C\n\026node_characteristic_id\030\223N \001" +
-      "(\0132\".dstore.engine.values.integerValue\0221" +
-      "\n\005value\030\224N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\0225\n\010value_id\030\225N \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022F\n\032value_catego" +
-      "ry_description\030\226N \001(\0132!.dstore.engine.va" +
-      "lues.stringValueB\035\n\033io.dstore.engine.pro",
-      "ceduresb\006proto3"
+      "etValuesInCategories_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\217\002\n\nParameters\022-\n\010valu" +
+      "e_id\030\001 \001(\0132\033.dstore.values.integerValue\022" +
+      "\026\n\rvalue_id_null\030\351\007 \001(\010\0226\n\021value_categor" +
+      "y_id\030\002 \001(\0132\033.dstore.values.integerValue\022" +
+      "\037\n\026value_category_id_null\030\352\007 \001(\010\022;\n\026node",
+      "_characteristic_id\030\003 \001(\0132\033.dstore.values" +
+      ".integerValue\022$\n\033node_characteristic_id_" +
+      "null\030\353\007 \001(\010\"\344\004\n\010Response\022)\n\005error\030\001 \001(\0132" +
+      "\032.dstore.engine.error.Error\022H\n\020meta_info" +
+      "rmation\030\002 \003(\0132..dstore.engine.metainform" +
+      "ation.MetaInformation\022/\n\007message\030\003 \003(\0132\036" +
+      ".dstore.engine.message.Message\022D\n\003row\030\004 " +
+      "\003(\01327.dstore.engine.im_GetValuesInCatego" +
+      "ries_Ad.Response.Row\032\353\002\n\003Row\022\017\n\006row_id\030\220" +
+      "N \001(\005\0227\n\021value_category_id\030\221N \001(\0132\033.dsto",
+      "re.values.integerValue\022?\n\032characteristic" +
+      "_description\030\222N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022<\n\026node_characteristic_id\030\223N \001(\013" +
+      "2\033.dstore.values.integerValue\022*\n\005value\030\224" +
+      "N \001(\0132\032.dstore.values.stringValue\022.\n\010val" +
+      "ue_id\030\225N \001(\0132\033.dstore.values.integerValu" +
+      "e\022?\n\032value_category_description\030\226N \001(\0132\032" +
+      ".dstore.values.stringValueB\035\n\033io.dstore." +
+      "engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4666,7 +4664,7 @@ public final class ImGetValuesInCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4689,7 +4687,7 @@ public final class ImGetValuesInCategoriesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetValuesInCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ValueCategoryId", "CharacteristicDescription", "NodeCharacteristicId", "Value", "ValueId", "ValueCategoryDescription", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

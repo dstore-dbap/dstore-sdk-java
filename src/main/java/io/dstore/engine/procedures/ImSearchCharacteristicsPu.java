@@ -13,17 +13,17 @@ public final class ImSearchCharacteristicsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
      */
     boolean hasNodeCharacteristicIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getNodeCharacteristicIds();
+    io.dstore.Values.stringValue getNodeCharacteristicIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getNodeCharacteristicIdsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getNodeCharacteristicIdsOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_ids_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getNodeCharacteristicIdsNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.stringValue value = 2;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.stringValue value = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getValue();
+    io.dstore.Values.stringValue getValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.stringValue value = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_like = 3;</code>
      */
     boolean hasIsLike();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_like = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getIsLike();
+    io.dstore.Values.booleanValue getIsLike();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_like = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIsLikeOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIsLikeOrBuilder();
 
     /**
      * <code>optional bool is_like_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getIsLikeNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+     * <code>optional .dstore.values.timestampValue date = 4;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+     * <code>optional .dstore.values.timestampValue date = 4;</code>
      */
-    io.dstore.engine.Values.timestampValue getDate();
+    io.dstore.Values.timestampValue getDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+     * <code>optional .dstore.values.timestampValue date = 4;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getDateOrBuilder();
 
     /**
      * <code>optional bool date_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+     * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
      */
     boolean hasIncludeInherited();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+     * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeInherited();
+    io.dstore.Values.booleanValue getIncludeInherited();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+     * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeInheritedOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeInheritedOrBuilder();
 
     /**
      * <code>optional bool include_inherited_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getIncludeInheritedNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+     * <code>optional .dstore.values.integerValue language_id = 6;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+     * <code>optional .dstore.values.integerValue language_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+     * <code>optional .dstore.values.integerValue language_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+     * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
      */
     boolean hasIncludeNodeDescription();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+     * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeNodeDescription();
+    io.dstore.Values.booleanValue getIncludeNodeDescription();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+     * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeNodeDescriptionOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeNodeDescriptionOrBuilder();
 
     /**
      * <code>optional bool include_node_description_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getIncludeNodeDescriptionNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+     * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
      */
     boolean hasResultUpToLevelNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+     * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
      */
-    io.dstore.engine.Values.integerValue getResultUpToLevelNo();
+    io.dstore.Values.integerValue getResultUpToLevelNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+     * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getResultUpToLevelNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getResultUpToLevelNoOrBuilder();
 
     /**
      * <code>optional bool result_up_to_level_no_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getResultUpToLevelNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+     * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
      */
     boolean hasSearchUpToLevelNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+     * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
      */
-    io.dstore.engine.Values.integerValue getSearchUpToLevelNo();
+    io.dstore.Values.integerValue getSearchUpToLevelNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+     * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSearchUpToLevelNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSearchUpToLevelNoOrBuilder();
 
     /**
      * <code>optional bool search_up_to_level_no_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getSearchUpToLevelNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+     * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
      */
     boolean hasStartAtRowNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+     * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
      */
-    io.dstore.engine.Values.integerValue getStartAtRowNo();
+    io.dstore.Values.integerValue getStartAtRowNo();
     /**
-     * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+     * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getStartAtRowNoOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getStartAtRowNoOrBuilder();
 
     /**
      * <code>optional bool start_at_row_no_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getStartAtRowNoNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+     * <code>optional .dstore.values.integerValue row_count = 11;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+     * <code>optional .dstore.values.integerValue row_count = 11;</code>
      */
-    io.dstore.engine.Values.integerValue getRowCount();
+    io.dstore.Values.integerValue getRowCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+     * <code>optional .dstore.values.integerValue row_count = 11;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder();
 
     /**
      * <code>optional bool row_count_null = 1011;</code>
@@ -211,17 +211,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
      */
     boolean hasMaintainSearchItemLacks();
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
      */
-    io.dstore.engine.Values.booleanValue getMaintainSearchItemLacks();
+    io.dstore.Values.booleanValue getMaintainSearchItemLacks();
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getMaintainSearchItemLacksOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getMaintainSearchItemLacksOrBuilder();
 
     /**
      * <code>optional bool maintain_search_item_lacks_null = 1012;</code>
@@ -229,17 +229,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getMaintainSearchItemLacksNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
      */
     boolean hasFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
      */
-    io.dstore.engine.Values.integerValue getFilterByCharacteristicId();
+    io.dstore.Values.integerValue getFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool filter_by_characteristic_id_null = 1013;</code>
@@ -247,17 +247,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getFilterByCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
      */
     boolean hasFilterByCharacValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
      */
-    io.dstore.engine.Values.stringValue getFilterByCharacValue();
+    io.dstore.Values.stringValue getFilterByCharacValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
 
     /**
      * <code>optional bool filter_by_charac_value_null = 1014;</code>
@@ -265,17 +265,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getFilterByCharacValueNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+     * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
      */
     boolean hasSortResult();
     /**
-     * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+     * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
      */
-    io.dstore.engine.Values.booleanValue getSortResult();
+    io.dstore.Values.booleanValue getSortResult();
     /**
-     * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+     * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getSortResultOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getSortResultOrBuilder();
 
     /**
      * <code>optional bool sort_result_null = 1015;</code>
@@ -283,17 +283,17 @@ public final class ImSearchCharacteristicsPu {
     boolean getSortResultNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
      */
     boolean hasNegateFilterByParams();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
      */
-    io.dstore.engine.Values.booleanValue getNegateFilterByParams();
+    io.dstore.Values.booleanValue getNegateFilterByParams();
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
 
     /**
      * <code>optional bool negate_filter_by_params_null = 1016;</code>
@@ -355,11 +355,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (nodeCharacteristicIds_ != null) {
                 subBuilder = nodeCharacteristicIds_.toBuilder();
               }
-              nodeCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              nodeCharacteristicIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicIds_);
                 nodeCharacteristicIds_ = subBuilder.buildPartial();
@@ -368,11 +368,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -381,11 +381,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (isLike_ != null) {
                 subBuilder = isLike_.toBuilder();
               }
-              isLike_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              isLike_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isLike_);
                 isLike_ = subBuilder.buildPartial();
@@ -394,11 +394,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              date_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -407,11 +407,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeInherited_ != null) {
                 subBuilder = includeInherited_.toBuilder();
               }
-              includeInherited_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeInherited_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeInherited_);
                 includeInherited_ = subBuilder.buildPartial();
@@ -420,11 +420,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -433,11 +433,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeNodeDescription_ != null) {
                 subBuilder = includeNodeDescription_.toBuilder();
               }
-              includeNodeDescription_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeNodeDescription_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeNodeDescription_);
                 includeNodeDescription_ = subBuilder.buildPartial();
@@ -446,11 +446,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (resultUpToLevelNo_ != null) {
                 subBuilder = resultUpToLevelNo_.toBuilder();
               }
-              resultUpToLevelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              resultUpToLevelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(resultUpToLevelNo_);
                 resultUpToLevelNo_ = subBuilder.buildPartial();
@@ -459,11 +459,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (searchUpToLevelNo_ != null) {
                 subBuilder = searchUpToLevelNo_.toBuilder();
               }
-              searchUpToLevelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              searchUpToLevelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchUpToLevelNo_);
                 searchUpToLevelNo_ = subBuilder.buildPartial();
@@ -472,11 +472,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (startAtRowNo_ != null) {
                 subBuilder = startAtRowNo_.toBuilder();
               }
-              startAtRowNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              startAtRowNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(startAtRowNo_);
                 startAtRowNo_ = subBuilder.buildPartial();
@@ -485,11 +485,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -498,11 +498,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (maintainSearchItemLacks_ != null) {
                 subBuilder = maintainSearchItemLacks_.toBuilder();
               }
-              maintainSearchItemLacks_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              maintainSearchItemLacks_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maintainSearchItemLacks_);
                 maintainSearchItemLacks_ = subBuilder.buildPartial();
@@ -511,11 +511,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 106: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (filterByCharacteristicId_ != null) {
                 subBuilder = filterByCharacteristicId_.toBuilder();
               }
-              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              filterByCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacteristicId_);
                 filterByCharacteristicId_ = subBuilder.buildPartial();
@@ -524,11 +524,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 114: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (filterByCharacValue_ != null) {
                 subBuilder = filterByCharacValue_.toBuilder();
               }
-              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              filterByCharacValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacValue_);
                 filterByCharacValue_ = subBuilder.buildPartial();
@@ -537,11 +537,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 122: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (sortResult_ != null) {
                 subBuilder = sortResult_.toBuilder();
               }
-              sortResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              sortResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortResult_);
                 sortResult_ = subBuilder.buildPartial();
@@ -550,11 +550,11 @@ public final class ImSearchCharacteristicsPu {
               break;
             }
             case 130: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (negateFilterByParams_ != null) {
                 subBuilder = negateFilterByParams_.toBuilder();
               }
-              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              negateFilterByParams_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilterByParams_);
                 negateFilterByParams_ = subBuilder.buildPartial();
@@ -667,23 +667,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int NODE_CHARACTERISTIC_IDS_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue nodeCharacteristicIds_;
+    private io.dstore.Values.stringValue nodeCharacteristicIds_;
     /**
-     * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
      */
     public boolean hasNodeCharacteristicIds() {
       return nodeCharacteristicIds_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getNodeCharacteristicIds() {
-      return nodeCharacteristicIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeCharacteristicIds_;
+    public io.dstore.Values.stringValue getNodeCharacteristicIds() {
+      return nodeCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeCharacteristicIds_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+     * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getNodeCharacteristicIdsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getNodeCharacteristicIdsOrBuilder() {
       return getNodeCharacteristicIds();
     }
 
@@ -697,23 +697,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int VALUE_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue value_;
+    private io.dstore.Values.stringValue value_;
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.stringValue value = 2;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.stringValue value = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.stringValue value = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -727,23 +727,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int IS_LIKE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue isLike_;
+    private io.dstore.Values.booleanValue isLike_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_like = 3;</code>
      */
     public boolean hasIsLike() {
       return isLike_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_like = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIsLike() {
-      return isLike_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isLike_;
+    public io.dstore.Values.booleanValue getIsLike() {
+      return isLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isLike_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+     * <code>optional .dstore.values.booleanValue is_like = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIsLikeOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIsLikeOrBuilder() {
       return getIsLike();
     }
 
@@ -757,23 +757,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int DATE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.timestampValue date_;
+    private io.dstore.Values.timestampValue date_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+     * <code>optional .dstore.values.timestampValue date = 4;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+     * <code>optional .dstore.values.timestampValue date = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValue getDate() {
-      return date_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : date_;
+    public io.dstore.Values.timestampValue getDate() {
+      return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+     * <code>optional .dstore.values.timestampValue date = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
       return getDate();
     }
 
@@ -787,23 +787,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int INCLUDE_INHERITED_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.booleanValue includeInherited_;
+    private io.dstore.Values.booleanValue includeInherited_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+     * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
      */
     public boolean hasIncludeInherited() {
       return includeInherited_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+     * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeInherited() {
-      return includeInherited_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeInherited_;
+    public io.dstore.Values.booleanValue getIncludeInherited() {
+      return includeInherited_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeInherited_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+     * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeInheritedOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeInheritedOrBuilder() {
       return getIncludeInherited();
     }
 
@@ -817,23 +817,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+     * <code>optional .dstore.values.integerValue language_id = 6;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+     * <code>optional .dstore.values.integerValue language_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+     * <code>optional .dstore.values.integerValue language_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -847,23 +847,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int INCLUDE_NODE_DESCRIPTION_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.booleanValue includeNodeDescription_;
+    private io.dstore.Values.booleanValue includeNodeDescription_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+     * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
      */
     public boolean hasIncludeNodeDescription() {
       return includeNodeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+     * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeNodeDescription() {
-      return includeNodeDescription_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeNodeDescription_;
+    public io.dstore.Values.booleanValue getIncludeNodeDescription() {
+      return includeNodeDescription_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeNodeDescription_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+     * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeNodeDescriptionOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeNodeDescriptionOrBuilder() {
       return getIncludeNodeDescription();
     }
 
@@ -877,23 +877,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int RESULT_UP_TO_LEVEL_NO_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.integerValue resultUpToLevelNo_;
+    private io.dstore.Values.integerValue resultUpToLevelNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+     * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
      */
     public boolean hasResultUpToLevelNo() {
       return resultUpToLevelNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+     * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
      */
-    public io.dstore.engine.Values.integerValue getResultUpToLevelNo() {
-      return resultUpToLevelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : resultUpToLevelNo_;
+    public io.dstore.Values.integerValue getResultUpToLevelNo() {
+      return resultUpToLevelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultUpToLevelNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+     * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getResultUpToLevelNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getResultUpToLevelNoOrBuilder() {
       return getResultUpToLevelNo();
     }
 
@@ -907,23 +907,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int SEARCH_UP_TO_LEVEL_NO_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.integerValue searchUpToLevelNo_;
+    private io.dstore.Values.integerValue searchUpToLevelNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+     * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
      */
     public boolean hasSearchUpToLevelNo() {
       return searchUpToLevelNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+     * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
      */
-    public io.dstore.engine.Values.integerValue getSearchUpToLevelNo() {
-      return searchUpToLevelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : searchUpToLevelNo_;
+    public io.dstore.Values.integerValue getSearchUpToLevelNo() {
+      return searchUpToLevelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : searchUpToLevelNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+     * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSearchUpToLevelNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSearchUpToLevelNoOrBuilder() {
       return getSearchUpToLevelNo();
     }
 
@@ -937,23 +937,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int START_AT_ROW_NO_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.integerValue startAtRowNo_;
+    private io.dstore.Values.integerValue startAtRowNo_;
     /**
-     * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+     * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
      */
     public boolean hasStartAtRowNo() {
       return startAtRowNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+     * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
      */
-    public io.dstore.engine.Values.integerValue getStartAtRowNo() {
-      return startAtRowNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : startAtRowNo_;
+    public io.dstore.Values.integerValue getStartAtRowNo() {
+      return startAtRowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : startAtRowNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+     * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getStartAtRowNoOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getStartAtRowNoOrBuilder() {
       return getStartAtRowNo();
     }
 
@@ -967,23 +967,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int ROW_COUNT_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.integerValue rowCount_;
+    private io.dstore.Values.integerValue rowCount_;
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+     * <code>optional .dstore.values.integerValue row_count = 11;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+     * <code>optional .dstore.values.integerValue row_count = 11;</code>
      */
-    public io.dstore.engine.Values.integerValue getRowCount() {
-      return rowCount_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+    public io.dstore.Values.integerValue getRowCount() {
+      return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+     * <code>optional .dstore.values.integerValue row_count = 11;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
     }
 
@@ -997,23 +997,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int MAINTAIN_SEARCH_ITEM_LACKS_FIELD_NUMBER = 12;
-    private io.dstore.engine.Values.booleanValue maintainSearchItemLacks_;
+    private io.dstore.Values.booleanValue maintainSearchItemLacks_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
      */
     public boolean hasMaintainSearchItemLacks() {
       return maintainSearchItemLacks_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
      */
-    public io.dstore.engine.Values.booleanValue getMaintainSearchItemLacks() {
-      return maintainSearchItemLacks_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : maintainSearchItemLacks_;
+    public io.dstore.Values.booleanValue getMaintainSearchItemLacks() {
+      return maintainSearchItemLacks_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchItemLacks_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+     * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getMaintainSearchItemLacksOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getMaintainSearchItemLacksOrBuilder() {
       return getMaintainSearchItemLacks();
     }
 
@@ -1027,23 +1027,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int FILTER_BY_CHARACTERISTIC_ID_FIELD_NUMBER = 13;
-    private io.dstore.engine.Values.integerValue filterByCharacteristicId_;
+    private io.dstore.Values.integerValue filterByCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
      */
     public boolean hasFilterByCharacteristicId() {
       return filterByCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
      */
-    public io.dstore.engine.Values.integerValue getFilterByCharacteristicId() {
-      return filterByCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+    public io.dstore.Values.integerValue getFilterByCharacteristicId() {
+      return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
       return getFilterByCharacteristicId();
     }
 
@@ -1057,23 +1057,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int FILTER_BY_CHARAC_VALUE_FIELD_NUMBER = 14;
-    private io.dstore.engine.Values.stringValue filterByCharacValue_;
+    private io.dstore.Values.stringValue filterByCharacValue_;
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
      */
     public boolean hasFilterByCharacValue() {
       return filterByCharacValue_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
      */
-    public io.dstore.engine.Values.stringValue getFilterByCharacValue() {
-      return filterByCharacValue_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+    public io.dstore.Values.stringValue getFilterByCharacValue() {
+      return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+     * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
       return getFilterByCharacValue();
     }
 
@@ -1087,23 +1087,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int SORT_RESULT_FIELD_NUMBER = 15;
-    private io.dstore.engine.Values.booleanValue sortResult_;
+    private io.dstore.Values.booleanValue sortResult_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+     * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
      */
     public boolean hasSortResult() {
       return sortResult_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+     * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
      */
-    public io.dstore.engine.Values.booleanValue getSortResult() {
-      return sortResult_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : sortResult_;
+    public io.dstore.Values.booleanValue getSortResult() {
+      return sortResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : sortResult_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+     * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getSortResultOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getSortResultOrBuilder() {
       return getSortResult();
     }
 
@@ -1117,23 +1117,23 @@ public final class ImSearchCharacteristicsPu {
     }
 
     public static final int NEGATE_FILTER_BY_PARAMS_FIELD_NUMBER = 16;
-    private io.dstore.engine.Values.booleanValue negateFilterByParams_;
+    private io.dstore.Values.booleanValue negateFilterByParams_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
      */
     public boolean hasNegateFilterByParams() {
       return negateFilterByParams_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
      */
-    public io.dstore.engine.Values.booleanValue getNegateFilterByParams() {
-      return negateFilterByParams_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+    public io.dstore.Values.booleanValue getNegateFilterByParams() {
+      return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
       return getNegateFilterByParams();
     }
 
@@ -1883,29 +1883,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue nodeCharacteristicIds_ = null;
+      private io.dstore.Values.stringValue nodeCharacteristicIds_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nodeCharacteristicIdsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeCharacteristicIdsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
       public boolean hasNodeCharacteristicIds() {
         return nodeCharacteristicIdsBuilder_ != null || nodeCharacteristicIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getNodeCharacteristicIds() {
+      public io.dstore.Values.stringValue getNodeCharacteristicIds() {
         if (nodeCharacteristicIdsBuilder_ == null) {
-          return nodeCharacteristicIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeCharacteristicIds_;
+          return nodeCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeCharacteristicIds_;
         } else {
           return nodeCharacteristicIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
-      public Builder setNodeCharacteristicIds(io.dstore.engine.Values.stringValue value) {
+      public Builder setNodeCharacteristicIds(io.dstore.Values.stringValue value) {
         if (nodeCharacteristicIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1919,10 +1919,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
       public Builder setNodeCharacteristicIds(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (nodeCharacteristicIdsBuilder_ == null) {
           nodeCharacteristicIds_ = builderForValue.build();
           onChanged();
@@ -1933,13 +1933,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
-      public Builder mergeNodeCharacteristicIds(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeNodeCharacteristicIds(io.dstore.Values.stringValue value) {
         if (nodeCharacteristicIdsBuilder_ == null) {
           if (nodeCharacteristicIds_ != null) {
             nodeCharacteristicIds_ =
-              io.dstore.engine.Values.stringValue.newBuilder(nodeCharacteristicIds_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(nodeCharacteristicIds_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicIds_ = value;
           }
@@ -1951,7 +1951,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
       public Builder clearNodeCharacteristicIds() {
         if (nodeCharacteristicIdsBuilder_ == null) {
@@ -1965,33 +1965,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getNodeCharacteristicIdsBuilder() {
+      public io.dstore.Values.stringValue.Builder getNodeCharacteristicIdsBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNodeCharacteristicIdsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNodeCharacteristicIdsOrBuilder() {
         if (nodeCharacteristicIdsBuilder_ != null) {
           return nodeCharacteristicIdsBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicIds_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeCharacteristicIds_;
+              io.dstore.Values.stringValue.getDefaultInstance() : nodeCharacteristicIds_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_characteristic_ids = 1;</code>
+       * <code>optional .dstore.values.stringValue node_characteristic_ids = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getNodeCharacteristicIdsFieldBuilder() {
         if (nodeCharacteristicIdsBuilder_ == null) {
           nodeCharacteristicIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getNodeCharacteristicIds(),
                   getParentForChildren(),
                   isClean());
@@ -2026,29 +2026,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue value_ = null;
+      private io.dstore.Values.stringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
+      public io.dstore.Values.stringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
-      public Builder setValue(io.dstore.engine.Values.stringValue value) {
+      public Builder setValue(io.dstore.Values.stringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2062,10 +2062,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
       public Builder setValue(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -2076,13 +2076,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
-      public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -2094,7 +2094,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -2108,33 +2108,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.stringValue value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -2169,29 +2169,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue isLike_ = null;
+      private io.dstore.Values.booleanValue isLike_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> isLikeBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isLikeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
       public boolean hasIsLike() {
         return isLikeBuilder_ != null || isLike_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIsLike() {
+      public io.dstore.Values.booleanValue getIsLike() {
         if (isLikeBuilder_ == null) {
-          return isLike_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isLike_;
+          return isLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isLike_;
         } else {
           return isLikeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
-      public Builder setIsLike(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIsLike(io.dstore.Values.booleanValue value) {
         if (isLikeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2205,10 +2205,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
       public Builder setIsLike(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (isLikeBuilder_ == null) {
           isLike_ = builderForValue.build();
           onChanged();
@@ -2219,13 +2219,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
-      public Builder mergeIsLike(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIsLike(io.dstore.Values.booleanValue value) {
         if (isLikeBuilder_ == null) {
           if (isLike_ != null) {
             isLike_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(isLike_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(isLike_).mergeFrom(value).buildPartial();
           } else {
             isLike_ = value;
           }
@@ -2237,7 +2237,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
       public Builder clearIsLike() {
         if (isLikeBuilder_ == null) {
@@ -2251,33 +2251,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIsLikeBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIsLikeBuilder() {
         
         onChanged();
         return getIsLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIsLikeOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIsLikeOrBuilder() {
         if (isLikeBuilder_ != null) {
           return isLikeBuilder_.getMessageOrBuilder();
         } else {
           return isLike_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : isLike_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : isLike_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_like = 3;</code>
+       * <code>optional .dstore.values.booleanValue is_like = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIsLikeFieldBuilder() {
         if (isLikeBuilder_ == null) {
           isLikeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIsLike(),
                   getParentForChildren(),
                   isClean());
@@ -2312,29 +2312,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue date_ = null;
+      private io.dstore.Values.timestampValue date_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> dateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue getDate() {
+      public io.dstore.Values.timestampValue getDate() {
         if (dateBuilder_ == null) {
-          return date_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : date_;
+          return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
         } else {
           return dateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
-      public Builder setDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setDate(io.dstore.Values.timestampValue value) {
         if (dateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2348,10 +2348,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
       public Builder setDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (dateBuilder_ == null) {
           date_ = builderForValue.build();
           onChanged();
@@ -2362,13 +2362,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
-      public Builder mergeDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeDate(io.dstore.Values.timestampValue value) {
         if (dateBuilder_ == null) {
           if (date_ != null) {
             date_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
           } else {
             date_ = value;
           }
@@ -2380,7 +2380,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -2394,33 +2394,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getDateBuilder() {
         
         onChanged();
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
           return dateBuilder_.getMessageOrBuilder();
         } else {
           return date_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : date_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : date_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 4;</code>
+       * <code>optional .dstore.values.timestampValue date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDateFieldBuilder() {
         if (dateBuilder_ == null) {
           dateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDate(),
                   getParentForChildren(),
                   isClean());
@@ -2455,29 +2455,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeInherited_ = null;
+      private io.dstore.Values.booleanValue includeInherited_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeInheritedBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeInheritedBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
       public boolean hasIncludeInherited() {
         return includeInheritedBuilder_ != null || includeInherited_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeInherited() {
+      public io.dstore.Values.booleanValue getIncludeInherited() {
         if (includeInheritedBuilder_ == null) {
-          return includeInherited_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeInherited_;
+          return includeInherited_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeInherited_;
         } else {
           return includeInheritedBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
-      public Builder setIncludeInherited(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeInherited(io.dstore.Values.booleanValue value) {
         if (includeInheritedBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2491,10 +2491,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
       public Builder setIncludeInherited(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeInheritedBuilder_ == null) {
           includeInherited_ = builderForValue.build();
           onChanged();
@@ -2505,13 +2505,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
-      public Builder mergeIncludeInherited(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeInherited(io.dstore.Values.booleanValue value) {
         if (includeInheritedBuilder_ == null) {
           if (includeInherited_ != null) {
             includeInherited_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeInherited_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeInherited_).mergeFrom(value).buildPartial();
           } else {
             includeInherited_ = value;
           }
@@ -2523,7 +2523,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
       public Builder clearIncludeInherited() {
         if (includeInheritedBuilder_ == null) {
@@ -2537,33 +2537,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeInheritedBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeInheritedBuilder() {
         
         onChanged();
         return getIncludeInheritedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeInheritedOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeInheritedOrBuilder() {
         if (includeInheritedBuilder_ != null) {
           return includeInheritedBuilder_.getMessageOrBuilder();
         } else {
           return includeInherited_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeInherited_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeInherited_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_inherited = 5;</code>
+       * <code>optional .dstore.values.booleanValue include_inherited = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeInheritedFieldBuilder() {
         if (includeInheritedBuilder_ == null) {
           includeInheritedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeInherited(),
                   getParentForChildren(),
                   isClean());
@@ -2598,29 +2598,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2634,10 +2634,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -2648,13 +2648,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -2666,7 +2666,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -2680,33 +2680,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 6;</code>
+       * <code>optional .dstore.values.integerValue language_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -2741,29 +2741,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeNodeDescription_ = null;
+      private io.dstore.Values.booleanValue includeNodeDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeNodeDescriptionBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeNodeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
       public boolean hasIncludeNodeDescription() {
         return includeNodeDescriptionBuilder_ != null || includeNodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeNodeDescription() {
+      public io.dstore.Values.booleanValue getIncludeNodeDescription() {
         if (includeNodeDescriptionBuilder_ == null) {
-          return includeNodeDescription_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeNodeDescription_;
+          return includeNodeDescription_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeNodeDescription_;
         } else {
           return includeNodeDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
-      public Builder setIncludeNodeDescription(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeNodeDescription(io.dstore.Values.booleanValue value) {
         if (includeNodeDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2777,10 +2777,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
       public Builder setIncludeNodeDescription(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeNodeDescriptionBuilder_ == null) {
           includeNodeDescription_ = builderForValue.build();
           onChanged();
@@ -2791,13 +2791,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
-      public Builder mergeIncludeNodeDescription(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeNodeDescription(io.dstore.Values.booleanValue value) {
         if (includeNodeDescriptionBuilder_ == null) {
           if (includeNodeDescription_ != null) {
             includeNodeDescription_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeNodeDescription_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeNodeDescription_).mergeFrom(value).buildPartial();
           } else {
             includeNodeDescription_ = value;
           }
@@ -2809,7 +2809,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
       public Builder clearIncludeNodeDescription() {
         if (includeNodeDescriptionBuilder_ == null) {
@@ -2823,33 +2823,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeNodeDescriptionBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeNodeDescriptionBuilder() {
         
         onChanged();
         return getIncludeNodeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeNodeDescriptionOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeNodeDescriptionOrBuilder() {
         if (includeNodeDescriptionBuilder_ != null) {
           return includeNodeDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return includeNodeDescription_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeNodeDescription_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeNodeDescription_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_node_description = 7;</code>
+       * <code>optional .dstore.values.booleanValue include_node_description = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeNodeDescriptionFieldBuilder() {
         if (includeNodeDescriptionBuilder_ == null) {
           includeNodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeNodeDescription(),
                   getParentForChildren(),
                   isClean());
@@ -2884,29 +2884,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue resultUpToLevelNo_ = null;
+      private io.dstore.Values.integerValue resultUpToLevelNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> resultUpToLevelNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultUpToLevelNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
       public boolean hasResultUpToLevelNo() {
         return resultUpToLevelNoBuilder_ != null || resultUpToLevelNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue getResultUpToLevelNo() {
+      public io.dstore.Values.integerValue getResultUpToLevelNo() {
         if (resultUpToLevelNoBuilder_ == null) {
-          return resultUpToLevelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : resultUpToLevelNo_;
+          return resultUpToLevelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultUpToLevelNo_;
         } else {
           return resultUpToLevelNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
-      public Builder setResultUpToLevelNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setResultUpToLevelNo(io.dstore.Values.integerValue value) {
         if (resultUpToLevelNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2920,10 +2920,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
       public Builder setResultUpToLevelNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (resultUpToLevelNoBuilder_ == null) {
           resultUpToLevelNo_ = builderForValue.build();
           onChanged();
@@ -2934,13 +2934,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
-      public Builder mergeResultUpToLevelNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeResultUpToLevelNo(io.dstore.Values.integerValue value) {
         if (resultUpToLevelNoBuilder_ == null) {
           if (resultUpToLevelNo_ != null) {
             resultUpToLevelNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(resultUpToLevelNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(resultUpToLevelNo_).mergeFrom(value).buildPartial();
           } else {
             resultUpToLevelNo_ = value;
           }
@@ -2952,7 +2952,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
       public Builder clearResultUpToLevelNo() {
         if (resultUpToLevelNoBuilder_ == null) {
@@ -2966,33 +2966,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getResultUpToLevelNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getResultUpToLevelNoBuilder() {
         
         onChanged();
         return getResultUpToLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getResultUpToLevelNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getResultUpToLevelNoOrBuilder() {
         if (resultUpToLevelNoBuilder_ != null) {
           return resultUpToLevelNoBuilder_.getMessageOrBuilder();
         } else {
           return resultUpToLevelNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : resultUpToLevelNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : resultUpToLevelNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue result_up_to_level_no = 8;</code>
+       * <code>optional .dstore.values.integerValue result_up_to_level_no = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getResultUpToLevelNoFieldBuilder() {
         if (resultUpToLevelNoBuilder_ == null) {
           resultUpToLevelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getResultUpToLevelNo(),
                   getParentForChildren(),
                   isClean());
@@ -3027,29 +3027,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue searchUpToLevelNo_ = null;
+      private io.dstore.Values.integerValue searchUpToLevelNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> searchUpToLevelNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> searchUpToLevelNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
       public boolean hasSearchUpToLevelNo() {
         return searchUpToLevelNoBuilder_ != null || searchUpToLevelNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue getSearchUpToLevelNo() {
+      public io.dstore.Values.integerValue getSearchUpToLevelNo() {
         if (searchUpToLevelNoBuilder_ == null) {
-          return searchUpToLevelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : searchUpToLevelNo_;
+          return searchUpToLevelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : searchUpToLevelNo_;
         } else {
           return searchUpToLevelNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
-      public Builder setSearchUpToLevelNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setSearchUpToLevelNo(io.dstore.Values.integerValue value) {
         if (searchUpToLevelNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3063,10 +3063,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
       public Builder setSearchUpToLevelNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (searchUpToLevelNoBuilder_ == null) {
           searchUpToLevelNo_ = builderForValue.build();
           onChanged();
@@ -3077,13 +3077,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
-      public Builder mergeSearchUpToLevelNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSearchUpToLevelNo(io.dstore.Values.integerValue value) {
         if (searchUpToLevelNoBuilder_ == null) {
           if (searchUpToLevelNo_ != null) {
             searchUpToLevelNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(searchUpToLevelNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(searchUpToLevelNo_).mergeFrom(value).buildPartial();
           } else {
             searchUpToLevelNo_ = value;
           }
@@ -3095,7 +3095,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
       public Builder clearSearchUpToLevelNo() {
         if (searchUpToLevelNoBuilder_ == null) {
@@ -3109,33 +3109,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSearchUpToLevelNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getSearchUpToLevelNoBuilder() {
         
         onChanged();
         return getSearchUpToLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSearchUpToLevelNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSearchUpToLevelNoOrBuilder() {
         if (searchUpToLevelNoBuilder_ != null) {
           return searchUpToLevelNoBuilder_.getMessageOrBuilder();
         } else {
           return searchUpToLevelNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : searchUpToLevelNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : searchUpToLevelNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue search_up_to_level_no = 9;</code>
+       * <code>optional .dstore.values.integerValue search_up_to_level_no = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSearchUpToLevelNoFieldBuilder() {
         if (searchUpToLevelNoBuilder_ == null) {
           searchUpToLevelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSearchUpToLevelNo(),
                   getParentForChildren(),
                   isClean());
@@ -3170,29 +3170,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue startAtRowNo_ = null;
+      private io.dstore.Values.integerValue startAtRowNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> startAtRowNoBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> startAtRowNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
       public boolean hasStartAtRowNo() {
         return startAtRowNoBuilder_ != null || startAtRowNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue getStartAtRowNo() {
+      public io.dstore.Values.integerValue getStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
-          return startAtRowNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : startAtRowNo_;
+          return startAtRowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : startAtRowNo_;
         } else {
           return startAtRowNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
-      public Builder setStartAtRowNo(io.dstore.engine.Values.integerValue value) {
+      public Builder setStartAtRowNo(io.dstore.Values.integerValue value) {
         if (startAtRowNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3206,10 +3206,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
       public Builder setStartAtRowNo(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (startAtRowNoBuilder_ == null) {
           startAtRowNo_ = builderForValue.build();
           onChanged();
@@ -3220,13 +3220,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
-      public Builder mergeStartAtRowNo(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeStartAtRowNo(io.dstore.Values.integerValue value) {
         if (startAtRowNoBuilder_ == null) {
           if (startAtRowNo_ != null) {
             startAtRowNo_ =
-              io.dstore.engine.Values.integerValue.newBuilder(startAtRowNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(startAtRowNo_).mergeFrom(value).buildPartial();
           } else {
             startAtRowNo_ = value;
           }
@@ -3238,7 +3238,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
       public Builder clearStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
@@ -3252,33 +3252,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getStartAtRowNoBuilder() {
+      public io.dstore.Values.integerValue.Builder getStartAtRowNoBuilder() {
         
         onChanged();
         return getStartAtRowNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getStartAtRowNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getStartAtRowNoOrBuilder() {
         if (startAtRowNoBuilder_ != null) {
           return startAtRowNoBuilder_.getMessageOrBuilder();
         } else {
           return startAtRowNo_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : startAtRowNo_;
+              io.dstore.Values.integerValue.getDefaultInstance() : startAtRowNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue start_at_row_no = 10;</code>
+       * <code>optional .dstore.values.integerValue start_at_row_no = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getStartAtRowNoFieldBuilder() {
         if (startAtRowNoBuilder_ == null) {
           startAtRowNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getStartAtRowNo(),
                   getParentForChildren(),
                   isClean());
@@ -3313,29 +3313,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue rowCount_ = null;
+      private io.dstore.Values.integerValue rowCount_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> rowCountBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue getRowCount() {
+      public io.dstore.Values.integerValue getRowCount() {
         if (rowCountBuilder_ == null) {
-          return rowCount_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+          return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
         } else {
           return rowCountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
-      public Builder setRowCount(io.dstore.engine.Values.integerValue value) {
+      public Builder setRowCount(io.dstore.Values.integerValue value) {
         if (rowCountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3349,10 +3349,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
       public Builder setRowCount(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (rowCountBuilder_ == null) {
           rowCount_ = builderForValue.build();
           onChanged();
@@ -3363,13 +3363,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
-      public Builder mergeRowCount(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRowCount(io.dstore.Values.integerValue value) {
         if (rowCountBuilder_ == null) {
           if (rowCount_ != null) {
             rowCount_ =
-              io.dstore.engine.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
           } else {
             rowCount_ = value;
           }
@@ -3381,7 +3381,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -3395,33 +3395,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRowCountBuilder() {
+      public io.dstore.Values.integerValue.Builder getRowCountBuilder() {
         
         onChanged();
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
           return rowCountBuilder_.getMessageOrBuilder();
         } else {
           return rowCount_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+              io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 11;</code>
+       * <code>optional .dstore.values.integerValue row_count = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRowCountFieldBuilder() {
         if (rowCountBuilder_ == null) {
           rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRowCount(),
                   getParentForChildren(),
                   isClean());
@@ -3456,29 +3456,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue maintainSearchItemLacks_ = null;
+      private io.dstore.Values.booleanValue maintainSearchItemLacks_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> maintainSearchItemLacksBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> maintainSearchItemLacksBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
       public boolean hasMaintainSearchItemLacks() {
         return maintainSearchItemLacksBuilder_ != null || maintainSearchItemLacks_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValue getMaintainSearchItemLacks() {
+      public io.dstore.Values.booleanValue getMaintainSearchItemLacks() {
         if (maintainSearchItemLacksBuilder_ == null) {
-          return maintainSearchItemLacks_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : maintainSearchItemLacks_;
+          return maintainSearchItemLacks_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchItemLacks_;
         } else {
           return maintainSearchItemLacksBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
-      public Builder setMaintainSearchItemLacks(io.dstore.engine.Values.booleanValue value) {
+      public Builder setMaintainSearchItemLacks(io.dstore.Values.booleanValue value) {
         if (maintainSearchItemLacksBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3492,10 +3492,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
       public Builder setMaintainSearchItemLacks(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (maintainSearchItemLacksBuilder_ == null) {
           maintainSearchItemLacks_ = builderForValue.build();
           onChanged();
@@ -3506,13 +3506,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
-      public Builder mergeMaintainSearchItemLacks(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeMaintainSearchItemLacks(io.dstore.Values.booleanValue value) {
         if (maintainSearchItemLacksBuilder_ == null) {
           if (maintainSearchItemLacks_ != null) {
             maintainSearchItemLacks_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(maintainSearchItemLacks_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(maintainSearchItemLacks_).mergeFrom(value).buildPartial();
           } else {
             maintainSearchItemLacks_ = value;
           }
@@ -3524,7 +3524,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
       public Builder clearMaintainSearchItemLacks() {
         if (maintainSearchItemLacksBuilder_ == null) {
@@ -3538,33 +3538,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getMaintainSearchItemLacksBuilder() {
+      public io.dstore.Values.booleanValue.Builder getMaintainSearchItemLacksBuilder() {
         
         onChanged();
         return getMaintainSearchItemLacksFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getMaintainSearchItemLacksOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getMaintainSearchItemLacksOrBuilder() {
         if (maintainSearchItemLacksBuilder_ != null) {
           return maintainSearchItemLacksBuilder_.getMessageOrBuilder();
         } else {
           return maintainSearchItemLacks_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : maintainSearchItemLacks_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : maintainSearchItemLacks_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue maintain_search_item_lacks = 12;</code>
+       * <code>optional .dstore.values.booleanValue maintain_search_item_lacks = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getMaintainSearchItemLacksFieldBuilder() {
         if (maintainSearchItemLacksBuilder_ == null) {
           maintainSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getMaintainSearchItemLacks(),
                   getParentForChildren(),
                   isClean());
@@ -3599,29 +3599,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue filterByCharacteristicId_ = null;
+      private io.dstore.Values.integerValue filterByCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
       public boolean hasFilterByCharacteristicId() {
         return filterByCharacteristicIdBuilder_ != null || filterByCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
-      public io.dstore.engine.Values.integerValue getFilterByCharacteristicId() {
+      public io.dstore.Values.integerValue getFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
-          return filterByCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+          return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
         } else {
           return filterByCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
-      public Builder setFilterByCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setFilterByCharacteristicId(io.dstore.Values.integerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3635,10 +3635,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
       public Builder setFilterByCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -3649,13 +3649,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
-      public Builder mergeFilterByCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFilterByCharacteristicId(io.dstore.Values.integerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (filterByCharacteristicId_ != null) {
             filterByCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacteristicId_ = value;
           }
@@ -3667,7 +3667,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
       public Builder clearFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -3681,33 +3681,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
         
         onChanged();
         return getFilterByCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
         if (filterByCharacteristicIdBuilder_ != null) {
           return filterByCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue filter_by_characteristic_id = 13;</code>
+       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFilterByCharacteristicIdFieldBuilder() {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFilterByCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -3742,29 +3742,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue filterByCharacValue_ = null;
+      private io.dstore.Values.stringValue filterByCharacValue_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
       public boolean hasFilterByCharacValue() {
         return filterByCharacValueBuilder_ != null || filterByCharacValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
-      public io.dstore.engine.Values.stringValue getFilterByCharacValue() {
+      public io.dstore.Values.stringValue getFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
-          return filterByCharacValue_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+          return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
         } else {
           return filterByCharacValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
-      public Builder setFilterByCharacValue(io.dstore.engine.Values.stringValue value) {
+      public Builder setFilterByCharacValue(io.dstore.Values.stringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3778,10 +3778,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
       public Builder setFilterByCharacValue(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValue_ = builderForValue.build();
           onChanged();
@@ -3792,13 +3792,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
-      public Builder mergeFilterByCharacValue(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeFilterByCharacValue(io.dstore.Values.stringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (filterByCharacValue_ != null) {
             filterByCharacValue_ =
-              io.dstore.engine.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacValue_ = value;
           }
@@ -3810,7 +3810,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
       public Builder clearFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
@@ -3824,33 +3824,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getFilterByCharacValueBuilder() {
+      public io.dstore.Values.stringValue.Builder getFilterByCharacValueBuilder() {
         
         onChanged();
         return getFilterByCharacValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
         if (filterByCharacValueBuilder_ != null) {
           return filterByCharacValueBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacValue_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+              io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue filter_by_charac_value = 14;</code>
+       * <code>optional .dstore.values.stringValue filter_by_charac_value = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFilterByCharacValueFieldBuilder() {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFilterByCharacValue(),
                   getParentForChildren(),
                   isClean());
@@ -3885,29 +3885,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue sortResult_ = null;
+      private io.dstore.Values.booleanValue sortResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> sortResultBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> sortResultBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
       public boolean hasSortResult() {
         return sortResultBuilder_ != null || sortResult_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
-      public io.dstore.engine.Values.booleanValue getSortResult() {
+      public io.dstore.Values.booleanValue getSortResult() {
         if (sortResultBuilder_ == null) {
-          return sortResult_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : sortResult_;
+          return sortResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : sortResult_;
         } else {
           return sortResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
-      public Builder setSortResult(io.dstore.engine.Values.booleanValue value) {
+      public Builder setSortResult(io.dstore.Values.booleanValue value) {
         if (sortResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3921,10 +3921,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
       public Builder setSortResult(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (sortResultBuilder_ == null) {
           sortResult_ = builderForValue.build();
           onChanged();
@@ -3935,13 +3935,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
-      public Builder mergeSortResult(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeSortResult(io.dstore.Values.booleanValue value) {
         if (sortResultBuilder_ == null) {
           if (sortResult_ != null) {
             sortResult_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(sortResult_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(sortResult_).mergeFrom(value).buildPartial();
           } else {
             sortResult_ = value;
           }
@@ -3953,7 +3953,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
       public Builder clearSortResult() {
         if (sortResultBuilder_ == null) {
@@ -3967,33 +3967,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getSortResultBuilder() {
+      public io.dstore.Values.booleanValue.Builder getSortResultBuilder() {
         
         onChanged();
         return getSortResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getSortResultOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getSortResultOrBuilder() {
         if (sortResultBuilder_ != null) {
           return sortResultBuilder_.getMessageOrBuilder();
         } else {
           return sortResult_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : sortResult_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : sortResult_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue sort_result = 15;</code>
+       * <code>optional .dstore.values.booleanValue sort_result = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSortResultFieldBuilder() {
         if (sortResultBuilder_ == null) {
           sortResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSortResult(),
                   getParentForChildren(),
                   isClean());
@@ -4028,29 +4028,29 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue negateFilterByParams_ = null;
+      private io.dstore.Values.booleanValue negateFilterByParams_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
       public boolean hasNegateFilterByParams() {
         return negateFilterByParamsBuilder_ != null || negateFilterByParams_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
-      public io.dstore.engine.Values.booleanValue getNegateFilterByParams() {
+      public io.dstore.Values.booleanValue getNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
-          return negateFilterByParams_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+          return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
         } else {
           return negateFilterByParamsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
-      public Builder setNegateFilterByParams(io.dstore.engine.Values.booleanValue value) {
+      public Builder setNegateFilterByParams(io.dstore.Values.booleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4064,10 +4064,10 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
       public Builder setNegateFilterByParams(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParams_ = builderForValue.build();
           onChanged();
@@ -4078,13 +4078,13 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
-      public Builder mergeNegateFilterByParams(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeNegateFilterByParams(io.dstore.Values.booleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (negateFilterByParams_ != null) {
             negateFilterByParams_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
           } else {
             negateFilterByParams_ = value;
           }
@@ -4096,7 +4096,7 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
       public Builder clearNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
@@ -4110,33 +4110,33 @@ public final class ImSearchCharacteristicsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
         
         onChanged();
         return getNegateFilterByParamsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
         if (negateFilterByParamsBuilder_ != null) {
           return negateFilterByParamsBuilder_.getMessageOrBuilder();
         } else {
           return negateFilterByParams_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue negate_filter_by_params = 16;</code>
+       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getNegateFilterByParamsFieldBuilder() {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParamsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getNegateFilterByParams(),
                   getParentForChildren(),
                   isClean());
@@ -4458,7 +4458,7 @@ public final class ImSearchCharacteristicsPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
        *
        * <pre>
        * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
@@ -4466,24 +4466,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasInherited();
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
        *
        * <pre>
        * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getInherited();
+      io.dstore.Values.booleanValue getInherited();
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
        *
        * <pre>
        * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getInheritedOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getInheritedOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
@@ -4491,24 +4491,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasLevelNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLevelNo();
+      io.dstore.Values.integerValue getLevelNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
@@ -4516,24 +4516,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeCharacteristicId();
+      io.dstore.Values.integerValue getNodeCharacteristicId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
@@ -4541,24 +4541,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getValueId();
+      io.dstore.Values.integerValue getValueId();
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
@@ -4566,24 +4566,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasNodeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getNodeDescription();
+      io.dstore.Values.stringValue getNodeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
        *
        * <pre>
        * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -4591,24 +4591,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
        *
        * <pre>
        * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getHTreeNodeId();
+      io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
        *
        * <pre>
        * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
@@ -4616,24 +4616,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTreeNodeId();
+      io.dstore.Values.integerValue getTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
@@ -4641,24 +4641,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getNodeId();
+      io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+       * <code>optional .dstore.values.stringValue value = 10009;</code>
        *
        * <pre>
        * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
@@ -4666,24 +4666,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+       * <code>optional .dstore.values.stringValue value = 10009;</code>
        *
        * <pre>
        * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+       * <code>optional .dstore.values.stringValue value = 10009;</code>
        *
        * <pre>
        * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
@@ -4691,24 +4691,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasPrePredecessorsDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPrePredecessorsDescription();
+      io.dstore.Values.stringValue getPrePredecessorsDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
        *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -4716,24 +4716,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasPrePredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
        *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPrePredecessorsTreeNodeId();
+      io.dstore.Values.integerValue getPrePredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
        *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -4741,24 +4741,24 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasPredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPredecessorsTreeNodeId();
+      io.dstore.Values.integerValue getPredecessorsTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+       * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
        *
        * <pre>
        * Bezeichnung des Vorgängers
@@ -4766,21 +4766,21 @@ public final class ImSearchCharacteristicsPu {
        */
       boolean hasPredecessorsDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+       * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
        *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPredecessorsDescription();
+      io.dstore.Values.stringValue getPredecessorsDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+       * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
        *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_SearchCharacteristics_Pu.Response.Row}
@@ -4827,11 +4827,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (inherited_ != null) {
                   subBuilder = inherited_.toBuilder();
                 }
-                inherited_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                inherited_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inherited_);
                   inherited_ = subBuilder.buildPartial();
@@ -4840,11 +4840,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -4853,11 +4853,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -4866,11 +4866,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -4879,11 +4879,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -4892,11 +4892,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -4905,11 +4905,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -4918,11 +4918,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -4931,11 +4931,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -4944,11 +4944,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (prePredecessorsDescription_ != null) {
                   subBuilder = prePredecessorsDescription_.toBuilder();
                 }
-                prePredecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                prePredecessorsDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsDescription_);
                   prePredecessorsDescription_ = subBuilder.buildPartial();
@@ -4957,11 +4957,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (prePredecessorsTreeNodeId_ != null) {
                   subBuilder = prePredecessorsTreeNodeId_.toBuilder();
                 }
-                prePredecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                prePredecessorsTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsTreeNodeId_);
                   prePredecessorsTreeNodeId_ = subBuilder.buildPartial();
@@ -4970,11 +4970,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (predecessorsTreeNodeId_ != null) {
                   subBuilder = predecessorsTreeNodeId_.toBuilder();
                 }
-                predecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                predecessorsTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsTreeNodeId_);
                   predecessorsTreeNodeId_ = subBuilder.buildPartial();
@@ -4983,11 +4983,11 @@ public final class ImSearchCharacteristicsPu {
                 break;
               }
               case 80106: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (predecessorsDescription_ != null) {
                   subBuilder = predecessorsDescription_.toBuilder();
                 }
-                predecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                predecessorsDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsDescription_);
                   predecessorsDescription_ = subBuilder.buildPartial();
@@ -5029,9 +5029,9 @@ public final class ImSearchCharacteristicsPu {
       }
 
       public static final int INHERITED_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.booleanValue inherited_;
+      private io.dstore.Values.booleanValue inherited_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
        *
        * <pre>
        * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
@@ -5041,30 +5041,30 @@ public final class ImSearchCharacteristicsPu {
         return inherited_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
        *
        * <pre>
        * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getInherited() {
-        return inherited_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : inherited_;
+      public io.dstore.Values.booleanValue getInherited() {
+        return inherited_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : inherited_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
        *
        * <pre>
        * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getInheritedOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getInheritedOrBuilder() {
         return getInherited();
       }
 
       public static final int LEVEL_NO_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue levelNo_;
+      private io.dstore.Values.integerValue levelNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
@@ -5074,30 +5074,30 @@ public final class ImSearchCharacteristicsPu {
         return levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLevelNo() {
-        return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+      public io.dstore.Values.integerValue getLevelNo() {
+        return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+       * <code>optional .dstore.values.integerValue level_no = 10002;</code>
        *
        * <pre>
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.Values.integerValue nodeCharacteristicId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
@@ -5107,30 +5107,30 @@ public final class ImSearchCharacteristicsPu {
         return nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
        *
        * <pre>
        * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue valueId_;
+      private io.dstore.Values.integerValue valueId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
@@ -5140,30 +5140,30 @@ public final class ImSearchCharacteristicsPu {
         return valueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.Values.integerValue getValueId() {
+        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue value_id = 10004;</code>
        *
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue nodeDescription_;
+      private io.dstore.Values.stringValue nodeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
@@ -5173,30 +5173,30 @@ public final class ImSearchCharacteristicsPu {
         return nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getNodeDescription() {
-        return nodeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+      public io.dstore.Values.stringValue getNodeDescription() {
+        return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue node_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue hTreeNodeId_;
+      private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
        *
        * <pre>
        * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -5206,30 +5206,30 @@ public final class ImSearchCharacteristicsPu {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
        *
        * <pre>
        * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.Values.integerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
        *
        * <pre>
        * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue treeNodeId_;
+      private io.dstore.Values.integerValue treeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
@@ -5239,30 +5239,30 @@ public final class ImSearchCharacteristicsPu {
         return treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.Values.integerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
        *
        * <pre>
        * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.integerValue nodeId_;
+      private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
@@ -5272,30 +5272,30 @@ public final class ImSearchCharacteristicsPu {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.Values.integerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+       * <code>optional .dstore.values.stringValue value = 10009;</code>
        *
        * <pre>
        * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
@@ -5305,30 +5305,30 @@ public final class ImSearchCharacteristicsPu {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+       * <code>optional .dstore.values.stringValue value = 10009;</code>
        *
        * <pre>
        * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+       * <code>optional .dstore.values.stringValue value = 10009;</code>
        *
        * <pre>
        * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int PRE_PREDECESSORS_DESCRIPTION_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.stringValue prePredecessorsDescription_;
+      private io.dstore.Values.stringValue prePredecessorsDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
@@ -5338,30 +5338,30 @@ public final class ImSearchCharacteristicsPu {
         return prePredecessorsDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPrePredecessorsDescription() {
-        return prePredecessorsDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
+      public io.dstore.Values.stringValue getPrePredecessorsDescription() {
+        return prePredecessorsDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+       * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
        *
        * <pre>
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
         return getPrePredecessorsDescription();
       }
 
       public static final int PRE_PREDECESSORS_TREE_NODE_ID_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.integerValue prePredecessorsTreeNodeId_;
+      private io.dstore.Values.integerValue prePredecessorsTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
        *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -5371,30 +5371,30 @@ public final class ImSearchCharacteristicsPu {
         return prePredecessorsTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
        *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPrePredecessorsTreeNodeId() {
-        return prePredecessorsTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
+      public io.dstore.Values.integerValue getPrePredecessorsTreeNodeId() {
+        return prePredecessorsTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
        *
        * <pre>
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
         return getPrePredecessorsTreeNodeId();
       }
 
       public static final int PREDECESSORS_TREE_NODE_ID_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.integerValue predecessorsTreeNodeId_;
+      private io.dstore.Values.integerValue predecessorsTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -5404,30 +5404,30 @@ public final class ImSearchCharacteristicsPu {
         return predecessorsTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPredecessorsTreeNodeId() {
-        return predecessorsTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
+      public io.dstore.Values.integerValue getPredecessorsTreeNodeId() {
+        return predecessorsTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
        *
        * <pre>
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
         return getPredecessorsTreeNodeId();
       }
 
       public static final int PREDECESSORS_DESCRIPTION_FIELD_NUMBER = 10013;
-      private io.dstore.engine.Values.stringValue predecessorsDescription_;
+      private io.dstore.Values.stringValue predecessorsDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+       * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
        *
        * <pre>
        * Bezeichnung des Vorgängers
@@ -5437,23 +5437,23 @@ public final class ImSearchCharacteristicsPu {
         return predecessorsDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+       * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
        *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPredecessorsDescription() {
-        return predecessorsDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
+      public io.dstore.Values.stringValue getPredecessorsDescription() {
+        return predecessorsDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+       * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
        *
        * <pre>
        * Bezeichnung des Vorgängers
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
         return getPredecessorsDescription();
       }
 
@@ -5962,11 +5962,11 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
 
-        private io.dstore.engine.Values.booleanValue inherited_ = null;
+        private io.dstore.Values.booleanValue inherited_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> inheritedBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> inheritedBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
@@ -5976,27 +5976,27 @@ public final class ImSearchCharacteristicsPu {
           return inheritedBuilder_ != null || inherited_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getInherited() {
+        public io.dstore.Values.booleanValue getInherited() {
           if (inheritedBuilder_ == null) {
-            return inherited_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : inherited_;
+            return inherited_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : inherited_;
           } else {
             return inheritedBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
-        public Builder setInherited(io.dstore.engine.Values.booleanValue value) {
+        public Builder setInherited(io.dstore.Values.booleanValue value) {
           if (inheritedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6010,14 +6010,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
         public Builder setInherited(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (inheritedBuilder_ == null) {
             inherited_ = builderForValue.build();
             onChanged();
@@ -6028,17 +6028,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
-        public Builder mergeInherited(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeInherited(io.dstore.Values.booleanValue value) {
           if (inheritedBuilder_ == null) {
             if (inherited_ != null) {
               inherited_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(inherited_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(inherited_).mergeFrom(value).buildPartial();
             } else {
               inherited_ = value;
             }
@@ -6050,7 +6050,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
@@ -6068,45 +6068,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getInheritedBuilder() {
+        public io.dstore.Values.booleanValue.Builder getInheritedBuilder() {
           
           onChanged();
           return getInheritedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getInheritedOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getInheritedOrBuilder() {
           if (inheritedBuilder_ != null) {
             return inheritedBuilder_.getMessageOrBuilder();
           } else {
             return inherited_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : inherited_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : inherited_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10001;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10001;</code>
          *
          * <pre>
          * Besitzt "NodeID" die Eigenschaft "Value" direkt oder wurde diese vererbt ?
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getInheritedFieldBuilder() {
           if (inheritedBuilder_ == null) {
             inheritedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getInherited(),
                     getParentForChildren(),
                     isClean());
@@ -6115,11 +6115,11 @@ public final class ImSearchCharacteristicsPu {
           return inheritedBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue levelNo_ = null;
+        private io.dstore.Values.integerValue levelNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> levelNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
@@ -6129,27 +6129,27 @@ public final class ImSearchCharacteristicsPu {
           return levelNoBuilder_ != null || levelNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLevelNo() {
+        public io.dstore.Values.integerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
-            return levelNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+            return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
           } else {
             return levelNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder setLevelNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setLevelNo(io.dstore.Values.integerValue value) {
           if (levelNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6163,14 +6163,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
         public Builder setLevelNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (levelNoBuilder_ == null) {
             levelNo_ = builderForValue.build();
             onChanged();
@@ -6181,17 +6181,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public Builder mergeLevelNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
           if (levelNoBuilder_ == null) {
             if (levelNo_ != null) {
               levelNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
             } else {
               levelNo_ = value;
             }
@@ -6203,7 +6203,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
@@ -6221,45 +6221,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLevelNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
           
           onChanged();
           return getLevelNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
             return levelNoBuilder_.getMessageOrBuilder();
           } else {
             return levelNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : levelNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue level_no = 10002;</code>
+         * <code>optional .dstore.values.integerValue level_no = 10002;</code>
          *
          * <pre>
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelNoFieldBuilder() {
           if (levelNoBuilder_ == null) {
             levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelNo(),
                     getParentForChildren(),
                     isClean());
@@ -6268,11 +6268,11 @@ public final class ImSearchCharacteristicsPu {
           return levelNoBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
@@ -6282,27 +6282,27 @@ public final class ImSearchCharacteristicsPu {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.Values.integerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
-        public Builder setNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6316,14 +6316,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -6334,17 +6334,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -6356,7 +6356,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
@@ -6374,45 +6374,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
          *
          * <pre>
          * ID des Merkmals, zu dem "NodeID" eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt. "-2147486548" bedeutet, daß der Suchbegriff über die Element-Bezeichnung ("NodeDescription") gefunden wurde.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -6421,11 +6421,11 @@ public final class ImSearchCharacteristicsPu {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue valueId_ = null;
+        private io.dstore.Values.integerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
@@ -6435,27 +6435,27 @@ public final class ImSearchCharacteristicsPu {
           return valueIdBuilder_ != null || valueId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getValueId() {
+        public io.dstore.Values.integerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public Builder setValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder setValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6469,14 +6469,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
         public Builder setValueId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -6487,17 +6487,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public Builder mergeValueId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.Values.integerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -6509,7 +6509,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
@@ -6527,45 +6527,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue value_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue value_id = 10004;</code>
          *
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -6574,11 +6574,11 @@ public final class ImSearchCharacteristicsPu {
           return valueIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue nodeDescription_ = null;
+        private io.dstore.Values.stringValue nodeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
@@ -6588,27 +6588,27 @@ public final class ImSearchCharacteristicsPu {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getNodeDescription() {
+        public io.dstore.Values.stringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
-            return nodeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+            return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
           } else {
             return nodeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public Builder setNodeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6622,14 +6622,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
         public Builder setNodeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescription_ = builderForValue.build();
             onChanged();
@@ -6640,17 +6640,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public Builder mergeNodeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (nodeDescription_ != null) {
               nodeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
             } else {
               nodeDescription_ = value;
             }
@@ -6662,7 +6662,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
@@ -6680,45 +6680,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getNodeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
           
           onChanged();
           return getNodeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
             return nodeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return nodeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : nodeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue node_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue node_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -6727,11 +6727,11 @@ public final class ImSearchCharacteristicsPu {
           return nodeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.Values.integerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -6741,27 +6741,27 @@ public final class ImSearchCharacteristicsPu {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getHTreeNodeId() {
+        public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public Builder setHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6775,14 +6775,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
         public Builder setHTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -6793,17 +6793,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public Builder mergeHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -6815,7 +6815,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -6833,45 +6833,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10006;</code>
          *
          * <pre>
          * ID eines zur "NodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6880,11 +6880,11 @@ public final class ImSearchCharacteristicsPu {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+        private io.dstore.Values.integerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
@@ -6894,27 +6894,27 @@ public final class ImSearchCharacteristicsPu {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTreeNodeId() {
+        public io.dstore.Values.integerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
-        public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6928,14 +6928,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
         public Builder setTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -6946,17 +6946,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
-        public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -6968,7 +6968,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
@@ -6986,45 +6986,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          *
          * <pre>
          * ID eines Elementes im Artikelbaum, das "NodeID" als Artikel-Element zugewiesen hat - oder "0" (es gibt zu jeder "NodeID" eine "HTreeNodeID" mit einem offenen Gültigkeitszeitraum und "unbekannter TreeNodeID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -7033,11 +7033,11 @@ public final class ImSearchCharacteristicsPu {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue nodeId_ = null;
+        private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
@@ -7047,27 +7047,27 @@ public final class ImSearchCharacteristicsPu {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getNodeId() {
+        public io.dstore.Values.integerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
-        public Builder setNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7081,14 +7081,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
         public Builder setNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -7099,17 +7099,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
-        public Builder mergeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -7121,7 +7121,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
@@ -7139,45 +7139,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, das eine Eigenschaft besitzt, die zum Suchbegriff "&#64;Value" paßt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -7186,11 +7186,11 @@ public final class ImSearchCharacteristicsPu {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
@@ -7200,27 +7200,27 @@ public final class ImSearchCharacteristicsPu {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7234,14 +7234,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -7252,17 +7252,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -7274,7 +7274,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
@@ -7292,45 +7292,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10009;</code>
+         * <code>optional .dstore.values.stringValue value = 10009;</code>
          *
          * <pre>
          * Eigenschaft, die "NodeID" besitzt, die dem Suchbegriff "&#64;Value" entspricht
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -7339,11 +7339,11 @@ public final class ImSearchCharacteristicsPu {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue prePredecessorsDescription_ = null;
+        private io.dstore.Values.stringValue prePredecessorsDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> prePredecessorsDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prePredecessorsDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
@@ -7353,27 +7353,27 @@ public final class ImSearchCharacteristicsPu {
           return prePredecessorsDescriptionBuilder_ != null || prePredecessorsDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPrePredecessorsDescription() {
+        public io.dstore.Values.stringValue getPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
-            return prePredecessorsDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
+            return prePredecessorsDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
           } else {
             return prePredecessorsDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
-        public Builder setPrePredecessorsDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setPrePredecessorsDescription(io.dstore.Values.stringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7387,14 +7387,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
         public Builder setPrePredecessorsDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (prePredecessorsDescriptionBuilder_ == null) {
             prePredecessorsDescription_ = builderForValue.build();
             onChanged();
@@ -7405,17 +7405,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
-        public Builder mergePrePredecessorsDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePrePredecessorsDescription(io.dstore.Values.stringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
             if (prePredecessorsDescription_ != null) {
               prePredecessorsDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(prePredecessorsDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(prePredecessorsDescription_).mergeFrom(value).buildPartial();
             } else {
               prePredecessorsDescription_ = value;
             }
@@ -7427,7 +7427,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
@@ -7445,45 +7445,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPrePredecessorsDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getPrePredecessorsDescriptionBuilder() {
           
           onChanged();
           return getPrePredecessorsDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
           if (prePredecessorsDescriptionBuilder_ != null) {
             return prePredecessorsDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return prePredecessorsDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : prePredecessorsDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue pre_predecessors_description = 10010;</code>
+         * <code>optional .dstore.values.stringValue pre_predecessors_description = 10010;</code>
          *
          * <pre>
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPrePredecessorsDescriptionFieldBuilder() {
           if (prePredecessorsDescriptionBuilder_ == null) {
             prePredecessorsDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPrePredecessorsDescription(),
                     getParentForChildren(),
                     isClean());
@@ -7492,11 +7492,11 @@ public final class ImSearchCharacteristicsPu {
           return prePredecessorsDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue prePredecessorsTreeNodeId_ = null;
+        private io.dstore.Values.integerValue prePredecessorsTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> prePredecessorsTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> prePredecessorsTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -7506,27 +7506,27 @@ public final class ImSearchCharacteristicsPu {
           return prePredecessorsTreeNodeIdBuilder_ != null || prePredecessorsTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPrePredecessorsTreeNodeId() {
+        public io.dstore.Values.integerValue getPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
-            return prePredecessorsTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
+            return prePredecessorsTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
           } else {
             return prePredecessorsTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public Builder setPrePredecessorsTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPrePredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7540,14 +7540,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
         public Builder setPrePredecessorsTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
             prePredecessorsTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -7558,17 +7558,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public Builder mergePrePredecessorsTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePrePredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
             if (prePredecessorsTreeNodeId_ != null) {
               prePredecessorsTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(prePredecessorsTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(prePredecessorsTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               prePredecessorsTreeNodeId_ = value;
             }
@@ -7580,7 +7580,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -7598,45 +7598,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPrePredecessorsTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPrePredecessorsTreeNodeIdBuilder() {
           
           onChanged();
           return getPrePredecessorsTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
           if (prePredecessorsTreeNodeIdBuilder_ != null) {
             return prePredecessorsTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return prePredecessorsTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue pre_predecessors_tree_node_id = 10011;</code>
          *
          * <pre>
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPrePredecessorsTreeNodeIdFieldBuilder() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
             prePredecessorsTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPrePredecessorsTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -7645,11 +7645,11 @@ public final class ImSearchCharacteristicsPu {
           return prePredecessorsTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue predecessorsTreeNodeId_ = null;
+        private io.dstore.Values.integerValue predecessorsTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> predecessorsTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorsTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -7659,27 +7659,27 @@ public final class ImSearchCharacteristicsPu {
           return predecessorsTreeNodeIdBuilder_ != null || predecessorsTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPredecessorsTreeNodeId() {
+        public io.dstore.Values.integerValue getPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
-            return predecessorsTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
+            return predecessorsTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
           } else {
             return predecessorsTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public Builder setPredecessorsTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7693,14 +7693,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
         public Builder setPredecessorsTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
             predecessorsTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -7711,17 +7711,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public Builder mergePredecessorsTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePredecessorsTreeNodeId(io.dstore.Values.integerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
             if (predecessorsTreeNodeId_ != null) {
               predecessorsTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(predecessorsTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(predecessorsTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               predecessorsTreeNodeId_ = value;
             }
@@ -7733,7 +7733,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
@@ -7751,45 +7751,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPredecessorsTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPredecessorsTreeNodeIdBuilder() {
           
           onChanged();
           return getPredecessorsTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
           if (predecessorsTreeNodeIdBuilder_ != null) {
             return predecessorsTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return predecessorsTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : predecessorsTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue predecessors_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.integerValue predecessors_tree_node_id = 10012;</code>
          *
          * <pre>
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Elementes
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPredecessorsTreeNodeIdFieldBuilder() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
             predecessorsTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPredecessorsTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -7798,11 +7798,11 @@ public final class ImSearchCharacteristicsPu {
           return predecessorsTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue predecessorsDescription_ = null;
+        private io.dstore.Values.stringValue predecessorsDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> predecessorsDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> predecessorsDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
@@ -7812,27 +7812,27 @@ public final class ImSearchCharacteristicsPu {
           return predecessorsDescriptionBuilder_ != null || predecessorsDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPredecessorsDescription() {
+        public io.dstore.Values.stringValue getPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
-            return predecessorsDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
+            return predecessorsDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
           } else {
             return predecessorsDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
-        public Builder setPredecessorsDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setPredecessorsDescription(io.dstore.Values.stringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7846,14 +7846,14 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
         public Builder setPredecessorsDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (predecessorsDescriptionBuilder_ == null) {
             predecessorsDescription_ = builderForValue.build();
             onChanged();
@@ -7864,17 +7864,17 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
-        public Builder mergePredecessorsDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePredecessorsDescription(io.dstore.Values.stringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
             if (predecessorsDescription_ != null) {
               predecessorsDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(predecessorsDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(predecessorsDescription_).mergeFrom(value).buildPartial();
             } else {
               predecessorsDescription_ = value;
             }
@@ -7886,7 +7886,7 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
@@ -7904,45 +7904,45 @@ public final class ImSearchCharacteristicsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPredecessorsDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getPredecessorsDescriptionBuilder() {
           
           onChanged();
           return getPredecessorsDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
           if (predecessorsDescriptionBuilder_ != null) {
             return predecessorsDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return predecessorsDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : predecessorsDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue predecessors_description = 10013;</code>
+         * <code>optional .dstore.values.stringValue predecessors_description = 10013;</code>
          *
          * <pre>
          * Bezeichnung des Vorgängers
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPredecessorsDescriptionFieldBuilder() {
           if (predecessorsDescriptionBuilder_ == null) {
             predecessorsDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPredecessorsDescription(),
                     getParentForChildren(),
                     isClean());
@@ -9512,77 +9512,71 @@ public final class ImSearchCharacteristicsPu {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/im_SearchChar" +
       "acteristics_Pu.proto\022)dstore.engine.im_S" +
-      "earchCharacteristics_Pu\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\377\013\n\nParameters\022" +
-      "B\n\027node_characteristic_ids\030\001 \001(\0132!.dstor" +
-      "e.engine.values.stringValue\022%\n\034node_char" +
-      "acteristic_ids_null\030\351\007 \001(\010\0220\n\005value\030\002 \001(" +
-      "\0132!.dstore.engine.values.stringValue\022\023\n\n",
-      "value_null\030\352\007 \001(\010\0223\n\007is_like\030\003 \001(\0132\".dst" +
-      "ore.engine.values.booleanValue\022\025\n\014is_lik" +
-      "e_null\030\353\007 \001(\010\0222\n\004date\030\004 \001(\0132$.dstore.eng" +
-      "ine.values.timestampValue\022\022\n\tdate_null\030\354" +
-      "\007 \001(\010\022=\n\021include_inherited\030\005 \001(\0132\".dstor" +
-      "e.engine.values.booleanValue\022\037\n\026include_" +
-      "inherited_null\030\355\007 \001(\010\0227\n\013language_id\030\006 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022\031" +
-      "\n\020language_id_null\030\356\007 \001(\010\022D\n\030include_nod" +
-      "e_description\030\007 \001(\0132\".dstore.engine.valu",
-      "es.booleanValue\022&\n\035include_node_descript" +
-      "ion_null\030\357\007 \001(\010\022A\n\025result_up_to_level_no" +
-      "\030\010 \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022#\n\032result_up_to_level_no_null\030\360\007 \001(\010\022" +
-      "A\n\025search_up_to_level_no\030\t \001(\0132\".dstore." +
-      "engine.values.integerValue\022#\n\032search_up_" +
-      "to_level_no_null\030\361\007 \001(\010\022;\n\017start_at_row_" +
-      "no\030\n \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022\035\n\024start_at_row_no_null\030\362\007 \001(\010\0225\n\tr" +
-      "ow_count\030\013 \001(\0132\".dstore.engine.values.in",
-      "tegerValue\022\027\n\016row_count_null\030\363\007 \001(\010\022F\n\032m" +
-      "aintain_search_item_lacks\030\014 \001(\0132\".dstore" +
-      ".engine.values.booleanValue\022(\n\037maintain_" +
-      "search_item_lacks_null\030\364\007 \001(\010\022G\n\033filter_" +
-      "by_characteristic_id\030\r \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022)\n filter_by_char" +
-      "acteristic_id_null\030\365\007 \001(\010\022A\n\026filter_by_c" +
-      "harac_value\030\016 \001(\0132!.dstore.engine.values" +
-      ".stringValue\022$\n\033filter_by_charac_value_n" +
-      "ull\030\366\007 \001(\010\0227\n\013sort_result\030\017 \001(\0132\".dstore",
-      ".engine.values.booleanValue\022\031\n\020sort_resu" +
-      "lt_null\030\367\007 \001(\010\022C\n\027negate_filter_by_param" +
-      "s\030\020 \001(\0132\".dstore.engine.values.booleanVa" +
-      "lue\022%\n\034negate_filter_by_params_null\030\370\007 \001" +
-      "(\010\"\275\010\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002" +
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022D\n\003row\030\004 \003(\01327.dst" +
-      "ore.engine.im_SearchCharacteristics_Pu.R",
-      "esponse.Row\032\304\006\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n\t" +
-      "inherited\030\221N \001(\0132\".dstore.engine.values." +
-      "booleanValue\0225\n\010level_no\030\222N \001(\0132\".dstore" +
-      ".engine.values.integerValue\022C\n\026node_char" +
-      "acteristic_id\030\223N \001(\0132\".dstore.engine.val" +
-      "ues.integerValue\0225\n\010value_id\030\224N \001(\0132\".ds" +
-      "tore.engine.values.integerValue\022<\n\020node_" +
-      "description\030\225N \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022;\n\016h_tree_node_id\030\226N \001(\0132\"" +
-      ".dstore.engine.values.integerValue\0229\n\014tr",
-      "ee_node_id\030\227N \001(\0132\".dstore.engine.values" +
-      ".integerValue\0224\n\007node_id\030\230N \001(\0132\".dstore" +
-      ".engine.values.integerValue\0221\n\005value\030\231N " +
-      "\001(\0132!.dstore.engine.values.stringValue\022H" +
-      "\n\034pre_predecessors_description\030\232N \001(\0132!." +
-      "dstore.engine.values.stringValue\022J\n\035pre_" +
-      "predecessors_tree_node_id\030\233N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022F\n\031predeces" +
-      "sors_tree_node_id\030\234N \001(\0132\".dstore.engine" +
-      ".values.integerValue\022D\n\030predecessors_des",
-      "cription\030\235N \001(\0132!.dstore.engine.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "earchCharacteristics_Pu\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\217\013\n\nParameters\022;\n\027node" +
+      "_characteristic_ids\030\001 \001(\0132\032.dstore.value" +
+      "s.stringValue\022%\n\034node_characteristic_ids" +
+      "_null\030\351\007 \001(\010\022)\n\005value\030\002 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022\023\n\nvalue_null\030\352\007 \001(\010\022,\n\007",
+      "is_like\030\003 \001(\0132\033.dstore.values.booleanVal" +
+      "ue\022\025\n\014is_like_null\030\353\007 \001(\010\022+\n\004date\030\004 \001(\0132" +
+      "\035.dstore.values.timestampValue\022\022\n\tdate_n" +
+      "ull\030\354\007 \001(\010\0226\n\021include_inherited\030\005 \001(\0132\033." +
+      "dstore.values.booleanValue\022\037\n\026include_in" +
+      "herited_null\030\355\007 \001(\010\0220\n\013language_id\030\006 \001(\013" +
+      "2\033.dstore.values.integerValue\022\031\n\020languag" +
+      "e_id_null\030\356\007 \001(\010\022=\n\030include_node_descrip" +
+      "tion\030\007 \001(\0132\033.dstore.values.booleanValue\022" +
+      "&\n\035include_node_description_null\030\357\007 \001(\010\022",
+      ":\n\025result_up_to_level_no\030\010 \001(\0132\033.dstore." +
+      "values.integerValue\022#\n\032result_up_to_leve" +
+      "l_no_null\030\360\007 \001(\010\022:\n\025search_up_to_level_n" +
+      "o\030\t \001(\0132\033.dstore.values.integerValue\022#\n\032" +
+      "search_up_to_level_no_null\030\361\007 \001(\010\0224\n\017sta" +
+      "rt_at_row_no\030\n \001(\0132\033.dstore.values.integ" +
+      "erValue\022\035\n\024start_at_row_no_null\030\362\007 \001(\010\022." +
+      "\n\trow_count\030\013 \001(\0132\033.dstore.values.intege" +
+      "rValue\022\027\n\016row_count_null\030\363\007 \001(\010\022?\n\032maint" +
+      "ain_search_item_lacks\030\014 \001(\0132\033.dstore.val",
+      "ues.booleanValue\022(\n\037maintain_search_item" +
+      "_lacks_null\030\364\007 \001(\010\022@\n\033filter_by_characte" +
+      "ristic_id\030\r \001(\0132\033.dstore.values.integerV" +
+      "alue\022)\n filter_by_characteristic_id_null" +
+      "\030\365\007 \001(\010\022:\n\026filter_by_charac_value\030\016 \001(\0132" +
+      "\032.dstore.values.stringValue\022$\n\033filter_by" +
+      "_charac_value_null\030\366\007 \001(\010\0220\n\013sort_result" +
+      "\030\017 \001(\0132\033.dstore.values.booleanValue\022\031\n\020s" +
+      "ort_result_null\030\367\007 \001(\010\022<\n\027negate_filter_" +
+      "by_params\030\020 \001(\0132\033.dstore.values.booleanV",
+      "alue\022%\n\034negate_filter_by_params_null\030\370\007 " +
+      "\001(\010\"\342\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore" +
+      ".engine.error.Error\022H\n\020meta_information\030" +
+      "\002 \003(\0132..dstore.engine.metainformation.Me" +
+      "taInformation\022/\n\007message\030\003 \003(\0132\036.dstore." +
+      "engine.message.Message\022D\n\003row\030\004 \003(\01327.ds" +
+      "tore.engine.im_SearchCharacteristics_Pu." +
+      "Response.Row\032\351\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n" +
+      "\tinherited\030\221N \001(\0132\033.dstore.values.boolea" +
+      "nValue\022.\n\010level_no\030\222N \001(\0132\033.dstore.value",
+      "s.integerValue\022<\n\026node_characteristic_id" +
+      "\030\223N \001(\0132\033.dstore.values.integerValue\022.\n\010" +
+      "value_id\030\224N \001(\0132\033.dstore.values.integerV" +
+      "alue\0225\n\020node_description\030\225N \001(\0132\032.dstore" +
+      ".values.stringValue\0224\n\016h_tree_node_id\030\226N" +
+      " \001(\0132\033.dstore.values.integerValue\0222\n\014tre" +
+      "e_node_id\030\227N \001(\0132\033.dstore.values.integer" +
+      "Value\022-\n\007node_id\030\230N \001(\0132\033.dstore.values." +
+      "integerValue\022*\n\005value\030\231N \001(\0132\032.dstore.va" +
+      "lues.stringValue\022A\n\034pre_predecessors_des",
+      "cription\030\232N \001(\0132\032.dstore.values.stringVa" +
+      "lue\022C\n\035pre_predecessors_tree_node_id\030\233N " +
+      "\001(\0132\033.dstore.values.integerValue\022?\n\031pred" +
+      "ecessors_tree_node_id\030\234N \001(\0132\033.dstore.va" +
+      "lues.integerValue\022=\n\030predecessors_descri" +
+      "ption\030\235N \001(\0132\032.dstore.values.stringValue" +
+      "B\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9595,7 +9589,7 @@ public final class ImSearchCharacteristicsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -9618,7 +9612,7 @@ public final class ImSearchCharacteristicsPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_SearchCharacteristics_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Inherited", "LevelNo", "NodeCharacteristicId", "ValueId", "NodeDescription", "HTreeNodeId", "TreeNodeId", "NodeId", "Value", "PrePredecessorsDescription", "PrePredecessorsTreeNodeId", "PredecessorsTreeNodeId", "PredecessorsDescription", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

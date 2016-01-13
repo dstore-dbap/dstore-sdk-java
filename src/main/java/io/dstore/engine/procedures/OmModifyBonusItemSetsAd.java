@@ -13,17 +13,17 @@ public final class OmModifyBonusItemSetsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
      */
     boolean hasItemConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getItemConditionId();
+    io.dstore.Values.integerValue getItemConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getItemConditionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder();
 
     /**
      * <code>optional bool item_condition_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyBonusItemSetsAd {
     boolean getItemConditionIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
      */
     boolean hasMaxQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getMaxQuantity();
+    io.dstore.Values.integerValue getMaxQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMaxQuantityOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getMaxQuantityOrBuilder();
 
     /**
      * <code>optional bool max_quantity_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyBonusItemSetsAd {
     boolean getMaxQuantityNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 3;</code>
      */
     boolean hasDeleteSet();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getDeleteSet();
+    io.dstore.Values.integerValue getDeleteSet();
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getDeleteSetOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getDeleteSetOrBuilder();
 
     /**
      * <code>optional bool delete_set_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class OmModifyBonusItemSetsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (itemConditionId_ != null) {
                 subBuilder = itemConditionId_.toBuilder();
               }
-              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              itemConditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionId_);
                 itemConditionId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class OmModifyBonusItemSetsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (maxQuantity_ != null) {
                 subBuilder = maxQuantity_.toBuilder();
               }
-              maxQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              maxQuantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxQuantity_);
                 maxQuantity_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class OmModifyBonusItemSetsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deleteSet_ != null) {
                 subBuilder = deleteSet_.toBuilder();
               }
-              deleteSet_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              deleteSet_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteSet_);
                 deleteSet_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class OmModifyBonusItemSetsAd {
     }
 
     public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue itemConditionId_;
+    private io.dstore.Values.integerValue itemConditionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
      */
     public boolean hasItemConditionId() {
       return itemConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getItemConditionId() {
-      return itemConditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : itemConditionId_;
+    public io.dstore.Values.integerValue getItemConditionId() {
+      return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
       return getItemConditionId();
     }
 
@@ -216,23 +216,23 @@ public final class OmModifyBonusItemSetsAd {
     }
 
     public static final int MAX_QUANTITY_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue maxQuantity_;
+    private io.dstore.Values.integerValue maxQuantity_;
     /**
-     * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
      */
     public boolean hasMaxQuantity() {
       return maxQuantity_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getMaxQuantity() {
-      return maxQuantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxQuantity_;
+    public io.dstore.Values.integerValue getMaxQuantity() {
+      return maxQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxQuantity_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+     * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMaxQuantityOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getMaxQuantityOrBuilder() {
       return getMaxQuantity();
     }
 
@@ -246,23 +246,23 @@ public final class OmModifyBonusItemSetsAd {
     }
 
     public static final int DELETE_SET_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue deleteSet_;
+    private io.dstore.Values.integerValue deleteSet_;
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 3;</code>
      */
     public boolean hasDeleteSet() {
       return deleteSet_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getDeleteSet() {
-      return deleteSet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteSet_;
+    public io.dstore.Values.integerValue getDeleteSet() {
+      return deleteSet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteSet_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+     * <code>optional .dstore.values.integerValue delete_set = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getDeleteSetOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getDeleteSetOrBuilder() {
       return getDeleteSet();
     }
 
@@ -570,29 +570,29 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue itemConditionId_ = null;
+      private io.dstore.Values.integerValue itemConditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> itemConditionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionIdBuilder_ != null || itemConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getItemConditionId() {
+      public io.dstore.Values.integerValue getItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
-          return itemConditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : itemConditionId_;
+          return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
         } else {
           return itemConditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
-      public Builder setItemConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setItemConditionId(io.dstore.Values.integerValue value) {
         if (itemConditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
       public Builder setItemConditionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (itemConditionIdBuilder_ == null) {
           itemConditionId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
-      public Builder mergeItemConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeItemConditionId(io.dstore.Values.integerValue value) {
         if (itemConditionIdBuilder_ == null) {
           if (itemConditionId_ != null) {
             itemConditionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(itemConditionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(itemConditionId_).mergeFrom(value).buildPartial();
           } else {
             itemConditionId_ = value;
           }
@@ -638,7 +638,7 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
       public Builder clearItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getItemConditionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getItemConditionIdBuilder() {
         
         onChanged();
         return getItemConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
         if (itemConditionIdBuilder_ != null) {
           return itemConditionIdBuilder_.getMessageOrBuilder();
         } else {
           return itemConditionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : itemConditionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue item_condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getItemConditionIdFieldBuilder() {
         if (itemConditionIdBuilder_ == null) {
           itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getItemConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue maxQuantity_ = null;
+      private io.dstore.Values.integerValue maxQuantity_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxQuantityBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxQuantityBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
       public boolean hasMaxQuantity() {
         return maxQuantityBuilder_ != null || maxQuantity_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getMaxQuantity() {
+      public io.dstore.Values.integerValue getMaxQuantity() {
         if (maxQuantityBuilder_ == null) {
-          return maxQuantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxQuantity_;
+          return maxQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxQuantity_;
         } else {
           return maxQuantityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
-      public Builder setMaxQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder setMaxQuantity(io.dstore.Values.integerValue value) {
         if (maxQuantityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
       public Builder setMaxQuantity(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (maxQuantityBuilder_ == null) {
           maxQuantity_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
-      public Builder mergeMaxQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeMaxQuantity(io.dstore.Values.integerValue value) {
         if (maxQuantityBuilder_ == null) {
           if (maxQuantity_ != null) {
             maxQuantity_ =
-              io.dstore.engine.Values.integerValue.newBuilder(maxQuantity_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(maxQuantity_).mergeFrom(value).buildPartial();
           } else {
             maxQuantity_ = value;
           }
@@ -781,7 +781,7 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
       public Builder clearMaxQuantity() {
         if (maxQuantityBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMaxQuantityBuilder() {
+      public io.dstore.Values.integerValue.Builder getMaxQuantityBuilder() {
         
         onChanged();
         return getMaxQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxQuantityOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMaxQuantityOrBuilder() {
         if (maxQuantityBuilder_ != null) {
           return maxQuantityBuilder_.getMessageOrBuilder();
         } else {
           return maxQuantity_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : maxQuantity_;
+              io.dstore.Values.integerValue.getDefaultInstance() : maxQuantity_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_quantity = 2;</code>
+       * <code>optional .dstore.values.integerValue max_quantity = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxQuantityFieldBuilder() {
         if (maxQuantityBuilder_ == null) {
           maxQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxQuantity(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue deleteSet_ = null;
+      private io.dstore.Values.integerValue deleteSet_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> deleteSetBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteSetBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
       public boolean hasDeleteSet() {
         return deleteSetBuilder_ != null || deleteSet_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getDeleteSet() {
+      public io.dstore.Values.integerValue getDeleteSet() {
         if (deleteSetBuilder_ == null) {
-          return deleteSet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteSet_;
+          return deleteSet_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteSet_;
         } else {
           return deleteSetBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
-      public Builder setDeleteSet(io.dstore.engine.Values.integerValue value) {
+      public Builder setDeleteSet(io.dstore.Values.integerValue value) {
         if (deleteSetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
       public Builder setDeleteSet(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (deleteSetBuilder_ == null) {
           deleteSet_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
-      public Builder mergeDeleteSet(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeDeleteSet(io.dstore.Values.integerValue value) {
         if (deleteSetBuilder_ == null) {
           if (deleteSet_ != null) {
             deleteSet_ =
-              io.dstore.engine.Values.integerValue.newBuilder(deleteSet_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(deleteSet_).mergeFrom(value).buildPartial();
           } else {
             deleteSet_ = value;
           }
@@ -924,7 +924,7 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
       public Builder clearDeleteSet() {
         if (deleteSetBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getDeleteSetBuilder() {
+      public io.dstore.Values.integerValue.Builder getDeleteSetBuilder() {
         
         onChanged();
         return getDeleteSetFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDeleteSetOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDeleteSetOrBuilder() {
         if (deleteSetBuilder_ != null) {
           return deleteSetBuilder_.getMessageOrBuilder();
         } else {
           return deleteSet_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : deleteSet_;
+              io.dstore.Values.integerValue.getDefaultInstance() : deleteSet_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delete_set = 3;</code>
+       * <code>optional .dstore.values.integerValue delete_set = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeleteSetFieldBuilder() {
         if (deleteSetBuilder_ == null) {
           deleteSetBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeleteSet(),
                   getParentForChildren(),
                   isClean());
@@ -1146,17 +1146,17 @@ public final class OmModifyBonusItemSetsAd {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
      */
     boolean hasItemSetId();
     /**
-     * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValue getItemSetId();
+    io.dstore.Values.integerValue getItemSetId();
     /**
-     * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getItemSetIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ModifyBonusItemSets_Ad.Response}
@@ -1237,11 +1237,11 @@ public final class OmModifyBonusItemSetsAd {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (itemSetId_ != null) {
                 subBuilder = itemSetId_.toBuilder();
               }
-              itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              itemSetId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemSetId_);
                 itemSetId_ = subBuilder.buildPartial();
@@ -1785,23 +1785,23 @@ public final class OmModifyBonusItemSetsAd {
     }
 
     public static final int ITEM_SET_ID_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.integerValue itemSetId_;
+    private io.dstore.Values.integerValue itemSetId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
      */
     public boolean hasItemSetId() {
       return itemSetId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValue getItemSetId() {
-      return itemSetId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : itemSetId_;
+    public io.dstore.Values.integerValue getItemSetId() {
+      return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+     * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
       return getItemSetId();
     }
 
@@ -3028,29 +3028,29 @@ public final class OmModifyBonusItemSetsAd {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.integerValue itemSetId_ = null;
+      private io.dstore.Values.integerValue itemSetId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> itemSetIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemSetIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
       public boolean hasItemSetId() {
         return itemSetIdBuilder_ != null || itemSetId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue getItemSetId() {
+      public io.dstore.Values.integerValue getItemSetId() {
         if (itemSetIdBuilder_ == null) {
-          return itemSetId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : itemSetId_;
+          return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
         } else {
           return itemSetIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
-      public Builder setItemSetId(io.dstore.engine.Values.integerValue value) {
+      public Builder setItemSetId(io.dstore.Values.integerValue value) {
         if (itemSetIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3064,10 +3064,10 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
       public Builder setItemSetId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (itemSetIdBuilder_ == null) {
           itemSetId_ = builderForValue.build();
           onChanged();
@@ -3078,13 +3078,13 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
-      public Builder mergeItemSetId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeItemSetId(io.dstore.Values.integerValue value) {
         if (itemSetIdBuilder_ == null) {
           if (itemSetId_ != null) {
             itemSetId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
           } else {
             itemSetId_ = value;
           }
@@ -3096,7 +3096,7 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
       public Builder clearItemSetId() {
         if (itemSetIdBuilder_ == null) {
@@ -3110,33 +3110,33 @@ public final class OmModifyBonusItemSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getItemSetIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getItemSetIdBuilder() {
         
         onChanged();
         return getItemSetIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
         if (itemSetIdBuilder_ != null) {
           return itemSetIdBuilder_.getMessageOrBuilder();
         } else {
           return itemSetId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : itemSetId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_set_id = 101;</code>
+       * <code>optional .dstore.values.integerValue item_set_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getItemSetIdFieldBuilder() {
         if (itemSetIdBuilder_ == null) {
           itemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getItemSetId(),
                   getParentForChildren(),
                   isClean());
@@ -3228,26 +3228,25 @@ public final class OmModifyBonusItemSetsAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/om_ModifyBonu" +
       "sItemSets_Ad.proto\022\'dstore.engine.om_Mod" +
-      "ifyBonusItemSets_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\224\002\n\nParameters\022=\n\021i" +
-      "tem_condition_id\030\001 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\037\n\026item_condition_id_" +
-      "null\030\351\007 \001(\010\0228\n\014max_quantity\030\002 \001(\0132\".dsto" +
-      "re.engine.values.integerValue\022\032\n\021max_qua",
-      "ntity_null\030\352\007 \001(\010\0226\n\ndelete_set\030\003 \001(\0132\"." +
-      "dstore.engine.values.integerValue\022\030\n\017del" +
-      "ete_set_null\030\353\007 \001(\010\"\305\002\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message" +
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022B" +
-      "\n\003row\030\004 \003(\01325.dstore.engine.om_ModifyBon" +
-      "usItemSets_Ad.Response.Row\0227\n\013item_set_i" +
-      "d\030e \001(\0132\".dstore.engine.values.integerVa",
-      "lue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore" +
-      ".engine.proceduresb\006proto3"
+      "ifyBonusItemSets_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"\377\001\n\nParameters\0226\n\021item_con" +
+      "dition_id\030\001 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\037\n\026item_condition_id_null\030\351\007 \001(\010\0221\n" +
+      "\014max_quantity\030\002 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022\032\n\021max_quantity_null\030\352\007 \001(\010\022/\n\n",
+      "delete_set\030\003 \001(\0132\033.dstore.values.integer" +
+      "Value\022\030\n\017delete_set_null\030\353\007 \001(\010\"\276\002\n\010Resp" +
+      "onse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.erro" +
+      "r.Error\022H\n\020meta_information\030\002 \003(\0132..dsto" +
+      "re.engine.metainformation.MetaInformatio" +
+      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
+      "ge.Message\022B\n\003row\030\004 \003(\01325.dstore.engine." +
+      "om_ModifyBonusItemSets_Ad.Response.Row\0220" +
+      "\n\013item_set_id\030e \001(\0132\033.dstore.values.inte" +
+      "gerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.d",
+      "store.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3260,7 +3259,7 @@ public final class OmModifyBonusItemSetsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3283,7 +3282,7 @@ public final class OmModifyBonusItemSetsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyBonusItemSets_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

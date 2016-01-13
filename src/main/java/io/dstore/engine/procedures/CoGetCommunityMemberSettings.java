@@ -13,17 +13,17 @@ public final class CoGetCommunityMemberSettings {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityMemberId();
+    io.dstore.Values.integerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool community_member_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class CoGetCommunityMemberSettings {
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.integerValue community_id = 2;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.integerValue community_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityId();
+    io.dstore.Values.integerValue getCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.integerValue community_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class CoGetCommunityMemberSettings {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 3;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getKeyVariable();
+    io.dstore.Values.stringValue getKeyVariable();
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class CoGetCommunityMemberSettings {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getSelectResult();
+    io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getSelectResultOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
      * <code>optional bool select_result_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class CoGetCommunityMemberSettings {
     }
 
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue communityMemberId_;
+    private io.dstore.Values.integerValue communityMemberId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityMemberId() {
-      return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    public io.dstore.Values.integerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
     }
 
@@ -253,23 +253,23 @@ public final class CoGetCommunityMemberSettings {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue communityId_;
+    private io.dstore.Values.integerValue communityId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.integerValue community_id = 2;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.integerValue community_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.Values.integerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.integerValue community_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -283,23 +283,23 @@ public final class CoGetCommunityMemberSettings {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue keyVariable_;
+    private io.dstore.Values.stringValue keyVariable_;
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 3;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.Values.stringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+     * <code>optional .dstore.values.stringValue key_variable = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -313,23 +313,23 @@ public final class CoGetCommunityMemberSettings {
     }
 
     public static final int SELECT_RESULT_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue selectResult_;
+    private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getSelectResult() {
-      return selectResult_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : selectResult_;
+    public io.dstore.Values.booleanValue getSelectResult() {
+      return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
@@ -671,29 +671,29 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityMemberId_ = null;
+      private io.dstore.Values.integerValue communityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityMemberId() {
+      public io.dstore.Values.integerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
-          return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
         } else {
           return communityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
-      public Builder setCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
       public Builder setCommunityMemberId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityMemberIdBuilder_ == null) {
           communityMemberId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
-      public Builder mergeCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (communityMemberId_ != null) {
             communityMemberId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
           } else {
             communityMemberId_ = value;
           }
@@ -739,7 +739,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
         
         onChanged();
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
           return communityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 1;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityMemberIdFieldBuilder() {
         if (communityMemberIdBuilder_ == null) {
           communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityId_ = null;
+      private io.dstore.Values.integerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityId() {
+      public io.dstore.Values.integerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
-      public Builder setCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
       public Builder setCommunityId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
-      public Builder mergeCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -882,7 +882,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue keyVariable_ = null;
+      private io.dstore.Values.stringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getKeyVariable() {
+      public io.dstore.Values.stringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
-      public Builder setKeyVariable(io.dstore.engine.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.engine.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 3;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue selectResult_ = null;
+      private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> selectResultBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getSelectResult() {
+      public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
-          return selectResult_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : selectResult_;
+          return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
         } else {
           return selectResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
-      public Builder setSelectResult(io.dstore.engine.Values.booleanValue value) {
+      public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (selectResultBuilder_ == null) {
           selectResult_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
-      public Builder mergeSelectResult(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
           if (selectResult_ != null) {
             selectResult_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
           } else {
             selectResult_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getSelectResultBuilder() {
+      public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
         onChanged();
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
           return selectResultBuilder_.getMessageOrBuilder();
         } else {
           return selectResult_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : selectResult_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSelectResultFieldBuilder() {
         if (selectResultBuilder_ == null) {
           selectResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSelectResult(),
                   getParentForChildren(),
                   isClean());
@@ -1390,17 +1390,17 @@ public final class CoGetCommunityMemberSettings {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.stringValue value = 101;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.stringValue value = 101;</code>
      */
-    io.dstore.engine.Values.stringValue getValue();
+    io.dstore.Values.stringValue getValue();
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.stringValue value = 101;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.co_GetCommunityMemberSettings.Response}
@@ -1481,11 +1481,11 @@ public final class CoGetCommunityMemberSettings {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -1536,7 +1536,7 @@ public final class CoGetCommunityMemberSettings {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
@@ -1544,24 +1544,24 @@ public final class CoGetCommunityMemberSettings {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
        *
        * <pre>
        * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
@@ -1569,21 +1569,21 @@ public final class CoGetCommunityMemberSettings {
        */
       boolean hasKeyVariable();
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
        *
        * <pre>
        * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getKeyVariable();
+      io.dstore.Values.stringValue getKeyVariable();
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
        *
        * <pre>
        * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetCommunityMemberSettings.Response.Row}
@@ -1630,11 +1630,11 @@ public final class CoGetCommunityMemberSettings {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1643,11 +1643,11 @@ public final class CoGetCommunityMemberSettings {
                 break;
               }
               case 160018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1689,9 +1689,9 @@ public final class CoGetCommunityMemberSettings {
       }
 
       public static final int VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
@@ -1701,30 +1701,30 @@ public final class CoGetCommunityMemberSettings {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.stringValue value = 10001;</code>
        *
        * <pre>
        * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int KEY_VARIABLE_FIELD_NUMBER = 20002;
-      private io.dstore.engine.Values.stringValue keyVariable_;
+      private io.dstore.Values.stringValue keyVariable_;
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
        *
        * <pre>
        * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
@@ -1734,23 +1734,23 @@ public final class CoGetCommunityMemberSettings {
         return keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
        *
        * <pre>
        * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getKeyVariable() {
-        return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+      public io.dstore.Values.stringValue getKeyVariable() {
+        return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+       * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
        *
        * <pre>
        * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
       }
 
@@ -2028,11 +2028,11 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
@@ -2042,27 +2042,27 @@ public final class CoGetCommunityMemberSettings {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2076,14 +2076,14 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2094,17 +2094,17 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2116,7 +2116,7 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
@@ -2134,45 +2134,45 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.stringValue value = 10001;</code>
          *
          * <pre>
          * Der zum Schlüssel "&#64;KeyVariable" hinterlegte Wert des Community-Mitglieds "&#64;CommunityMemberID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2181,11 +2181,11 @@ public final class CoGetCommunityMemberSettings {
           return valueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue keyVariable_ = null;
+        private io.dstore.Values.stringValue keyVariable_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> keyVariableBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
@@ -2195,27 +2195,27 @@ public final class CoGetCommunityMemberSettings {
           return keyVariableBuilder_ != null || keyVariable_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getKeyVariable() {
+        public io.dstore.Values.stringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
-            return keyVariable_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+            return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
           } else {
             return keyVariableBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
-        public Builder setKeyVariable(io.dstore.engine.Values.stringValue value) {
+        public Builder setKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2229,14 +2229,14 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
         public Builder setKeyVariable(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (keyVariableBuilder_ == null) {
             keyVariable_ = builderForValue.build();
             onChanged();
@@ -2247,17 +2247,17 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
-        public Builder mergeKeyVariable(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
           if (keyVariableBuilder_ == null) {
             if (keyVariable_ != null) {
               keyVariable_ =
-                io.dstore.engine.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
             } else {
               keyVariable_ = value;
             }
@@ -2269,7 +2269,7 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
@@ -2287,45 +2287,45 @@ public final class CoGetCommunityMemberSettings {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getKeyVariableBuilder() {
+        public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
           
           onChanged();
           return getKeyVariableFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
             return keyVariableBuilder_.getMessageOrBuilder();
           } else {
             return keyVariable_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : keyVariable_;
+                io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue key_variable = 20002;</code>
+         * <code>optional .dstore.values.stringValue key_variable = 20002;</code>
          *
          * <pre>
          * Ein Schlüssel wie z.B. "sys_AccessPermission", zu dem das Community-Mitglied "&#64;CommunityMemberID" einen Wert hinterlegt hat
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getKeyVariableFieldBuilder() {
           if (keyVariableBuilder_ == null) {
             keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getKeyVariable(),
                     getParentForChildren(),
                     isClean());
@@ -2519,23 +2519,23 @@ public final class CoGetCommunityMemberSettings {
     }
 
     public static final int VALUE_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.stringValue value_;
+    private io.dstore.Values.stringValue value_;
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.stringValue value = 101;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.stringValue value = 101;</code>
      */
-    public io.dstore.engine.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.Values.stringValue getValue() {
+      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.stringValue value = 101;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -3762,29 +3762,29 @@ public final class CoGetCommunityMemberSettings {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.stringValue value_ = null;
+      private io.dstore.Values.stringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
+      public io.dstore.Values.stringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
-      public Builder setValue(io.dstore.engine.Values.stringValue value) {
+      public Builder setValue(io.dstore.Values.stringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3798,10 +3798,10 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
       public Builder setValue(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -3812,13 +3812,13 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
-      public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.Values.stringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -3830,7 +3830,7 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -3844,33 +3844,33 @@ public final class CoGetCommunityMemberSettings {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.Values.stringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.Values.stringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.stringValue value = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -3962,31 +3962,30 @@ public final class CoGetCommunityMemberSettings {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/co_GetCommuni" +
       "tyMemberSettings.proto\022+dstore.engine.co" +
-      "_GetCommunityMemberSettings\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\363\002\n\nParamet" +
-      "ers\022?\n\023community_member_id\030\001 \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022!\n\030communit" +
-      "y_member_id_null\030\351\007 \001(\010\0228\n\014community_id\030" +
-      "\002 \001(\0132\".dstore.engine.values.integerValu",
-      "e\022\032\n\021community_id_null\030\352\007 \001(\010\0227\n\014key_var" +
-      "iable\030\003 \001(\0132!.dstore.engine.values.strin" +
-      "gValue\022\032\n\021key_variable_null\030\353\007 \001(\010\0229\n\rse" +
-      "lect_result\030\004 \001(\0132\".dstore.engine.values" +
-      ".booleanValue\022\033\n\022select_result_null\030\354\007 \001" +
-      "(\010\"\261\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002" +
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022F\n\003row\030\004 \003(\01329.dst",
-      "ore.engine.co_GetCommunityMemberSettings" +
-      ".Response.Row\0220\n\005value\030e \001(\0132!.dstore.en" +
-      "gine.values.stringValue\032\204\001\n\003Row\022\017\n\006row_i" +
-      "d\030\220N \001(\005\0221\n\005value\030\221N \001(\0132!.dstore.engine" +
-      ".values.stringValue\0229\n\014key_variable\030\242\234\001 " +
-      "\001(\0132!.dstore.engine.values.stringValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "_GetCommunityMemberSettings\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\327\002\n\nParameters\0228\n\023" +
+      "community_member_id\030\001 \001(\0132\033.dstore.value" +
+      "s.integerValue\022!\n\030community_member_id_nu" +
+      "ll\030\351\007 \001(\010\0221\n\014community_id\030\002 \001(\0132\033.dstore" +
+      ".values.integerValue\022\032\n\021community_id_nul",
+      "l\030\352\007 \001(\010\0220\n\014key_variable\030\003 \001(\0132\032.dstore." +
+      "values.stringValue\022\032\n\021key_variable_null\030" +
+      "\353\007 \001(\010\0222\n\rselect_result\030\004 \001(\0132\033.dstore.v" +
+      "alues.booleanValue\022\033\n\022select_result_null" +
+      "\030\354\007 \001(\010\"\233\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
+      "tore.engine.error.Error\022H\n\020meta_informat" +
+      "ion\030\002 \003(\0132..dstore.engine.metainformatio" +
+      "n.MetaInformation\022/\n\007message\030\003 \003(\0132\036.dst" +
+      "ore.engine.message.Message\022F\n\003row\030\004 \003(\0132" +
+      "9.dstore.engine.co_GetCommunityMemberSet",
+      "tings.Response.Row\022)\n\005value\030e \001(\0132\032.dsto" +
+      "re.values.stringValue\032v\n\003Row\022\017\n\006row_id\030\220" +
+      "N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.values.st" +
+      "ringValue\0222\n\014key_variable\030\242\234\001 \001(\0132\032.dsto" +
+      "re.values.stringValueB\035\n\033io.dstore.engin" +
+      "e.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3999,7 +3998,7 @@ public final class CoGetCommunityMemberSettings {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4022,7 +4021,7 @@ public final class CoGetCommunityMemberSettings {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetCommunityMemberSettings_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value", "KeyVariable", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

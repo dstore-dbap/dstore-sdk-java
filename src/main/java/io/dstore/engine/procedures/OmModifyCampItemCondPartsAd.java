@@ -13,17 +13,17 @@ public final class OmModifyCampItemCondPartsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getConditionId();
+    io.dstore.Values.integerValue getConditionId();
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
      */
     boolean hasItemConditionPartId();
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getItemConditionPartId();
+    io.dstore.Values.integerValue getItemConditionPartId();
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder();
 
     /**
      * <code>optional bool item_condition_part_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getItemConditionPartIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+     * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
      */
     boolean hasConditionPartDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+     * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getConditionPartDescription();
+    io.dstore.Values.stringValue getConditionPartDescription();
     /**
-     * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+     * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder();
 
     /**
      * <code>optional bool condition_part_description_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getConditionPartDescriptionNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+     * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
      */
     boolean hasMinNumberOfItems();
     /**
-     * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+     * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getMinNumberOfItems();
+    io.dstore.Values.integerValue getMinNumberOfItems();
     /**
-     * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+     * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder();
 
     /**
      * <code>optional bool min_number_of_items_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getMinNumberOfItemsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
      */
     boolean hasMaxNumberOfItems();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getMaxNumberOfItems();
+    io.dstore.Values.integerValue getMaxNumberOfItems();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder();
 
     /**
      * <code>optional bool max_number_of_items_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getMaxNumberOfItemsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+     * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
      */
     boolean hasFromQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+     * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getFromQuantity();
+    io.dstore.Values.integerValue getFromQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+     * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFromQuantityOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFromQuantityOrBuilder();
 
     /**
      * <code>optional bool from_quantity_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getFromQuantityNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+     * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
      */
     boolean hasToQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+     * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getToQuantity();
+    io.dstore.Values.integerValue getToQuantity();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+     * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getToQuantityOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getToQuantityOrBuilder();
 
     /**
      * <code>optional bool to_quantity_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getToQuantityNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+     * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
      */
     boolean hasFromItemBasicPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+     * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
      */
-    io.dstore.engine.Values.decimalValue getFromItemBasicPrice();
+    io.dstore.Values.decimalValue getFromItemBasicPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+     * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder();
 
     /**
      * <code>optional bool from_item_basic_price_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getFromItemBasicPriceNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+     * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
      */
     boolean hasToItemBasicPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+     * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
      */
-    io.dstore.engine.Values.decimalValue getToItemBasicPrice();
+    io.dstore.Values.decimalValue getToItemBasicPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+     * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder();
 
     /**
      * <code>optional bool to_item_basic_price_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getToItemBasicPriceNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+     * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
      */
     boolean hasFromBasicPriceSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+     * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
      */
-    io.dstore.engine.Values.decimalValue getFromBasicPriceSum();
+    io.dstore.Values.decimalValue getFromBasicPriceSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+     * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder();
 
     /**
      * <code>optional bool from_basic_price_sum_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getFromBasicPriceSumNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+     * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
      */
     boolean hasToBasicPriceSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+     * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
      */
-    io.dstore.engine.Values.decimalValue getToBasicPriceSum();
+    io.dstore.Values.decimalValue getToBasicPriceSum();
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+     * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder();
 
     /**
      * <code>optional bool to_basic_price_sum_null = 1011;</code>
@@ -211,17 +211,17 @@ public final class OmModifyCampItemCondPartsAd {
     boolean getToBasicPriceSumNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+     * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
      */
     boolean hasDeleteConditionExtension();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+     * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
      */
-    io.dstore.engine.Values.booleanValue getDeleteConditionExtension();
+    io.dstore.Values.booleanValue getDeleteConditionExtension();
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+     * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getDeleteConditionExtensionOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getDeleteConditionExtensionOrBuilder();
 
     /**
      * <code>optional bool delete_condition_extension_null = 1012;</code>
@@ -279,11 +279,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -292,11 +292,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (itemConditionPartId_ != null) {
                 subBuilder = itemConditionPartId_.toBuilder();
               }
-              itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              itemConditionPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionPartId_);
                 itemConditionPartId_ = subBuilder.buildPartial();
@@ -305,11 +305,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (conditionPartDescription_ != null) {
                 subBuilder = conditionPartDescription_.toBuilder();
               }
-              conditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              conditionPartDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartDescription_);
                 conditionPartDescription_ = subBuilder.buildPartial();
@@ -318,11 +318,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (minNumberOfItems_ != null) {
                 subBuilder = minNumberOfItems_.toBuilder();
               }
-              minNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              minNumberOfItems_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(minNumberOfItems_);
                 minNumberOfItems_ = subBuilder.buildPartial();
@@ -331,11 +331,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (maxNumberOfItems_ != null) {
                 subBuilder = maxNumberOfItems_.toBuilder();
               }
-              maxNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfItems_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfItems_);
                 maxNumberOfItems_ = subBuilder.buildPartial();
@@ -344,11 +344,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (fromQuantity_ != null) {
                 subBuilder = fromQuantity_.toBuilder();
               }
-              fromQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              fromQuantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromQuantity_);
                 fromQuantity_ = subBuilder.buildPartial();
@@ -357,11 +357,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (toQuantity_ != null) {
                 subBuilder = toQuantity_.toBuilder();
               }
-              toQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              toQuantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toQuantity_);
                 toQuantity_ = subBuilder.buildPartial();
@@ -370,11 +370,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (fromItemBasicPrice_ != null) {
                 subBuilder = fromItemBasicPrice_.toBuilder();
               }
-              fromItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              fromItemBasicPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromItemBasicPrice_);
                 fromItemBasicPrice_ = subBuilder.buildPartial();
@@ -383,11 +383,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (toItemBasicPrice_ != null) {
                 subBuilder = toItemBasicPrice_.toBuilder();
               }
-              toItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              toItemBasicPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toItemBasicPrice_);
                 toItemBasicPrice_ = subBuilder.buildPartial();
@@ -396,11 +396,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (fromBasicPriceSum_ != null) {
                 subBuilder = fromBasicPriceSum_.toBuilder();
               }
-              fromBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              fromBasicPriceSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromBasicPriceSum_);
                 fromBasicPriceSum_ = subBuilder.buildPartial();
@@ -409,11 +409,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (toBasicPriceSum_ != null) {
                 subBuilder = toBasicPriceSum_.toBuilder();
               }
-              toBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              toBasicPriceSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toBasicPriceSum_);
                 toBasicPriceSum_ = subBuilder.buildPartial();
@@ -422,11 +422,11 @@ public final class OmModifyCampItemCondPartsAd {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (deleteConditionExtension_ != null) {
                 subBuilder = deleteConditionExtension_.toBuilder();
               }
-              deleteConditionExtension_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              deleteConditionExtension_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteConditionExtension_);
                 deleteConditionExtension_ = subBuilder.buildPartial();
@@ -519,23 +519,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue conditionId_;
+    private io.dstore.Values.integerValue conditionId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.Values.integerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -549,23 +549,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int ITEM_CONDITION_PART_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue itemConditionPartId_;
+    private io.dstore.Values.integerValue itemConditionPartId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
      */
     public boolean hasItemConditionPartId() {
       return itemConditionPartId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getItemConditionPartId() {
-      return itemConditionPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
+    public io.dstore.Values.integerValue getItemConditionPartId() {
+      return itemConditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+     * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder() {
       return getItemConditionPartId();
     }
 
@@ -579,23 +579,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int CONDITION_PART_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue conditionPartDescription_;
+    private io.dstore.Values.stringValue conditionPartDescription_;
     /**
-     * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+     * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
      */
     public boolean hasConditionPartDescription() {
       return conditionPartDescription_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+     * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getConditionPartDescription() {
-      return conditionPartDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
+    public io.dstore.Values.stringValue getConditionPartDescription() {
+      return conditionPartDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+     * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder() {
       return getConditionPartDescription();
     }
 
@@ -609,23 +609,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int MIN_NUMBER_OF_ITEMS_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue minNumberOfItems_;
+    private io.dstore.Values.integerValue minNumberOfItems_;
     /**
-     * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+     * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
      */
     public boolean hasMinNumberOfItems() {
       return minNumberOfItems_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+     * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getMinNumberOfItems() {
-      return minNumberOfItems_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
+    public io.dstore.Values.integerValue getMinNumberOfItems() {
+      return minNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+     * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder() {
       return getMinNumberOfItems();
     }
 
@@ -639,23 +639,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int MAX_NUMBER_OF_ITEMS_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue maxNumberOfItems_;
+    private io.dstore.Values.integerValue maxNumberOfItems_;
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
      */
     public boolean hasMaxNumberOfItems() {
       return maxNumberOfItems_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getMaxNumberOfItems() {
-      return maxNumberOfItems_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
+    public io.dstore.Values.integerValue getMaxNumberOfItems() {
+      return maxNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+     * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
       return getMaxNumberOfItems();
     }
 
@@ -669,23 +669,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int FROM_QUANTITY_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue fromQuantity_;
+    private io.dstore.Values.integerValue fromQuantity_;
     /**
-     * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+     * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
      */
     public boolean hasFromQuantity() {
       return fromQuantity_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+     * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getFromQuantity() {
-      return fromQuantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromQuantity_;
+    public io.dstore.Values.integerValue getFromQuantity() {
+      return fromQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromQuantity_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+     * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFromQuantityOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFromQuantityOrBuilder() {
       return getFromQuantity();
     }
 
@@ -699,23 +699,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int TO_QUANTITY_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue toQuantity_;
+    private io.dstore.Values.integerValue toQuantity_;
     /**
-     * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+     * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
      */
     public boolean hasToQuantity() {
       return toQuantity_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+     * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getToQuantity() {
-      return toQuantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toQuantity_;
+    public io.dstore.Values.integerValue getToQuantity() {
+      return toQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toQuantity_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+     * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getToQuantityOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getToQuantityOrBuilder() {
       return getToQuantity();
     }
 
@@ -729,23 +729,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int FROM_ITEM_BASIC_PRICE_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.decimalValue fromItemBasicPrice_;
+    private io.dstore.Values.decimalValue fromItemBasicPrice_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+     * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
      */
     public boolean hasFromItemBasicPrice() {
       return fromItemBasicPrice_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+     * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
      */
-    public io.dstore.engine.Values.decimalValue getFromItemBasicPrice() {
-      return fromItemBasicPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
+    public io.dstore.Values.decimalValue getFromItemBasicPrice() {
+      return fromItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+     * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
       return getFromItemBasicPrice();
     }
 
@@ -759,23 +759,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int TO_ITEM_BASIC_PRICE_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.decimalValue toItemBasicPrice_;
+    private io.dstore.Values.decimalValue toItemBasicPrice_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+     * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
      */
     public boolean hasToItemBasicPrice() {
       return toItemBasicPrice_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+     * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
      */
-    public io.dstore.engine.Values.decimalValue getToItemBasicPrice() {
-      return toItemBasicPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
+    public io.dstore.Values.decimalValue getToItemBasicPrice() {
+      return toItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+     * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder() {
       return getToItemBasicPrice();
     }
 
@@ -789,23 +789,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int FROM_BASIC_PRICE_SUM_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.decimalValue fromBasicPriceSum_;
+    private io.dstore.Values.decimalValue fromBasicPriceSum_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+     * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
      */
     public boolean hasFromBasicPriceSum() {
       return fromBasicPriceSum_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+     * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
      */
-    public io.dstore.engine.Values.decimalValue getFromBasicPriceSum() {
-      return fromBasicPriceSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
+    public io.dstore.Values.decimalValue getFromBasicPriceSum() {
+      return fromBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+     * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
       return getFromBasicPriceSum();
     }
 
@@ -819,23 +819,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int TO_BASIC_PRICE_SUM_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.decimalValue toBasicPriceSum_;
+    private io.dstore.Values.decimalValue toBasicPriceSum_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+     * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
      */
     public boolean hasToBasicPriceSum() {
       return toBasicPriceSum_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+     * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
      */
-    public io.dstore.engine.Values.decimalValue getToBasicPriceSum() {
-      return toBasicPriceSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
+    public io.dstore.Values.decimalValue getToBasicPriceSum() {
+      return toBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+     * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder() {
       return getToBasicPriceSum();
     }
 
@@ -849,23 +849,23 @@ public final class OmModifyCampItemCondPartsAd {
     }
 
     public static final int DELETE_CONDITION_EXTENSION_FIELD_NUMBER = 12;
-    private io.dstore.engine.Values.booleanValue deleteConditionExtension_;
+    private io.dstore.Values.booleanValue deleteConditionExtension_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+     * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
      */
     public boolean hasDeleteConditionExtension() {
       return deleteConditionExtension_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+     * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
      */
-    public io.dstore.engine.Values.booleanValue getDeleteConditionExtension() {
-      return deleteConditionExtension_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteConditionExtension_;
+    public io.dstore.Values.booleanValue getDeleteConditionExtension() {
+      return deleteConditionExtension_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteConditionExtension_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+     * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getDeleteConditionExtensionOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getDeleteConditionExtensionOrBuilder() {
       return getDeleteConditionExtension();
     }
 
@@ -1479,29 +1479,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue conditionId_ = null;
+      private io.dstore.Values.integerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getConditionId() {
+      public io.dstore.Values.integerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public Builder setConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public Builder mergeConditionId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -1622,29 +1622,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue itemConditionPartId_ = null;
+      private io.dstore.Values.integerValue itemConditionPartId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> itemConditionPartIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionPartIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
       public boolean hasItemConditionPartId() {
         return itemConditionPartIdBuilder_ != null || itemConditionPartId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getItemConditionPartId() {
+      public io.dstore.Values.integerValue getItemConditionPartId() {
         if (itemConditionPartIdBuilder_ == null) {
-          return itemConditionPartId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
+          return itemConditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
         } else {
           return itemConditionPartIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
-      public Builder setItemConditionPartId(io.dstore.engine.Values.integerValue value) {
+      public Builder setItemConditionPartId(io.dstore.Values.integerValue value) {
         if (itemConditionPartIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1658,10 +1658,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
       public Builder setItemConditionPartId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (itemConditionPartIdBuilder_ == null) {
           itemConditionPartId_ = builderForValue.build();
           onChanged();
@@ -1672,13 +1672,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
-      public Builder mergeItemConditionPartId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeItemConditionPartId(io.dstore.Values.integerValue value) {
         if (itemConditionPartIdBuilder_ == null) {
           if (itemConditionPartId_ != null) {
             itemConditionPartId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(itemConditionPartId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(itemConditionPartId_).mergeFrom(value).buildPartial();
           } else {
             itemConditionPartId_ = value;
           }
@@ -1690,7 +1690,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
       public Builder clearItemConditionPartId() {
         if (itemConditionPartIdBuilder_ == null) {
@@ -1704,33 +1704,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getItemConditionPartIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getItemConditionPartIdBuilder() {
         
         onChanged();
         return getItemConditionPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder() {
         if (itemConditionPartIdBuilder_ != null) {
           return itemConditionPartIdBuilder_.getMessageOrBuilder();
         } else {
           return itemConditionPartId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue item_condition_part_id = 2;</code>
+       * <code>optional .dstore.values.integerValue item_condition_part_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getItemConditionPartIdFieldBuilder() {
         if (itemConditionPartIdBuilder_ == null) {
           itemConditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getItemConditionPartId(),
                   getParentForChildren(),
                   isClean());
@@ -1765,29 +1765,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue conditionPartDescription_ = null;
+      private io.dstore.Values.stringValue conditionPartDescription_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> conditionPartDescriptionBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionPartDescriptionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
       public boolean hasConditionPartDescription() {
         return conditionPartDescriptionBuilder_ != null || conditionPartDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getConditionPartDescription() {
+      public io.dstore.Values.stringValue getConditionPartDescription() {
         if (conditionPartDescriptionBuilder_ == null) {
-          return conditionPartDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
+          return conditionPartDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
         } else {
           return conditionPartDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
-      public Builder setConditionPartDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder setConditionPartDescription(io.dstore.Values.stringValue value) {
         if (conditionPartDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1801,10 +1801,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
       public Builder setConditionPartDescription(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (conditionPartDescriptionBuilder_ == null) {
           conditionPartDescription_ = builderForValue.build();
           onChanged();
@@ -1815,13 +1815,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
-      public Builder mergeConditionPartDescription(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeConditionPartDescription(io.dstore.Values.stringValue value) {
         if (conditionPartDescriptionBuilder_ == null) {
           if (conditionPartDescription_ != null) {
             conditionPartDescription_ =
-              io.dstore.engine.Values.stringValue.newBuilder(conditionPartDescription_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(conditionPartDescription_).mergeFrom(value).buildPartial();
           } else {
             conditionPartDescription_ = value;
           }
@@ -1833,7 +1833,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
       public Builder clearConditionPartDescription() {
         if (conditionPartDescriptionBuilder_ == null) {
@@ -1847,33 +1847,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getConditionPartDescriptionBuilder() {
+      public io.dstore.Values.stringValue.Builder getConditionPartDescriptionBuilder() {
         
         onChanged();
         return getConditionPartDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder() {
         if (conditionPartDescriptionBuilder_ != null) {
           return conditionPartDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return conditionPartDescription_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
+              io.dstore.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue condition_part_description = 3;</code>
+       * <code>optional .dstore.values.stringValue condition_part_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getConditionPartDescriptionFieldBuilder() {
         if (conditionPartDescriptionBuilder_ == null) {
           conditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getConditionPartDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1908,29 +1908,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue minNumberOfItems_ = null;
+      private io.dstore.Values.integerValue minNumberOfItems_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> minNumberOfItemsBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> minNumberOfItemsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
       public boolean hasMinNumberOfItems() {
         return minNumberOfItemsBuilder_ != null || minNumberOfItems_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getMinNumberOfItems() {
+      public io.dstore.Values.integerValue getMinNumberOfItems() {
         if (minNumberOfItemsBuilder_ == null) {
-          return minNumberOfItems_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
+          return minNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
         } else {
           return minNumberOfItemsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
-      public Builder setMinNumberOfItems(io.dstore.engine.Values.integerValue value) {
+      public Builder setMinNumberOfItems(io.dstore.Values.integerValue value) {
         if (minNumberOfItemsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1944,10 +1944,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
       public Builder setMinNumberOfItems(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (minNumberOfItemsBuilder_ == null) {
           minNumberOfItems_ = builderForValue.build();
           onChanged();
@@ -1958,13 +1958,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
-      public Builder mergeMinNumberOfItems(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeMinNumberOfItems(io.dstore.Values.integerValue value) {
         if (minNumberOfItemsBuilder_ == null) {
           if (minNumberOfItems_ != null) {
             minNumberOfItems_ =
-              io.dstore.engine.Values.integerValue.newBuilder(minNumberOfItems_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(minNumberOfItems_).mergeFrom(value).buildPartial();
           } else {
             minNumberOfItems_ = value;
           }
@@ -1976,7 +1976,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
       public Builder clearMinNumberOfItems() {
         if (minNumberOfItemsBuilder_ == null) {
@@ -1990,33 +1990,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMinNumberOfItemsBuilder() {
+      public io.dstore.Values.integerValue.Builder getMinNumberOfItemsBuilder() {
         
         onChanged();
         return getMinNumberOfItemsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder() {
         if (minNumberOfItemsBuilder_ != null) {
           return minNumberOfItemsBuilder_.getMessageOrBuilder();
         } else {
           return minNumberOfItems_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
+              io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue min_number_of_items = 4;</code>
+       * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMinNumberOfItemsFieldBuilder() {
         if (minNumberOfItemsBuilder_ == null) {
           minNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMinNumberOfItems(),
                   getParentForChildren(),
                   isClean());
@@ -2051,29 +2051,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue maxNumberOfItems_ = null;
+      private io.dstore.Values.integerValue maxNumberOfItems_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxNumberOfItemsBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfItemsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
       public boolean hasMaxNumberOfItems() {
         return maxNumberOfItemsBuilder_ != null || maxNumberOfItems_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getMaxNumberOfItems() {
+      public io.dstore.Values.integerValue getMaxNumberOfItems() {
         if (maxNumberOfItemsBuilder_ == null) {
-          return maxNumberOfItems_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
+          return maxNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
         } else {
           return maxNumberOfItemsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
-      public Builder setMaxNumberOfItems(io.dstore.engine.Values.integerValue value) {
+      public Builder setMaxNumberOfItems(io.dstore.Values.integerValue value) {
         if (maxNumberOfItemsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2087,10 +2087,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
       public Builder setMaxNumberOfItems(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (maxNumberOfItemsBuilder_ == null) {
           maxNumberOfItems_ = builderForValue.build();
           onChanged();
@@ -2101,13 +2101,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
-      public Builder mergeMaxNumberOfItems(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeMaxNumberOfItems(io.dstore.Values.integerValue value) {
         if (maxNumberOfItemsBuilder_ == null) {
           if (maxNumberOfItems_ != null) {
             maxNumberOfItems_ =
-              io.dstore.engine.Values.integerValue.newBuilder(maxNumberOfItems_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(maxNumberOfItems_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfItems_ = value;
           }
@@ -2119,7 +2119,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
       public Builder clearMaxNumberOfItems() {
         if (maxNumberOfItemsBuilder_ == null) {
@@ -2133,33 +2133,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMaxNumberOfItemsBuilder() {
+      public io.dstore.Values.integerValue.Builder getMaxNumberOfItemsBuilder() {
         
         onChanged();
         return getMaxNumberOfItemsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
         if (maxNumberOfItemsBuilder_ != null) {
           return maxNumberOfItemsBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfItems_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
+              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_number_of_items = 5;</code>
+       * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxNumberOfItemsFieldBuilder() {
         if (maxNumberOfItemsBuilder_ == null) {
           maxNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxNumberOfItems(),
                   getParentForChildren(),
                   isClean());
@@ -2194,29 +2194,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue fromQuantity_ = null;
+      private io.dstore.Values.integerValue fromQuantity_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromQuantityBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromQuantityBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
       public boolean hasFromQuantity() {
         return fromQuantityBuilder_ != null || fromQuantity_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getFromQuantity() {
+      public io.dstore.Values.integerValue getFromQuantity() {
         if (fromQuantityBuilder_ == null) {
-          return fromQuantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromQuantity_;
+          return fromQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromQuantity_;
         } else {
           return fromQuantityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
-      public Builder setFromQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder setFromQuantity(io.dstore.Values.integerValue value) {
         if (fromQuantityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2230,10 +2230,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
       public Builder setFromQuantity(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (fromQuantityBuilder_ == null) {
           fromQuantity_ = builderForValue.build();
           onChanged();
@@ -2244,13 +2244,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
-      public Builder mergeFromQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFromQuantity(io.dstore.Values.integerValue value) {
         if (fromQuantityBuilder_ == null) {
           if (fromQuantity_ != null) {
             fromQuantity_ =
-              io.dstore.engine.Values.integerValue.newBuilder(fromQuantity_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(fromQuantity_).mergeFrom(value).buildPartial();
           } else {
             fromQuantity_ = value;
           }
@@ -2262,7 +2262,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
       public Builder clearFromQuantity() {
         if (fromQuantityBuilder_ == null) {
@@ -2276,33 +2276,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFromQuantityBuilder() {
+      public io.dstore.Values.integerValue.Builder getFromQuantityBuilder() {
         
         onChanged();
         return getFromQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromQuantityOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromQuantityOrBuilder() {
         if (fromQuantityBuilder_ != null) {
           return fromQuantityBuilder_.getMessageOrBuilder();
         } else {
           return fromQuantity_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : fromQuantity_;
+              io.dstore.Values.integerValue.getDefaultInstance() : fromQuantity_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_quantity = 6;</code>
+       * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromQuantityFieldBuilder() {
         if (fromQuantityBuilder_ == null) {
           fromQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromQuantity(),
                   getParentForChildren(),
                   isClean());
@@ -2337,29 +2337,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue toQuantity_ = null;
+      private io.dstore.Values.integerValue toQuantity_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> toQuantityBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toQuantityBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
       public boolean hasToQuantity() {
         return toQuantityBuilder_ != null || toQuantity_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getToQuantity() {
+      public io.dstore.Values.integerValue getToQuantity() {
         if (toQuantityBuilder_ == null) {
-          return toQuantity_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toQuantity_;
+          return toQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toQuantity_;
         } else {
           return toQuantityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
-      public Builder setToQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder setToQuantity(io.dstore.Values.integerValue value) {
         if (toQuantityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2373,10 +2373,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
       public Builder setToQuantity(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (toQuantityBuilder_ == null) {
           toQuantity_ = builderForValue.build();
           onChanged();
@@ -2387,13 +2387,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
-      public Builder mergeToQuantity(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeToQuantity(io.dstore.Values.integerValue value) {
         if (toQuantityBuilder_ == null) {
           if (toQuantity_ != null) {
             toQuantity_ =
-              io.dstore.engine.Values.integerValue.newBuilder(toQuantity_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(toQuantity_).mergeFrom(value).buildPartial();
           } else {
             toQuantity_ = value;
           }
@@ -2405,7 +2405,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
       public Builder clearToQuantity() {
         if (toQuantityBuilder_ == null) {
@@ -2419,33 +2419,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getToQuantityBuilder() {
+      public io.dstore.Values.integerValue.Builder getToQuantityBuilder() {
         
         onChanged();
         return getToQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getToQuantityOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getToQuantityOrBuilder() {
         if (toQuantityBuilder_ != null) {
           return toQuantityBuilder_.getMessageOrBuilder();
         } else {
           return toQuantity_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : toQuantity_;
+              io.dstore.Values.integerValue.getDefaultInstance() : toQuantity_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_quantity = 7;</code>
+       * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getToQuantityFieldBuilder() {
         if (toQuantityBuilder_ == null) {
           toQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getToQuantity(),
                   getParentForChildren(),
                   isClean());
@@ -2480,29 +2480,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue fromItemBasicPrice_ = null;
+      private io.dstore.Values.decimalValue fromItemBasicPrice_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> fromItemBasicPriceBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromItemBasicPriceBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
       public boolean hasFromItemBasicPrice() {
         return fromItemBasicPriceBuilder_ != null || fromItemBasicPrice_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
-      public io.dstore.engine.Values.decimalValue getFromItemBasicPrice() {
+      public io.dstore.Values.decimalValue getFromItemBasicPrice() {
         if (fromItemBasicPriceBuilder_ == null) {
-          return fromItemBasicPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
+          return fromItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
         } else {
           return fromItemBasicPriceBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
-      public Builder setFromItemBasicPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder setFromItemBasicPrice(io.dstore.Values.decimalValue value) {
         if (fromItemBasicPriceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2516,10 +2516,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
       public Builder setFromItemBasicPrice(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (fromItemBasicPriceBuilder_ == null) {
           fromItemBasicPrice_ = builderForValue.build();
           onChanged();
@@ -2530,13 +2530,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
-      public Builder mergeFromItemBasicPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeFromItemBasicPrice(io.dstore.Values.decimalValue value) {
         if (fromItemBasicPriceBuilder_ == null) {
           if (fromItemBasicPrice_ != null) {
             fromItemBasicPrice_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(fromItemBasicPrice_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(fromItemBasicPrice_).mergeFrom(value).buildPartial();
           } else {
             fromItemBasicPrice_ = value;
           }
@@ -2548,7 +2548,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
       public Builder clearFromItemBasicPrice() {
         if (fromItemBasicPriceBuilder_ == null) {
@@ -2562,33 +2562,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getFromItemBasicPriceBuilder() {
+      public io.dstore.Values.decimalValue.Builder getFromItemBasicPriceBuilder() {
         
         onChanged();
         return getFromItemBasicPriceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
         if (fromItemBasicPriceBuilder_ != null) {
           return fromItemBasicPriceBuilder_.getMessageOrBuilder();
         } else {
           return fromItemBasicPrice_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_item_basic_price = 8;</code>
+       * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getFromItemBasicPriceFieldBuilder() {
         if (fromItemBasicPriceBuilder_ == null) {
           fromItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getFromItemBasicPrice(),
                   getParentForChildren(),
                   isClean());
@@ -2623,29 +2623,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue toItemBasicPrice_ = null;
+      private io.dstore.Values.decimalValue toItemBasicPrice_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> toItemBasicPriceBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toItemBasicPriceBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
       public boolean hasToItemBasicPrice() {
         return toItemBasicPriceBuilder_ != null || toItemBasicPrice_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
-      public io.dstore.engine.Values.decimalValue getToItemBasicPrice() {
+      public io.dstore.Values.decimalValue getToItemBasicPrice() {
         if (toItemBasicPriceBuilder_ == null) {
-          return toItemBasicPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
+          return toItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
         } else {
           return toItemBasicPriceBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
-      public Builder setToItemBasicPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder setToItemBasicPrice(io.dstore.Values.decimalValue value) {
         if (toItemBasicPriceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2659,10 +2659,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
       public Builder setToItemBasicPrice(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (toItemBasicPriceBuilder_ == null) {
           toItemBasicPrice_ = builderForValue.build();
           onChanged();
@@ -2673,13 +2673,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
-      public Builder mergeToItemBasicPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeToItemBasicPrice(io.dstore.Values.decimalValue value) {
         if (toItemBasicPriceBuilder_ == null) {
           if (toItemBasicPrice_ != null) {
             toItemBasicPrice_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(toItemBasicPrice_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(toItemBasicPrice_).mergeFrom(value).buildPartial();
           } else {
             toItemBasicPrice_ = value;
           }
@@ -2691,7 +2691,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
       public Builder clearToItemBasicPrice() {
         if (toItemBasicPriceBuilder_ == null) {
@@ -2705,33 +2705,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getToItemBasicPriceBuilder() {
+      public io.dstore.Values.decimalValue.Builder getToItemBasicPriceBuilder() {
         
         onChanged();
         return getToItemBasicPriceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder() {
         if (toItemBasicPriceBuilder_ != null) {
           return toItemBasicPriceBuilder_.getMessageOrBuilder();
         } else {
           return toItemBasicPrice_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_item_basic_price = 9;</code>
+       * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getToItemBasicPriceFieldBuilder() {
         if (toItemBasicPriceBuilder_ == null) {
           toItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getToItemBasicPrice(),
                   getParentForChildren(),
                   isClean());
@@ -2766,29 +2766,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue fromBasicPriceSum_ = null;
+      private io.dstore.Values.decimalValue fromBasicPriceSum_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> fromBasicPriceSumBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromBasicPriceSumBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
       public boolean hasFromBasicPriceSum() {
         return fromBasicPriceSumBuilder_ != null || fromBasicPriceSum_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
-      public io.dstore.engine.Values.decimalValue getFromBasicPriceSum() {
+      public io.dstore.Values.decimalValue getFromBasicPriceSum() {
         if (fromBasicPriceSumBuilder_ == null) {
-          return fromBasicPriceSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
+          return fromBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
         } else {
           return fromBasicPriceSumBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
-      public Builder setFromBasicPriceSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder setFromBasicPriceSum(io.dstore.Values.decimalValue value) {
         if (fromBasicPriceSumBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2802,10 +2802,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
       public Builder setFromBasicPriceSum(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (fromBasicPriceSumBuilder_ == null) {
           fromBasicPriceSum_ = builderForValue.build();
           onChanged();
@@ -2816,13 +2816,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
-      public Builder mergeFromBasicPriceSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeFromBasicPriceSum(io.dstore.Values.decimalValue value) {
         if (fromBasicPriceSumBuilder_ == null) {
           if (fromBasicPriceSum_ != null) {
             fromBasicPriceSum_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(fromBasicPriceSum_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(fromBasicPriceSum_).mergeFrom(value).buildPartial();
           } else {
             fromBasicPriceSum_ = value;
           }
@@ -2834,7 +2834,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
       public Builder clearFromBasicPriceSum() {
         if (fromBasicPriceSumBuilder_ == null) {
@@ -2848,33 +2848,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getFromBasicPriceSumBuilder() {
+      public io.dstore.Values.decimalValue.Builder getFromBasicPriceSumBuilder() {
         
         onChanged();
         return getFromBasicPriceSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
         if (fromBasicPriceSumBuilder_ != null) {
           return fromBasicPriceSumBuilder_.getMessageOrBuilder();
         } else {
           return fromBasicPriceSum_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue from_basic_price_sum = 10;</code>
+       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getFromBasicPriceSumFieldBuilder() {
         if (fromBasicPriceSumBuilder_ == null) {
           fromBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getFromBasicPriceSum(),
                   getParentForChildren(),
                   isClean());
@@ -2909,29 +2909,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue toBasicPriceSum_ = null;
+      private io.dstore.Values.decimalValue toBasicPriceSum_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> toBasicPriceSumBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toBasicPriceSumBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
       public boolean hasToBasicPriceSum() {
         return toBasicPriceSumBuilder_ != null || toBasicPriceSum_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
-      public io.dstore.engine.Values.decimalValue getToBasicPriceSum() {
+      public io.dstore.Values.decimalValue getToBasicPriceSum() {
         if (toBasicPriceSumBuilder_ == null) {
-          return toBasicPriceSum_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
+          return toBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
         } else {
           return toBasicPriceSumBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
-      public Builder setToBasicPriceSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder setToBasicPriceSum(io.dstore.Values.decimalValue value) {
         if (toBasicPriceSumBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2945,10 +2945,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
       public Builder setToBasicPriceSum(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (toBasicPriceSumBuilder_ == null) {
           toBasicPriceSum_ = builderForValue.build();
           onChanged();
@@ -2959,13 +2959,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
-      public Builder mergeToBasicPriceSum(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeToBasicPriceSum(io.dstore.Values.decimalValue value) {
         if (toBasicPriceSumBuilder_ == null) {
           if (toBasicPriceSum_ != null) {
             toBasicPriceSum_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(toBasicPriceSum_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(toBasicPriceSum_).mergeFrom(value).buildPartial();
           } else {
             toBasicPriceSum_ = value;
           }
@@ -2977,7 +2977,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
       public Builder clearToBasicPriceSum() {
         if (toBasicPriceSumBuilder_ == null) {
@@ -2991,33 +2991,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getToBasicPriceSumBuilder() {
+      public io.dstore.Values.decimalValue.Builder getToBasicPriceSumBuilder() {
         
         onChanged();
         return getToBasicPriceSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder() {
         if (toBasicPriceSumBuilder_ != null) {
           return toBasicPriceSumBuilder_.getMessageOrBuilder();
         } else {
           return toBasicPriceSum_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue to_basic_price_sum = 11;</code>
+       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getToBasicPriceSumFieldBuilder() {
         if (toBasicPriceSumBuilder_ == null) {
           toBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getToBasicPriceSum(),
                   getParentForChildren(),
                   isClean());
@@ -3052,29 +3052,29 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue deleteConditionExtension_ = null;
+      private io.dstore.Values.booleanValue deleteConditionExtension_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> deleteConditionExtensionBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteConditionExtensionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
       public boolean hasDeleteConditionExtension() {
         return deleteConditionExtensionBuilder_ != null || deleteConditionExtension_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValue getDeleteConditionExtension() {
+      public io.dstore.Values.booleanValue getDeleteConditionExtension() {
         if (deleteConditionExtensionBuilder_ == null) {
-          return deleteConditionExtension_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteConditionExtension_;
+          return deleteConditionExtension_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteConditionExtension_;
         } else {
           return deleteConditionExtensionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
-      public Builder setDeleteConditionExtension(io.dstore.engine.Values.booleanValue value) {
+      public Builder setDeleteConditionExtension(io.dstore.Values.booleanValue value) {
         if (deleteConditionExtensionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3088,10 +3088,10 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
       public Builder setDeleteConditionExtension(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (deleteConditionExtensionBuilder_ == null) {
           deleteConditionExtension_ = builderForValue.build();
           onChanged();
@@ -3102,13 +3102,13 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
-      public Builder mergeDeleteConditionExtension(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeDeleteConditionExtension(io.dstore.Values.booleanValue value) {
         if (deleteConditionExtensionBuilder_ == null) {
           if (deleteConditionExtension_ != null) {
             deleteConditionExtension_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(deleteConditionExtension_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(deleteConditionExtension_).mergeFrom(value).buildPartial();
           } else {
             deleteConditionExtension_ = value;
           }
@@ -3120,7 +3120,7 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
       public Builder clearDeleteConditionExtension() {
         if (deleteConditionExtensionBuilder_ == null) {
@@ -3134,33 +3134,33 @@ public final class OmModifyCampItemCondPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getDeleteConditionExtensionBuilder() {
+      public io.dstore.Values.booleanValue.Builder getDeleteConditionExtensionBuilder() {
         
         onChanged();
         return getDeleteConditionExtensionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDeleteConditionExtensionOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getDeleteConditionExtensionOrBuilder() {
         if (deleteConditionExtensionBuilder_ != null) {
           return deleteConditionExtensionBuilder_.getMessageOrBuilder();
         } else {
           return deleteConditionExtension_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : deleteConditionExtension_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : deleteConditionExtension_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue delete_condition_extension = 12;</code>
+       * <code>optional .dstore.values.booleanValue delete_condition_extension = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteConditionExtensionFieldBuilder() {
         if (deleteConditionExtensionBuilder_ == null) {
           deleteConditionExtensionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteConditionExtension(),
                   getParentForChildren(),
                   isClean());
@@ -5351,48 +5351,46 @@ public final class OmModifyCampItemCondPartsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/om_ModifyCamp" +
       "ItemCondParts_Ad.proto\022+dstore.engine.om" +
-      "_ModifyCampItemCondParts_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\267\t\n\nParamet" +
-      "ers\0228\n\014condition_id\030\001 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022\032\n\021condition_id_nu" +
-      "ll\030\351\007 \001(\010\022B\n\026item_condition_part_id\030\002 \001(" +
-      "\0132\".dstore.engine.values.integerValue\022$\n",
-      "\033item_condition_part_id_null\030\352\007 \001(\010\022E\n\032c" +
-      "ondition_part_description\030\003 \001(\0132!.dstore" +
-      ".engine.values.stringValue\022(\n\037condition_" +
-      "part_description_null\030\353\007 \001(\010\022?\n\023min_numb" +
-      "er_of_items\030\004 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022!\n\030min_number_of_items_nul" +
-      "l\030\354\007 \001(\010\022?\n\023max_number_of_items\030\005 \001(\0132\"." +
-      "dstore.engine.values.integerValue\022!\n\030max" +
-      "_number_of_items_null\030\355\007 \001(\010\0229\n\rfrom_qua" +
-      "ntity\030\006 \001(\0132\".dstore.engine.values.integ",
-      "erValue\022\033\n\022from_quantity_null\030\356\007 \001(\010\0227\n\013" +
-      "to_quantity\030\007 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\031\n\020to_quantity_null\030\357\007 \001(\010" +
-      "\022A\n\025from_item_basic_price\030\010 \001(\0132\".dstore" +
-      ".engine.values.decimalValue\022#\n\032from_item" +
-      "_basic_price_null\030\360\007 \001(\010\022?\n\023to_item_basi" +
-      "c_price\030\t \001(\0132\".dstore.engine.values.dec" +
-      "imalValue\022!\n\030to_item_basic_price_null\030\361\007" +
-      " \001(\010\022@\n\024from_basic_price_sum\030\n \001(\0132\".dst" +
-      "ore.engine.values.decimalValue\022\"\n\031from_b",
-      "asic_price_sum_null\030\362\007 \001(\010\022>\n\022to_basic_p" +
-      "rice_sum\030\013 \001(\0132\".dstore.engine.values.de" +
-      "cimalValue\022 \n\027to_basic_price_sum_null\030\363\007" +
-      " \001(\010\022F\n\032delete_condition_extension\030\014 \001(\013" +
-      "2\".dstore.engine.values.booleanValue\022(\n\037" +
-      "delete_condition_extension_null\030\364\007 \001(\010\"\220" +
-      "\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
-      "ne.error.Error\022H\n\020meta_information\030\002 \003(\013" +
-      "2..dstore.engine.metainformation.MetaInf" +
-      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin",
-      "e.message.Message\022F\n\003row\030\004 \003(\01329.dstore." +
-      "engine.om_ModifyCampItemCondParts_Ad.Res" +
-      "ponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      "_ModifyCampItemCondParts_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\343\010\n\nParameters\0221\n\014" +
+      "condition_id\030\001 \001(\0132\033.dstore.values.integ" +
+      "erValue\022\032\n\021condition_id_null\030\351\007 \001(\010\022;\n\026i" +
+      "tem_condition_part_id\030\002 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022$\n\033item_condition_part_",
+      "id_null\030\352\007 \001(\010\022>\n\032condition_part_descrip" +
+      "tion\030\003 \001(\0132\032.dstore.values.stringValue\022(" +
+      "\n\037condition_part_description_null\030\353\007 \001(\010" +
+      "\0228\n\023min_number_of_items\030\004 \001(\0132\033.dstore.v" +
+      "alues.integerValue\022!\n\030min_number_of_item" +
+      "s_null\030\354\007 \001(\010\0228\n\023max_number_of_items\030\005 \001" +
+      "(\0132\033.dstore.values.integerValue\022!\n\030max_n" +
+      "umber_of_items_null\030\355\007 \001(\010\0222\n\rfrom_quant" +
+      "ity\030\006 \001(\0132\033.dstore.values.integerValue\022\033" +
+      "\n\022from_quantity_null\030\356\007 \001(\010\0220\n\013to_quanti",
+      "ty\030\007 \001(\0132\033.dstore.values.integerValue\022\031\n" +
+      "\020to_quantity_null\030\357\007 \001(\010\022:\n\025from_item_ba" +
+      "sic_price\030\010 \001(\0132\033.dstore.values.decimalV" +
+      "alue\022#\n\032from_item_basic_price_null\030\360\007 \001(" +
+      "\010\0228\n\023to_item_basic_price\030\t \001(\0132\033.dstore." +
+      "values.decimalValue\022!\n\030to_item_basic_pri" +
+      "ce_null\030\361\007 \001(\010\0229\n\024from_basic_price_sum\030\n" +
+      " \001(\0132\033.dstore.values.decimalValue\022\"\n\031fro" +
+      "m_basic_price_sum_null\030\362\007 \001(\010\0227\n\022to_basi" +
+      "c_price_sum\030\013 \001(\0132\033.dstore.values.decima",
+      "lValue\022 \n\027to_basic_price_sum_null\030\363\007 \001(\010" +
+      "\022?\n\032delete_condition_extension\030\014 \001(\0132\033.d" +
+      "store.values.booleanValue\022(\n\037delete_cond" +
+      "ition_extension_null\030\364\007 \001(\010\"\220\002\n\010Response" +
+      "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
+      "ror\022H\n\020meta_information\030\002 \003(\0132..dstore.e" +
+      "ngine.metainformation.MetaInformation\022/\n" +
+      "\007message\030\003 \003(\0132\036.dstore.engine.message.M" +
+      "essage\022F\n\003row\030\004 \003(\01329.dstore.engine.om_M" +
+      "odifyCampItemCondParts_Ad.Response.Row\032\026",
+      "\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engi" +
+      "ne.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5405,7 +5403,7 @@ public final class OmModifyCampItemCondPartsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5428,7 +5426,7 @@ public final class OmModifyCampItemCondPartsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampItemCondParts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

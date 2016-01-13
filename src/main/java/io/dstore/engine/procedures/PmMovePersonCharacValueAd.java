@@ -13,17 +13,17 @@ public final class PmMovePersonCharacValueAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
     boolean hasValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getValueId();
+    io.dstore.Values.integerValue getValueId();
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
 
     /**
      * <code>optional bool value_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class PmMovePersonCharacValueAd {
     boolean getValueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+     * <code>optional .dstore.values.booleanValue move_up = 2;</code>
      */
     boolean hasMoveUp();
     /**
-     * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+     * <code>optional .dstore.values.booleanValue move_up = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getMoveUp();
+    io.dstore.Values.booleanValue getMoveUp();
     /**
-     * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+     * <code>optional .dstore.values.booleanValue move_up = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getMoveUpOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getMoveUpOrBuilder();
 
     /**
      * <code>optional bool move_up_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class PmMovePersonCharacValueAd {
     boolean getMoveUpNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+     * <code>optional .dstore.values.integerValue steps = 3;</code>
      */
     boolean hasSteps();
     /**
-     * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+     * <code>optional .dstore.values.integerValue steps = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getSteps();
+    io.dstore.Values.integerValue getSteps();
     /**
-     * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+     * <code>optional .dstore.values.integerValue steps = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getStepsOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getStepsOrBuilder();
 
     /**
      * <code>optional bool steps_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class PmMovePersonCharacValueAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (valueId_ != null) {
                 subBuilder = valueId_.toBuilder();
               }
-              valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueId_);
                 valueId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class PmMovePersonCharacValueAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (moveUp_ != null) {
                 subBuilder = moveUp_.toBuilder();
               }
-              moveUp_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              moveUp_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(moveUp_);
                 moveUp_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class PmMovePersonCharacValueAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (steps_ != null) {
                 subBuilder = steps_.toBuilder();
               }
-              steps_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              steps_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(steps_);
                 steps_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class PmMovePersonCharacValueAd {
     }
 
     public static final int VALUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue valueId_;
+    private io.dstore.Values.integerValue valueId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
     public boolean hasValueId() {
       return valueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getValueId() {
-      return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+    public io.dstore.Values.integerValue getValueId() {
+      return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.integerValue value_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
       return getValueId();
     }
 
@@ -216,23 +216,23 @@ public final class PmMovePersonCharacValueAd {
     }
 
     public static final int MOVE_UP_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue moveUp_;
+    private io.dstore.Values.booleanValue moveUp_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+     * <code>optional .dstore.values.booleanValue move_up = 2;</code>
      */
     public boolean hasMoveUp() {
       return moveUp_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+     * <code>optional .dstore.values.booleanValue move_up = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getMoveUp() {
-      return moveUp_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : moveUp_;
+    public io.dstore.Values.booleanValue getMoveUp() {
+      return moveUp_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : moveUp_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+     * <code>optional .dstore.values.booleanValue move_up = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getMoveUpOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getMoveUpOrBuilder() {
       return getMoveUp();
     }
 
@@ -246,23 +246,23 @@ public final class PmMovePersonCharacValueAd {
     }
 
     public static final int STEPS_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue steps_;
+    private io.dstore.Values.integerValue steps_;
     /**
-     * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+     * <code>optional .dstore.values.integerValue steps = 3;</code>
      */
     public boolean hasSteps() {
       return steps_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+     * <code>optional .dstore.values.integerValue steps = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getSteps() {
-      return steps_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : steps_;
+    public io.dstore.Values.integerValue getSteps() {
+      return steps_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : steps_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+     * <code>optional .dstore.values.integerValue steps = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getStepsOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getStepsOrBuilder() {
       return getSteps();
     }
 
@@ -570,29 +570,29 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue valueId_ = null;
+      private io.dstore.Values.integerValue valueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> valueIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public boolean hasValueId() {
         return valueIdBuilder_ != null || valueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getValueId() {
+      public io.dstore.Values.integerValue getValueId() {
         if (valueIdBuilder_ == null) {
-          return valueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+          return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
         } else {
           return valueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public Builder setValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder setValueId(io.dstore.Values.integerValue value) {
         if (valueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public Builder setValueId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (valueIdBuilder_ == null) {
           valueId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public Builder mergeValueId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeValueId(io.dstore.Values.integerValue value) {
         if (valueIdBuilder_ == null) {
           if (valueId_ != null) {
             valueId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
           } else {
             valueId_ = value;
           }
@@ -638,7 +638,7 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       public Builder clearValueId() {
         if (valueIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getValueIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
         
         onChanged();
         return getValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
         if (valueIdBuilder_ != null) {
           return valueIdBuilder_.getMessageOrBuilder();
         } else {
           return valueId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : valueId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueIdFieldBuilder() {
         if (valueIdBuilder_ == null) {
           valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue moveUp_ = null;
+      private io.dstore.Values.booleanValue moveUp_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> moveUpBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> moveUpBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
       public boolean hasMoveUp() {
         return moveUpBuilder_ != null || moveUp_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getMoveUp() {
+      public io.dstore.Values.booleanValue getMoveUp() {
         if (moveUpBuilder_ == null) {
-          return moveUp_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : moveUp_;
+          return moveUp_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : moveUp_;
         } else {
           return moveUpBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
-      public Builder setMoveUp(io.dstore.engine.Values.booleanValue value) {
+      public Builder setMoveUp(io.dstore.Values.booleanValue value) {
         if (moveUpBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
       public Builder setMoveUp(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (moveUpBuilder_ == null) {
           moveUp_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
-      public Builder mergeMoveUp(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeMoveUp(io.dstore.Values.booleanValue value) {
         if (moveUpBuilder_ == null) {
           if (moveUp_ != null) {
             moveUp_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(moveUp_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(moveUp_).mergeFrom(value).buildPartial();
           } else {
             moveUp_ = value;
           }
@@ -781,7 +781,7 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
       public Builder clearMoveUp() {
         if (moveUpBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getMoveUpBuilder() {
+      public io.dstore.Values.booleanValue.Builder getMoveUpBuilder() {
         
         onChanged();
         return getMoveUpFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getMoveUpOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getMoveUpOrBuilder() {
         if (moveUpBuilder_ != null) {
           return moveUpBuilder_.getMessageOrBuilder();
         } else {
           return moveUp_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : moveUp_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : moveUp_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue move_up = 2;</code>
+       * <code>optional .dstore.values.booleanValue move_up = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getMoveUpFieldBuilder() {
         if (moveUpBuilder_ == null) {
           moveUpBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getMoveUp(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue steps_ = null;
+      private io.dstore.Values.integerValue steps_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> stepsBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> stepsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
       public boolean hasSteps() {
         return stepsBuilder_ != null || steps_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getSteps() {
+      public io.dstore.Values.integerValue getSteps() {
         if (stepsBuilder_ == null) {
-          return steps_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : steps_;
+          return steps_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : steps_;
         } else {
           return stepsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
-      public Builder setSteps(io.dstore.engine.Values.integerValue value) {
+      public Builder setSteps(io.dstore.Values.integerValue value) {
         if (stepsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
       public Builder setSteps(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (stepsBuilder_ == null) {
           steps_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
-      public Builder mergeSteps(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSteps(io.dstore.Values.integerValue value) {
         if (stepsBuilder_ == null) {
           if (steps_ != null) {
             steps_ =
-              io.dstore.engine.Values.integerValue.newBuilder(steps_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(steps_).mergeFrom(value).buildPartial();
           } else {
             steps_ = value;
           }
@@ -924,7 +924,7 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
       public Builder clearSteps() {
         if (stepsBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class PmMovePersonCharacValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getStepsBuilder() {
+      public io.dstore.Values.integerValue.Builder getStepsBuilder() {
         
         onChanged();
         return getStepsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getStepsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getStepsOrBuilder() {
         if (stepsBuilder_ != null) {
           return stepsBuilder_.getMessageOrBuilder();
         } else {
           return steps_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : steps_;
+              io.dstore.Values.integerValue.getDefaultInstance() : steps_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue steps = 3;</code>
+       * <code>optional .dstore.values.integerValue steps = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getStepsFieldBuilder() {
         if (stepsBuilder_ == null) {
           stepsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSteps(),
                   getParentForChildren(),
                   isClean());
@@ -3155,24 +3155,23 @@ public final class PmMovePersonCharacValueAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/pm_MovePerson" +
       "CharacValue_Ad.proto\022)dstore.engine.pm_M" +
-      "ovePersonCharacValue_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\356\001\n\nParameters\022" +
-      "4\n\010value_id\030\001 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\026\n\rvalue_id_null\030\351\007 \001(\010\0223\n" +
-      "\007move_up\030\002 \001(\0132\".dstore.engine.values.bo" +
-      "oleanValue\022\025\n\014move_up_null\030\352\007 \001(\010\0221\n\005ste",
-      "ps\030\003 \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022\023\n\nsteps_null\030\353\007 \001(\010\"\216\002\n\010Response\022)" +
-      "\n\005error\030\001 \001(\0132\032.dstore.engine.error.Erro" +
-      "r\022H\n\020meta_information\030\002 \003(\0132..dstore.eng" +
-      "ine.metainformation.MetaInformation\022/\n\007m" +
-      "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
-      "sage\022D\n\003row\030\004 \003(\01327.dstore.engine.pm_Mov" +
-      "ePersonCharacValue_Ad.Response.Row\032\026\n\003Ro" +
-      "w\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine.p" +
-      "roceduresb\006proto3"
+      "ovePersonCharacValue_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\331\001\n\nParameters\022-\n\010valu" +
+      "e_id\030\001 \001(\0132\033.dstore.values.integerValue\022" +
+      "\026\n\rvalue_id_null\030\351\007 \001(\010\022,\n\007move_up\030\002 \001(\013" +
+      "2\033.dstore.values.booleanValue\022\025\n\014move_up" +
+      "_null\030\352\007 \001(\010\022*\n\005steps\030\003 \001(\0132\033.dstore.val",
+      "ues.integerValue\022\023\n\nsteps_null\030\353\007 \001(\010\"\216\002" +
+      "\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engin" +
+      "e.error.Error\022H\n\020meta_information\030\002 \003(\0132" +
+      "..dstore.engine.metainformation.MetaInfo" +
+      "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
+      ".message.Message\022D\n\003row\030\004 \003(\01327.dstore.e" +
+      "ngine.pm_MovePersonCharacValue_Ad.Respon" +
+      "se.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dst" +
+      "ore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3185,7 +3184,7 @@ public final class PmMovePersonCharacValueAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3208,7 +3207,7 @@ public final class PmMovePersonCharacValueAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_MovePersonCharacValue_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

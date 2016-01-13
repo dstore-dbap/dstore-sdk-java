@@ -13,17 +13,17 @@ public final class MiGetReturnCodeMessage {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
     boolean hasReturnCode();
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getReturnCode();
+    io.dstore.Values.integerValue getReturnCode();
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder();
 
     /**
      * <code>optional bool return_code_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiGetReturnCodeMessage {
     boolean getReturnCodeNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class MiGetReturnCodeMessage {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (returnCode_ != null) {
                 subBuilder = returnCode_.toBuilder();
               }
-              returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              returnCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCode_);
                 returnCode_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class MiGetReturnCodeMessage {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class MiGetReturnCodeMessage {
     }
 
     public static final int RETURN_CODE_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue returnCode_;
+    private io.dstore.Values.integerValue returnCode_;
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
     public boolean hasReturnCode() {
       return returnCode_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getReturnCode() {
-      return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+    public io.dstore.Values.integerValue getReturnCode() {
+      return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+     * <code>optional .dstore.values.integerValue return_code = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
       return getReturnCode();
     }
 
@@ -179,23 +179,23 @@ public final class MiGetReturnCodeMessage {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -469,29 +469,29 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue returnCode_ = null;
+      private io.dstore.Values.integerValue returnCode_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> returnCodeBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       public boolean hasReturnCode() {
         return returnCodeBuilder_ != null || returnCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getReturnCode() {
+      public io.dstore.Values.integerValue getReturnCode() {
         if (returnCodeBuilder_ == null) {
-          return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+          return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
         } else {
           return returnCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public Builder setReturnCode(io.dstore.engine.Values.integerValue value) {
+      public Builder setReturnCode(io.dstore.Values.integerValue value) {
         if (returnCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       public Builder setReturnCode(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (returnCodeBuilder_ == null) {
           returnCode_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public Builder mergeReturnCode(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeReturnCode(io.dstore.Values.integerValue value) {
         if (returnCodeBuilder_ == null) {
           if (returnCode_ != null) {
             returnCode_ =
-              io.dstore.engine.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
           } else {
             returnCode_ = value;
           }
@@ -537,7 +537,7 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       public Builder clearReturnCode() {
         if (returnCodeBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getReturnCodeBuilder() {
+      public io.dstore.Values.integerValue.Builder getReturnCodeBuilder() {
         
         onChanged();
         return getReturnCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
         if (returnCodeBuilder_ != null) {
           return returnCodeBuilder_.getMessageOrBuilder();
         } else {
           return returnCode_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+              io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 1;</code>
+       * <code>optional .dstore.values.integerValue return_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getReturnCodeFieldBuilder() {
         if (returnCodeBuilder_ == null) {
           returnCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getReturnCode(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -680,7 +680,7 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class MiGetReturnCodeMessage {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class MiGetReturnCodeMessage {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
@@ -1050,24 +1050,24 @@ public final class MiGetReturnCodeMessage {
        */
       boolean hasReturnCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getReturnCode();
+      io.dstore.Values.integerValue getReturnCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1075,24 +1075,24 @@ public final class MiGetReturnCodeMessage {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
        *
        * <pre>
        * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1100,21 +1100,21 @@ public final class MiGetReturnCodeMessage {
        */
       boolean hasDetailedDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
        *
        * <pre>
        * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDetailedDescription();
+      io.dstore.Values.stringValue getDetailedDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
        *
        * <pre>
        * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetReturnCodeMessage.Response.Row}
@@ -1161,11 +1161,11 @@ public final class MiGetReturnCodeMessage {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (returnCode_ != null) {
                   subBuilder = returnCode_.toBuilder();
                 }
-                returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                returnCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCode_);
                   returnCode_ = subBuilder.buildPartial();
@@ -1174,11 +1174,11 @@ public final class MiGetReturnCodeMessage {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1187,11 +1187,11 @@ public final class MiGetReturnCodeMessage {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (detailedDescription_ != null) {
                   subBuilder = detailedDescription_.toBuilder();
                 }
-                detailedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                detailedDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(detailedDescription_);
                   detailedDescription_ = subBuilder.buildPartial();
@@ -1233,9 +1233,9 @@ public final class MiGetReturnCodeMessage {
       }
 
       public static final int RETURN_CODE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue returnCode_;
+      private io.dstore.Values.integerValue returnCode_;
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
@@ -1245,30 +1245,30 @@ public final class MiGetReturnCodeMessage {
         return returnCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getReturnCode() {
-        return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+      public io.dstore.Values.integerValue getReturnCode() {
+        return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+       * <code>optional .dstore.values.integerValue return_code = 10001;</code>
        *
        * <pre>
        * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
         return getReturnCode();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1278,30 +1278,30 @@ public final class MiGetReturnCodeMessage {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.stringValue description = 10002;</code>
        *
        * <pre>
        * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int DETAILED_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue detailedDescription_;
+      private io.dstore.Values.stringValue detailedDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
        *
        * <pre>
        * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1311,23 +1311,23 @@ public final class MiGetReturnCodeMessage {
         return detailedDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
        *
        * <pre>
        * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDetailedDescription() {
-        return detailedDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : detailedDescription_;
+      public io.dstore.Values.stringValue getDetailedDescription() {
+        return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
        *
        * <pre>
        * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
         return getDetailedDescription();
       }
 
@@ -1626,11 +1626,11 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue returnCode_ = null;
+        private io.dstore.Values.integerValue returnCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> returnCodeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
@@ -1640,27 +1640,27 @@ public final class MiGetReturnCodeMessage {
           return returnCodeBuilder_ != null || returnCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getReturnCode() {
+        public io.dstore.Values.integerValue getReturnCode() {
           if (returnCodeBuilder_ == null) {
-            return returnCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+            return returnCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
           } else {
             return returnCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
-        public Builder setReturnCode(io.dstore.engine.Values.integerValue value) {
+        public Builder setReturnCode(io.dstore.Values.integerValue value) {
           if (returnCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1674,14 +1674,14 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
         public Builder setReturnCode(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (returnCodeBuilder_ == null) {
             returnCode_ = builderForValue.build();
             onChanged();
@@ -1692,17 +1692,17 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
-        public Builder mergeReturnCode(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeReturnCode(io.dstore.Values.integerValue value) {
           if (returnCodeBuilder_ == null) {
             if (returnCode_ != null) {
               returnCode_ =
-                io.dstore.engine.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(returnCode_).mergeFrom(value).buildPartial();
             } else {
               returnCode_ = value;
             }
@@ -1714,7 +1714,7 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
@@ -1732,45 +1732,45 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getReturnCodeBuilder() {
+        public io.dstore.Values.integerValue.Builder getReturnCodeBuilder() {
           
           onChanged();
           return getReturnCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getReturnCodeOrBuilder() {
           if (returnCodeBuilder_ != null) {
             return returnCodeBuilder_.getMessageOrBuilder();
           } else {
             return returnCode_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : returnCode_;
+                io.dstore.Values.integerValue.getDefaultInstance() : returnCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue return_code = 10001;</code>
+         * <code>optional .dstore.values.integerValue return_code = 10001;</code>
          *
          * <pre>
          * Eine Zahl, die von einer "dStore"-Prozedur zurückgegeben werden kann und einen Fehler-Code darstellt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getReturnCodeFieldBuilder() {
           if (returnCodeBuilder_ == null) {
             returnCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getReturnCode(),
                     getParentForChildren(),
                     isClean());
@@ -1779,11 +1779,11 @@ public final class MiGetReturnCodeMessage {
           return returnCodeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1793,27 +1793,27 @@ public final class MiGetReturnCodeMessage {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1827,14 +1827,14 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1845,17 +1845,17 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -1867,7 +1867,7 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1885,45 +1885,45 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.stringValue description = 10002;</code>
          *
          * <pre>
          * Kurzer Klartext, was der Fehler-Code "ReturnCode" zu bedeuten hat. Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1932,11 +1932,11 @@ public final class MiGetReturnCodeMessage {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue detailedDescription_ = null;
+        private io.dstore.Values.stringValue detailedDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> detailedDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailedDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -1946,27 +1946,27 @@ public final class MiGetReturnCodeMessage {
           return detailedDescriptionBuilder_ != null || detailedDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDetailedDescription() {
+        public io.dstore.Values.stringValue getDetailedDescription() {
           if (detailedDescriptionBuilder_ == null) {
-            return detailedDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : detailedDescription_;
+            return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
           } else {
             return detailedDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public Builder setDetailedDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDetailedDescription(io.dstore.Values.stringValue value) {
           if (detailedDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1980,14 +1980,14 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
         public Builder setDetailedDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (detailedDescriptionBuilder_ == null) {
             detailedDescription_ = builderForValue.build();
             onChanged();
@@ -1998,17 +1998,17 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public Builder mergeDetailedDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDetailedDescription(io.dstore.Values.stringValue value) {
           if (detailedDescriptionBuilder_ == null) {
             if (detailedDescription_ != null) {
               detailedDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
             } else {
               detailedDescription_ = value;
             }
@@ -2020,7 +2020,7 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
@@ -2038,45 +2038,45 @@ public final class MiGetReturnCodeMessage {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDetailedDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDetailedDescriptionBuilder() {
           
           onChanged();
           return getDetailedDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
           if (detailedDescriptionBuilder_ != null) {
             return detailedDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return detailedDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : detailedDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
          *
          * <pre>
          * Ausführlichere Beschreibung des Fehler-Codes "ReturnCode". Falls eine "&#64;LanguageID" angegeben wurde, aber keine Übersetzung vorhanden ist, wird die Standardsprache ("Deutsch") verwendet.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDetailedDescriptionFieldBuilder() {
           if (detailedDescriptionBuilder_ == null) {
             detailedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDetailedDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3646,27 +3646,26 @@ public final class MiGetReturnCodeMessage {
     java.lang.String[] descriptorData = {
       "\n6dstore/engine/procedures/mi_GetReturnC" +
       "odeMessage.proto\022%dstore.engine.mi_GetRe" +
-      "turnCodeMessage\032\032dstore/engine/values.pr" +
-      "oto\032\031dstore/engine/error.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\264\001\n\nParameters\0227\n\013retur" +
-      "n_code\030\001 \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\022\031\n\020return_code_null\030\351\007 \001(\010\0227\n\013l" +
-      "anguage_id\030\002 \001(\0132\".dstore.engine.values." +
-      "integerValue\022\031\n\020language_id_null\030\352\007 \001(\010\"",
-      "\300\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.eng" +
-      "ine.error.Error\022H\n\020meta_information\030\002 \003(" +
-      "\0132..dstore.engine.metainformation.MetaIn" +
-      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
-      "ne.message.Message\022@\n\003row\030\004 \003(\01323.dstore" +
-      ".engine.mi_GetReturnCodeMessage.Response" +
-      ".Row\032\313\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\013return_" +
-      "code\030\221N \001(\0132\".dstore.engine.values.integ" +
-      "erValue\0227\n\013description\030\222N \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022@\n\024detailed_des",
-      "cription\030\223N \001(\0132!.dstore.engine.values.s" +
-      "tringValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "turnCodeMessage\032\023dstore/values.proto\032\031ds" +
+      "tore/engine/error.proto\032\033dstore/engine/m" +
+      "essage.proto\032#dstore/engine/metainformat" +
+      "ion.proto\"\246\001\n\nParameters\0220\n\013return_code\030" +
+      "\001 \001(\0132\033.dstore.values.integerValue\022\031\n\020re" +
+      "turn_code_null\030\351\007 \001(\010\0220\n\013language_id\030\002 \001" +
+      "(\0132\033.dstore.values.integerValue\022\031\n\020langu" +
+      "age_id_null\030\352\007 \001(\010\"\253\003\n\010Response\022)\n\005error",
+      "\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020me" +
+      "ta_information\030\002 \003(\0132..dstore.engine.met" +
+      "ainformation.MetaInformation\022/\n\007message\030" +
+      "\003 \003(\0132\036.dstore.engine.message.Message\022@\n" +
+      "\003row\030\004 \003(\01323.dstore.engine.mi_GetReturnC" +
+      "odeMessage.Response.Row\032\266\001\n\003Row\022\017\n\006row_i" +
+      "d\030\220N \001(\005\0221\n\013return_code\030\221N \001(\0132\033.dstore." +
+      "values.integerValue\0220\n\013description\030\222N \001(" +
+      "\0132\032.dstore.values.stringValue\0229\n\024detaile" +
+      "d_description\030\223N \001(\0132\032.dstore.values.str",
+      "ingValueB\035\n\033io.dstore.engine.proceduresb" +
+      "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3679,7 +3678,7 @@ public final class MiGetReturnCodeMessage {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3702,7 +3701,7 @@ public final class MiGetReturnCodeMessage {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetReturnCodeMessage_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ReturnCode", "Description", "DetailedDescription", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

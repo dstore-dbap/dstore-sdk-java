@@ -13,17 +13,17 @@ public final class CoGetRelatedMembersPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class CoGetRelatedMembersPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getPersonIdentificationValues();
+    io.dstore.Values.stringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class CoGetRelatedMembersPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityId();
+    io.dstore.Values.integerValue getCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class CoGetRelatedMembersPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityMemberId();
+    io.dstore.Values.integerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool community_member_id_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class CoGetRelatedMembersPu {
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
      */
     boolean hasRelationshipId();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValue getRelationshipId();
+    io.dstore.Values.integerValue getRelationshipId();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
 
     /**
      * <code>optional bool relationship_id_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class CoGetRelatedMembersPu {
     boolean getRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+     * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
      */
     boolean hasRelationshipDirection();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+     * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getRelationshipDirection();
+    io.dstore.Values.integerValue getRelationshipDirection();
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+     * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder();
 
     /**
      * <code>optional bool relationship_direction_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class CoGetRelatedMembersPu {
     boolean getRelationshipDirectionNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
      */
     boolean hasOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId1();
+    io.dstore.Values.integerValue getOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id1_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class CoGetRelatedMembersPu {
     boolean getOutputCharacteristicId1Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
      */
     boolean hasOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId2();
+    io.dstore.Values.integerValue getOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id2_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class CoGetRelatedMembersPu {
     boolean getOutputCharacteristicId2Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
      */
     boolean hasOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId3();
+    io.dstore.Values.integerValue getOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id3_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class CoGetRelatedMembersPu {
     boolean getOutputCharacteristicId3Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId();
+    io.dstore.Values.integerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
      * <code>optional bool community_binary_category_id_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class CoGetRelatedMembersPu {
     boolean getCommunityBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    io.dstore.engine.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1011;</code>
@@ -260,11 +260,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -273,11 +273,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -286,11 +286,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -299,11 +299,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -312,11 +312,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (relationshipId_ != null) {
                 subBuilder = relationshipId_.toBuilder();
               }
-              relationshipId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationshipId_);
                 relationshipId_ = subBuilder.buildPartial();
@@ -325,11 +325,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (relationshipDirection_ != null) {
                 subBuilder = relationshipDirection_.toBuilder();
               }
-              relationshipDirection_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              relationshipDirection_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationshipDirection_);
                 relationshipDirection_ = subBuilder.buildPartial();
@@ -338,11 +338,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId1_ != null) {
                 subBuilder = outputCharacteristicId1_.toBuilder();
               }
-              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId1_);
                 outputCharacteristicId1_ = subBuilder.buildPartial();
@@ -351,11 +351,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId2_ != null) {
                 subBuilder = outputCharacteristicId2_.toBuilder();
               }
-              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId2_);
                 outputCharacteristicId2_ = subBuilder.buildPartial();
@@ -364,11 +364,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId3_ != null) {
                 subBuilder = outputCharacteristicId3_.toBuilder();
               }
-              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId3_);
                 outputCharacteristicId3_ = subBuilder.buildPartial();
@@ -377,11 +377,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -390,11 +390,11 @@ public final class CoGetRelatedMembersPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -482,23 +482,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -512,23 +512,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue personIdentificationValues_;
+    private io.dstore.Values.stringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -542,23 +542,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue communityId_;
+    private io.dstore.Values.integerValue communityId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.Values.integerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.integerValue community_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -572,23 +572,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue communityMemberId_;
+    private io.dstore.Values.integerValue communityMemberId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityMemberId() {
-      return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    public io.dstore.Values.integerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
     }
 
@@ -602,23 +602,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int RELATIONSHIP_ID_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.integerValue relationshipId_;
+    private io.dstore.Values.integerValue relationshipId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
      */
     public boolean hasRelationshipId() {
       return relationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValue getRelationshipId() {
-      return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+    public io.dstore.Values.integerValue getRelationshipId() {
+      return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+     * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
       return getRelationshipId();
     }
 
@@ -632,23 +632,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int RELATIONSHIP_DIRECTION_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue relationshipDirection_;
+    private io.dstore.Values.integerValue relationshipDirection_;
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+     * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
      */
     public boolean hasRelationshipDirection() {
       return relationshipDirection_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+     * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getRelationshipDirection() {
-      return relationshipDirection_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipDirection_;
+    public io.dstore.Values.integerValue getRelationshipDirection() {
+      return relationshipDirection_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipDirection_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+     * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
       return getRelationshipDirection();
     }
 
@@ -662,23 +662,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID1_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId1_;
+    private io.dstore.Values.integerValue outputCharacteristicId1_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
      */
     public boolean hasOutputCharacteristicId1() {
       return outputCharacteristicId1_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
-      return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId1() {
+      return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
       return getOutputCharacteristicId1();
     }
 
@@ -692,23 +692,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID2_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId2_;
+    private io.dstore.Values.integerValue outputCharacteristicId2_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
      */
     public boolean hasOutputCharacteristicId2() {
       return outputCharacteristicId2_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
-      return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId2() {
+      return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
       return getOutputCharacteristicId2();
     }
 
@@ -722,23 +722,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID3_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId3_;
+    private io.dstore.Values.integerValue outputCharacteristicId3_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
      */
     public boolean hasOutputCharacteristicId3() {
       return outputCharacteristicId3_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
-      return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId3() {
+      return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
       return getOutputCharacteristicId3();
     }
 
@@ -752,23 +752,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.integerValue communityBinaryCategoryId_;
+    private io.dstore.Values.integerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId() {
-      return communityBinaryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+    public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
+      return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
     }
 
@@ -782,23 +782,23 @@ public final class CoGetRelatedMembersPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.stringValue separatorInIdentVals_;
+    private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1378,29 +1378,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1414,10 +1414,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1428,13 +1428,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1446,7 +1446,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1460,33 +1460,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1521,29 +1521,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.Values.stringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.Values.stringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1557,10 +1557,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1571,13 +1571,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.engine.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1589,7 +1589,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1603,33 +1603,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1664,29 +1664,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityId_ = null;
+      private io.dstore.Values.integerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityId() {
+      public io.dstore.Values.integerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public Builder setCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1700,10 +1700,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1714,13 +1714,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public Builder mergeCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1732,7 +1732,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1746,33 +1746,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1807,29 +1807,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityMemberId_ = null;
+      private io.dstore.Values.integerValue communityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityMemberId() {
+      public io.dstore.Values.integerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
-          return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
         } else {
           return communityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public Builder setCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1843,10 +1843,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityMemberIdBuilder_ == null) {
           communityMemberId_ = builderForValue.build();
           onChanged();
@@ -1857,13 +1857,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public Builder mergeCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (communityMemberId_ != null) {
             communityMemberId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
           } else {
             communityMemberId_ = value;
           }
@@ -1875,7 +1875,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -1889,33 +1889,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
         
         onChanged();
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
           return communityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityMemberIdFieldBuilder() {
         if (communityMemberIdBuilder_ == null) {
           communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -1950,29 +1950,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue relationshipId_ = null;
+      private io.dstore.Values.integerValue relationshipId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> relationshipIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipIdBuilder_ != null || relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue getRelationshipId() {
+      public io.dstore.Values.integerValue getRelationshipId() {
         if (relationshipIdBuilder_ == null) {
-          return relationshipId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+          return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
         } else {
           return relationshipIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
-      public Builder setRelationshipId(io.dstore.engine.Values.integerValue value) {
+      public Builder setRelationshipId(io.dstore.Values.integerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1986,10 +1986,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
       public Builder setRelationshipId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (relationshipIdBuilder_ == null) {
           relationshipId_ = builderForValue.build();
           onChanged();
@@ -2000,13 +2000,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
-      public Builder mergeRelationshipId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (relationshipId_ != null) {
             relationshipId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
           } else {
             relationshipId_ = value;
           }
@@ -2018,7 +2018,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
       public Builder clearRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -2032,33 +2032,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRelationshipIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
         
         onChanged();
         return getRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
         if (relationshipIdBuilder_ != null) {
           return relationshipIdBuilder_.getMessageOrBuilder();
         } else {
           return relationshipId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_id = 5;</code>
+       * <code>optional .dstore.values.integerValue relationship_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRelationshipIdFieldBuilder() {
         if (relationshipIdBuilder_ == null) {
           relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRelationshipId(),
                   getParentForChildren(),
                   isClean());
@@ -2093,29 +2093,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue relationshipDirection_ = null;
+      private io.dstore.Values.integerValue relationshipDirection_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> relationshipDirectionBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipDirectionBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
       public boolean hasRelationshipDirection() {
         return relationshipDirectionBuilder_ != null || relationshipDirection_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getRelationshipDirection() {
+      public io.dstore.Values.integerValue getRelationshipDirection() {
         if (relationshipDirectionBuilder_ == null) {
-          return relationshipDirection_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipDirection_;
+          return relationshipDirection_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipDirection_;
         } else {
           return relationshipDirectionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
-      public Builder setRelationshipDirection(io.dstore.engine.Values.integerValue value) {
+      public Builder setRelationshipDirection(io.dstore.Values.integerValue value) {
         if (relationshipDirectionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2129,10 +2129,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
       public Builder setRelationshipDirection(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (relationshipDirectionBuilder_ == null) {
           relationshipDirection_ = builderForValue.build();
           onChanged();
@@ -2143,13 +2143,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
-      public Builder mergeRelationshipDirection(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRelationshipDirection(io.dstore.Values.integerValue value) {
         if (relationshipDirectionBuilder_ == null) {
           if (relationshipDirection_ != null) {
             relationshipDirection_ =
-              io.dstore.engine.Values.integerValue.newBuilder(relationshipDirection_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(relationshipDirection_).mergeFrom(value).buildPartial();
           } else {
             relationshipDirection_ = value;
           }
@@ -2161,7 +2161,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
       public Builder clearRelationshipDirection() {
         if (relationshipDirectionBuilder_ == null) {
@@ -2175,33 +2175,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRelationshipDirectionBuilder() {
+      public io.dstore.Values.integerValue.Builder getRelationshipDirectionBuilder() {
         
         onChanged();
         return getRelationshipDirectionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
         if (relationshipDirectionBuilder_ != null) {
           return relationshipDirectionBuilder_.getMessageOrBuilder();
         } else {
           return relationshipDirection_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipDirection_;
+              io.dstore.Values.integerValue.getDefaultInstance() : relationshipDirection_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 6;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRelationshipDirectionFieldBuilder() {
         if (relationshipDirectionBuilder_ == null) {
           relationshipDirectionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRelationshipDirection(),
                   getParentForChildren(),
                   isClean());
@@ -2236,29 +2236,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId1_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId1_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
       public boolean hasOutputCharacteristicId1() {
         return outputCharacteristicId1Builder_ != null || outputCharacteristicId1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
-          return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+          return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         } else {
           return outputCharacteristicId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
-      public Builder setOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2272,10 +2272,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
       public Builder setOutputCharacteristicId1(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1_ = builderForValue.build();
           onChanged();
@@ -2286,13 +2286,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
-      public Builder mergeOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (outputCharacteristicId1_ != null) {
             outputCharacteristicId1_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId1_ = value;
           }
@@ -2304,7 +2304,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
       public Builder clearOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
@@ -2318,33 +2318,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
         
         onChanged();
         return getOutputCharacteristicId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
         if (outputCharacteristicId1Builder_ != null) {
           return outputCharacteristicId1Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId1_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 7;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId1FieldBuilder() {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId1(),
                   getParentForChildren(),
                   isClean());
@@ -2379,29 +2379,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId2_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId2_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
       public boolean hasOutputCharacteristicId2() {
         return outputCharacteristicId2Builder_ != null || outputCharacteristicId2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
-          return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+          return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         } else {
           return outputCharacteristicId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
-      public Builder setOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2415,10 +2415,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
       public Builder setOutputCharacteristicId2(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2_ = builderForValue.build();
           onChanged();
@@ -2429,13 +2429,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
-      public Builder mergeOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (outputCharacteristicId2_ != null) {
             outputCharacteristicId2_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId2_ = value;
           }
@@ -2447,7 +2447,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
       public Builder clearOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
@@ -2461,33 +2461,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
         
         onChanged();
         return getOutputCharacteristicId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
         if (outputCharacteristicId2Builder_ != null) {
           return outputCharacteristicId2Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId2_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 8;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId2FieldBuilder() {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId2(),
                   getParentForChildren(),
                   isClean());
@@ -2522,29 +2522,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId3_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId3_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
       public boolean hasOutputCharacteristicId3() {
         return outputCharacteristicId3Builder_ != null || outputCharacteristicId3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
-          return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+          return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         } else {
           return outputCharacteristicId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
-      public Builder setOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2558,10 +2558,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
       public Builder setOutputCharacteristicId3(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3_ = builderForValue.build();
           onChanged();
@@ -2572,13 +2572,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
-      public Builder mergeOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (outputCharacteristicId3_ != null) {
             outputCharacteristicId3_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId3_ = value;
           }
@@ -2590,7 +2590,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
       public Builder clearOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
@@ -2604,33 +2604,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
         
         onChanged();
         return getOutputCharacteristicId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
         if (outputCharacteristicId3Builder_ != null) {
           return outputCharacteristicId3Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId3_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId3FieldBuilder() {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId3(),
                   getParentForChildren(),
                   isClean());
@@ -2665,29 +2665,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityBinaryCategoryId_ = null;
+      private io.dstore.Values.integerValue communityBinaryCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId() {
+      public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
-          return communityBinaryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+          return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
         } else {
           return communityBinaryCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
-      public Builder setCommunityBinaryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2701,10 +2701,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
       public Builder setCommunityBinaryCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryId_ = builderForValue.build();
           onChanged();
@@ -2715,13 +2715,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
-      public Builder mergeCommunityBinaryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (communityBinaryCategoryId_ != null) {
             communityBinaryCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
           } else {
             communityBinaryCategoryId_ = value;
           }
@@ -2733,7 +2733,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -2747,33 +2747,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
         onChanged();
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
           return communityBinaryCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return communityBinaryCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 10;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityBinaryCategoryIdFieldBuilder() {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityBinaryCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -2808,29 +2808,29 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2844,10 +2844,10 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2858,13 +2858,13 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.engine.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2876,7 +2876,7 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2890,33 +2890,33 @@ public final class CoGetRelatedMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 11;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -3238,7 +3238,7 @@ public final class CoGetRelatedMembersPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -3246,24 +3246,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1RestrictedByPattern();
+      io.dstore.Values.stringValue getValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -3271,24 +3271,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasBinaryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBinaryId();
+      io.dstore.Values.integerValue getBinaryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -3296,24 +3296,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2RestrictedByPattern();
+      io.dstore.Values.stringValue getValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
        *
        * <pre>
        * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
@@ -3321,24 +3321,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasRelationshipDirection();
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
        *
        * <pre>
        * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getRelationshipDirection();
+      io.dstore.Values.integerValue getRelationshipDirection();
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
        *
        * <pre>
        * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
@@ -3346,24 +3346,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasCommunityMemberId();
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCommunityMemberId();
+      io.dstore.Values.integerValue getCommunityMemberId();
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        *
        * <pre>
        * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
@@ -3371,24 +3371,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasOnlineStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        *
        * <pre>
        * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getOnlineStatus();
+      io.dstore.Values.integerValue getOnlineStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        *
        * <pre>
        * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getOnlineStatusOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -3396,24 +3396,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3();
+      io.dstore.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -3421,24 +3421,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1();
+      io.dstore.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -3446,24 +3446,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2();
+      io.dstore.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
        *
        * <pre>
        * Die "Priorität" der Beziehung
@@ -3471,24 +3471,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
        *
        * <pre>
        * Die "Priorität" der Beziehung
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSortNo();
+      io.dstore.Values.integerValue getSortNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
        *
        * <pre>
        * Die "Priorität" der Beziehung
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+       * <code>optional .dstore.values.integerValue access_level = 10011;</code>
        *
        * <pre>
        * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
@@ -3496,24 +3496,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasAccessLevel();
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+       * <code>optional .dstore.values.integerValue access_level = 10011;</code>
        *
        * <pre>
        * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getAccessLevel();
+      io.dstore.Values.integerValue getAccessLevel();
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+       * <code>optional .dstore.values.integerValue access_level = 10011;</code>
        *
        * <pre>
        * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getAccessLevelOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -3521,24 +3521,24 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3RestrictedByPattern();
+      io.dstore.Values.stringValue getValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10013;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3546,21 +3546,21 @@ public final class CoGetRelatedMembersPu {
        */
       boolean hasNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10013;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getNickname();
+      io.dstore.Values.stringValue getNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10013;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetRelatedMembers_Pu.Response.Row}
@@ -3607,11 +3607,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1RestrictedByPattern_ != null) {
                   subBuilder = value1RestrictedByPattern_.toBuilder();
                 }
-                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1RestrictedByPattern_);
                   value1RestrictedByPattern_ = subBuilder.buildPartial();
@@ -3620,11 +3620,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (binaryId_ != null) {
                   subBuilder = binaryId_.toBuilder();
                 }
-                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryId_);
                   binaryId_ = subBuilder.buildPartial();
@@ -3633,11 +3633,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2RestrictedByPattern_ != null) {
                   subBuilder = value2RestrictedByPattern_.toBuilder();
                 }
-                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2RestrictedByPattern_);
                   value2RestrictedByPattern_ = subBuilder.buildPartial();
@@ -3646,11 +3646,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (relationshipDirection_ != null) {
                   subBuilder = relationshipDirection_.toBuilder();
                 }
-                relationshipDirection_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                relationshipDirection_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationshipDirection_);
                   relationshipDirection_ = subBuilder.buildPartial();
@@ -3659,11 +3659,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (communityMemberId_ != null) {
                   subBuilder = communityMemberId_.toBuilder();
                 }
-                communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityMemberId_);
                   communityMemberId_ = subBuilder.buildPartial();
@@ -3672,11 +3672,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (onlineStatus_ != null) {
                   subBuilder = onlineStatus_.toBuilder();
                 }
-                onlineStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                onlineStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(onlineStatus_);
                   onlineStatus_ = subBuilder.buildPartial();
@@ -3685,11 +3685,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -3698,11 +3698,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -3711,11 +3711,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -3724,11 +3724,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -3737,11 +3737,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (accessLevel_ != null) {
                   subBuilder = accessLevel_.toBuilder();
                 }
-                accessLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                accessLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessLevel_);
                   accessLevel_ = subBuilder.buildPartial();
@@ -3750,11 +3750,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3RestrictedByPattern_ != null) {
                   subBuilder = value3RestrictedByPattern_.toBuilder();
                 }
-                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3RestrictedByPattern_);
                   value3RestrictedByPattern_ = subBuilder.buildPartial();
@@ -3763,11 +3763,11 @@ public final class CoGetRelatedMembersPu {
                 break;
               }
               case 80106: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (nickname_ != null) {
                   subBuilder = nickname_.toBuilder();
                 }
-                nickname_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                nickname_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nickname_);
                   nickname_ = subBuilder.buildPartial();
@@ -3809,9 +3809,9 @@ public final class CoGetRelatedMembersPu {
       }
 
       public static final int VALUE1_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue value1RestrictedByPattern_;
+      private io.dstore.Values.stringValue value1RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -3821,30 +3821,30 @@ public final class CoGetRelatedMembersPu {
         return value1RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
-        return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
+        return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
         return getValue1RestrictedByPattern();
       }
 
       public static final int BINARY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue binaryId_;
+      private io.dstore.Values.integerValue binaryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -3854,30 +3854,30 @@ public final class CoGetRelatedMembersPu {
         return binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBinaryId() {
-        return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+      public io.dstore.Values.integerValue getBinaryId() {
+        return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
         return getBinaryId();
       }
 
       public static final int VALUE2_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue value2RestrictedByPattern_;
+      private io.dstore.Values.stringValue value2RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -3887,30 +3887,30 @@ public final class CoGetRelatedMembersPu {
         return value2RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
-        return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
+        return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
         return getValue2RestrictedByPattern();
       }
 
       public static final int RELATIONSHIP_DIRECTION_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue relationshipDirection_;
+      private io.dstore.Values.integerValue relationshipDirection_;
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
        *
        * <pre>
        * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
@@ -3920,30 +3920,30 @@ public final class CoGetRelatedMembersPu {
         return relationshipDirection_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
        *
        * <pre>
        * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getRelationshipDirection() {
-        return relationshipDirection_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipDirection_;
+      public io.dstore.Values.integerValue getRelationshipDirection() {
+        return relationshipDirection_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipDirection_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+       * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
        *
        * <pre>
        * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
         return getRelationshipDirection();
       }
 
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue communityMemberId_;
+      private io.dstore.Values.integerValue communityMemberId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
@@ -3953,30 +3953,30 @@ public final class CoGetRelatedMembersPu {
         return communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCommunityMemberId() {
-        return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+      public io.dstore.Values.integerValue getCommunityMemberId() {
+        return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
       }
 
       public static final int ONLINE_STATUS_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue onlineStatus_;
+      private io.dstore.Values.integerValue onlineStatus_;
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        *
        * <pre>
        * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
@@ -3986,30 +3986,30 @@ public final class CoGetRelatedMembersPu {
         return onlineStatus_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        *
        * <pre>
        * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getOnlineStatus() {
-        return onlineStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineStatus_;
+      public io.dstore.Values.integerValue getOnlineStatus() {
+        return onlineStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10006;</code>
        *
        * <pre>
        * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
         return getOnlineStatus();
       }
 
       public static final int VALUE3_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue value3_;
+      private io.dstore.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -4019,30 +4019,30 @@ public final class CoGetRelatedMembersPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3() {
-        return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+      public io.dstore.Values.stringValue getValue3() {
+        return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10007;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
       }
 
       public static final int VALUE1_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.stringValue value1_;
+      private io.dstore.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -4052,30 +4052,30 @@ public final class CoGetRelatedMembersPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1() {
-        return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+      public io.dstore.Values.stringValue getValue1() {
+        return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
       }
 
       public static final int VALUE2_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue value2_;
+      private io.dstore.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -4085,30 +4085,30 @@ public final class CoGetRelatedMembersPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2() {
-        return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+      public io.dstore.Values.stringValue getValue2() {
+        return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.integerValue sortNo_;
+      private io.dstore.Values.integerValue sortNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
        *
        * <pre>
        * Die "Priorität" der Beziehung
@@ -4118,30 +4118,30 @@ public final class CoGetRelatedMembersPu {
         return sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
        *
        * <pre>
        * Die "Priorität" der Beziehung
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.Values.integerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+       * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
        *
        * <pre>
        * Die "Priorität" der Beziehung
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int ACCESS_LEVEL_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.integerValue accessLevel_;
+      private io.dstore.Values.integerValue accessLevel_;
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+       * <code>optional .dstore.values.integerValue access_level = 10011;</code>
        *
        * <pre>
        * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
@@ -4151,30 +4151,30 @@ public final class CoGetRelatedMembersPu {
         return accessLevel_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+       * <code>optional .dstore.values.integerValue access_level = 10011;</code>
        *
        * <pre>
        * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getAccessLevel() {
-        return accessLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accessLevel_;
+      public io.dstore.Values.integerValue getAccessLevel() {
+        return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+       * <code>optional .dstore.values.integerValue access_level = 10011;</code>
        *
        * <pre>
        * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
         return getAccessLevel();
       }
 
       public static final int VALUE3_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.stringValue value3RestrictedByPattern_;
+      private io.dstore.Values.stringValue value3RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -4184,30 +4184,30 @@ public final class CoGetRelatedMembersPu {
         return value3RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
-        return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
+        return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
         return getValue3RestrictedByPattern();
       }
 
       public static final int NICKNAME_FIELD_NUMBER = 10013;
-      private io.dstore.engine.Values.stringValue nickname_;
+      private io.dstore.Values.stringValue nickname_;
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10013;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -4217,23 +4217,23 @@ public final class CoGetRelatedMembersPu {
         return nickname_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10013;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getNickname() {
-        return nickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+      public io.dstore.Values.stringValue getNickname() {
+        return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10013;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
         return getNickname();
       }
 
@@ -4742,11 +4742,11 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue value1RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value1RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -4756,27 +4756,27 @@ public final class CoGetRelatedMembersPu {
           return value1RestrictedByPatternBuilder_ != null || value1RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
-            return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+            return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           } else {
             return value1RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder setValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4790,14 +4790,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         public Builder setValue1RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -4808,17 +4808,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value1RestrictedByPattern_ != null) {
               value1RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value1RestrictedByPattern_ = value;
             }
@@ -4830,7 +4830,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -4848,45 +4848,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue1RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
           if (value1RestrictedByPatternBuilder_ != null) {
             return value1RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value1RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1RestrictedByPatternFieldBuilder() {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -4895,11 +4895,11 @@ public final class CoGetRelatedMembersPu {
           return value1RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue binaryId_ = null;
+        private io.dstore.Values.integerValue binaryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -4909,27 +4909,27 @@ public final class CoGetRelatedMembersPu {
           return binaryIdBuilder_ != null || binaryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBinaryId() {
+        public io.dstore.Values.integerValue getBinaryId() {
           if (binaryIdBuilder_ == null) {
-            return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+            return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
           } else {
             return binaryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public Builder setBinaryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4943,14 +4943,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
         public Builder setBinaryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (binaryIdBuilder_ == null) {
             binaryId_ = builderForValue.build();
             onChanged();
@@ -4961,17 +4961,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public Builder mergeBinaryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
             if (binaryId_ != null) {
               binaryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
             } else {
               binaryId_ = value;
             }
@@ -4983,7 +4983,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -5001,45 +5001,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBinaryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
           
           onChanged();
           return getBinaryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
           if (binaryIdBuilder_ != null) {
             return binaryIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryIdFieldBuilder() {
           if (binaryIdBuilder_ == null) {
             binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryId(),
                     getParentForChildren(),
                     isClean());
@@ -5048,11 +5048,11 @@ public final class CoGetRelatedMembersPu {
           return binaryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value2RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -5062,27 +5062,27 @@ public final class CoGetRelatedMembersPu {
           return value2RestrictedByPatternBuilder_ != null || value2RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
-            return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+            return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           } else {
             return value2RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder setValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5096,14 +5096,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         public Builder setValue2RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -5114,17 +5114,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder mergeValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value2RestrictedByPattern_ != null) {
               value2RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value2RestrictedByPattern_ = value;
             }
@@ -5136,7 +5136,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -5154,45 +5154,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue2RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
           if (value2RestrictedByPatternBuilder_ != null) {
             return value2RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value2RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10003;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10003;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2RestrictedByPatternFieldBuilder() {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -5201,11 +5201,11 @@ public final class CoGetRelatedMembersPu {
           return value2RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue relationshipDirection_ = null;
+        private io.dstore.Values.integerValue relationshipDirection_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> relationshipDirectionBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipDirectionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
@@ -5215,27 +5215,27 @@ public final class CoGetRelatedMembersPu {
           return relationshipDirectionBuilder_ != null || relationshipDirection_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getRelationshipDirection() {
+        public io.dstore.Values.integerValue getRelationshipDirection() {
           if (relationshipDirectionBuilder_ == null) {
-            return relationshipDirection_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipDirection_;
+            return relationshipDirection_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipDirection_;
           } else {
             return relationshipDirectionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
-        public Builder setRelationshipDirection(io.dstore.engine.Values.integerValue value) {
+        public Builder setRelationshipDirection(io.dstore.Values.integerValue value) {
           if (relationshipDirectionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5249,14 +5249,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
         public Builder setRelationshipDirection(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (relationshipDirectionBuilder_ == null) {
             relationshipDirection_ = builderForValue.build();
             onChanged();
@@ -5267,17 +5267,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
-        public Builder mergeRelationshipDirection(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeRelationshipDirection(io.dstore.Values.integerValue value) {
           if (relationshipDirectionBuilder_ == null) {
             if (relationshipDirection_ != null) {
               relationshipDirection_ =
-                io.dstore.engine.Values.integerValue.newBuilder(relationshipDirection_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(relationshipDirection_).mergeFrom(value).buildPartial();
             } else {
               relationshipDirection_ = value;
             }
@@ -5289,7 +5289,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
@@ -5307,45 +5307,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getRelationshipDirectionBuilder() {
+        public io.dstore.Values.integerValue.Builder getRelationshipDirectionBuilder() {
           
           onChanged();
           return getRelationshipDirectionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getRelationshipDirectionOrBuilder() {
           if (relationshipDirectionBuilder_ != null) {
             return relationshipDirectionBuilder_.getMessageOrBuilder();
           } else {
             return relationshipDirection_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : relationshipDirection_;
+                io.dstore.Values.integerValue.getDefaultInstance() : relationshipDirection_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue relationship_direction = 10004;</code>
+         * <code>optional .dstore.values.integerValue relationship_direction = 10004;</code>
          *
          * <pre>
          * Richtung der Beziehung aus Sicht des identifizierten Mitglieds :"0" : "ICH" habe die Beziehung erstellt"1" : "ANDERE" haben eine Beziehung zu "MIR" erstellt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRelationshipDirectionFieldBuilder() {
           if (relationshipDirectionBuilder_ == null) {
             relationshipDirectionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRelationshipDirection(),
                     getParentForChildren(),
                     isClean());
@@ -5354,11 +5354,11 @@ public final class CoGetRelatedMembersPu {
           return relationshipDirectionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue communityMemberId_ = null;
+        private io.dstore.Values.integerValue communityMemberId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
@@ -5368,27 +5368,27 @@ public final class CoGetRelatedMembersPu {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCommunityMemberId() {
+        public io.dstore.Values.integerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
-            return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+            return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
           } else {
             return communityMemberIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
-        public Builder setCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5402,14 +5402,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
         public Builder setCommunityMemberId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (communityMemberIdBuilder_ == null) {
             communityMemberId_ = builderForValue.build();
             onChanged();
@@ -5420,17 +5420,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
-        public Builder mergeCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (communityMemberId_ != null) {
               communityMemberId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
             } else {
               communityMemberId_ = value;
             }
@@ -5442,7 +5442,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
@@ -5460,45 +5460,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
           
           onChanged();
           return getCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
             return communityMemberIdBuilder_.getMessageOrBuilder();
           } else {
             return communityMemberId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Community-Mitglieds, zu dem eine Beziehung besteht
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCommunityMemberIdFieldBuilder() {
           if (communityMemberIdBuilder_ == null) {
             communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCommunityMemberId(),
                     getParentForChildren(),
                     isClean());
@@ -5507,11 +5507,11 @@ public final class CoGetRelatedMembersPu {
           return communityMemberIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue onlineStatus_ = null;
+        private io.dstore.Values.integerValue onlineStatus_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> onlineStatusBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlineStatusBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
@@ -5521,27 +5521,27 @@ public final class CoGetRelatedMembersPu {
           return onlineStatusBuilder_ != null || onlineStatus_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getOnlineStatus() {
+        public io.dstore.Values.integerValue getOnlineStatus() {
           if (onlineStatusBuilder_ == null) {
-            return onlineStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineStatus_;
+            return onlineStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
           } else {
             return onlineStatusBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
-        public Builder setOnlineStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder setOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5555,14 +5555,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
         public Builder setOnlineStatus(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (onlineStatusBuilder_ == null) {
             onlineStatus_ = builderForValue.build();
             onChanged();
@@ -5573,17 +5573,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
-        public Builder mergeOnlineStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
             if (onlineStatus_ != null) {
               onlineStatus_ =
-                io.dstore.engine.Values.integerValue.newBuilder(onlineStatus_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(onlineStatus_).mergeFrom(value).buildPartial();
             } else {
               onlineStatus_ = value;
             }
@@ -5595,7 +5595,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
@@ -5613,45 +5613,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getOnlineStatusBuilder() {
+        public io.dstore.Values.integerValue.Builder getOnlineStatusBuilder() {
           
           onChanged();
           return getOnlineStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
           if (onlineStatusBuilder_ != null) {
             return onlineStatusBuilder_.getMessageOrBuilder();
           } else {
             return onlineStatus_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineStatus_;
+                io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10006;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10006;</code>
          *
          * <pre>
          * Dieser Wert gibt an, wo ein Mitglied sich gerade in der Community aufhält. Es sind nur der Status "0" [gerade angemeldet] und "255" [Community verlassen] vom "dStore" vorgegeben.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOnlineStatusFieldBuilder() {
           if (onlineStatusBuilder_ == null) {
             onlineStatusBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOnlineStatus(),
                     getParentForChildren(),
                     isClean());
@@ -5660,11 +5660,11 @@ public final class CoGetRelatedMembersPu {
           return onlineStatusBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3_ = null;
+        private io.dstore.Values.stringValue value3_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -5674,27 +5674,27 @@ public final class CoGetRelatedMembersPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3() {
+        public io.dstore.Values.stringValue getValue3() {
           if (value3Builder_ == null) {
-            return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+            return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           } else {
             return value3Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder setValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5708,14 +5708,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         public Builder setValue3(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3Builder_ == null) {
             value3_ = builderForValue.build();
             onChanged();
@@ -5726,17 +5726,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder mergeValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value3_ != null) {
               value3_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
             } else {
               value3_ = value;
             }
@@ -5748,7 +5748,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -5766,45 +5766,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3Builder() {
+        public io.dstore.Values.stringValue.Builder getValue3Builder() {
           
           onChanged();
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
             return value3Builder_.getMessageOrBuilder();
           } else {
             return value3_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10007;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10007;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
             value3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
                     isClean());
@@ -5813,11 +5813,11 @@ public final class CoGetRelatedMembersPu {
           return value3Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value1_ = null;
+        private io.dstore.Values.stringValue value1_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -5827,27 +5827,27 @@ public final class CoGetRelatedMembersPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1() {
+        public io.dstore.Values.stringValue getValue1() {
           if (value1Builder_ == null) {
-            return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+            return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           } else {
             return value1Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder setValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5861,14 +5861,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         public Builder setValue1(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1Builder_ == null) {
             value1_ = builderForValue.build();
             onChanged();
@@ -5879,17 +5879,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder mergeValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value1_ != null) {
               value1_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
             } else {
               value1_ = value;
             }
@@ -5901,7 +5901,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -5919,45 +5919,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1Builder() {
+        public io.dstore.Values.stringValue.Builder getValue1Builder() {
           
           onChanged();
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
             return value1Builder_.getMessageOrBuilder();
           } else {
             return value1_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
             value1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
                     isClean());
@@ -5966,11 +5966,11 @@ public final class CoGetRelatedMembersPu {
           return value1Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2_ = null;
+        private io.dstore.Values.stringValue value2_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -5980,27 +5980,27 @@ public final class CoGetRelatedMembersPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2() {
+        public io.dstore.Values.stringValue getValue2() {
           if (value2Builder_ == null) {
-            return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+            return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           } else {
             return value2Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder setValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6014,14 +6014,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         public Builder setValue2(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2Builder_ == null) {
             value2_ = builderForValue.build();
             onChanged();
@@ -6032,17 +6032,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder mergeValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value2_ != null) {
               value2_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
             } else {
               value2_ = value;
             }
@@ -6054,7 +6054,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -6072,45 +6072,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2Builder() {
+        public io.dstore.Values.stringValue.Builder getValue2Builder() {
           
           onChanged();
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
             return value2Builder_.getMessageOrBuilder();
           } else {
             return value2_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
             value2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
                     isClean());
@@ -6119,11 +6119,11 @@ public final class CoGetRelatedMembersPu {
           return value2Builder_;
         }
 
-        private io.dstore.engine.Values.integerValue sortNo_ = null;
+        private io.dstore.Values.integerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
@@ -6133,27 +6133,27 @@ public final class CoGetRelatedMembersPu {
           return sortNoBuilder_ != null || sortNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSortNo() {
+        public io.dstore.Values.integerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
-        public Builder setSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6167,14 +6167,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
         public Builder setSortNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -6185,17 +6185,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
-        public Builder mergeSortNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -6207,7 +6207,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
@@ -6225,45 +6225,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue sort_no = 10010;</code>
+         * <code>optional .dstore.values.integerValue sort_no = 10010;</code>
          *
          * <pre>
          * Die "Priorität" der Beziehung
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -6272,11 +6272,11 @@ public final class CoGetRelatedMembersPu {
           return sortNoBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue accessLevel_ = null;
+        private io.dstore.Values.integerValue accessLevel_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> accessLevelBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
@@ -6286,27 +6286,27 @@ public final class CoGetRelatedMembersPu {
           return accessLevelBuilder_ != null || accessLevel_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getAccessLevel() {
+        public io.dstore.Values.integerValue getAccessLevel() {
           if (accessLevelBuilder_ == null) {
-            return accessLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : accessLevel_;
+            return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
           } else {
             return accessLevelBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
-        public Builder setAccessLevel(io.dstore.engine.Values.integerValue value) {
+        public Builder setAccessLevel(io.dstore.Values.integerValue value) {
           if (accessLevelBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6320,14 +6320,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
         public Builder setAccessLevel(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (accessLevelBuilder_ == null) {
             accessLevel_ = builderForValue.build();
             onChanged();
@@ -6338,17 +6338,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
-        public Builder mergeAccessLevel(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeAccessLevel(io.dstore.Values.integerValue value) {
           if (accessLevelBuilder_ == null) {
             if (accessLevel_ != null) {
               accessLevel_ =
-                io.dstore.engine.Values.integerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
             } else {
               accessLevel_ = value;
             }
@@ -6360,7 +6360,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
@@ -6378,45 +6378,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getAccessLevelBuilder() {
+        public io.dstore.Values.integerValue.Builder getAccessLevelBuilder() {
           
           onChanged();
           return getAccessLevelFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
           if (accessLevelBuilder_ != null) {
             return accessLevelBuilder_.getMessageOrBuilder();
           } else {
             return accessLevel_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : accessLevel_;
+                io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue access_level = 10011;</code>
+         * <code>optional .dstore.values.integerValue access_level = 10011;</code>
          *
          * <pre>
          * Summe von Zugriffsrechten, die das Mitglied "CommunityMemberID" auf Daten des identifizierten Mitglieds hat bzw. umgekehrt (je nach "RelationshipDirection"). Mögliche Einzel-Zugriffsrechte : s. "pm_GetRelationAccessLevels".
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getAccessLevelFieldBuilder() {
           if (accessLevelBuilder_ == null) {
             accessLevelBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getAccessLevel(),
                     getParentForChildren(),
                     isClean());
@@ -6425,11 +6425,11 @@ public final class CoGetRelatedMembersPu {
           return accessLevelBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value3RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -6439,27 +6439,27 @@ public final class CoGetRelatedMembersPu {
           return value3RestrictedByPatternBuilder_ != null || value3RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
           if (value3RestrictedByPatternBuilder_ == null) {
-            return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+            return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           } else {
             return value3RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder setValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6473,14 +6473,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         public Builder setValue3RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -6491,17 +6491,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value3RestrictedByPattern_ != null) {
               value3RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value3RestrictedByPattern_ = value;
             }
@@ -6513,7 +6513,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -6531,45 +6531,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue3RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
           if (value3RestrictedByPatternBuilder_ != null) {
             return value3RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value3RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10012;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10012;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3RestrictedByPatternFieldBuilder() {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -6578,11 +6578,11 @@ public final class CoGetRelatedMembersPu {
           return value3RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue nickname_ = null;
+        private io.dstore.Values.stringValue nickname_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nicknameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -6592,27 +6592,27 @@ public final class CoGetRelatedMembersPu {
           return nicknameBuilder_ != null || nickname_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getNickname() {
+        public io.dstore.Values.stringValue getNickname() {
           if (nicknameBuilder_ == null) {
-            return nickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+            return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
           } else {
             return nicknameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public Builder setNickname(io.dstore.engine.Values.stringValue value) {
+        public Builder setNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6626,14 +6626,14 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
         public Builder setNickname(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (nicknameBuilder_ == null) {
             nickname_ = builderForValue.build();
             onChanged();
@@ -6644,17 +6644,17 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public Builder mergeNickname(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
             if (nickname_ != null) {
               nickname_ =
-                io.dstore.engine.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
             } else {
               nickname_ = value;
             }
@@ -6666,7 +6666,7 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -6684,45 +6684,45 @@ public final class CoGetRelatedMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getNicknameBuilder() {
+        public io.dstore.Values.stringValue.Builder getNicknameBuilder() {
           
           onChanged();
           return getNicknameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
           if (nicknameBuilder_ != null) {
             return nicknameBuilder_.getMessageOrBuilder();
           } else {
             return nickname_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+                io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10013;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10013;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNicknameFieldBuilder() {
           if (nicknameBuilder_ == null) {
             nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNickname(),
                     getParentForChildren(),
                     isClean());
@@ -8292,66 +8292,62 @@ public final class CoGetRelatedMembersPu {
     java.lang.String[] descriptorData = {
       "\n6dstore/engine/procedures/co_GetRelated" +
       "Members_Pu.proto\022%dstore.engine.co_GetRe" +
-      "latedMembers_Pu\032\032dstore/engine/values.pr" +
-      "oto\032\031dstore/engine/error.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\201\t\n\nParameters\0224\n\tuniqu" +
-      "e_id\030\001 \001(\0132!.dstore.engine.values.string" +
-      "Value\022\027\n\016unique_id_null\030\351\007 \001(\010\022G\n\034person" +
-      "_identification_values\030\002 \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022*\n!person_identi",
-      "fication_values_null\030\352\007 \001(\010\0228\n\014community" +
-      "_id\030\003 \001(\0132\".dstore.engine.values.integer" +
-      "Value\022\032\n\021community_id_null\030\353\007 \001(\010\022?\n\023com" +
-      "munity_member_id\030\004 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022!\n\030community_member_i" +
-      "d_null\030\354\007 \001(\010\022;\n\017relationship_id\030\005 \001(\0132\"" +
-      ".dstore.engine.values.integerValue\022\035\n\024re" +
-      "lationship_id_null\030\355\007 \001(\010\022B\n\026relationshi" +
-      "p_direction\030\006 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022$\n\033relationship_direction_",
-      "null\030\356\007 \001(\010\022E\n\031output_characteristic_id1" +
-      "\030\007 \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022\'\n\036output_characteristic_id1_null\030\357\007 " +
-      "\001(\010\022E\n\031output_characteristic_id2\030\010 \001(\0132\"" +
-      ".dstore.engine.values.integerValue\022\'\n\036ou" +
-      "tput_characteristic_id2_null\030\360\007 \001(\010\022E\n\031o" +
-      "utput_characteristic_id3\030\t \001(\0132\".dstore." +
-      "engine.values.integerValue\022\'\n\036output_cha" +
-      "racteristic_id3_null\030\361\007 \001(\010\022H\n\034community" +
-      "_binary_category_id\030\n \001(\0132\".dstore.engin",
-      "e.values.integerValue\022*\n!community_binar" +
-      "y_category_id_null\030\362\007 \001(\010\022B\n\027separator_i" +
-      "n_ident_vals\030\013 \001(\0132!.dstore.engine.value" +
-      "s.stringValue\022%\n\034separator_in_ident_vals" +
-      "_null\030\363\007 \001(\010\"\247\010\n\010Response\022)\n\005error\030\001 \001(\013" +
-      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
-      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
-      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
-      "\036.dstore.engine.message.Message\022@\n\003row\030\004" +
-      " \003(\01323.dstore.engine.co_GetRelatedMember",
-      "s_Pu.Response.Row\032\262\006\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005\022H\n\034value1_restricted_by_pattern\030\221N \001(" +
-      "\0132!.dstore.engine.values.stringValue\0226\n\t" +
-      "binary_id\030\222N \001(\0132\".dstore.engine.values." +
-      "integerValue\022H\n\034value2_restricted_by_pat" +
-      "tern\030\223N \001(\0132!.dstore.engine.values.strin" +
-      "gValue\022C\n\026relationship_direction\030\224N \001(\0132" +
-      "\".dstore.engine.values.integerValue\022@\n\023c" +
-      "ommunity_member_id\030\225N \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022:\n\ronline_status\030\226",
-      "N \001(\0132\".dstore.engine.values.integerValu" +
-      "e\0222\n\006value3\030\227N \001(\0132!.dstore.engine.value" +
-      "s.stringValue\0222\n\006value1\030\230N \001(\0132!.dstore." +
-      "engine.values.stringValue\0222\n\006value2\030\231N \001" +
-      "(\0132!.dstore.engine.values.stringValue\0224\n" +
-      "\007sort_no\030\232N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0229\n\014access_level\030\233N \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022H\n\034value3" +
-      "_restricted_by_pattern\030\234N \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\0224\n\010nickname\030\235N ",
-      "\001(\0132!.dstore.engine.values.stringValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "latedMembers_Pu\032\023dstore/values.proto\032\031ds" +
+      "tore/engine/error.proto\032\033dstore/engine/m" +
+      "essage.proto\032#dstore/engine/metainformat" +
+      "ion.proto\"\264\010\n\nParameters\022-\n\tunique_id\030\001 " +
+      "\001(\0132\032.dstore.values.stringValue\022\027\n\016uniqu" +
+      "e_id_null\030\351\007 \001(\010\022@\n\034person_identificatio" +
+      "n_values\030\002 \001(\0132\032.dstore.values.stringVal" +
+      "ue\022*\n!person_identification_values_null\030",
+      "\352\007 \001(\010\0221\n\014community_id\030\003 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\032\n\021community_id_null\030\353" +
+      "\007 \001(\010\0228\n\023community_member_id\030\004 \001(\0132\033.dst" +
+      "ore.values.integerValue\022!\n\030community_mem" +
+      "ber_id_null\030\354\007 \001(\010\0224\n\017relationship_id\030\005 " +
+      "\001(\0132\033.dstore.values.integerValue\022\035\n\024rela" +
+      "tionship_id_null\030\355\007 \001(\010\022;\n\026relationship_" +
+      "direction\030\006 \001(\0132\033.dstore.values.integerV" +
+      "alue\022$\n\033relationship_direction_null\030\356\007 \001" +
+      "(\010\022>\n\031output_characteristic_id1\030\007 \001(\0132\033.",
+      "dstore.values.integerValue\022\'\n\036output_cha" +
+      "racteristic_id1_null\030\357\007 \001(\010\022>\n\031output_ch" +
+      "aracteristic_id2\030\010 \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022\'\n\036output_characteristic_id2" +
+      "_null\030\360\007 \001(\010\022>\n\031output_characteristic_id" +
+      "3\030\t \001(\0132\033.dstore.values.integerValue\022\'\n\036" +
+      "output_characteristic_id3_null\030\361\007 \001(\010\022A\n" +
+      "\034community_binary_category_id\030\n \001(\0132\033.ds" +
+      "tore.values.integerValue\022*\n!community_bi" +
+      "nary_category_id_null\030\362\007 \001(\010\022;\n\027separato",
+      "r_in_ident_vals\030\013 \001(\0132\032.dstore.values.st" +
+      "ringValue\022%\n\034separator_in_ident_vals_nul" +
+      "l\030\363\007 \001(\010\"\314\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
+      "store.engine.error.Error\022H\n\020meta_informa" +
+      "tion\030\002 \003(\0132..dstore.engine.metainformati" +
+      "on.MetaInformation\022/\n\007message\030\003 \003(\0132\036.ds" +
+      "tore.engine.message.Message\022@\n\003row\030\004 \003(\013" +
+      "23.dstore.engine.co_GetRelatedMembers_Pu" +
+      ".Response.Row\032\327\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022A" +
+      "\n\034value1_restricted_by_pattern\030\221N \001(\0132\032.",
+      "dstore.values.stringValue\022/\n\tbinary_id\030\222" +
+      "N \001(\0132\033.dstore.values.integerValue\022A\n\034va" +
+      "lue2_restricted_by_pattern\030\223N \001(\0132\032.dsto" +
+      "re.values.stringValue\022<\n\026relationship_di" +
+      "rection\030\224N \001(\0132\033.dstore.values.integerVa" +
+      "lue\0229\n\023community_member_id\030\225N \001(\0132\033.dsto" +
+      "re.values.integerValue\0223\n\ronline_status\030" +
+      "\226N \001(\0132\033.dstore.values.integerValue\022+\n\006v" +
+      "alue3\030\227N \001(\0132\032.dstore.values.stringValue" +
+      "\022+\n\006value1\030\230N \001(\0132\032.dstore.values.string",
+      "Value\022+\n\006value2\030\231N \001(\0132\032.dstore.values.s" +
+      "tringValue\022-\n\007sort_no\030\232N \001(\0132\033.dstore.va" +
+      "lues.integerValue\0222\n\014access_level\030\233N \001(\013" +
+      "2\033.dstore.values.integerValue\022A\n\034value3_" +
+      "restricted_by_pattern\030\234N \001(\0132\032.dstore.va" +
+      "lues.stringValue\022-\n\010nickname\030\235N \001(\0132\032.ds" +
+      "tore.values.stringValueB\035\n\033io.dstore.eng" +
+      "ine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8364,7 +8360,7 @@ public final class CoGetRelatedMembersPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -8387,7 +8383,7 @@ public final class CoGetRelatedMembersPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetRelatedMembers_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value1RestrictedByPattern", "BinaryId", "Value2RestrictedByPattern", "RelationshipDirection", "CommunityMemberId", "OnlineStatus", "Value3", "Value1", "Value2", "SortNo", "AccessLevel", "Value3RestrictedByPattern", "Nickname", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

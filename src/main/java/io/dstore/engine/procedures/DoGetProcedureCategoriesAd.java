@@ -13,17 +13,17 @@ public final class DoGetProcedureCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
      */
     boolean hasProcedureCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getProcedureCategoryId();
+    io.dstore.Values.integerValue getProcedureCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder();
 
     /**
      * <code>optional bool procedure_category_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class DoGetProcedureCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (procedureCategoryId_ != null) {
                 subBuilder = procedureCategoryId_.toBuilder();
               }
-              procedureCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              procedureCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureCategoryId_);
                 procedureCategoryId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class DoGetProcedureCategoriesAd {
     }
 
     public static final int PROCEDURE_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue procedureCategoryId_;
+    private io.dstore.Values.integerValue procedureCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
      */
     public boolean hasProcedureCategoryId() {
       return procedureCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getProcedureCategoryId() {
-      return procedureCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+    public io.dstore.Values.integerValue getProcedureCategoryId() {
+      return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+     * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
       return getProcedureCategoryId();
     }
 
@@ -368,29 +368,29 @@ public final class DoGetProcedureCategoriesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue procedureCategoryId_ = null;
+      private io.dstore.Values.integerValue procedureCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> procedureCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
       public boolean hasProcedureCategoryId() {
         return procedureCategoryIdBuilder_ != null || procedureCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getProcedureCategoryId() {
+      public io.dstore.Values.integerValue getProcedureCategoryId() {
         if (procedureCategoryIdBuilder_ == null) {
-          return procedureCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+          return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
         } else {
           return procedureCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
-      public Builder setProcedureCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setProcedureCategoryId(io.dstore.Values.integerValue value) {
         if (procedureCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class DoGetProcedureCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
       public Builder setProcedureCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (procedureCategoryIdBuilder_ == null) {
           procedureCategoryId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class DoGetProcedureCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
-      public Builder mergeProcedureCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeProcedureCategoryId(io.dstore.Values.integerValue value) {
         if (procedureCategoryIdBuilder_ == null) {
           if (procedureCategoryId_ != null) {
             procedureCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(procedureCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(procedureCategoryId_).mergeFrom(value).buildPartial();
           } else {
             procedureCategoryId_ = value;
           }
@@ -436,7 +436,7 @@ public final class DoGetProcedureCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
       public Builder clearProcedureCategoryId() {
         if (procedureCategoryIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class DoGetProcedureCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getProcedureCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getProcedureCategoryIdBuilder() {
         
         onChanged();
         return getProcedureCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
         if (procedureCategoryIdBuilder_ != null) {
           return procedureCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return procedureCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 1;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getProcedureCategoryIdFieldBuilder() {
         if (procedureCategoryIdBuilder_ == null) {
           procedureCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getProcedureCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class DoGetProcedureCategoriesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
@@ -806,24 +806,24 @@ public final class DoGetProcedureCategoriesAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie von Prozeduren
@@ -831,24 +831,24 @@ public final class DoGetProcedureCategoriesAd {
        */
       boolean hasProcedureCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie von Prozeduren
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getProcedureCategoryId();
+      io.dstore.Values.integerValue getProcedureCategoryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie von Prozeduren
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+       * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
@@ -856,21 +856,21 @@ public final class DoGetProcedureCategoriesAd {
        */
       boolean hasProcedureCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+       * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getProcedureCategory();
+      io.dstore.Values.stringValue getProcedureCategory();
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+       * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getProcedureCategoryOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getProcedureCategoryOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetProcedureCategories_Ad.Response.Row}
@@ -917,11 +917,11 @@ public final class DoGetProcedureCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -930,11 +930,11 @@ public final class DoGetProcedureCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (procedureCategoryId_ != null) {
                   subBuilder = procedureCategoryId_.toBuilder();
                 }
-                procedureCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                procedureCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureCategoryId_);
                   procedureCategoryId_ = subBuilder.buildPartial();
@@ -943,11 +943,11 @@ public final class DoGetProcedureCategoriesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (procedureCategory_ != null) {
                   subBuilder = procedureCategory_.toBuilder();
                 }
-                procedureCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                procedureCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureCategory_);
                   procedureCategory_ = subBuilder.buildPartial();
@@ -989,9 +989,9 @@ public final class DoGetProcedureCategoriesAd {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
@@ -1001,30 +1001,30 @@ public final class DoGetProcedureCategoriesAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int PROCEDURE_CATEGORY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue procedureCategoryId_;
+      private io.dstore.Values.integerValue procedureCategoryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie von Prozeduren
@@ -1034,30 +1034,30 @@ public final class DoGetProcedureCategoriesAd {
         return procedureCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie von Prozeduren
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getProcedureCategoryId() {
-        return procedureCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+      public io.dstore.Values.integerValue getProcedureCategoryId() {
+        return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
        *
        * <pre>
        * ID einer Kategorie von Prozeduren
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
         return getProcedureCategoryId();
       }
 
       public static final int PROCEDURE_CATEGORY_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue procedureCategory_;
+      private io.dstore.Values.stringValue procedureCategory_;
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+       * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
@@ -1067,23 +1067,23 @@ public final class DoGetProcedureCategoriesAd {
         return procedureCategory_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+       * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getProcedureCategory() {
-        return procedureCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : procedureCategory_;
+      public io.dstore.Values.stringValue getProcedureCategory() {
+        return procedureCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureCategory_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+       * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Kategorie "ProcedureCategoryID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getProcedureCategoryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getProcedureCategoryOrBuilder() {
         return getProcedureCategory();
       }
 
@@ -1382,11 +1382,11 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
@@ -1396,27 +1396,27 @@ public final class DoGetProcedureCategoriesAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1430,14 +1430,14 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1448,17 +1448,17 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -1470,7 +1470,7 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
@@ -1488,45 +1488,45 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Ausführliche Beschreibung, welche Prozeduren der Kategorie "ProcedureCategoryID" angehören
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1535,11 +1535,11 @@ public final class DoGetProcedureCategoriesAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue procedureCategoryId_ = null;
+        private io.dstore.Values.integerValue procedureCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> procedureCategoryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureCategoryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
@@ -1549,27 +1549,27 @@ public final class DoGetProcedureCategoriesAd {
           return procedureCategoryIdBuilder_ != null || procedureCategoryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getProcedureCategoryId() {
+        public io.dstore.Values.integerValue getProcedureCategoryId() {
           if (procedureCategoryIdBuilder_ == null) {
-            return procedureCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+            return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
           } else {
             return procedureCategoryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
-        public Builder setProcedureCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setProcedureCategoryId(io.dstore.Values.integerValue value) {
           if (procedureCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1583,14 +1583,14 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
         public Builder setProcedureCategoryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (procedureCategoryIdBuilder_ == null) {
             procedureCategoryId_ = builderForValue.build();
             onChanged();
@@ -1601,17 +1601,17 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
-        public Builder mergeProcedureCategoryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeProcedureCategoryId(io.dstore.Values.integerValue value) {
           if (procedureCategoryIdBuilder_ == null) {
             if (procedureCategoryId_ != null) {
               procedureCategoryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(procedureCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(procedureCategoryId_).mergeFrom(value).buildPartial();
             } else {
               procedureCategoryId_ = value;
             }
@@ -1623,7 +1623,7 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
@@ -1641,45 +1641,45 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getProcedureCategoryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getProcedureCategoryIdBuilder() {
           
           onChanged();
           return getProcedureCategoryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
           if (procedureCategoryIdBuilder_ != null) {
             return procedureCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return procedureCategoryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue procedure_category_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue procedure_category_id = 10002;</code>
          *
          * <pre>
          * ID einer Kategorie von Prozeduren
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getProcedureCategoryIdFieldBuilder() {
           if (procedureCategoryIdBuilder_ == null) {
             procedureCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getProcedureCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -1688,11 +1688,11 @@ public final class DoGetProcedureCategoriesAd {
           return procedureCategoryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue procedureCategory_ = null;
+        private io.dstore.Values.stringValue procedureCategory_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> procedureCategoryBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureCategoryBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
@@ -1702,27 +1702,27 @@ public final class DoGetProcedureCategoriesAd {
           return procedureCategoryBuilder_ != null || procedureCategory_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getProcedureCategory() {
+        public io.dstore.Values.stringValue getProcedureCategory() {
           if (procedureCategoryBuilder_ == null) {
-            return procedureCategory_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : procedureCategory_;
+            return procedureCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureCategory_;
           } else {
             return procedureCategoryBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
-        public Builder setProcedureCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder setProcedureCategory(io.dstore.Values.stringValue value) {
           if (procedureCategoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1736,14 +1736,14 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
         public Builder setProcedureCategory(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (procedureCategoryBuilder_ == null) {
             procedureCategory_ = builderForValue.build();
             onChanged();
@@ -1754,17 +1754,17 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
-        public Builder mergeProcedureCategory(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeProcedureCategory(io.dstore.Values.stringValue value) {
           if (procedureCategoryBuilder_ == null) {
             if (procedureCategory_ != null) {
               procedureCategory_ =
-                io.dstore.engine.Values.stringValue.newBuilder(procedureCategory_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(procedureCategory_).mergeFrom(value).buildPartial();
             } else {
               procedureCategory_ = value;
             }
@@ -1776,7 +1776,7 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
@@ -1794,45 +1794,45 @@ public final class DoGetProcedureCategoriesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getProcedureCategoryBuilder() {
+        public io.dstore.Values.stringValue.Builder getProcedureCategoryBuilder() {
           
           onChanged();
           return getProcedureCategoryFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getProcedureCategoryOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getProcedureCategoryOrBuilder() {
           if (procedureCategoryBuilder_ != null) {
             return procedureCategoryBuilder_.getMessageOrBuilder();
           } else {
             return procedureCategory_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : procedureCategory_;
+                io.dstore.Values.stringValue.getDefaultInstance() : procedureCategory_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue procedure_category = 10003;</code>
+         * <code>optional .dstore.values.stringValue procedure_category = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Kategorie "ProcedureCategoryID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getProcedureCategoryFieldBuilder() {
           if (procedureCategoryBuilder_ == null) {
             procedureCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getProcedureCategory(),
                     getParentForChildren(),
                     isClean());
@@ -3402,26 +3402,25 @@ public final class DoGetProcedureCategoriesAd {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/do_GetProcedu" +
       "reCategories_Ad.proto\022*dstore.engine.do_" +
-      "GetProcedureCategories_Ad\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"t\n\nParameters" +
-      "\022A\n\025procedure_category_id\030\001 \001(\0132\".dstore" +
-      ".engine.values.integerValue\022#\n\032procedure" +
-      "_category_id_null\030\351\007 \001(\010\"\315\003\n\010Response\022)\n" +
-      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error",
-      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
-      "ne.metainformation.MetaInformation\022/\n\007me" +
-      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
-      "age\022E\n\003row\030\004 \003(\01328.dstore.engine.do_GetP" +
-      "rocedureCategories_Ad.Response.Row\032\323\001\n\003R" +
-      "ow\022\017\n\006row_id\030\220N \001(\005\0227\n\013description\030\221N \001(" +
-      "\0132!.dstore.engine.values.stringValue\022B\n\025" +
-      "procedure_category_id\030\222N \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022>\n\022procedure_ca" +
-      "tegory\030\223N \001(\0132!.dstore.engine.values.str",
-      "ingValueB\035\n\033io.dstore.engine.proceduresb" +
-      "\006proto3"
+      "GetProcedureCategories_Ad\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"m\n\nParameters\022:\n\025pro" +
+      "cedure_category_id\030\001 \001(\0132\033.dstore.values" +
+      ".integerValue\022#\n\032procedure_category_id_n" +
+      "ull\030\351\007 \001(\010\"\270\003\n\010Response\022)\n\005error\030\001 \001(\0132\032" +
+      ".dstore.engine.error.Error\022H\n\020meta_infor",
+      "mation\030\002 \003(\0132..dstore.engine.metainforma" +
+      "tion.MetaInformation\022/\n\007message\030\003 \003(\0132\036." +
+      "dstore.engine.message.Message\022E\n\003row\030\004 \003" +
+      "(\01328.dstore.engine.do_GetProcedureCatego" +
+      "ries_Ad.Response.Row\032\276\001\n\003Row\022\017\n\006row_id\030\220" +
+      "N \001(\005\0220\n\013description\030\221N \001(\0132\032.dstore.val" +
+      "ues.stringValue\022;\n\025procedure_category_id" +
+      "\030\222N \001(\0132\033.dstore.values.integerValue\0227\n\022" +
+      "procedure_category\030\223N \001(\0132\032.dstore.value" +
+      "s.stringValueB\035\n\033io.dstore.engine.proced",
+      "uresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3434,7 +3433,7 @@ public final class DoGetProcedureCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3457,7 +3456,7 @@ public final class DoGetProcedureCategoriesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_do_GetProcedureCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "ProcedureCategoryId", "ProcedureCategory", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class CoGetOnlineTimeOfMembersPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+     * <code>optional .dstore.values.integerValue row_count = 1;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+     * <code>optional .dstore.values.integerValue row_count = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getRowCount();
+    io.dstore.Values.integerValue getRowCount();
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+     * <code>optional .dstore.values.integerValue row_count = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder();
 
     /**
      * <code>optional bool row_count_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+     * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
      */
     boolean hasCommunityMemberIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+     * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getCommunityMemberIds();
+    io.dstore.Values.stringValue getCommunityMemberIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+     * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCommunityMemberIdsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCommunityMemberIdsOrBuilder();
 
     /**
      * <code>optional bool community_member_ids_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getCommunityMemberIdsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
      */
     boolean hasNumberOfHoursConsidered();
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getNumberOfHoursConsidered();
+    io.dstore.Values.integerValue getNumberOfHoursConsidered();
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNumberOfHoursConsideredOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNumberOfHoursConsideredOrBuilder();
 
     /**
      * <code>optional bool number_of_hours_considered_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getNumberOfHoursConsideredNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_id = 4;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityId();
+    io.dstore.Values.integerValue getCommunityId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_id = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 5;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 5;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 5;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
      */
-    io.dstore.engine.Values.stringValue getPersonIdentificationValues();
+    io.dstore.Values.stringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+     * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
      */
     boolean hasOnlineTimeDuringLastXMinutes();
     /**
-     * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+     * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
      */
-    io.dstore.engine.Values.integerValue getOnlineTimeDuringLastXMinutes();
+    io.dstore.Values.integerValue getOnlineTimeDuringLastXMinutes();
     /**
-     * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+     * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOnlineTimeDuringLastXMinutesOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOnlineTimeDuringLastXMinutesOrBuilder();
 
     /**
      * <code>optional bool online_time_during_last_x_minutes_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getOnlineTimeDuringLastXMinutesNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
      */
     boolean hasGetTopX();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
      */
-    io.dstore.engine.Values.integerValue getGetTopX();
+    io.dstore.Values.integerValue getGetTopX();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGetTopXOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGetTopXOrBuilder();
 
     /**
      * <code>optional bool get_top_x_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getGetTopXNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
      */
     boolean hasOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId1();
+    io.dstore.Values.integerValue getOutputCharacteristicId1();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id1_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getOutputCharacteristicId1Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
      */
     boolean hasOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId2();
+    io.dstore.Values.integerValue getOutputCharacteristicId2();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id2_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getOutputCharacteristicId2Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
      */
     boolean hasOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
      */
-    io.dstore.engine.Values.integerValue getOutputCharacteristicId3();
+    io.dstore.Values.integerValue getOutputCharacteristicId3();
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id3_null = 1011;</code>
@@ -211,17 +211,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getOutputCharacteristicId3Null();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
      */
-    io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId();
+    io.dstore.Values.integerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
      * <code>optional bool community_binary_category_id_null = 1012;</code>
@@ -229,17 +229,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getCommunityBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+     * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
      */
     boolean hasOrderByNick();
     /**
-     * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+     * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
      */
-    io.dstore.engine.Values.booleanValue getOrderByNick();
+    io.dstore.Values.booleanValue getOrderByNick();
     /**
-     * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+     * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOrderByNickOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOrderByNickOrBuilder();
 
     /**
      * <code>optional bool order_by_nick_null = 1013;</code>
@@ -247,17 +247,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getOrderByNickNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+     * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
      */
     boolean hasOnlineStatusInsteadOfIsOnline();
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+     * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
      */
-    io.dstore.engine.Values.booleanValue getOnlineStatusInsteadOfIsOnline();
+    io.dstore.Values.booleanValue getOnlineStatusInsteadOfIsOnline();
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+     * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOnlineStatusInsteadOfIsOnlineOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOnlineStatusInsteadOfIsOnlineOrBuilder();
 
     /**
      * <code>optional bool online_status_instead_of_is_online_null = 1014;</code>
@@ -265,17 +265,17 @@ public final class CoGetOnlineTimeOfMembersPu {
     boolean getOnlineStatusInsteadOfIsOnlineNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
      */
-    io.dstore.engine.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.Values.stringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1015;</code>
@@ -336,11 +336,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -349,11 +349,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (communityMemberIds_ != null) {
                 subBuilder = communityMemberIds_.toBuilder();
               }
-              communityMemberIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              communityMemberIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberIds_);
                 communityMemberIds_ = subBuilder.buildPartial();
@@ -362,11 +362,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (numberOfHoursConsidered_ != null) {
                 subBuilder = numberOfHoursConsidered_.toBuilder();
               }
-              numberOfHoursConsidered_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              numberOfHoursConsidered_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfHoursConsidered_);
                 numberOfHoursConsidered_ = subBuilder.buildPartial();
@@ -375,11 +375,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -388,11 +388,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -401,11 +401,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -414,11 +414,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (onlineTimeDuringLastXMinutes_ != null) {
                 subBuilder = onlineTimeDuringLastXMinutes_.toBuilder();
               }
-              onlineTimeDuringLastXMinutes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              onlineTimeDuringLastXMinutes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlineTimeDuringLastXMinutes_);
                 onlineTimeDuringLastXMinutes_ = subBuilder.buildPartial();
@@ -427,11 +427,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (getTopX_ != null) {
                 subBuilder = getTopX_.toBuilder();
               }
-              getTopX_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              getTopX_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getTopX_);
                 getTopX_ = subBuilder.buildPartial();
@@ -440,11 +440,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId1_ != null) {
                 subBuilder = outputCharacteristicId1_.toBuilder();
               }
-              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId1_);
                 outputCharacteristicId1_ = subBuilder.buildPartial();
@@ -453,11 +453,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId2_ != null) {
                 subBuilder = outputCharacteristicId2_.toBuilder();
               }
-              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId2_);
                 outputCharacteristicId2_ = subBuilder.buildPartial();
@@ -466,11 +466,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (outputCharacteristicId3_ != null) {
                 subBuilder = outputCharacteristicId3_.toBuilder();
               }
-              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId3_);
                 outputCharacteristicId3_ = subBuilder.buildPartial();
@@ -479,11 +479,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -492,11 +492,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 106: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (orderByNick_ != null) {
                 subBuilder = orderByNick_.toBuilder();
               }
-              orderByNick_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              orderByNick_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByNick_);
                 orderByNick_ = subBuilder.buildPartial();
@@ -505,11 +505,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 114: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (onlineStatusInsteadOfIsOnline_ != null) {
                 subBuilder = onlineStatusInsteadOfIsOnline_.toBuilder();
               }
-              onlineStatusInsteadOfIsOnline_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              onlineStatusInsteadOfIsOnline_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlineStatusInsteadOfIsOnline_);
                 onlineStatusInsteadOfIsOnline_ = subBuilder.buildPartial();
@@ -518,11 +518,11 @@ public final class CoGetOnlineTimeOfMembersPu {
               break;
             }
             case 122: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -630,23 +630,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int ROW_COUNT_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue rowCount_;
+    private io.dstore.Values.integerValue rowCount_;
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+     * <code>optional .dstore.values.integerValue row_count = 1;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+     * <code>optional .dstore.values.integerValue row_count = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getRowCount() {
-      return rowCount_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+    public io.dstore.Values.integerValue getRowCount() {
+      return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+     * <code>optional .dstore.values.integerValue row_count = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
     }
 
@@ -660,23 +660,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int COMMUNITY_MEMBER_IDS_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue communityMemberIds_;
+    private io.dstore.Values.stringValue communityMemberIds_;
     /**
-     * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+     * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
      */
     public boolean hasCommunityMemberIds() {
       return communityMemberIds_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+     * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getCommunityMemberIds() {
-      return communityMemberIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : communityMemberIds_;
+    public io.dstore.Values.stringValue getCommunityMemberIds() {
+      return communityMemberIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityMemberIds_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+     * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCommunityMemberIdsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCommunityMemberIdsOrBuilder() {
       return getCommunityMemberIds();
     }
 
@@ -690,23 +690,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int NUMBER_OF_HOURS_CONSIDERED_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue numberOfHoursConsidered_;
+    private io.dstore.Values.integerValue numberOfHoursConsidered_;
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
      */
     public boolean hasNumberOfHoursConsidered() {
       return numberOfHoursConsidered_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getNumberOfHoursConsidered() {
-      return numberOfHoursConsidered_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfHoursConsidered_;
+    public io.dstore.Values.integerValue getNumberOfHoursConsidered() {
+      return numberOfHoursConsidered_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfHoursConsidered_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+     * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNumberOfHoursConsideredOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNumberOfHoursConsideredOrBuilder() {
       return getNumberOfHoursConsidered();
     }
 
@@ -720,23 +720,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue communityId_;
+    private io.dstore.Values.integerValue communityId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_id = 4;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.Values.integerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+     * <code>optional .dstore.values.integerValue community_id = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -750,23 +750,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 5;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 5;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 5;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -780,23 +780,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.stringValue personIdentificationValues_;
+    private io.dstore.Values.stringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
      */
-    public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+     * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -810,23 +810,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int ONLINE_TIME_DURING_LAST_X_MINUTES_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.integerValue onlineTimeDuringLastXMinutes_;
+    private io.dstore.Values.integerValue onlineTimeDuringLastXMinutes_;
     /**
-     * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+     * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
      */
     public boolean hasOnlineTimeDuringLastXMinutes() {
       return onlineTimeDuringLastXMinutes_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+     * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
      */
-    public io.dstore.engine.Values.integerValue getOnlineTimeDuringLastXMinutes() {
-      return onlineTimeDuringLastXMinutes_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineTimeDuringLastXMinutes_;
+    public io.dstore.Values.integerValue getOnlineTimeDuringLastXMinutes() {
+      return onlineTimeDuringLastXMinutes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineTimeDuringLastXMinutes_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+     * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOnlineTimeDuringLastXMinutesOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOnlineTimeDuringLastXMinutesOrBuilder() {
       return getOnlineTimeDuringLastXMinutes();
     }
 
@@ -840,23 +840,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int GET_TOP_X_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.integerValue getTopX_;
+    private io.dstore.Values.integerValue getTopX_;
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
      */
     public boolean hasGetTopX() {
       return getTopX_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
      */
-    public io.dstore.engine.Values.integerValue getGetTopX() {
-      return getTopX_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getTopX_;
+    public io.dstore.Values.integerValue getGetTopX() {
+      return getTopX_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getTopX_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGetTopXOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGetTopXOrBuilder() {
       return getGetTopX();
     }
 
@@ -870,23 +870,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID1_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId1_;
+    private io.dstore.Values.integerValue outputCharacteristicId1_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
      */
     public boolean hasOutputCharacteristicId1() {
       return outputCharacteristicId1_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
-      return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId1() {
+      return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
       return getOutputCharacteristicId1();
     }
 
@@ -900,23 +900,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID2_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId2_;
+    private io.dstore.Values.integerValue outputCharacteristicId2_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
      */
     public boolean hasOutputCharacteristicId2() {
       return outputCharacteristicId2_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
-      return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId2() {
+      return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
       return getOutputCharacteristicId2();
     }
 
@@ -930,23 +930,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID3_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.integerValue outputCharacteristicId3_;
+    private io.dstore.Values.integerValue outputCharacteristicId3_;
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
      */
     public boolean hasOutputCharacteristicId3() {
       return outputCharacteristicId3_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
      */
-    public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
-      return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+    public io.dstore.Values.integerValue getOutputCharacteristicId3() {
+      return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+     * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
       return getOutputCharacteristicId3();
     }
 
@@ -960,23 +960,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 12;
-    private io.dstore.engine.Values.integerValue communityBinaryCategoryId_;
+    private io.dstore.Values.integerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
      */
-    public io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId() {
-      return communityBinaryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+    public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
+      return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+     * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
     }
 
@@ -990,23 +990,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int ORDER_BY_NICK_FIELD_NUMBER = 13;
-    private io.dstore.engine.Values.booleanValue orderByNick_;
+    private io.dstore.Values.booleanValue orderByNick_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+     * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
      */
     public boolean hasOrderByNick() {
       return orderByNick_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+     * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOrderByNick() {
-      return orderByNick_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : orderByNick_;
+    public io.dstore.Values.booleanValue getOrderByNick() {
+      return orderByNick_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByNick_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+     * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOrderByNickOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOrderByNickOrBuilder() {
       return getOrderByNick();
     }
 
@@ -1020,23 +1020,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int ONLINE_STATUS_INSTEAD_OF_IS_ONLINE_FIELD_NUMBER = 14;
-    private io.dstore.engine.Values.booleanValue onlineStatusInsteadOfIsOnline_;
+    private io.dstore.Values.booleanValue onlineStatusInsteadOfIsOnline_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+     * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
      */
     public boolean hasOnlineStatusInsteadOfIsOnline() {
       return onlineStatusInsteadOfIsOnline_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+     * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOnlineStatusInsteadOfIsOnline() {
-      return onlineStatusInsteadOfIsOnline_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlineStatusInsteadOfIsOnline_;
+    public io.dstore.Values.booleanValue getOnlineStatusInsteadOfIsOnline() {
+      return onlineStatusInsteadOfIsOnline_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlineStatusInsteadOfIsOnline_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+     * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOnlineStatusInsteadOfIsOnlineOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOnlineStatusInsteadOfIsOnlineOrBuilder() {
       return getOnlineStatusInsteadOfIsOnline();
     }
 
@@ -1050,23 +1050,23 @@ public final class CoGetOnlineTimeOfMembersPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 15;
-    private io.dstore.engine.Values.stringValue separatorInIdentVals_;
+    private io.dstore.Values.stringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
      */
-    public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1782,29 +1782,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue rowCount_ = null;
+      private io.dstore.Values.integerValue rowCount_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> rowCountBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getRowCount() {
+      public io.dstore.Values.integerValue getRowCount() {
         if (rowCountBuilder_ == null) {
-          return rowCount_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+          return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
         } else {
           return rowCountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
-      public Builder setRowCount(io.dstore.engine.Values.integerValue value) {
+      public Builder setRowCount(io.dstore.Values.integerValue value) {
         if (rowCountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1818,10 +1818,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
       public Builder setRowCount(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (rowCountBuilder_ == null) {
           rowCount_ = builderForValue.build();
           onChanged();
@@ -1832,13 +1832,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
-      public Builder mergeRowCount(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeRowCount(io.dstore.Values.integerValue value) {
         if (rowCountBuilder_ == null) {
           if (rowCount_ != null) {
             rowCount_ =
-              io.dstore.engine.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
           } else {
             rowCount_ = value;
           }
@@ -1850,7 +1850,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -1864,33 +1864,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getRowCountBuilder() {
+      public io.dstore.Values.integerValue.Builder getRowCountBuilder() {
         
         onChanged();
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getRowCountOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
           return rowCountBuilder_.getMessageOrBuilder();
         } else {
           return rowCount_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : rowCount_;
+              io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue row_count = 1;</code>
+       * <code>optional .dstore.values.integerValue row_count = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRowCountFieldBuilder() {
         if (rowCountBuilder_ == null) {
           rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRowCount(),
                   getParentForChildren(),
                   isClean());
@@ -1925,29 +1925,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue communityMemberIds_ = null;
+      private io.dstore.Values.stringValue communityMemberIds_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> communityMemberIdsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityMemberIdsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
       public boolean hasCommunityMemberIds() {
         return communityMemberIdsBuilder_ != null || communityMemberIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getCommunityMemberIds() {
+      public io.dstore.Values.stringValue getCommunityMemberIds() {
         if (communityMemberIdsBuilder_ == null) {
-          return communityMemberIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : communityMemberIds_;
+          return communityMemberIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityMemberIds_;
         } else {
           return communityMemberIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
-      public Builder setCommunityMemberIds(io.dstore.engine.Values.stringValue value) {
+      public Builder setCommunityMemberIds(io.dstore.Values.stringValue value) {
         if (communityMemberIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1961,10 +1961,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
       public Builder setCommunityMemberIds(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (communityMemberIdsBuilder_ == null) {
           communityMemberIds_ = builderForValue.build();
           onChanged();
@@ -1975,13 +1975,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
-      public Builder mergeCommunityMemberIds(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCommunityMemberIds(io.dstore.Values.stringValue value) {
         if (communityMemberIdsBuilder_ == null) {
           if (communityMemberIds_ != null) {
             communityMemberIds_ =
-              io.dstore.engine.Values.stringValue.newBuilder(communityMemberIds_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(communityMemberIds_).mergeFrom(value).buildPartial();
           } else {
             communityMemberIds_ = value;
           }
@@ -1993,7 +1993,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
       public Builder clearCommunityMemberIds() {
         if (communityMemberIdsBuilder_ == null) {
@@ -2007,33 +2007,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCommunityMemberIdsBuilder() {
+      public io.dstore.Values.stringValue.Builder getCommunityMemberIdsBuilder() {
         
         onChanged();
         return getCommunityMemberIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCommunityMemberIdsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCommunityMemberIdsOrBuilder() {
         if (communityMemberIdsBuilder_ != null) {
           return communityMemberIdsBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberIds_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : communityMemberIds_;
+              io.dstore.Values.stringValue.getDefaultInstance() : communityMemberIds_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue community_member_ids = 2;</code>
+       * <code>optional .dstore.values.stringValue community_member_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCommunityMemberIdsFieldBuilder() {
         if (communityMemberIdsBuilder_ == null) {
           communityMemberIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCommunityMemberIds(),
                   getParentForChildren(),
                   isClean());
@@ -2068,29 +2068,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue numberOfHoursConsidered_ = null;
+      private io.dstore.Values.integerValue numberOfHoursConsidered_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> numberOfHoursConsideredBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfHoursConsideredBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
       public boolean hasNumberOfHoursConsidered() {
         return numberOfHoursConsideredBuilder_ != null || numberOfHoursConsidered_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getNumberOfHoursConsidered() {
+      public io.dstore.Values.integerValue getNumberOfHoursConsidered() {
         if (numberOfHoursConsideredBuilder_ == null) {
-          return numberOfHoursConsidered_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfHoursConsidered_;
+          return numberOfHoursConsidered_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfHoursConsidered_;
         } else {
           return numberOfHoursConsideredBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
-      public Builder setNumberOfHoursConsidered(io.dstore.engine.Values.integerValue value) {
+      public Builder setNumberOfHoursConsidered(io.dstore.Values.integerValue value) {
         if (numberOfHoursConsideredBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2104,10 +2104,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
       public Builder setNumberOfHoursConsidered(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (numberOfHoursConsideredBuilder_ == null) {
           numberOfHoursConsidered_ = builderForValue.build();
           onChanged();
@@ -2118,13 +2118,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
-      public Builder mergeNumberOfHoursConsidered(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNumberOfHoursConsidered(io.dstore.Values.integerValue value) {
         if (numberOfHoursConsideredBuilder_ == null) {
           if (numberOfHoursConsidered_ != null) {
             numberOfHoursConsidered_ =
-              io.dstore.engine.Values.integerValue.newBuilder(numberOfHoursConsidered_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(numberOfHoursConsidered_).mergeFrom(value).buildPartial();
           } else {
             numberOfHoursConsidered_ = value;
           }
@@ -2136,7 +2136,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
       public Builder clearNumberOfHoursConsidered() {
         if (numberOfHoursConsideredBuilder_ == null) {
@@ -2150,33 +2150,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNumberOfHoursConsideredBuilder() {
+      public io.dstore.Values.integerValue.Builder getNumberOfHoursConsideredBuilder() {
         
         onChanged();
         return getNumberOfHoursConsideredFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNumberOfHoursConsideredOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNumberOfHoursConsideredOrBuilder() {
         if (numberOfHoursConsideredBuilder_ != null) {
           return numberOfHoursConsideredBuilder_.getMessageOrBuilder();
         } else {
           return numberOfHoursConsidered_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : numberOfHoursConsidered_;
+              io.dstore.Values.integerValue.getDefaultInstance() : numberOfHoursConsidered_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue number_of_hours_considered = 3;</code>
+       * <code>optional .dstore.values.integerValue number_of_hours_considered = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfHoursConsideredFieldBuilder() {
         if (numberOfHoursConsideredBuilder_ == null) {
           numberOfHoursConsideredBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfHoursConsidered(),
                   getParentForChildren(),
                   isClean());
@@ -2211,29 +2211,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityId_ = null;
+      private io.dstore.Values.integerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityId() {
+      public io.dstore.Values.integerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
-      public Builder setCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2247,10 +2247,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
       public Builder setCommunityId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -2261,13 +2261,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
-      public Builder mergeCommunityId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -2279,7 +2279,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -2293,33 +2293,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_id = 4;</code>
+       * <code>optional .dstore.values.integerValue community_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -2354,29 +2354,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2390,10 +2390,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -2404,13 +2404,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -2422,7 +2422,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2436,33 +2436,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 5;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -2497,29 +2497,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.Values.stringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.Values.stringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2533,10 +2533,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -2547,13 +2547,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.engine.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.engine.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -2565,7 +2565,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -2579,33 +2579,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue person_identification_values = 6;</code>
+       * <code>optional .dstore.values.stringValue person_identification_values = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -2640,29 +2640,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue onlineTimeDuringLastXMinutes_ = null;
+      private io.dstore.Values.integerValue onlineTimeDuringLastXMinutes_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> onlineTimeDuringLastXMinutesBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlineTimeDuringLastXMinutesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
       public boolean hasOnlineTimeDuringLastXMinutes() {
         return onlineTimeDuringLastXMinutesBuilder_ != null || onlineTimeDuringLastXMinutes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue getOnlineTimeDuringLastXMinutes() {
+      public io.dstore.Values.integerValue getOnlineTimeDuringLastXMinutes() {
         if (onlineTimeDuringLastXMinutesBuilder_ == null) {
-          return onlineTimeDuringLastXMinutes_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineTimeDuringLastXMinutes_;
+          return onlineTimeDuringLastXMinutes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineTimeDuringLastXMinutes_;
         } else {
           return onlineTimeDuringLastXMinutesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
-      public Builder setOnlineTimeDuringLastXMinutes(io.dstore.engine.Values.integerValue value) {
+      public Builder setOnlineTimeDuringLastXMinutes(io.dstore.Values.integerValue value) {
         if (onlineTimeDuringLastXMinutesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2676,10 +2676,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
       public Builder setOnlineTimeDuringLastXMinutes(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (onlineTimeDuringLastXMinutesBuilder_ == null) {
           onlineTimeDuringLastXMinutes_ = builderForValue.build();
           onChanged();
@@ -2690,13 +2690,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
-      public Builder mergeOnlineTimeDuringLastXMinutes(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOnlineTimeDuringLastXMinutes(io.dstore.Values.integerValue value) {
         if (onlineTimeDuringLastXMinutesBuilder_ == null) {
           if (onlineTimeDuringLastXMinutes_ != null) {
             onlineTimeDuringLastXMinutes_ =
-              io.dstore.engine.Values.integerValue.newBuilder(onlineTimeDuringLastXMinutes_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(onlineTimeDuringLastXMinutes_).mergeFrom(value).buildPartial();
           } else {
             onlineTimeDuringLastXMinutes_ = value;
           }
@@ -2708,7 +2708,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
       public Builder clearOnlineTimeDuringLastXMinutes() {
         if (onlineTimeDuringLastXMinutesBuilder_ == null) {
@@ -2722,33 +2722,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOnlineTimeDuringLastXMinutesBuilder() {
+      public io.dstore.Values.integerValue.Builder getOnlineTimeDuringLastXMinutesBuilder() {
         
         onChanged();
         return getOnlineTimeDuringLastXMinutesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOnlineTimeDuringLastXMinutesOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOnlineTimeDuringLastXMinutesOrBuilder() {
         if (onlineTimeDuringLastXMinutesBuilder_ != null) {
           return onlineTimeDuringLastXMinutesBuilder_.getMessageOrBuilder();
         } else {
           return onlineTimeDuringLastXMinutes_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineTimeDuringLastXMinutes_;
+              io.dstore.Values.integerValue.getDefaultInstance() : onlineTimeDuringLastXMinutes_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_during_last_x_minutes = 7;</code>
+       * <code>optional .dstore.values.integerValue online_time_during_last_x_minutes = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOnlineTimeDuringLastXMinutesFieldBuilder() {
         if (onlineTimeDuringLastXMinutesBuilder_ == null) {
           onlineTimeDuringLastXMinutesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOnlineTimeDuringLastXMinutes(),
                   getParentForChildren(),
                   isClean());
@@ -2783,29 +2783,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue getTopX_ = null;
+      private io.dstore.Values.integerValue getTopX_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> getTopXBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getTopXBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
       public boolean hasGetTopX() {
         return getTopXBuilder_ != null || getTopX_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue getGetTopX() {
+      public io.dstore.Values.integerValue getGetTopX() {
         if (getTopXBuilder_ == null) {
-          return getTopX_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getTopX_;
+          return getTopX_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getTopX_;
         } else {
           return getTopXBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
-      public Builder setGetTopX(io.dstore.engine.Values.integerValue value) {
+      public Builder setGetTopX(io.dstore.Values.integerValue value) {
         if (getTopXBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2819,10 +2819,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
       public Builder setGetTopX(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (getTopXBuilder_ == null) {
           getTopX_ = builderForValue.build();
           onChanged();
@@ -2833,13 +2833,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
-      public Builder mergeGetTopX(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGetTopX(io.dstore.Values.integerValue value) {
         if (getTopXBuilder_ == null) {
           if (getTopX_ != null) {
             getTopX_ =
-              io.dstore.engine.Values.integerValue.newBuilder(getTopX_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(getTopX_).mergeFrom(value).buildPartial();
           } else {
             getTopX_ = value;
           }
@@ -2851,7 +2851,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
       public Builder clearGetTopX() {
         if (getTopXBuilder_ == null) {
@@ -2865,33 +2865,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGetTopXBuilder() {
+      public io.dstore.Values.integerValue.Builder getGetTopXBuilder() {
         
         onChanged();
         return getGetTopXFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGetTopXOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGetTopXOrBuilder() {
         if (getTopXBuilder_ != null) {
           return getTopXBuilder_.getMessageOrBuilder();
         } else {
           return getTopX_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : getTopX_;
+              io.dstore.Values.integerValue.getDefaultInstance() : getTopX_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 8;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGetTopXFieldBuilder() {
         if (getTopXBuilder_ == null) {
           getTopXBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGetTopX(),
                   getParentForChildren(),
                   isClean());
@@ -2926,29 +2926,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId1_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId1_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId1Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
       public boolean hasOutputCharacteristicId1() {
         return outputCharacteristicId1Builder_ != null || outputCharacteristicId1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId1() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
-          return outputCharacteristicId1_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+          return outputCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         } else {
           return outputCharacteristicId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
-      public Builder setOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2962,10 +2962,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
       public Builder setOutputCharacteristicId1(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1_ = builderForValue.build();
           onChanged();
@@ -2976,13 +2976,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
-      public Builder mergeOutputCharacteristicId1(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId1(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId1Builder_ == null) {
           if (outputCharacteristicId1_ != null) {
             outputCharacteristicId1_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId1_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId1_ = value;
           }
@@ -2994,7 +2994,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
       public Builder clearOutputCharacteristicId1() {
         if (outputCharacteristicId1Builder_ == null) {
@@ -3008,33 +3008,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId1Builder() {
         
         onChanged();
         return getOutputCharacteristicId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId1OrBuilder() {
         if (outputCharacteristicId1Builder_ != null) {
           return outputCharacteristicId1Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId1_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId1_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id1 = 9;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id1 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId1FieldBuilder() {
         if (outputCharacteristicId1Builder_ == null) {
           outputCharacteristicId1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId1(),
                   getParentForChildren(),
                   isClean());
@@ -3069,29 +3069,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId2_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId2_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId2Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
       public boolean hasOutputCharacteristicId2() {
         return outputCharacteristicId2Builder_ != null || outputCharacteristicId2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId2() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
-          return outputCharacteristicId2_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+          return outputCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         } else {
           return outputCharacteristicId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
-      public Builder setOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3105,10 +3105,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
       public Builder setOutputCharacteristicId2(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2_ = builderForValue.build();
           onChanged();
@@ -3119,13 +3119,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
-      public Builder mergeOutputCharacteristicId2(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId2(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId2Builder_ == null) {
           if (outputCharacteristicId2_ != null) {
             outputCharacteristicId2_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId2_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId2_ = value;
           }
@@ -3137,7 +3137,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
       public Builder clearOutputCharacteristicId2() {
         if (outputCharacteristicId2Builder_ == null) {
@@ -3151,33 +3151,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId2Builder() {
         
         onChanged();
         return getOutputCharacteristicId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId2OrBuilder() {
         if (outputCharacteristicId2Builder_ != null) {
           return outputCharacteristicId2Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId2_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId2_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id2 = 10;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id2 = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId2FieldBuilder() {
         if (outputCharacteristicId2Builder_ == null) {
           outputCharacteristicId2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId2(),
                   getParentForChildren(),
                   isClean());
@@ -3212,29 +3212,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue outputCharacteristicId3_ = null;
+      private io.dstore.Values.integerValue outputCharacteristicId3_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicId3Builder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
       public boolean hasOutputCharacteristicId3() {
         return outputCharacteristicId3Builder_ != null || outputCharacteristicId3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue getOutputCharacteristicId3() {
+      public io.dstore.Values.integerValue getOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
-          return outputCharacteristicId3_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+          return outputCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         } else {
           return outputCharacteristicId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
-      public Builder setOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder setOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3248,10 +3248,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
       public Builder setOutputCharacteristicId3(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3_ = builderForValue.build();
           onChanged();
@@ -3262,13 +3262,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
-      public Builder mergeOutputCharacteristicId3(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId3(io.dstore.Values.integerValue value) {
         if (outputCharacteristicId3Builder_ == null) {
           if (outputCharacteristicId3_ != null) {
             outputCharacteristicId3_ =
-              io.dstore.engine.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId3_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId3_ = value;
           }
@@ -3280,7 +3280,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
       public Builder clearOutputCharacteristicId3() {
         if (outputCharacteristicId3Builder_ == null) {
@@ -3294,33 +3294,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
+      public io.dstore.Values.integerValue.Builder getOutputCharacteristicId3Builder() {
         
         onChanged();
         return getOutputCharacteristicId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicId3OrBuilder() {
         if (outputCharacteristicId3Builder_ != null) {
           return outputCharacteristicId3Builder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId3_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
+              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId3_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue output_characteristic_id3 = 11;</code>
+       * <code>optional .dstore.values.integerValue output_characteristic_id3 = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputCharacteristicId3FieldBuilder() {
         if (outputCharacteristicId3Builder_ == null) {
           outputCharacteristicId3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputCharacteristicId3(),
                   getParentForChildren(),
                   isClean());
@@ -3355,29 +3355,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue communityBinaryCategoryId_ = null;
+      private io.dstore.Values.integerValue communityBinaryCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
-      public io.dstore.engine.Values.integerValue getCommunityBinaryCategoryId() {
+      public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
-          return communityBinaryCategoryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+          return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
         } else {
           return communityBinaryCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
-      public Builder setCommunityBinaryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3391,10 +3391,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
       public Builder setCommunityBinaryCategoryId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryId_ = builderForValue.build();
           onChanged();
@@ -3405,13 +3405,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
-      public Builder mergeCommunityBinaryCategoryId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (communityBinaryCategoryId_ != null) {
             communityBinaryCategoryId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
           } else {
             communityBinaryCategoryId_ = value;
           }
@@ -3423,7 +3423,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -3437,33 +3437,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
         onChanged();
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
           return communityBinaryCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return communityBinaryCategoryId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_binary_category_id = 12;</code>
+       * <code>optional .dstore.values.integerValue community_binary_category_id = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityBinaryCategoryIdFieldBuilder() {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityBinaryCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -3498,29 +3498,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue orderByNick_ = null;
+      private io.dstore.Values.booleanValue orderByNick_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> orderByNickBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderByNickBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
       public boolean hasOrderByNick() {
         return orderByNickBuilder_ != null || orderByNick_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOrderByNick() {
+      public io.dstore.Values.booleanValue getOrderByNick() {
         if (orderByNickBuilder_ == null) {
-          return orderByNick_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : orderByNick_;
+          return orderByNick_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByNick_;
         } else {
           return orderByNickBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
-      public Builder setOrderByNick(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOrderByNick(io.dstore.Values.booleanValue value) {
         if (orderByNickBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3534,10 +3534,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
       public Builder setOrderByNick(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (orderByNickBuilder_ == null) {
           orderByNick_ = builderForValue.build();
           onChanged();
@@ -3548,13 +3548,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
-      public Builder mergeOrderByNick(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOrderByNick(io.dstore.Values.booleanValue value) {
         if (orderByNickBuilder_ == null) {
           if (orderByNick_ != null) {
             orderByNick_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(orderByNick_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(orderByNick_).mergeFrom(value).buildPartial();
           } else {
             orderByNick_ = value;
           }
@@ -3566,7 +3566,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
       public Builder clearOrderByNick() {
         if (orderByNickBuilder_ == null) {
@@ -3580,33 +3580,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOrderByNickBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOrderByNickBuilder() {
         
         onChanged();
         return getOrderByNickFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOrderByNickOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOrderByNickOrBuilder() {
         if (orderByNickBuilder_ != null) {
           return orderByNickBuilder_.getMessageOrBuilder();
         } else {
           return orderByNick_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : orderByNick_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : orderByNick_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue order_by_nick = 13;</code>
+       * <code>optional .dstore.values.booleanValue order_by_nick = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOrderByNickFieldBuilder() {
         if (orderByNickBuilder_ == null) {
           orderByNickBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOrderByNick(),
                   getParentForChildren(),
                   isClean());
@@ -3641,29 +3641,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue onlineStatusInsteadOfIsOnline_ = null;
+      private io.dstore.Values.booleanValue onlineStatusInsteadOfIsOnline_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> onlineStatusInsteadOfIsOnlineBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlineStatusInsteadOfIsOnlineBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
       public boolean hasOnlineStatusInsteadOfIsOnline() {
         return onlineStatusInsteadOfIsOnlineBuilder_ != null || onlineStatusInsteadOfIsOnline_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOnlineStatusInsteadOfIsOnline() {
+      public io.dstore.Values.booleanValue getOnlineStatusInsteadOfIsOnline() {
         if (onlineStatusInsteadOfIsOnlineBuilder_ == null) {
-          return onlineStatusInsteadOfIsOnline_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlineStatusInsteadOfIsOnline_;
+          return onlineStatusInsteadOfIsOnline_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlineStatusInsteadOfIsOnline_;
         } else {
           return onlineStatusInsteadOfIsOnlineBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
-      public Builder setOnlineStatusInsteadOfIsOnline(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOnlineStatusInsteadOfIsOnline(io.dstore.Values.booleanValue value) {
         if (onlineStatusInsteadOfIsOnlineBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3677,10 +3677,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
       public Builder setOnlineStatusInsteadOfIsOnline(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (onlineStatusInsteadOfIsOnlineBuilder_ == null) {
           onlineStatusInsteadOfIsOnline_ = builderForValue.build();
           onChanged();
@@ -3691,13 +3691,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
-      public Builder mergeOnlineStatusInsteadOfIsOnline(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOnlineStatusInsteadOfIsOnline(io.dstore.Values.booleanValue value) {
         if (onlineStatusInsteadOfIsOnlineBuilder_ == null) {
           if (onlineStatusInsteadOfIsOnline_ != null) {
             onlineStatusInsteadOfIsOnline_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(onlineStatusInsteadOfIsOnline_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(onlineStatusInsteadOfIsOnline_).mergeFrom(value).buildPartial();
           } else {
             onlineStatusInsteadOfIsOnline_ = value;
           }
@@ -3709,7 +3709,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
       public Builder clearOnlineStatusInsteadOfIsOnline() {
         if (onlineStatusInsteadOfIsOnlineBuilder_ == null) {
@@ -3723,33 +3723,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOnlineStatusInsteadOfIsOnlineBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOnlineStatusInsteadOfIsOnlineBuilder() {
         
         onChanged();
         return getOnlineStatusInsteadOfIsOnlineFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOnlineStatusInsteadOfIsOnlineOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOnlineStatusInsteadOfIsOnlineOrBuilder() {
         if (onlineStatusInsteadOfIsOnlineBuilder_ != null) {
           return onlineStatusInsteadOfIsOnlineBuilder_.getMessageOrBuilder();
         } else {
           return onlineStatusInsteadOfIsOnline_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlineStatusInsteadOfIsOnline_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : onlineStatusInsteadOfIsOnline_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_status_instead_of_is_online = 14;</code>
+       * <code>optional .dstore.values.booleanValue online_status_instead_of_is_online = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlineStatusInsteadOfIsOnlineFieldBuilder() {
         if (onlineStatusInsteadOfIsOnlineBuilder_ == null) {
           onlineStatusInsteadOfIsOnlineBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlineStatusInsteadOfIsOnline(),
                   getParentForChildren(),
                   isClean());
@@ -3784,29 +3784,29 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
-      public io.dstore.engine.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3820,10 +3820,10 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -3834,13 +3834,13 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.engine.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -3852,7 +3852,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3866,33 +3866,33 @@ public final class CoGetOnlineTimeOfMembersPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue separator_in_ident_vals = 15;</code>
+       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -4214,7 +4214,7 @@ public final class CoGetOnlineTimeOfMembersPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -4222,24 +4222,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1RestrictedByPattern();
+      io.dstore.Values.stringValue getValue1RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -4247,24 +4247,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasBinaryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBinaryId();
+      io.dstore.Values.integerValue getBinaryId();
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+       * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
        *
        * <pre>
        * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
@@ -4272,24 +4272,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasOnlineTimeInSeconds();
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+       * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
        *
        * <pre>
        * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getOnlineTimeInSeconds();
+      io.dstore.Values.integerValue getOnlineTimeInSeconds();
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+       * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
        *
        * <pre>
        * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getOnlineTimeInSecondsOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getOnlineTimeInSecondsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -4297,24 +4297,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2RestrictedByPattern();
+      io.dstore.Values.stringValue getValue2RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
@@ -4322,24 +4322,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasCommunityMemberId();
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCommunityMemberId();
+      io.dstore.Values.integerValue getCommunityMemberId();
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10006;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -4347,24 +4347,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10006;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3();
+      io.dstore.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10006;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10007;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
@@ -4372,24 +4372,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasOnlineStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10007;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getOnlineStatus();
+      io.dstore.Values.integerValue getOnlineStatus();
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10007;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getOnlineStatusOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -4397,24 +4397,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue1();
+      io.dstore.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -4422,24 +4422,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue2();
+      io.dstore.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -4447,24 +4447,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue3RestrictedByPattern();
+      io.dstore.Values.stringValue getValue3RestrictedByPattern();
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10011;</code>
        *
        * <pre>
        * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
@@ -4472,24 +4472,24 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10011;</code>
        *
        * <pre>
        * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getNickname();
+      io.dstore.Values.stringValue getNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10011;</code>
        *
        * <pre>
        * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+       * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
@@ -4497,21 +4497,21 @@ public final class CoGetOnlineTimeOfMembersPu {
        */
       boolean hasIsOnline();
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+       * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getIsOnline();
+      io.dstore.Values.booleanValue getIsOnline();
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+       * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getIsOnlineOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getIsOnlineOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetOnlineTimeOfMembers_Pu.Response.Row}
@@ -4558,11 +4558,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1RestrictedByPattern_ != null) {
                   subBuilder = value1RestrictedByPattern_.toBuilder();
                 }
-                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1RestrictedByPattern_);
                   value1RestrictedByPattern_ = subBuilder.buildPartial();
@@ -4571,11 +4571,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (binaryId_ != null) {
                   subBuilder = binaryId_.toBuilder();
                 }
-                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryId_);
                   binaryId_ = subBuilder.buildPartial();
@@ -4584,11 +4584,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (onlineTimeInSeconds_ != null) {
                   subBuilder = onlineTimeInSeconds_.toBuilder();
                 }
-                onlineTimeInSeconds_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                onlineTimeInSeconds_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(onlineTimeInSeconds_);
                   onlineTimeInSeconds_ = subBuilder.buildPartial();
@@ -4597,11 +4597,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2RestrictedByPattern_ != null) {
                   subBuilder = value2RestrictedByPattern_.toBuilder();
                 }
-                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2RestrictedByPattern_);
                   value2RestrictedByPattern_ = subBuilder.buildPartial();
@@ -4610,11 +4610,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (communityMemberId_ != null) {
                   subBuilder = communityMemberId_.toBuilder();
                 }
-                communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityMemberId_);
                   communityMemberId_ = subBuilder.buildPartial();
@@ -4623,11 +4623,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -4636,11 +4636,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (onlineStatus_ != null) {
                   subBuilder = onlineStatus_.toBuilder();
                 }
-                onlineStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                onlineStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(onlineStatus_);
                   onlineStatus_ = subBuilder.buildPartial();
@@ -4649,11 +4649,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -4662,11 +4662,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -4675,11 +4675,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value3RestrictedByPattern_ != null) {
                   subBuilder = value3RestrictedByPattern_.toBuilder();
                 }
-                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value3RestrictedByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3RestrictedByPattern_);
                   value3RestrictedByPattern_ = subBuilder.buildPartial();
@@ -4688,11 +4688,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (nickname_ != null) {
                   subBuilder = nickname_.toBuilder();
                 }
-                nickname_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                nickname_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nickname_);
                   nickname_ = subBuilder.buildPartial();
@@ -4701,11 +4701,11 @@ public final class CoGetOnlineTimeOfMembersPu {
                 break;
               }
               case 80098: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (isOnline_ != null) {
                   subBuilder = isOnline_.toBuilder();
                 }
-                isOnline_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                isOnline_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(isOnline_);
                   isOnline_ = subBuilder.buildPartial();
@@ -4747,9 +4747,9 @@ public final class CoGetOnlineTimeOfMembersPu {
       }
 
       public static final int VALUE1_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue value1RestrictedByPattern_;
+      private io.dstore.Values.stringValue value1RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -4759,30 +4759,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return value1RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
-        return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
+        return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
        *
        * <pre>
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
         return getValue1RestrictedByPattern();
       }
 
       public static final int BINARY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue binaryId_;
+      private io.dstore.Values.integerValue binaryId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -4792,30 +4792,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBinaryId() {
-        return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+      public io.dstore.Values.integerValue getBinaryId() {
+        return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
        *
        * <pre>
        * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
         return getBinaryId();
       }
 
       public static final int ONLINE_TIME_IN_SECONDS_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue onlineTimeInSeconds_;
+      private io.dstore.Values.integerValue onlineTimeInSeconds_;
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+       * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
        *
        * <pre>
        * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
@@ -4825,30 +4825,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return onlineTimeInSeconds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+       * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
        *
        * <pre>
        * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getOnlineTimeInSeconds() {
-        return onlineTimeInSeconds_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineTimeInSeconds_;
+      public io.dstore.Values.integerValue getOnlineTimeInSeconds() {
+        return onlineTimeInSeconds_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineTimeInSeconds_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+       * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
        *
        * <pre>
        * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOnlineTimeInSecondsOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOnlineTimeInSecondsOrBuilder() {
         return getOnlineTimeInSeconds();
       }
 
       public static final int VALUE2_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue value2RestrictedByPattern_;
+      private io.dstore.Values.stringValue value2RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -4858,30 +4858,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return value2RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
-        return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
+        return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+       * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
        *
        * <pre>
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
         return getValue2RestrictedByPattern();
       }
 
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue communityMemberId_;
+      private io.dstore.Values.integerValue communityMemberId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
@@ -4891,30 +4891,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCommunityMemberId() {
-        return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+      public io.dstore.Values.integerValue getCommunityMemberId() {
+        return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
        *
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
       }
 
       public static final int VALUE3_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.stringValue value3_;
+      private io.dstore.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10006;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -4924,30 +4924,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10006;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3() {
-        return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+      public io.dstore.Values.stringValue getValue3() {
+        return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+       * <code>optional .dstore.values.stringValue value3 = 10006;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
       }
 
       public static final int ONLINE_STATUS_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue onlineStatus_;
+      private io.dstore.Values.integerValue onlineStatus_;
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10007;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
@@ -4957,30 +4957,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return onlineStatus_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10007;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getOnlineStatus() {
-        return onlineStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineStatus_;
+      public io.dstore.Values.integerValue getOnlineStatus() {
+        return onlineStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+       * <code>optional .dstore.values.integerValue online_status = 10007;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
         return getOnlineStatus();
       }
 
       public static final int VALUE1_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.stringValue value1_;
+      private io.dstore.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -4990,30 +4990,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue1() {
-        return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+      public io.dstore.Values.stringValue getValue1() {
+        return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+       * <code>optional .dstore.values.stringValue value1 = 10008;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
       }
 
       public static final int VALUE2_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue value2_;
+      private io.dstore.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -5023,30 +5023,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue2() {
-        return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+      public io.dstore.Values.stringValue getValue2() {
+        return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+       * <code>optional .dstore.values.stringValue value2 = 10009;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
       }
 
       public static final int VALUE3_RESTRICTED_BY_PATTERN_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.stringValue value3RestrictedByPattern_;
+      private io.dstore.Values.stringValue value3RestrictedByPattern_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -5056,30 +5056,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return value3RestrictedByPattern_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
-        return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+      public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
+        return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+       * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
        *
        * <pre>
        * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
         return getValue3RestrictedByPattern();
       }
 
       public static final int NICKNAME_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.stringValue nickname_;
+      private io.dstore.Values.stringValue nickname_;
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10011;</code>
        *
        * <pre>
        * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
@@ -5089,30 +5089,30 @@ public final class CoGetOnlineTimeOfMembersPu {
         return nickname_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10011;</code>
        *
        * <pre>
        * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getNickname() {
-        return nickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+      public io.dstore.Values.stringValue getNickname() {
+        return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+       * <code>optional .dstore.values.stringValue nickname = 10011;</code>
        *
        * <pre>
        * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
         return getNickname();
       }
 
       public static final int IS_ONLINE_FIELD_NUMBER = 10012;
-      private io.dstore.engine.Values.booleanValue isOnline_;
+      private io.dstore.Values.booleanValue isOnline_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+       * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
@@ -5122,23 +5122,23 @@ public final class CoGetOnlineTimeOfMembersPu {
         return isOnline_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+       * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getIsOnline() {
-        return isOnline_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isOnline_;
+      public io.dstore.Values.booleanValue getIsOnline() {
+        return isOnline_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isOnline_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+       * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
        *
        * <pre>
        * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIsOnlineOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIsOnlineOrBuilder() {
         return getIsOnline();
       }
 
@@ -5626,11 +5626,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue value1RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value1RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -5640,27 +5640,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value1RestrictedByPatternBuilder_ != null || value1RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
-            return value1RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+            return value1RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           } else {
             return value1RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder setValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5674,14 +5674,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         public Builder setValue1RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -5692,17 +5692,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue1RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
             if (value1RestrictedByPattern_ != null) {
               value1RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value1RestrictedByPattern_ = value;
             }
@@ -5714,7 +5714,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
@@ -5732,45 +5732,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue1RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue1RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
           if (value1RestrictedByPatternBuilder_ != null) {
             return value1RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value1RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.stringValue value1_restricted_by_pattern = 10001;</code>
          *
          * <pre>
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1RestrictedByPatternFieldBuilder() {
           if (value1RestrictedByPatternBuilder_ == null) {
             value1RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -5779,11 +5779,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value1RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue binaryId_ = null;
+        private io.dstore.Values.integerValue binaryId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> binaryIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -5793,27 +5793,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return binaryIdBuilder_ != null || binaryId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBinaryId() {
+        public io.dstore.Values.integerValue getBinaryId() {
           if (binaryIdBuilder_ == null) {
-            return binaryId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+            return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
           } else {
             return binaryIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public Builder setBinaryId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5827,14 +5827,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
         public Builder setBinaryId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (binaryIdBuilder_ == null) {
             binaryId_ = builderForValue.build();
             onChanged();
@@ -5845,17 +5845,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public Builder mergeBinaryId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
           if (binaryIdBuilder_ == null) {
             if (binaryId_ != null) {
               binaryId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
             } else {
               binaryId_ = value;
             }
@@ -5867,7 +5867,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
@@ -5885,45 +5885,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBinaryIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
           
           onChanged();
           return getBinaryIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
           if (binaryIdBuilder_ != null) {
             return binaryIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : binaryId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue binary_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue binary_id = 10002;</code>
          *
          * <pre>
          * Falls "&#64;CommunityBinaryCategoryID" angegeben wurde, steht hier die kleinste "BinaryID", die dem Mitglied "CommunityMemberID" in der Kategorie "&#64;CommunityBinaryCategoryID" zugeordnet ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryIdFieldBuilder() {
           if (binaryIdBuilder_ == null) {
             binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryId(),
                     getParentForChildren(),
                     isClean());
@@ -5932,11 +5932,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return binaryIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue onlineTimeInSeconds_ = null;
+        private io.dstore.Values.integerValue onlineTimeInSeconds_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> onlineTimeInSecondsBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlineTimeInSecondsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
@@ -5946,27 +5946,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return onlineTimeInSecondsBuilder_ != null || onlineTimeInSeconds_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getOnlineTimeInSeconds() {
+        public io.dstore.Values.integerValue getOnlineTimeInSeconds() {
           if (onlineTimeInSecondsBuilder_ == null) {
-            return onlineTimeInSeconds_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineTimeInSeconds_;
+            return onlineTimeInSeconds_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineTimeInSeconds_;
           } else {
             return onlineTimeInSecondsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
-        public Builder setOnlineTimeInSeconds(io.dstore.engine.Values.integerValue value) {
+        public Builder setOnlineTimeInSeconds(io.dstore.Values.integerValue value) {
           if (onlineTimeInSecondsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5980,14 +5980,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
         public Builder setOnlineTimeInSeconds(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (onlineTimeInSecondsBuilder_ == null) {
             onlineTimeInSeconds_ = builderForValue.build();
             onChanged();
@@ -5998,17 +5998,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
-        public Builder mergeOnlineTimeInSeconds(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeOnlineTimeInSeconds(io.dstore.Values.integerValue value) {
           if (onlineTimeInSecondsBuilder_ == null) {
             if (onlineTimeInSeconds_ != null) {
               onlineTimeInSeconds_ =
-                io.dstore.engine.Values.integerValue.newBuilder(onlineTimeInSeconds_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(onlineTimeInSeconds_).mergeFrom(value).buildPartial();
             } else {
               onlineTimeInSeconds_ = value;
             }
@@ -6020,7 +6020,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
@@ -6038,45 +6038,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getOnlineTimeInSecondsBuilder() {
+        public io.dstore.Values.integerValue.Builder getOnlineTimeInSecondsBuilder() {
           
           onChanged();
           return getOnlineTimeInSecondsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getOnlineTimeInSecondsOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getOnlineTimeInSecondsOrBuilder() {
           if (onlineTimeInSecondsBuilder_ != null) {
             return onlineTimeInSecondsBuilder_.getMessageOrBuilder();
           } else {
             return onlineTimeInSeconds_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineTimeInSeconds_;
+                io.dstore.Values.integerValue.getDefaultInstance() : onlineTimeInSeconds_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_time_in_seconds = 10003;</code>
+         * <code>optional .dstore.values.integerValue online_time_in_seconds = 10003;</code>
          *
          * <pre>
          * Die Online-Zeit des Mitglieds "CommunityMemberID" in den letzten "&#64;OnlineTimeDuringLastXMinutes" Minuten
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOnlineTimeInSecondsFieldBuilder() {
           if (onlineTimeInSecondsBuilder_ == null) {
             onlineTimeInSecondsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOnlineTimeInSeconds(),
                     getParentForChildren(),
                     isClean());
@@ -6085,11 +6085,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return onlineTimeInSecondsBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value2RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -6099,27 +6099,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value2RestrictedByPatternBuilder_ != null || value2RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
-            return value2RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+            return value2RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           } else {
             return value2RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder setValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6133,14 +6133,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         public Builder setValue2RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -6151,17 +6151,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public Builder mergeValue2RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
             if (value2RestrictedByPattern_ != null) {
               value2RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value2RestrictedByPattern_ = value;
             }
@@ -6173,7 +6173,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
@@ -6191,45 +6191,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue2RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue2RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
           if (value2RestrictedByPatternBuilder_ != null) {
             return value2RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value2RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2_restricted_by_pattern = 10004;</code>
+         * <code>optional .dstore.values.stringValue value2_restricted_by_pattern = 10004;</code>
          *
          * <pre>
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2RestrictedByPatternFieldBuilder() {
           if (value2RestrictedByPatternBuilder_ == null) {
             value2RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -6238,11 +6238,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value2RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue communityMemberId_ = null;
+        private io.dstore.Values.integerValue communityMemberId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
@@ -6252,27 +6252,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCommunityMemberId() {
+        public io.dstore.Values.integerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
-            return communityMemberId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+            return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
           } else {
             return communityMemberIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
-        public Builder setCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6286,14 +6286,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
         public Builder setCommunityMemberId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (communityMemberIdBuilder_ == null) {
             communityMemberId_ = builderForValue.build();
             onChanged();
@@ -6304,17 +6304,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
-        public Builder mergeCommunityMemberId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (communityMemberId_ != null) {
               communityMemberId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
             } else {
               communityMemberId_ = value;
             }
@@ -6326,7 +6326,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
@@ -6344,45 +6344,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
           
           onChanged();
           return getCommunityMemberIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
             return communityMemberIdBuilder_.getMessageOrBuilder();
           } else {
             return communityMemberId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : communityMemberId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue community_member_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue community_member_id = 10005;</code>
          *
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID". Im Fall "&#64;GetTopX = NULL" eine ID, die in "tempdb.dbo.OneID" übergeben wurde, ansonsten die ID eines Mitglieds, das zu den "Top-&lt;&#64;GetTopX&gt;" aller Mitglieder bzgl. Online-Zeit gehört.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCommunityMemberIdFieldBuilder() {
           if (communityMemberIdBuilder_ == null) {
             communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCommunityMemberId(),
                     getParentForChildren(),
                     isClean());
@@ -6391,11 +6391,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return communityMemberIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3_ = null;
+        private io.dstore.Values.stringValue value3_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -6405,27 +6405,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3() {
+        public io.dstore.Values.stringValue getValue3() {
           if (value3Builder_ == null) {
-            return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+            return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           } else {
             return value3Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder setValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6439,14 +6439,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         public Builder setValue3(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3Builder_ == null) {
             value3_ = builderForValue.build();
             onChanged();
@@ -6457,17 +6457,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public Builder mergeValue3(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3(io.dstore.Values.stringValue value) {
           if (value3Builder_ == null) {
             if (value3_ != null) {
               value3_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
             } else {
               value3_ = value;
             }
@@ -6479,7 +6479,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
@@ -6497,45 +6497,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3Builder() {
+        public io.dstore.Values.stringValue.Builder getValue3Builder() {
           
           onChanged();
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
             return value3Builder_.getMessageOrBuilder();
           } else {
             return value3_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3 = 10006;</code>
+         * <code>optional .dstore.values.stringValue value3 = 10006;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID3"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
             value3Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
                     isClean());
@@ -6544,11 +6544,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value3Builder_;
         }
 
-        private io.dstore.engine.Values.integerValue onlineStatus_ = null;
+        private io.dstore.Values.integerValue onlineStatus_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> onlineStatusBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlineStatusBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
@@ -6558,27 +6558,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return onlineStatusBuilder_ != null || onlineStatus_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getOnlineStatus() {
+        public io.dstore.Values.integerValue getOnlineStatus() {
           if (onlineStatusBuilder_ == null) {
-            return onlineStatus_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineStatus_;
+            return onlineStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
           } else {
             return onlineStatusBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
-        public Builder setOnlineStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder setOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6592,14 +6592,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
         public Builder setOnlineStatus(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (onlineStatusBuilder_ == null) {
             onlineStatus_ = builderForValue.build();
             onChanged();
@@ -6610,17 +6610,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
-        public Builder mergeOnlineStatus(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeOnlineStatus(io.dstore.Values.integerValue value) {
           if (onlineStatusBuilder_ == null) {
             if (onlineStatus_ != null) {
               onlineStatus_ =
-                io.dstore.engine.Values.integerValue.newBuilder(onlineStatus_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(onlineStatus_).mergeFrom(value).buildPartial();
             } else {
               onlineStatus_ = value;
             }
@@ -6632,7 +6632,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
@@ -6650,45 +6650,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getOnlineStatusBuilder() {
+        public io.dstore.Values.integerValue.Builder getOnlineStatusBuilder() {
           
           onChanged();
           return getOnlineStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getOnlineStatusOrBuilder() {
           if (onlineStatusBuilder_ != null) {
             return onlineStatusBuilder_.getMessageOrBuilder();
           } else {
             return onlineStatus_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : onlineStatus_;
+                io.dstore.Values.integerValue.getDefaultInstance() : onlineStatus_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue online_status = 10007;</code>
+         * <code>optional .dstore.values.integerValue online_status = 10007;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 0" ist, ist dieser Wert immer "NULL". Andernfalls kann hier zwar auch "NULL" stehen, dies bedeutet aber dann, daß das Mitglied "offline" ist - ansonsten steht dort der Status aus "CurrentlyUsersOnline".
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOnlineStatusFieldBuilder() {
           if (onlineStatusBuilder_ == null) {
             onlineStatusBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOnlineStatus(),
                     getParentForChildren(),
                     isClean());
@@ -6697,11 +6697,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return onlineStatusBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value1_ = null;
+        private io.dstore.Values.stringValue value1_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -6711,27 +6711,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue1() {
+        public io.dstore.Values.stringValue getValue1() {
           if (value1Builder_ == null) {
-            return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+            return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           } else {
             return value1Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder setValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6745,14 +6745,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         public Builder setValue1(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value1Builder_ == null) {
             value1_ = builderForValue.build();
             onChanged();
@@ -6763,17 +6763,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public Builder mergeValue1(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue1(io.dstore.Values.stringValue value) {
           if (value1Builder_ == null) {
             if (value1_ != null) {
               value1_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
             } else {
               value1_ = value;
             }
@@ -6785,7 +6785,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
@@ -6803,45 +6803,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue1Builder() {
+        public io.dstore.Values.stringValue.Builder getValue1Builder() {
           
           onChanged();
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue1OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
             return value1Builder_.getMessageOrBuilder();
           } else {
             return value1_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value1_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value1 = 10008;</code>
+         * <code>optional .dstore.values.stringValue value1 = 10008;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID1"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
             value1Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
                     isClean());
@@ -6850,11 +6850,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value1Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value2_ = null;
+        private io.dstore.Values.stringValue value2_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -6864,27 +6864,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue2() {
+        public io.dstore.Values.stringValue getValue2() {
           if (value2Builder_ == null) {
-            return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+            return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           } else {
             return value2Builder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder setValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6898,14 +6898,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         public Builder setValue2(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value2Builder_ == null) {
             value2_ = builderForValue.build();
             onChanged();
@@ -6916,17 +6916,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public Builder mergeValue2(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue2(io.dstore.Values.stringValue value) {
           if (value2Builder_ == null) {
             if (value2_ != null) {
               value2_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
             } else {
               value2_ = value;
             }
@@ -6938,7 +6938,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
@@ -6956,45 +6956,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue2Builder() {
+        public io.dstore.Values.stringValue.Builder getValue2Builder() {
           
           onChanged();
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
             return value2Builder_.getMessageOrBuilder();
           } else {
             return value2_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value2_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value2 = 10009;</code>
+         * <code>optional .dstore.values.stringValue value2 = 10009;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zum Merkmal "&#64;OutputCharacteristicID2"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
             value2Builder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
                     isClean());
@@ -7003,11 +7003,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value2Builder_;
         }
 
-        private io.dstore.engine.Values.stringValue value3RestrictedByPattern_ = null;
+        private io.dstore.Values.stringValue value3RestrictedByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3RestrictedByPatternBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -7017,27 +7017,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value3RestrictedByPatternBuilder_ != null || value3RestrictedByPattern_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue3RestrictedByPattern() {
+        public io.dstore.Values.stringValue getValue3RestrictedByPattern() {
           if (value3RestrictedByPatternBuilder_ == null) {
-            return value3RestrictedByPattern_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+            return value3RestrictedByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           } else {
             return value3RestrictedByPatternBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder setValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7051,14 +7051,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         public Builder setValue3RestrictedByPattern(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPattern_ = builderForValue.build();
             onChanged();
@@ -7069,17 +7069,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public Builder mergeValue3RestrictedByPattern(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue3RestrictedByPattern(io.dstore.Values.stringValue value) {
           if (value3RestrictedByPatternBuilder_ == null) {
             if (value3RestrictedByPattern_ != null) {
               value3RestrictedByPattern_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value3RestrictedByPattern_).mergeFrom(value).buildPartial();
             } else {
               value3RestrictedByPattern_ = value;
             }
@@ -7091,7 +7091,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
@@ -7109,45 +7109,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
+        public io.dstore.Values.stringValue.Builder getValue3RestrictedByPatternBuilder() {
           
           onChanged();
           return getValue3RestrictedByPatternFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValue3RestrictedByPatternOrBuilder() {
           if (value3RestrictedByPatternBuilder_ != null) {
             return value3RestrictedByPatternBuilder_.getMessageOrBuilder();
           } else {
             return value3RestrictedByPattern_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value3RestrictedByPattern_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value3_restricted_by_pattern = 10010;</code>
+         * <code>optional .dstore.values.stringValue value3_restricted_by_pattern = 10010;</code>
          *
          * <pre>
          * Was enthält "Value3" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value3" ist dann NULL
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3RestrictedByPatternFieldBuilder() {
           if (value3RestrictedByPatternBuilder_ == null) {
             value3RestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3RestrictedByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -7156,11 +7156,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return value3RestrictedByPatternBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue nickname_ = null;
+        private io.dstore.Values.stringValue nickname_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nicknameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
@@ -7170,27 +7170,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return nicknameBuilder_ != null || nickname_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getNickname() {
+        public io.dstore.Values.stringValue getNickname() {
           if (nicknameBuilder_ == null) {
-            return nickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+            return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
           } else {
             return nicknameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
-        public Builder setNickname(io.dstore.engine.Values.stringValue value) {
+        public Builder setNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7204,14 +7204,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
         public Builder setNickname(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (nicknameBuilder_ == null) {
             nickname_ = builderForValue.build();
             onChanged();
@@ -7222,17 +7222,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
-        public Builder mergeNickname(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeNickname(io.dstore.Values.stringValue value) {
           if (nicknameBuilder_ == null) {
             if (nickname_ != null) {
               nickname_ =
-                io.dstore.engine.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
             } else {
               nickname_ = value;
             }
@@ -7244,7 +7244,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
@@ -7262,45 +7262,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getNicknameBuilder() {
+        public io.dstore.Values.stringValue.Builder getNicknameBuilder() {
           
           onChanged();
           return getNicknameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getNicknameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
           if (nicknameBuilder_ != null) {
             return nicknameBuilder_.getMessageOrBuilder();
           } else {
             return nickname_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : nickname_;
+                io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname = 10011;</code>
+         * <code>optional .dstore.values.stringValue nickname = 10011;</code>
          *
          * <pre>
          * (Fehlte in 3.5.4 bis 3.5.9) Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Mitglieder sich untereinander eindeutig erkennen können : Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNicknameFieldBuilder() {
           if (nicknameBuilder_ == null) {
             nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNickname(),
                     getParentForChildren(),
                     isClean());
@@ -7309,11 +7309,11 @@ public final class CoGetOnlineTimeOfMembersPu {
           return nicknameBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue isOnline_ = null;
+        private io.dstore.Values.booleanValue isOnline_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> isOnlineBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isOnlineBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
@@ -7323,27 +7323,27 @@ public final class CoGetOnlineTimeOfMembersPu {
           return isOnlineBuilder_ != null || isOnline_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getIsOnline() {
+        public io.dstore.Values.booleanValue getIsOnline() {
           if (isOnlineBuilder_ == null) {
-            return isOnline_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isOnline_;
+            return isOnline_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isOnline_;
           } else {
             return isOnlineBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
-        public Builder setIsOnline(io.dstore.engine.Values.booleanValue value) {
+        public Builder setIsOnline(io.dstore.Values.booleanValue value) {
           if (isOnlineBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7357,14 +7357,14 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
         public Builder setIsOnline(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (isOnlineBuilder_ == null) {
             isOnline_ = builderForValue.build();
             onChanged();
@@ -7375,17 +7375,17 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
-        public Builder mergeIsOnline(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeIsOnline(io.dstore.Values.booleanValue value) {
           if (isOnlineBuilder_ == null) {
             if (isOnline_ != null) {
               isOnline_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(isOnline_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(isOnline_).mergeFrom(value).buildPartial();
             } else {
               isOnline_ = value;
             }
@@ -7397,7 +7397,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
@@ -7415,45 +7415,45 @@ public final class CoGetOnlineTimeOfMembersPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getIsOnlineBuilder() {
+        public io.dstore.Values.booleanValue.Builder getIsOnlineBuilder() {
           
           onChanged();
           return getIsOnlineFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getIsOnlineOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getIsOnlineOrBuilder() {
           if (isOnlineBuilder_ != null) {
             return isOnlineBuilder_.getMessageOrBuilder();
           } else {
             return isOnline_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : isOnline_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : isOnline_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue is_online = 10012;</code>
+         * <code>optional .dstore.values.booleanValue is_online = 10012;</code>
          *
          * <pre>
          * Falls "&#64;OnlineStatusInsteadOfIsOnline = 1" ist, dann steht hier immer der Wert "0" ("NULL" ist beim Datentyp "bit" nicht möglich). Ansonsten bedeutet ein Wert von "1", daß das Mitglied "CommunityMemberID" gerade "online" ist.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getIsOnlineFieldBuilder() {
           if (isOnlineBuilder_ == null) {
             isOnlineBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getIsOnline(),
                     getParentForChildren(),
                     isClean());
@@ -9023,76 +9023,71 @@ public final class CoGetOnlineTimeOfMembersPu {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/co_GetOnlineT" +
       "imeOfMembers_Pu.proto\022*dstore.engine.co_" +
-      "GetOnlineTimeOfMembers_Pu\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"\250\014\n\nParameter" +
-      "s\0225\n\trow_count\030\001 \001(\0132\".dstore.engine.val" +
-      "ues.integerValue\022\027\n\016row_count_null\030\351\007 \001(" +
-      "\010\022?\n\024community_member_ids\030\002 \001(\0132!.dstore" +
-      ".engine.values.stringValue\022\"\n\031community_",
-      "member_ids_null\030\352\007 \001(\010\022F\n\032number_of_hour" +
-      "s_considered\030\003 \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022(\n\037number_of_hours_consid" +
-      "ered_null\030\353\007 \001(\010\0228\n\014community_id\030\004 \001(\0132\"" +
-      ".dstore.engine.values.integerValue\022\032\n\021co" +
-      "mmunity_id_null\030\354\007 \001(\010\0224\n\tunique_id\030\005 \001(" +
-      "\0132!.dstore.engine.values.stringValue\022\027\n\016" +
-      "unique_id_null\030\355\007 \001(\010\022G\n\034person_identifi" +
-      "cation_values\030\006 \001(\0132!.dstore.engine.valu" +
-      "es.stringValue\022*\n!person_identification_",
-      "values_null\030\356\007 \001(\010\022M\n!online_time_during" +
-      "_last_x_minutes\030\007 \001(\0132\".dstore.engine.va" +
-      "lues.integerValue\022/\n&online_time_during_" +
-      "last_x_minutes_null\030\357\007 \001(\010\0225\n\tget_top_x\030" +
-      "\010 \001(\0132\".dstore.engine.values.integerValu" +
-      "e\022\027\n\016get_top_x_null\030\360\007 \001(\010\022E\n\031output_cha" +
-      "racteristic_id1\030\t \001(\0132\".dstore.engine.va" +
-      "lues.integerValue\022\'\n\036output_characterist" +
-      "ic_id1_null\030\361\007 \001(\010\022E\n\031output_characteris" +
-      "tic_id2\030\n \001(\0132\".dstore.engine.values.int",
-      "egerValue\022\'\n\036output_characteristic_id2_n" +
-      "ull\030\362\007 \001(\010\022E\n\031output_characteristic_id3\030" +
-      "\013 \001(\0132\".dstore.engine.values.integerValu" +
-      "e\022\'\n\036output_characteristic_id3_null\030\363\007 \001" +
-      "(\010\022H\n\034community_binary_category_id\030\014 \001(\013" +
-      "2\".dstore.engine.values.integerValue\022*\n!" +
-      "community_binary_category_id_null\030\364\007 \001(\010" +
-      "\0229\n\rorder_by_nick\030\r \001(\0132\".dstore.engine." +
-      "values.booleanValue\022\033\n\022order_by_nick_nul" +
-      "l\030\365\007 \001(\010\022N\n\"online_status_instead_of_is_",
-      "online\030\016 \001(\0132\".dstore.engine.values.bool" +
-      "eanValue\0220\n\'online_status_instead_of_is_" +
-      "online_null\030\366\007 \001(\010\022B\n\027separator_in_ident" +
-      "_vals\030\017 \001(\0132!.dstore.engine.values.strin" +
-      "gValue\022%\n\034separator_in_ident_vals_null\030\367" +
-      "\007 \001(\010\"\363\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
-      "re.engine.error.Error\022H\n\020meta_informatio" +
-      "n\030\002 \003(\0132..dstore.engine.metainformation." +
-      "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor" +
-      "e.engine.message.Message\022E\n\003row\030\004 \003(\01328.",
-      "dstore.engine.co_GetOnlineTimeOfMembers_" +
-      "Pu.Response.Row\032\371\005\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
-      "\022H\n\034value1_restricted_by_pattern\030\221N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0226\n\tbi" +
-      "nary_id\030\222N \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022C\n\026online_time_in_seconds\030\223N " +
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      "H\n\034value2_restricted_by_pattern\030\224N \001(\0132!" +
-      ".dstore.engine.values.stringValue\022@\n\023com" +
-      "munity_member_id\030\225N \001(\0132\".dstore.engine.",
-      "values.integerValue\0222\n\006value3\030\226N \001(\0132!.d" +
-      "store.engine.values.stringValue\022:\n\ronlin" +
-      "e_status\030\227N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0222\n\006value1\030\230N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\0222\n\006value2\030\231N \001(\013" +
-      "2!.dstore.engine.values.stringValue\022H\n\034v" +
-      "alue3_restricted_by_pattern\030\232N \001(\0132!.dst" +
-      "ore.engine.values.stringValue\0224\n\010nicknam" +
-      "e\030\233N \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\0226\n\tis_online\030\234N \001(\0132\".dstore.engine.",
-      "values.booleanValueB\035\n\033io.dstore.engine." +
-      "proceduresb\006proto3"
+      "GetOnlineTimeOfMembers_Pu\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"\277\013\n\nParameters\022.\n\tro" +
+      "w_count\030\001 \001(\0132\033.dstore.values.integerVal" +
+      "ue\022\027\n\016row_count_null\030\351\007 \001(\010\0228\n\024community" +
+      "_member_ids\030\002 \001(\0132\032.dstore.values.string" +
+      "Value\022\"\n\031community_member_ids_null\030\352\007 \001(",
+      "\010\022?\n\032number_of_hours_considered\030\003 \001(\0132\033." +
+      "dstore.values.integerValue\022(\n\037number_of_" +
+      "hours_considered_null\030\353\007 \001(\010\0221\n\014communit" +
+      "y_id\030\004 \001(\0132\033.dstore.values.integerValue\022" +
+      "\032\n\021community_id_null\030\354\007 \001(\010\022-\n\tunique_id" +
+      "\030\005 \001(\0132\032.dstore.values.stringValue\022\027\n\016un" +
+      "ique_id_null\030\355\007 \001(\010\022@\n\034person_identifica" +
+      "tion_values\030\006 \001(\0132\032.dstore.values.string" +
+      "Value\022*\n!person_identification_values_nu" +
+      "ll\030\356\007 \001(\010\022F\n!online_time_during_last_x_m",
+      "inutes\030\007 \001(\0132\033.dstore.values.integerValu" +
+      "e\022/\n&online_time_during_last_x_minutes_n" +
+      "ull\030\357\007 \001(\010\022.\n\tget_top_x\030\010 \001(\0132\033.dstore.v" +
+      "alues.integerValue\022\027\n\016get_top_x_null\030\360\007 " +
+      "\001(\010\022>\n\031output_characteristic_id1\030\t \001(\0132\033" +
+      ".dstore.values.integerValue\022\'\n\036output_ch" +
+      "aracteristic_id1_null\030\361\007 \001(\010\022>\n\031output_c" +
+      "haracteristic_id2\030\n \001(\0132\033.dstore.values." +
+      "integerValue\022\'\n\036output_characteristic_id" +
+      "2_null\030\362\007 \001(\010\022>\n\031output_characteristic_i",
+      "d3\030\013 \001(\0132\033.dstore.values.integerValue\022\'\n" +
+      "\036output_characteristic_id3_null\030\363\007 \001(\010\022A" +
+      "\n\034community_binary_category_id\030\014 \001(\0132\033.d" +
+      "store.values.integerValue\022*\n!community_b" +
+      "inary_category_id_null\030\364\007 \001(\010\0222\n\rorder_b" +
+      "y_nick\030\r \001(\0132\033.dstore.values.booleanValu" +
+      "e\022\033\n\022order_by_nick_null\030\365\007 \001(\010\022G\n\"online" +
+      "_status_instead_of_is_online\030\016 \001(\0132\033.dst" +
+      "ore.values.booleanValue\0220\n\'online_status" +
+      "_instead_of_is_online_null\030\366\007 \001(\010\022;\n\027sep",
+      "arator_in_ident_vals\030\017 \001(\0132\032.dstore.valu" +
+      "es.stringValue\022%\n\034separator_in_ident_val" +
+      "s_null\030\367\007 \001(\010\"\237\007\n\010Response\022)\n\005error\030\001 \001(" +
+      "\0132\032.dstore.engine.error.Error\022H\n\020meta_in" +
+      "formation\030\002 \003(\0132..dstore.engine.metainfo" +
+      "rmation.MetaInformation\022/\n\007message\030\003 \003(\013" +
+      "2\036.dstore.engine.message.Message\022E\n\003row\030" +
+      "\004 \003(\01328.dstore.engine.co_GetOnlineTimeOf" +
+      "Members_Pu.Response.Row\032\245\005\n\003Row\022\017\n\006row_i" +
+      "d\030\220N \001(\005\022A\n\034value1_restricted_by_pattern",
+      "\030\221N \001(\0132\032.dstore.values.stringValue\022/\n\tb" +
+      "inary_id\030\222N \001(\0132\033.dstore.values.integerV" +
+      "alue\022<\n\026online_time_in_seconds\030\223N \001(\0132\033." +
+      "dstore.values.integerValue\022A\n\034value2_res" +
+      "tricted_by_pattern\030\224N \001(\0132\032.dstore.value" +
+      "s.stringValue\0229\n\023community_member_id\030\225N " +
+      "\001(\0132\033.dstore.values.integerValue\022+\n\006valu" +
+      "e3\030\226N \001(\0132\032.dstore.values.stringValue\0223\n" +
+      "\ronline_status\030\227N \001(\0132\033.dstore.values.in" +
+      "tegerValue\022+\n\006value1\030\230N \001(\0132\032.dstore.val",
+      "ues.stringValue\022+\n\006value2\030\231N \001(\0132\032.dstor" +
+      "e.values.stringValue\022A\n\034value3_restricte" +
+      "d_by_pattern\030\232N \001(\0132\032.dstore.values.stri" +
+      "ngValue\022-\n\010nickname\030\233N \001(\0132\032.dstore.valu" +
+      "es.stringValue\022/\n\tis_online\030\234N \001(\0132\033.dst" +
+      "ore.values.booleanValueB\035\n\033io.dstore.eng" +
+      "ine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9105,7 +9100,7 @@ public final class CoGetOnlineTimeOfMembersPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -9128,7 +9123,7 @@ public final class CoGetOnlineTimeOfMembersPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_co_GetOnlineTimeOfMembers_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value1RestrictedByPattern", "BinaryId", "OnlineTimeInSeconds", "Value2RestrictedByPattern", "CommunityMemberId", "Value3", "OnlineStatus", "Value1", "Value2", "Value3RestrictedByPattern", "Nickname", "IsOnline", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

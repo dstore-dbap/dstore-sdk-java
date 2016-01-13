@@ -13,17 +13,17 @@ public final class MiLoadDatabaseAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getDatabaseName();
+    io.dstore.Values.stringValue getDatabaseName();
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
      * <code>optional bool database_name_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class MiLoadDatabaseAd {
     boolean getDatabaseNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+     * <code>optional .dstore.values.stringValue device_names = 2;</code>
      */
     boolean hasDeviceNames();
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+     * <code>optional .dstore.values.stringValue device_names = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getDeviceNames();
+    io.dstore.Values.stringValue getDeviceNames();
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+     * <code>optional .dstore.values.stringValue device_names = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDeviceNamesOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDeviceNamesOrBuilder();
 
     /**
      * <code>optional bool device_names_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class MiLoadDatabaseAd {
     boolean getDeviceNamesNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+     * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
      */
     boolean hasDeviceNamesSeparatedBy();
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+     * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getDeviceNamesSeparatedBy();
+    io.dstore.Values.stringValue getDeviceNamesSeparatedBy();
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+     * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDeviceNamesSeparatedByOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDeviceNamesSeparatedByOrBuilder();
 
     /**
      * <code>optional bool device_names_separated_by_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class MiLoadDatabaseAd {
     boolean getDeviceNamesSeparatedByNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+     * <code>optional .dstore.values.stringValue device_path = 4;</code>
      */
     boolean hasDevicePath();
     /**
-     * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+     * <code>optional .dstore.values.stringValue device_path = 4;</code>
      */
-    io.dstore.engine.Values.stringValue getDevicePath();
+    io.dstore.Values.stringValue getDevicePath();
     /**
-     * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+     * <code>optional .dstore.values.stringValue device_path = 4;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDevicePathOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDevicePathOrBuilder();
 
     /**
      * <code>optional bool device_path_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class MiLoadDatabaseAd {
     boolean getDevicePathNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+     * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
      */
     boolean hasKillProcessesOnDBFirst();
     /**
-     * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+     * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
      */
-    io.dstore.engine.Values.booleanValue getKillProcessesOnDBFirst();
+    io.dstore.Values.booleanValue getKillProcessesOnDBFirst();
     /**
-     * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+     * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getKillProcessesOnDBFirstOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getKillProcessesOnDBFirstOrBuilder();
 
     /**
      * <code>optional bool kill_processes_on_d_b_first_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class MiLoadDatabaseAd {
     boolean getKillProcessesOnDBFirstNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+     * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
      */
     boolean hasOnlineDatabaseAfterLoad();
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+     * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
      */
-    io.dstore.engine.Values.booleanValue getOnlineDatabaseAfterLoad();
+    io.dstore.Values.booleanValue getOnlineDatabaseAfterLoad();
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+     * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOnlineDatabaseAfterLoadOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOnlineDatabaseAfterLoadOrBuilder();
 
     /**
      * <code>optional bool online_database_after_load_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class MiLoadDatabaseAd {
     boolean getOnlineDatabaseAfterLoadNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+     * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
      */
     boolean hasAdjustDBUserToLogins();
     /**
-     * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+     * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
      */
-    io.dstore.engine.Values.booleanValue getAdjustDBUserToLogins();
+    io.dstore.Values.booleanValue getAdjustDBUserToLogins();
     /**
-     * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+     * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getAdjustDBUserToLoginsOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getAdjustDBUserToLoginsOrBuilder();
 
     /**
      * <code>optional bool adjust_d_b_user_to_logins_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class MiLoadDatabaseAd {
     boolean getAdjustDBUserToLoginsNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 8;</code>
      */
     boolean hasCompressLevel();
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 8;</code>
      */
-    io.dstore.engine.Values.integerValue getCompressLevel();
+    io.dstore.Values.integerValue getCompressLevel();
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 8;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCompressLevelOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCompressLevelOrBuilder();
 
     /**
      * <code>optional bool compress_level_null = 1008;</code>
@@ -203,11 +203,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -216,11 +216,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (deviceNames_ != null) {
                 subBuilder = deviceNames_.toBuilder();
               }
-              deviceNames_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              deviceNames_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deviceNames_);
                 deviceNames_ = subBuilder.buildPartial();
@@ -229,11 +229,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (deviceNamesSeparatedBy_ != null) {
                 subBuilder = deviceNamesSeparatedBy_.toBuilder();
               }
-              deviceNamesSeparatedBy_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              deviceNamesSeparatedBy_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deviceNamesSeparatedBy_);
                 deviceNamesSeparatedBy_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (devicePath_ != null) {
                 subBuilder = devicePath_.toBuilder();
               }
-              devicePath_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              devicePath_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(devicePath_);
                 devicePath_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (killProcessesOnDBFirst_ != null) {
                 subBuilder = killProcessesOnDBFirst_.toBuilder();
               }
-              killProcessesOnDBFirst_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              killProcessesOnDBFirst_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(killProcessesOnDBFirst_);
                 killProcessesOnDBFirst_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (onlineDatabaseAfterLoad_ != null) {
                 subBuilder = onlineDatabaseAfterLoad_.toBuilder();
               }
-              onlineDatabaseAfterLoad_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              onlineDatabaseAfterLoad_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlineDatabaseAfterLoad_);
                 onlineDatabaseAfterLoad_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (adjustDBUserToLogins_ != null) {
                 subBuilder = adjustDBUserToLogins_.toBuilder();
               }
-              adjustDBUserToLogins_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              adjustDBUserToLogins_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(adjustDBUserToLogins_);
                 adjustDBUserToLogins_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class MiLoadDatabaseAd {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (compressLevel_ != null) {
                 subBuilder = compressLevel_.toBuilder();
               }
-              compressLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              compressLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(compressLevel_);
                 compressLevel_ = subBuilder.buildPartial();
@@ -371,23 +371,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int DATABASE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue databaseName_;
+    private io.dstore.Values.stringValue databaseName_;
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getDatabaseName() {
-      return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+    public io.dstore.Values.stringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+     * <code>optional .dstore.values.stringValue database_name = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
@@ -401,23 +401,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int DEVICE_NAMES_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue deviceNames_;
+    private io.dstore.Values.stringValue deviceNames_;
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+     * <code>optional .dstore.values.stringValue device_names = 2;</code>
      */
     public boolean hasDeviceNames() {
       return deviceNames_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+     * <code>optional .dstore.values.stringValue device_names = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getDeviceNames() {
-      return deviceNames_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : deviceNames_;
+    public io.dstore.Values.stringValue getDeviceNames() {
+      return deviceNames_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : deviceNames_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+     * <code>optional .dstore.values.stringValue device_names = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDeviceNamesOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDeviceNamesOrBuilder() {
       return getDeviceNames();
     }
 
@@ -431,23 +431,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int DEVICE_NAMES_SEPARATED_BY_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue deviceNamesSeparatedBy_;
+    private io.dstore.Values.stringValue deviceNamesSeparatedBy_;
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+     * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
      */
     public boolean hasDeviceNamesSeparatedBy() {
       return deviceNamesSeparatedBy_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+     * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getDeviceNamesSeparatedBy() {
-      return deviceNamesSeparatedBy_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : deviceNamesSeparatedBy_;
+    public io.dstore.Values.stringValue getDeviceNamesSeparatedBy() {
+      return deviceNamesSeparatedBy_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : deviceNamesSeparatedBy_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+     * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDeviceNamesSeparatedByOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDeviceNamesSeparatedByOrBuilder() {
       return getDeviceNamesSeparatedBy();
     }
 
@@ -461,23 +461,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int DEVICE_PATH_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.stringValue devicePath_;
+    private io.dstore.Values.stringValue devicePath_;
     /**
-     * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+     * <code>optional .dstore.values.stringValue device_path = 4;</code>
      */
     public boolean hasDevicePath() {
       return devicePath_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+     * <code>optional .dstore.values.stringValue device_path = 4;</code>
      */
-    public io.dstore.engine.Values.stringValue getDevicePath() {
-      return devicePath_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : devicePath_;
+    public io.dstore.Values.stringValue getDevicePath() {
+      return devicePath_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : devicePath_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+     * <code>optional .dstore.values.stringValue device_path = 4;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDevicePathOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDevicePathOrBuilder() {
       return getDevicePath();
     }
 
@@ -491,23 +491,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int KILL_PROCESSES_ON_D_B_FIRST_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.booleanValue killProcessesOnDBFirst_;
+    private io.dstore.Values.booleanValue killProcessesOnDBFirst_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+     * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
      */
     public boolean hasKillProcessesOnDBFirst() {
       return killProcessesOnDBFirst_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+     * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValue getKillProcessesOnDBFirst() {
-      return killProcessesOnDBFirst_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : killProcessesOnDBFirst_;
+    public io.dstore.Values.booleanValue getKillProcessesOnDBFirst() {
+      return killProcessesOnDBFirst_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : killProcessesOnDBFirst_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+     * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getKillProcessesOnDBFirstOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getKillProcessesOnDBFirstOrBuilder() {
       return getKillProcessesOnDBFirst();
     }
 
@@ -521,23 +521,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int ONLINE_DATABASE_AFTER_LOAD_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.booleanValue onlineDatabaseAfterLoad_;
+    private io.dstore.Values.booleanValue onlineDatabaseAfterLoad_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+     * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
      */
     public boolean hasOnlineDatabaseAfterLoad() {
       return onlineDatabaseAfterLoad_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+     * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOnlineDatabaseAfterLoad() {
-      return onlineDatabaseAfterLoad_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlineDatabaseAfterLoad_;
+    public io.dstore.Values.booleanValue getOnlineDatabaseAfterLoad() {
+      return onlineDatabaseAfterLoad_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlineDatabaseAfterLoad_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+     * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOnlineDatabaseAfterLoadOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOnlineDatabaseAfterLoadOrBuilder() {
       return getOnlineDatabaseAfterLoad();
     }
 
@@ -551,23 +551,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int ADJUST_D_B_USER_TO_LOGINS_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.booleanValue adjustDBUserToLogins_;
+    private io.dstore.Values.booleanValue adjustDBUserToLogins_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+     * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
      */
     public boolean hasAdjustDBUserToLogins() {
       return adjustDBUserToLogins_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+     * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValue getAdjustDBUserToLogins() {
-      return adjustDBUserToLogins_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : adjustDBUserToLogins_;
+    public io.dstore.Values.booleanValue getAdjustDBUserToLogins() {
+      return adjustDBUserToLogins_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : adjustDBUserToLogins_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+     * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getAdjustDBUserToLoginsOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getAdjustDBUserToLoginsOrBuilder() {
       return getAdjustDBUserToLogins();
     }
 
@@ -581,23 +581,23 @@ public final class MiLoadDatabaseAd {
     }
 
     public static final int COMPRESS_LEVEL_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.integerValue compressLevel_;
+    private io.dstore.Values.integerValue compressLevel_;
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 8;</code>
      */
     public boolean hasCompressLevel() {
       return compressLevel_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 8;</code>
      */
-    public io.dstore.engine.Values.integerValue getCompressLevel() {
-      return compressLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : compressLevel_;
+    public io.dstore.Values.integerValue getCompressLevel() {
+      return compressLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : compressLevel_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+     * <code>optional .dstore.values.integerValue compress_level = 8;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
       return getCompressLevel();
     }
 
@@ -1075,29 +1075,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue databaseName_ = null;
+      private io.dstore.Values.stringValue databaseName_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> databaseNameBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getDatabaseName() {
+      public io.dstore.Values.stringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
-          return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
         } else {
           return databaseNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public Builder setDatabaseName(io.dstore.engine.Values.stringValue value) {
+      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1111,10 +1111,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public Builder setDatabaseName(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (databaseNameBuilder_ == null) {
           databaseName_ = builderForValue.build();
           onChanged();
@@ -1125,13 +1125,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public Builder mergeDatabaseName(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
         if (databaseNameBuilder_ == null) {
           if (databaseName_ != null) {
             databaseName_ =
-              io.dstore.engine.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
           } else {
             databaseName_ = value;
           }
@@ -1143,7 +1143,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -1157,33 +1157,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDatabaseNameBuilder() {
+      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
         
         onChanged();
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
           return databaseNameBuilder_.getMessageOrBuilder();
         } else {
           return databaseName_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 1;</code>
+       * <code>optional .dstore.values.stringValue database_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
           databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
                   isClean());
@@ -1218,29 +1218,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue deviceNames_ = null;
+      private io.dstore.Values.stringValue deviceNames_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> deviceNamesBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> deviceNamesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
       public boolean hasDeviceNames() {
         return deviceNamesBuilder_ != null || deviceNames_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getDeviceNames() {
+      public io.dstore.Values.stringValue getDeviceNames() {
         if (deviceNamesBuilder_ == null) {
-          return deviceNames_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : deviceNames_;
+          return deviceNames_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : deviceNames_;
         } else {
           return deviceNamesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
-      public Builder setDeviceNames(io.dstore.engine.Values.stringValue value) {
+      public Builder setDeviceNames(io.dstore.Values.stringValue value) {
         if (deviceNamesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1254,10 +1254,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
       public Builder setDeviceNames(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (deviceNamesBuilder_ == null) {
           deviceNames_ = builderForValue.build();
           onChanged();
@@ -1268,13 +1268,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
-      public Builder mergeDeviceNames(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDeviceNames(io.dstore.Values.stringValue value) {
         if (deviceNamesBuilder_ == null) {
           if (deviceNames_ != null) {
             deviceNames_ =
-              io.dstore.engine.Values.stringValue.newBuilder(deviceNames_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(deviceNames_).mergeFrom(value).buildPartial();
           } else {
             deviceNames_ = value;
           }
@@ -1286,7 +1286,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
       public Builder clearDeviceNames() {
         if (deviceNamesBuilder_ == null) {
@@ -1300,33 +1300,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDeviceNamesBuilder() {
+      public io.dstore.Values.stringValue.Builder getDeviceNamesBuilder() {
         
         onChanged();
         return getDeviceNamesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDeviceNamesOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDeviceNamesOrBuilder() {
         if (deviceNamesBuilder_ != null) {
           return deviceNamesBuilder_.getMessageOrBuilder();
         } else {
           return deviceNames_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : deviceNames_;
+              io.dstore.Values.stringValue.getDefaultInstance() : deviceNames_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names = 2;</code>
+       * <code>optional .dstore.values.stringValue device_names = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDeviceNamesFieldBuilder() {
         if (deviceNamesBuilder_ == null) {
           deviceNamesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDeviceNames(),
                   getParentForChildren(),
                   isClean());
@@ -1361,29 +1361,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue deviceNamesSeparatedBy_ = null;
+      private io.dstore.Values.stringValue deviceNamesSeparatedBy_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> deviceNamesSeparatedByBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> deviceNamesSeparatedByBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
       public boolean hasDeviceNamesSeparatedBy() {
         return deviceNamesSeparatedByBuilder_ != null || deviceNamesSeparatedBy_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getDeviceNamesSeparatedBy() {
+      public io.dstore.Values.stringValue getDeviceNamesSeparatedBy() {
         if (deviceNamesSeparatedByBuilder_ == null) {
-          return deviceNamesSeparatedBy_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : deviceNamesSeparatedBy_;
+          return deviceNamesSeparatedBy_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : deviceNamesSeparatedBy_;
         } else {
           return deviceNamesSeparatedByBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
-      public Builder setDeviceNamesSeparatedBy(io.dstore.engine.Values.stringValue value) {
+      public Builder setDeviceNamesSeparatedBy(io.dstore.Values.stringValue value) {
         if (deviceNamesSeparatedByBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1397,10 +1397,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
       public Builder setDeviceNamesSeparatedBy(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (deviceNamesSeparatedByBuilder_ == null) {
           deviceNamesSeparatedBy_ = builderForValue.build();
           onChanged();
@@ -1411,13 +1411,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
-      public Builder mergeDeviceNamesSeparatedBy(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDeviceNamesSeparatedBy(io.dstore.Values.stringValue value) {
         if (deviceNamesSeparatedByBuilder_ == null) {
           if (deviceNamesSeparatedBy_ != null) {
             deviceNamesSeparatedBy_ =
-              io.dstore.engine.Values.stringValue.newBuilder(deviceNamesSeparatedBy_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(deviceNamesSeparatedBy_).mergeFrom(value).buildPartial();
           } else {
             deviceNamesSeparatedBy_ = value;
           }
@@ -1429,7 +1429,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
       public Builder clearDeviceNamesSeparatedBy() {
         if (deviceNamesSeparatedByBuilder_ == null) {
@@ -1443,33 +1443,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDeviceNamesSeparatedByBuilder() {
+      public io.dstore.Values.stringValue.Builder getDeviceNamesSeparatedByBuilder() {
         
         onChanged();
         return getDeviceNamesSeparatedByFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDeviceNamesSeparatedByOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDeviceNamesSeparatedByOrBuilder() {
         if (deviceNamesSeparatedByBuilder_ != null) {
           return deviceNamesSeparatedByBuilder_.getMessageOrBuilder();
         } else {
           return deviceNamesSeparatedBy_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : deviceNamesSeparatedBy_;
+              io.dstore.Values.stringValue.getDefaultInstance() : deviceNamesSeparatedBy_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_names_separated_by = 3;</code>
+       * <code>optional .dstore.values.stringValue device_names_separated_by = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDeviceNamesSeparatedByFieldBuilder() {
         if (deviceNamesSeparatedByBuilder_ == null) {
           deviceNamesSeparatedByBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDeviceNamesSeparatedBy(),
                   getParentForChildren(),
                   isClean());
@@ -1504,29 +1504,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue devicePath_ = null;
+      private io.dstore.Values.stringValue devicePath_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> devicePathBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> devicePathBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
       public boolean hasDevicePath() {
         return devicePathBuilder_ != null || devicePath_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue getDevicePath() {
+      public io.dstore.Values.stringValue getDevicePath() {
         if (devicePathBuilder_ == null) {
-          return devicePath_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : devicePath_;
+          return devicePath_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : devicePath_;
         } else {
           return devicePathBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
-      public Builder setDevicePath(io.dstore.engine.Values.stringValue value) {
+      public Builder setDevicePath(io.dstore.Values.stringValue value) {
         if (devicePathBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1540,10 +1540,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
       public Builder setDevicePath(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (devicePathBuilder_ == null) {
           devicePath_ = builderForValue.build();
           onChanged();
@@ -1554,13 +1554,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
-      public Builder mergeDevicePath(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDevicePath(io.dstore.Values.stringValue value) {
         if (devicePathBuilder_ == null) {
           if (devicePath_ != null) {
             devicePath_ =
-              io.dstore.engine.Values.stringValue.newBuilder(devicePath_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(devicePath_).mergeFrom(value).buildPartial();
           } else {
             devicePath_ = value;
           }
@@ -1572,7 +1572,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
       public Builder clearDevicePath() {
         if (devicePathBuilder_ == null) {
@@ -1586,33 +1586,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDevicePathBuilder() {
+      public io.dstore.Values.stringValue.Builder getDevicePathBuilder() {
         
         onChanged();
         return getDevicePathFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDevicePathOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDevicePathOrBuilder() {
         if (devicePathBuilder_ != null) {
           return devicePathBuilder_.getMessageOrBuilder();
         } else {
           return devicePath_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : devicePath_;
+              io.dstore.Values.stringValue.getDefaultInstance() : devicePath_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue device_path = 4;</code>
+       * <code>optional .dstore.values.stringValue device_path = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDevicePathFieldBuilder() {
         if (devicePathBuilder_ == null) {
           devicePathBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDevicePath(),
                   getParentForChildren(),
                   isClean());
@@ -1647,29 +1647,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue killProcessesOnDBFirst_ = null;
+      private io.dstore.Values.booleanValue killProcessesOnDBFirst_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> killProcessesOnDBFirstBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> killProcessesOnDBFirstBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
       public boolean hasKillProcessesOnDBFirst() {
         return killProcessesOnDBFirstBuilder_ != null || killProcessesOnDBFirst_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue getKillProcessesOnDBFirst() {
+      public io.dstore.Values.booleanValue getKillProcessesOnDBFirst() {
         if (killProcessesOnDBFirstBuilder_ == null) {
-          return killProcessesOnDBFirst_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : killProcessesOnDBFirst_;
+          return killProcessesOnDBFirst_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : killProcessesOnDBFirst_;
         } else {
           return killProcessesOnDBFirstBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
-      public Builder setKillProcessesOnDBFirst(io.dstore.engine.Values.booleanValue value) {
+      public Builder setKillProcessesOnDBFirst(io.dstore.Values.booleanValue value) {
         if (killProcessesOnDBFirstBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1683,10 +1683,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
       public Builder setKillProcessesOnDBFirst(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (killProcessesOnDBFirstBuilder_ == null) {
           killProcessesOnDBFirst_ = builderForValue.build();
           onChanged();
@@ -1697,13 +1697,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
-      public Builder mergeKillProcessesOnDBFirst(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeKillProcessesOnDBFirst(io.dstore.Values.booleanValue value) {
         if (killProcessesOnDBFirstBuilder_ == null) {
           if (killProcessesOnDBFirst_ != null) {
             killProcessesOnDBFirst_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(killProcessesOnDBFirst_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(killProcessesOnDBFirst_).mergeFrom(value).buildPartial();
           } else {
             killProcessesOnDBFirst_ = value;
           }
@@ -1715,7 +1715,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
       public Builder clearKillProcessesOnDBFirst() {
         if (killProcessesOnDBFirstBuilder_ == null) {
@@ -1729,33 +1729,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getKillProcessesOnDBFirstBuilder() {
+      public io.dstore.Values.booleanValue.Builder getKillProcessesOnDBFirstBuilder() {
         
         onChanged();
         return getKillProcessesOnDBFirstFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getKillProcessesOnDBFirstOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getKillProcessesOnDBFirstOrBuilder() {
         if (killProcessesOnDBFirstBuilder_ != null) {
           return killProcessesOnDBFirstBuilder_.getMessageOrBuilder();
         } else {
           return killProcessesOnDBFirst_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : killProcessesOnDBFirst_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : killProcessesOnDBFirst_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue kill_processes_on_d_b_first = 5;</code>
+       * <code>optional .dstore.values.booleanValue kill_processes_on_d_b_first = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getKillProcessesOnDBFirstFieldBuilder() {
         if (killProcessesOnDBFirstBuilder_ == null) {
           killProcessesOnDBFirstBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getKillProcessesOnDBFirst(),
                   getParentForChildren(),
                   isClean());
@@ -1790,29 +1790,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue onlineDatabaseAfterLoad_ = null;
+      private io.dstore.Values.booleanValue onlineDatabaseAfterLoad_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> onlineDatabaseAfterLoadBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlineDatabaseAfterLoadBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
       public boolean hasOnlineDatabaseAfterLoad() {
         return onlineDatabaseAfterLoadBuilder_ != null || onlineDatabaseAfterLoad_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOnlineDatabaseAfterLoad() {
+      public io.dstore.Values.booleanValue getOnlineDatabaseAfterLoad() {
         if (onlineDatabaseAfterLoadBuilder_ == null) {
-          return onlineDatabaseAfterLoad_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlineDatabaseAfterLoad_;
+          return onlineDatabaseAfterLoad_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlineDatabaseAfterLoad_;
         } else {
           return onlineDatabaseAfterLoadBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
-      public Builder setOnlineDatabaseAfterLoad(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOnlineDatabaseAfterLoad(io.dstore.Values.booleanValue value) {
         if (onlineDatabaseAfterLoadBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1826,10 +1826,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
       public Builder setOnlineDatabaseAfterLoad(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (onlineDatabaseAfterLoadBuilder_ == null) {
           onlineDatabaseAfterLoad_ = builderForValue.build();
           onChanged();
@@ -1840,13 +1840,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
-      public Builder mergeOnlineDatabaseAfterLoad(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOnlineDatabaseAfterLoad(io.dstore.Values.booleanValue value) {
         if (onlineDatabaseAfterLoadBuilder_ == null) {
           if (onlineDatabaseAfterLoad_ != null) {
             onlineDatabaseAfterLoad_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(onlineDatabaseAfterLoad_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(onlineDatabaseAfterLoad_).mergeFrom(value).buildPartial();
           } else {
             onlineDatabaseAfterLoad_ = value;
           }
@@ -1858,7 +1858,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
       public Builder clearOnlineDatabaseAfterLoad() {
         if (onlineDatabaseAfterLoadBuilder_ == null) {
@@ -1872,33 +1872,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOnlineDatabaseAfterLoadBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOnlineDatabaseAfterLoadBuilder() {
         
         onChanged();
         return getOnlineDatabaseAfterLoadFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOnlineDatabaseAfterLoadOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOnlineDatabaseAfterLoadOrBuilder() {
         if (onlineDatabaseAfterLoadBuilder_ != null) {
           return onlineDatabaseAfterLoadBuilder_.getMessageOrBuilder();
         } else {
           return onlineDatabaseAfterLoad_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlineDatabaseAfterLoad_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : onlineDatabaseAfterLoad_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue online_database_after_load = 6;</code>
+       * <code>optional .dstore.values.booleanValue online_database_after_load = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlineDatabaseAfterLoadFieldBuilder() {
         if (onlineDatabaseAfterLoadBuilder_ == null) {
           onlineDatabaseAfterLoadBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlineDatabaseAfterLoad(),
                   getParentForChildren(),
                   isClean());
@@ -1933,29 +1933,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue adjustDBUserToLogins_ = null;
+      private io.dstore.Values.booleanValue adjustDBUserToLogins_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> adjustDBUserToLoginsBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> adjustDBUserToLoginsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
       public boolean hasAdjustDBUserToLogins() {
         return adjustDBUserToLoginsBuilder_ != null || adjustDBUserToLogins_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue getAdjustDBUserToLogins() {
+      public io.dstore.Values.booleanValue getAdjustDBUserToLogins() {
         if (adjustDBUserToLoginsBuilder_ == null) {
-          return adjustDBUserToLogins_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : adjustDBUserToLogins_;
+          return adjustDBUserToLogins_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : adjustDBUserToLogins_;
         } else {
           return adjustDBUserToLoginsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
-      public Builder setAdjustDBUserToLogins(io.dstore.engine.Values.booleanValue value) {
+      public Builder setAdjustDBUserToLogins(io.dstore.Values.booleanValue value) {
         if (adjustDBUserToLoginsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1969,10 +1969,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
       public Builder setAdjustDBUserToLogins(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (adjustDBUserToLoginsBuilder_ == null) {
           adjustDBUserToLogins_ = builderForValue.build();
           onChanged();
@@ -1983,13 +1983,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
-      public Builder mergeAdjustDBUserToLogins(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeAdjustDBUserToLogins(io.dstore.Values.booleanValue value) {
         if (adjustDBUserToLoginsBuilder_ == null) {
           if (adjustDBUserToLogins_ != null) {
             adjustDBUserToLogins_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(adjustDBUserToLogins_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(adjustDBUserToLogins_).mergeFrom(value).buildPartial();
           } else {
             adjustDBUserToLogins_ = value;
           }
@@ -2001,7 +2001,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
       public Builder clearAdjustDBUserToLogins() {
         if (adjustDBUserToLoginsBuilder_ == null) {
@@ -2015,33 +2015,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getAdjustDBUserToLoginsBuilder() {
+      public io.dstore.Values.booleanValue.Builder getAdjustDBUserToLoginsBuilder() {
         
         onChanged();
         return getAdjustDBUserToLoginsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getAdjustDBUserToLoginsOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getAdjustDBUserToLoginsOrBuilder() {
         if (adjustDBUserToLoginsBuilder_ != null) {
           return adjustDBUserToLoginsBuilder_.getMessageOrBuilder();
         } else {
           return adjustDBUserToLogins_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : adjustDBUserToLogins_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : adjustDBUserToLogins_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
+       * <code>optional .dstore.values.booleanValue adjust_d_b_user_to_logins = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAdjustDBUserToLoginsFieldBuilder() {
         if (adjustDBUserToLoginsBuilder_ == null) {
           adjustDBUserToLoginsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAdjustDBUserToLogins(),
                   getParentForChildren(),
                   isClean());
@@ -2076,29 +2076,29 @@ public final class MiLoadDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue compressLevel_ = null;
+      private io.dstore.Values.integerValue compressLevel_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> compressLevelBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> compressLevelBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
       public boolean hasCompressLevel() {
         return compressLevelBuilder_ != null || compressLevel_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue getCompressLevel() {
+      public io.dstore.Values.integerValue getCompressLevel() {
         if (compressLevelBuilder_ == null) {
-          return compressLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : compressLevel_;
+          return compressLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : compressLevel_;
         } else {
           return compressLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
-      public Builder setCompressLevel(io.dstore.engine.Values.integerValue value) {
+      public Builder setCompressLevel(io.dstore.Values.integerValue value) {
         if (compressLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2112,10 +2112,10 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
       public Builder setCompressLevel(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (compressLevelBuilder_ == null) {
           compressLevel_ = builderForValue.build();
           onChanged();
@@ -2126,13 +2126,13 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
-      public Builder mergeCompressLevel(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCompressLevel(io.dstore.Values.integerValue value) {
         if (compressLevelBuilder_ == null) {
           if (compressLevel_ != null) {
             compressLevel_ =
-              io.dstore.engine.Values.integerValue.newBuilder(compressLevel_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(compressLevel_).mergeFrom(value).buildPartial();
           } else {
             compressLevel_ = value;
           }
@@ -2144,7 +2144,7 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
       public Builder clearCompressLevel() {
         if (compressLevelBuilder_ == null) {
@@ -2158,33 +2158,33 @@ public final class MiLoadDatabaseAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCompressLevelBuilder() {
+      public io.dstore.Values.integerValue.Builder getCompressLevelBuilder() {
         
         onChanged();
         return getCompressLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCompressLevelOrBuilder() {
         if (compressLevelBuilder_ != null) {
           return compressLevelBuilder_.getMessageOrBuilder();
         } else {
           return compressLevel_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : compressLevel_;
+              io.dstore.Values.integerValue.getDefaultInstance() : compressLevel_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue compress_level = 8;</code>
+       * <code>optional .dstore.values.integerValue compress_level = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCompressLevelFieldBuilder() {
         if (compressLevelBuilder_ == null) {
           compressLevelBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCompressLevel(),
                   getParentForChildren(),
                   isClean());
@@ -4375,38 +4375,36 @@ public final class MiLoadDatabaseAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/mi_LoadDataba" +
       "se_Ad.proto\022 dstore.engine.mi_LoadDataba" +
-      "se_Ad\032\032dstore/engine/values.proto\032\031dstor" +
-      "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"\252\006\n\nParameters\0228\n\rdatabase_name\030\001" +
-      " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "\033\n\022database_name_null\030\351\007 \001(\010\0227\n\014device_n" +
-      "ames\030\002 \001(\0132!.dstore.engine.values.string" +
-      "Value\022\032\n\021device_names_null\030\352\007 \001(\010\022D\n\031dev",
-      "ice_names_separated_by\030\003 \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022\'\n\036device_names_" +
-      "separated_by_null\030\353\007 \001(\010\0226\n\013device_path\030" +
-      "\004 \001(\0132!.dstore.engine.values.stringValue" +
-      "\022\031\n\020device_path_null\030\354\007 \001(\010\022G\n\033kill_proc" +
-      "esses_on_d_b_first\030\005 \001(\0132\".dstore.engine" +
-      ".values.booleanValue\022)\n kill_processes_o" +
-      "n_d_b_first_null\030\355\007 \001(\010\022F\n\032online_databa" +
-      "se_after_load\030\006 \001(\0132\".dstore.engine.valu" +
-      "es.booleanValue\022(\n\037online_database_after",
-      "_load_null\030\356\007 \001(\010\022E\n\031adjust_d_b_user_to_" +
-      "logins\030\007 \001(\0132\".dstore.engine.values.bool" +
-      "eanValue\022\'\n\036adjust_d_b_user_to_logins_nu" +
-      "ll\030\357\007 \001(\010\022:\n\016compress_level\030\010 \001(\0132\".dsto" +
-      "re.engine.values.integerValue\022\034\n\023compres" +
-      "s_level_null\030\360\007 \001(\010\"\205\002\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message" +
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022;",
-      "\n\003row\030\004 \003(\0132..dstore.engine.mi_LoadDatab" +
-      "ase_Ad.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N " +
-      "\001(\005B\035\n\033io.dstore.engine.proceduresb\006prot" +
-      "o3"
+      "se_Ad\032\023dstore/values.proto\032\031dstore/engin" +
+      "e/error.proto\032\033dstore/engine/message.pro" +
+      "to\032#dstore/engine/metainformation.proto\"" +
+      "\362\005\n\nParameters\0221\n\rdatabase_name\030\001 \001(\0132\032." +
+      "dstore.values.stringValue\022\033\n\022database_na" +
+      "me_null\030\351\007 \001(\010\0220\n\014device_names\030\002 \001(\0132\032.d" +
+      "store.values.stringValue\022\032\n\021device_names" +
+      "_null\030\352\007 \001(\010\022=\n\031device_names_separated_b",
+      "y\030\003 \001(\0132\032.dstore.values.stringValue\022\'\n\036d" +
+      "evice_names_separated_by_null\030\353\007 \001(\010\022/\n\013" +
+      "device_path\030\004 \001(\0132\032.dstore.values.string" +
+      "Value\022\031\n\020device_path_null\030\354\007 \001(\010\022@\n\033kill" +
+      "_processes_on_d_b_first\030\005 \001(\0132\033.dstore.v" +
+      "alues.booleanValue\022)\n kill_processes_on_" +
+      "d_b_first_null\030\355\007 \001(\010\022?\n\032online_database" +
+      "_after_load\030\006 \001(\0132\033.dstore.values.boolea" +
+      "nValue\022(\n\037online_database_after_load_nul" +
+      "l\030\356\007 \001(\010\022>\n\031adjust_d_b_user_to_logins\030\007 ",
+      "\001(\0132\033.dstore.values.booleanValue\022\'\n\036adju" +
+      "st_d_b_user_to_logins_null\030\357\007 \001(\010\0223\n\016com" +
+      "press_level\030\010 \001(\0132\033.dstore.values.intege" +
+      "rValue\022\034\n\023compress_level_null\030\360\007 \001(\010\"\205\002\n" +
+      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
+      ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
+      ".dstore.engine.metainformation.MetaInfor" +
+      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022;\n\003row\030\004 \003(\0132..dstore.en" +
+      "gine.mi_LoadDatabase_Ad.Response.Row\032\026\n\003",
+      "Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.engine" +
+      ".proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4419,7 +4417,7 @@ public final class MiLoadDatabaseAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4442,7 +4440,7 @@ public final class MiLoadDatabaseAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_LoadDatabase_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

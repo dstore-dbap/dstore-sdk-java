@@ -13,17 +13,17 @@ public final class OmGetPaymentTypeSurchargesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPaymentTypeId();
+    io.dstore.Values.integerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
      * <code>optional bool payment_type_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetPaymentTypeSurchargesAd {
     boolean getPaymentTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getSurchargeTypeId();
+    io.dstore.Values.integerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmGetPaymentTypeSurchargesAd {
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
     boolean hasValidFrom();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    io.dstore.engine.Values.timestampValue getValidFrom();
+    io.dstore.Values.timestampValue getValidFrom();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
 
     /**
      * <code>optional bool valid_from_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmGetPaymentTypeSurchargesAd {
     boolean getValidFromNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
     boolean hasValidTo();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    io.dstore.engine.Values.timestampValue getValidTo();
+    io.dstore.Values.timestampValue getValidTo();
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
 
     /**
      * <code>optional bool valid_to_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class OmGetPaymentTypeSurchargesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class OmGetPaymentTypeSurchargesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (surchargeTypeId_ != null) {
                 subBuilder = surchargeTypeId_.toBuilder();
               }
-              surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeId_);
                 surchargeTypeId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class OmGetPaymentTypeSurchargesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (validFrom_ != null) {
                 subBuilder = validFrom_.toBuilder();
               }
-              validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validFrom_);
                 validFrom_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmGetPaymentTypeSurchargesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (validTo_ != null) {
                 subBuilder = validTo_.toBuilder();
               }
-              validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validTo_);
                 validTo_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class OmGetPaymentTypeSurchargesAd {
     }
 
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue paymentTypeId_;
+    private io.dstore.Values.integerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPaymentTypeId() {
-      return paymentTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+    public io.dstore.Values.integerValue getPaymentTypeId() {
+      return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
     }
 
@@ -253,23 +253,23 @@ public final class OmGetPaymentTypeSurchargesAd {
     }
 
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue surchargeTypeId_;
+    private io.dstore.Values.integerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getSurchargeTypeId() {
-      return surchargeTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+    public io.dstore.Values.integerValue getSurchargeTypeId() {
+      return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
     }
 
@@ -283,23 +283,23 @@ public final class OmGetPaymentTypeSurchargesAd {
     }
 
     public static final int VALID_FROM_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.timestampValue validFrom_;
+    private io.dstore.Values.timestampValue validFrom_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
     public boolean hasValidFrom() {
       return validFrom_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValue getValidFrom() {
-      return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+    public io.dstore.Values.timestampValue getValidFrom() {
+      return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+     * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
       return getValidFrom();
     }
 
@@ -313,23 +313,23 @@ public final class OmGetPaymentTypeSurchargesAd {
     }
 
     public static final int VALID_TO_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.timestampValue validTo_;
+    private io.dstore.Values.timestampValue validTo_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
     public boolean hasValidTo() {
       return validTo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValue getValidTo() {
-      return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+    public io.dstore.Values.timestampValue getValidTo() {
+      return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+     * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
       return getValidTo();
     }
 
@@ -671,29 +671,29 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue paymentTypeId_ = null;
+      private io.dstore.Values.integerValue paymentTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPaymentTypeId() {
+      public io.dstore.Values.integerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
-          return paymentTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+          return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
         } else {
           return paymentTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
-      public Builder setPaymentTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
       public Builder setPaymentTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
-      public Builder mergePaymentTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (paymentTypeId_ != null) {
             paymentTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
           } else {
             paymentTypeId_ = value;
           }
@@ -739,7 +739,7 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
         
         onChanged();
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
           return paymentTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return paymentTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPaymentTypeIdFieldBuilder() {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPaymentTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue surchargeTypeId_ = null;
+      private io.dstore.Values.integerValue surchargeTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getSurchargeTypeId() {
+      public io.dstore.Values.integerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
-          return surchargeTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+          return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
         } else {
           return surchargeTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
-      public Builder setSurchargeTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
-      public Builder mergeSurchargeTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (surchargeTypeId_ != null) {
             surchargeTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeId_ = value;
           }
@@ -882,7 +882,7 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
         
         onChanged();
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
           return surchargeTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSurchargeTypeIdFieldBuilder() {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSurchargeTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue validFrom_ = null;
+      private io.dstore.Values.timestampValue validFrom_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validFromBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       public boolean hasValidFrom() {
         return validFromBuilder_ != null || validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue getValidFrom() {
+      public io.dstore.Values.timestampValue getValidFrom() {
         if (validFromBuilder_ == null) {
-          return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+          return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
         } else {
           return validFromBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public Builder setValidFrom(io.dstore.engine.Values.timestampValue value) {
+      public Builder setValidFrom(io.dstore.Values.timestampValue value) {
         if (validFromBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       public Builder setValidFrom(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (validFromBuilder_ == null) {
           validFrom_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public Builder mergeValidFrom(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
         if (validFromBuilder_ == null) {
           if (validFrom_ != null) {
             validFrom_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
           } else {
             validFrom_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       public Builder clearValidFrom() {
         if (validFromBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getValidFromBuilder() {
+      public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
         
         onChanged();
         return getValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
         if (validFromBuilder_ != null) {
           return validFromBuilder_.getMessageOrBuilder();
         } else {
           return validFrom_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 3;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidFromFieldBuilder() {
         if (validFromBuilder_ == null) {
           validFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidFrom(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue validTo_ = null;
+      private io.dstore.Values.timestampValue validTo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validToBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       public boolean hasValidTo() {
         return validToBuilder_ != null || validTo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue getValidTo() {
+      public io.dstore.Values.timestampValue getValidTo() {
         if (validToBuilder_ == null) {
-          return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+          return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
         } else {
           return validToBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public Builder setValidTo(io.dstore.engine.Values.timestampValue value) {
+      public Builder setValidTo(io.dstore.Values.timestampValue value) {
         if (validToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       public Builder setValidTo(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (validToBuilder_ == null) {
           validTo_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public Builder mergeValidTo(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
         if (validToBuilder_ == null) {
           if (validTo_ != null) {
             validTo_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
           } else {
             validTo_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       public Builder clearValidTo() {
         if (validToBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class OmGetPaymentTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getValidToBuilder() {
+      public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
         
         onChanged();
         return getValidToFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
         if (validToBuilder_ != null) {
           return validToBuilder_.getMessageOrBuilder();
         } else {
           return validTo_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 4;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidToFieldBuilder() {
         if (validToBuilder_ == null) {
           validToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidTo(),
                   getParentForChildren(),
                   isClean());
@@ -1530,7 +1530,7 @@ public final class OmGetPaymentTypeSurchargesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
@@ -1538,24 +1538,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasPaymentTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getPaymentTypeDescription();
+      io.dstore.Values.stringValue getPaymentTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -1563,24 +1563,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasUnitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getUnitId();
+      io.dstore.Values.integerValue getUnitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getUnitIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
        *
        * <pre>
        * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
@@ -1588,24 +1588,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasValidTo();
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
        *
        * <pre>
        * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getValidTo();
+      io.dstore.Values.timestampValue getValidTo();
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
        *
        * <pre>
        * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
        *
        * <pre>
        * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
@@ -1613,24 +1613,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasPriorityNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
        *
        * <pre>
        * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPriorityNo();
+      io.dstore.Values.integerValue getPriorityNo();
       /**
-       * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
        *
        * <pre>
        * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPriorityNoOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPriorityNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
        *
        * <pre>
        * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
@@ -1638,24 +1638,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasValidFrom();
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
        *
        * <pre>
        * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      io.dstore.engine.Values.timestampValue getValidFrom();
+      io.dstore.Values.timestampValue getValidFrom();
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
        *
        * <pre>
        * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder();
+      io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -1663,24 +1663,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasSurchargeIsAbsoluteValue();
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSurchargeIsAbsoluteValue();
+      io.dstore.Values.integerValue getSurchargeIsAbsoluteValue();
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID
@@ -1688,24 +1688,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasUnitSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getUnitSymbol();
+      io.dstore.Values.stringValue getUnitSymbol();
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1713,24 +1713,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getSurchargeTypeDescription();
+      io.dstore.Values.stringValue getSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        *
        * <pre>
        * Der Wert des Aufschlags/Rabatts
@@ -1738,24 +1738,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasSurchargeValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        *
        * <pre>
        * Der Wert des Aufschlags/Rabatts
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getSurchargeValue();
+      io.dstore.Values.decimalValue getSurchargeValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        *
        * <pre>
        * Der Wert des Aufschlags/Rabatts
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
        *
        * <pre>
        * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
@@ -1763,24 +1763,24 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasPaymentTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
        *
        * <pre>
        * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPaymentTypeId();
+      io.dstore.Values.integerValue getPaymentTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
        *
        * <pre>
        * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        *
        * <pre>
        * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
@@ -1788,21 +1788,21 @@ public final class OmGetPaymentTypeSurchargesAd {
        */
       boolean hasSurchargeTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        *
        * <pre>
        * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getSurchargeTypeId();
+      io.dstore.Values.integerValue getSurchargeTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        *
        * <pre>
        * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPaymentTypeSurcharges_Ad.Response.Row}
@@ -1849,11 +1849,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (paymentTypeDescription_ != null) {
                   subBuilder = paymentTypeDescription_.toBuilder();
                 }
-                paymentTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                paymentTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeDescription_);
                   paymentTypeDescription_ = subBuilder.buildPartial();
@@ -1862,11 +1862,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (unitId_ != null) {
                   subBuilder = unitId_.toBuilder();
                 }
-                unitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                unitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitId_);
                   unitId_ = subBuilder.buildPartial();
@@ -1875,11 +1875,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (validTo_ != null) {
                   subBuilder = validTo_.toBuilder();
                 }
-                validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validTo_);
                   validTo_ = subBuilder.buildPartial();
@@ -1888,11 +1888,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (priorityNo_ != null) {
                   subBuilder = priorityNo_.toBuilder();
                 }
-                priorityNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                priorityNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(priorityNo_);
                   priorityNo_ = subBuilder.buildPartial();
@@ -1901,11 +1901,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
                 }
-                validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+                validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFrom_);
                   validFrom_ = subBuilder.buildPartial();
@@ -1914,11 +1914,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeIsAbsoluteValue_ != null) {
                   subBuilder = surchargeIsAbsoluteValue_.toBuilder();
                 }
-                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeIsAbsoluteValue_);
                   surchargeIsAbsoluteValue_ = subBuilder.buildPartial();
@@ -1927,11 +1927,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -1940,11 +1940,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -1953,11 +1953,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -1966,11 +1966,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (paymentTypeId_ != null) {
                   subBuilder = paymentTypeId_.toBuilder();
                 }
-                paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeId_);
                   paymentTypeId_ = subBuilder.buildPartial();
@@ -1979,11 +1979,11 @@ public final class OmGetPaymentTypeSurchargesAd {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -2025,9 +2025,9 @@ public final class OmGetPaymentTypeSurchargesAd {
       }
 
       public static final int PAYMENT_TYPE_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue paymentTypeDescription_;
+      private io.dstore.Values.stringValue paymentTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
@@ -2037,30 +2037,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return paymentTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getPaymentTypeDescription() {
-        return paymentTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+      public io.dstore.Values.stringValue getPaymentTypeDescription() {
+        return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
        *
        * <pre>
        * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
         return getPaymentTypeDescription();
       }
 
       public static final int UNIT_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue unitId_;
+      private io.dstore.Values.integerValue unitId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -2070,30 +2070,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return unitId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getUnitId() {
-        return unitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : unitId_;
+      public io.dstore.Values.integerValue getUnitId() {
+        return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
         return getUnitId();
       }
 
       public static final int VALID_TO_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.timestampValue validTo_;
+      private io.dstore.Values.timestampValue validTo_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
        *
        * <pre>
        * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
@@ -2103,30 +2103,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return validTo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
        *
        * <pre>
        * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getValidTo() {
-        return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+      public io.dstore.Values.timestampValue getValidTo() {
+        return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
        *
        * <pre>
        * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
         return getValidTo();
       }
 
       public static final int PRIORITY_NO_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue priorityNo_;
+      private io.dstore.Values.integerValue priorityNo_;
       /**
-       * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
        *
        * <pre>
        * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
@@ -2136,30 +2136,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return priorityNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
        *
        * <pre>
        * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPriorityNo() {
-        return priorityNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : priorityNo_;
+      public io.dstore.Values.integerValue getPriorityNo() {
+        return priorityNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priorityNo_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
        *
        * <pre>
        * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPriorityNoOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPriorityNoOrBuilder() {
         return getPriorityNo();
       }
 
       public static final int VALID_FROM_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.timestampValue validFrom_;
+      private io.dstore.Values.timestampValue validFrom_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
        *
        * <pre>
        * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
@@ -2169,30 +2169,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
        *
        * <pre>
        * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValue getValidFrom() {
-        return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+      public io.dstore.Values.timestampValue getValidFrom() {
+        return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
        *
        * <pre>
        * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
        * </pre>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
       }
 
       public static final int SURCHARGE_IS_ABSOLUTE_VALUE_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue surchargeIsAbsoluteValue_;
+      private io.dstore.Values.integerValue surchargeIsAbsoluteValue_;
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -2202,30 +2202,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return surchargeIsAbsoluteValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSurchargeIsAbsoluteValue() {
-        return surchargeIsAbsoluteValue_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
+      public io.dstore.Values.integerValue getSurchargeIsAbsoluteValue() {
+        return surchargeIsAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
         return getSurchargeIsAbsoluteValue();
       }
 
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.stringValue unitSymbol_;
+      private io.dstore.Values.stringValue unitSymbol_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID
@@ -2235,30 +2235,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return unitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getUnitSymbol() {
-        return unitSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : unitSymbol_;
+      public io.dstore.Values.stringValue getUnitSymbol() {
+        return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
       }
 
       public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.stringValue surchargeTypeDescription_;
+      private io.dstore.Values.stringValue surchargeTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -2268,30 +2268,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getSurchargeTypeDescription() {
-        return surchargeTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+      public io.dstore.Values.stringValue getSurchargeTypeDescription() {
+        return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         return getSurchargeTypeDescription();
       }
 
       public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.decimalValue surchargeValue_;
+      private io.dstore.Values.decimalValue surchargeValue_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        *
        * <pre>
        * Der Wert des Aufschlags/Rabatts
@@ -2301,30 +2301,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        *
        * <pre>
        * Der Wert des Aufschlags/Rabatts
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getSurchargeValue() {
-        return surchargeValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+      public io.dstore.Values.decimalValue getSurchargeValue() {
+        return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
        *
        * <pre>
        * Der Wert des Aufschlags/Rabatts
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
         return getSurchargeValue();
       }
 
       public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.integerValue paymentTypeId_;
+      private io.dstore.Values.integerValue paymentTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
        *
        * <pre>
        * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
@@ -2334,30 +2334,30 @@ public final class OmGetPaymentTypeSurchargesAd {
         return paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
        *
        * <pre>
        * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPaymentTypeId() {
-        return paymentTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+      public io.dstore.Values.integerValue getPaymentTypeId() {
+        return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
        *
        * <pre>
        * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
         return getPaymentTypeId();
       }
 
       public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.integerValue surchargeTypeId_;
+      private io.dstore.Values.integerValue surchargeTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        *
        * <pre>
        * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
@@ -2367,23 +2367,23 @@ public final class OmGetPaymentTypeSurchargesAd {
         return surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        *
        * <pre>
        * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getSurchargeTypeId() {
-        return surchargeTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+      public io.dstore.Values.integerValue getSurchargeTypeId() {
+        return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
        *
        * <pre>
        * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
       }
 
@@ -2850,11 +2850,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue paymentTypeDescription_ = null;
+        private io.dstore.Values.stringValue paymentTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
@@ -2864,27 +2864,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return paymentTypeDescriptionBuilder_ != null || paymentTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getPaymentTypeDescription() {
+        public io.dstore.Values.stringValue getPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
-            return paymentTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+            return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
           } else {
             return paymentTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
-        public Builder setPaymentTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setPaymentTypeDescription(io.dstore.Values.stringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2898,14 +2898,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
         public Builder setPaymentTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2916,17 +2916,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
-        public Builder mergePaymentTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergePaymentTypeDescription(io.dstore.Values.stringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (paymentTypeDescription_ != null) {
               paymentTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeDescription_ = value;
             }
@@ -2938,7 +2938,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
@@ -2956,45 +2956,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getPaymentTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getPaymentTypeDescriptionBuilder() {
           
           onChanged();
           return getPaymentTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
           if (paymentTypeDescriptionBuilder_ != null) {
             return paymentTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
          *
          * <pre>
          * Die Bezeichnung der Zahlungsart für die der Aufschlag/Rabatt gilt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPaymentTypeDescriptionFieldBuilder() {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPaymentTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3003,11 +3003,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return paymentTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue unitId_ = null;
+        private io.dstore.Values.integerValue unitId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> unitIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -3017,27 +3017,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return unitIdBuilder_ != null || unitId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getUnitId() {
+        public io.dstore.Values.integerValue getUnitId() {
           if (unitIdBuilder_ == null) {
-            return unitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : unitId_;
+            return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
           } else {
             return unitIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public Builder setUnitId(io.dstore.engine.Values.integerValue value) {
+        public Builder setUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3051,14 +3051,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
         public Builder setUnitId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (unitIdBuilder_ == null) {
             unitId_ = builderForValue.build();
             onChanged();
@@ -3069,17 +3069,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public Builder mergeUnitId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeUnitId(io.dstore.Values.integerValue value) {
           if (unitIdBuilder_ == null) {
             if (unitId_ != null) {
               unitId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
             } else {
               unitId_ = value;
             }
@@ -3091,7 +3091,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -3109,45 +3109,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getUnitIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
           
           onChanged();
           return getUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
           if (unitIdBuilder_ != null) {
             return unitIdBuilder_.getMessageOrBuilder();
           } else {
             return unitId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : unitId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUnitIdFieldBuilder() {
           if (unitIdBuilder_ == null) {
             unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -3156,11 +3156,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return unitIdBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue validTo_ = null;
+        private io.dstore.Values.timestampValue validTo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validToBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
@@ -3170,27 +3170,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return validToBuilder_ != null || validTo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getValidTo() {
+        public io.dstore.Values.timestampValue getValidTo() {
           if (validToBuilder_ == null) {
-            return validTo_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+            return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
           } else {
             return validToBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public Builder setValidTo(io.dstore.engine.Values.timestampValue value) {
+        public Builder setValidTo(io.dstore.Values.timestampValue value) {
           if (validToBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3204,14 +3204,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
         public Builder setValidTo(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (validToBuilder_ == null) {
             validTo_ = builderForValue.build();
             onChanged();
@@ -3222,17 +3222,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public Builder mergeValidTo(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
           if (validToBuilder_ == null) {
             if (validTo_ != null) {
               validTo_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
             } else {
               validTo_ = value;
             }
@@ -3244,7 +3244,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
@@ -3262,45 +3262,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getValidToBuilder() {
+        public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
           
           onChanged();
           return getValidToFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getValidToOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
           if (validToBuilder_ != null) {
             return validToBuilder_.getMessageOrBuilder();
           } else {
             return validTo_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : validTo_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
          *
          * <pre>
          * Der Zeitpunkt bis zu dem ein Rabatt/Aufschlag gültig ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getValidToFieldBuilder() {
           if (validToBuilder_ == null) {
             validToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getValidTo(),
                     getParentForChildren(),
                     isClean());
@@ -3309,11 +3309,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return validToBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue priorityNo_ = null;
+        private io.dstore.Values.integerValue priorityNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> priorityNoBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priorityNoBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
@@ -3323,27 +3323,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return priorityNoBuilder_ != null || priorityNo_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPriorityNo() {
+        public io.dstore.Values.integerValue getPriorityNo() {
           if (priorityNoBuilder_ == null) {
-            return priorityNo_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : priorityNo_;
+            return priorityNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priorityNo_;
           } else {
             return priorityNoBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
-        public Builder setPriorityNo(io.dstore.engine.Values.integerValue value) {
+        public Builder setPriorityNo(io.dstore.Values.integerValue value) {
           if (priorityNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3357,14 +3357,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
         public Builder setPriorityNo(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (priorityNoBuilder_ == null) {
             priorityNo_ = builderForValue.build();
             onChanged();
@@ -3375,17 +3375,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
-        public Builder mergePriorityNo(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePriorityNo(io.dstore.Values.integerValue value) {
           if (priorityNoBuilder_ == null) {
             if (priorityNo_ != null) {
               priorityNo_ =
-                io.dstore.engine.Values.integerValue.newBuilder(priorityNo_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(priorityNo_).mergeFrom(value).buildPartial();
             } else {
               priorityNo_ = value;
             }
@@ -3397,7 +3397,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
@@ -3415,45 +3415,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPriorityNoBuilder() {
+        public io.dstore.Values.integerValue.Builder getPriorityNoBuilder() {
           
           onChanged();
           return getPriorityNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPriorityNoOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPriorityNoOrBuilder() {
           if (priorityNoBuilder_ != null) {
             return priorityNoBuilder_.getMessageOrBuilder();
           } else {
             return priorityNo_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : priorityNo_;
+                io.dstore.Values.integerValue.getDefaultInstance() : priorityNo_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue priority_no = 10004;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10004;</code>
          *
          * <pre>
          * Die Priorität des Rabatts/Aufschlags. Bestimmt die Reihenfolge, in der Rabatte/Aufschläge berechnet und gelistet werden. Bei relativen "Surcharges" wichtig, da der Betrag, auf den er anzuwenden ist, "Surcharges" mit kleinerer "PriorityNo" enthält.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPriorityNoFieldBuilder() {
           if (priorityNoBuilder_ == null) {
             priorityNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPriorityNo(),
                     getParentForChildren(),
                     isClean());
@@ -3462,11 +3462,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return priorityNoBuilder_;
         }
 
-        private io.dstore.engine.Values.timestampValue validFrom_ = null;
+        private io.dstore.Values.timestampValue validFrom_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> validFromBuilder_;
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
@@ -3476,27 +3476,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return validFromBuilder_ != null || validFrom_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue getValidFrom() {
+        public io.dstore.Values.timestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
-            return validFrom_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+            return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
           } else {
             return validFromBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public Builder setValidFrom(io.dstore.engine.Values.timestampValue value) {
+        public Builder setValidFrom(io.dstore.Values.timestampValue value) {
           if (validFromBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3510,14 +3510,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
         public Builder setValidFrom(
-            io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+            io.dstore.Values.timestampValue.Builder builderForValue) {
           if (validFromBuilder_ == null) {
             validFrom_ = builderForValue.build();
             onChanged();
@@ -3528,17 +3528,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public Builder mergeValidFrom(io.dstore.engine.Values.timestampValue value) {
+        public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
           if (validFromBuilder_ == null) {
             if (validFrom_ != null) {
               validFrom_ =
-                io.dstore.engine.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+                io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
             } else {
               validFrom_ = value;
             }
@@ -3550,7 +3550,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
@@ -3568,45 +3568,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValue.Builder getValidFromBuilder() {
+        public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
           
           onChanged();
           return getValidFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
-        public io.dstore.engine.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+        public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
             return validFromBuilder_.getMessageOrBuilder();
           } else {
             return validFrom_ == null ?
-                io.dstore.engine.Values.timestampValue.getDefaultInstance() : validFrom_;
+                io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
          *
          * <pre>
          * Der Zeitpunkt ab dem der Rabatt/Aufschlag gültig ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getValidFromFieldBuilder() {
           if (validFromBuilder_ == null) {
             validFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getValidFrom(),
                     getParentForChildren(),
                     isClean());
@@ -3615,11 +3615,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return validFromBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue surchargeIsAbsoluteValue_ = null;
+        private io.dstore.Values.integerValue surchargeIsAbsoluteValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -3629,27 +3629,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeIsAbsoluteValueBuilder_ != null || surchargeIsAbsoluteValue_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSurchargeIsAbsoluteValue() {
+        public io.dstore.Values.integerValue getSurchargeIsAbsoluteValue() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
-            return surchargeIsAbsoluteValue_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
+            return surchargeIsAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
           } else {
             return surchargeIsAbsoluteValueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
-        public Builder setSurchargeIsAbsoluteValue(io.dstore.engine.Values.integerValue value) {
+        public Builder setSurchargeIsAbsoluteValue(io.dstore.Values.integerValue value) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3663,14 +3663,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
         public Builder setSurchargeIsAbsoluteValue(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             surchargeIsAbsoluteValue_ = builderForValue.build();
             onChanged();
@@ -3681,17 +3681,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
-        public Builder mergeSurchargeIsAbsoluteValue(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSurchargeIsAbsoluteValue(io.dstore.Values.integerValue value) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             if (surchargeIsAbsoluteValue_ != null) {
               surchargeIsAbsoluteValue_ =
-                io.dstore.engine.Values.integerValue.newBuilder(surchargeIsAbsoluteValue_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(surchargeIsAbsoluteValue_).mergeFrom(value).buildPartial();
             } else {
               surchargeIsAbsoluteValue_ = value;
             }
@@ -3703,7 +3703,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -3721,45 +3721,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSurchargeIsAbsoluteValueBuilder() {
+        public io.dstore.Values.integerValue.Builder getSurchargeIsAbsoluteValueBuilder() {
           
           onChanged();
           return getSurchargeIsAbsoluteValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
           if (surchargeIsAbsoluteValueBuilder_ != null) {
             return surchargeIsAbsoluteValueBuilder_.getMessageOrBuilder();
           } else {
             return surchargeIsAbsoluteValue_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
+                io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_is_absolute_value = 10006;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10006;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit "UnitID", und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeIsAbsoluteValueFieldBuilder() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             surchargeIsAbsoluteValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeIsAbsoluteValue(),
                     getParentForChildren(),
                     isClean());
@@ -3768,11 +3768,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeIsAbsoluteValueBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue unitSymbol_ = null;
+        private io.dstore.Values.stringValue unitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> unitSymbolBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
@@ -3782,27 +3782,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getUnitSymbol() {
+        public io.dstore.Values.stringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
-            return unitSymbol_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : unitSymbol_;
+            return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
           } else {
             return unitSymbolBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
-        public Builder setUnitSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3816,14 +3816,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
         public Builder setUnitSymbol(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (unitSymbolBuilder_ == null) {
             unitSymbol_ = builderForValue.build();
             onChanged();
@@ -3834,17 +3834,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
-        public Builder mergeUnitSymbol(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (unitSymbol_ != null) {
               unitSymbol_ =
-                io.dstore.engine.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
             } else {
               unitSymbol_ = value;
             }
@@ -3856,7 +3856,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
@@ -3874,45 +3874,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getUnitSymbolBuilder() {
+        public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
           
           onChanged();
           return getUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
             return unitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return unitSymbol_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : unitSymbol_;
+                io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue unit_symbol = 10007;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10007;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
             unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -3921,11 +3921,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return unitSymbolBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue surchargeTypeDescription_ = null;
+        private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -3935,27 +3935,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getSurchargeTypeDescription() {
+        public io.dstore.Values.stringValue getSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
-            return surchargeTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+            return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
           } else {
             return surchargeTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public Builder setSurchargeTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3969,14 +3969,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
         public Builder setSurchargeTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             surchargeTypeDescription_ = builderForValue.build();
             onChanged();
@@ -3987,17 +3987,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public Builder mergeSurchargeTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             if (surchargeTypeDescription_ != null) {
               surchargeTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeDescription_ = value;
             }
@@ -4009,7 +4009,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -4027,45 +4027,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
           
           onChanged();
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
           if (surchargeTypeDescriptionBuilder_ != null) {
             return surchargeTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue surcharge_type_description = 10008;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10008;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeTypeDescriptionFieldBuilder() {
           if (surchargeTypeDescriptionBuilder_ == null) {
             surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4074,11 +4074,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue surchargeValue_ = null;
+        private io.dstore.Values.decimalValue surchargeValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> surchargeValueBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
@@ -4088,27 +4088,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getSurchargeValue() {
+        public io.dstore.Values.decimalValue getSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
-            return surchargeValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+            return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
           } else {
             return surchargeValueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
-        public Builder setSurchargeValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder setSurchargeValue(io.dstore.Values.decimalValue value) {
           if (surchargeValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4122,14 +4122,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
         public Builder setSurchargeValue(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (surchargeValueBuilder_ == null) {
             surchargeValue_ = builderForValue.build();
             onChanged();
@@ -4140,17 +4140,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
-        public Builder mergeSurchargeValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeSurchargeValue(io.dstore.Values.decimalValue value) {
           if (surchargeValueBuilder_ == null) {
             if (surchargeValue_ != null) {
               surchargeValue_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
             } else {
               surchargeValue_ = value;
             }
@@ -4162,7 +4162,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
@@ -4180,45 +4180,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getSurchargeValueBuilder() {
+        public io.dstore.Values.decimalValue.Builder getSurchargeValueBuilder() {
           
           onChanged();
           return getSurchargeValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
           if (surchargeValueBuilder_ != null) {
             return surchargeValueBuilder_.getMessageOrBuilder();
           } else {
             return surchargeValue_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue surcharge_value = 10009;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10009;</code>
          *
          * <pre>
          * Der Wert des Aufschlags/Rabatts
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getSurchargeValueFieldBuilder() {
           if (surchargeValueBuilder_ == null) {
             surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getSurchargeValue(),
                     getParentForChildren(),
                     isClean());
@@ -4227,11 +4227,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeValueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue paymentTypeId_ = null;
+        private io.dstore.Values.integerValue paymentTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
@@ -4241,27 +4241,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPaymentTypeId() {
+        public io.dstore.Values.integerValue getPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
-            return paymentTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+            return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
           } else {
             return paymentTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
-        public Builder setPaymentTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
           if (paymentTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4275,14 +4275,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
         public Builder setPaymentTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (paymentTypeIdBuilder_ == null) {
             paymentTypeId_ = builderForValue.build();
             onChanged();
@@ -4293,17 +4293,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
-        public Builder mergePaymentTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
           if (paymentTypeIdBuilder_ == null) {
             if (paymentTypeId_ != null) {
               paymentTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeId_ = value;
             }
@@ -4315,7 +4315,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
@@ -4333,45 +4333,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
           
           onChanged();
           return getPaymentTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
           if (paymentTypeIdBuilder_ != null) {
             return paymentTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue payment_type_id = 10010;</code>
+         * <code>optional .dstore.values.integerValue payment_type_id = 10010;</code>
          *
          * <pre>
          * Die ID der Zahlungsart für die der Aufschlag/Rabatt gilt (z.Zt. also immer "&#64;PaymentTypeID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPaymentTypeIdFieldBuilder() {
           if (paymentTypeIdBuilder_ == null) {
             paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPaymentTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -4380,11 +4380,11 @@ public final class OmGetPaymentTypeSurchargesAd {
           return paymentTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue surchargeTypeId_ = null;
+        private io.dstore.Values.integerValue surchargeTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
@@ -4394,27 +4394,27 @@ public final class OmGetPaymentTypeSurchargesAd {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getSurchargeTypeId() {
+        public io.dstore.Values.integerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
-            return surchargeTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+            return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
           } else {
             return surchargeTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
-        public Builder setSurchargeTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4428,14 +4428,14 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
         public Builder setSurchargeTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeId_ = builderForValue.build();
             onChanged();
@@ -4446,17 +4446,17 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
-        public Builder mergeSurchargeTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (surchargeTypeId_ != null) {
               surchargeTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeId_ = value;
             }
@@ -4468,7 +4468,7 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
@@ -4486,45 +4486,45 @@ public final class OmGetPaymentTypeSurchargesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
           
           onChanged();
           return getSurchargeTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
             return surchargeTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue surcharge_type_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10011;</code>
          *
          * <pre>
          * Die ID der Aufschlags-/Rabatt-Art, die für "PaymentTypeID" im Zeitraum "ValidFrom" bis "ValidTo" konfiguriert ist/war
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeTypeIdFieldBuilder() {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -6094,45 +6094,42 @@ public final class OmGetPaymentTypeSurchargesAd {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_GetPayment" +
       "TypeSurcharges_Ad.proto\022,dstore.engine.o" +
-      "m_GetPaymentTypeSurcharges_Ad\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\354\002\n\nParam" +
-      "eters\022;\n\017payment_type_id\030\001 \001(\0132\".dstore." +
-      "engine.values.integerValue\022\035\n\024payment_ty" +
-      "pe_id_null\030\351\007 \001(\010\022=\n\021surcharge_type_id\030\002" +
-      " \001(\0132\".dstore.engine.values.integerValue",
-      "\022\037\n\026surcharge_type_id_null\030\352\007 \001(\010\0228\n\nval" +
-      "id_from\030\003 \001(\0132$.dstore.engine.values.tim" +
-      "estampValue\022\030\n\017valid_from_null\030\353\007 \001(\010\0226\n" +
-      "\010valid_to\030\004 \001(\0132$.dstore.engine.values.t" +
-      "imestampValue\022\026\n\rvalid_to_null\030\354\007 \001(\010\"\303\007" +
-      "\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engin" +
-      "e.error.Error\022H\n\020meta_information\030\002 \003(\0132" +
-      "..dstore.engine.metainformation.MetaInfo" +
-      "rmation\022/\n\007message\030\003 \003(\0132\036.dstore.engine" +
-      ".message.Message\022G\n\003row\030\004 \003(\0132:.dstore.e",
-      "ngine.om_GetPaymentTypeSurcharges_Ad.Res" +
-      "ponse.Row\032\307\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022D\n\030pa" +
-      "yment_type_description\030\221N \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\0224\n\007unit_id\030\222N \001" +
-      "(\0132\".dstore.engine.values.integerValue\0227" +
-      "\n\010valid_to\030\223N \001(\0132$.dstore.engine.values" +
-      ".timestampValue\0228\n\013priority_no\030\224N \001(\0132\"." +
-      "dstore.engine.values.integerValue\0229\n\nval" +
-      "id_from\030\225N \001(\0132$.dstore.engine.values.ti" +
-      "mestampValue\022H\n\033surcharge_is_absolute_va",
-      "lue\030\226N \001(\0132\".dstore.engine.values.intege" +
-      "rValue\0227\n\013unit_symbol\030\227N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022F\n\032surcharge_typ" +
-      "e_description\030\230N \001(\0132!.dstore.engine.val" +
-      "ues.stringValue\022<\n\017surcharge_value\030\231N \001(" +
-      "\0132\".dstore.engine.values.decimalValue\022<\n" +
-      "\017payment_type_id\030\232N \001(\0132\".dstore.engine." +
-      "values.integerValue\022>\n\021surcharge_type_id" +
-      "\030\233N \001(\0132\".dstore.engine.values.integerVa" +
-      "lueB\035\n\033io.dstore.engine.proceduresb\006prot",
-      "o3"
+      "m_GetPaymentTypeSurcharges_Ad\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\320\002\n\nParameters\0224" +
+      "\n\017payment_type_id\030\001 \001(\0132\033.dstore.values." +
+      "integerValue\022\035\n\024payment_type_id_null\030\351\007 " +
+      "\001(\010\0226\n\021surcharge_type_id\030\002 \001(\0132\033.dstore." +
+      "values.integerValue\022\037\n\026surcharge_type_id",
+      "_null\030\352\007 \001(\010\0221\n\nvalid_from\030\003 \001(\0132\035.dstor" +
+      "e.values.timestampValue\022\030\n\017valid_from_nu" +
+      "ll\030\353\007 \001(\010\022/\n\010valid_to\030\004 \001(\0132\035.dstore.val" +
+      "ues.timestampValue\022\026\n\rvalid_to_null\030\354\007 \001" +
+      "(\010\"\366\006\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
+      "engine.error.Error\022H\n\020meta_information\030\002" +
+      " \003(\0132..dstore.engine.metainformation.Met" +
+      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
+      "ngine.message.Message\022G\n\003row\030\004 \003(\0132:.dst" +
+      "ore.engine.om_GetPaymentTypeSurcharges_A",
+      "d.Response.Row\032\372\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
+      "=\n\030payment_type_description\030\221N \001(\0132\032.dst" +
+      "ore.values.stringValue\022-\n\007unit_id\030\222N \001(\013" +
+      "2\033.dstore.values.integerValue\0220\n\010valid_t" +
+      "o\030\223N \001(\0132\035.dstore.values.timestampValue\022" +
+      "1\n\013priority_no\030\224N \001(\0132\033.dstore.values.in" +
+      "tegerValue\0222\n\nvalid_from\030\225N \001(\0132\035.dstore" +
+      ".values.timestampValue\022A\n\033surcharge_is_a" +
+      "bsolute_value\030\226N \001(\0132\033.dstore.values.int" +
+      "egerValue\0220\n\013unit_symbol\030\227N \001(\0132\032.dstore",
+      ".values.stringValue\022?\n\032surcharge_type_de" +
+      "scription\030\230N \001(\0132\032.dstore.values.stringV" +
+      "alue\0225\n\017surcharge_value\030\231N \001(\0132\033.dstore." +
+      "values.decimalValue\0225\n\017payment_type_id\030\232" +
+      "N \001(\0132\033.dstore.values.integerValue\0227\n\021su" +
+      "rcharge_type_id\030\233N \001(\0132\033.dstore.values.i" +
+      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
+      "esb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6145,7 +6142,7 @@ public final class OmGetPaymentTypeSurchargesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -6168,7 +6165,7 @@ public final class OmGetPaymentTypeSurchargesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentTypeSurcharges_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PaymentTypeDescription", "UnitId", "ValidTo", "PriorityNo", "ValidFrom", "SurchargeIsAbsoluteValue", "UnitSymbol", "SurchargeTypeDescription", "SurchargeValue", "PaymentTypeId", "SurchargeTypeId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

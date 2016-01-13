@@ -13,17 +13,17 @@ public final class StGetDSSIndexFrequencyAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
      */
     boolean hasDomainTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getDomainTreeNodeId();
+    io.dstore.Values.integerValue getDomainTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool domain_tree_node_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getDomainTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
      */
-    io.dstore.engine.Values.timestampValue getFromDate();
+    io.dstore.Values.timestampValue getFromDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
      */
-    io.dstore.engine.Values.timestampValue getToDate();
+    io.dstore.Values.timestampValue getToDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+     * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
      */
     boolean hasGroupByNodesOnLevel();
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+     * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getGroupByNodesOnLevel();
+    io.dstore.Values.integerValue getGroupByNodesOnLevel();
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+     * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGroupByNodesOnLevelOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGroupByNodesOnLevelOrBuilder();
 
     /**
      * <code>optional bool group_by_nodes_on_level_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getGroupByNodesOnLevelNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
      */
     boolean hasIsLevelId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
      */
-    io.dstore.engine.Values.booleanValue getIsLevelId();
+    io.dstore.Values.booleanValue getIsLevelId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIsLevelIdOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIsLevelIdOrBuilder();
 
     /**
      * <code>optional bool is_level_id_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getIsLevelIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
      */
     boolean hasGroupByNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getGroupByNodeCharacteristicId();
+    io.dstore.Values.integerValue getGroupByNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool group_by_node_characteristic_id_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getGroupByNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+     * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
      */
     boolean hasOnlyValuesInOneId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+     * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
      */
-    io.dstore.engine.Values.booleanValue getOnlyValuesInOneId();
+    io.dstore.Values.booleanValue getOnlyValuesInOneId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+     * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOnlyValuesInOneIdOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOnlyValuesInOneIdOrBuilder();
 
     /**
      * <code>optional bool only_values_in_one_id_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getOnlyValuesInOneIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+     * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
      */
     boolean hasWeightViews();
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+     * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
      */
-    io.dstore.engine.Values.decimalValue getWeightViews();
+    io.dstore.Values.decimalValue getWeightViews();
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+     * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getWeightViewsOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getWeightViewsOrBuilder();
 
     /**
      * <code>optional bool weight_views_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getWeightViewsNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+     * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
      */
     boolean hasWeightBuyingInterest();
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+     * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
      */
-    io.dstore.engine.Values.decimalValue getWeightBuyingInterest();
+    io.dstore.Values.decimalValue getWeightBuyingInterest();
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+     * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getWeightBuyingInterestOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getWeightBuyingInterestOrBuilder();
 
     /**
      * <code>optional bool weight_buying_interest_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getWeightBuyingInterestNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+     * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
      */
     boolean hasWeightOrder();
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+     * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
      */
-    io.dstore.engine.Values.decimalValue getWeightOrder();
+    io.dstore.Values.decimalValue getWeightOrder();
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+     * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getWeightOrderOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getWeightOrderOrBuilder();
 
     /**
      * <code>optional bool weight_order_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getWeightOrderNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+     * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
      */
     boolean hasIncludeDeactivatedNodes();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+     * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeDeactivatedNodes();
+    io.dstore.Values.booleanValue getIncludeDeactivatedNodes();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+     * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder();
 
     /**
      * <code>optional bool include_deactivated_nodes_null = 1011;</code>
@@ -211,17 +211,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getIncludeDeactivatedNodesNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+     * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
      */
     boolean hasIncludeNodesWithoutTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+     * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
      */
-    io.dstore.engine.Values.booleanValue getIncludeNodesWithoutTreeNodeId();
+    io.dstore.Values.booleanValue getIncludeNodesWithoutTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+     * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool include_nodes_without_tree_node_id_null = 1012;</code>
@@ -229,17 +229,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getIncludeNodesWithoutTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+     * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
      */
     boolean hasOrderResultByColumn();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+     * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
      */
-    io.dstore.engine.Values.integerValue getOrderResultByColumn();
+    io.dstore.Values.integerValue getOrderResultByColumn();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+     * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOrderResultByColumnOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOrderResultByColumnOrBuilder();
 
     /**
      * <code>optional bool order_result_by_column_null = 1013;</code>
@@ -247,17 +247,17 @@ public final class StGetDSSIndexFrequencyAd {
     boolean getOrderResultByColumnNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
      */
     boolean hasGetTopX();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
      */
-    io.dstore.engine.Values.integerValue getGetTopX();
+    io.dstore.Values.integerValue getGetTopX();
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getGetTopXOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getGetTopXOrBuilder();
 
     /**
      * <code>optional bool get_top_x_null = 1014;</code>
@@ -317,11 +317,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (domainTreeNodeId_ != null) {
                 subBuilder = domainTreeNodeId_.toBuilder();
               }
-              domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              domainTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeId_);
                 domainTreeNodeId_ = subBuilder.buildPartial();
@@ -330,11 +330,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -343,11 +343,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -356,11 +356,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (groupByNodesOnLevel_ != null) {
                 subBuilder = groupByNodesOnLevel_.toBuilder();
               }
-              groupByNodesOnLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              groupByNodesOnLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupByNodesOnLevel_);
                 groupByNodesOnLevel_ = subBuilder.buildPartial();
@@ -369,11 +369,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (isLevelId_ != null) {
                 subBuilder = isLevelId_.toBuilder();
               }
-              isLevelId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              isLevelId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isLevelId_);
                 isLevelId_ = subBuilder.buildPartial();
@@ -382,11 +382,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (groupByNodeCharacteristicId_ != null) {
                 subBuilder = groupByNodeCharacteristicId_.toBuilder();
               }
-              groupByNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              groupByNodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupByNodeCharacteristicId_);
                 groupByNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -395,11 +395,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (onlyValuesInOneId_ != null) {
                 subBuilder = onlyValuesInOneId_.toBuilder();
               }
-              onlyValuesInOneId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              onlyValuesInOneId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyValuesInOneId_);
                 onlyValuesInOneId_ = subBuilder.buildPartial();
@@ -408,11 +408,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (weightViews_ != null) {
                 subBuilder = weightViews_.toBuilder();
               }
-              weightViews_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              weightViews_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightViews_);
                 weightViews_ = subBuilder.buildPartial();
@@ -421,11 +421,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (weightBuyingInterest_ != null) {
                 subBuilder = weightBuyingInterest_.toBuilder();
               }
-              weightBuyingInterest_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              weightBuyingInterest_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightBuyingInterest_);
                 weightBuyingInterest_ = subBuilder.buildPartial();
@@ -434,11 +434,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (weightOrder_ != null) {
                 subBuilder = weightOrder_.toBuilder();
               }
-              weightOrder_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              weightOrder_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightOrder_);
                 weightOrder_ = subBuilder.buildPartial();
@@ -447,11 +447,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeDeactivatedNodes_ != null) {
                 subBuilder = includeDeactivatedNodes_.toBuilder();
               }
-              includeDeactivatedNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeDeactivatedNodes_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeDeactivatedNodes_);
                 includeDeactivatedNodes_ = subBuilder.buildPartial();
@@ -460,11 +460,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (includeNodesWithoutTreeNodeId_ != null) {
                 subBuilder = includeNodesWithoutTreeNodeId_.toBuilder();
               }
-              includeNodesWithoutTreeNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              includeNodesWithoutTreeNodeId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeNodesWithoutTreeNodeId_);
                 includeNodesWithoutTreeNodeId_ = subBuilder.buildPartial();
@@ -473,11 +473,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 106: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (orderResultByColumn_ != null) {
                 subBuilder = orderResultByColumn_.toBuilder();
               }
-              orderResultByColumn_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              orderResultByColumn_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderResultByColumn_);
                 orderResultByColumn_ = subBuilder.buildPartial();
@@ -486,11 +486,11 @@ public final class StGetDSSIndexFrequencyAd {
               break;
             }
             case 114: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (getTopX_ != null) {
                 subBuilder = getTopX_.toBuilder();
               }
-              getTopX_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              getTopX_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getTopX_);
                 getTopX_ = subBuilder.buildPartial();
@@ -593,23 +593,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue domainTreeNodeId_;
+    private io.dstore.Values.integerValue domainTreeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
      */
     public boolean hasDomainTreeNodeId() {
       return domainTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getDomainTreeNodeId() {
-      return domainTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+    public io.dstore.Values.integerValue getDomainTreeNodeId() {
+      return domainTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
       return getDomainTreeNodeId();
     }
 
@@ -623,23 +623,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.timestampValue fromDate_;
+    private io.dstore.Values.timestampValue fromDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.Values.timestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -653,23 +653,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.timestampValue toDate_;
+    private io.dstore.Values.timestampValue toDate_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.Values.timestampValue getToDate() {
+      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -683,23 +683,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int GROUP_BY_NODES_ON_LEVEL_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue groupByNodesOnLevel_;
+    private io.dstore.Values.integerValue groupByNodesOnLevel_;
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+     * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
      */
     public boolean hasGroupByNodesOnLevel() {
       return groupByNodesOnLevel_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+     * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getGroupByNodesOnLevel() {
-      return groupByNodesOnLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupByNodesOnLevel_;
+    public io.dstore.Values.integerValue getGroupByNodesOnLevel() {
+      return groupByNodesOnLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupByNodesOnLevel_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+     * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGroupByNodesOnLevelOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGroupByNodesOnLevelOrBuilder() {
       return getGroupByNodesOnLevel();
     }
 
@@ -713,23 +713,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int IS_LEVEL_ID_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.booleanValue isLevelId_;
+    private io.dstore.Values.booleanValue isLevelId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
      */
     public boolean hasIsLevelId() {
       return isLevelId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIsLevelId() {
-      return isLevelId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isLevelId_;
+    public io.dstore.Values.booleanValue getIsLevelId() {
+      return isLevelId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isLevelId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+     * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIsLevelIdOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIsLevelIdOrBuilder() {
       return getIsLevelId();
     }
 
@@ -743,23 +743,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int GROUP_BY_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue groupByNodeCharacteristicId_;
+    private io.dstore.Values.integerValue groupByNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
      */
     public boolean hasGroupByNodeCharacteristicId() {
       return groupByNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getGroupByNodeCharacteristicId() {
-      return groupByNodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
+    public io.dstore.Values.integerValue getGroupByNodeCharacteristicId() {
+      return groupByNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder() {
       return getGroupByNodeCharacteristicId();
     }
 
@@ -773,23 +773,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int ONLY_VALUES_IN_ONE_ID_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.booleanValue onlyValuesInOneId_;
+    private io.dstore.Values.booleanValue onlyValuesInOneId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+     * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
      */
     public boolean hasOnlyValuesInOneId() {
       return onlyValuesInOneId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+     * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOnlyValuesInOneId() {
-      return onlyValuesInOneId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyValuesInOneId_;
+    public io.dstore.Values.booleanValue getOnlyValuesInOneId() {
+      return onlyValuesInOneId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyValuesInOneId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+     * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOnlyValuesInOneIdOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOnlyValuesInOneIdOrBuilder() {
       return getOnlyValuesInOneId();
     }
 
@@ -803,23 +803,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int WEIGHT_VIEWS_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.decimalValue weightViews_;
+    private io.dstore.Values.decimalValue weightViews_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+     * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
      */
     public boolean hasWeightViews() {
       return weightViews_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+     * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
      */
-    public io.dstore.engine.Values.decimalValue getWeightViews() {
-      return weightViews_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightViews_;
+    public io.dstore.Values.decimalValue getWeightViews() {
+      return weightViews_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : weightViews_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+     * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getWeightViewsOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getWeightViewsOrBuilder() {
       return getWeightViews();
     }
 
@@ -833,23 +833,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int WEIGHT_BUYING_INTEREST_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.decimalValue weightBuyingInterest_;
+    private io.dstore.Values.decimalValue weightBuyingInterest_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+     * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
      */
     public boolean hasWeightBuyingInterest() {
       return weightBuyingInterest_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+     * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
      */
-    public io.dstore.engine.Values.decimalValue getWeightBuyingInterest() {
-      return weightBuyingInterest_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightBuyingInterest_;
+    public io.dstore.Values.decimalValue getWeightBuyingInterest() {
+      return weightBuyingInterest_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : weightBuyingInterest_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+     * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getWeightBuyingInterestOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getWeightBuyingInterestOrBuilder() {
       return getWeightBuyingInterest();
     }
 
@@ -863,23 +863,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int WEIGHT_ORDER_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.decimalValue weightOrder_;
+    private io.dstore.Values.decimalValue weightOrder_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+     * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
      */
     public boolean hasWeightOrder() {
       return weightOrder_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+     * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
      */
-    public io.dstore.engine.Values.decimalValue getWeightOrder() {
-      return weightOrder_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightOrder_;
+    public io.dstore.Values.decimalValue getWeightOrder() {
+      return weightOrder_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : weightOrder_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+     * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getWeightOrderOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getWeightOrderOrBuilder() {
       return getWeightOrder();
     }
 
@@ -893,23 +893,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int INCLUDE_DEACTIVATED_NODES_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.booleanValue includeDeactivatedNodes_;
+    private io.dstore.Values.booleanValue includeDeactivatedNodes_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+     * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
      */
     public boolean hasIncludeDeactivatedNodes() {
       return includeDeactivatedNodes_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+     * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeDeactivatedNodes() {
-      return includeDeactivatedNodes_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeDeactivatedNodes_;
+    public io.dstore.Values.booleanValue getIncludeDeactivatedNodes() {
+      return includeDeactivatedNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeDeactivatedNodes_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+     * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
       return getIncludeDeactivatedNodes();
     }
 
@@ -923,23 +923,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int INCLUDE_NODES_WITHOUT_TREE_NODE_ID_FIELD_NUMBER = 12;
-    private io.dstore.engine.Values.booleanValue includeNodesWithoutTreeNodeId_;
+    private io.dstore.Values.booleanValue includeNodesWithoutTreeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+     * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
      */
     public boolean hasIncludeNodesWithoutTreeNodeId() {
       return includeNodesWithoutTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+     * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
      */
-    public io.dstore.engine.Values.booleanValue getIncludeNodesWithoutTreeNodeId() {
-      return includeNodesWithoutTreeNodeId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
+    public io.dstore.Values.booleanValue getIncludeNodesWithoutTreeNodeId() {
+      return includeNodesWithoutTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+     * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder() {
       return getIncludeNodesWithoutTreeNodeId();
     }
 
@@ -953,23 +953,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int ORDER_RESULT_BY_COLUMN_FIELD_NUMBER = 13;
-    private io.dstore.engine.Values.integerValue orderResultByColumn_;
+    private io.dstore.Values.integerValue orderResultByColumn_;
     /**
-     * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+     * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
      */
     public boolean hasOrderResultByColumn() {
       return orderResultByColumn_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+     * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
      */
-    public io.dstore.engine.Values.integerValue getOrderResultByColumn() {
-      return orderResultByColumn_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderResultByColumn_;
+    public io.dstore.Values.integerValue getOrderResultByColumn() {
+      return orderResultByColumn_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderResultByColumn_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+     * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOrderResultByColumnOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOrderResultByColumnOrBuilder() {
       return getOrderResultByColumn();
     }
 
@@ -983,23 +983,23 @@ public final class StGetDSSIndexFrequencyAd {
     }
 
     public static final int GET_TOP_X_FIELD_NUMBER = 14;
-    private io.dstore.engine.Values.integerValue getTopX_;
+    private io.dstore.Values.integerValue getTopX_;
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
      */
     public boolean hasGetTopX() {
       return getTopX_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
      */
-    public io.dstore.engine.Values.integerValue getGetTopX() {
-      return getTopX_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getTopX_;
+    public io.dstore.Values.integerValue getGetTopX() {
+      return getTopX_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getTopX_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+     * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getGetTopXOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getGetTopXOrBuilder() {
       return getGetTopX();
     }
 
@@ -1681,29 +1681,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue domainTreeNodeId_ = null;
+      private io.dstore.Values.integerValue domainTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
       public boolean hasDomainTreeNodeId() {
         return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getDomainTreeNodeId() {
+      public io.dstore.Values.integerValue getDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
-          return domainTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+          return domainTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
         } else {
           return domainTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
-      public Builder setDomainTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setDomainTreeNodeId(io.dstore.Values.integerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,10 +1717,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
       public Builder setDomainTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (domainTreeNodeIdBuilder_ == null) {
           domainTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -1731,13 +1731,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
-      public Builder mergeDomainTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeDomainTreeNodeId(io.dstore.Values.integerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
           if (domainTreeNodeId_ != null) {
             domainTreeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(domainTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(domainTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             domainTreeNodeId_ = value;
           }
@@ -1749,7 +1749,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
       public Builder clearDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1763,33 +1763,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getDomainTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getDomainTreeNodeIdBuilder() {
         
         onChanged();
         return getDomainTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         if (domainTreeNodeIdBuilder_ != null) {
           return domainTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return domainTreeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue domain_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDomainTreeNodeIdFieldBuilder() {
         if (domainTreeNodeIdBuilder_ == null) {
           domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDomainTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1824,29 +1824,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue fromDate_ = null;
+      private io.dstore.Values.timestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue getFromDate() {
+      public io.dstore.Values.timestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      public Builder setFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1860,10 +1860,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
       public Builder setFromDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1874,13 +1874,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      public Builder mergeFromDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1892,7 +1892,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1906,33 +1906,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1967,29 +1967,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue toDate_ = null;
+      private io.dstore.Values.timestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue getToDate() {
+      public io.dstore.Values.timestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      public Builder setToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2003,10 +2003,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
       public Builder setToDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -2017,13 +2017,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      public Builder mergeToDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -2035,7 +2035,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -2049,33 +2049,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -2110,29 +2110,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue groupByNodesOnLevel_ = null;
+      private io.dstore.Values.integerValue groupByNodesOnLevel_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> groupByNodesOnLevelBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupByNodesOnLevelBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
       public boolean hasGroupByNodesOnLevel() {
         return groupByNodesOnLevelBuilder_ != null || groupByNodesOnLevel_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getGroupByNodesOnLevel() {
+      public io.dstore.Values.integerValue getGroupByNodesOnLevel() {
         if (groupByNodesOnLevelBuilder_ == null) {
-          return groupByNodesOnLevel_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupByNodesOnLevel_;
+          return groupByNodesOnLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupByNodesOnLevel_;
         } else {
           return groupByNodesOnLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
-      public Builder setGroupByNodesOnLevel(io.dstore.engine.Values.integerValue value) {
+      public Builder setGroupByNodesOnLevel(io.dstore.Values.integerValue value) {
         if (groupByNodesOnLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2146,10 +2146,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
       public Builder setGroupByNodesOnLevel(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (groupByNodesOnLevelBuilder_ == null) {
           groupByNodesOnLevel_ = builderForValue.build();
           onChanged();
@@ -2160,13 +2160,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
-      public Builder mergeGroupByNodesOnLevel(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGroupByNodesOnLevel(io.dstore.Values.integerValue value) {
         if (groupByNodesOnLevelBuilder_ == null) {
           if (groupByNodesOnLevel_ != null) {
             groupByNodesOnLevel_ =
-              io.dstore.engine.Values.integerValue.newBuilder(groupByNodesOnLevel_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(groupByNodesOnLevel_).mergeFrom(value).buildPartial();
           } else {
             groupByNodesOnLevel_ = value;
           }
@@ -2178,7 +2178,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
       public Builder clearGroupByNodesOnLevel() {
         if (groupByNodesOnLevelBuilder_ == null) {
@@ -2192,33 +2192,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGroupByNodesOnLevelBuilder() {
+      public io.dstore.Values.integerValue.Builder getGroupByNodesOnLevelBuilder() {
         
         onChanged();
         return getGroupByNodesOnLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGroupByNodesOnLevelOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGroupByNodesOnLevelOrBuilder() {
         if (groupByNodesOnLevelBuilder_ != null) {
           return groupByNodesOnLevelBuilder_.getMessageOrBuilder();
         } else {
           return groupByNodesOnLevel_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : groupByNodesOnLevel_;
+              io.dstore.Values.integerValue.getDefaultInstance() : groupByNodesOnLevel_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_nodes_on_level = 4;</code>
+       * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGroupByNodesOnLevelFieldBuilder() {
         if (groupByNodesOnLevelBuilder_ == null) {
           groupByNodesOnLevelBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGroupByNodesOnLevel(),
                   getParentForChildren(),
                   isClean());
@@ -2253,29 +2253,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue isLevelId_ = null;
+      private io.dstore.Values.booleanValue isLevelId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> isLevelIdBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isLevelIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
       public boolean hasIsLevelId() {
         return isLevelIdBuilder_ != null || isLevelId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIsLevelId() {
+      public io.dstore.Values.booleanValue getIsLevelId() {
         if (isLevelIdBuilder_ == null) {
-          return isLevelId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : isLevelId_;
+          return isLevelId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isLevelId_;
         } else {
           return isLevelIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
-      public Builder setIsLevelId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIsLevelId(io.dstore.Values.booleanValue value) {
         if (isLevelIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
       public Builder setIsLevelId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (isLevelIdBuilder_ == null) {
           isLevelId_ = builderForValue.build();
           onChanged();
@@ -2303,13 +2303,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
-      public Builder mergeIsLevelId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIsLevelId(io.dstore.Values.booleanValue value) {
         if (isLevelIdBuilder_ == null) {
           if (isLevelId_ != null) {
             isLevelId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(isLevelId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(isLevelId_).mergeFrom(value).buildPartial();
           } else {
             isLevelId_ = value;
           }
@@ -2321,7 +2321,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
       public Builder clearIsLevelId() {
         if (isLevelIdBuilder_ == null) {
@@ -2335,33 +2335,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIsLevelIdBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIsLevelIdBuilder() {
         
         onChanged();
         return getIsLevelIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIsLevelIdOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIsLevelIdOrBuilder() {
         if (isLevelIdBuilder_ != null) {
           return isLevelIdBuilder_.getMessageOrBuilder();
         } else {
           return isLevelId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : isLevelId_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : isLevelId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue is_level_id = 5;</code>
+       * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIsLevelIdFieldBuilder() {
         if (isLevelIdBuilder_ == null) {
           isLevelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIsLevelId(),
                   getParentForChildren(),
                   isClean());
@@ -2396,29 +2396,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue groupByNodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue groupByNodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> groupByNodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupByNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
       public boolean hasGroupByNodeCharacteristicId() {
         return groupByNodeCharacteristicIdBuilder_ != null || groupByNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getGroupByNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getGroupByNodeCharacteristicId() {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
-          return groupByNodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
+          return groupByNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
         } else {
           return groupByNodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
-      public Builder setGroupByNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setGroupByNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2432,10 +2432,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
       public Builder setGroupByNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
           groupByNodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2446,13 +2446,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
-      public Builder mergeGroupByNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGroupByNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
           if (groupByNodeCharacteristicId_ != null) {
             groupByNodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(groupByNodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(groupByNodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             groupByNodeCharacteristicId_ = value;
           }
@@ -2464,7 +2464,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
       public Builder clearGroupByNodeCharacteristicId() {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
@@ -2478,33 +2478,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGroupByNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getGroupByNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getGroupByNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder() {
         if (groupByNodeCharacteristicIdBuilder_ != null) {
           return groupByNodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return groupByNodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue group_by_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGroupByNodeCharacteristicIdFieldBuilder() {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
           groupByNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGroupByNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2539,29 +2539,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue onlyValuesInOneId_ = null;
+      private io.dstore.Values.booleanValue onlyValuesInOneId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> onlyValuesInOneIdBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyValuesInOneIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
       public boolean hasOnlyValuesInOneId() {
         return onlyValuesInOneIdBuilder_ != null || onlyValuesInOneId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOnlyValuesInOneId() {
+      public io.dstore.Values.booleanValue getOnlyValuesInOneId() {
         if (onlyValuesInOneIdBuilder_ == null) {
-          return onlyValuesInOneId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyValuesInOneId_;
+          return onlyValuesInOneId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyValuesInOneId_;
         } else {
           return onlyValuesInOneIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
-      public Builder setOnlyValuesInOneId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOnlyValuesInOneId(io.dstore.Values.booleanValue value) {
         if (onlyValuesInOneIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2575,10 +2575,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
       public Builder setOnlyValuesInOneId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (onlyValuesInOneIdBuilder_ == null) {
           onlyValuesInOneId_ = builderForValue.build();
           onChanged();
@@ -2589,13 +2589,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
-      public Builder mergeOnlyValuesInOneId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOnlyValuesInOneId(io.dstore.Values.booleanValue value) {
         if (onlyValuesInOneIdBuilder_ == null) {
           if (onlyValuesInOneId_ != null) {
             onlyValuesInOneId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(onlyValuesInOneId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(onlyValuesInOneId_).mergeFrom(value).buildPartial();
           } else {
             onlyValuesInOneId_ = value;
           }
@@ -2607,7 +2607,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
       public Builder clearOnlyValuesInOneId() {
         if (onlyValuesInOneIdBuilder_ == null) {
@@ -2621,33 +2621,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOnlyValuesInOneIdBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOnlyValuesInOneIdBuilder() {
         
         onChanged();
         return getOnlyValuesInOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOnlyValuesInOneIdOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOnlyValuesInOneIdOrBuilder() {
         if (onlyValuesInOneIdBuilder_ != null) {
           return onlyValuesInOneIdBuilder_.getMessageOrBuilder();
         } else {
           return onlyValuesInOneId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyValuesInOneId_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : onlyValuesInOneId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_values_in_one_id = 7;</code>
+       * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyValuesInOneIdFieldBuilder() {
         if (onlyValuesInOneIdBuilder_ == null) {
           onlyValuesInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyValuesInOneId(),
                   getParentForChildren(),
                   isClean());
@@ -2682,29 +2682,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue weightViews_ = null;
+      private io.dstore.Values.decimalValue weightViews_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> weightViewsBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightViewsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
       public boolean hasWeightViews() {
         return weightViewsBuilder_ != null || weightViews_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
-      public io.dstore.engine.Values.decimalValue getWeightViews() {
+      public io.dstore.Values.decimalValue getWeightViews() {
         if (weightViewsBuilder_ == null) {
-          return weightViews_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightViews_;
+          return weightViews_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : weightViews_;
         } else {
           return weightViewsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
-      public Builder setWeightViews(io.dstore.engine.Values.decimalValue value) {
+      public Builder setWeightViews(io.dstore.Values.decimalValue value) {
         if (weightViewsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2718,10 +2718,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
       public Builder setWeightViews(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (weightViewsBuilder_ == null) {
           weightViews_ = builderForValue.build();
           onChanged();
@@ -2732,13 +2732,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
-      public Builder mergeWeightViews(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeWeightViews(io.dstore.Values.decimalValue value) {
         if (weightViewsBuilder_ == null) {
           if (weightViews_ != null) {
             weightViews_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(weightViews_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(weightViews_).mergeFrom(value).buildPartial();
           } else {
             weightViews_ = value;
           }
@@ -2750,7 +2750,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
       public Builder clearWeightViews() {
         if (weightViewsBuilder_ == null) {
@@ -2764,33 +2764,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getWeightViewsBuilder() {
+      public io.dstore.Values.decimalValue.Builder getWeightViewsBuilder() {
         
         onChanged();
         return getWeightViewsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getWeightViewsOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getWeightViewsOrBuilder() {
         if (weightViewsBuilder_ != null) {
           return weightViewsBuilder_.getMessageOrBuilder();
         } else {
           return weightViews_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightViews_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : weightViews_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_views = 8;</code>
+       * <code>optional .dstore.values.decimalValue weight_views = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightViewsFieldBuilder() {
         if (weightViewsBuilder_ == null) {
           weightViewsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightViews(),
                   getParentForChildren(),
                   isClean());
@@ -2825,29 +2825,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue weightBuyingInterest_ = null;
+      private io.dstore.Values.decimalValue weightBuyingInterest_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> weightBuyingInterestBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightBuyingInterestBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
       public boolean hasWeightBuyingInterest() {
         return weightBuyingInterestBuilder_ != null || weightBuyingInterest_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
-      public io.dstore.engine.Values.decimalValue getWeightBuyingInterest() {
+      public io.dstore.Values.decimalValue getWeightBuyingInterest() {
         if (weightBuyingInterestBuilder_ == null) {
-          return weightBuyingInterest_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightBuyingInterest_;
+          return weightBuyingInterest_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : weightBuyingInterest_;
         } else {
           return weightBuyingInterestBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
-      public Builder setWeightBuyingInterest(io.dstore.engine.Values.decimalValue value) {
+      public Builder setWeightBuyingInterest(io.dstore.Values.decimalValue value) {
         if (weightBuyingInterestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2861,10 +2861,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
       public Builder setWeightBuyingInterest(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (weightBuyingInterestBuilder_ == null) {
           weightBuyingInterest_ = builderForValue.build();
           onChanged();
@@ -2875,13 +2875,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
-      public Builder mergeWeightBuyingInterest(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeWeightBuyingInterest(io.dstore.Values.decimalValue value) {
         if (weightBuyingInterestBuilder_ == null) {
           if (weightBuyingInterest_ != null) {
             weightBuyingInterest_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(weightBuyingInterest_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(weightBuyingInterest_).mergeFrom(value).buildPartial();
           } else {
             weightBuyingInterest_ = value;
           }
@@ -2893,7 +2893,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
       public Builder clearWeightBuyingInterest() {
         if (weightBuyingInterestBuilder_ == null) {
@@ -2907,33 +2907,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getWeightBuyingInterestBuilder() {
+      public io.dstore.Values.decimalValue.Builder getWeightBuyingInterestBuilder() {
         
         onChanged();
         return getWeightBuyingInterestFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getWeightBuyingInterestOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getWeightBuyingInterestOrBuilder() {
         if (weightBuyingInterestBuilder_ != null) {
           return weightBuyingInterestBuilder_.getMessageOrBuilder();
         } else {
           return weightBuyingInterest_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightBuyingInterest_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : weightBuyingInterest_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_buying_interest = 9;</code>
+       * <code>optional .dstore.values.decimalValue weight_buying_interest = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightBuyingInterestFieldBuilder() {
         if (weightBuyingInterestBuilder_ == null) {
           weightBuyingInterestBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightBuyingInterest(),
                   getParentForChildren(),
                   isClean());
@@ -2968,29 +2968,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue weightOrder_ = null;
+      private io.dstore.Values.decimalValue weightOrder_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> weightOrderBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightOrderBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
       public boolean hasWeightOrder() {
         return weightOrderBuilder_ != null || weightOrder_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
-      public io.dstore.engine.Values.decimalValue getWeightOrder() {
+      public io.dstore.Values.decimalValue getWeightOrder() {
         if (weightOrderBuilder_ == null) {
-          return weightOrder_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightOrder_;
+          return weightOrder_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : weightOrder_;
         } else {
           return weightOrderBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
-      public Builder setWeightOrder(io.dstore.engine.Values.decimalValue value) {
+      public Builder setWeightOrder(io.dstore.Values.decimalValue value) {
         if (weightOrderBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3004,10 +3004,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
       public Builder setWeightOrder(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (weightOrderBuilder_ == null) {
           weightOrder_ = builderForValue.build();
           onChanged();
@@ -3018,13 +3018,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
-      public Builder mergeWeightOrder(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeWeightOrder(io.dstore.Values.decimalValue value) {
         if (weightOrderBuilder_ == null) {
           if (weightOrder_ != null) {
             weightOrder_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(weightOrder_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(weightOrder_).mergeFrom(value).buildPartial();
           } else {
             weightOrder_ = value;
           }
@@ -3036,7 +3036,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
       public Builder clearWeightOrder() {
         if (weightOrderBuilder_ == null) {
@@ -3050,33 +3050,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getWeightOrderBuilder() {
+      public io.dstore.Values.decimalValue.Builder getWeightOrderBuilder() {
         
         onChanged();
         return getWeightOrderFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getWeightOrderOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getWeightOrderOrBuilder() {
         if (weightOrderBuilder_ != null) {
           return weightOrderBuilder_.getMessageOrBuilder();
         } else {
           return weightOrder_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : weightOrder_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : weightOrder_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue weight_order = 10;</code>
+       * <code>optional .dstore.values.decimalValue weight_order = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightOrderFieldBuilder() {
         if (weightOrderBuilder_ == null) {
           weightOrderBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightOrder(),
                   getParentForChildren(),
                   isClean());
@@ -3111,29 +3111,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeDeactivatedNodes_ = null;
+      private io.dstore.Values.booleanValue includeDeactivatedNodes_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeDeactivatedNodesBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeDeactivatedNodesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
       public boolean hasIncludeDeactivatedNodes() {
         return includeDeactivatedNodesBuilder_ != null || includeDeactivatedNodes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeDeactivatedNodes() {
+      public io.dstore.Values.booleanValue getIncludeDeactivatedNodes() {
         if (includeDeactivatedNodesBuilder_ == null) {
-          return includeDeactivatedNodes_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeDeactivatedNodes_;
+          return includeDeactivatedNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeDeactivatedNodes_;
         } else {
           return includeDeactivatedNodesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
-      public Builder setIncludeDeactivatedNodes(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeDeactivatedNodes(io.dstore.Values.booleanValue value) {
         if (includeDeactivatedNodesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3147,10 +3147,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
       public Builder setIncludeDeactivatedNodes(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeDeactivatedNodesBuilder_ == null) {
           includeDeactivatedNodes_ = builderForValue.build();
           onChanged();
@@ -3161,13 +3161,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
-      public Builder mergeIncludeDeactivatedNodes(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeDeactivatedNodes(io.dstore.Values.booleanValue value) {
         if (includeDeactivatedNodesBuilder_ == null) {
           if (includeDeactivatedNodes_ != null) {
             includeDeactivatedNodes_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeDeactivatedNodes_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeDeactivatedNodes_).mergeFrom(value).buildPartial();
           } else {
             includeDeactivatedNodes_ = value;
           }
@@ -3179,7 +3179,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
       public Builder clearIncludeDeactivatedNodes() {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -3193,33 +3193,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeDeactivatedNodesBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeDeactivatedNodesBuilder() {
         
         onChanged();
         return getIncludeDeactivatedNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
         if (includeDeactivatedNodesBuilder_ != null) {
           return includeDeactivatedNodesBuilder_.getMessageOrBuilder();
         } else {
           return includeDeactivatedNodes_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeDeactivatedNodes_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeDeactivatedNodes_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_deactivated_nodes = 11;</code>
+       * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeDeactivatedNodesFieldBuilder() {
         if (includeDeactivatedNodesBuilder_ == null) {
           includeDeactivatedNodesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeDeactivatedNodes(),
                   getParentForChildren(),
                   isClean());
@@ -3254,29 +3254,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue includeNodesWithoutTreeNodeId_ = null;
+      private io.dstore.Values.booleanValue includeNodesWithoutTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> includeNodesWithoutTreeNodeIdBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeNodesWithoutTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
       public boolean hasIncludeNodesWithoutTreeNodeId() {
         return includeNodesWithoutTreeNodeIdBuilder_ != null || includeNodesWithoutTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValue getIncludeNodesWithoutTreeNodeId() {
+      public io.dstore.Values.booleanValue getIncludeNodesWithoutTreeNodeId() {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
-          return includeNodesWithoutTreeNodeId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
+          return includeNodesWithoutTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
         } else {
           return includeNodesWithoutTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
-      public Builder setIncludeNodesWithoutTreeNodeId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setIncludeNodesWithoutTreeNodeId(io.dstore.Values.booleanValue value) {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3290,10 +3290,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
       public Builder setIncludeNodesWithoutTreeNodeId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
           includeNodesWithoutTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -3304,13 +3304,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
-      public Builder mergeIncludeNodesWithoutTreeNodeId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeIncludeNodesWithoutTreeNodeId(io.dstore.Values.booleanValue value) {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
           if (includeNodesWithoutTreeNodeId_ != null) {
             includeNodesWithoutTreeNodeId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(includeNodesWithoutTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(includeNodesWithoutTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             includeNodesWithoutTreeNodeId_ = value;
           }
@@ -3322,7 +3322,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
       public Builder clearIncludeNodesWithoutTreeNodeId() {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
@@ -3336,33 +3336,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getIncludeNodesWithoutTreeNodeIdBuilder() {
+      public io.dstore.Values.booleanValue.Builder getIncludeNodesWithoutTreeNodeIdBuilder() {
         
         onChanged();
         return getIncludeNodesWithoutTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder() {
         if (includeNodesWithoutTreeNodeIdBuilder_ != null) {
           return includeNodesWithoutTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return includeNodesWithoutTreeNodeId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
+       * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeNodesWithoutTreeNodeIdFieldBuilder() {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
           includeNodesWithoutTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeNodesWithoutTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -3397,29 +3397,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue orderResultByColumn_ = null;
+      private io.dstore.Values.integerValue orderResultByColumn_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderResultByColumnBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderResultByColumnBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
       public boolean hasOrderResultByColumn() {
         return orderResultByColumnBuilder_ != null || orderResultByColumn_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
-      public io.dstore.engine.Values.integerValue getOrderResultByColumn() {
+      public io.dstore.Values.integerValue getOrderResultByColumn() {
         if (orderResultByColumnBuilder_ == null) {
-          return orderResultByColumn_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderResultByColumn_;
+          return orderResultByColumn_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderResultByColumn_;
         } else {
           return orderResultByColumnBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
-      public Builder setOrderResultByColumn(io.dstore.engine.Values.integerValue value) {
+      public Builder setOrderResultByColumn(io.dstore.Values.integerValue value) {
         if (orderResultByColumnBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3433,10 +3433,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
       public Builder setOrderResultByColumn(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (orderResultByColumnBuilder_ == null) {
           orderResultByColumn_ = builderForValue.build();
           onChanged();
@@ -3447,13 +3447,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
-      public Builder mergeOrderResultByColumn(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOrderResultByColumn(io.dstore.Values.integerValue value) {
         if (orderResultByColumnBuilder_ == null) {
           if (orderResultByColumn_ != null) {
             orderResultByColumn_ =
-              io.dstore.engine.Values.integerValue.newBuilder(orderResultByColumn_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(orderResultByColumn_).mergeFrom(value).buildPartial();
           } else {
             orderResultByColumn_ = value;
           }
@@ -3465,7 +3465,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
       public Builder clearOrderResultByColumn() {
         if (orderResultByColumnBuilder_ == null) {
@@ -3479,33 +3479,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOrderResultByColumnBuilder() {
+      public io.dstore.Values.integerValue.Builder getOrderResultByColumnBuilder() {
         
         onChanged();
         return getOrderResultByColumnFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderResultByColumnOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderResultByColumnOrBuilder() {
         if (orderResultByColumnBuilder_ != null) {
           return orderResultByColumnBuilder_.getMessageOrBuilder();
         } else {
           return orderResultByColumn_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : orderResultByColumn_;
+              io.dstore.Values.integerValue.getDefaultInstance() : orderResultByColumn_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_result_by_column = 13;</code>
+       * <code>optional .dstore.values.integerValue order_result_by_column = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderResultByColumnFieldBuilder() {
         if (orderResultByColumnBuilder_ == null) {
           orderResultByColumnBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderResultByColumn(),
                   getParentForChildren(),
                   isClean());
@@ -3540,29 +3540,29 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue getTopX_ = null;
+      private io.dstore.Values.integerValue getTopX_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> getTopXBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getTopXBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
       public boolean hasGetTopX() {
         return getTopXBuilder_ != null || getTopX_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
-      public io.dstore.engine.Values.integerValue getGetTopX() {
+      public io.dstore.Values.integerValue getGetTopX() {
         if (getTopXBuilder_ == null) {
-          return getTopX_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : getTopX_;
+          return getTopX_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getTopX_;
         } else {
           return getTopXBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
-      public Builder setGetTopX(io.dstore.engine.Values.integerValue value) {
+      public Builder setGetTopX(io.dstore.Values.integerValue value) {
         if (getTopXBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3576,10 +3576,10 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
       public Builder setGetTopX(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (getTopXBuilder_ == null) {
           getTopX_ = builderForValue.build();
           onChanged();
@@ -3590,13 +3590,13 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
-      public Builder mergeGetTopX(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeGetTopX(io.dstore.Values.integerValue value) {
         if (getTopXBuilder_ == null) {
           if (getTopX_ != null) {
             getTopX_ =
-              io.dstore.engine.Values.integerValue.newBuilder(getTopX_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(getTopX_).mergeFrom(value).buildPartial();
           } else {
             getTopX_ = value;
           }
@@ -3608,7 +3608,7 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
       public Builder clearGetTopX() {
         if (getTopXBuilder_ == null) {
@@ -3622,33 +3622,33 @@ public final class StGetDSSIndexFrequencyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getGetTopXBuilder() {
+      public io.dstore.Values.integerValue.Builder getGetTopXBuilder() {
         
         onChanged();
         return getGetTopXFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getGetTopXOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getGetTopXOrBuilder() {
         if (getTopXBuilder_ != null) {
           return getTopXBuilder_.getMessageOrBuilder();
         } else {
           return getTopX_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : getTopX_;
+              io.dstore.Values.integerValue.getDefaultInstance() : getTopX_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue get_top_x = 14;</code>
+       * <code>optional .dstore.values.integerValue get_top_x = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGetTopXFieldBuilder() {
         if (getTopXBuilder_ == null) {
           getTopXBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGetTopX(),
                   getParentForChildren(),
                   isClean());
@@ -3970,7 +3970,7 @@ public final class StGetDSSIndexFrequencyAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -3978,24 +3978,24 @@ public final class StGetDSSIndexFrequencyAd {
        */
       boolean hasOrders();
       /**
-       * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getOrders();
+      io.dstore.Values.decimalValue getOrders();
       /**
-       * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getOrdersOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getOrdersOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
@@ -4003,24 +4003,24 @@ public final class StGetDSSIndexFrequencyAd {
        */
       boolean hasVBOIndex();
       /**
-       * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getVBOIndex();
+      io.dstore.Values.decimalValue getVBOIndex();
       /**
-       * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getVBOIndexOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getVBOIndexOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4028,24 +4028,24 @@ public final class StGetDSSIndexFrequencyAd {
        */
       boolean hasFrequencyOfId();
       /**
-       * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getFrequencyOfId();
+      io.dstore.Values.integerValue getFrequencyOfId();
       /**
-       * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4053,24 +4053,24 @@ public final class StGetDSSIndexFrequencyAd {
        */
       boolean hasViews();
       /**
-       * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getViews();
+      io.dstore.Values.decimalValue getViews();
       /**
-       * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getViewsOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getViewsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4078,24 +4078,24 @@ public final class StGetDSSIndexFrequencyAd {
        */
       boolean hasFrequencyOfDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFrequencyOfDescription();
+      io.dstore.Values.stringValue getFrequencyOfDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4103,21 +4103,21 @@ public final class StGetDSSIndexFrequencyAd {
        */
       boolean hasBuyingInterests();
       /**
-       * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getBuyingInterests();
+      io.dstore.Values.decimalValue getBuyingInterests();
       /**
-       * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetDSS_Index_Frequency_Ad.Response.Row}
@@ -4164,11 +4164,11 @@ public final class StGetDSSIndexFrequencyAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (orders_ != null) {
                   subBuilder = orders_.toBuilder();
                 }
-                orders_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                orders_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orders_);
                   orders_ = subBuilder.buildPartial();
@@ -4177,11 +4177,11 @@ public final class StGetDSSIndexFrequencyAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (vBOIndex_ != null) {
                   subBuilder = vBOIndex_.toBuilder();
                 }
-                vBOIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                vBOIndex_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(vBOIndex_);
                   vBOIndex_ = subBuilder.buildPartial();
@@ -4190,11 +4190,11 @@ public final class StGetDSSIndexFrequencyAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (frequencyOfId_ != null) {
                   subBuilder = frequencyOfId_.toBuilder();
                 }
-                frequencyOfId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                frequencyOfId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(frequencyOfId_);
                   frequencyOfId_ = subBuilder.buildPartial();
@@ -4203,11 +4203,11 @@ public final class StGetDSSIndexFrequencyAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (views_ != null) {
                   subBuilder = views_.toBuilder();
                 }
-                views_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                views_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(views_);
                   views_ = subBuilder.buildPartial();
@@ -4216,11 +4216,11 @@ public final class StGetDSSIndexFrequencyAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (frequencyOfDescription_ != null) {
                   subBuilder = frequencyOfDescription_.toBuilder();
                 }
-                frequencyOfDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                frequencyOfDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(frequencyOfDescription_);
                   frequencyOfDescription_ = subBuilder.buildPartial();
@@ -4229,11 +4229,11 @@ public final class StGetDSSIndexFrequencyAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (buyingInterests_ != null) {
                   subBuilder = buyingInterests_.toBuilder();
                 }
-                buyingInterests_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                buyingInterests_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(buyingInterests_);
                   buyingInterests_ = subBuilder.buildPartial();
@@ -4275,9 +4275,9 @@ public final class StGetDSSIndexFrequencyAd {
       }
 
       public static final int ORDERS_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.decimalValue orders_;
+      private io.dstore.Values.decimalValue orders_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4287,30 +4287,30 @@ public final class StGetDSSIndexFrequencyAd {
         return orders_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getOrders() {
-        return orders_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : orders_;
+      public io.dstore.Values.decimalValue getOrders() {
+        return orders_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : orders_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+       * <code>optional .dstore.values.decimalValue orders = 10001;</code>
        *
        * <pre>
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getOrdersOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getOrdersOrBuilder() {
         return getOrders();
       }
 
       public static final int V_B_O_INDEX_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.decimalValue vBOIndex_;
+      private io.dstore.Values.decimalValue vBOIndex_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
@@ -4320,30 +4320,30 @@ public final class StGetDSSIndexFrequencyAd {
         return vBOIndex_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getVBOIndex() {
-        return vBOIndex_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : vBOIndex_;
+      public io.dstore.Values.decimalValue getVBOIndex() {
+        return vBOIndex_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : vBOIndex_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+       * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getVBOIndexOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getVBOIndexOrBuilder() {
         return getVBOIndex();
       }
 
       public static final int FREQUENCY_OF_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue frequencyOfId_;
+      private io.dstore.Values.integerValue frequencyOfId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4353,30 +4353,30 @@ public final class StGetDSSIndexFrequencyAd {
         return frequencyOfId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getFrequencyOfId() {
-        return frequencyOfId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : frequencyOfId_;
+      public io.dstore.Values.integerValue getFrequencyOfId() {
+        return frequencyOfId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : frequencyOfId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder() {
         return getFrequencyOfId();
       }
 
       public static final int VIEWS_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.decimalValue views_;
+      private io.dstore.Values.decimalValue views_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4386,30 +4386,30 @@ public final class StGetDSSIndexFrequencyAd {
         return views_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getViews() {
-        return views_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : views_;
+      public io.dstore.Values.decimalValue getViews() {
+        return views_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : views_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+       * <code>optional .dstore.values.decimalValue views = 10004;</code>
        *
        * <pre>
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getViewsOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getViewsOrBuilder() {
         return getViews();
       }
 
       public static final int FREQUENCY_OF_DESCRIPTION_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue frequencyOfDescription_;
+      private io.dstore.Values.stringValue frequencyOfDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4419,30 +4419,30 @@ public final class StGetDSSIndexFrequencyAd {
         return frequencyOfDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFrequencyOfDescription() {
-        return frequencyOfDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
+      public io.dstore.Values.stringValue getFrequencyOfDescription() {
+        return frequencyOfDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder() {
         return getFrequencyOfDescription();
       }
 
       public static final int BUYING_INTERESTS_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.decimalValue buyingInterests_;
+      private io.dstore.Values.decimalValue buyingInterests_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4452,23 +4452,23 @@ public final class StGetDSSIndexFrequencyAd {
         return buyingInterests_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getBuyingInterests() {
-        return buyingInterests_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : buyingInterests_;
+      public io.dstore.Values.decimalValue getBuyingInterests() {
+        return buyingInterests_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : buyingInterests_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+       * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
        *
        * <pre>
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder() {
         return getBuyingInterests();
       }
 
@@ -4830,11 +4830,11 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
 
-        private io.dstore.engine.Values.decimalValue orders_ = null;
+        private io.dstore.Values.decimalValue orders_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> ordersBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> ordersBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4844,27 +4844,27 @@ public final class StGetDSSIndexFrequencyAd {
           return ordersBuilder_ != null || orders_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getOrders() {
+        public io.dstore.Values.decimalValue getOrders() {
           if (ordersBuilder_ == null) {
-            return orders_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : orders_;
+            return orders_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : orders_;
           } else {
             return ordersBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public Builder setOrders(io.dstore.engine.Values.decimalValue value) {
+        public Builder setOrders(io.dstore.Values.decimalValue value) {
           if (ordersBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4878,14 +4878,14 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
         public Builder setOrders(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (ordersBuilder_ == null) {
             orders_ = builderForValue.build();
             onChanged();
@@ -4896,17 +4896,17 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public Builder mergeOrders(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeOrders(io.dstore.Values.decimalValue value) {
           if (ordersBuilder_ == null) {
             if (orders_ != null) {
               orders_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(orders_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(orders_).mergeFrom(value).buildPartial();
             } else {
               orders_ = value;
             }
@@ -4918,7 +4918,7 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -4936,45 +4936,45 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getOrdersBuilder() {
+        public io.dstore.Values.decimalValue.Builder getOrdersBuilder() {
           
           onChanged();
           return getOrdersFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getOrdersOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getOrdersOrBuilder() {
           if (ordersBuilder_ != null) {
             return ordersBuilder_.getMessageOrBuilder();
           } else {
             return orders_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : orders_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : orders_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue orders = 10001;</code>
+         * <code>optional .dstore.values.decimalValue orders = 10001;</code>
          *
          * <pre>
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getOrdersFieldBuilder() {
           if (ordersBuilder_ == null) {
             ordersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getOrders(),
                     getParentForChildren(),
                     isClean());
@@ -4983,11 +4983,11 @@ public final class StGetDSSIndexFrequencyAd {
           return ordersBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue vBOIndex_ = null;
+        private io.dstore.Values.decimalValue vBOIndex_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> vBOIndexBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> vBOIndexBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
@@ -4997,27 +4997,27 @@ public final class StGetDSSIndexFrequencyAd {
           return vBOIndexBuilder_ != null || vBOIndex_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getVBOIndex() {
+        public io.dstore.Values.decimalValue getVBOIndex() {
           if (vBOIndexBuilder_ == null) {
-            return vBOIndex_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : vBOIndex_;
+            return vBOIndex_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : vBOIndex_;
           } else {
             return vBOIndexBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
-        public Builder setVBOIndex(io.dstore.engine.Values.decimalValue value) {
+        public Builder setVBOIndex(io.dstore.Values.decimalValue value) {
           if (vBOIndexBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5031,14 +5031,14 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
         public Builder setVBOIndex(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (vBOIndexBuilder_ == null) {
             vBOIndex_ = builderForValue.build();
             onChanged();
@@ -5049,17 +5049,17 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
-        public Builder mergeVBOIndex(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeVBOIndex(io.dstore.Values.decimalValue value) {
           if (vBOIndexBuilder_ == null) {
             if (vBOIndex_ != null) {
               vBOIndex_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(vBOIndex_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(vBOIndex_).mergeFrom(value).buildPartial();
             } else {
               vBOIndex_ = value;
             }
@@ -5071,7 +5071,7 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
@@ -5089,45 +5089,45 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getVBOIndexBuilder() {
+        public io.dstore.Values.decimalValue.Builder getVBOIndexBuilder() {
           
           onChanged();
           return getVBOIndexFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getVBOIndexOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getVBOIndexOrBuilder() {
           if (vBOIndexBuilder_ != null) {
             return vBOIndexBuilder_.getMessageOrBuilder();
           } else {
             return vBOIndex_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : vBOIndex_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : vBOIndex_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue v_b_o_index = 10002;</code>
+         * <code>optional .dstore.values.decimalValue v_b_o_index = 10002;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getVBOIndexFieldBuilder() {
           if (vBOIndexBuilder_ == null) {
             vBOIndexBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getVBOIndex(),
                     getParentForChildren(),
                     isClean());
@@ -5136,11 +5136,11 @@ public final class StGetDSSIndexFrequencyAd {
           return vBOIndexBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue frequencyOfId_ = null;
+        private io.dstore.Values.integerValue frequencyOfId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> frequencyOfIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> frequencyOfIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5150,27 +5150,27 @@ public final class StGetDSSIndexFrequencyAd {
           return frequencyOfIdBuilder_ != null || frequencyOfId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getFrequencyOfId() {
+        public io.dstore.Values.integerValue getFrequencyOfId() {
           if (frequencyOfIdBuilder_ == null) {
-            return frequencyOfId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : frequencyOfId_;
+            return frequencyOfId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : frequencyOfId_;
           } else {
             return frequencyOfIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
-        public Builder setFrequencyOfId(io.dstore.engine.Values.integerValue value) {
+        public Builder setFrequencyOfId(io.dstore.Values.integerValue value) {
           if (frequencyOfIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5184,14 +5184,14 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
         public Builder setFrequencyOfId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (frequencyOfIdBuilder_ == null) {
             frequencyOfId_ = builderForValue.build();
             onChanged();
@@ -5202,17 +5202,17 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
-        public Builder mergeFrequencyOfId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeFrequencyOfId(io.dstore.Values.integerValue value) {
           if (frequencyOfIdBuilder_ == null) {
             if (frequencyOfId_ != null) {
               frequencyOfId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(frequencyOfId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(frequencyOfId_).mergeFrom(value).buildPartial();
             } else {
               frequencyOfId_ = value;
             }
@@ -5224,7 +5224,7 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5242,45 +5242,45 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getFrequencyOfIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getFrequencyOfIdBuilder() {
           
           onChanged();
           return getFrequencyOfIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getFrequencyOfIdOrBuilder() {
           if (frequencyOfIdBuilder_ != null) {
             return frequencyOfIdBuilder_.getMessageOrBuilder();
           } else {
             return frequencyOfId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : frequencyOfId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : frequencyOfId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue frequency_of_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue frequency_of_id = 10003;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Summen beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFrequencyOfIdFieldBuilder() {
           if (frequencyOfIdBuilder_ == null) {
             frequencyOfIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFrequencyOfId(),
                     getParentForChildren(),
                     isClean());
@@ -5289,11 +5289,11 @@ public final class StGetDSSIndexFrequencyAd {
           return frequencyOfIdBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue views_ = null;
+        private io.dstore.Values.decimalValue views_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> viewsBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> viewsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -5303,27 +5303,27 @@ public final class StGetDSSIndexFrequencyAd {
           return viewsBuilder_ != null || views_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getViews() {
+        public io.dstore.Values.decimalValue getViews() {
           if (viewsBuilder_ == null) {
-            return views_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : views_;
+            return views_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : views_;
           } else {
             return viewsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public Builder setViews(io.dstore.engine.Values.decimalValue value) {
+        public Builder setViews(io.dstore.Values.decimalValue value) {
           if (viewsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5337,14 +5337,14 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
         public Builder setViews(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (viewsBuilder_ == null) {
             views_ = builderForValue.build();
             onChanged();
@@ -5355,17 +5355,17 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public Builder mergeViews(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeViews(io.dstore.Values.decimalValue value) {
           if (viewsBuilder_ == null) {
             if (views_ != null) {
               views_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(views_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(views_).mergeFrom(value).buildPartial();
             } else {
               views_ = value;
             }
@@ -5377,7 +5377,7 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -5395,45 +5395,45 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getViewsBuilder() {
+        public io.dstore.Values.decimalValue.Builder getViewsBuilder() {
           
           onChanged();
           return getViewsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getViewsOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getViewsOrBuilder() {
           if (viewsBuilder_ != null) {
             return viewsBuilder_.getMessageOrBuilder();
           } else {
             return views_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : views_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : views_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue views = 10004;</code>
+         * <code>optional .dstore.values.decimalValue views = 10004;</code>
          *
          * <pre>
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getViewsFieldBuilder() {
           if (viewsBuilder_ == null) {
             viewsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getViews(),
                     getParentForChildren(),
                     isClean());
@@ -5442,11 +5442,11 @@ public final class StGetDSSIndexFrequencyAd {
           return viewsBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue frequencyOfDescription_ = null;
+        private io.dstore.Values.stringValue frequencyOfDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> frequencyOfDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> frequencyOfDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5456,27 +5456,27 @@ public final class StGetDSSIndexFrequencyAd {
           return frequencyOfDescriptionBuilder_ != null || frequencyOfDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFrequencyOfDescription() {
+        public io.dstore.Values.stringValue getFrequencyOfDescription() {
           if (frequencyOfDescriptionBuilder_ == null) {
-            return frequencyOfDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
+            return frequencyOfDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
           } else {
             return frequencyOfDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
-        public Builder setFrequencyOfDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setFrequencyOfDescription(io.dstore.Values.stringValue value) {
           if (frequencyOfDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5490,14 +5490,14 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
         public Builder setFrequencyOfDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (frequencyOfDescriptionBuilder_ == null) {
             frequencyOfDescription_ = builderForValue.build();
             onChanged();
@@ -5508,17 +5508,17 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
-        public Builder mergeFrequencyOfDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFrequencyOfDescription(io.dstore.Values.stringValue value) {
           if (frequencyOfDescriptionBuilder_ == null) {
             if (frequencyOfDescription_ != null) {
               frequencyOfDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(frequencyOfDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(frequencyOfDescription_).mergeFrom(value).buildPartial();
             } else {
               frequencyOfDescription_ = value;
             }
@@ -5530,7 +5530,7 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5548,45 +5548,45 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFrequencyOfDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getFrequencyOfDescriptionBuilder() {
           
           onChanged();
           return getFrequencyOfDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFrequencyOfDescriptionOrBuilder() {
           if (frequencyOfDescriptionBuilder_ != null) {
             return frequencyOfDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return frequencyOfDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : frequencyOfDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frequency_of_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue frequency_of_description = 10005;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "FrequencyOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFrequencyOfDescriptionFieldBuilder() {
           if (frequencyOfDescriptionBuilder_ == null) {
             frequencyOfDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFrequencyOfDescription(),
                     getParentForChildren(),
                     isClean());
@@ -5595,11 +5595,11 @@ public final class StGetDSSIndexFrequencyAd {
           return frequencyOfDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue buyingInterests_ = null;
+        private io.dstore.Values.decimalValue buyingInterests_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> buyingInterestsBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> buyingInterestsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -5609,27 +5609,27 @@ public final class StGetDSSIndexFrequencyAd {
           return buyingInterestsBuilder_ != null || buyingInterests_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getBuyingInterests() {
+        public io.dstore.Values.decimalValue getBuyingInterests() {
           if (buyingInterestsBuilder_ == null) {
-            return buyingInterests_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : buyingInterests_;
+            return buyingInterests_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : buyingInterests_;
           } else {
             return buyingInterestsBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public Builder setBuyingInterests(io.dstore.engine.Values.decimalValue value) {
+        public Builder setBuyingInterests(io.dstore.Values.decimalValue value) {
           if (buyingInterestsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5643,14 +5643,14 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
         public Builder setBuyingInterests(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (buyingInterestsBuilder_ == null) {
             buyingInterests_ = builderForValue.build();
             onChanged();
@@ -5661,17 +5661,17 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public Builder mergeBuyingInterests(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeBuyingInterests(io.dstore.Values.decimalValue value) {
           if (buyingInterestsBuilder_ == null) {
             if (buyingInterests_ != null) {
               buyingInterests_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(buyingInterests_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(buyingInterests_).mergeFrom(value).buildPartial();
             } else {
               buyingInterests_ = value;
             }
@@ -5683,7 +5683,7 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
@@ -5701,45 +5701,45 @@ public final class StGetDSSIndexFrequencyAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getBuyingInterestsBuilder() {
+        public io.dstore.Values.decimalValue.Builder getBuyingInterestsBuilder() {
           
           onChanged();
           return getBuyingInterestsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getBuyingInterestsOrBuilder() {
           if (buyingInterestsBuilder_ != null) {
             return buyingInterestsBuilder_.getMessageOrBuilder();
           } else {
             return buyingInterests_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : buyingInterests_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : buyingInterests_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue buying_interests = 10006;</code>
+         * <code>optional .dstore.values.decimalValue buying_interests = 10006;</code>
          *
          * <pre>
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "FrequencyOf_ID" im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getBuyingInterestsFieldBuilder() {
           if (buyingInterestsBuilder_ == null) {
             buyingInterestsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getBuyingInterests(),
                     getParentForChildren(),
                     isClean());
@@ -7309,62 +7309,58 @@ public final class StGetDSSIndexFrequencyAd {
     java.lang.String[] descriptorData = {
       "\n;dstore/engine/procedures/st_GetDSS_Ind" +
       "ex_Frequency_Ad.proto\022*dstore.engine.st_" +
-      "GetDSS_Index_Frequency_Ad\032\032dstore/engine" +
-      "/values.proto\032\031dstore/engine/error.proto" +
-      "\032\033dstore/engine/message.proto\032#dstore/en" +
-      "gine/metainformation.proto\"\366\n\n\nParameter" +
-      "s\022?\n\023domain_tree_node_id\030\001 \001(\0132\".dstore." +
-      "engine.values.integerValue\022!\n\030domain_tre" +
-      "e_node_id_null\030\351\007 \001(\010\0227\n\tfrom_date\030\002 \001(\013" +
-      "2$.dstore.engine.values.timestampValue\022\027",
-      "\n\016from_date_null\030\352\007 \001(\010\0225\n\007to_date\030\003 \001(\013" +
-      "2$.dstore.engine.values.timestampValue\022\025" +
-      "\n\014to_date_null\030\353\007 \001(\010\022C\n\027group_by_nodes_" +
-      "on_level\030\004 \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022%\n\034group_by_nodes_on_level_nu" +
-      "ll\030\354\007 \001(\010\0227\n\013is_level_id\030\005 \001(\0132\".dstore." +
-      "engine.values.booleanValue\022\031\n\020is_level_i" +
-      "d_null\030\355\007 \001(\010\022K\n\037group_by_node_character" +
-      "istic_id\030\006 \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022-\n$group_by_node_characterist",
-      "ic_id_null\030\356\007 \001(\010\022A\n\025only_values_in_one_" +
-      "id\030\007 \001(\0132\".dstore.engine.values.booleanV" +
-      "alue\022#\n\032only_values_in_one_id_null\030\357\007 \001(" +
-      "\010\0228\n\014weight_views\030\010 \001(\0132\".dstore.engine." +
-      "values.decimalValue\022\032\n\021weight_views_null" +
-      "\030\360\007 \001(\010\022B\n\026weight_buying_interest\030\t \001(\0132" +
-      "\".dstore.engine.values.decimalValue\022$\n\033w" +
-      "eight_buying_interest_null\030\361\007 \001(\010\0228\n\014wei" +
-      "ght_order\030\n \001(\0132\".dstore.engine.values.d" +
-      "ecimalValue\022\032\n\021weight_order_null\030\362\007 \001(\010\022",
-      "E\n\031include_deactivated_nodes\030\013 \001(\0132\".dst" +
-      "ore.engine.values.booleanValue\022\'\n\036includ" +
-      "e_deactivated_nodes_null\030\363\007 \001(\010\022N\n\"inclu" +
-      "de_nodes_without_tree_node_id\030\014 \001(\0132\".ds" +
-      "tore.engine.values.booleanValue\0220\n\'inclu" +
-      "de_nodes_without_tree_node_id_null\030\364\007 \001(" +
-      "\010\022B\n\026order_result_by_column\030\r \001(\0132\".dsto" +
-      "re.engine.values.integerValue\022$\n\033order_r" +
-      "esult_by_column_null\030\365\007 \001(\010\0225\n\tget_top_x" +
-      "\030\016 \001(\0132\".dstore.engine.values.integerVal",
-      "ue\022\027\n\016get_top_x_null\030\366\007 \001(\010\"\366\004\n\010Response" +
-      "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
-      "ror\022H\n\020meta_information\030\002 \003(\0132..dstore.e" +
-      "ngine.metainformation.MetaInformation\022/\n" +
-      "\007message\030\003 \003(\0132\036.dstore.engine.message.M" +
-      "essage\022E\n\003row\030\004 \003(\01328.dstore.engine.st_G" +
-      "etDSS_Index_Frequency_Ad.Response.Row\032\374\002" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0223\n\006orders\030\221N \001(\0132" +
-      "\".dstore.engine.values.decimalValue\0228\n\013v" +
-      "_b_o_index\030\222N \001(\0132\".dstore.engine.values",
-      ".decimalValue\022<\n\017frequency_of_id\030\223N \001(\0132" +
-      "\".dstore.engine.values.integerValue\0222\n\005v" +
-      "iews\030\224N \001(\0132\".dstore.engine.values.decim" +
-      "alValue\022D\n\030frequency_of_description\030\225N \001" +
-      "(\0132!.dstore.engine.values.stringValue\022=\n" +
-      "\020buying_interests\030\226N \001(\0132\".dstore.engine" +
-      ".values.decimalValueB\035\n\033io.dstore.engine" +
-      ".proceduresb\006proto3"
+      "GetDSS_Index_Frequency_Ad\032\023dstore/values" +
+      ".proto\032\031dstore/engine/error.proto\032\033dstor" +
+      "e/engine/message.proto\032#dstore/engine/me" +
+      "tainformation.proto\"\224\n\n\nParameters\0228\n\023do" +
+      "main_tree_node_id\030\001 \001(\0132\033.dstore.values." +
+      "integerValue\022!\n\030domain_tree_node_id_null" +
+      "\030\351\007 \001(\010\0220\n\tfrom_date\030\002 \001(\0132\035.dstore.valu" +
+      "es.timestampValue\022\027\n\016from_date_null\030\352\007 \001",
+      "(\010\022.\n\007to_date\030\003 \001(\0132\035.dstore.values.time" +
+      "stampValue\022\025\n\014to_date_null\030\353\007 \001(\010\022<\n\027gro" +
+      "up_by_nodes_on_level\030\004 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022%\n\034group_by_nodes_on_lev" +
+      "el_null\030\354\007 \001(\010\0220\n\013is_level_id\030\005 \001(\0132\033.ds" +
+      "tore.values.booleanValue\022\031\n\020is_level_id_" +
+      "null\030\355\007 \001(\010\022D\n\037group_by_node_characteris" +
+      "tic_id\030\006 \001(\0132\033.dstore.values.integerValu" +
+      "e\022-\n$group_by_node_characteristic_id_nul" +
+      "l\030\356\007 \001(\010\022:\n\025only_values_in_one_id\030\007 \001(\0132",
+      "\033.dstore.values.booleanValue\022#\n\032only_val" +
+      "ues_in_one_id_null\030\357\007 \001(\010\0221\n\014weight_view" +
+      "s\030\010 \001(\0132\033.dstore.values.decimalValue\022\032\n\021" +
+      "weight_views_null\030\360\007 \001(\010\022;\n\026weight_buyin" +
+      "g_interest\030\t \001(\0132\033.dstore.values.decimal" +
+      "Value\022$\n\033weight_buying_interest_null\030\361\007 " +
+      "\001(\010\0221\n\014weight_order\030\n \001(\0132\033.dstore.value" +
+      "s.decimalValue\022\032\n\021weight_order_null\030\362\007 \001" +
+      "(\010\022>\n\031include_deactivated_nodes\030\013 \001(\0132\033." +
+      "dstore.values.booleanValue\022\'\n\036include_de",
+      "activated_nodes_null\030\363\007 \001(\010\022G\n\"include_n" +
+      "odes_without_tree_node_id\030\014 \001(\0132\033.dstore" +
+      ".values.booleanValue\0220\n\'include_nodes_wi" +
+      "thout_tree_node_id_null\030\364\007 \001(\010\022;\n\026order_" +
+      "result_by_column\030\r \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022$\n\033order_result_by_column_nu" +
+      "ll\030\365\007 \001(\010\022.\n\tget_top_x\030\016 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\027\n\016get_top_x_null\030\366\007 \001" +
+      "(\010\"\314\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
+      "engine.error.Error\022H\n\020meta_information\030\002",
+      " \003(\0132..dstore.engine.metainformation.Met" +
+      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
+      "ngine.message.Message\022E\n\003row\030\004 \003(\01328.dst" +
+      "ore.engine.st_GetDSS_Index_Frequency_Ad." +
+      "Response.Row\032\322\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022,\n" +
+      "\006orders\030\221N \001(\0132\033.dstore.values.decimalVa" +
+      "lue\0221\n\013v_b_o_index\030\222N \001(\0132\033.dstore.value" +
+      "s.decimalValue\0225\n\017frequency_of_id\030\223N \001(\013" +
+      "2\033.dstore.values.integerValue\022+\n\005views\030\224" +
+      "N \001(\0132\033.dstore.values.decimalValue\022=\n\030fr",
+      "equency_of_description\030\225N \001(\0132\032.dstore.v" +
+      "alues.stringValue\0226\n\020buying_interests\030\226N" +
+      " \001(\0132\033.dstore.values.decimalValueB\035\n\033io." +
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7377,7 +7373,7 @@ public final class StGetDSSIndexFrequencyAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -7400,7 +7396,7 @@ public final class StGetDSSIndexFrequencyAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDSS_Index_Frequency_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Orders", "VBOIndex", "FrequencyOfId", "Views", "FrequencyOfDescription", "BuyingInterests", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

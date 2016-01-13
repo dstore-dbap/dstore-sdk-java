@@ -13,17 +13,17 @@ public final class OmGetShippingCostPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
      */
     boolean hasShippingTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getShippingTypeId();
+    io.dstore.Values.integerValue getShippingTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
 
     /**
      * <code>optional bool shipping_type_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetShippingCostPu {
     boolean getShippingTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 2;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getCurrencyId();
+    io.dstore.Values.integerValue getCurrencyId();
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
      * <code>optional bool currency_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmGetShippingCostPu {
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+     * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
      */
     boolean hasTotalBruttoPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+     * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
      */
-    io.dstore.engine.Values.decimalValue getTotalBruttoPrice();
+    io.dstore.Values.decimalValue getTotalBruttoPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+     * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getTotalBruttoPriceOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getTotalBruttoPriceOrBuilder();
 
     /**
      * <code>optional bool total_brutto_price_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmGetShippingCostPu {
     boolean getTotalBruttoPriceNull();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+     * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
      */
     boolean hasTotalNettoPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+     * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
      */
-    io.dstore.engine.Values.decimalValue getTotalNettoPrice();
+    io.dstore.Values.decimalValue getTotalNettoPrice();
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+     * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getTotalNettoPriceOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getTotalNettoPriceOrBuilder();
 
     /**
      * <code>optional bool total_netto_price_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmGetShippingCostPu {
     boolean getTotalNettoPriceNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
-    io.dstore.engine.Values.booleanValue getSelectResult();
+    io.dstore.Values.booleanValue getSelectResult();
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getSelectResultOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
      * <code>optional bool select_result_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class OmGetShippingCostPu {
     boolean getSelectResultNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+     * <code>optional .dstore.values.timestampValue date = 6;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+     * <code>optional .dstore.values.timestampValue date = 6;</code>
      */
-    io.dstore.engine.Values.timestampValue getDate();
+    io.dstore.Values.timestampValue getDate();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+     * <code>optional .dstore.values.timestampValue date = 6;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getDateOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getDateOrBuilder();
 
     /**
      * <code>optional bool date_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class OmGetShippingCostPu {
     boolean getDateNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 7;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 7;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 7;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1007;</code>
@@ -139,17 +139,17 @@ public final class OmGetShippingCostPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+     * <code>optional .dstore.values.integerValue person_id = 8;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+     * <code>optional .dstore.values.integerValue person_id = 8;</code>
      */
-    io.dstore.engine.Values.integerValue getPersonId();
+    io.dstore.Values.integerValue getPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+     * <code>optional .dstore.values.integerValue person_id = 8;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1008;</code>
@@ -157,17 +157,17 @@ public final class OmGetShippingCostPu {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+     * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
      */
     boolean hasDeliveryPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+     * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
      */
-    io.dstore.engine.Values.integerValue getDeliveryPersonId();
+    io.dstore.Values.integerValue getDeliveryPersonId();
     /**
-     * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+     * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder();
 
     /**
      * <code>optional bool delivery_person_id_null = 1009;</code>
@@ -175,17 +175,17 @@ public final class OmGetShippingCostPu {
     boolean getDeliveryPersonIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
      */
     boolean hasPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
      */
-    io.dstore.engine.Values.integerValue getPriceNodeCharacteristicId();
+    io.dstore.Values.integerValue getPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool price_node_characteristic_id_null = 1010;</code>
@@ -193,17 +193,17 @@ public final class OmGetShippingCostPu {
     boolean getPriceNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
      */
-    io.dstore.engine.Values.integerValue getPaymentTypeId();
+    io.dstore.Values.integerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
      * <code>optional bool payment_type_id_null = 1011;</code>
@@ -260,11 +260,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -273,11 +273,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -286,11 +286,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (totalBruttoPrice_ != null) {
                 subBuilder = totalBruttoPrice_.toBuilder();
               }
-              totalBruttoPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              totalBruttoPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(totalBruttoPrice_);
                 totalBruttoPrice_ = subBuilder.buildPartial();
@@ -299,11 +299,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (totalNettoPrice_ != null) {
                 subBuilder = totalNettoPrice_.toBuilder();
               }
-              totalNettoPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              totalNettoPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(totalNettoPrice_);
                 totalNettoPrice_ = subBuilder.buildPartial();
@@ -312,11 +312,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -325,11 +325,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              date_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -338,11 +338,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -351,11 +351,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 66: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -364,11 +364,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 74: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (deliveryPersonId_ != null) {
                 subBuilder = deliveryPersonId_.toBuilder();
               }
-              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              deliveryPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryPersonId_);
                 deliveryPersonId_ = subBuilder.buildPartial();
@@ -377,11 +377,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 82: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -390,11 +390,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 90: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -482,23 +482,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue shippingTypeId_;
+    private io.dstore.Values.integerValue shippingTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
      */
     public boolean hasShippingTypeId() {
       return shippingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getShippingTypeId() {
-      return shippingTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+    public io.dstore.Values.integerValue getShippingTypeId() {
+      return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
       return getShippingTypeId();
     }
 
@@ -512,23 +512,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int CURRENCY_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue currencyId_;
+    private io.dstore.Values.integerValue currencyId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 2;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getCurrencyId() {
-      return currencyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+    public io.dstore.Values.integerValue getCurrencyId() {
+      return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+     * <code>optional .dstore.values.integerValue currency_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
     }
 
@@ -542,23 +542,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int TOTAL_BRUTTO_PRICE_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.decimalValue totalBruttoPrice_;
+    private io.dstore.Values.decimalValue totalBruttoPrice_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+     * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
      */
     public boolean hasTotalBruttoPrice() {
       return totalBruttoPrice_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+     * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
      */
-    public io.dstore.engine.Values.decimalValue getTotalBruttoPrice() {
-      return totalBruttoPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalBruttoPrice_;
+    public io.dstore.Values.decimalValue getTotalBruttoPrice() {
+      return totalBruttoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalBruttoPrice_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+     * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getTotalBruttoPriceOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getTotalBruttoPriceOrBuilder() {
       return getTotalBruttoPrice();
     }
 
@@ -572,23 +572,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int TOTAL_NETTO_PRICE_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.decimalValue totalNettoPrice_;
+    private io.dstore.Values.decimalValue totalNettoPrice_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+     * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
      */
     public boolean hasTotalNettoPrice() {
       return totalNettoPrice_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+     * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
      */
-    public io.dstore.engine.Values.decimalValue getTotalNettoPrice() {
-      return totalNettoPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalNettoPrice_;
+    public io.dstore.Values.decimalValue getTotalNettoPrice() {
+      return totalNettoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalNettoPrice_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+     * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getTotalNettoPriceOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getTotalNettoPriceOrBuilder() {
       return getTotalNettoPrice();
     }
 
@@ -602,23 +602,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int SELECT_RESULT_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.booleanValue selectResult_;
+    private io.dstore.Values.booleanValue selectResult_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValue getSelectResult() {
-      return selectResult_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : selectResult_;
+    public io.dstore.Values.booleanValue getSelectResult() {
+      return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+     * <code>optional .dstore.values.booleanValue select_result = 5;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
@@ -632,23 +632,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int DATE_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.timestampValue date_;
+    private io.dstore.Values.timestampValue date_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+     * <code>optional .dstore.values.timestampValue date = 6;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+     * <code>optional .dstore.values.timestampValue date = 6;</code>
      */
-    public io.dstore.engine.Values.timestampValue getDate() {
-      return date_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : date_;
+    public io.dstore.Values.timestampValue getDate() {
+      return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+     * <code>optional .dstore.values.timestampValue date = 6;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getDateOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
       return getDate();
     }
 
@@ -662,23 +662,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 7;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 7;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 7;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -692,23 +692,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 8;
-    private io.dstore.engine.Values.integerValue personId_;
+    private io.dstore.Values.integerValue personId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+     * <code>optional .dstore.values.integerValue person_id = 8;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+     * <code>optional .dstore.values.integerValue person_id = 8;</code>
      */
-    public io.dstore.engine.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.Values.integerValue getPersonId() {
+      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+     * <code>optional .dstore.values.integerValue person_id = 8;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -722,23 +722,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int DELIVERY_PERSON_ID_FIELD_NUMBER = 9;
-    private io.dstore.engine.Values.integerValue deliveryPersonId_;
+    private io.dstore.Values.integerValue deliveryPersonId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+     * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
      */
     public boolean hasDeliveryPersonId() {
       return deliveryPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+     * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
      */
-    public io.dstore.engine.Values.integerValue getDeliveryPersonId() {
-      return deliveryPersonId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+    public io.dstore.Values.integerValue getDeliveryPersonId() {
+      return deliveryPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+     * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
       return getDeliveryPersonId();
     }
 
@@ -752,23 +752,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10;
-    private io.dstore.engine.Values.integerValue priceNodeCharacteristicId_;
+    private io.dstore.Values.integerValue priceNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
      */
     public boolean hasPriceNodeCharacteristicId() {
       return priceNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
      */
-    public io.dstore.engine.Values.integerValue getPriceNodeCharacteristicId() {
-      return priceNodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+    public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
+      return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
       return getPriceNodeCharacteristicId();
     }
 
@@ -782,23 +782,23 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 11;
-    private io.dstore.engine.Values.integerValue paymentTypeId_;
+    private io.dstore.Values.integerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
      */
-    public io.dstore.engine.Values.integerValue getPaymentTypeId() {
-      return paymentTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+    public io.dstore.Values.integerValue getPaymentTypeId() {
+      return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+     * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
     }
 
@@ -1378,29 +1378,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue shippingTypeId_ = null;
+      private io.dstore.Values.integerValue shippingTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getShippingTypeId() {
+      public io.dstore.Values.integerValue getShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
-          return shippingTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+          return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
         } else {
           return shippingTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
-      public Builder setShippingTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setShippingTypeId(io.dstore.Values.integerValue value) {
         if (shippingTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1414,10 +1414,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
       public Builder setShippingTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (shippingTypeIdBuilder_ == null) {
           shippingTypeId_ = builderForValue.build();
           onChanged();
@@ -1428,13 +1428,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
-      public Builder mergeShippingTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeShippingTypeId(io.dstore.Values.integerValue value) {
         if (shippingTypeIdBuilder_ == null) {
           if (shippingTypeId_ != null) {
             shippingTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
           } else {
             shippingTypeId_ = value;
           }
@@ -1446,7 +1446,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
       public Builder clearShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -1460,33 +1460,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getShippingTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getShippingTypeIdBuilder() {
         
         onChanged();
         return getShippingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
         if (shippingTypeIdBuilder_ != null) {
           return shippingTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return shippingTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getShippingTypeIdFieldBuilder() {
         if (shippingTypeIdBuilder_ == null) {
           shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getShippingTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1521,29 +1521,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue currencyId_ = null;
+      private io.dstore.Values.integerValue currencyId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> currencyIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getCurrencyId() {
+      public io.dstore.Values.integerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
-          return currencyId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+          return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
         } else {
           return currencyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
-      public Builder setCurrencyId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCurrencyId(io.dstore.Values.integerValue value) {
         if (currencyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1557,10 +1557,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
       public Builder setCurrencyId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (currencyIdBuilder_ == null) {
           currencyId_ = builderForValue.build();
           onChanged();
@@ -1571,13 +1571,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
-      public Builder mergeCurrencyId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
         if (currencyIdBuilder_ == null) {
           if (currencyId_ != null) {
             currencyId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
           } else {
             currencyId_ = value;
           }
@@ -1589,7 +1589,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1603,33 +1603,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCurrencyIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
         
         onChanged();
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
           return currencyIdBuilder_.getMessageOrBuilder();
         } else {
           return currencyId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : currencyId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue currency_id = 2;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
           currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
                   isClean());
@@ -1664,29 +1664,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue totalBruttoPrice_ = null;
+      private io.dstore.Values.decimalValue totalBruttoPrice_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalBruttoPriceBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalBruttoPriceBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
       public boolean hasTotalBruttoPrice() {
         return totalBruttoPriceBuilder_ != null || totalBruttoPrice_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
-      public io.dstore.engine.Values.decimalValue getTotalBruttoPrice() {
+      public io.dstore.Values.decimalValue getTotalBruttoPrice() {
         if (totalBruttoPriceBuilder_ == null) {
-          return totalBruttoPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalBruttoPrice_;
+          return totalBruttoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalBruttoPrice_;
         } else {
           return totalBruttoPriceBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
-      public Builder setTotalBruttoPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder setTotalBruttoPrice(io.dstore.Values.decimalValue value) {
         if (totalBruttoPriceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1700,10 +1700,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
       public Builder setTotalBruttoPrice(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (totalBruttoPriceBuilder_ == null) {
           totalBruttoPrice_ = builderForValue.build();
           onChanged();
@@ -1714,13 +1714,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
-      public Builder mergeTotalBruttoPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeTotalBruttoPrice(io.dstore.Values.decimalValue value) {
         if (totalBruttoPriceBuilder_ == null) {
           if (totalBruttoPrice_ != null) {
             totalBruttoPrice_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(totalBruttoPrice_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(totalBruttoPrice_).mergeFrom(value).buildPartial();
           } else {
             totalBruttoPrice_ = value;
           }
@@ -1732,7 +1732,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
       public Builder clearTotalBruttoPrice() {
         if (totalBruttoPriceBuilder_ == null) {
@@ -1746,33 +1746,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getTotalBruttoPriceBuilder() {
+      public io.dstore.Values.decimalValue.Builder getTotalBruttoPriceBuilder() {
         
         onChanged();
         return getTotalBruttoPriceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getTotalBruttoPriceOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getTotalBruttoPriceOrBuilder() {
         if (totalBruttoPriceBuilder_ != null) {
           return totalBruttoPriceBuilder_.getMessageOrBuilder();
         } else {
           return totalBruttoPrice_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalBruttoPrice_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : totalBruttoPrice_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_brutto_price = 3;</code>
+       * <code>optional .dstore.values.decimalValue total_brutto_price = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTotalBruttoPriceFieldBuilder() {
         if (totalBruttoPriceBuilder_ == null) {
           totalBruttoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTotalBruttoPrice(),
                   getParentForChildren(),
                   isClean());
@@ -1807,29 +1807,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.decimalValue totalNettoPrice_ = null;
+      private io.dstore.Values.decimalValue totalNettoPrice_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalNettoPriceBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalNettoPriceBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
       public boolean hasTotalNettoPrice() {
         return totalNettoPriceBuilder_ != null || totalNettoPrice_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
-      public io.dstore.engine.Values.decimalValue getTotalNettoPrice() {
+      public io.dstore.Values.decimalValue getTotalNettoPrice() {
         if (totalNettoPriceBuilder_ == null) {
-          return totalNettoPrice_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalNettoPrice_;
+          return totalNettoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalNettoPrice_;
         } else {
           return totalNettoPriceBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
-      public Builder setTotalNettoPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder setTotalNettoPrice(io.dstore.Values.decimalValue value) {
         if (totalNettoPriceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1843,10 +1843,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
       public Builder setTotalNettoPrice(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (totalNettoPriceBuilder_ == null) {
           totalNettoPrice_ = builderForValue.build();
           onChanged();
@@ -1857,13 +1857,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
-      public Builder mergeTotalNettoPrice(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeTotalNettoPrice(io.dstore.Values.decimalValue value) {
         if (totalNettoPriceBuilder_ == null) {
           if (totalNettoPrice_ != null) {
             totalNettoPrice_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(totalNettoPrice_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(totalNettoPrice_).mergeFrom(value).buildPartial();
           } else {
             totalNettoPrice_ = value;
           }
@@ -1875,7 +1875,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
       public Builder clearTotalNettoPrice() {
         if (totalNettoPriceBuilder_ == null) {
@@ -1889,33 +1889,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getTotalNettoPriceBuilder() {
+      public io.dstore.Values.decimalValue.Builder getTotalNettoPriceBuilder() {
         
         onChanged();
         return getTotalNettoPriceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getTotalNettoPriceOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getTotalNettoPriceOrBuilder() {
         if (totalNettoPriceBuilder_ != null) {
           return totalNettoPriceBuilder_.getMessageOrBuilder();
         } else {
           return totalNettoPrice_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalNettoPrice_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : totalNettoPrice_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_netto_price = 4;</code>
+       * <code>optional .dstore.values.decimalValue total_netto_price = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTotalNettoPriceFieldBuilder() {
         if (totalNettoPriceBuilder_ == null) {
           totalNettoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTotalNettoPrice(),
                   getParentForChildren(),
                   isClean());
@@ -1950,29 +1950,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue selectResult_ = null;
+      private io.dstore.Values.booleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> selectResultBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue getSelectResult() {
+      public io.dstore.Values.booleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
-          return selectResult_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : selectResult_;
+          return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
         } else {
           return selectResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
-      public Builder setSelectResult(io.dstore.engine.Values.booleanValue value) {
+      public Builder setSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1986,10 +1986,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public Builder setSelectResult(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (selectResultBuilder_ == null) {
           selectResult_ = builderForValue.build();
           onChanged();
@@ -2000,13 +2000,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
-      public Builder mergeSelectResult(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
         if (selectResultBuilder_ == null) {
           if (selectResult_ != null) {
             selectResult_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
           } else {
             selectResult_ = value;
           }
@@ -2018,7 +2018,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -2032,33 +2032,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getSelectResultBuilder() {
+      public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
         
         onChanged();
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
           return selectResultBuilder_.getMessageOrBuilder();
         } else {
           return selectResult_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : selectResult_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue select_result = 5;</code>
+       * <code>optional .dstore.values.booleanValue select_result = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSelectResultFieldBuilder() {
         if (selectResultBuilder_ == null) {
           selectResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSelectResult(),
                   getParentForChildren(),
                   isClean());
@@ -2093,29 +2093,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue date_ = null;
+      private io.dstore.Values.timestampValue date_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> dateBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValue getDate() {
+      public io.dstore.Values.timestampValue getDate() {
         if (dateBuilder_ == null) {
-          return date_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : date_;
+          return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
         } else {
           return dateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
-      public Builder setDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder setDate(io.dstore.Values.timestampValue value) {
         if (dateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2129,10 +2129,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
       public Builder setDate(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (dateBuilder_ == null) {
           date_ = builderForValue.build();
           onChanged();
@@ -2143,13 +2143,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
-      public Builder mergeDate(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeDate(io.dstore.Values.timestampValue value) {
         if (dateBuilder_ == null) {
           if (date_ != null) {
             date_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
           } else {
             date_ = value;
           }
@@ -2161,7 +2161,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -2175,33 +2175,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getDateBuilder() {
+      public io.dstore.Values.timestampValue.Builder getDateBuilder() {
         
         onChanged();
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getDateOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
           return dateBuilder_.getMessageOrBuilder();
         } else {
           return date_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : date_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : date_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date = 6;</code>
+       * <code>optional .dstore.values.timestampValue date = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDateFieldBuilder() {
         if (dateBuilder_ == null) {
           dateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDate(),
                   getParentForChildren(),
                   isClean());
@@ -2236,29 +2236,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2272,10 +2272,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -2286,13 +2286,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -2304,7 +2304,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2318,33 +2318,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 7;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -2379,29 +2379,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue personId_ = null;
+      private io.dstore.Values.integerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue getPersonId() {
+      public io.dstore.Values.integerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
-      public Builder setPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2415,10 +2415,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
       public Builder setPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -2429,13 +2429,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
-      public Builder mergePersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.Values.integerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -2447,7 +2447,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -2461,33 +2461,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue person_id = 8;</code>
+       * <code>optional .dstore.values.integerValue person_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2522,29 +2522,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue deliveryPersonId_ = null;
+      private io.dstore.Values.integerValue deliveryPersonId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> deliveryPersonIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deliveryPersonIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
       public boolean hasDeliveryPersonId() {
         return deliveryPersonIdBuilder_ != null || deliveryPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue getDeliveryPersonId() {
+      public io.dstore.Values.integerValue getDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
-          return deliveryPersonId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+          return deliveryPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
         } else {
           return deliveryPersonIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
-      public Builder setDeliveryPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder setDeliveryPersonId(io.dstore.Values.integerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2558,10 +2558,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
       public Builder setDeliveryPersonId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (deliveryPersonIdBuilder_ == null) {
           deliveryPersonId_ = builderForValue.build();
           onChanged();
@@ -2572,13 +2572,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
-      public Builder mergeDeliveryPersonId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeDeliveryPersonId(io.dstore.Values.integerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
           if (deliveryPersonId_ != null) {
             deliveryPersonId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(deliveryPersonId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(deliveryPersonId_).mergeFrom(value).buildPartial();
           } else {
             deliveryPersonId_ = value;
           }
@@ -2590,7 +2590,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
       public Builder clearDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -2604,33 +2604,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getDeliveryPersonIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getDeliveryPersonIdBuilder() {
         
         onChanged();
         return getDeliveryPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
         if (deliveryPersonIdBuilder_ != null) {
           return deliveryPersonIdBuilder_.getMessageOrBuilder();
         } else {
           return deliveryPersonId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue delivery_person_id = 9;</code>
+       * <code>optional .dstore.values.integerValue delivery_person_id = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeliveryPersonIdFieldBuilder() {
         if (deliveryPersonIdBuilder_ == null) {
           deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeliveryPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2665,29 +2665,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue priceNodeCharacteristicId_ = null;
+      private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue getPriceNodeCharacteristicId() {
+      public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
-          return priceNodeCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+          return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         } else {
           return priceNodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
-      public Builder setPriceNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2701,10 +2701,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
       public Builder setPriceNodeCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2715,13 +2715,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
-      public Builder mergePriceNodeCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (priceNodeCharacteristicId_ != null) {
             priceNodeCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             priceNodeCharacteristicId_ = value;
           }
@@ -2733,7 +2733,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
       public Builder clearPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -2747,33 +2747,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPriceNodeCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPriceNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getPriceNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         if (priceNodeCharacteristicIdBuilder_ != null) {
           return priceNodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return priceNodeCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue price_node_characteristic_id = 10;</code>
+       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPriceNodeCharacteristicIdFieldBuilder() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPriceNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2808,29 +2808,29 @@ public final class OmGetShippingCostPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue paymentTypeId_ = null;
+      private io.dstore.Values.integerValue paymentTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue getPaymentTypeId() {
+      public io.dstore.Values.integerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
-          return paymentTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+          return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
         } else {
           return paymentTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
-      public Builder setPaymentTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2844,10 +2844,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
       public Builder setPaymentTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeId_ = builderForValue.build();
           onChanged();
@@ -2858,13 +2858,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
-      public Builder mergePaymentTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (paymentTypeId_ != null) {
             paymentTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
           } else {
             paymentTypeId_ = value;
           }
@@ -2876,7 +2876,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -2890,33 +2890,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
         
         onChanged();
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
           return paymentTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return paymentTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue payment_type_id = 11;</code>
+       * <code>optional .dstore.values.integerValue payment_type_id = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPaymentTypeIdFieldBuilder() {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPaymentTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -3098,30 +3098,30 @@ public final class OmGetShippingCostPu {
         int index);
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
      */
     boolean hasShippingCost();
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
      */
-    io.dstore.engine.Values.decimalValue getShippingCost();
+    io.dstore.Values.decimalValue getShippingCost();
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getShippingCostOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder();
 
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
      */
     boolean hasShippingCostBrutto();
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
      */
-    io.dstore.engine.Values.decimalValue getShippingCostBrutto();
+    io.dstore.Values.decimalValue getShippingCostBrutto();
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
      */
-    io.dstore.engine.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder();
+    io.dstore.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_GetShippingCost_Pu.Response}
@@ -3202,11 +3202,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 810: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (shippingCost_ != null) {
                 subBuilder = shippingCost_.toBuilder();
               }
-              shippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              shippingCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingCost_);
                 shippingCost_ = subBuilder.buildPartial();
@@ -3215,11 +3215,11 @@ public final class OmGetShippingCostPu {
               break;
             }
             case 818: {
-              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.Values.decimalValue.Builder subBuilder = null;
               if (shippingCostBrutto_ != null) {
                 subBuilder = shippingCostBrutto_.toBuilder();
               }
-              shippingCostBrutto_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+              shippingCostBrutto_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingCostBrutto_);
                 shippingCostBrutto_ = subBuilder.buildPartial();
@@ -3270,7 +3270,7 @@ public final class OmGetShippingCostPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
        *
        * <pre>
        * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
@@ -3278,21 +3278,21 @@ public final class OmGetShippingCostPu {
        */
       boolean hasShippingCost();
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
        *
        * <pre>
        * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getShippingCost();
+      io.dstore.Values.decimalValue getShippingCost();
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
        *
        * <pre>
        * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getShippingCostOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetShippingCost_Pu.Response.Row}
@@ -3339,11 +3339,11 @@ public final class OmGetShippingCostPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (shippingCost_ != null) {
                   subBuilder = shippingCost_.toBuilder();
                 }
-                shippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                shippingCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingCost_);
                   shippingCost_ = subBuilder.buildPartial();
@@ -3385,9 +3385,9 @@ public final class OmGetShippingCostPu {
       }
 
       public static final int SHIPPING_COST_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.decimalValue shippingCost_;
+      private io.dstore.Values.decimalValue shippingCost_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
        *
        * <pre>
        * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
@@ -3397,23 +3397,23 @@ public final class OmGetShippingCostPu {
         return shippingCost_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
        *
        * <pre>
        * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getShippingCost() {
-        return shippingCost_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCost_;
+      public io.dstore.Values.decimalValue getShippingCost() {
+        return shippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
        *
        * <pre>
        * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
         return getShippingCost();
       }
 
@@ -3670,11 +3670,11 @@ public final class OmGetShippingCostPu {
           return this;
         }
 
-        private io.dstore.engine.Values.decimalValue shippingCost_ = null;
+        private io.dstore.Values.decimalValue shippingCost_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> shippingCostBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> shippingCostBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
@@ -3684,27 +3684,27 @@ public final class OmGetShippingCostPu {
           return shippingCostBuilder_ != null || shippingCost_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getShippingCost() {
+        public io.dstore.Values.decimalValue getShippingCost() {
           if (shippingCostBuilder_ == null) {
-            return shippingCost_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCost_;
+            return shippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
           } else {
             return shippingCostBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
-        public Builder setShippingCost(io.dstore.engine.Values.decimalValue value) {
+        public Builder setShippingCost(io.dstore.Values.decimalValue value) {
           if (shippingCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3718,14 +3718,14 @@ public final class OmGetShippingCostPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
         public Builder setShippingCost(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (shippingCostBuilder_ == null) {
             shippingCost_ = builderForValue.build();
             onChanged();
@@ -3736,17 +3736,17 @@ public final class OmGetShippingCostPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
-        public Builder mergeShippingCost(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeShippingCost(io.dstore.Values.decimalValue value) {
           if (shippingCostBuilder_ == null) {
             if (shippingCost_ != null) {
               shippingCost_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(shippingCost_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(shippingCost_).mergeFrom(value).buildPartial();
             } else {
               shippingCost_ = value;
             }
@@ -3758,7 +3758,7 @@ public final class OmGetShippingCostPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
@@ -3776,45 +3776,45 @@ public final class OmGetShippingCostPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getShippingCostBuilder() {
+        public io.dstore.Values.decimalValue.Builder getShippingCostBuilder() {
           
           onChanged();
           return getShippingCostFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
           if (shippingCostBuilder_ != null) {
             return shippingCostBuilder_.getMessageOrBuilder();
           } else {
             return shippingCost_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCost_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue shipping_cost = 10001;</code>
+         * <code>optional .dstore.values.decimalValue shipping_cost = 10001;</code>
          *
          * <pre>
          * Die zusätzlich anfallenden (Netto-)Kosten, wenn "&#64;ShippingTypeID" als Versandart gewählt wird
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getShippingCostFieldBuilder() {
           if (shippingCostBuilder_ == null) {
             shippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getShippingCost(),
                     getParentForChildren(),
                     isClean());
@@ -4008,44 +4008,44 @@ public final class OmGetShippingCostPu {
     }
 
     public static final int SHIPPING_COST_FIELD_NUMBER = 101;
-    private io.dstore.engine.Values.decimalValue shippingCost_;
+    private io.dstore.Values.decimalValue shippingCost_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
      */
     public boolean hasShippingCost() {
       return shippingCost_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
      */
-    public io.dstore.engine.Values.decimalValue getShippingCost() {
-      return shippingCost_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCost_;
+    public io.dstore.Values.decimalValue getShippingCost() {
+      return shippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
       return getShippingCost();
     }
 
     public static final int SHIPPING_COST_BRUTTO_FIELD_NUMBER = 102;
-    private io.dstore.engine.Values.decimalValue shippingCostBrutto_;
+    private io.dstore.Values.decimalValue shippingCostBrutto_;
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
      */
     public boolean hasShippingCostBrutto() {
       return shippingCostBrutto_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
      */
-    public io.dstore.engine.Values.decimalValue getShippingCostBrutto() {
-      return shippingCostBrutto_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
+    public io.dstore.Values.decimalValue getShippingCostBrutto() {
+      return shippingCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
     }
     /**
-     * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+     * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
      */
-    public io.dstore.engine.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder() {
+    public io.dstore.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder() {
       return getShippingCostBrutto();
     }
 
@@ -5293,29 +5293,29 @@ public final class OmGetShippingCostPu {
         return rowBuilder_;
       }
 
-      private io.dstore.engine.Values.decimalValue shippingCost_ = null;
+      private io.dstore.Values.decimalValue shippingCost_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> shippingCostBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> shippingCostBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
       public boolean hasShippingCost() {
         return shippingCostBuilder_ != null || shippingCost_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
-      public io.dstore.engine.Values.decimalValue getShippingCost() {
+      public io.dstore.Values.decimalValue getShippingCost() {
         if (shippingCostBuilder_ == null) {
-          return shippingCost_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCost_;
+          return shippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
         } else {
           return shippingCostBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
-      public Builder setShippingCost(io.dstore.engine.Values.decimalValue value) {
+      public Builder setShippingCost(io.dstore.Values.decimalValue value) {
         if (shippingCostBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5329,10 +5329,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
       public Builder setShippingCost(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (shippingCostBuilder_ == null) {
           shippingCost_ = builderForValue.build();
           onChanged();
@@ -5343,13 +5343,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
-      public Builder mergeShippingCost(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeShippingCost(io.dstore.Values.decimalValue value) {
         if (shippingCostBuilder_ == null) {
           if (shippingCost_ != null) {
             shippingCost_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(shippingCost_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(shippingCost_).mergeFrom(value).buildPartial();
           } else {
             shippingCost_ = value;
           }
@@ -5361,7 +5361,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
       public Builder clearShippingCost() {
         if (shippingCostBuilder_ == null) {
@@ -5375,33 +5375,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getShippingCostBuilder() {
+      public io.dstore.Values.decimalValue.Builder getShippingCostBuilder() {
         
         onChanged();
         return getShippingCostFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
         if (shippingCostBuilder_ != null) {
           return shippingCostBuilder_.getMessageOrBuilder();
         } else {
           return shippingCost_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCost_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost = 101;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getShippingCostFieldBuilder() {
         if (shippingCostBuilder_ == null) {
           shippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getShippingCost(),
                   getParentForChildren(),
                   isClean());
@@ -5410,29 +5410,29 @@ public final class OmGetShippingCostPu {
         return shippingCostBuilder_;
       }
 
-      private io.dstore.engine.Values.decimalValue shippingCostBrutto_ = null;
+      private io.dstore.Values.decimalValue shippingCostBrutto_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> shippingCostBruttoBuilder_;
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> shippingCostBruttoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
       public boolean hasShippingCostBrutto() {
         return shippingCostBruttoBuilder_ != null || shippingCostBrutto_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
-      public io.dstore.engine.Values.decimalValue getShippingCostBrutto() {
+      public io.dstore.Values.decimalValue getShippingCostBrutto() {
         if (shippingCostBruttoBuilder_ == null) {
-          return shippingCostBrutto_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
+          return shippingCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
         } else {
           return shippingCostBruttoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
-      public Builder setShippingCostBrutto(io.dstore.engine.Values.decimalValue value) {
+      public Builder setShippingCostBrutto(io.dstore.Values.decimalValue value) {
         if (shippingCostBruttoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5446,10 +5446,10 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
       public Builder setShippingCostBrutto(
-          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+          io.dstore.Values.decimalValue.Builder builderForValue) {
         if (shippingCostBruttoBuilder_ == null) {
           shippingCostBrutto_ = builderForValue.build();
           onChanged();
@@ -5460,13 +5460,13 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
-      public Builder mergeShippingCostBrutto(io.dstore.engine.Values.decimalValue value) {
+      public Builder mergeShippingCostBrutto(io.dstore.Values.decimalValue value) {
         if (shippingCostBruttoBuilder_ == null) {
           if (shippingCostBrutto_ != null) {
             shippingCostBrutto_ =
-              io.dstore.engine.Values.decimalValue.newBuilder(shippingCostBrutto_).mergeFrom(value).buildPartial();
+              io.dstore.Values.decimalValue.newBuilder(shippingCostBrutto_).mergeFrom(value).buildPartial();
           } else {
             shippingCostBrutto_ = value;
           }
@@ -5478,7 +5478,7 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
       public Builder clearShippingCostBrutto() {
         if (shippingCostBruttoBuilder_ == null) {
@@ -5492,33 +5492,33 @@ public final class OmGetShippingCostPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
-      public io.dstore.engine.Values.decimalValue.Builder getShippingCostBruttoBuilder() {
+      public io.dstore.Values.decimalValue.Builder getShippingCostBruttoBuilder() {
         
         onChanged();
         return getShippingCostBruttoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder() {
         if (shippingCostBruttoBuilder_ != null) {
           return shippingCostBruttoBuilder_.getMessageOrBuilder();
         } else {
           return shippingCostBrutto_ == null ?
-              io.dstore.engine.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
+              io.dstore.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue shipping_cost_brutto = 102;</code>
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getShippingCostBruttoFieldBuilder() {
         if (shippingCostBruttoBuilder_ == null) {
           shippingCostBruttoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getShippingCostBrutto(),
                   getParentForChildren(),
                   isClean());
@@ -5610,47 +5610,45 @@ public final class OmGetShippingCostPu {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/om_GetShippin" +
       "gCost_Pu.proto\022#dstore.engine.om_GetShip" +
-      "pingCost_Pu\032\032dstore/engine/values.proto\032" +
-      "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\032#dstore/engine/metainfor" +
-      "mation.proto\"\363\007\n\nParameters\022<\n\020shipping_" +
-      "type_id\030\001 \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022\036\n\025shipping_type_id_null\030\351\007 \001(" +
-      "\010\0227\n\013currency_id\030\002 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\031\n\020currency_id_null\030\352",
-      "\007 \001(\010\022>\n\022total_brutto_price\030\003 \001(\0132\".dsto" +
-      "re.engine.values.decimalValue\022 \n\027total_b" +
-      "rutto_price_null\030\353\007 \001(\010\022=\n\021total_netto_p" +
-      "rice\030\004 \001(\0132\".dstore.engine.values.decima" +
-      "lValue\022\037\n\026total_netto_price_null\030\354\007 \001(\010\022" +
-      "9\n\rselect_result\030\005 \001(\0132\".dstore.engine.v" +
-      "alues.booleanValue\022\033\n\022select_result_null" +
-      "\030\355\007 \001(\010\0222\n\004date\030\006 \001(\0132$.dstore.engine.va" +
-      "lues.timestampValue\022\022\n\tdate_null\030\356\007 \001(\010\022" +
-      "4\n\tunique_id\030\007 \001(\0132!.dstore.engine.value",
-      "s.stringValue\022\027\n\016unique_id_null\030\357\007 \001(\010\0225" +
-      "\n\tperson_id\030\010 \001(\0132\".dstore.engine.values" +
-      ".integerValue\022\027\n\016person_id_null\030\360\007 \001(\010\022>" +
-      "\n\022delivery_person_id\030\t \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022 \n\027delivery_perso" +
-      "n_id_null\030\361\007 \001(\010\022H\n\034price_node_character" +
-      "istic_id\030\n \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022*\n!price_node_characteristic_" +
-      "id_null\030\362\007 \001(\010\022;\n\017payment_type_id\030\013 \001(\0132" +
-      "\".dstore.engine.values.integerValue\022\035\n\024p",
-      "ayment_type_id_null\030\363\007 \001(\010\"\301\003\n\010Response\022" +
-      ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
-      "or\022H\n\020meta_information\030\002 \003(\0132..dstore.en" +
-      "gine.metainformation.MetaInformation\022/\n\007" +
-      "message\030\003 \003(\0132\036.dstore.engine.message.Me" +
-      "ssage\022>\n\003row\030\004 \003(\01321.dstore.engine.om_Ge" +
-      "tShippingCost_Pu.Response.Row\0229\n\rshippin" +
-      "g_cost\030e \001(\0132\".dstore.engine.values.deci" +
-      "malValue\022@\n\024shipping_cost_brutto\030f \001(\0132\"" +
-      ".dstore.engine.values.decimalValue\032R\n\003Ro",
-      "w\022\017\n\006row_id\030\220N \001(\005\022:\n\rshipping_cost\030\221N \001" +
-      "(\0132\".dstore.engine.values.decimalValueB\035" +
-      "\n\033io.dstore.engine.proceduresb\006proto3"
+      "pingCost_Pu\032\023dstore/values.proto\032\031dstore" +
+      "/engine/error.proto\032\033dstore/engine/messa" +
+      "ge.proto\032#dstore/engine/metainformation." +
+      "proto\"\246\007\n\nParameters\0225\n\020shipping_type_id" +
+      "\030\001 \001(\0132\033.dstore.values.integerValue\022\036\n\025s" +
+      "hipping_type_id_null\030\351\007 \001(\010\0220\n\013currency_" +
+      "id\030\002 \001(\0132\033.dstore.values.integerValue\022\031\n" +
+      "\020currency_id_null\030\352\007 \001(\010\0227\n\022total_brutto",
+      "_price\030\003 \001(\0132\033.dstore.values.decimalValu" +
+      "e\022 \n\027total_brutto_price_null\030\353\007 \001(\010\0226\n\021t" +
+      "otal_netto_price\030\004 \001(\0132\033.dstore.values.d" +
+      "ecimalValue\022\037\n\026total_netto_price_null\030\354\007" +
+      " \001(\010\0222\n\rselect_result\030\005 \001(\0132\033.dstore.val" +
+      "ues.booleanValue\022\033\n\022select_result_null\030\355" +
+      "\007 \001(\010\022+\n\004date\030\006 \001(\0132\035.dstore.values.time" +
+      "stampValue\022\022\n\tdate_null\030\356\007 \001(\010\022-\n\tunique" +
+      "_id\030\007 \001(\0132\032.dstore.values.stringValue\022\027\n" +
+      "\016unique_id_null\030\357\007 \001(\010\022.\n\tperson_id\030\010 \001(",
+      "\0132\033.dstore.values.integerValue\022\027\n\016person" +
+      "_id_null\030\360\007 \001(\010\0227\n\022delivery_person_id\030\t " +
+      "\001(\0132\033.dstore.values.integerValue\022 \n\027deli" +
+      "very_person_id_null\030\361\007 \001(\010\022A\n\034price_node" +
+      "_characteristic_id\030\n \001(\0132\033.dstore.values" +
+      ".integerValue\022*\n!price_node_characterist" +
+      "ic_id_null\030\362\007 \001(\010\0224\n\017payment_type_id\030\013 \001" +
+      "(\0132\033.dstore.values.integerValue\022\035\n\024payme" +
+      "nt_type_id_null\030\363\007 \001(\010\"\254\003\n\010Response\022)\n\005e" +
+      "rror\030\001 \001(\0132\032.dstore.engine.error.Error\022H",
+      "\n\020meta_information\030\002 \003(\0132..dstore.engine" +
+      ".metainformation.MetaInformation\022/\n\007mess" +
+      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
+      "e\022>\n\003row\030\004 \003(\01321.dstore.engine.om_GetShi" +
+      "ppingCost_Pu.Response.Row\0222\n\rshipping_co" +
+      "st\030e \001(\0132\033.dstore.values.decimalValue\0229\n" +
+      "\024shipping_cost_brutto\030f \001(\0132\033.dstore.val" +
+      "ues.decimalValue\032K\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
+      "\0223\n\rshipping_cost\030\221N \001(\0132\033.dstore.values" +
+      ".decimalValueB\035\n\033io.dstore.engine.proced",
+      "uresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5663,7 +5661,7 @@ public final class OmGetShippingCostPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5686,7 +5684,7 @@ public final class OmGetShippingCostPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetShippingCost_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ShippingCost", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

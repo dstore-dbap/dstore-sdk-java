@@ -13,17 +13,17 @@ public final class FoGetPredValsForCharacsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
      */
     boolean hasPostingCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getPostingCharacteristicId();
+    io.dstore.Values.integerValue getPostingCharacteristicId();
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool posting_characteristic_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class FoGetPredValsForCharacsAd {
     boolean getPostingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+     * <code>optional .dstore.values.stringValue date_format = 2;</code>
      */
     boolean hasDateFormat();
     /**
-     * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+     * <code>optional .dstore.values.stringValue date_format = 2;</code>
      */
-    io.dstore.engine.Values.stringValue getDateFormat();
+    io.dstore.Values.stringValue getDateFormat();
     /**
-     * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+     * <code>optional .dstore.values.stringValue date_format = 2;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getDateFormatOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getDateFormatOrBuilder();
 
     /**
      * <code>optional bool date_format_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class FoGetPredValsForCharacsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (postingCharacteristicId_ != null) {
                 subBuilder = postingCharacteristicId_.toBuilder();
               }
-              postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              postingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingCharacteristicId_);
                 postingCharacteristicId_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class FoGetPredValsForCharacsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (dateFormat_ != null) {
                 subBuilder = dateFormat_.toBuilder();
               }
-              dateFormat_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              dateFormat_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateFormat_);
                 dateFormat_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class FoGetPredValsForCharacsAd {
     }
 
     public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue postingCharacteristicId_;
+    private io.dstore.Values.integerValue postingCharacteristicId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
      */
     public boolean hasPostingCharacteristicId() {
       return postingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getPostingCharacteristicId() {
-      return postingCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+    public io.dstore.Values.integerValue getPostingCharacteristicId() {
+      return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
       return getPostingCharacteristicId();
     }
 
@@ -179,23 +179,23 @@ public final class FoGetPredValsForCharacsAd {
     }
 
     public static final int DATE_FORMAT_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.stringValue dateFormat_;
+    private io.dstore.Values.stringValue dateFormat_;
     /**
-     * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+     * <code>optional .dstore.values.stringValue date_format = 2;</code>
      */
     public boolean hasDateFormat() {
       return dateFormat_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+     * <code>optional .dstore.values.stringValue date_format = 2;</code>
      */
-    public io.dstore.engine.Values.stringValue getDateFormat() {
-      return dateFormat_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : dateFormat_;
+    public io.dstore.Values.stringValue getDateFormat() {
+      return dateFormat_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dateFormat_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+     * <code>optional .dstore.values.stringValue date_format = 2;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getDateFormatOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getDateFormatOrBuilder() {
       return getDateFormat();
     }
 
@@ -469,29 +469,29 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue postingCharacteristicId_ = null;
+      private io.dstore.Values.integerValue postingCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
       public boolean hasPostingCharacteristicId() {
         return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getPostingCharacteristicId() {
+      public io.dstore.Values.integerValue getPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
-          return postingCharacteristicId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+          return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
         } else {
           return postingCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
-      public Builder setPostingCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder setPostingCharacteristicId(io.dstore.Values.integerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
       public Builder setPostingCharacteristicId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (postingCharacteristicIdBuilder_ == null) {
           postingCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
-      public Builder mergePostingCharacteristicId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergePostingCharacteristicId(io.dstore.Values.integerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
           if (postingCharacteristicId_ != null) {
             postingCharacteristicId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             postingCharacteristicId_ = value;
           }
@@ -537,7 +537,7 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
       public Builder clearPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
         
         onChanged();
         return getPostingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         if (postingCharacteristicIdBuilder_ != null) {
           return postingCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return postingCharacteristicId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue posting_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.integerValue posting_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPostingCharacteristicIdFieldBuilder() {
         if (postingCharacteristicIdBuilder_ == null) {
           postingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPostingCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue dateFormat_ = null;
+      private io.dstore.Values.stringValue dateFormat_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> dateFormatBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dateFormatBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
       public boolean hasDateFormat() {
         return dateFormatBuilder_ != null || dateFormat_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue getDateFormat() {
+      public io.dstore.Values.stringValue getDateFormat() {
         if (dateFormatBuilder_ == null) {
-          return dateFormat_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : dateFormat_;
+          return dateFormat_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dateFormat_;
         } else {
           return dateFormatBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
-      public Builder setDateFormat(io.dstore.engine.Values.stringValue value) {
+      public Builder setDateFormat(io.dstore.Values.stringValue value) {
         if (dateFormatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
       public Builder setDateFormat(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (dateFormatBuilder_ == null) {
           dateFormat_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
-      public Builder mergeDateFormat(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeDateFormat(io.dstore.Values.stringValue value) {
         if (dateFormatBuilder_ == null) {
           if (dateFormat_ != null) {
             dateFormat_ =
-              io.dstore.engine.Values.stringValue.newBuilder(dateFormat_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(dateFormat_).mergeFrom(value).buildPartial();
           } else {
             dateFormat_ = value;
           }
@@ -680,7 +680,7 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
       public Builder clearDateFormat() {
         if (dateFormatBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class FoGetPredValsForCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getDateFormatBuilder() {
+      public io.dstore.Values.stringValue.Builder getDateFormatBuilder() {
         
         onChanged();
         return getDateFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDateFormatOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDateFormatOrBuilder() {
         if (dateFormatBuilder_ != null) {
           return dateFormatBuilder_.getMessageOrBuilder();
         } else {
           return dateFormat_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : dateFormat_;
+              io.dstore.Values.stringValue.getDefaultInstance() : dateFormat_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue date_format = 2;</code>
+       * <code>optional .dstore.values.stringValue date_format = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDateFormatFieldBuilder() {
         if (dateFormatBuilder_ == null) {
           dateFormatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDateFormat(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class FoGetPredValsForCharacsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+       * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
        *
        * <pre>
        * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
@@ -1050,24 +1050,24 @@ public final class FoGetPredValsForCharacsAd {
        */
       boolean hasValueInInternalFormat();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+       * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
        *
        * <pre>
        * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValueInInternalFormat();
+      io.dstore.Values.stringValue getValueInInternalFormat();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+       * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
        *
        * <pre>
        * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueInInternalFormatOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueInInternalFormatOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
@@ -1075,21 +1075,21 @@ public final class FoGetPredValsForCharacsAd {
        */
       boolean hasValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getValue();
+      io.dstore.Values.stringValue getValue();
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetPredValsForCharacs_Ad.Response.Row}
@@ -1136,11 +1136,11 @@ public final class FoGetPredValsForCharacsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (valueInInternalFormat_ != null) {
                   subBuilder = valueInInternalFormat_.toBuilder();
                 }
-                valueInInternalFormat_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                valueInInternalFormat_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueInInternalFormat_);
                   valueInInternalFormat_ = subBuilder.buildPartial();
@@ -1149,11 +1149,11 @@ public final class FoGetPredValsForCharacsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1195,9 +1195,9 @@ public final class FoGetPredValsForCharacsAd {
       }
 
       public static final int VALUE_IN_INTERNAL_FORMAT_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue valueInInternalFormat_;
+      private io.dstore.Values.stringValue valueInInternalFormat_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+       * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
        *
        * <pre>
        * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
@@ -1207,30 +1207,30 @@ public final class FoGetPredValsForCharacsAd {
         return valueInInternalFormat_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+       * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
        *
        * <pre>
        * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValueInInternalFormat() {
-        return valueInInternalFormat_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : valueInInternalFormat_;
+      public io.dstore.Values.stringValue getValueInInternalFormat() {
+        return valueInInternalFormat_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueInInternalFormat_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+       * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
        *
        * <pre>
        * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueInInternalFormatOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueInInternalFormatOrBuilder() {
         return getValueInInternalFormat();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue value_;
+      private io.dstore.Values.stringValue value_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
@@ -1240,23 +1240,23 @@ public final class FoGetPredValsForCharacsAd {
         return value_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.Values.stringValue getValue() {
+        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.stringValue value = 10002;</code>
        *
        * <pre>
        * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
@@ -1534,11 +1534,11 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue valueInInternalFormat_ = null;
+        private io.dstore.Values.stringValue valueInInternalFormat_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueInInternalFormatBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueInInternalFormatBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
@@ -1548,27 +1548,27 @@ public final class FoGetPredValsForCharacsAd {
           return valueInInternalFormatBuilder_ != null || valueInInternalFormat_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValueInInternalFormat() {
+        public io.dstore.Values.stringValue getValueInInternalFormat() {
           if (valueInInternalFormatBuilder_ == null) {
-            return valueInInternalFormat_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : valueInInternalFormat_;
+            return valueInInternalFormat_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueInInternalFormat_;
           } else {
             return valueInInternalFormatBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
-        public Builder setValueInInternalFormat(io.dstore.engine.Values.stringValue value) {
+        public Builder setValueInInternalFormat(io.dstore.Values.stringValue value) {
           if (valueInInternalFormatBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1582,14 +1582,14 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
         public Builder setValueInInternalFormat(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueInInternalFormatBuilder_ == null) {
             valueInInternalFormat_ = builderForValue.build();
             onChanged();
@@ -1600,17 +1600,17 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
-        public Builder mergeValueInInternalFormat(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValueInInternalFormat(io.dstore.Values.stringValue value) {
           if (valueInInternalFormatBuilder_ == null) {
             if (valueInInternalFormat_ != null) {
               valueInInternalFormat_ =
-                io.dstore.engine.Values.stringValue.newBuilder(valueInInternalFormat_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(valueInInternalFormat_).mergeFrom(value).buildPartial();
             } else {
               valueInInternalFormat_ = value;
             }
@@ -1622,7 +1622,7 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
@@ -1640,45 +1640,45 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueInInternalFormatBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueInInternalFormatBuilder() {
           
           onChanged();
           return getValueInInternalFormatFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueInInternalFormatOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueInInternalFormatOrBuilder() {
           if (valueInInternalFormatBuilder_ != null) {
             return valueInInternalFormatBuilder_.getMessageOrBuilder();
           } else {
             return valueInInternalFormat_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : valueInInternalFormat_;
+                io.dstore.Values.stringValue.getDefaultInstance() : valueInInternalFormat_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_in_internal_format = 10001;</code>
+         * <code>optional .dstore.values.stringValue value_in_internal_format = 10001;</code>
          *
          * <pre>
          * Immer "NULL", es sei denn, "Value" ist ein Datums-Wert und es wurde (durch "&#64;DateFormat") eine Ausgabe im Format "Tag-Monat-Jahr" gewünscht. (Hintergrund sind Änderungen von vordefinierten Werten durch "fo_ModifyPredValsForCharacs_Ad".)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueInInternalFormatFieldBuilder() {
           if (valueInInternalFormatBuilder_ == null) {
             valueInInternalFormatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValueInInternalFormat(),
                     getParentForChildren(),
                     isClean());
@@ -1687,11 +1687,11 @@ public final class FoGetPredValsForCharacsAd {
           return valueInInternalFormatBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue value_ = null;
+        private io.dstore.Values.stringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
@@ -1701,27 +1701,27 @@ public final class FoGetPredValsForCharacsAd {
           return valueBuilder_ != null || value_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getValue() {
+        public io.dstore.Values.stringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
-        public Builder setValue(io.dstore.engine.Values.stringValue value) {
+        public Builder setValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1735,14 +1735,14 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
         public Builder setValue(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -1753,17 +1753,17 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
-        public Builder mergeValue(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.Values.stringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.engine.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -1775,7 +1775,7 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
@@ -1793,45 +1793,45 @@ public final class FoGetPredValsForCharacsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.Values.stringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.Values.stringValue.getDefaultInstance() : value_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.stringValue value = 10002;</code>
          *
          * <pre>
          * Vordefinierter Wert zum Merkmal "&#64;PostingCharacteristicID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -3401,26 +3401,25 @@ public final class FoGetPredValsForCharacsAd {
     java.lang.String[] descriptorData = {
       "\n:dstore/engine/procedures/fo_GetPredVal" +
       "sForCharacs_Ad.proto\022)dstore.engine.fo_G" +
-      "etPredValsForCharacs_Ad\032\032dstore/engine/v" +
-      "alues.proto\032\031dstore/engine/error.proto\032\033" +
-      "dstore/engine/message.proto\032#dstore/engi" +
-      "ne/metainformation.proto\"\317\001\n\nParameters\022" +
-      "E\n\031posting_characteristic_id\030\001 \001(\0132\".dst" +
-      "ore.engine.values.integerValue\022\'\n\036postin" +
-      "g_characteristic_id_null\030\351\007 \001(\010\0226\n\013date_" +
-      "format\030\002 \001(\0132!.dstore.engine.values.stri",
-      "ngValue\022\031\n\020date_format_null\030\352\007 \001(\010\"\210\003\n\010R" +
-      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
-      "rror.Error\022H\n\020meta_information\030\002 \003(\0132..d" +
-      "store.engine.metainformation.MetaInforma" +
-      "tion\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
-      "ssage.Message\022D\n\003row\030\004 \003(\01327.dstore.engi" +
-      "ne.fo_GetPredValsForCharacs_Ad.Response." +
-      "Row\032\217\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022D\n\030value_in" +
-      "_internal_format\030\221N \001(\0132!.dstore.engine." +
-      "values.stringValue\0221\n\005value\030\222N \001(\0132!.dst",
-      "ore.engine.values.stringValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "etPredValsForCharacs_Ad\032\023dstore/values.p" +
+      "roto\032\031dstore/engine/error.proto\032\033dstore/" +
+      "engine/message.proto\032#dstore/engine/meta" +
+      "information.proto\"\301\001\n\nParameters\022>\n\031post" +
+      "ing_characteristic_id\030\001 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022\'\n\036posting_characterist" +
+      "ic_id_null\030\351\007 \001(\010\022/\n\013date_format\030\002 \001(\0132\032" +
+      ".dstore.values.stringValue\022\031\n\020date_forma",
+      "t_null\030\352\007 \001(\010\"\372\002\n\010Response\022)\n\005error\030\001 \001(" +
+      "\0132\032.dstore.engine.error.Error\022H\n\020meta_in" +
+      "formation\030\002 \003(\0132..dstore.engine.metainfo" +
+      "rmation.MetaInformation\022/\n\007message\030\003 \003(\013" +
+      "2\036.dstore.engine.message.Message\022D\n\003row\030" +
+      "\004 \003(\01327.dstore.engine.fo_GetPredValsForC" +
+      "haracs_Ad.Response.Row\032\201\001\n\003Row\022\017\n\006row_id" +
+      "\030\220N \001(\005\022=\n\030value_in_internal_format\030\221N \001" +
+      "(\0132\032.dstore.values.stringValue\022*\n\005value\030" +
+      "\222N \001(\0132\032.dstore.values.stringValueB\035\n\033io",
+      ".dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3433,7 +3432,7 @@ public final class FoGetPredValsForCharacsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3456,7 +3455,7 @@ public final class FoGetPredValsForCharacsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPredValsForCharacs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ValueInInternalFormat", "Value", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

@@ -13,17 +13,17 @@ public final class OmGetCampaignBenefitsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getCampaignId();
+    io.dstore.Values.integerValue getCampaignId();
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmGetCampaignBenefitsAd {
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
      */
     boolean hasBenefitTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getBenefitTypeId();
+    io.dstore.Values.integerValue getBenefitTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder();
 
     /**
      * <code>optional bool benefit_type_id_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class OmGetCampaignBenefitsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class OmGetCampaignBenefitsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (benefitTypeId_ != null) {
                 subBuilder = benefitTypeId_.toBuilder();
               }
-              benefitTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              benefitTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitTypeId_);
                 benefitTypeId_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class OmGetCampaignBenefitsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue campaignId_;
+    private io.dstore.Values.integerValue campaignId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.Values.integerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -179,23 +179,23 @@ public final class OmGetCampaignBenefitsAd {
     }
 
     public static final int BENEFIT_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue benefitTypeId_;
+    private io.dstore.Values.integerValue benefitTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
      */
     public boolean hasBenefitTypeId() {
       return benefitTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getBenefitTypeId() {
-      return benefitTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitTypeId_;
+    public io.dstore.Values.integerValue getBenefitTypeId() {
+      return benefitTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+     * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
       return getBenefitTypeId();
     }
 
@@ -469,29 +469,29 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue campaignId_ = null;
+      private io.dstore.Values.integerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getCampaignId() {
+      public io.dstore.Values.integerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -537,7 +537,7 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue benefitTypeId_ = null;
+      private io.dstore.Values.integerValue benefitTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> benefitTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
       public boolean hasBenefitTypeId() {
         return benefitTypeIdBuilder_ != null || benefitTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getBenefitTypeId() {
+      public io.dstore.Values.integerValue getBenefitTypeId() {
         if (benefitTypeIdBuilder_ == null) {
-          return benefitTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitTypeId_;
+          return benefitTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
         } else {
           return benefitTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
-      public Builder setBenefitTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setBenefitTypeId(io.dstore.Values.integerValue value) {
         if (benefitTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
       public Builder setBenefitTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (benefitTypeIdBuilder_ == null) {
           benefitTypeId_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
-      public Builder mergeBenefitTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeBenefitTypeId(io.dstore.Values.integerValue value) {
         if (benefitTypeIdBuilder_ == null) {
           if (benefitTypeId_ != null) {
             benefitTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(benefitTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(benefitTypeId_).mergeFrom(value).buildPartial();
           } else {
             benefitTypeId_ = value;
           }
@@ -680,7 +680,7 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
       public Builder clearBenefitTypeId() {
         if (benefitTypeIdBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class OmGetCampaignBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getBenefitTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getBenefitTypeIdBuilder() {
         
         onChanged();
         return getBenefitTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
         if (benefitTypeIdBuilder_ != null) {
           return benefitTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return benefitTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 2;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBenefitTypeIdFieldBuilder() {
         if (benefitTypeIdBuilder_ == null) {
           benefitTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBenefitTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1042,7 +1042,7 @@ public final class OmGetCampaignBenefitsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
@@ -1050,24 +1050,24 @@ public final class OmGetCampaignBenefitsAd {
        */
       boolean hasBenefitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBenefitId();
+      io.dstore.Values.integerValue getBenefitId();
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
@@ -1075,24 +1075,24 @@ public final class OmGetCampaignBenefitsAd {
        */
       boolean hasCampaignId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getCampaignId();
+      io.dstore.Values.integerValue getCampaignId();
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
@@ -1100,24 +1100,24 @@ public final class OmGetCampaignBenefitsAd {
        */
       boolean hasBenefitTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getBenefitTypeDescription();
+      io.dstore.Values.stringValue getBenefitTypeDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
@@ -1125,21 +1125,21 @@ public final class OmGetCampaignBenefitsAd {
        */
       boolean hasBenefitTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBenefitTypeId();
+      io.dstore.Values.integerValue getBenefitTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignBenefits_Ad.Response.Row}
@@ -1186,11 +1186,11 @@ public final class OmGetCampaignBenefitsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (benefitId_ != null) {
                   subBuilder = benefitId_.toBuilder();
                 }
-                benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(benefitId_);
                   benefitId_ = subBuilder.buildPartial();
@@ -1199,11 +1199,11 @@ public final class OmGetCampaignBenefitsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (campaignId_ != null) {
                   subBuilder = campaignId_.toBuilder();
                 }
-                campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignId_);
                   campaignId_ = subBuilder.buildPartial();
@@ -1212,11 +1212,11 @@ public final class OmGetCampaignBenefitsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (benefitTypeDescription_ != null) {
                   subBuilder = benefitTypeDescription_.toBuilder();
                 }
-                benefitTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                benefitTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(benefitTypeDescription_);
                   benefitTypeDescription_ = subBuilder.buildPartial();
@@ -1225,11 +1225,11 @@ public final class OmGetCampaignBenefitsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (benefitTypeId_ != null) {
                   subBuilder = benefitTypeId_.toBuilder();
                 }
-                benefitTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                benefitTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(benefitTypeId_);
                   benefitTypeId_ = subBuilder.buildPartial();
@@ -1271,9 +1271,9 @@ public final class OmGetCampaignBenefitsAd {
       }
 
       public static final int BENEFIT_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue benefitId_;
+      private io.dstore.Values.integerValue benefitId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
@@ -1283,30 +1283,30 @@ public final class OmGetCampaignBenefitsAd {
         return benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBenefitId() {
-        return benefitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitId_;
+      public io.dstore.Values.integerValue getBenefitId() {
+        return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
        *
        * <pre>
        * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
         return getBenefitId();
       }
 
       public static final int CAMPAIGN_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue campaignId_;
+      private io.dstore.Values.integerValue campaignId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
@@ -1316,30 +1316,30 @@ public final class OmGetCampaignBenefitsAd {
         return campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getCampaignId() {
-        return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+      public io.dstore.Values.integerValue getCampaignId() {
+        return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
        *
        * <pre>
        * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
         return getCampaignId();
       }
 
       public static final int BENEFIT_TYPE_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue benefitTypeDescription_;
+      private io.dstore.Values.stringValue benefitTypeDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
@@ -1349,30 +1349,30 @@ public final class OmGetCampaignBenefitsAd {
         return benefitTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getBenefitTypeDescription() {
-        return benefitTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
+      public io.dstore.Values.stringValue getBenefitTypeDescription() {
+        return benefitTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+       * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
        *
        * <pre>
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
         return getBenefitTypeDescription();
       }
 
       public static final int BENEFIT_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue benefitTypeId_;
+      private io.dstore.Values.integerValue benefitTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
@@ -1382,23 +1382,23 @@ public final class OmGetCampaignBenefitsAd {
         return benefitTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBenefitTypeId() {
-        return benefitTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitTypeId_;
+      public io.dstore.Values.integerValue getBenefitTypeId() {
+        return benefitTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
        *
        * <pre>
        * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
         return getBenefitTypeId();
       }
 
@@ -1718,11 +1718,11 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue benefitId_ = null;
+        private io.dstore.Values.integerValue benefitId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> benefitIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
@@ -1732,27 +1732,27 @@ public final class OmGetCampaignBenefitsAd {
           return benefitIdBuilder_ != null || benefitId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBenefitId() {
+        public io.dstore.Values.integerValue getBenefitId() {
           if (benefitIdBuilder_ == null) {
-            return benefitId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitId_;
+            return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
           } else {
             return benefitIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
-        public Builder setBenefitId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBenefitId(io.dstore.Values.integerValue value) {
           if (benefitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1766,14 +1766,14 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
         public Builder setBenefitId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (benefitIdBuilder_ == null) {
             benefitId_ = builderForValue.build();
             onChanged();
@@ -1784,17 +1784,17 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
-        public Builder mergeBenefitId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
           if (benefitIdBuilder_ == null) {
             if (benefitId_ != null) {
               benefitId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
             } else {
               benefitId_ = value;
             }
@@ -1806,7 +1806,7 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
@@ -1824,45 +1824,45 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBenefitIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
           
           onChanged();
           return getBenefitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
           if (benefitIdBuilder_ != null) {
             return benefitIdBuilder_.getMessageOrBuilder();
           } else {
             return benefitId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
          *
          * <pre>
          * Die ID eines "Benefits" vom Typ "BenefitTypeID", das zur Aktion "CampaignID" konfiguriert ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBenefitIdFieldBuilder() {
           if (benefitIdBuilder_ == null) {
             benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBenefitId(),
                     getParentForChildren(),
                     isClean());
@@ -1871,11 +1871,11 @@ public final class OmGetCampaignBenefitsAd {
           return benefitIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue campaignId_ = null;
+        private io.dstore.Values.integerValue campaignId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> campaignIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
@@ -1885,27 +1885,27 @@ public final class OmGetCampaignBenefitsAd {
           return campaignIdBuilder_ != null || campaignId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getCampaignId() {
+        public io.dstore.Values.integerValue getCampaignId() {
           if (campaignIdBuilder_ == null) {
-            return campaignId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+            return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
           } else {
             return campaignIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
-        public Builder setCampaignId(io.dstore.engine.Values.integerValue value) {
+        public Builder setCampaignId(io.dstore.Values.integerValue value) {
           if (campaignIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1919,14 +1919,14 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
         public Builder setCampaignId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (campaignIdBuilder_ == null) {
             campaignId_ = builderForValue.build();
             onChanged();
@@ -1937,17 +1937,17 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
-        public Builder mergeCampaignId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
           if (campaignIdBuilder_ == null) {
             if (campaignId_ != null) {
               campaignId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
             } else {
               campaignId_ = value;
             }
@@ -1959,7 +1959,7 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
@@ -1977,45 +1977,45 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getCampaignIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
           
           onChanged();
           return getCampaignIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
           if (campaignIdBuilder_ != null) {
             return campaignIdBuilder_.getMessageOrBuilder();
           } else {
             return campaignId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : campaignId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue campaign_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          *
          * <pre>
          * Die ID einer Verkaufsaktion (derzeit immer identisch mit "&#64;CampaignID")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCampaignIdFieldBuilder() {
           if (campaignIdBuilder_ == null) {
             campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCampaignId(),
                     getParentForChildren(),
                     isClean());
@@ -2024,11 +2024,11 @@ public final class OmGetCampaignBenefitsAd {
           return campaignIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue benefitTypeDescription_ = null;
+        private io.dstore.Values.stringValue benefitTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> benefitTypeDescriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> benefitTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
@@ -2038,27 +2038,27 @@ public final class OmGetCampaignBenefitsAd {
           return benefitTypeDescriptionBuilder_ != null || benefitTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getBenefitTypeDescription() {
+        public io.dstore.Values.stringValue getBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
-            return benefitTypeDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
+            return benefitTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
           } else {
             return benefitTypeDescriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
-        public Builder setBenefitTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setBenefitTypeDescription(io.dstore.Values.stringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2072,14 +2072,14 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
         public Builder setBenefitTypeDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (benefitTypeDescriptionBuilder_ == null) {
             benefitTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2090,17 +2090,17 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
-        public Builder mergeBenefitTypeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeBenefitTypeDescription(io.dstore.Values.stringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
             if (benefitTypeDescription_ != null) {
               benefitTypeDescription_ =
-                io.dstore.engine.Values.stringValue.newBuilder(benefitTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(benefitTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               benefitTypeDescription_ = value;
             }
@@ -2112,7 +2112,7 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
@@ -2130,45 +2130,45 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getBenefitTypeDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getBenefitTypeDescriptionBuilder() {
           
           onChanged();
           return getBenefitTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
           if (benefitTypeDescriptionBuilder_ != null) {
             return benefitTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return benefitTypeDescription_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
+                io.dstore.Values.stringValue.getDefaultInstance() : benefitTypeDescription_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue benefit_type_description = 10003;</code>
+         * <code>optional .dstore.values.stringValue benefit_type_description = 10003;</code>
          *
          * <pre>
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBenefitTypeDescriptionFieldBuilder() {
           if (benefitTypeDescriptionBuilder_ == null) {
             benefitTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBenefitTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2177,11 +2177,11 @@ public final class OmGetCampaignBenefitsAd {
           return benefitTypeDescriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue benefitTypeId_ = null;
+        private io.dstore.Values.integerValue benefitTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> benefitTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
@@ -2191,27 +2191,27 @@ public final class OmGetCampaignBenefitsAd {
           return benefitTypeIdBuilder_ != null || benefitTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBenefitTypeId() {
+        public io.dstore.Values.integerValue getBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
-            return benefitTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitTypeId_;
+            return benefitTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
           } else {
             return benefitTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
-        public Builder setBenefitTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBenefitTypeId(io.dstore.Values.integerValue value) {
           if (benefitTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2225,14 +2225,14 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
         public Builder setBenefitTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (benefitTypeIdBuilder_ == null) {
             benefitTypeId_ = builderForValue.build();
             onChanged();
@@ -2243,17 +2243,17 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
-        public Builder mergeBenefitTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBenefitTypeId(io.dstore.Values.integerValue value) {
           if (benefitTypeIdBuilder_ == null) {
             if (benefitTypeId_ != null) {
               benefitTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(benefitTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(benefitTypeId_).mergeFrom(value).buildPartial();
             } else {
               benefitTypeId_ = value;
             }
@@ -2265,7 +2265,7 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
@@ -2283,45 +2283,45 @@ public final class OmGetCampaignBenefitsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBenefitTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBenefitTypeIdBuilder() {
           
           onChanged();
           return getBenefitTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBenefitTypeIdOrBuilder() {
           if (benefitTypeIdBuilder_ != null) {
             return benefitTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return benefitTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : benefitTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : benefitTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue benefit_type_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue benefit_type_id = 10004;</code>
          *
          * <pre>
          * Die ID der "Art von Benefit" (z.B. Rabatt), von der "BenefitID" ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBenefitTypeIdFieldBuilder() {
           if (benefitTypeIdBuilder_ == null) {
             benefitTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBenefitTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3891,29 +3891,27 @@ public final class OmGetCampaignBenefitsAd {
     java.lang.String[] descriptorData = {
       "\n8dstore/engine/procedures/om_GetCampaig" +
       "nBenefits_Ad.proto\022\'dstore.engine.om_Get" +
-      "CampaignBenefits_Ad\032\032dstore/engine/value" +
-      "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\032#dstore/engine/m" +
-      "etainformation.proto\"\274\001\n\nParameters\0227\n\013c" +
-      "ampaign_id\030\001 \001(\0132\".dstore.engine.values." +
-      "integerValue\022\031\n\020campaign_id_null\030\351\007 \001(\010\022" +
-      ";\n\017benefit_type_id\030\002 \001(\0132\".dstore.engine" +
-      ".values.integerValue\022\035\n\024benefit_type_id_",
-      "null\030\352\007 \001(\010\"\204\004\n\010Response\022)\n\005error\030\001 \001(\0132" +
-      "\032.dstore.engine.error.Error\022H\n\020meta_info" +
-      "rmation\030\002 \003(\0132..dstore.engine.metainform" +
-      "ation.MetaInformation\022/\n\007message\030\003 \003(\0132\036" +
-      ".dstore.engine.message.Message\022B\n\003row\030\004 " +
-      "\003(\01325.dstore.engine.om_GetCampaignBenefi" +
-      "ts_Ad.Response.Row\032\215\002\n\003Row\022\017\n\006row_id\030\220N " +
-      "\001(\005\0227\n\nbenefit_id\030\221N \001(\0132\".dstore.engine" +
-      ".values.integerValue\0228\n\013campaign_id\030\222N \001" +
-      "(\0132\".dstore.engine.values.integerValue\022D",
-      "\n\030benefit_type_description\030\223N \001(\0132!.dsto" +
-      "re.engine.values.stringValue\022<\n\017benefit_" +
-      "type_id\030\224N \001(\0132\".dstore.engine.values.in" +
-      "tegerValueB\035\n\033io.dstore.engine.procedure" +
-      "sb\006proto3"
+      "CampaignBenefits_Ad\032\023dstore/values.proto" +
+      "\032\031dstore/engine/error.proto\032\033dstore/engi" +
+      "ne/message.proto\032#dstore/engine/metainfo" +
+      "rmation.proto\"\256\001\n\nParameters\0220\n\013campaign" +
+      "_id\030\001 \001(\0132\033.dstore.values.integerValue\022\031" +
+      "\n\020campaign_id_null\030\351\007 \001(\010\0224\n\017benefit_typ" +
+      "e_id\030\002 \001(\0132\033.dstore.values.integerValue\022" +
+      "\035\n\024benefit_type_id_null\030\352\007 \001(\010\"\350\003\n\010Respo",
+      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
+      ".Error\022H\n\020meta_information\030\002 \003(\0132..dstor" +
+      "e.engine.metainformation.MetaInformation" +
+      "\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messag" +
+      "e.Message\022B\n\003row\030\004 \003(\01325.dstore.engine.o" +
+      "m_GetCampaignBenefits_Ad.Response.Row\032\361\001" +
+      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\nbenefit_id\030\221N " +
+      "\001(\0132\033.dstore.values.integerValue\0221\n\013camp" +
+      "aign_id\030\222N \001(\0132\033.dstore.values.integerVa" +
+      "lue\022=\n\030benefit_type_description\030\223N \001(\0132\032",
+      ".dstore.values.stringValue\0225\n\017benefit_ty" +
+      "pe_id\030\224N \001(\0132\033.dstore.values.integerValu" +
+      "eB\035\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3926,7 +3924,7 @@ public final class OmGetCampaignBenefitsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3949,7 +3947,7 @@ public final class OmGetCampaignBenefitsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignBenefits_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BenefitId", "CampaignId", "BenefitTypeDescription", "BenefitTypeId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

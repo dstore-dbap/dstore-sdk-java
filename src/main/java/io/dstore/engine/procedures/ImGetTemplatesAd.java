@@ -13,17 +13,17 @@ public final class ImGetTemplatesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getTreeNodeId();
+    io.dstore.Values.integerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImGetTemplatesAd {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getLanguageId();
+    io.dstore.Values.integerValue getLanguageId();
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class ImGetTemplatesAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
      */
     boolean hasSourceTemplateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getSourceTemplateId();
+    io.dstore.Values.integerValue getSourceTemplateId();
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder();
 
     /**
      * <code>optional bool source_template_id_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class ImGetTemplatesAd {
     boolean getSourceTemplateIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+     * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
      */
     boolean hasDateAndTime();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+     * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
      */
-    io.dstore.engine.Values.timestampValue getDateAndTime();
+    io.dstore.Values.timestampValue getDateAndTime();
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+     * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getDateAndTimeOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder();
 
     /**
      * <code>optional bool date_and_time_null = 1004;</code>
@@ -127,11 +127,11 @@ public final class ImGetTemplatesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -140,11 +140,11 @@ public final class ImGetTemplatesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -153,11 +153,11 @@ public final class ImGetTemplatesAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (sourceTemplateId_ != null) {
                 subBuilder = sourceTemplateId_.toBuilder();
               }
-              sourceTemplateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              sourceTemplateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sourceTemplateId_);
                 sourceTemplateId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class ImGetTemplatesAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (dateAndTime_ != null) {
                 subBuilder = dateAndTime_.toBuilder();
               }
-              dateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              dateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateAndTime_);
                 dateAndTime_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class ImGetTemplatesAd {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue treeNodeId_;
+    private io.dstore.Values.integerValue treeNodeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.Values.integerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -253,23 +253,23 @@ public final class ImGetTemplatesAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue languageId_;
+    private io.dstore.Values.integerValue languageId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.Values.integerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.integerValue language_id = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -283,23 +283,23 @@ public final class ImGetTemplatesAd {
     }
 
     public static final int SOURCE_TEMPLATE_ID_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue sourceTemplateId_;
+    private io.dstore.Values.integerValue sourceTemplateId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
      */
     public boolean hasSourceTemplateId() {
       return sourceTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getSourceTemplateId() {
-      return sourceTemplateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+    public io.dstore.Values.integerValue getSourceTemplateId() {
+      return sourceTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+     * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
       return getSourceTemplateId();
     }
 
@@ -313,23 +313,23 @@ public final class ImGetTemplatesAd {
     }
 
     public static final int DATE_AND_TIME_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.timestampValue dateAndTime_;
+    private io.dstore.Values.timestampValue dateAndTime_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+     * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
      */
     public boolean hasDateAndTime() {
       return dateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+     * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValue getDateAndTime() {
-      return dateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+    public io.dstore.Values.timestampValue getDateAndTime() {
+      return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+     * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
       return getDateAndTime();
     }
 
@@ -671,29 +671,29 @@ public final class ImGetTemplatesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue treeNodeId_ = null;
+      private io.dstore.Values.integerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getTreeNodeId() {
+      public io.dstore.Values.integerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -739,7 +739,7 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -814,29 +814,29 @@ public final class ImGetTemplatesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue languageId_ = null;
+      private io.dstore.Values.integerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
+      public io.dstore.Values.integerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -850,10 +850,10 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -864,13 +864,13 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -882,7 +882,7 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -896,33 +896,33 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.integerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -957,29 +957,29 @@ public final class ImGetTemplatesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue sourceTemplateId_ = null;
+      private io.dstore.Values.integerValue sourceTemplateId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> sourceTemplateIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sourceTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
       public boolean hasSourceTemplateId() {
         return sourceTemplateIdBuilder_ != null || sourceTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getSourceTemplateId() {
+      public io.dstore.Values.integerValue getSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
-          return sourceTemplateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+          return sourceTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
         } else {
           return sourceTemplateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
-      public Builder setSourceTemplateId(io.dstore.engine.Values.integerValue value) {
+      public Builder setSourceTemplateId(io.dstore.Values.integerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -993,10 +993,10 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
       public Builder setSourceTemplateId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (sourceTemplateIdBuilder_ == null) {
           sourceTemplateId_ = builderForValue.build();
           onChanged();
@@ -1007,13 +1007,13 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
-      public Builder mergeSourceTemplateId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeSourceTemplateId(io.dstore.Values.integerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
           if (sourceTemplateId_ != null) {
             sourceTemplateId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(sourceTemplateId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(sourceTemplateId_).mergeFrom(value).buildPartial();
           } else {
             sourceTemplateId_ = value;
           }
@@ -1025,7 +1025,7 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
       public Builder clearSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
@@ -1039,33 +1039,33 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getSourceTemplateIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getSourceTemplateIdBuilder() {
         
         onChanged();
         return getSourceTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
         if (sourceTemplateIdBuilder_ != null) {
           return sourceTemplateIdBuilder_.getMessageOrBuilder();
         } else {
           return sourceTemplateId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue source_template_id = 3;</code>
+       * <code>optional .dstore.values.integerValue source_template_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSourceTemplateIdFieldBuilder() {
         if (sourceTemplateIdBuilder_ == null) {
           sourceTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSourceTemplateId(),
                   getParentForChildren(),
                   isClean());
@@ -1100,29 +1100,29 @@ public final class ImGetTemplatesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue dateAndTime_ = null;
+      private io.dstore.Values.timestampValue dateAndTime_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> dateAndTimeBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTimeBuilder_ != null || dateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue getDateAndTime() {
+      public io.dstore.Values.timestampValue getDateAndTime() {
         if (dateAndTimeBuilder_ == null) {
-          return dateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+          return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
         } else {
           return dateAndTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
-      public Builder setDateAndTime(io.dstore.engine.Values.timestampValue value) {
+      public Builder setDateAndTime(io.dstore.Values.timestampValue value) {
         if (dateAndTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1136,10 +1136,10 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
       public Builder setDateAndTime(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (dateAndTimeBuilder_ == null) {
           dateAndTime_ = builderForValue.build();
           onChanged();
@@ -1150,13 +1150,13 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
-      public Builder mergeDateAndTime(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeDateAndTime(io.dstore.Values.timestampValue value) {
         if (dateAndTimeBuilder_ == null) {
           if (dateAndTime_ != null) {
             dateAndTime_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(dateAndTime_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(dateAndTime_).mergeFrom(value).buildPartial();
           } else {
             dateAndTime_ = value;
           }
@@ -1168,7 +1168,7 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
       public Builder clearDateAndTime() {
         if (dateAndTimeBuilder_ == null) {
@@ -1182,33 +1182,33 @@ public final class ImGetTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getDateAndTimeBuilder() {
+      public io.dstore.Values.timestampValue.Builder getDateAndTimeBuilder() {
         
         onChanged();
         return getDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
         if (dateAndTimeBuilder_ != null) {
           return dateAndTimeBuilder_.getMessageOrBuilder();
         } else {
           return dateAndTime_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue date_and_time = 4;</code>
+       * <code>optional .dstore.values.timestampValue date_and_time = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDateAndTimeFieldBuilder() {
         if (dateAndTimeBuilder_ == null) {
           dateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDateAndTime(),
                   getParentForChildren(),
                   isClean());
@@ -1530,7 +1530,7 @@ public final class ImGetTemplatesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des gefundenen Templates
@@ -1538,24 +1538,24 @@ public final class ImGetTemplatesAd {
        */
       boolean hasDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des gefundenen Templates
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDescription();
+      io.dstore.Values.stringValue getDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des gefundenen Templates
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
        *
        * <pre>
        * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
@@ -1563,24 +1563,24 @@ public final class ImGetTemplatesAd {
        */
       boolean hasInherited();
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
        *
        * <pre>
        * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValue getInherited();
+      io.dstore.Values.booleanValue getInherited();
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
        *
        * <pre>
        * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
        * </pre>
        */
-      io.dstore.engine.Values.booleanValueOrBuilder getInheritedOrBuilder();
+      io.dstore.Values.booleanValueOrBuilder getInheritedOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
        *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
@@ -1588,24 +1588,24 @@ public final class ImGetTemplatesAd {
        */
       boolean hasFrameName();
       /**
-       * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
        *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getFrameName();
+      io.dstore.Values.stringValue getFrameName();
       /**
-       * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
        *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getFrameNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getFrameNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
        *
        * <pre>
        * ID der Sprache, für die das Template gilt
@@ -1613,24 +1613,24 @@ public final class ImGetTemplatesAd {
        */
       boolean hasLanguageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
        *
        * <pre>
        * ID der Sprache, für die das Template gilt
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getLanguageId();
+      io.dstore.Values.integerValue getLanguageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
        *
        * <pre>
        * ID der Sprache, für die das Template gilt
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue template_id = 10005;</code>
        *
        * <pre>
        * ID des gefundenen Templates
@@ -1638,21 +1638,21 @@ public final class ImGetTemplatesAd {
        */
       boolean hasTemplateId();
       /**
-       * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue template_id = 10005;</code>
        *
        * <pre>
        * ID des gefundenen Templates
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getTemplateId();
+      io.dstore.Values.integerValue getTemplateId();
       /**
-       * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue template_id = 10005;</code>
        *
        * <pre>
        * ID des gefundenen Templates
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getTemplateIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getTemplateIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetTemplates_Ad.Response.Row}
@@ -1699,11 +1699,11 @@ public final class ImGetTemplatesAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1712,11 +1712,11 @@ public final class ImGetTemplatesAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (inherited_ != null) {
                   subBuilder = inherited_.toBuilder();
                 }
-                inherited_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+                inherited_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inherited_);
                   inherited_ = subBuilder.buildPartial();
@@ -1725,11 +1725,11 @@ public final class ImGetTemplatesAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (frameName_ != null) {
                   subBuilder = frameName_.toBuilder();
                 }
-                frameName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                frameName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(frameName_);
                   frameName_ = subBuilder.buildPartial();
@@ -1738,11 +1738,11 @@ public final class ImGetTemplatesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -1751,11 +1751,11 @@ public final class ImGetTemplatesAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (templateId_ != null) {
                   subBuilder = templateId_.toBuilder();
                 }
-                templateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                templateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(templateId_);
                   templateId_ = subBuilder.buildPartial();
@@ -1797,9 +1797,9 @@ public final class ImGetTemplatesAd {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.stringValue description_;
+      private io.dstore.Values.stringValue description_;
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des gefundenen Templates
@@ -1809,30 +1809,30 @@ public final class ImGetTemplatesAd {
         return description_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des gefundenen Templates
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.Values.stringValue getDescription() {
+        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.stringValue description = 10001;</code>
        *
        * <pre>
        * Bezeichnung des gefundenen Templates
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int INHERITED_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.booleanValue inherited_;
+      private io.dstore.Values.booleanValue inherited_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
        *
        * <pre>
        * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
@@ -1842,30 +1842,30 @@ public final class ImGetTemplatesAd {
         return inherited_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
        *
        * <pre>
        * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValue getInherited() {
-        return inherited_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : inherited_;
+      public io.dstore.Values.booleanValue getInherited() {
+        return inherited_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : inherited_;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+       * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
        *
        * <pre>
        * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
        * </pre>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getInheritedOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getInheritedOrBuilder() {
         return getInherited();
       }
 
       public static final int FRAME_NAME_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue frameName_;
+      private io.dstore.Values.stringValue frameName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
        *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
@@ -1875,30 +1875,30 @@ public final class ImGetTemplatesAd {
         return frameName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
        *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getFrameName() {
-        return frameName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : frameName_;
+      public io.dstore.Values.stringValue getFrameName() {
+        return frameName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : frameName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
        *
        * <pre>
        * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getFrameNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getFrameNameOrBuilder() {
         return getFrameName();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.integerValue languageId_;
+      private io.dstore.Values.integerValue languageId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
        *
        * <pre>
        * ID der Sprache, für die das Template gilt
@@ -1908,30 +1908,30 @@ public final class ImGetTemplatesAd {
         return languageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
        *
        * <pre>
        * ID der Sprache, für die das Template gilt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.Values.integerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
        *
        * <pre>
        * ID der Sprache, für die das Template gilt
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
       public static final int TEMPLATE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue templateId_;
+      private io.dstore.Values.integerValue templateId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue template_id = 10005;</code>
        *
        * <pre>
        * ID des gefundenen Templates
@@ -1941,23 +1941,23 @@ public final class ImGetTemplatesAd {
         return templateId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue template_id = 10005;</code>
        *
        * <pre>
        * ID des gefundenen Templates
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getTemplateId() {
-        return templateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : templateId_;
+      public io.dstore.Values.integerValue getTemplateId() {
+        return templateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : templateId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+       * <code>optional .dstore.values.integerValue template_id = 10005;</code>
        *
        * <pre>
        * ID des gefundenen Templates
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getTemplateIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getTemplateIdOrBuilder() {
         return getTemplateId();
       }
 
@@ -2298,11 +2298,11 @@ public final class ImGetTemplatesAd {
           return this;
         }
 
-        private io.dstore.engine.Values.stringValue description_ = null;
+        private io.dstore.Values.stringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
@@ -2312,27 +2312,27 @@ public final class ImGetTemplatesAd {
           return descriptionBuilder_ != null || description_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDescription() {
+        public io.dstore.Values.stringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
-        public Builder setDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder setDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2346,14 +2346,14 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
         public Builder setDescription(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2364,17 +2364,17 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
-        public Builder mergeDescription(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.Values.stringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.engine.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2386,7 +2386,7 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
@@ -2404,45 +2404,45 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.Values.stringValue.getDefaultInstance() : description_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.stringValue description = 10001;</code>
          *
          * <pre>
          * Bezeichnung des gefundenen Templates
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2451,11 +2451,11 @@ public final class ImGetTemplatesAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue inherited_ = null;
+        private io.dstore.Values.booleanValue inherited_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> inheritedBuilder_;
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> inheritedBuilder_;
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
@@ -2465,27 +2465,27 @@ public final class ImGetTemplatesAd {
           return inheritedBuilder_ != null || inherited_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue getInherited() {
+        public io.dstore.Values.booleanValue getInherited() {
           if (inheritedBuilder_ == null) {
-            return inherited_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : inherited_;
+            return inherited_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : inherited_;
           } else {
             return inheritedBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
-        public Builder setInherited(io.dstore.engine.Values.booleanValue value) {
+        public Builder setInherited(io.dstore.Values.booleanValue value) {
           if (inheritedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2499,14 +2499,14 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
         public Builder setInherited(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+            io.dstore.Values.booleanValue.Builder builderForValue) {
           if (inheritedBuilder_ == null) {
             inherited_ = builderForValue.build();
             onChanged();
@@ -2517,17 +2517,17 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
-        public Builder mergeInherited(io.dstore.engine.Values.booleanValue value) {
+        public Builder mergeInherited(io.dstore.Values.booleanValue value) {
           if (inheritedBuilder_ == null) {
             if (inherited_ != null) {
               inherited_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(inherited_).mergeFrom(value).buildPartial();
+                io.dstore.Values.booleanValue.newBuilder(inherited_).mergeFrom(value).buildPartial();
             } else {
               inherited_ = value;
             }
@@ -2539,7 +2539,7 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
@@ -2557,45 +2557,45 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValue.Builder getInheritedBuilder() {
+        public io.dstore.Values.booleanValue.Builder getInheritedBuilder() {
           
           onChanged();
           return getInheritedFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
-        public io.dstore.engine.Values.booleanValueOrBuilder getInheritedOrBuilder() {
+        public io.dstore.Values.booleanValueOrBuilder getInheritedOrBuilder() {
           if (inheritedBuilder_ != null) {
             return inheritedBuilder_.getMessageOrBuilder();
           } else {
             return inherited_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : inherited_;
+                io.dstore.Values.booleanValue.getDefaultInstance() : inherited_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.booleanValue inherited = 10002;</code>
+         * <code>optional .dstore.values.booleanValue inherited = 10002;</code>
          *
          * <pre>
          * Ist das Template dem Element "&#64;TreeNodeID" direkt zugeordnet oder wurde das Template "geerbt" ?
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getInheritedFieldBuilder() {
           if (inheritedBuilder_ == null) {
             inheritedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getInherited(),
                     getParentForChildren(),
                     isClean());
@@ -2604,11 +2604,11 @@ public final class ImGetTemplatesAd {
           return inheritedBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue frameName_ = null;
+        private io.dstore.Values.stringValue frameName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> frameNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> frameNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
@@ -2618,27 +2618,27 @@ public final class ImGetTemplatesAd {
           return frameNameBuilder_ != null || frameName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getFrameName() {
+        public io.dstore.Values.stringValue getFrameName() {
           if (frameNameBuilder_ == null) {
-            return frameName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : frameName_;
+            return frameName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : frameName_;
           } else {
             return frameNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
-        public Builder setFrameName(io.dstore.engine.Values.stringValue value) {
+        public Builder setFrameName(io.dstore.Values.stringValue value) {
           if (frameNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2652,14 +2652,14 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
         public Builder setFrameName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (frameNameBuilder_ == null) {
             frameName_ = builderForValue.build();
             onChanged();
@@ -2670,17 +2670,17 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
-        public Builder mergeFrameName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeFrameName(io.dstore.Values.stringValue value) {
           if (frameNameBuilder_ == null) {
             if (frameName_ != null) {
               frameName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(frameName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(frameName_).mergeFrom(value).buildPartial();
             } else {
               frameName_ = value;
             }
@@ -2692,7 +2692,7 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
@@ -2710,45 +2710,45 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getFrameNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getFrameNameBuilder() {
           
           onChanged();
           return getFrameNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getFrameNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getFrameNameOrBuilder() {
           if (frameNameBuilder_ != null) {
             return frameNameBuilder_.getMessageOrBuilder();
           } else {
             return frameName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : frameName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : frameName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue frame_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue frame_name = 10003;</code>
          *
          * <pre>
          * Bezeichnung des "Frames" (oder auch : des "Fensters"), in der das Template geladen wird (also eine Einstellung, die eher an Web-Applikationen gedacht ist)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFrameNameFieldBuilder() {
           if (frameNameBuilder_ == null) {
             frameNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFrameName(),
                     getParentForChildren(),
                     isClean());
@@ -2757,11 +2757,11 @@ public final class ImGetTemplatesAd {
           return frameNameBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue languageId_ = null;
+        private io.dstore.Values.integerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
@@ -2771,27 +2771,27 @@ public final class ImGetTemplatesAd {
           return languageIdBuilder_ != null || languageId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getLanguageId() {
+        public io.dstore.Values.integerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
-        public Builder setLanguageId(io.dstore.engine.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2805,14 +2805,14 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
         public Builder setLanguageId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -2823,17 +2823,17 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
-        public Builder mergeLanguageId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -2845,7 +2845,7 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
@@ -2863,45 +2863,45 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
          *
          * <pre>
          * ID der Sprache, für die das Template gilt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -2910,11 +2910,11 @@ public final class ImGetTemplatesAd {
           return languageIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue templateId_ = null;
+        private io.dstore.Values.integerValue templateId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> templateIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> templateIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
@@ -2924,27 +2924,27 @@ public final class ImGetTemplatesAd {
           return templateIdBuilder_ != null || templateId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getTemplateId() {
+        public io.dstore.Values.integerValue getTemplateId() {
           if (templateIdBuilder_ == null) {
-            return templateId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : templateId_;
+            return templateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : templateId_;
           } else {
             return templateIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
-        public Builder setTemplateId(io.dstore.engine.Values.integerValue value) {
+        public Builder setTemplateId(io.dstore.Values.integerValue value) {
           if (templateIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2958,14 +2958,14 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
         public Builder setTemplateId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (templateIdBuilder_ == null) {
             templateId_ = builderForValue.build();
             onChanged();
@@ -2976,17 +2976,17 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
-        public Builder mergeTemplateId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeTemplateId(io.dstore.Values.integerValue value) {
           if (templateIdBuilder_ == null) {
             if (templateId_ != null) {
               templateId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(templateId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(templateId_).mergeFrom(value).buildPartial();
             } else {
               templateId_ = value;
             }
@@ -2998,7 +2998,7 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
@@ -3016,45 +3016,45 @@ public final class ImGetTemplatesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getTemplateIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getTemplateIdBuilder() {
           
           onChanged();
           return getTemplateIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getTemplateIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getTemplateIdOrBuilder() {
           if (templateIdBuilder_ != null) {
             return templateIdBuilder_.getMessageOrBuilder();
           } else {
             return templateId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : templateId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : templateId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue template_id = 10005;</code>
+         * <code>optional .dstore.values.integerValue template_id = 10005;</code>
          *
          * <pre>
          * ID des gefundenen Templates
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTemplateIdFieldBuilder() {
           if (templateIdBuilder_ == null) {
             templateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTemplateId(),
                     getParentForChildren(),
                     isClean());
@@ -4624,34 +4624,32 @@ public final class ImGetTemplatesAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/im_GetTemplat" +
       "es_Ad.proto\022 dstore.engine.im_GetTemplat" +
-      "es_Ad\032\032dstore/engine/values.proto\032\031dstor" +
-      "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"\362\002\n\nParameters\0228\n\014tree_node_id\030\001 " +
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      "\032\n\021tree_node_id_null\030\351\007 \001(\010\0227\n\013language_" +
-      "id\030\002 \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022\031\n\020language_id_null\030\352\007 \001(\010\022>\n\022sourc",
-      "e_template_id\030\003 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022 \n\027source_template_id_nu" +
-      "ll\030\353\007 \001(\010\022;\n\rdate_and_time\030\004 \001(\0132$.dstor" +
-      "e.engine.values.timestampValue\022\033\n\022date_a" +
-      "nd_time_null\030\354\007 \001(\010\"\243\004\n\010Response\022)\n\005erro" +
-      "r\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020m" +
-      "eta_information\030\002 \003(\0132..dstore.engine.me" +
-      "tainformation.MetaInformation\022/\n\007message" +
-      "\030\003 \003(\0132\036.dstore.engine.message.Message\022;" +
-      "\n\003row\030\004 \003(\0132..dstore.engine.im_GetTempla",
-      "tes_Ad.Response.Row\032\263\002\n\003Row\022\017\n\006row_id\030\220N" +
-      " \001(\005\0227\n\013description\030\221N \001(\0132!.dstore.engi" +
-      "ne.values.stringValue\0226\n\tinherited\030\222N \001(" +
-      "\0132\".dstore.engine.values.booleanValue\0226\n" +
-      "\nframe_name\030\223N \001(\0132!.dstore.engine.value" +
-      "s.stringValue\0228\n\013language_id\030\224N \001(\0132\".ds" +
-      "tore.engine.values.integerValue\0228\n\013templ" +
-      "ate_id\030\225N \001(\0132\".dstore.engine.values.int" +
-      "egerValueB\035\n\033io.dstore.engine.procedures" +
-      "b\006proto3"
+      "es_Ad\032\023dstore/values.proto\032\031dstore/engin" +
+      "e/error.proto\032\033dstore/engine/message.pro" +
+      "to\032#dstore/engine/metainformation.proto\"" +
+      "\326\002\n\nParameters\0221\n\014tree_node_id\030\001 \001(\0132\033.d" +
+      "store.values.integerValue\022\032\n\021tree_node_i" +
+      "d_null\030\351\007 \001(\010\0220\n\013language_id\030\002 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\031\n\020language_id_n" +
+      "ull\030\352\007 \001(\010\0227\n\022source_template_id\030\003 \001(\0132\033",
+      ".dstore.values.integerValue\022 \n\027source_te" +
+      "mplate_id_null\030\353\007 \001(\010\0224\n\rdate_and_time\030\004" +
+      " \001(\0132\035.dstore.values.timestampValue\022\033\n\022d" +
+      "ate_and_time_null\030\354\007 \001(\010\"\200\004\n\010Response\022)\n" +
+      "\005error\030\001 \001(\0132\032.dstore.engine.error.Error" +
+      "\022H\n\020meta_information\030\002 \003(\0132..dstore.engi" +
+      "ne.metainformation.MetaInformation\022/\n\007me" +
+      "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
+      "age\022;\n\003row\030\004 \003(\0132..dstore.engine.im_GetT" +
+      "emplates_Ad.Response.Row\032\220\002\n\003Row\022\017\n\006row_",
+      "id\030\220N \001(\005\0220\n\013description\030\221N \001(\0132\032.dstore" +
+      ".values.stringValue\022/\n\tinherited\030\222N \001(\0132" +
+      "\033.dstore.values.booleanValue\022/\n\nframe_na" +
+      "me\030\223N \001(\0132\032.dstore.values.stringValue\0221\n" +
+      "\013language_id\030\224N \001(\0132\033.dstore.values.inte" +
+      "gerValue\0221\n\013template_id\030\225N \001(\0132\033.dstore." +
+      "values.integerValueB\035\n\033io.dstore.engine." +
+      "proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4664,7 +4662,7 @@ public final class ImGetTemplatesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4687,7 +4685,7 @@ public final class ImGetTemplatesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_GetTemplates_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "Inherited", "FrameName", "LanguageId", "TemplateId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

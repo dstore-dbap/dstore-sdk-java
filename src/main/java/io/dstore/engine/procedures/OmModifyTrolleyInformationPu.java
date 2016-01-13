@@ -13,17 +13,17 @@ public final class OmModifyTrolleyInformationPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getUniqueId();
+    io.dstore.Values.stringValue getUniqueId();
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyTrolleyInformationPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+     * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
      */
     boolean hasNestingLevelForInputData();
     /**
-     * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+     * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getNestingLevelForInputData();
+    io.dstore.Values.integerValue getNestingLevelForInputData();
     /**
-     * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+     * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getNestingLevelForInputDataOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getNestingLevelForInputDataOrBuilder();
 
     /**
      * <code>optional bool nesting_level_for_input_data_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyTrolleyInformationPu {
     boolean getNestingLevelForInputDataNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
      */
     boolean hasChangeAllOrNothing();
     /**
-     * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
      */
-    io.dstore.engine.Values.booleanValue getChangeAllOrNothing();
+    io.dstore.Values.booleanValue getChangeAllOrNothing();
     /**
-     * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder();
 
     /**
      * <code>optional bool change_all_or_nothing_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class OmModifyTrolleyInformationPu {
     boolean getChangeAllOrNothingNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+     * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
      */
     boolean hasOnlyNewData();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+     * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getOnlyNewData();
+    io.dstore.Values.booleanValue getOnlyNewData();
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+     * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getOnlyNewDataOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getOnlyNewDataOrBuilder();
 
     /**
      * <code>optional bool only_new_data_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class OmModifyTrolleyInformationPu {
     boolean getOnlyNewDataNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+     * <code>optional .dstore.values.stringValue country = 5;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+     * <code>optional .dstore.values.stringValue country = 5;</code>
      */
-    io.dstore.engine.Values.stringValue getCountry();
+    io.dstore.Values.stringValue getCountry();
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+     * <code>optional .dstore.values.stringValue country = 5;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class OmModifyTrolleyInformationPu {
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValue getInformationTypeId();
+    io.dstore.Values.integerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class OmModifyTrolleyInformationPu {
     boolean getInformationTypeIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.stringValue information = 7;</code>
      */
     boolean hasInformation();
     /**
-     * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.stringValue information = 7;</code>
      */
-    io.dstore.engine.Values.stringValue getInformation();
+    io.dstore.Values.stringValue getInformation();
     /**
-     * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.stringValue information = 7;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
 
     /**
      * <code>optional bool information_null = 1007;</code>
@@ -184,11 +184,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -197,11 +197,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (nestingLevelForInputData_ != null) {
                 subBuilder = nestingLevelForInputData_.toBuilder();
               }
-              nestingLevelForInputData_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              nestingLevelForInputData_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nestingLevelForInputData_);
                 nestingLevelForInputData_ = subBuilder.buildPartial();
@@ -210,11 +210,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (changeAllOrNothing_ != null) {
                 subBuilder = changeAllOrNothing_.toBuilder();
               }
-              changeAllOrNothing_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              changeAllOrNothing_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(changeAllOrNothing_);
                 changeAllOrNothing_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (onlyNewData_ != null) {
                 subBuilder = onlyNewData_.toBuilder();
               }
-              onlyNewData_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              onlyNewData_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyNewData_);
                 onlyNewData_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class OmModifyTrolleyInformationPu {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (information_ != null) {
                 subBuilder = information_.toBuilder();
               }
-              information_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(information_);
                 information_ = subBuilder.buildPartial();
@@ -334,23 +334,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue uniqueId_;
+    private io.dstore.Values.stringValue uniqueId_;
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.Values.stringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -364,23 +364,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int NESTING_LEVEL_FOR_INPUT_DATA_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue nestingLevelForInputData_;
+    private io.dstore.Values.integerValue nestingLevelForInputData_;
     /**
-     * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+     * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
      */
     public boolean hasNestingLevelForInputData() {
       return nestingLevelForInputData_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+     * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getNestingLevelForInputData() {
-      return nestingLevelForInputData_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nestingLevelForInputData_;
+    public io.dstore.Values.integerValue getNestingLevelForInputData() {
+      return nestingLevelForInputData_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nestingLevelForInputData_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+     * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getNestingLevelForInputDataOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getNestingLevelForInputDataOrBuilder() {
       return getNestingLevelForInputData();
     }
 
@@ -394,23 +394,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int CHANGE_ALL_OR_NOTHING_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.booleanValue changeAllOrNothing_;
+    private io.dstore.Values.booleanValue changeAllOrNothing_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
      */
     public boolean hasChangeAllOrNothing() {
       return changeAllOrNothing_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValue getChangeAllOrNothing() {
-      return changeAllOrNothing_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
+    public io.dstore.Values.booleanValue getChangeAllOrNothing() {
+      return changeAllOrNothing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+     * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder() {
       return getChangeAllOrNothing();
     }
 
@@ -424,23 +424,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int ONLY_NEW_DATA_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue onlyNewData_;
+    private io.dstore.Values.booleanValue onlyNewData_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+     * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
      */
     public boolean hasOnlyNewData() {
       return onlyNewData_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+     * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getOnlyNewData() {
-      return onlyNewData_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyNewData_;
+    public io.dstore.Values.booleanValue getOnlyNewData() {
+      return onlyNewData_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyNewData_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+     * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getOnlyNewDataOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getOnlyNewDataOrBuilder() {
       return getOnlyNewData();
     }
 
@@ -454,23 +454,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.stringValue country_;
+    private io.dstore.Values.stringValue country_;
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+     * <code>optional .dstore.values.stringValue country = 5;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+     * <code>optional .dstore.values.stringValue country = 5;</code>
      */
-    public io.dstore.engine.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.Values.stringValue getCountry() {
+      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+     * <code>optional .dstore.values.stringValue country = 5;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -484,23 +484,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.integerValue informationTypeId_;
+    private io.dstore.Values.integerValue informationTypeId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.Values.integerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+     * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -514,23 +514,23 @@ public final class OmModifyTrolleyInformationPu {
     }
 
     public static final int INFORMATION_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.stringValue information_;
+    private io.dstore.Values.stringValue information_;
     /**
-     * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.stringValue information = 7;</code>
      */
     public boolean hasInformation() {
       return information_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.stringValue information = 7;</code>
      */
-    public io.dstore.engine.Values.stringValue getInformation() {
-      return information_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+    public io.dstore.Values.stringValue getInformation() {
+      return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.stringValue information = 7;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
       return getInformation();
     }
 
@@ -974,29 +974,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue uniqueId_ = null;
+      private io.dstore.Values.stringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getUniqueId() {
+      public io.dstore.Values.stringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1010,10 +1010,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1024,13 +1024,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.engine.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1042,7 +1042,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1056,33 +1056,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1117,29 +1117,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue nestingLevelForInputData_ = null;
+      private io.dstore.Values.integerValue nestingLevelForInputData_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> nestingLevelForInputDataBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nestingLevelForInputDataBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
       public boolean hasNestingLevelForInputData() {
         return nestingLevelForInputDataBuilder_ != null || nestingLevelForInputData_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getNestingLevelForInputData() {
+      public io.dstore.Values.integerValue getNestingLevelForInputData() {
         if (nestingLevelForInputDataBuilder_ == null) {
-          return nestingLevelForInputData_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : nestingLevelForInputData_;
+          return nestingLevelForInputData_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nestingLevelForInputData_;
         } else {
           return nestingLevelForInputDataBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
-      public Builder setNestingLevelForInputData(io.dstore.engine.Values.integerValue value) {
+      public Builder setNestingLevelForInputData(io.dstore.Values.integerValue value) {
         if (nestingLevelForInputDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1153,10 +1153,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
       public Builder setNestingLevelForInputData(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (nestingLevelForInputDataBuilder_ == null) {
           nestingLevelForInputData_ = builderForValue.build();
           onChanged();
@@ -1167,13 +1167,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
-      public Builder mergeNestingLevelForInputData(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeNestingLevelForInputData(io.dstore.Values.integerValue value) {
         if (nestingLevelForInputDataBuilder_ == null) {
           if (nestingLevelForInputData_ != null) {
             nestingLevelForInputData_ =
-              io.dstore.engine.Values.integerValue.newBuilder(nestingLevelForInputData_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(nestingLevelForInputData_).mergeFrom(value).buildPartial();
           } else {
             nestingLevelForInputData_ = value;
           }
@@ -1185,7 +1185,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
       public Builder clearNestingLevelForInputData() {
         if (nestingLevelForInputDataBuilder_ == null) {
@@ -1199,33 +1199,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getNestingLevelForInputDataBuilder() {
+      public io.dstore.Values.integerValue.Builder getNestingLevelForInputDataBuilder() {
         
         onChanged();
         return getNestingLevelForInputDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getNestingLevelForInputDataOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getNestingLevelForInputDataOrBuilder() {
         if (nestingLevelForInputDataBuilder_ != null) {
           return nestingLevelForInputDataBuilder_.getMessageOrBuilder();
         } else {
           return nestingLevelForInputData_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : nestingLevelForInputData_;
+              io.dstore.Values.integerValue.getDefaultInstance() : nestingLevelForInputData_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue nesting_level_for_input_data = 2;</code>
+       * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNestingLevelForInputDataFieldBuilder() {
         if (nestingLevelForInputDataBuilder_ == null) {
           nestingLevelForInputDataBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNestingLevelForInputData(),
                   getParentForChildren(),
                   isClean());
@@ -1260,29 +1260,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue changeAllOrNothing_ = null;
+      private io.dstore.Values.booleanValue changeAllOrNothing_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> changeAllOrNothingBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> changeAllOrNothingBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
       public boolean hasChangeAllOrNothing() {
         return changeAllOrNothingBuilder_ != null || changeAllOrNothing_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue getChangeAllOrNothing() {
+      public io.dstore.Values.booleanValue getChangeAllOrNothing() {
         if (changeAllOrNothingBuilder_ == null) {
-          return changeAllOrNothing_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
+          return changeAllOrNothing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
         } else {
           return changeAllOrNothingBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
-      public Builder setChangeAllOrNothing(io.dstore.engine.Values.booleanValue value) {
+      public Builder setChangeAllOrNothing(io.dstore.Values.booleanValue value) {
         if (changeAllOrNothingBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1296,10 +1296,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
       public Builder setChangeAllOrNothing(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (changeAllOrNothingBuilder_ == null) {
           changeAllOrNothing_ = builderForValue.build();
           onChanged();
@@ -1310,13 +1310,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
-      public Builder mergeChangeAllOrNothing(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeChangeAllOrNothing(io.dstore.Values.booleanValue value) {
         if (changeAllOrNothingBuilder_ == null) {
           if (changeAllOrNothing_ != null) {
             changeAllOrNothing_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(changeAllOrNothing_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(changeAllOrNothing_).mergeFrom(value).buildPartial();
           } else {
             changeAllOrNothing_ = value;
           }
@@ -1328,7 +1328,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
       public Builder clearChangeAllOrNothing() {
         if (changeAllOrNothingBuilder_ == null) {
@@ -1342,33 +1342,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getChangeAllOrNothingBuilder() {
+      public io.dstore.Values.booleanValue.Builder getChangeAllOrNothingBuilder() {
         
         onChanged();
         return getChangeAllOrNothingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getChangeAllOrNothingOrBuilder() {
         if (changeAllOrNothingBuilder_ != null) {
           return changeAllOrNothingBuilder_.getMessageOrBuilder();
         } else {
           return changeAllOrNothing_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : changeAllOrNothing_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue change_all_or_nothing = 3;</code>
+       * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getChangeAllOrNothingFieldBuilder() {
         if (changeAllOrNothingBuilder_ == null) {
           changeAllOrNothingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getChangeAllOrNothing(),
                   getParentForChildren(),
                   isClean());
@@ -1403,29 +1403,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue onlyNewData_ = null;
+      private io.dstore.Values.booleanValue onlyNewData_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> onlyNewDataBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyNewDataBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
       public boolean hasOnlyNewData() {
         return onlyNewDataBuilder_ != null || onlyNewData_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getOnlyNewData() {
+      public io.dstore.Values.booleanValue getOnlyNewData() {
         if (onlyNewDataBuilder_ == null) {
-          return onlyNewData_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyNewData_;
+          return onlyNewData_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyNewData_;
         } else {
           return onlyNewDataBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
-      public Builder setOnlyNewData(io.dstore.engine.Values.booleanValue value) {
+      public Builder setOnlyNewData(io.dstore.Values.booleanValue value) {
         if (onlyNewDataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1439,10 +1439,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
       public Builder setOnlyNewData(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (onlyNewDataBuilder_ == null) {
           onlyNewData_ = builderForValue.build();
           onChanged();
@@ -1453,13 +1453,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
-      public Builder mergeOnlyNewData(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeOnlyNewData(io.dstore.Values.booleanValue value) {
         if (onlyNewDataBuilder_ == null) {
           if (onlyNewData_ != null) {
             onlyNewData_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(onlyNewData_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(onlyNewData_).mergeFrom(value).buildPartial();
           } else {
             onlyNewData_ = value;
           }
@@ -1471,7 +1471,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
       public Builder clearOnlyNewData() {
         if (onlyNewDataBuilder_ == null) {
@@ -1485,33 +1485,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getOnlyNewDataBuilder() {
+      public io.dstore.Values.booleanValue.Builder getOnlyNewDataBuilder() {
         
         onChanged();
         return getOnlyNewDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getOnlyNewDataOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getOnlyNewDataOrBuilder() {
         if (onlyNewDataBuilder_ != null) {
           return onlyNewDataBuilder_.getMessageOrBuilder();
         } else {
           return onlyNewData_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : onlyNewData_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : onlyNewData_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue only_new_data = 4;</code>
+       * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyNewDataFieldBuilder() {
         if (onlyNewDataBuilder_ == null) {
           onlyNewDataBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyNewData(),
                   getParentForChildren(),
                   isClean());
@@ -1546,29 +1546,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue country_ = null;
+      private io.dstore.Values.stringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue getCountry() {
+      public io.dstore.Values.stringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
-      public Builder setCountry(io.dstore.engine.Values.stringValue value) {
+      public Builder setCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1582,10 +1582,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
       public Builder setCountry(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -1596,13 +1596,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
-      public Builder mergeCountry(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.Values.stringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.engine.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -1614,7 +1614,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1628,33 +1628,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.Values.stringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue country = 5;</code>
+       * <code>optional .dstore.values.stringValue country = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -1689,29 +1689,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue informationTypeId_ = null;
+      private io.dstore.Values.integerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue getInformationTypeId() {
+      public io.dstore.Values.integerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
-      public Builder setInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1725,10 +1725,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -1739,13 +1739,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -1757,7 +1757,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -1771,33 +1771,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 6;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1832,29 +1832,29 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue information_ = null;
+      private io.dstore.Values.stringValue information_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> informationBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
       public boolean hasInformation() {
         return informationBuilder_ != null || information_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
-      public io.dstore.engine.Values.stringValue getInformation() {
+      public io.dstore.Values.stringValue getInformation() {
         if (informationBuilder_ == null) {
-          return information_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+          return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
         } else {
           return informationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
-      public Builder setInformation(io.dstore.engine.Values.stringValue value) {
+      public Builder setInformation(io.dstore.Values.stringValue value) {
         if (informationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1868,10 +1868,10 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
       public Builder setInformation(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (informationBuilder_ == null) {
           information_ = builderForValue.build();
           onChanged();
@@ -1882,13 +1882,13 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
-      public Builder mergeInformation(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeInformation(io.dstore.Values.stringValue value) {
         if (informationBuilder_ == null) {
           if (information_ != null) {
             information_ =
-              io.dstore.engine.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
           } else {
             information_ = value;
           }
@@ -1900,7 +1900,7 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
       public Builder clearInformation() {
         if (informationBuilder_ == null) {
@@ -1914,33 +1914,33 @@ public final class OmModifyTrolleyInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getInformationBuilder() {
+      public io.dstore.Values.stringValue.Builder getInformationBuilder() {
         
         onChanged();
         return getInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
         if (informationBuilder_ != null) {
           return informationBuilder_.getMessageOrBuilder();
         } else {
           return information_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : information_;
+              io.dstore.Values.stringValue.getDefaultInstance() : information_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.stringValue information = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInformationFieldBuilder() {
         if (informationBuilder_ == null) {
           informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInformation(),
                   getParentForChildren(),
                   isClean());
@@ -2262,7 +2262,7 @@ public final class OmModifyTrolleyInformationPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -2270,24 +2270,24 @@ public final class OmModifyTrolleyInformationPu {
        */
       boolean hasVisitorId();
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getVisitorId();
+      io.dstore.Values.integerValue getVisitorId();
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getVisitorIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
@@ -2295,24 +2295,24 @@ public final class OmModifyTrolleyInformationPu {
        */
       boolean hasInformationTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getInformationTypeId();
+      io.dstore.Values.integerValue getInformationTypeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
@@ -2320,21 +2320,21 @@ public final class OmModifyTrolleyInformationPu {
        */
       boolean hasErrorCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getErrorCode();
+      io.dstore.Values.integerValue getErrorCode();
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_ModifyTrolleyInformation_Pu.Response.Row}
@@ -2381,11 +2381,11 @@ public final class OmModifyTrolleyInformationPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (visitorId_ != null) {
                   subBuilder = visitorId_.toBuilder();
                 }
-                visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                visitorId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorId_);
                   visitorId_ = subBuilder.buildPartial();
@@ -2394,11 +2394,11 @@ public final class OmModifyTrolleyInformationPu {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -2407,11 +2407,11 @@ public final class OmModifyTrolleyInformationPu {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -2453,9 +2453,9 @@ public final class OmModifyTrolleyInformationPu {
       }
 
       public static final int VISITOR_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue visitorId_;
+      private io.dstore.Values.integerValue visitorId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -2465,30 +2465,30 @@ public final class OmModifyTrolleyInformationPu {
         return visitorId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getVisitorId() {
-        return visitorId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorId_;
+      public io.dstore.Values.integerValue getVisitorId() {
+        return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
        *
        * <pre>
        * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
         return getVisitorId();
       }
 
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue informationTypeId_;
+      private io.dstore.Values.integerValue informationTypeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
@@ -2498,30 +2498,30 @@ public final class OmModifyTrolleyInformationPu {
         return informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getInformationTypeId() {
-        return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+      public io.dstore.Values.integerValue getInformationTypeId() {
+        return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
        *
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
       }
 
       public static final int ERROR_CODE_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue errorCode_;
+      private io.dstore.Values.integerValue errorCode_;
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
@@ -2531,23 +2531,23 @@ public final class OmModifyTrolleyInformationPu {
         return errorCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getErrorCode() {
-        return errorCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+      public io.dstore.Values.integerValue getErrorCode() {
+        return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
        *
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
       }
 
@@ -2846,11 +2846,11 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue visitorId_ = null;
+        private io.dstore.Values.integerValue visitorId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visitorIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -2860,27 +2860,27 @@ public final class OmModifyTrolleyInformationPu {
           return visitorIdBuilder_ != null || visitorId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getVisitorId() {
+        public io.dstore.Values.integerValue getVisitorId() {
           if (visitorIdBuilder_ == null) {
-            return visitorId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorId_;
+            return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
           } else {
             return visitorIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public Builder setVisitorId(io.dstore.engine.Values.integerValue value) {
+        public Builder setVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2894,14 +2894,14 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
         public Builder setVisitorId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (visitorIdBuilder_ == null) {
             visitorId_ = builderForValue.build();
             onChanged();
@@ -2912,17 +2912,17 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public Builder mergeVisitorId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
           if (visitorIdBuilder_ == null) {
             if (visitorId_ != null) {
               visitorId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
             } else {
               visitorId_ = value;
             }
@@ -2934,7 +2934,7 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
@@ -2952,45 +2952,45 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getVisitorIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
           
           onChanged();
           return getVisitorIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
           if (visitorIdBuilder_ != null) {
             return visitorIdBuilder_.getMessageOrBuilder();
           } else {
             return visitorId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : visitorId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
          *
          * <pre>
          * ID des zur "&#64;UniqueID" korrespondierenden Besuchers
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisitorIdFieldBuilder() {
           if (visitorIdBuilder_ == null) {
             visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisitorId(),
                     getParentForChildren(),
                     isClean());
@@ -2999,11 +2999,11 @@ public final class OmModifyTrolleyInformationPu {
           return visitorIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue informationTypeId_ = null;
+        private io.dstore.Values.integerValue informationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
@@ -3013,27 +3013,27 @@ public final class OmModifyTrolleyInformationPu {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getInformationTypeId() {
+        public io.dstore.Values.integerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
-            return informationTypeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+            return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
           } else {
             return informationTypeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
-        public Builder setInformationTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3047,14 +3047,14 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
         public Builder setInformationTypeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (informationTypeIdBuilder_ == null) {
             informationTypeId_ = builderForValue.build();
             onChanged();
@@ -3065,17 +3065,17 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
-        public Builder mergeInformationTypeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (informationTypeId_ != null) {
               informationTypeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
             } else {
               informationTypeId_ = value;
             }
@@ -3087,7 +3087,7 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
@@ -3105,45 +3105,45 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getInformationTypeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
           
           onChanged();
           return getInformationTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
             return informationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return informationTypeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : informationTypeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          *
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
             informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3152,11 +3152,11 @@ public final class OmModifyTrolleyInformationPu {
           return informationTypeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue errorCode_ = null;
+        private io.dstore.Values.integerValue errorCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> errorCodeBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
@@ -3166,27 +3166,27 @@ public final class OmModifyTrolleyInformationPu {
           return errorCodeBuilder_ != null || errorCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getErrorCode() {
+        public io.dstore.Values.integerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
-            return errorCode_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+            return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
           } else {
             return errorCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
-        public Builder setErrorCode(io.dstore.engine.Values.integerValue value) {
+        public Builder setErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3200,14 +3200,14 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
         public Builder setErrorCode(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (errorCodeBuilder_ == null) {
             errorCode_ = builderForValue.build();
             onChanged();
@@ -3218,17 +3218,17 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
-        public Builder mergeErrorCode(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
           if (errorCodeBuilder_ == null) {
             if (errorCode_ != null) {
               errorCode_ =
-                io.dstore.engine.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
             } else {
               errorCode_ = value;
             }
@@ -3240,7 +3240,7 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
@@ -3258,45 +3258,45 @@ public final class OmModifyTrolleyInformationPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getErrorCodeBuilder() {
+        public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
           
           onChanged();
           return getErrorCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
             return errorCodeBuilder_.getMessageOrBuilder();
           } else {
             return errorCode_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : errorCode_;
+                io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          *
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :- "1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
             errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
                     isClean());
@@ -4866,39 +4866,37 @@ public final class OmModifyTrolleyInformationPu {
     java.lang.String[] descriptorData = {
       "\n=dstore/engine/procedures/om_ModifyTrol" +
       "leyInformation_Pu.proto\022,dstore.engine.o" +
-      "m_ModifyTrolleyInformation_Pu\032\032dstore/en" +
-      "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\223\005\n\nParam" +
-      "eters\0224\n\tunique_id\030\001 \001(\0132!.dstore.engine" +
-      ".values.stringValue\022\027\n\016unique_id_null\030\351\007" +
-      " \001(\010\022H\n\034nesting_level_for_input_data\030\002 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022*",
-      "\n!nesting_level_for_input_data_null\030\352\007 \001" +
-      "(\010\022A\n\025change_all_or_nothing\030\003 \001(\0132\".dsto" +
-      "re.engine.values.booleanValue\022#\n\032change_" +
-      "all_or_nothing_null\030\353\007 \001(\010\0229\n\ronly_new_d" +
-      "ata\030\004 \001(\0132\".dstore.engine.values.boolean" +
-      "Value\022\033\n\022only_new_data_null\030\354\007 \001(\010\0222\n\007co" +
-      "untry\030\005 \001(\0132!.dstore.engine.values.strin" +
-      "gValue\022\025\n\014country_null\030\355\007 \001(\010\022?\n\023informa" +
-      "tion_type_id\030\006 \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022!\n\030information_type_id_nu",
-      "ll\030\356\007 \001(\010\0226\n\013information\030\007 \001(\0132!.dstore." +
-      "engine.values.stringValue\022\031\n\020information" +
-      "_null\030\357\007 \001(\010\"\306\003\n\010Response\022)\n\005error\030\001 \001(\013" +
-      "2\032.dstore.engine.error.Error\022H\n\020meta_inf" +
-      "ormation\030\002 \003(\0132..dstore.engine.metainfor" +
-      "mation.MetaInformation\022/\n\007message\030\003 \003(\0132" +
-      "\036.dstore.engine.message.Message\022G\n\003row\030\004" +
-      " \003(\0132:.dstore.engine.om_ModifyTrolleyInf" +
-      "ormation_Pu.Response.Row\032\312\001\n\003Row\022\017\n\006row_" +
-      "id\030\220N \001(\005\0227\n\nvisitor_id\030\221N \001(\0132\".dstore.",
-      "engine.values.integerValue\022@\n\023informatio" +
-      "n_type_id\030\222N \001(\0132\".dstore.engine.values." +
-      "integerValue\0227\n\nerror_code\030\223N \001(\0132\".dsto" +
-      "re.engine.values.integerValueB\035\n\033io.dsto" +
-      "re.engine.proceduresb\006proto3"
+      "m_ModifyTrolleyInformation_Pu\032\023dstore/va" +
+      "lues.proto\032\031dstore/engine/error.proto\032\033d" +
+      "store/engine/message.proto\032#dstore/engin" +
+      "e/metainformation.proto\"\342\004\n\nParameters\022-" +
+      "\n\tunique_id\030\001 \001(\0132\032.dstore.values.string" +
+      "Value\022\027\n\016unique_id_null\030\351\007 \001(\010\022A\n\034nestin" +
+      "g_level_for_input_data\030\002 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022*\n!nesting_level_for_i",
+      "nput_data_null\030\352\007 \001(\010\022:\n\025change_all_or_n" +
+      "othing\030\003 \001(\0132\033.dstore.values.booleanValu" +
+      "e\022#\n\032change_all_or_nothing_null\030\353\007 \001(\010\0222" +
+      "\n\ronly_new_data\030\004 \001(\0132\033.dstore.values.bo" +
+      "oleanValue\022\033\n\022only_new_data_null\030\354\007 \001(\010\022" +
+      "+\n\007country\030\005 \001(\0132\032.dstore.values.stringV" +
+      "alue\022\025\n\014country_null\030\355\007 \001(\010\0228\n\023informati" +
+      "on_type_id\030\006 \001(\0132\033.dstore.values.integer" +
+      "Value\022!\n\030information_type_id_null\030\356\007 \001(\010" +
+      "\022/\n\013information\030\007 \001(\0132\032.dstore.values.st",
+      "ringValue\022\031\n\020information_null\030\357\007 \001(\010\"\261\003\n" +
+      "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
+      ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
+      ".dstore.engine.metainformation.MetaInfor" +
+      "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022G\n\003row\030\004 \003(\0132:.dstore.en" +
+      "gine.om_ModifyTrolleyInformation_Pu.Resp" +
+      "onse.Row\032\265\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\nvis" +
+      "itor_id\030\221N \001(\0132\033.dstore.values.integerVa" +
+      "lue\0229\n\023information_type_id\030\222N \001(\0132\033.dsto",
+      "re.values.integerValue\0220\n\nerror_code\030\223N " +
+      "\001(\0132\033.dstore.values.integerValueB\035\n\033io.d" +
+      "store.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4911,7 +4909,7 @@ public final class OmModifyTrolleyInformationPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -4934,7 +4932,7 @@ public final class OmModifyTrolleyInformationPu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyTrolleyInformation_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VisitorId", "InformationTypeId", "ErrorCode", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

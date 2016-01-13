@@ -13,17 +13,17 @@ public final class StGetTreeNodePWStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+     * <code>optional .dstore.values.integerValue from_week = 1;</code>
      */
     boolean hasFromWeek();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+     * <code>optional .dstore.values.integerValue from_week = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getFromWeek();
+    io.dstore.Values.integerValue getFromWeek();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+     * <code>optional .dstore.values.integerValue from_week = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFromWeekOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFromWeekOrBuilder();
 
     /**
      * <code>optional bool from_week_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class StGetTreeNodePWStatisticsAd {
     boolean getFromWeekNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+     * <code>optional .dstore.values.integerValue from_year = 2;</code>
      */
     boolean hasFromYear();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+     * <code>optional .dstore.values.integerValue from_year = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getFromYear();
+    io.dstore.Values.integerValue getFromYear();
     /**
-     * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+     * <code>optional .dstore.values.integerValue from_year = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getFromYearOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getFromYearOrBuilder();
 
     /**
      * <code>optional bool from_year_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class StGetTreeNodePWStatisticsAd {
     boolean getFromYearNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+     * <code>optional .dstore.values.integerValue to_week = 3;</code>
      */
     boolean hasToWeek();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+     * <code>optional .dstore.values.integerValue to_week = 3;</code>
      */
-    io.dstore.engine.Values.integerValue getToWeek();
+    io.dstore.Values.integerValue getToWeek();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+     * <code>optional .dstore.values.integerValue to_week = 3;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getToWeekOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getToWeekOrBuilder();
 
     /**
      * <code>optional bool to_week_null = 1003;</code>
@@ -67,17 +67,17 @@ public final class StGetTreeNodePWStatisticsAd {
     boolean getToWeekNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+     * <code>optional .dstore.values.integerValue to_year = 4;</code>
      */
     boolean hasToYear();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+     * <code>optional .dstore.values.integerValue to_year = 4;</code>
      */
-    io.dstore.engine.Values.integerValue getToYear();
+    io.dstore.Values.integerValue getToYear();
     /**
-     * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+     * <code>optional .dstore.values.integerValue to_year = 4;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getToYearOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getToYearOrBuilder();
 
     /**
      * <code>optional bool to_year_null = 1004;</code>
@@ -85,17 +85,17 @@ public final class StGetTreeNodePWStatisticsAd {
     boolean getToYearNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
      */
     boolean hasBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
      */
-    io.dstore.engine.Values.stringValue getBasicCharacteristicNumbers();
+    io.dstore.Values.stringValue getBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
 
     /**
      * <code>optional bool basic_characteristic_numbers_null = 1005;</code>
@@ -103,17 +103,17 @@ public final class StGetTreeNodePWStatisticsAd {
     boolean getBasicCharacteristicNumbersNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+     * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
      */
     boolean hasHTreeNodeIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+     * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
      */
-    io.dstore.engine.Values.stringValue getHTreeNodeIds();
+    io.dstore.Values.stringValue getHTreeNodeIds();
     /**
-     * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+     * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getHTreeNodeIdsOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getHTreeNodeIdsOrBuilder();
 
     /**
      * <code>optional bool h_tree_node_ids_null = 1006;</code>
@@ -121,17 +121,17 @@ public final class StGetTreeNodePWStatisticsAd {
     boolean getHTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+     * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
      */
     boolean hasSummarizeWeeks();
     /**
-     * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+     * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
      */
-    io.dstore.engine.Values.booleanValue getSummarizeWeeks();
+    io.dstore.Values.booleanValue getSummarizeWeeks();
     /**
-     * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+     * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getSummarizeWeeksOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getSummarizeWeeksOrBuilder();
 
     /**
      * <code>optional bool summarize_weeks_null = 1007;</code>
@@ -184,11 +184,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (fromWeek_ != null) {
                 subBuilder = fromWeek_.toBuilder();
               }
-              fromWeek_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              fromWeek_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromWeek_);
                 fromWeek_ = subBuilder.buildPartial();
@@ -197,11 +197,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (fromYear_ != null) {
                 subBuilder = fromYear_.toBuilder();
               }
-              fromYear_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              fromYear_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromYear_);
                 fromYear_ = subBuilder.buildPartial();
@@ -210,11 +210,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (toWeek_ != null) {
                 subBuilder = toWeek_.toBuilder();
               }
-              toWeek_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              toWeek_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toWeek_);
                 toWeek_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (toYear_ != null) {
                 subBuilder = toYear_.toBuilder();
               }
-              toYear_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              toYear_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toYear_);
                 toYear_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 42: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (basicCharacteristicNumbers_ != null) {
                 subBuilder = basicCharacteristicNumbers_.toBuilder();
               }
-              basicCharacteristicNumbers_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              basicCharacteristicNumbers_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumbers_);
                 basicCharacteristicNumbers_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 50: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (hTreeNodeIds_ != null) {
                 subBuilder = hTreeNodeIds_.toBuilder();
               }
-              hTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              hTreeNodeIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hTreeNodeIds_);
                 hTreeNodeIds_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class StGetTreeNodePWStatisticsAd {
               break;
             }
             case 58: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (summarizeWeeks_ != null) {
                 subBuilder = summarizeWeeks_.toBuilder();
               }
-              summarizeWeeks_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              summarizeWeeks_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(summarizeWeeks_);
                 summarizeWeeks_ = subBuilder.buildPartial();
@@ -334,23 +334,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int FROM_WEEK_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue fromWeek_;
+    private io.dstore.Values.integerValue fromWeek_;
     /**
-     * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+     * <code>optional .dstore.values.integerValue from_week = 1;</code>
      */
     public boolean hasFromWeek() {
       return fromWeek_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+     * <code>optional .dstore.values.integerValue from_week = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getFromWeek() {
-      return fromWeek_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromWeek_;
+    public io.dstore.Values.integerValue getFromWeek() {
+      return fromWeek_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromWeek_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+     * <code>optional .dstore.values.integerValue from_week = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFromWeekOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFromWeekOrBuilder() {
       return getFromWeek();
     }
 
@@ -364,23 +364,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int FROM_YEAR_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue fromYear_;
+    private io.dstore.Values.integerValue fromYear_;
     /**
-     * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+     * <code>optional .dstore.values.integerValue from_year = 2;</code>
      */
     public boolean hasFromYear() {
       return fromYear_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+     * <code>optional .dstore.values.integerValue from_year = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getFromYear() {
-      return fromYear_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromYear_;
+    public io.dstore.Values.integerValue getFromYear() {
+      return fromYear_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromYear_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+     * <code>optional .dstore.values.integerValue from_year = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getFromYearOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getFromYearOrBuilder() {
       return getFromYear();
     }
 
@@ -394,23 +394,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int TO_WEEK_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.integerValue toWeek_;
+    private io.dstore.Values.integerValue toWeek_;
     /**
-     * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+     * <code>optional .dstore.values.integerValue to_week = 3;</code>
      */
     public boolean hasToWeek() {
       return toWeek_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+     * <code>optional .dstore.values.integerValue to_week = 3;</code>
      */
-    public io.dstore.engine.Values.integerValue getToWeek() {
-      return toWeek_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toWeek_;
+    public io.dstore.Values.integerValue getToWeek() {
+      return toWeek_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toWeek_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+     * <code>optional .dstore.values.integerValue to_week = 3;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getToWeekOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getToWeekOrBuilder() {
       return getToWeek();
     }
 
@@ -424,23 +424,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int TO_YEAR_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.integerValue toYear_;
+    private io.dstore.Values.integerValue toYear_;
     /**
-     * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+     * <code>optional .dstore.values.integerValue to_year = 4;</code>
      */
     public boolean hasToYear() {
       return toYear_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+     * <code>optional .dstore.values.integerValue to_year = 4;</code>
      */
-    public io.dstore.engine.Values.integerValue getToYear() {
-      return toYear_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toYear_;
+    public io.dstore.Values.integerValue getToYear() {
+      return toYear_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toYear_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+     * <code>optional .dstore.values.integerValue to_year = 4;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getToYearOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getToYearOrBuilder() {
       return getToYear();
     }
 
@@ -454,23 +454,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER = 5;
-    private io.dstore.engine.Values.stringValue basicCharacteristicNumbers_;
+    private io.dstore.Values.stringValue basicCharacteristicNumbers_;
     /**
-     * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
      */
     public boolean hasBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
      */
-    public io.dstore.engine.Values.stringValue getBasicCharacteristicNumbers() {
-      return basicCharacteristicNumbers_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+    public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
+      return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
       return getBasicCharacteristicNumbers();
     }
 
@@ -484,23 +484,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int H_TREE_NODE_IDS_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.stringValue hTreeNodeIds_;
+    private io.dstore.Values.stringValue hTreeNodeIds_;
     /**
-     * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+     * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
      */
     public boolean hasHTreeNodeIds() {
       return hTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+     * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
      */
-    public io.dstore.engine.Values.stringValue getHTreeNodeIds() {
-      return hTreeNodeIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : hTreeNodeIds_;
+    public io.dstore.Values.stringValue getHTreeNodeIds() {
+      return hTreeNodeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : hTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+     * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getHTreeNodeIdsOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getHTreeNodeIdsOrBuilder() {
       return getHTreeNodeIds();
     }
 
@@ -514,23 +514,23 @@ public final class StGetTreeNodePWStatisticsAd {
     }
 
     public static final int SUMMARIZE_WEEKS_FIELD_NUMBER = 7;
-    private io.dstore.engine.Values.booleanValue summarizeWeeks_;
+    private io.dstore.Values.booleanValue summarizeWeeks_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+     * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
      */
     public boolean hasSummarizeWeeks() {
       return summarizeWeeks_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+     * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValue getSummarizeWeeks() {
-      return summarizeWeeks_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : summarizeWeeks_;
+    public io.dstore.Values.booleanValue getSummarizeWeeks() {
+      return summarizeWeeks_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : summarizeWeeks_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+     * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getSummarizeWeeksOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getSummarizeWeeksOrBuilder() {
       return getSummarizeWeeks();
     }
 
@@ -974,29 +974,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue fromWeek_ = null;
+      private io.dstore.Values.integerValue fromWeek_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromWeekBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromWeekBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
       public boolean hasFromWeek() {
         return fromWeekBuilder_ != null || fromWeek_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getFromWeek() {
+      public io.dstore.Values.integerValue getFromWeek() {
         if (fromWeekBuilder_ == null) {
-          return fromWeek_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromWeek_;
+          return fromWeek_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromWeek_;
         } else {
           return fromWeekBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
-      public Builder setFromWeek(io.dstore.engine.Values.integerValue value) {
+      public Builder setFromWeek(io.dstore.Values.integerValue value) {
         if (fromWeekBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1010,10 +1010,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
       public Builder setFromWeek(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (fromWeekBuilder_ == null) {
           fromWeek_ = builderForValue.build();
           onChanged();
@@ -1024,13 +1024,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
-      public Builder mergeFromWeek(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFromWeek(io.dstore.Values.integerValue value) {
         if (fromWeekBuilder_ == null) {
           if (fromWeek_ != null) {
             fromWeek_ =
-              io.dstore.engine.Values.integerValue.newBuilder(fromWeek_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(fromWeek_).mergeFrom(value).buildPartial();
           } else {
             fromWeek_ = value;
           }
@@ -1042,7 +1042,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
       public Builder clearFromWeek() {
         if (fromWeekBuilder_ == null) {
@@ -1056,33 +1056,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFromWeekBuilder() {
+      public io.dstore.Values.integerValue.Builder getFromWeekBuilder() {
         
         onChanged();
         return getFromWeekFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromWeekOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromWeekOrBuilder() {
         if (fromWeekBuilder_ != null) {
           return fromWeekBuilder_.getMessageOrBuilder();
         } else {
           return fromWeek_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : fromWeek_;
+              io.dstore.Values.integerValue.getDefaultInstance() : fromWeek_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_week = 1;</code>
+       * <code>optional .dstore.values.integerValue from_week = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromWeekFieldBuilder() {
         if (fromWeekBuilder_ == null) {
           fromWeekBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromWeek(),
                   getParentForChildren(),
                   isClean());
@@ -1117,29 +1117,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue fromYear_ = null;
+      private io.dstore.Values.integerValue fromYear_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> fromYearBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromYearBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
       public boolean hasFromYear() {
         return fromYearBuilder_ != null || fromYear_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getFromYear() {
+      public io.dstore.Values.integerValue getFromYear() {
         if (fromYearBuilder_ == null) {
-          return fromYear_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : fromYear_;
+          return fromYear_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromYear_;
         } else {
           return fromYearBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
-      public Builder setFromYear(io.dstore.engine.Values.integerValue value) {
+      public Builder setFromYear(io.dstore.Values.integerValue value) {
         if (fromYearBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1153,10 +1153,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
       public Builder setFromYear(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (fromYearBuilder_ == null) {
           fromYear_ = builderForValue.build();
           onChanged();
@@ -1167,13 +1167,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
-      public Builder mergeFromYear(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeFromYear(io.dstore.Values.integerValue value) {
         if (fromYearBuilder_ == null) {
           if (fromYear_ != null) {
             fromYear_ =
-              io.dstore.engine.Values.integerValue.newBuilder(fromYear_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(fromYear_).mergeFrom(value).buildPartial();
           } else {
             fromYear_ = value;
           }
@@ -1185,7 +1185,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
       public Builder clearFromYear() {
         if (fromYearBuilder_ == null) {
@@ -1199,33 +1199,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getFromYearBuilder() {
+      public io.dstore.Values.integerValue.Builder getFromYearBuilder() {
         
         onChanged();
         return getFromYearFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getFromYearOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getFromYearOrBuilder() {
         if (fromYearBuilder_ != null) {
           return fromYearBuilder_.getMessageOrBuilder();
         } else {
           return fromYear_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : fromYear_;
+              io.dstore.Values.integerValue.getDefaultInstance() : fromYear_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue from_year = 2;</code>
+       * <code>optional .dstore.values.integerValue from_year = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromYearFieldBuilder() {
         if (fromYearBuilder_ == null) {
           fromYearBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromYear(),
                   getParentForChildren(),
                   isClean());
@@ -1260,29 +1260,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue toWeek_ = null;
+      private io.dstore.Values.integerValue toWeek_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> toWeekBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toWeekBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
       public boolean hasToWeek() {
         return toWeekBuilder_ != null || toWeek_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue getToWeek() {
+      public io.dstore.Values.integerValue getToWeek() {
         if (toWeekBuilder_ == null) {
-          return toWeek_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toWeek_;
+          return toWeek_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toWeek_;
         } else {
           return toWeekBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
-      public Builder setToWeek(io.dstore.engine.Values.integerValue value) {
+      public Builder setToWeek(io.dstore.Values.integerValue value) {
         if (toWeekBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1296,10 +1296,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
       public Builder setToWeek(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (toWeekBuilder_ == null) {
           toWeek_ = builderForValue.build();
           onChanged();
@@ -1310,13 +1310,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
-      public Builder mergeToWeek(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeToWeek(io.dstore.Values.integerValue value) {
         if (toWeekBuilder_ == null) {
           if (toWeek_ != null) {
             toWeek_ =
-              io.dstore.engine.Values.integerValue.newBuilder(toWeek_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(toWeek_).mergeFrom(value).buildPartial();
           } else {
             toWeek_ = value;
           }
@@ -1328,7 +1328,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
       public Builder clearToWeek() {
         if (toWeekBuilder_ == null) {
@@ -1342,33 +1342,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getToWeekBuilder() {
+      public io.dstore.Values.integerValue.Builder getToWeekBuilder() {
         
         onChanged();
         return getToWeekFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getToWeekOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getToWeekOrBuilder() {
         if (toWeekBuilder_ != null) {
           return toWeekBuilder_.getMessageOrBuilder();
         } else {
           return toWeek_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : toWeek_;
+              io.dstore.Values.integerValue.getDefaultInstance() : toWeek_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_week = 3;</code>
+       * <code>optional .dstore.values.integerValue to_week = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getToWeekFieldBuilder() {
         if (toWeekBuilder_ == null) {
           toWeekBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getToWeek(),
                   getParentForChildren(),
                   isClean());
@@ -1403,29 +1403,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue toYear_ = null;
+      private io.dstore.Values.integerValue toYear_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> toYearBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toYearBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
       public boolean hasToYear() {
         return toYearBuilder_ != null || toYear_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue getToYear() {
+      public io.dstore.Values.integerValue getToYear() {
         if (toYearBuilder_ == null) {
-          return toYear_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : toYear_;
+          return toYear_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toYear_;
         } else {
           return toYearBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
-      public Builder setToYear(io.dstore.engine.Values.integerValue value) {
+      public Builder setToYear(io.dstore.Values.integerValue value) {
         if (toYearBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1439,10 +1439,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
       public Builder setToYear(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (toYearBuilder_ == null) {
           toYear_ = builderForValue.build();
           onChanged();
@@ -1453,13 +1453,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
-      public Builder mergeToYear(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeToYear(io.dstore.Values.integerValue value) {
         if (toYearBuilder_ == null) {
           if (toYear_ != null) {
             toYear_ =
-              io.dstore.engine.Values.integerValue.newBuilder(toYear_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(toYear_).mergeFrom(value).buildPartial();
           } else {
             toYear_ = value;
           }
@@ -1471,7 +1471,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
       public Builder clearToYear() {
         if (toYearBuilder_ == null) {
@@ -1485,33 +1485,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getToYearBuilder() {
+      public io.dstore.Values.integerValue.Builder getToYearBuilder() {
         
         onChanged();
         return getToYearFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getToYearOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getToYearOrBuilder() {
         if (toYearBuilder_ != null) {
           return toYearBuilder_.getMessageOrBuilder();
         } else {
           return toYear_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : toYear_;
+              io.dstore.Values.integerValue.getDefaultInstance() : toYear_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue to_year = 4;</code>
+       * <code>optional .dstore.values.integerValue to_year = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getToYearFieldBuilder() {
         if (toYearBuilder_ == null) {
           toYearBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getToYear(),
                   getParentForChildren(),
                   isClean());
@@ -1546,29 +1546,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue basicCharacteristicNumbers_ = null;
+      private io.dstore.Values.stringValue basicCharacteristicNumbers_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> basicCharacteristicNumbersBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
       public boolean hasBasicCharacteristicNumbers() {
         return basicCharacteristicNumbersBuilder_ != null || basicCharacteristicNumbers_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue getBasicCharacteristicNumbers() {
+      public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
-          return basicCharacteristicNumbers_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+          return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         } else {
           return basicCharacteristicNumbersBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
-      public Builder setBasicCharacteristicNumbers(io.dstore.engine.Values.stringValue value) {
+      public Builder setBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1582,10 +1582,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
       public Builder setBasicCharacteristicNumbers(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbers_ = builderForValue.build();
           onChanged();
@@ -1596,13 +1596,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
-      public Builder mergeBasicCharacteristicNumbers(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (basicCharacteristicNumbers_ != null) {
             basicCharacteristicNumbers_ =
-              io.dstore.engine.Values.stringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
           } else {
             basicCharacteristicNumbers_ = value;
           }
@@ -1614,7 +1614,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
       public Builder clearBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1628,33 +1628,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getBasicCharacteristicNumbersBuilder() {
+      public io.dstore.Values.stringValue.Builder getBasicCharacteristicNumbersBuilder() {
         
         onChanged();
         return getBasicCharacteristicNumbersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
         if (basicCharacteristicNumbersBuilder_ != null) {
           return basicCharacteristicNumbersBuilder_.getMessageOrBuilder();
         } else {
           return basicCharacteristicNumbers_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+              io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getBasicCharacteristicNumbersFieldBuilder() {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getBasicCharacteristicNumbers(),
                   getParentForChildren(),
                   isClean());
@@ -1689,29 +1689,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue hTreeNodeIds_ = null;
+      private io.dstore.Values.stringValue hTreeNodeIds_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> hTreeNodeIdsBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> hTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
       public boolean hasHTreeNodeIds() {
         return hTreeNodeIdsBuilder_ != null || hTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue getHTreeNodeIds() {
+      public io.dstore.Values.stringValue getHTreeNodeIds() {
         if (hTreeNodeIdsBuilder_ == null) {
-          return hTreeNodeIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : hTreeNodeIds_;
+          return hTreeNodeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : hTreeNodeIds_;
         } else {
           return hTreeNodeIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
-      public Builder setHTreeNodeIds(io.dstore.engine.Values.stringValue value) {
+      public Builder setHTreeNodeIds(io.dstore.Values.stringValue value) {
         if (hTreeNodeIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1725,10 +1725,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
       public Builder setHTreeNodeIds(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (hTreeNodeIdsBuilder_ == null) {
           hTreeNodeIds_ = builderForValue.build();
           onChanged();
@@ -1739,13 +1739,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
-      public Builder mergeHTreeNodeIds(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeHTreeNodeIds(io.dstore.Values.stringValue value) {
         if (hTreeNodeIdsBuilder_ == null) {
           if (hTreeNodeIds_ != null) {
             hTreeNodeIds_ =
-              io.dstore.engine.Values.stringValue.newBuilder(hTreeNodeIds_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(hTreeNodeIds_).mergeFrom(value).buildPartial();
           } else {
             hTreeNodeIds_ = value;
           }
@@ -1757,7 +1757,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
       public Builder clearHTreeNodeIds() {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1771,33 +1771,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getHTreeNodeIdsBuilder() {
+      public io.dstore.Values.stringValue.Builder getHTreeNodeIdsBuilder() {
         
         onChanged();
         return getHTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getHTreeNodeIdsOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getHTreeNodeIdsOrBuilder() {
         if (hTreeNodeIdsBuilder_ != null) {
           return hTreeNodeIdsBuilder_.getMessageOrBuilder();
         } else {
           return hTreeNodeIds_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : hTreeNodeIds_;
+              io.dstore.Values.stringValue.getDefaultInstance() : hTreeNodeIds_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue h_tree_node_ids = 6;</code>
+       * <code>optional .dstore.values.stringValue h_tree_node_ids = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getHTreeNodeIdsFieldBuilder() {
         if (hTreeNodeIdsBuilder_ == null) {
           hTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getHTreeNodeIds(),
                   getParentForChildren(),
                   isClean());
@@ -1832,29 +1832,29 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue summarizeWeeks_ = null;
+      private io.dstore.Values.booleanValue summarizeWeeks_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> summarizeWeeksBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> summarizeWeeksBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
       public boolean hasSummarizeWeeks() {
         return summarizeWeeksBuilder_ != null || summarizeWeeks_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue getSummarizeWeeks() {
+      public io.dstore.Values.booleanValue getSummarizeWeeks() {
         if (summarizeWeeksBuilder_ == null) {
-          return summarizeWeeks_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : summarizeWeeks_;
+          return summarizeWeeks_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : summarizeWeeks_;
         } else {
           return summarizeWeeksBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
-      public Builder setSummarizeWeeks(io.dstore.engine.Values.booleanValue value) {
+      public Builder setSummarizeWeeks(io.dstore.Values.booleanValue value) {
         if (summarizeWeeksBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1868,10 +1868,10 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
       public Builder setSummarizeWeeks(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (summarizeWeeksBuilder_ == null) {
           summarizeWeeks_ = builderForValue.build();
           onChanged();
@@ -1882,13 +1882,13 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
-      public Builder mergeSummarizeWeeks(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeSummarizeWeeks(io.dstore.Values.booleanValue value) {
         if (summarizeWeeksBuilder_ == null) {
           if (summarizeWeeks_ != null) {
             summarizeWeeks_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(summarizeWeeks_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(summarizeWeeks_).mergeFrom(value).buildPartial();
           } else {
             summarizeWeeks_ = value;
           }
@@ -1900,7 +1900,7 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
       public Builder clearSummarizeWeeks() {
         if (summarizeWeeksBuilder_ == null) {
@@ -1914,33 +1914,33 @@ public final class StGetTreeNodePWStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getSummarizeWeeksBuilder() {
+      public io.dstore.Values.booleanValue.Builder getSummarizeWeeksBuilder() {
         
         onChanged();
         return getSummarizeWeeksFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getSummarizeWeeksOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getSummarizeWeeksOrBuilder() {
         if (summarizeWeeksBuilder_ != null) {
           return summarizeWeeksBuilder_.getMessageOrBuilder();
         } else {
           return summarizeWeeks_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : summarizeWeeks_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : summarizeWeeks_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue summarize_weeks = 7;</code>
+       * <code>optional .dstore.values.booleanValue summarize_weeks = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSummarizeWeeksFieldBuilder() {
         if (summarizeWeeksBuilder_ == null) {
           summarizeWeeksBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSummarizeWeeks(),
                   getParentForChildren(),
                   isClean());
@@ -2262,7 +2262,7 @@ public final class StGetTreeNodePWStatisticsAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -2270,24 +2270,24 @@ public final class StGetTreeNodePWStatisticsAd {
        */
       boolean hasTotalValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getTotalValue();
+      io.dstore.Values.decimalValue getTotalValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getTotalValueOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getTotalValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+       * <code>optional .dstore.values.integerValue year = 10002;</code>
        *
        * <pre>
        * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -2295,24 +2295,24 @@ public final class StGetTreeNodePWStatisticsAd {
        */
       boolean hasYear();
       /**
-       * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+       * <code>optional .dstore.values.integerValue year = 10002;</code>
        *
        * <pre>
        * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getYear();
+      io.dstore.Values.integerValue getYear();
       /**
-       * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+       * <code>optional .dstore.values.integerValue year = 10002;</code>
        *
        * <pre>
        * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getYearOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getYearOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -2320,24 +2320,24 @@ public final class StGetTreeNodePWStatisticsAd {
        */
       boolean hasHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getHTreeNodeId();
+      io.dstore.Values.integerValue getHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -2345,24 +2345,24 @@ public final class StGetTreeNodePWStatisticsAd {
        */
       boolean hasDirectValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValue getDirectValue();
+      io.dstore.Values.decimalValue getDirectValue();
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      io.dstore.engine.Values.decimalValueOrBuilder getDirectValueOrBuilder();
+      io.dstore.Values.decimalValueOrBuilder getDirectValueOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+       * <code>optional .dstore.values.integerValue week = 10005;</code>
        *
        * <pre>
        * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -2370,24 +2370,24 @@ public final class StGetTreeNodePWStatisticsAd {
        */
       boolean hasWeek();
       /**
-       * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+       * <code>optional .dstore.values.integerValue week = 10005;</code>
        *
        * <pre>
        * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getWeek();
+      io.dstore.Values.integerValue getWeek();
       /**
-       * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+       * <code>optional .dstore.values.integerValue week = 10005;</code>
        *
        * <pre>
        * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getWeekOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getWeekOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
@@ -2395,21 +2395,21 @@ public final class StGetTreeNodePWStatisticsAd {
        */
       boolean hasBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBasicCharacteristicNumber();
+      io.dstore.Values.integerValue getBasicCharacteristicNumber();
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetTreeNodePWStatistics_Ad.Response.Row}
@@ -2456,11 +2456,11 @@ public final class StGetTreeNodePWStatisticsAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (totalValue_ != null) {
                   subBuilder = totalValue_.toBuilder();
                 }
-                totalValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                totalValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValue_);
                   totalValue_ = subBuilder.buildPartial();
@@ -2469,11 +2469,11 @@ public final class StGetTreeNodePWStatisticsAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (year_ != null) {
                   subBuilder = year_.toBuilder();
                 }
-                year_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                year_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(year_);
                   year_ = subBuilder.buildPartial();
@@ -2482,11 +2482,11 @@ public final class StGetTreeNodePWStatisticsAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -2495,11 +2495,11 @@ public final class StGetTreeNodePWStatisticsAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (directValue_ != null) {
                   subBuilder = directValue_.toBuilder();
                 }
-                directValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
+                directValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(directValue_);
                   directValue_ = subBuilder.buildPartial();
@@ -2508,11 +2508,11 @@ public final class StGetTreeNodePWStatisticsAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (week_ != null) {
                   subBuilder = week_.toBuilder();
                 }
-                week_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                week_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(week_);
                   week_ = subBuilder.buildPartial();
@@ -2521,11 +2521,11 @@ public final class StGetTreeNodePWStatisticsAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -2567,9 +2567,9 @@ public final class StGetTreeNodePWStatisticsAd {
       }
 
       public static final int TOTAL_VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.decimalValue totalValue_;
+      private io.dstore.Values.decimalValue totalValue_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -2579,30 +2579,30 @@ public final class StGetTreeNodePWStatisticsAd {
         return totalValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getTotalValue() {
-        return totalValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValue_;
+      public io.dstore.Values.decimalValue getTotalValue() {
+        return totalValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValue_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+       * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getTotalValueOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getTotalValueOrBuilder() {
         return getTotalValue();
       }
 
       public static final int YEAR_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.integerValue year_;
+      private io.dstore.Values.integerValue year_;
       /**
-       * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+       * <code>optional .dstore.values.integerValue year = 10002;</code>
        *
        * <pre>
        * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -2612,30 +2612,30 @@ public final class StGetTreeNodePWStatisticsAd {
         return year_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+       * <code>optional .dstore.values.integerValue year = 10002;</code>
        *
        * <pre>
        * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getYear() {
-        return year_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : year_;
+      public io.dstore.Values.integerValue getYear() {
+        return year_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : year_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+       * <code>optional .dstore.values.integerValue year = 10002;</code>
        *
        * <pre>
        * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getYearOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getYearOrBuilder() {
         return getYear();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.integerValue hTreeNodeId_;
+      private io.dstore.Values.integerValue hTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -2645,30 +2645,30 @@ public final class StGetTreeNodePWStatisticsAd {
         return hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.Values.integerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
        *
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int DIRECT_VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.decimalValue directValue_;
+      private io.dstore.Values.decimalValue directValue_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -2678,30 +2678,30 @@ public final class StGetTreeNodePWStatisticsAd {
         return directValue_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValue getDirectValue() {
-        return directValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : directValue_;
+      public io.dstore.Values.decimalValue getDirectValue() {
+        return directValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValue_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        */
-      public io.dstore.engine.Values.decimalValueOrBuilder getDirectValueOrBuilder() {
+      public io.dstore.Values.decimalValueOrBuilder getDirectValueOrBuilder() {
         return getDirectValue();
       }
 
       public static final int WEEK_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.integerValue week_;
+      private io.dstore.Values.integerValue week_;
       /**
-       * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+       * <code>optional .dstore.values.integerValue week = 10005;</code>
        *
        * <pre>
        * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -2711,30 +2711,30 @@ public final class StGetTreeNodePWStatisticsAd {
         return week_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+       * <code>optional .dstore.values.integerValue week = 10005;</code>
        *
        * <pre>
        * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getWeek() {
-        return week_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : week_;
+      public io.dstore.Values.integerValue getWeek() {
+        return week_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : week_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+       * <code>optional .dstore.values.integerValue week = 10005;</code>
        *
        * <pre>
        * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getWeekOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getWeekOrBuilder() {
         return getWeek();
       }
 
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue basicCharacteristicNumber_;
+      private io.dstore.Values.integerValue basicCharacteristicNumber_;
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
@@ -2744,23 +2744,23 @@ public final class StGetTreeNodePWStatisticsAd {
         return basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBasicCharacteristicNumber() {
-        return basicCharacteristicNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+        return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
        *
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
       }
 
@@ -3122,11 +3122,11 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
 
-        private io.dstore.engine.Values.decimalValue totalValue_ = null;
+        private io.dstore.Values.decimalValue totalValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -3136,27 +3136,27 @@ public final class StGetTreeNodePWStatisticsAd {
           return totalValueBuilder_ != null || totalValue_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getTotalValue() {
+        public io.dstore.Values.decimalValue getTotalValue() {
           if (totalValueBuilder_ == null) {
-            return totalValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValue_;
+            return totalValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValue_;
           } else {
             return totalValueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public Builder setTotalValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder setTotalValue(io.dstore.Values.decimalValue value) {
           if (totalValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3170,14 +3170,14 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
         public Builder setTotalValue(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (totalValueBuilder_ == null) {
             totalValue_ = builderForValue.build();
             onChanged();
@@ -3188,17 +3188,17 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public Builder mergeTotalValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeTotalValue(io.dstore.Values.decimalValue value) {
           if (totalValueBuilder_ == null) {
             if (totalValue_ != null) {
               totalValue_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(totalValue_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(totalValue_).mergeFrom(value).buildPartial();
             } else {
               totalValue_ = value;
             }
@@ -3210,7 +3210,7 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -3228,45 +3228,45 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getTotalValueBuilder() {
+        public io.dstore.Values.decimalValue.Builder getTotalValueBuilder() {
           
           onChanged();
           return getTotalValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getTotalValueOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getTotalValueOrBuilder() {
           if (totalValueBuilder_ != null) {
             return totalValueBuilder_.getMessageOrBuilder();
           } else {
             return totalValue_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValue_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : totalValue_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value = 10001;</code>
+         * <code>optional .dstore.values.decimalValue total_value = 10001;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTotalValueFieldBuilder() {
           if (totalValueBuilder_ == null) {
             totalValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTotalValue(),
                     getParentForChildren(),
                     isClean());
@@ -3275,11 +3275,11 @@ public final class StGetTreeNodePWStatisticsAd {
           return totalValueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue year_ = null;
+        private io.dstore.Values.integerValue year_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> yearBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> yearBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -3289,27 +3289,27 @@ public final class StGetTreeNodePWStatisticsAd {
           return yearBuilder_ != null || year_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getYear() {
+        public io.dstore.Values.integerValue getYear() {
           if (yearBuilder_ == null) {
-            return year_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : year_;
+            return year_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : year_;
           } else {
             return yearBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public Builder setYear(io.dstore.engine.Values.integerValue value) {
+        public Builder setYear(io.dstore.Values.integerValue value) {
           if (yearBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3323,14 +3323,14 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
         public Builder setYear(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (yearBuilder_ == null) {
             year_ = builderForValue.build();
             onChanged();
@@ -3341,17 +3341,17 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public Builder mergeYear(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeYear(io.dstore.Values.integerValue value) {
           if (yearBuilder_ == null) {
             if (year_ != null) {
               year_ =
-                io.dstore.engine.Values.integerValue.newBuilder(year_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(year_).mergeFrom(value).buildPartial();
             } else {
               year_ = value;
             }
@@ -3363,7 +3363,7 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -3381,45 +3381,45 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getYearBuilder() {
+        public io.dstore.Values.integerValue.Builder getYearBuilder() {
           
           onChanged();
           return getYearFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getYearOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getYearOrBuilder() {
           if (yearBuilder_ != null) {
             return yearBuilder_.getMessageOrBuilder();
           } else {
             return year_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : year_;
+                io.dstore.Values.integerValue.getDefaultInstance() : year_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue year = 10002;</code>
+         * <code>optional .dstore.values.integerValue year = 10002;</code>
          *
          * <pre>
          * Ein Jahr zu dem die Woche "Week" gehört (und das im gewünschten Zeitraum liegt). Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getYearFieldBuilder() {
           if (yearBuilder_ == null) {
             yearBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getYear(),
                     getParentForChildren(),
                     isClean());
@@ -3428,11 +3428,11 @@ public final class StGetTreeNodePWStatisticsAd {
           return yearBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.Values.integerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -3442,27 +3442,27 @@ public final class StGetTreeNodePWStatisticsAd {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getHTreeNodeId() {
+        public io.dstore.Values.integerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public Builder setHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3476,14 +3476,14 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
         public Builder setHTreeNodeId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -3494,17 +3494,17 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public Builder mergeHTreeNodeId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -3516,7 +3516,7 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
@@ -3534,45 +3534,45 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue h_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue h_tree_node_id = 10003;</code>
          *
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3581,11 +3581,11 @@ public final class StGetTreeNodePWStatisticsAd {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.engine.Values.decimalValue directValue_ = null;
+        private io.dstore.Values.decimalValue directValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> directValueBuilder_;
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> directValueBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -3595,27 +3595,27 @@ public final class StGetTreeNodePWStatisticsAd {
           return directValueBuilder_ != null || directValue_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue getDirectValue() {
+        public io.dstore.Values.decimalValue getDirectValue() {
           if (directValueBuilder_ == null) {
-            return directValue_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : directValue_;
+            return directValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValue_;
           } else {
             return directValueBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public Builder setDirectValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder setDirectValue(io.dstore.Values.decimalValue value) {
           if (directValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3629,14 +3629,14 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
         public Builder setDirectValue(
-            io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+            io.dstore.Values.decimalValue.Builder builderForValue) {
           if (directValueBuilder_ == null) {
             directValue_ = builderForValue.build();
             onChanged();
@@ -3647,17 +3647,17 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public Builder mergeDirectValue(io.dstore.engine.Values.decimalValue value) {
+        public Builder mergeDirectValue(io.dstore.Values.decimalValue value) {
           if (directValueBuilder_ == null) {
             if (directValue_ != null) {
               directValue_ =
-                io.dstore.engine.Values.decimalValue.newBuilder(directValue_).mergeFrom(value).buildPartial();
+                io.dstore.Values.decimalValue.newBuilder(directValue_).mergeFrom(value).buildPartial();
             } else {
               directValue_ = value;
             }
@@ -3669,7 +3669,7 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
@@ -3687,45 +3687,45 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValue.Builder getDirectValueBuilder() {
+        public io.dstore.Values.decimalValue.Builder getDirectValueBuilder() {
           
           onChanged();
           return getDirectValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
-        public io.dstore.engine.Values.decimalValueOrBuilder getDirectValueOrBuilder() {
+        public io.dstore.Values.decimalValueOrBuilder getDirectValueOrBuilder() {
           if (directValueBuilder_ != null) {
             return directValueBuilder_.getMessageOrBuilder();
           } else {
             return directValue_ == null ?
-                io.dstore.engine.Values.decimalValue.getDefaultInstance() : directValue_;
+                io.dstore.Values.decimalValue.getDefaultInstance() : directValue_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue direct_value = 10004;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getDirectValueFieldBuilder() {
           if (directValueBuilder_ == null) {
             directValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getDirectValue(),
                     getParentForChildren(),
                     isClean());
@@ -3734,11 +3734,11 @@ public final class StGetTreeNodePWStatisticsAd {
           return directValueBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue week_ = null;
+        private io.dstore.Values.integerValue week_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> weekBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> weekBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -3748,27 +3748,27 @@ public final class StGetTreeNodePWStatisticsAd {
           return weekBuilder_ != null || week_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getWeek() {
+        public io.dstore.Values.integerValue getWeek() {
           if (weekBuilder_ == null) {
-            return week_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : week_;
+            return week_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : week_;
           } else {
             return weekBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public Builder setWeek(io.dstore.engine.Values.integerValue value) {
+        public Builder setWeek(io.dstore.Values.integerValue value) {
           if (weekBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3782,14 +3782,14 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
         public Builder setWeek(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (weekBuilder_ == null) {
             week_ = builderForValue.build();
             onChanged();
@@ -3800,17 +3800,17 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public Builder mergeWeek(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeWeek(io.dstore.Values.integerValue value) {
           if (weekBuilder_ == null) {
             if (week_ != null) {
               week_ =
-                io.dstore.engine.Values.integerValue.newBuilder(week_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(week_).mergeFrom(value).buildPartial();
             } else {
               week_ = value;
             }
@@ -3822,7 +3822,7 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
@@ -3840,45 +3840,45 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getWeekBuilder() {
+        public io.dstore.Values.integerValue.Builder getWeekBuilder() {
           
           onChanged();
           return getWeekFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getWeekOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getWeekOrBuilder() {
           if (weekBuilder_ != null) {
             return weekBuilder_.getMessageOrBuilder();
           } else {
             return week_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : week_;
+                io.dstore.Values.integerValue.getDefaultInstance() : week_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue week = 10005;</code>
+         * <code>optional .dstore.values.integerValue week = 10005;</code>
          *
          * <pre>
          * Eine Woche im Jahr "Year", der im gewünschten Zeitraum liegt. Immer "NULL", falls "&#64;SummarizeWeeks = 1" angegeben wurde.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getWeekFieldBuilder() {
           if (weekBuilder_ == null) {
             weekBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getWeek(),
                     getParentForChildren(),
                     isClean());
@@ -3887,11 +3887,11 @@ public final class StGetTreeNodePWStatisticsAd {
           return weekBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue basicCharacteristicNumber_ = null;
+        private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
@@ -3901,27 +3901,27 @@ public final class StGetTreeNodePWStatisticsAd {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBasicCharacteristicNumber() {
+        public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
-            return basicCharacteristicNumber_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+            return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
           } else {
             return basicCharacteristicNumberBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public Builder setBasicCharacteristicNumber(io.dstore.engine.Values.integerValue value) {
+        public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3935,14 +3935,14 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
         public Builder setBasicCharacteristicNumber(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumber_ = builderForValue.build();
             onChanged();
@@ -3953,17 +3953,17 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public Builder mergeBasicCharacteristicNumber(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (basicCharacteristicNumber_ != null) {
               basicCharacteristicNumber_ =
-                io.dstore.engine.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristicNumber_ = value;
             }
@@ -3975,7 +3975,7 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
@@ -3993,45 +3993,45 @@ public final class StGetTreeNodePWStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+        public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
           
           onChanged();
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
             return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristicNumber_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+                io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue basic_characteristic_number = 10006;</code>
+         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10006;</code>
          *
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBasicCharacteristicNumberFieldBuilder() {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBasicCharacteristicNumber(),
                     getParentForChildren(),
                     isClean());
@@ -5601,43 +5601,40 @@ public final class StGetTreeNodePWStatisticsAd {
     java.lang.String[] descriptorData = {
       "\n<dstore/engine/procedures/st_GetTreeNod" +
       "ePWStatistics_Ad.proto\022+dstore.engine.st" +
-      "_GetTreeNodePWStatistics_Ad\032\032dstore/engi" +
-      "ne/values.proto\032\031dstore/engine/error.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\360\004\n\nParamet" +
-      "ers\0225\n\tfrom_week\030\001 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\027\n\016from_week_null\030\351\007 " +
-      "\001(\010\0225\n\tfrom_year\030\002 \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022\027\n\016from_year_null\030\352\007 ",
-      "\001(\010\0223\n\007to_week\030\003 \001(\0132\".dstore.engine.val" +
-      "ues.integerValue\022\025\n\014to_week_null\030\353\007 \001(\010\022" +
-      "3\n\007to_year\030\004 \001(\0132\".dstore.engine.values." +
-      "integerValue\022\025\n\014to_year_null\030\354\007 \001(\010\022G\n\034b" +
-      "asic_characteristic_numbers\030\005 \001(\0132!.dsto" +
-      "re.engine.values.stringValue\022*\n!basic_ch" +
-      "aracteristic_numbers_null\030\355\007 \001(\010\022:\n\017h_tr" +
-      "ee_node_ids\030\006 \001(\0132!.dstore.engine.values" +
-      ".stringValue\022\035\n\024h_tree_node_ids_null\030\356\007 " +
-      "\001(\010\022;\n\017summarize_weeks\030\007 \001(\0132\".dstore.en",
-      "gine.values.booleanValue\022\035\n\024summarize_we" +
-      "eks_null\030\357\007 \001(\010\"\363\004\n\010Response\022)\n\005error\030\001 " +
-      "\001(\0132\032.dstore.engine.error.Error\022H\n\020meta_" +
-      "information\030\002 \003(\0132..dstore.engine.metain" +
-      "formation.MetaInformation\022/\n\007message\030\003 \003" +
-      "(\0132\036.dstore.engine.message.Message\022F\n\003ro" +
-      "w\030\004 \003(\01329.dstore.engine.st_GetTreeNodePW" +
-      "Statistics_Ad.Response.Row\032\370\002\n\003Row\022\017\n\006ro" +
-      "w_id\030\220N \001(\005\0228\n\013total_value\030\221N \001(\0132\".dsto" +
-      "re.engine.values.decimalValue\0221\n\004year\030\222N",
-      " \001(\0132\".dstore.engine.values.integerValue" +
-      "\022;\n\016h_tree_node_id\030\223N \001(\0132\".dstore.engin" +
-      "e.values.integerValue\0229\n\014direct_value\030\224N" +
-      " \001(\0132\".dstore.engine.values.decimalValue" +
-      "\0221\n\004week\030\225N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022H\n\033basic_characteristic_numb" +
-      "er\030\226N \001(\0132\".dstore.engine.values.integer" +
-      "ValueB\035\n\033io.dstore.engine.proceduresb\006pr" +
-      "oto3"
+      "_GetTreeNodePWStatistics_Ad\032\023dstore/valu" +
+      "es.proto\032\031dstore/engine/error.proto\032\033dst" +
+      "ore/engine/message.proto\032#dstore/engine/" +
+      "metainformation.proto\"\277\004\n\nParameters\022.\n\t" +
+      "from_week\030\001 \001(\0132\033.dstore.values.integerV" +
+      "alue\022\027\n\016from_week_null\030\351\007 \001(\010\022.\n\tfrom_ye" +
+      "ar\030\002 \001(\0132\033.dstore.values.integerValue\022\027\n" +
+      "\016from_year_null\030\352\007 \001(\010\022,\n\007to_week\030\003 \001(\0132",
+      "\033.dstore.values.integerValue\022\025\n\014to_week_" +
+      "null\030\353\007 \001(\010\022,\n\007to_year\030\004 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\025\n\014to_year_null\030\354\007 \001(\010" +
+      "\022@\n\034basic_characteristic_numbers\030\005 \001(\0132\032" +
+      ".dstore.values.stringValue\022*\n!basic_char" +
+      "acteristic_numbers_null\030\355\007 \001(\010\0223\n\017h_tree" +
+      "_node_ids\030\006 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\035\n\024h_tree_node_ids_null\030\356\007 \001(\010\0224\n\017su" +
+      "mmarize_weeks\030\007 \001(\0132\033.dstore.values.bool" +
+      "eanValue\022\035\n\024summarize_weeks_null\030\357\007 \001(\010\"",
+      "\311\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.eng" +
+      "ine.error.Error\022H\n\020meta_information\030\002 \003(" +
+      "\0132..dstore.engine.metainformation.MetaIn" +
+      "formation\022/\n\007message\030\003 \003(\0132\036.dstore.engi" +
+      "ne.message.Message\022F\n\003row\030\004 \003(\01329.dstore" +
+      ".engine.st_GetTreeNodePWStatistics_Ad.Re" +
+      "sponse.Row\032\316\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0221\n\013t" +
+      "otal_value\030\221N \001(\0132\033.dstore.values.decima" +
+      "lValue\022*\n\004year\030\222N \001(\0132\033.dstore.values.in" +
+      "tegerValue\0224\n\016h_tree_node_id\030\223N \001(\0132\033.ds",
+      "tore.values.integerValue\0222\n\014direct_value" +
+      "\030\224N \001(\0132\033.dstore.values.decimalValue\022*\n\004" +
+      "week\030\225N \001(\0132\033.dstore.values.integerValue" +
+      "\022A\n\033basic_characteristic_number\030\226N \001(\0132\033" +
+      ".dstore.values.integerValueB\035\n\033io.dstore" +
+      ".engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5650,7 +5647,7 @@ public final class StGetTreeNodePWStatisticsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5673,7 +5670,7 @@ public final class StGetTreeNodePWStatisticsAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_GetTreeNodePWStatistics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TotalValue", "Year", "HTreeNodeId", "DirectValue", "Week", "BasicCharacteristicNumber", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

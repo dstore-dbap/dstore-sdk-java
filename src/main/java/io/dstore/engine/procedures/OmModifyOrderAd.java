@@ -13,17 +13,17 @@ public final class OmModifyOrderAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_id = 1;</code>
      */
     boolean hasOrderId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getOrderId();
+    io.dstore.Values.integerValue getOrderId();
     /**
-     * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getOrderIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder();
 
     /**
      * <code>optional bool order_id_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class OmModifyOrderAd {
     boolean getOrderIdNull();
 
     /**
-     * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+     * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
      */
     boolean hasDeliveryDateAndTime();
     /**
-     * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+     * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
      */
-    io.dstore.engine.Values.timestampValue getDeliveryDateAndTime();
+    io.dstore.Values.timestampValue getDeliveryDateAndTime();
     /**
-     * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+     * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
      */
-    io.dstore.engine.Values.timestampValueOrBuilder getDeliveryDateAndTimeOrBuilder();
+    io.dstore.Values.timestampValueOrBuilder getDeliveryDateAndTimeOrBuilder();
 
     /**
      * <code>optional bool delivery_date_and_time_null = 1002;</code>
@@ -49,17 +49,17 @@ public final class OmModifyOrderAd {
     boolean getDeliveryDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+     * <code>optional .dstore.values.stringValue order_no = 3;</code>
      */
     boolean hasOrderNo();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+     * <code>optional .dstore.values.stringValue order_no = 3;</code>
      */
-    io.dstore.engine.Values.stringValue getOrderNo();
+    io.dstore.Values.stringValue getOrderNo();
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+     * <code>optional .dstore.values.stringValue order_no = 3;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getOrderNoOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder();
 
     /**
      * <code>optional bool order_no_null = 1003;</code>
@@ -108,11 +108,11 @@ public final class OmModifyOrderAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (orderId_ != null) {
                 subBuilder = orderId_.toBuilder();
               }
-              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              orderId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderId_);
                 orderId_ = subBuilder.buildPartial();
@@ -121,11 +121,11 @@ public final class OmModifyOrderAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (deliveryDateAndTime_ != null) {
                 subBuilder = deliveryDateAndTime_.toBuilder();
               }
-              deliveryDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
+              deliveryDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryDateAndTime_);
                 deliveryDateAndTime_ = subBuilder.buildPartial();
@@ -134,11 +134,11 @@ public final class OmModifyOrderAd {
               break;
             }
             case 26: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (orderNo_ != null) {
                 subBuilder = orderNo_.toBuilder();
               }
-              orderNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              orderNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderNo_);
                 orderNo_ = subBuilder.buildPartial();
@@ -186,23 +186,23 @@ public final class OmModifyOrderAd {
     }
 
     public static final int ORDER_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue orderId_;
+    private io.dstore.Values.integerValue orderId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_id = 1;</code>
      */
     public boolean hasOrderId() {
       return orderId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getOrderId() {
-      return orderId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderId_;
+    public io.dstore.Values.integerValue getOrderId() {
+      return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+     * <code>optional .dstore.values.integerValue order_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getOrderIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
       return getOrderId();
     }
 
@@ -216,23 +216,23 @@ public final class OmModifyOrderAd {
     }
 
     public static final int DELIVERY_DATE_AND_TIME_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.timestampValue deliveryDateAndTime_;
+    private io.dstore.Values.timestampValue deliveryDateAndTime_;
     /**
-     * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+     * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
      */
     public boolean hasDeliveryDateAndTime() {
       return deliveryDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+     * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValue getDeliveryDateAndTime() {
-      return deliveryDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : deliveryDateAndTime_;
+    public io.dstore.Values.timestampValue getDeliveryDateAndTime() {
+      return deliveryDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : deliveryDateAndTime_;
     }
     /**
-     * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+     * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
      */
-    public io.dstore.engine.Values.timestampValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
+    public io.dstore.Values.timestampValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
       return getDeliveryDateAndTime();
     }
 
@@ -246,23 +246,23 @@ public final class OmModifyOrderAd {
     }
 
     public static final int ORDER_NO_FIELD_NUMBER = 3;
-    private io.dstore.engine.Values.stringValue orderNo_;
+    private io.dstore.Values.stringValue orderNo_;
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+     * <code>optional .dstore.values.stringValue order_no = 3;</code>
      */
     public boolean hasOrderNo() {
       return orderNo_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+     * <code>optional .dstore.values.stringValue order_no = 3;</code>
      */
-    public io.dstore.engine.Values.stringValue getOrderNo() {
-      return orderNo_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderNo_;
+    public io.dstore.Values.stringValue getOrderNo() {
+      return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+     * <code>optional .dstore.values.stringValue order_no = 3;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
       return getOrderNo();
     }
 
@@ -570,29 +570,29 @@ public final class OmModifyOrderAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue orderId_ = null;
+      private io.dstore.Values.integerValue orderId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> orderIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
       public boolean hasOrderId() {
         return orderIdBuilder_ != null || orderId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getOrderId() {
+      public io.dstore.Values.integerValue getOrderId() {
         if (orderIdBuilder_ == null) {
-          return orderId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : orderId_;
+          return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
         } else {
           return orderIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
-      public Builder setOrderId(io.dstore.engine.Values.integerValue value) {
+      public Builder setOrderId(io.dstore.Values.integerValue value) {
         if (orderIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -606,10 +606,10 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
       public Builder setOrderId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (orderIdBuilder_ == null) {
           orderId_ = builderForValue.build();
           onChanged();
@@ -620,13 +620,13 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
-      public Builder mergeOrderId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeOrderId(io.dstore.Values.integerValue value) {
         if (orderIdBuilder_ == null) {
           if (orderId_ != null) {
             orderId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(orderId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(orderId_).mergeFrom(value).buildPartial();
           } else {
             orderId_ = value;
           }
@@ -638,7 +638,7 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
       public Builder clearOrderId() {
         if (orderIdBuilder_ == null) {
@@ -652,33 +652,33 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getOrderIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getOrderIdBuilder() {
         
         onChanged();
         return getOrderIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getOrderIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
         if (orderIdBuilder_ != null) {
           return orderIdBuilder_.getMessageOrBuilder();
         } else {
           return orderId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : orderId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue order_id = 1;</code>
+       * <code>optional .dstore.values.integerValue order_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderIdFieldBuilder() {
         if (orderIdBuilder_ == null) {
           orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderId(),
                   getParentForChildren(),
                   isClean());
@@ -713,29 +713,29 @@ public final class OmModifyOrderAd {
         return this;
       }
 
-      private io.dstore.engine.Values.timestampValue deliveryDateAndTime_ = null;
+      private io.dstore.Values.timestampValue deliveryDateAndTime_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> deliveryDateAndTimeBuilder_;
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> deliveryDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
       public boolean hasDeliveryDateAndTime() {
         return deliveryDateAndTimeBuilder_ != null || deliveryDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue getDeliveryDateAndTime() {
+      public io.dstore.Values.timestampValue getDeliveryDateAndTime() {
         if (deliveryDateAndTimeBuilder_ == null) {
-          return deliveryDateAndTime_ == null ? io.dstore.engine.Values.timestampValue.getDefaultInstance() : deliveryDateAndTime_;
+          return deliveryDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : deliveryDateAndTime_;
         } else {
           return deliveryDateAndTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
-      public Builder setDeliveryDateAndTime(io.dstore.engine.Values.timestampValue value) {
+      public Builder setDeliveryDateAndTime(io.dstore.Values.timestampValue value) {
         if (deliveryDateAndTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -749,10 +749,10 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
       public Builder setDeliveryDateAndTime(
-          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+          io.dstore.Values.timestampValue.Builder builderForValue) {
         if (deliveryDateAndTimeBuilder_ == null) {
           deliveryDateAndTime_ = builderForValue.build();
           onChanged();
@@ -763,13 +763,13 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
-      public Builder mergeDeliveryDateAndTime(io.dstore.engine.Values.timestampValue value) {
+      public Builder mergeDeliveryDateAndTime(io.dstore.Values.timestampValue value) {
         if (deliveryDateAndTimeBuilder_ == null) {
           if (deliveryDateAndTime_ != null) {
             deliveryDateAndTime_ =
-              io.dstore.engine.Values.timestampValue.newBuilder(deliveryDateAndTime_).mergeFrom(value).buildPartial();
+              io.dstore.Values.timestampValue.newBuilder(deliveryDateAndTime_).mergeFrom(value).buildPartial();
           } else {
             deliveryDateAndTime_ = value;
           }
@@ -781,7 +781,7 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
       public Builder clearDeliveryDateAndTime() {
         if (deliveryDateAndTimeBuilder_ == null) {
@@ -795,33 +795,33 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValue.Builder getDeliveryDateAndTimeBuilder() {
+      public io.dstore.Values.timestampValue.Builder getDeliveryDateAndTimeBuilder() {
         
         onChanged();
         return getDeliveryDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
-      public io.dstore.engine.Values.timestampValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
+      public io.dstore.Values.timestampValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
         if (deliveryDateAndTimeBuilder_ != null) {
           return deliveryDateAndTimeBuilder_.getMessageOrBuilder();
         } else {
           return deliveryDateAndTime_ == null ?
-              io.dstore.engine.Values.timestampValue.getDefaultInstance() : deliveryDateAndTime_;
+              io.dstore.Values.timestampValue.getDefaultInstance() : deliveryDateAndTime_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.timestampValue delivery_date_and_time = 2;</code>
+       * <code>optional .dstore.values.timestampValue delivery_date_and_time = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDeliveryDateAndTimeFieldBuilder() {
         if (deliveryDateAndTimeBuilder_ == null) {
           deliveryDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDeliveryDateAndTime(),
                   getParentForChildren(),
                   isClean());
@@ -856,29 +856,29 @@ public final class OmModifyOrderAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue orderNo_ = null;
+      private io.dstore.Values.stringValue orderNo_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> orderNoBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderNoBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
       public boolean hasOrderNo() {
         return orderNoBuilder_ != null || orderNo_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue getOrderNo() {
+      public io.dstore.Values.stringValue getOrderNo() {
         if (orderNoBuilder_ == null) {
-          return orderNo_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : orderNo_;
+          return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
         } else {
           return orderNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
-      public Builder setOrderNo(io.dstore.engine.Values.stringValue value) {
+      public Builder setOrderNo(io.dstore.Values.stringValue value) {
         if (orderNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -892,10 +892,10 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
       public Builder setOrderNo(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (orderNoBuilder_ == null) {
           orderNo_ = builderForValue.build();
           onChanged();
@@ -906,13 +906,13 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
-      public Builder mergeOrderNo(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeOrderNo(io.dstore.Values.stringValue value) {
         if (orderNoBuilder_ == null) {
           if (orderNo_ != null) {
             orderNo_ =
-              io.dstore.engine.Values.stringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
           } else {
             orderNo_ = value;
           }
@@ -924,7 +924,7 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
       public Builder clearOrderNo() {
         if (orderNoBuilder_ == null) {
@@ -938,33 +938,33 @@ public final class OmModifyOrderAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getOrderNoBuilder() {
+      public io.dstore.Values.stringValue.Builder getOrderNoBuilder() {
         
         onChanged();
         return getOrderNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
         if (orderNoBuilder_ != null) {
           return orderNoBuilder_.getMessageOrBuilder();
         } else {
           return orderNo_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : orderNo_;
+              io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue order_no = 3;</code>
+       * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderNoFieldBuilder() {
         if (orderNoBuilder_ == null) {
           orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderNo(),
                   getParentForChildren(),
                   isClean());
@@ -3155,24 +3155,23 @@ public final class OmModifyOrderAd {
     java.lang.String[] descriptorData = {
       "\n0dstore/engine/procedures/om_ModifyOrde" +
       "r_Ad.proto\022\037dstore.engine.om_ModifyOrder" +
-      "_Ad\032\032dstore/engine/values.proto\032\031dstore/" +
-      "engine/error.proto\032\033dstore/engine/messag" +
-      "e.proto\032#dstore/engine/metainformation.p" +
-      "roto\"\223\002\n\nParameters\0224\n\010order_id\030\001 \001(\0132\"." +
-      "dstore.engine.values.integerValue\022\026\n\rord" +
-      "er_id_null\030\351\007 \001(\010\022D\n\026delivery_date_and_t" +
-      "ime\030\002 \001(\0132$.dstore.engine.values.timesta" +
-      "mpValue\022$\n\033delivery_date_and_time_null\030\352",
-      "\007 \001(\010\0223\n\010order_no\030\003 \001(\0132!.dstore.engine." +
-      "values.stringValue\022\026\n\rorder_no_null\030\353\007 \001" +
-      "(\010\"\204\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002" +
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022:\n\003row\030\004 \003(\0132-.dst" +
-      "ore.engine.om_ModifyOrder_Ad.Response.Ro" +
-      "w\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io.dstore.e" +
-      "ngine.proceduresb\006proto3"
+      "_Ad\032\023dstore/values.proto\032\031dstore/engine/" +
+      "error.proto\032\033dstore/engine/message.proto" +
+      "\032#dstore/engine/metainformation.proto\"\376\001" +
+      "\n\nParameters\022-\n\010order_id\030\001 \001(\0132\033.dstore." +
+      "values.integerValue\022\026\n\rorder_id_null\030\351\007 " +
+      "\001(\010\022=\n\026delivery_date_and_time\030\002 \001(\0132\035.ds" +
+      "tore.values.timestampValue\022$\n\033delivery_d" +
+      "ate_and_time_null\030\352\007 \001(\010\022,\n\010order_no\030\003 \001",
+      "(\0132\032.dstore.values.stringValue\022\026\n\rorder_" +
+      "no_null\030\353\007 \001(\010\"\204\002\n\010Response\022)\n\005error\030\001 \001" +
+      "(\0132\032.dstore.engine.error.Error\022H\n\020meta_i" +
+      "nformation\030\002 \003(\0132..dstore.engine.metainf" +
+      "ormation.MetaInformation\022/\n\007message\030\003 \003(" +
+      "\0132\036.dstore.engine.message.Message\022:\n\003row" +
+      "\030\004 \003(\0132-.dstore.engine.om_ModifyOrder_Ad" +
+      ".Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n" +
+      "\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3185,7 +3184,7 @@ public final class OmModifyOrderAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -3208,7 +3207,7 @@ public final class OmModifyOrderAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyOrder_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

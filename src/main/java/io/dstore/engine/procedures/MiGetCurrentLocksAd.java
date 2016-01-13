@@ -13,17 +13,17 @@ public final class MiGetCurrentLocksAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+     * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
      */
     boolean hasServerProcessId();
     /**
-     * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+     * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValue getServerProcessId();
+    io.dstore.Values.integerValue getServerProcessId();
     /**
-     * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+     * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getServerProcessIdOrBuilder();
+    io.dstore.Values.integerValueOrBuilder getServerProcessIdOrBuilder();
 
     /**
      * <code>optional bool server_process_id_null = 1001;</code>
@@ -70,11 +70,11 @@ public final class MiGetCurrentLocksAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              io.dstore.Values.integerValue.Builder subBuilder = null;
               if (serverProcessId_ != null) {
                 subBuilder = serverProcessId_.toBuilder();
               }
-              serverProcessId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              serverProcessId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(serverProcessId_);
                 serverProcessId_ = subBuilder.buildPartial();
@@ -112,23 +112,23 @@ public final class MiGetCurrentLocksAd {
     }
 
     public static final int SERVER_PROCESS_ID_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.integerValue serverProcessId_;
+    private io.dstore.Values.integerValue serverProcessId_;
     /**
-     * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+     * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
      */
     public boolean hasServerProcessId() {
       return serverProcessId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+     * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValue getServerProcessId() {
-      return serverProcessId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : serverProcessId_;
+    public io.dstore.Values.integerValue getServerProcessId() {
+      return serverProcessId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : serverProcessId_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+     * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
+    public io.dstore.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
       return getServerProcessId();
     }
 
@@ -368,29 +368,29 @@ public final class MiGetCurrentLocksAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue serverProcessId_ = null;
+      private io.dstore.Values.integerValue serverProcessId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> serverProcessIdBuilder_;
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> serverProcessIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
       public boolean hasServerProcessId() {
         return serverProcessIdBuilder_ != null || serverProcessId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue getServerProcessId() {
+      public io.dstore.Values.integerValue getServerProcessId() {
         if (serverProcessIdBuilder_ == null) {
-          return serverProcessId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : serverProcessId_;
+          return serverProcessId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : serverProcessId_;
         } else {
           return serverProcessIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
-      public Builder setServerProcessId(io.dstore.engine.Values.integerValue value) {
+      public Builder setServerProcessId(io.dstore.Values.integerValue value) {
         if (serverProcessIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -404,10 +404,10 @@ public final class MiGetCurrentLocksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
       public Builder setServerProcessId(
-          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+          io.dstore.Values.integerValue.Builder builderForValue) {
         if (serverProcessIdBuilder_ == null) {
           serverProcessId_ = builderForValue.build();
           onChanged();
@@ -418,13 +418,13 @@ public final class MiGetCurrentLocksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
-      public Builder mergeServerProcessId(io.dstore.engine.Values.integerValue value) {
+      public Builder mergeServerProcessId(io.dstore.Values.integerValue value) {
         if (serverProcessIdBuilder_ == null) {
           if (serverProcessId_ != null) {
             serverProcessId_ =
-              io.dstore.engine.Values.integerValue.newBuilder(serverProcessId_).mergeFrom(value).buildPartial();
+              io.dstore.Values.integerValue.newBuilder(serverProcessId_).mergeFrom(value).buildPartial();
           } else {
             serverProcessId_ = value;
           }
@@ -436,7 +436,7 @@ public final class MiGetCurrentLocksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
       public Builder clearServerProcessId() {
         if (serverProcessIdBuilder_ == null) {
@@ -450,33 +450,33 @@ public final class MiGetCurrentLocksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getServerProcessIdBuilder() {
+      public io.dstore.Values.integerValue.Builder getServerProcessIdBuilder() {
         
         onChanged();
         return getServerProcessIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
         if (serverProcessIdBuilder_ != null) {
           return serverProcessIdBuilder_.getMessageOrBuilder();
         } else {
           return serverProcessId_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : serverProcessId_;
+              io.dstore.Values.integerValue.getDefaultInstance() : serverProcessId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 1;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getServerProcessIdFieldBuilder() {
         if (serverProcessIdBuilder_ == null) {
           serverProcessIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getServerProcessId(),
                   getParentForChildren(),
                   isClean());
@@ -798,7 +798,7 @@ public final class MiGetCurrentLocksAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue page_id = 10001;</code>
        *
        * <pre>
        * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
@@ -806,24 +806,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasPageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue page_id = 10001;</code>
        *
        * <pre>
        * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getPageId();
+      io.dstore.Values.integerValue getPageId();
       /**
-       * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue page_id = 10001;</code>
        *
        * <pre>
        * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getPageIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getPageIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+       * <code>optional .dstore.values.stringValue login_name = 10002;</code>
        *
        * <pre>
        * Unter welchem "login" wurde der Prozeß eröffnet
@@ -831,24 +831,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasLoginName();
       /**
-       * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+       * <code>optional .dstore.values.stringValue login_name = 10002;</code>
        *
        * <pre>
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLoginName();
+      io.dstore.Values.stringValue getLoginName();
       /**
-       * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+       * <code>optional .dstore.values.stringValue login_name = 10002;</code>
        *
        * <pre>
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLoginNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLoginNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
        *
        * <pre>
        * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
@@ -856,24 +856,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
        *
        * <pre>
        * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getTableName();
+      io.dstore.Values.stringValue getTableName();
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
        *
        * <pre>
        * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+       * <code>optional .dstore.values.stringValue process_status = 10004;</code>
        *
        * <pre>
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
@@ -881,24 +881,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasProcessStatus();
       /**
-       * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+       * <code>optional .dstore.values.stringValue process_status = 10004;</code>
        *
        * <pre>
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getProcessStatus();
+      io.dstore.Values.stringValue getProcessStatus();
       /**
-       * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+       * <code>optional .dstore.values.stringValue process_status = 10004;</code>
        *
        * <pre>
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getProcessStatusOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getProcessStatusOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+       * <code>optional .dstore.values.stringValue command = 10005;</code>
        *
        * <pre>
        * Was für eine Art von Kommando wird gerade ausgeführt
@@ -906,24 +906,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasCommand();
       /**
-       * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+       * <code>optional .dstore.values.stringValue command = 10005;</code>
        *
        * <pre>
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getCommand();
+      io.dstore.Values.stringValue getCommand();
       /**
-       * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+       * <code>optional .dstore.values.stringValue command = 10005;</code>
        *
        * <pre>
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getCommandOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getCommandOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
        *
        * <pre>
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
@@ -931,24 +931,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasBlockingProcessId();
       /**
-       * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
        *
        * <pre>
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getBlockingProcessId();
+      io.dstore.Values.integerValue getBlockingProcessId();
       /**
-       * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
        *
        * <pre>
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getBlockingProcessIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getBlockingProcessIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
        *
        * <pre>
        * Die Server-Prozeß-ID
@@ -956,24 +956,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasServerProcessId();
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
        *
        * <pre>
        * Die Server-Prozeß-ID
        * </pre>
        */
-      io.dstore.engine.Values.integerValue getServerProcessId();
+      io.dstore.Values.integerValue getServerProcessId();
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
        *
        * <pre>
        * Die Server-Prozeß-ID
        * </pre>
        */
-      io.dstore.engine.Values.integerValueOrBuilder getServerProcessIdOrBuilder();
+      io.dstore.Values.integerValueOrBuilder getServerProcessIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+       * <code>optional .dstore.values.stringValue database_name = 10008;</code>
        *
        * <pre>
        * Name der Datenbank, auf der der Prozeß gerade aktiv ist
@@ -981,24 +981,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasDatabaseName();
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+       * <code>optional .dstore.values.stringValue database_name = 10008;</code>
        *
        * <pre>
        * Name der Datenbank, auf der der Prozeß gerade aktiv ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getDatabaseName();
+      io.dstore.Values.stringValue getDatabaseName();
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+       * <code>optional .dstore.values.stringValue database_name = 10008;</code>
        *
        * <pre>
        * Name der Datenbank, auf der der Prozeß gerade aktiv ist
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+       * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
        *
        * <pre>
        * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
@@ -1006,24 +1006,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasLockClass();
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+       * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
        *
        * <pre>
        * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLockClass();
+      io.dstore.Values.stringValue getLockClass();
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+       * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
        *
        * <pre>
        * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLockClassOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLockClassOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
        *
        * <pre>
        * Art des Locks ("Sh_table", "Ex_page", etc.)
@@ -1031,24 +1031,24 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasLockType();
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
        *
        * <pre>
        * Art des Locks ("Sh_table", "Ex_page", etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getLockType();
+      io.dstore.Values.stringValue getLockType();
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
        *
        * <pre>
        * Art des Locks ("Sh_table", "Ex_page", etc.)
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getLockTypeOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getLockTypeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+       * <code>optional .dstore.values.stringValue host_name = 10011;</code>
        *
        * <pre>
        * Name des Host-Rechners, der den Prozeß gestartet hat
@@ -1056,21 +1056,21 @@ public final class MiGetCurrentLocksAd {
        */
       boolean hasHostName();
       /**
-       * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+       * <code>optional .dstore.values.stringValue host_name = 10011;</code>
        *
        * <pre>
        * Name des Host-Rechners, der den Prozeß gestartet hat
        * </pre>
        */
-      io.dstore.engine.Values.stringValue getHostName();
+      io.dstore.Values.stringValue getHostName();
       /**
-       * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+       * <code>optional .dstore.values.stringValue host_name = 10011;</code>
        *
        * <pre>
        * Name des Host-Rechners, der den Prozeß gestartet hat
        * </pre>
        */
-      io.dstore.engine.Values.stringValueOrBuilder getHostNameOrBuilder();
+      io.dstore.Values.stringValueOrBuilder getHostNameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetCurrentLocks_Ad.Response.Row}
@@ -1117,11 +1117,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (pageId_ != null) {
                   subBuilder = pageId_.toBuilder();
                 }
-                pageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                pageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(pageId_);
                   pageId_ = subBuilder.buildPartial();
@@ -1130,11 +1130,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80018: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (loginName_ != null) {
                   subBuilder = loginName_.toBuilder();
                 }
-                loginName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                loginName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(loginName_);
                   loginName_ = subBuilder.buildPartial();
@@ -1143,11 +1143,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80026: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -1156,11 +1156,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (processStatus_ != null) {
                   subBuilder = processStatus_.toBuilder();
                 }
-                processStatus_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                processStatus_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(processStatus_);
                   processStatus_ = subBuilder.buildPartial();
@@ -1169,11 +1169,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80042: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (command_ != null) {
                   subBuilder = command_.toBuilder();
                 }
-                command_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                command_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(command_);
                   command_ = subBuilder.buildPartial();
@@ -1182,11 +1182,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80050: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (blockingProcessId_ != null) {
                   subBuilder = blockingProcessId_.toBuilder();
                 }
-                blockingProcessId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                blockingProcessId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(blockingProcessId_);
                   blockingProcessId_ = subBuilder.buildPartial();
@@ -1195,11 +1195,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+                io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (serverProcessId_ != null) {
                   subBuilder = serverProcessId_.toBuilder();
                 }
-                serverProcessId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+                serverProcessId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(serverProcessId_);
                   serverProcessId_ = subBuilder.buildPartial();
@@ -1208,11 +1208,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (databaseName_ != null) {
                   subBuilder = databaseName_.toBuilder();
                 }
-                databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(databaseName_);
                   databaseName_ = subBuilder.buildPartial();
@@ -1221,11 +1221,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80074: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (lockClass_ != null) {
                   subBuilder = lockClass_.toBuilder();
                 }
-                lockClass_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                lockClass_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lockClass_);
                   lockClass_ = subBuilder.buildPartial();
@@ -1234,11 +1234,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80082: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (lockType_ != null) {
                   subBuilder = lockType_.toBuilder();
                 }
-                lockType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                lockType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lockType_);
                   lockType_ = subBuilder.buildPartial();
@@ -1247,11 +1247,11 @@ public final class MiGetCurrentLocksAd {
                 break;
               }
               case 80090: {
-                io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+                io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (hostName_ != null) {
                   subBuilder = hostName_.toBuilder();
                 }
-                hostName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+                hostName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hostName_);
                   hostName_ = subBuilder.buildPartial();
@@ -1293,9 +1293,9 @@ public final class MiGetCurrentLocksAd {
       }
 
       public static final int PAGE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.integerValue pageId_;
+      private io.dstore.Values.integerValue pageId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue page_id = 10001;</code>
        *
        * <pre>
        * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
@@ -1305,30 +1305,30 @@ public final class MiGetCurrentLocksAd {
         return pageId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue page_id = 10001;</code>
        *
        * <pre>
        * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getPageId() {
-        return pageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageId_;
+      public io.dstore.Values.integerValue getPageId() {
+        return pageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+       * <code>optional .dstore.values.integerValue page_id = 10001;</code>
        *
        * <pre>
        * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getPageIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getPageIdOrBuilder() {
         return getPageId();
       }
 
       public static final int LOGIN_NAME_FIELD_NUMBER = 10002;
-      private io.dstore.engine.Values.stringValue loginName_;
+      private io.dstore.Values.stringValue loginName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+       * <code>optional .dstore.values.stringValue login_name = 10002;</code>
        *
        * <pre>
        * Unter welchem "login" wurde der Prozeß eröffnet
@@ -1338,30 +1338,30 @@ public final class MiGetCurrentLocksAd {
         return loginName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+       * <code>optional .dstore.values.stringValue login_name = 10002;</code>
        *
        * <pre>
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLoginName() {
-        return loginName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : loginName_;
+      public io.dstore.Values.stringValue getLoginName() {
+        return loginName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : loginName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+       * <code>optional .dstore.values.stringValue login_name = 10002;</code>
        *
        * <pre>
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLoginNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLoginNameOrBuilder() {
         return getLoginName();
       }
 
       public static final int TABLE_NAME_FIELD_NUMBER = 10003;
-      private io.dstore.engine.Values.stringValue tableName_;
+      private io.dstore.Values.stringValue tableName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
        *
        * <pre>
        * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
@@ -1371,30 +1371,30 @@ public final class MiGetCurrentLocksAd {
         return tableName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
        *
        * <pre>
        * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getTableName() {
-        return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+      public io.dstore.Values.stringValue getTableName() {
+        return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
        *
        * <pre>
        * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
       }
 
       public static final int PROCESS_STATUS_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.stringValue processStatus_;
+      private io.dstore.Values.stringValue processStatus_;
       /**
-       * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+       * <code>optional .dstore.values.stringValue process_status = 10004;</code>
        *
        * <pre>
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
@@ -1404,30 +1404,30 @@ public final class MiGetCurrentLocksAd {
         return processStatus_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+       * <code>optional .dstore.values.stringValue process_status = 10004;</code>
        *
        * <pre>
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getProcessStatus() {
-        return processStatus_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : processStatus_;
+      public io.dstore.Values.stringValue getProcessStatus() {
+        return processStatus_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : processStatus_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+       * <code>optional .dstore.values.stringValue process_status = 10004;</code>
        *
        * <pre>
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getProcessStatusOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getProcessStatusOrBuilder() {
         return getProcessStatus();
       }
 
       public static final int COMMAND_FIELD_NUMBER = 10005;
-      private io.dstore.engine.Values.stringValue command_;
+      private io.dstore.Values.stringValue command_;
       /**
-       * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+       * <code>optional .dstore.values.stringValue command = 10005;</code>
        *
        * <pre>
        * Was für eine Art von Kommando wird gerade ausgeführt
@@ -1437,30 +1437,30 @@ public final class MiGetCurrentLocksAd {
         return command_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+       * <code>optional .dstore.values.stringValue command = 10005;</code>
        *
        * <pre>
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getCommand() {
-        return command_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : command_;
+      public io.dstore.Values.stringValue getCommand() {
+        return command_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : command_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+       * <code>optional .dstore.values.stringValue command = 10005;</code>
        *
        * <pre>
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getCommandOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getCommandOrBuilder() {
         return getCommand();
       }
 
       public static final int BLOCKING_PROCESS_ID_FIELD_NUMBER = 10006;
-      private io.dstore.engine.Values.integerValue blockingProcessId_;
+      private io.dstore.Values.integerValue blockingProcessId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
        *
        * <pre>
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
@@ -1470,30 +1470,30 @@ public final class MiGetCurrentLocksAd {
         return blockingProcessId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
        *
        * <pre>
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getBlockingProcessId() {
-        return blockingProcessId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : blockingProcessId_;
+      public io.dstore.Values.integerValue getBlockingProcessId() {
+        return blockingProcessId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : blockingProcessId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+       * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
        *
        * <pre>
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getBlockingProcessIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getBlockingProcessIdOrBuilder() {
         return getBlockingProcessId();
       }
 
       public static final int SERVER_PROCESS_ID_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.integerValue serverProcessId_;
+      private io.dstore.Values.integerValue serverProcessId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
        *
        * <pre>
        * Die Server-Prozeß-ID
@@ -1503,30 +1503,30 @@ public final class MiGetCurrentLocksAd {
         return serverProcessId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
        *
        * <pre>
        * Die Server-Prozeß-ID
        * </pre>
        */
-      public io.dstore.engine.Values.integerValue getServerProcessId() {
-        return serverProcessId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : serverProcessId_;
+      public io.dstore.Values.integerValue getServerProcessId() {
+        return serverProcessId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : serverProcessId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
        *
        * <pre>
        * Die Server-Prozeß-ID
        * </pre>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
+      public io.dstore.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
         return getServerProcessId();
       }
 
       public static final int DATABASE_NAME_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.stringValue databaseName_;
+      private io.dstore.Values.stringValue databaseName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+       * <code>optional .dstore.values.stringValue database_name = 10008;</code>
        *
        * <pre>
        * Name der Datenbank, auf der der Prozeß gerade aktiv ist
@@ -1536,30 +1536,30 @@ public final class MiGetCurrentLocksAd {
         return databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+       * <code>optional .dstore.values.stringValue database_name = 10008;</code>
        *
        * <pre>
        * Name der Datenbank, auf der der Prozeß gerade aktiv ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getDatabaseName() {
-        return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+      public io.dstore.Values.stringValue getDatabaseName() {
+        return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+       * <code>optional .dstore.values.stringValue database_name = 10008;</code>
        *
        * <pre>
        * Name der Datenbank, auf der der Prozeß gerade aktiv ist
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
         return getDatabaseName();
       }
 
       public static final int LOCK_CLASS_FIELD_NUMBER = 10009;
-      private io.dstore.engine.Values.stringValue lockClass_;
+      private io.dstore.Values.stringValue lockClass_;
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+       * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
        *
        * <pre>
        * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
@@ -1569,30 +1569,30 @@ public final class MiGetCurrentLocksAd {
         return lockClass_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+       * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
        *
        * <pre>
        * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLockClass() {
-        return lockClass_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : lockClass_;
+      public io.dstore.Values.stringValue getLockClass() {
+        return lockClass_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lockClass_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+       * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
        *
        * <pre>
        * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLockClassOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLockClassOrBuilder() {
         return getLockClass();
       }
 
       public static final int LOCK_TYPE_FIELD_NUMBER = 10010;
-      private io.dstore.engine.Values.stringValue lockType_;
+      private io.dstore.Values.stringValue lockType_;
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
        *
        * <pre>
        * Art des Locks ("Sh_table", "Ex_page", etc.)
@@ -1602,30 +1602,30 @@ public final class MiGetCurrentLocksAd {
         return lockType_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
        *
        * <pre>
        * Art des Locks ("Sh_table", "Ex_page", etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getLockType() {
-        return lockType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : lockType_;
+      public io.dstore.Values.stringValue getLockType() {
+        return lockType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lockType_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+       * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
        *
        * <pre>
        * Art des Locks ("Sh_table", "Ex_page", etc.)
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getLockTypeOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getLockTypeOrBuilder() {
         return getLockType();
       }
 
       public static final int HOST_NAME_FIELD_NUMBER = 10011;
-      private io.dstore.engine.Values.stringValue hostName_;
+      private io.dstore.Values.stringValue hostName_;
       /**
-       * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+       * <code>optional .dstore.values.stringValue host_name = 10011;</code>
        *
        * <pre>
        * Name des Host-Rechners, der den Prozeß gestartet hat
@@ -1635,23 +1635,23 @@ public final class MiGetCurrentLocksAd {
         return hostName_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+       * <code>optional .dstore.values.stringValue host_name = 10011;</code>
        *
        * <pre>
        * Name des Host-Rechners, der den Prozeß gestartet hat
        * </pre>
        */
-      public io.dstore.engine.Values.stringValue getHostName() {
-        return hostName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : hostName_;
+      public io.dstore.Values.stringValue getHostName() {
+        return hostName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : hostName_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+       * <code>optional .dstore.values.stringValue host_name = 10011;</code>
        *
        * <pre>
        * Name des Host-Rechners, der den Prozeß gestartet hat
        * </pre>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getHostNameOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getHostNameOrBuilder() {
         return getHostName();
       }
 
@@ -2118,11 +2118,11 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
 
-        private io.dstore.engine.Values.integerValue pageId_ = null;
+        private io.dstore.Values.integerValue pageId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> pageIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
@@ -2132,27 +2132,27 @@ public final class MiGetCurrentLocksAd {
           return pageIdBuilder_ != null || pageId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getPageId() {
+        public io.dstore.Values.integerValue getPageId() {
           if (pageIdBuilder_ == null) {
-            return pageId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : pageId_;
+            return pageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : pageId_;
           } else {
             return pageIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public Builder setPageId(io.dstore.engine.Values.integerValue value) {
+        public Builder setPageId(io.dstore.Values.integerValue value) {
           if (pageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2166,14 +2166,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
         public Builder setPageId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (pageIdBuilder_ == null) {
             pageId_ = builderForValue.build();
             onChanged();
@@ -2184,17 +2184,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public Builder mergePageId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergePageId(io.dstore.Values.integerValue value) {
           if (pageIdBuilder_ == null) {
             if (pageId_ != null) {
               pageId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(pageId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(pageId_).mergeFrom(value).buildPartial();
             } else {
               pageId_ = value;
             }
@@ -2206,7 +2206,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
@@ -2224,45 +2224,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getPageIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getPageIdBuilder() {
           
           onChanged();
           return getPageIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getPageIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getPageIdOrBuilder() {
           if (pageIdBuilder_ != null) {
             return pageIdBuilder_.getMessageOrBuilder();
           } else {
             return pageId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : pageId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : pageId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue page_id = 10001;</code>
+         * <code>optional .dstore.values.integerValue page_id = 10001;</code>
          *
          * <pre>
          * ID der Page (der Tabelle "TableName"), die gerade ge"locked" ist/wird
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPageIdFieldBuilder() {
           if (pageIdBuilder_ == null) {
             pageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPageId(),
                     getParentForChildren(),
                     isClean());
@@ -2271,11 +2271,11 @@ public final class MiGetCurrentLocksAd {
           return pageIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue loginName_ = null;
+        private io.dstore.Values.stringValue loginName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> loginNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> loginNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
@@ -2285,27 +2285,27 @@ public final class MiGetCurrentLocksAd {
           return loginNameBuilder_ != null || loginName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLoginName() {
+        public io.dstore.Values.stringValue getLoginName() {
           if (loginNameBuilder_ == null) {
-            return loginName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : loginName_;
+            return loginName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : loginName_;
           } else {
             return loginNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
-        public Builder setLoginName(io.dstore.engine.Values.stringValue value) {
+        public Builder setLoginName(io.dstore.Values.stringValue value) {
           if (loginNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2319,14 +2319,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
         public Builder setLoginName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (loginNameBuilder_ == null) {
             loginName_ = builderForValue.build();
             onChanged();
@@ -2337,17 +2337,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
-        public Builder mergeLoginName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLoginName(io.dstore.Values.stringValue value) {
           if (loginNameBuilder_ == null) {
             if (loginName_ != null) {
               loginName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(loginName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(loginName_).mergeFrom(value).buildPartial();
             } else {
               loginName_ = value;
             }
@@ -2359,7 +2359,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
@@ -2377,45 +2377,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLoginNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getLoginNameBuilder() {
           
           onChanged();
           return getLoginNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLoginNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLoginNameOrBuilder() {
           if (loginNameBuilder_ != null) {
             return loginNameBuilder_.getMessageOrBuilder();
           } else {
             return loginName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : loginName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : loginName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue login_name = 10002;</code>
+         * <code>optional .dstore.values.stringValue login_name = 10002;</code>
          *
          * <pre>
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLoginNameFieldBuilder() {
           if (loginNameBuilder_ == null) {
             loginNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLoginName(),
                     getParentForChildren(),
                     isClean());
@@ -2424,11 +2424,11 @@ public final class MiGetCurrentLocksAd {
           return loginNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue tableName_ = null;
+        private io.dstore.Values.stringValue tableName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> tableNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
@@ -2438,27 +2438,27 @@ public final class MiGetCurrentLocksAd {
           return tableNameBuilder_ != null || tableName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getTableName() {
+        public io.dstore.Values.stringValue getTableName() {
           if (tableNameBuilder_ == null) {
-            return tableName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+            return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           } else {
             return tableNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public Builder setTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder setTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2472,14 +2472,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
         public Builder setTableName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (tableNameBuilder_ == null) {
             tableName_ = builderForValue.build();
             onChanged();
@@ -2490,17 +2490,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public Builder mergeTableName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeTableName(io.dstore.Values.stringValue value) {
           if (tableNameBuilder_ == null) {
             if (tableName_ != null) {
               tableName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
             } else {
               tableName_ = value;
             }
@@ -2512,7 +2512,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
@@ -2530,45 +2530,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getTableNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
           
           onChanged();
           return getTableNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getTableNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
             return tableNameBuilder_.getMessageOrBuilder();
           } else {
             return tableName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : tableName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          *
          * <pre>
          * Name der Tabelle (in der Datenbank "DatabaseName"), die gerade ge"locked" ist/wird
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
             tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
                     isClean());
@@ -2577,11 +2577,11 @@ public final class MiGetCurrentLocksAd {
           return tableNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue processStatus_ = null;
+        private io.dstore.Values.stringValue processStatus_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> processStatusBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> processStatusBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
@@ -2591,27 +2591,27 @@ public final class MiGetCurrentLocksAd {
           return processStatusBuilder_ != null || processStatus_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getProcessStatus() {
+        public io.dstore.Values.stringValue getProcessStatus() {
           if (processStatusBuilder_ == null) {
-            return processStatus_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : processStatus_;
+            return processStatus_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : processStatus_;
           } else {
             return processStatusBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
-        public Builder setProcessStatus(io.dstore.engine.Values.stringValue value) {
+        public Builder setProcessStatus(io.dstore.Values.stringValue value) {
           if (processStatusBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2625,14 +2625,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
         public Builder setProcessStatus(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (processStatusBuilder_ == null) {
             processStatus_ = builderForValue.build();
             onChanged();
@@ -2643,17 +2643,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
-        public Builder mergeProcessStatus(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeProcessStatus(io.dstore.Values.stringValue value) {
           if (processStatusBuilder_ == null) {
             if (processStatus_ != null) {
               processStatus_ =
-                io.dstore.engine.Values.stringValue.newBuilder(processStatus_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(processStatus_).mergeFrom(value).buildPartial();
             } else {
               processStatus_ = value;
             }
@@ -2665,7 +2665,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
@@ -2683,45 +2683,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getProcessStatusBuilder() {
+        public io.dstore.Values.stringValue.Builder getProcessStatusBuilder() {
           
           onChanged();
           return getProcessStatusFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getProcessStatusOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getProcessStatusOrBuilder() {
           if (processStatusBuilder_ != null) {
             return processStatusBuilder_.getMessageOrBuilder();
           } else {
             return processStatus_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : processStatus_;
+                io.dstore.Values.stringValue.getDefaultInstance() : processStatus_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue process_status = 10004;</code>
+         * <code>optional .dstore.values.stringValue process_status = 10004;</code>
          *
          * <pre>
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getProcessStatusFieldBuilder() {
           if (processStatusBuilder_ == null) {
             processStatusBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getProcessStatus(),
                     getParentForChildren(),
                     isClean());
@@ -2730,11 +2730,11 @@ public final class MiGetCurrentLocksAd {
           return processStatusBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue command_ = null;
+        private io.dstore.Values.stringValue command_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> commandBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commandBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
@@ -2744,27 +2744,27 @@ public final class MiGetCurrentLocksAd {
           return commandBuilder_ != null || command_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getCommand() {
+        public io.dstore.Values.stringValue getCommand() {
           if (commandBuilder_ == null) {
-            return command_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : command_;
+            return command_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : command_;
           } else {
             return commandBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
-        public Builder setCommand(io.dstore.engine.Values.stringValue value) {
+        public Builder setCommand(io.dstore.Values.stringValue value) {
           if (commandBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2778,14 +2778,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
         public Builder setCommand(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (commandBuilder_ == null) {
             command_ = builderForValue.build();
             onChanged();
@@ -2796,17 +2796,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
-        public Builder mergeCommand(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeCommand(io.dstore.Values.stringValue value) {
           if (commandBuilder_ == null) {
             if (command_ != null) {
               command_ =
-                io.dstore.engine.Values.stringValue.newBuilder(command_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(command_).mergeFrom(value).buildPartial();
             } else {
               command_ = value;
             }
@@ -2818,7 +2818,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
@@ -2836,45 +2836,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getCommandBuilder() {
+        public io.dstore.Values.stringValue.Builder getCommandBuilder() {
           
           onChanged();
           return getCommandFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getCommandOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getCommandOrBuilder() {
           if (commandBuilder_ != null) {
             return commandBuilder_.getMessageOrBuilder();
           } else {
             return command_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : command_;
+                io.dstore.Values.stringValue.getDefaultInstance() : command_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue command = 10005;</code>
+         * <code>optional .dstore.values.stringValue command = 10005;</code>
          *
          * <pre>
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCommandFieldBuilder() {
           if (commandBuilder_ == null) {
             commandBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCommand(),
                     getParentForChildren(),
                     isClean());
@@ -2883,11 +2883,11 @@ public final class MiGetCurrentLocksAd {
           return commandBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue blockingProcessId_ = null;
+        private io.dstore.Values.integerValue blockingProcessId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> blockingProcessIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> blockingProcessIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
@@ -2897,27 +2897,27 @@ public final class MiGetCurrentLocksAd {
           return blockingProcessIdBuilder_ != null || blockingProcessId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getBlockingProcessId() {
+        public io.dstore.Values.integerValue getBlockingProcessId() {
           if (blockingProcessIdBuilder_ == null) {
-            return blockingProcessId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : blockingProcessId_;
+            return blockingProcessId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : blockingProcessId_;
           } else {
             return blockingProcessIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
-        public Builder setBlockingProcessId(io.dstore.engine.Values.integerValue value) {
+        public Builder setBlockingProcessId(io.dstore.Values.integerValue value) {
           if (blockingProcessIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2931,14 +2931,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
         public Builder setBlockingProcessId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (blockingProcessIdBuilder_ == null) {
             blockingProcessId_ = builderForValue.build();
             onChanged();
@@ -2949,17 +2949,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
-        public Builder mergeBlockingProcessId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeBlockingProcessId(io.dstore.Values.integerValue value) {
           if (blockingProcessIdBuilder_ == null) {
             if (blockingProcessId_ != null) {
               blockingProcessId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(blockingProcessId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(blockingProcessId_).mergeFrom(value).buildPartial();
             } else {
               blockingProcessId_ = value;
             }
@@ -2971,7 +2971,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
@@ -2989,45 +2989,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getBlockingProcessIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getBlockingProcessIdBuilder() {
           
           onChanged();
           return getBlockingProcessIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getBlockingProcessIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getBlockingProcessIdOrBuilder() {
           if (blockingProcessIdBuilder_ != null) {
             return blockingProcessIdBuilder_.getMessageOrBuilder();
           } else {
             return blockingProcessId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : blockingProcessId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : blockingProcessId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue blocking_process_id = 10006;</code>
+         * <code>optional .dstore.values.integerValue blocking_process_id = 10006;</code>
          *
          * <pre>
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBlockingProcessIdFieldBuilder() {
           if (blockingProcessIdBuilder_ == null) {
             blockingProcessIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBlockingProcessId(),
                     getParentForChildren(),
                     isClean());
@@ -3036,11 +3036,11 @@ public final class MiGetCurrentLocksAd {
           return blockingProcessIdBuilder_;
         }
 
-        private io.dstore.engine.Values.integerValue serverProcessId_ = null;
+        private io.dstore.Values.integerValue serverProcessId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> serverProcessIdBuilder_;
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> serverProcessIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
@@ -3050,27 +3050,27 @@ public final class MiGetCurrentLocksAd {
           return serverProcessIdBuilder_ != null || serverProcessId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue getServerProcessId() {
+        public io.dstore.Values.integerValue getServerProcessId() {
           if (serverProcessIdBuilder_ == null) {
-            return serverProcessId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : serverProcessId_;
+            return serverProcessId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : serverProcessId_;
           } else {
             return serverProcessIdBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
-        public Builder setServerProcessId(io.dstore.engine.Values.integerValue value) {
+        public Builder setServerProcessId(io.dstore.Values.integerValue value) {
           if (serverProcessIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3084,14 +3084,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
         public Builder setServerProcessId(
-            io.dstore.engine.Values.integerValue.Builder builderForValue) {
+            io.dstore.Values.integerValue.Builder builderForValue) {
           if (serverProcessIdBuilder_ == null) {
             serverProcessId_ = builderForValue.build();
             onChanged();
@@ -3102,17 +3102,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
-        public Builder mergeServerProcessId(io.dstore.engine.Values.integerValue value) {
+        public Builder mergeServerProcessId(io.dstore.Values.integerValue value) {
           if (serverProcessIdBuilder_ == null) {
             if (serverProcessId_ != null) {
               serverProcessId_ =
-                io.dstore.engine.Values.integerValue.newBuilder(serverProcessId_).mergeFrom(value).buildPartial();
+                io.dstore.Values.integerValue.newBuilder(serverProcessId_).mergeFrom(value).buildPartial();
             } else {
               serverProcessId_ = value;
             }
@@ -3124,7 +3124,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
@@ -3142,45 +3142,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
-        public io.dstore.engine.Values.integerValue.Builder getServerProcessIdBuilder() {
+        public io.dstore.Values.integerValue.Builder getServerProcessIdBuilder() {
           
           onChanged();
           return getServerProcessIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
-        public io.dstore.engine.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
+        public io.dstore.Values.integerValueOrBuilder getServerProcessIdOrBuilder() {
           if (serverProcessIdBuilder_ != null) {
             return serverProcessIdBuilder_.getMessageOrBuilder();
           } else {
             return serverProcessId_ == null ?
-                io.dstore.engine.Values.integerValue.getDefaultInstance() : serverProcessId_;
+                io.dstore.Values.integerValue.getDefaultInstance() : serverProcessId_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue server_process_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue server_process_id = 10007;</code>
          *
          * <pre>
          * Die Server-Prozeß-ID
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getServerProcessIdFieldBuilder() {
           if (serverProcessIdBuilder_ == null) {
             serverProcessIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getServerProcessId(),
                     getParentForChildren(),
                     isClean());
@@ -3189,11 +3189,11 @@ public final class MiGetCurrentLocksAd {
           return serverProcessIdBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue databaseName_ = null;
+        private io.dstore.Values.stringValue databaseName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> databaseNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
@@ -3203,27 +3203,27 @@ public final class MiGetCurrentLocksAd {
           return databaseNameBuilder_ != null || databaseName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getDatabaseName() {
+        public io.dstore.Values.stringValue getDatabaseName() {
           if (databaseNameBuilder_ == null) {
-            return databaseName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+            return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
           } else {
             return databaseNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
-        public Builder setDatabaseName(io.dstore.engine.Values.stringValue value) {
+        public Builder setDatabaseName(io.dstore.Values.stringValue value) {
           if (databaseNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3237,14 +3237,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
         public Builder setDatabaseName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (databaseNameBuilder_ == null) {
             databaseName_ = builderForValue.build();
             onChanged();
@@ -3255,17 +3255,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
-        public Builder mergeDatabaseName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
           if (databaseNameBuilder_ == null) {
             if (databaseName_ != null) {
               databaseName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
             } else {
               databaseName_ = value;
             }
@@ -3277,7 +3277,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
@@ -3295,45 +3295,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getDatabaseNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
           
           onChanged();
           return getDatabaseNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
           if (databaseNameBuilder_ != null) {
             return databaseNameBuilder_.getMessageOrBuilder();
           } else {
             return databaseName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : databaseName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue database_name = 10008;</code>
+         * <code>optional .dstore.values.stringValue database_name = 10008;</code>
          *
          * <pre>
          * Name der Datenbank, auf der der Prozeß gerade aktiv ist
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDatabaseNameFieldBuilder() {
           if (databaseNameBuilder_ == null) {
             databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDatabaseName(),
                     getParentForChildren(),
                     isClean());
@@ -3342,11 +3342,11 @@ public final class MiGetCurrentLocksAd {
           return databaseNameBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue lockClass_ = null;
+        private io.dstore.Values.stringValue lockClass_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> lockClassBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lockClassBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
@@ -3356,27 +3356,27 @@ public final class MiGetCurrentLocksAd {
           return lockClassBuilder_ != null || lockClass_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLockClass() {
+        public io.dstore.Values.stringValue getLockClass() {
           if (lockClassBuilder_ == null) {
-            return lockClass_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : lockClass_;
+            return lockClass_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lockClass_;
           } else {
             return lockClassBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
-        public Builder setLockClass(io.dstore.engine.Values.stringValue value) {
+        public Builder setLockClass(io.dstore.Values.stringValue value) {
           if (lockClassBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3390,14 +3390,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
         public Builder setLockClass(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (lockClassBuilder_ == null) {
             lockClass_ = builderForValue.build();
             onChanged();
@@ -3408,17 +3408,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
-        public Builder mergeLockClass(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLockClass(io.dstore.Values.stringValue value) {
           if (lockClassBuilder_ == null) {
             if (lockClass_ != null) {
               lockClass_ =
-                io.dstore.engine.Values.stringValue.newBuilder(lockClass_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(lockClass_).mergeFrom(value).buildPartial();
             } else {
               lockClass_ = value;
             }
@@ -3430,7 +3430,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
@@ -3448,45 +3448,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLockClassBuilder() {
+        public io.dstore.Values.stringValue.Builder getLockClassBuilder() {
           
           onChanged();
           return getLockClassFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLockClassOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLockClassOrBuilder() {
           if (lockClassBuilder_ != null) {
             return lockClassBuilder_.getMessageOrBuilder();
           } else {
             return lockClass_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : lockClass_;
+                io.dstore.Values.stringValue.getDefaultInstance() : lockClass_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_class = 10009;</code>
+         * <code>optional .dstore.values.stringValue lock_class = 10009;</code>
          *
          * <pre>
          * Durch was wurde der Lock verursacht (Cursor, Non Cursor etc.)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLockClassFieldBuilder() {
           if (lockClassBuilder_ == null) {
             lockClassBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLockClass(),
                     getParentForChildren(),
                     isClean());
@@ -3495,11 +3495,11 @@ public final class MiGetCurrentLocksAd {
           return lockClassBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue lockType_ = null;
+        private io.dstore.Values.stringValue lockType_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> lockTypeBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> lockTypeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
@@ -3509,27 +3509,27 @@ public final class MiGetCurrentLocksAd {
           return lockTypeBuilder_ != null || lockType_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getLockType() {
+        public io.dstore.Values.stringValue getLockType() {
           if (lockTypeBuilder_ == null) {
-            return lockType_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : lockType_;
+            return lockType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : lockType_;
           } else {
             return lockTypeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
-        public Builder setLockType(io.dstore.engine.Values.stringValue value) {
+        public Builder setLockType(io.dstore.Values.stringValue value) {
           if (lockTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3543,14 +3543,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
         public Builder setLockType(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (lockTypeBuilder_ == null) {
             lockType_ = builderForValue.build();
             onChanged();
@@ -3561,17 +3561,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
-        public Builder mergeLockType(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeLockType(io.dstore.Values.stringValue value) {
           if (lockTypeBuilder_ == null) {
             if (lockType_ != null) {
               lockType_ =
-                io.dstore.engine.Values.stringValue.newBuilder(lockType_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(lockType_).mergeFrom(value).buildPartial();
             } else {
               lockType_ = value;
             }
@@ -3583,7 +3583,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
@@ -3601,45 +3601,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getLockTypeBuilder() {
+        public io.dstore.Values.stringValue.Builder getLockTypeBuilder() {
           
           onChanged();
           return getLockTypeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getLockTypeOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getLockTypeOrBuilder() {
           if (lockTypeBuilder_ != null) {
             return lockTypeBuilder_.getMessageOrBuilder();
           } else {
             return lockType_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : lockType_;
+                io.dstore.Values.stringValue.getDefaultInstance() : lockType_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue lock_type = 10010;</code>
+         * <code>optional .dstore.values.stringValue lock_type = 10010;</code>
          *
          * <pre>
          * Art des Locks ("Sh_table", "Ex_page", etc.)
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLockTypeFieldBuilder() {
           if (lockTypeBuilder_ == null) {
             lockTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLockType(),
                     getParentForChildren(),
                     isClean());
@@ -3648,11 +3648,11 @@ public final class MiGetCurrentLocksAd {
           return lockTypeBuilder_;
         }
 
-        private io.dstore.engine.Values.stringValue hostName_ = null;
+        private io.dstore.Values.stringValue hostName_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> hostNameBuilder_;
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> hostNameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
@@ -3662,27 +3662,27 @@ public final class MiGetCurrentLocksAd {
           return hostNameBuilder_ != null || hostName_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue getHostName() {
+        public io.dstore.Values.stringValue getHostName() {
           if (hostNameBuilder_ == null) {
-            return hostName_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : hostName_;
+            return hostName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : hostName_;
           } else {
             return hostNameBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
-        public Builder setHostName(io.dstore.engine.Values.stringValue value) {
+        public Builder setHostName(io.dstore.Values.stringValue value) {
           if (hostNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3696,14 +3696,14 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
         public Builder setHostName(
-            io.dstore.engine.Values.stringValue.Builder builderForValue) {
+            io.dstore.Values.stringValue.Builder builderForValue) {
           if (hostNameBuilder_ == null) {
             hostName_ = builderForValue.build();
             onChanged();
@@ -3714,17 +3714,17 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
-        public Builder mergeHostName(io.dstore.engine.Values.stringValue value) {
+        public Builder mergeHostName(io.dstore.Values.stringValue value) {
           if (hostNameBuilder_ == null) {
             if (hostName_ != null) {
               hostName_ =
-                io.dstore.engine.Values.stringValue.newBuilder(hostName_).mergeFrom(value).buildPartial();
+                io.dstore.Values.stringValue.newBuilder(hostName_).mergeFrom(value).buildPartial();
             } else {
               hostName_ = value;
             }
@@ -3736,7 +3736,7 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
@@ -3754,45 +3754,45 @@ public final class MiGetCurrentLocksAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
-        public io.dstore.engine.Values.stringValue.Builder getHostNameBuilder() {
+        public io.dstore.Values.stringValue.Builder getHostNameBuilder() {
           
           onChanged();
           return getHostNameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
-        public io.dstore.engine.Values.stringValueOrBuilder getHostNameOrBuilder() {
+        public io.dstore.Values.stringValueOrBuilder getHostNameOrBuilder() {
           if (hostNameBuilder_ != null) {
             return hostNameBuilder_.getMessageOrBuilder();
           } else {
             return hostName_ == null ?
-                io.dstore.engine.Values.stringValue.getDefaultInstance() : hostName_;
+                io.dstore.Values.stringValue.getDefaultInstance() : hostName_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue host_name = 10011;</code>
+         * <code>optional .dstore.values.stringValue host_name = 10011;</code>
          *
          * <pre>
          * Name des Host-Rechners, der den Prozeß gestartet hat
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getHostNameFieldBuilder() {
           if (hostNameBuilder_ == null) {
             hostNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getHostName(),
                     getParentForChildren(),
                     isClean());
@@ -5362,36 +5362,34 @@ public final class MiGetCurrentLocksAd {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/mi_GetCurrent" +
       "Locks_Ad.proto\022#dstore.engine.mi_GetCurr" +
-      "entLocks_Ad\032\032dstore/engine/values.proto\032" +
-      "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\032#dstore/engine/metainfor" +
-      "mation.proto\"l\n\nParameters\022=\n\021server_pro" +
-      "cess_id\030\001 \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022\037\n\026server_process_id_null\030\351\007 \001" +
-      "(\010\"\203\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022H\n\020meta_information\030\002",
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022>\n\003row\030\004 \003(\01321.dst" +
-      "ore.engine.mi_GetCurrentLocks_Ad.Respons" +
-      "e.Row\032\220\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\007page_i" +
-      "d\030\221N \001(\0132\".dstore.engine.values.integerV" +
-      "alue\0226\n\nlogin_name\030\222N \001(\0132!.dstore.engin" +
-      "e.values.stringValue\0226\n\ntable_name\030\223N \001(" +
-      "\0132!.dstore.engine.values.stringValue\022:\n\016" +
-      "process_status\030\224N \001(\0132!.dstore.engine.va",
-      "lues.stringValue\0223\n\007command\030\225N \001(\0132!.dst" +
-      "ore.engine.values.stringValue\022@\n\023blockin" +
-      "g_process_id\030\226N \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022>\n\021server_process_id\030\227N " +
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      "9\n\rdatabase_name\030\230N \001(\0132!.dstore.engine." +
-      "values.stringValue\0226\n\nlock_class\030\231N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0225\n\tlo" +
-      "ck_type\030\232N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\0225\n\thost_name\030\233N \001(\0132!.dstore.e",
-      "ngine.values.stringValueB\035\n\033io.dstore.en" +
-      "gine.proceduresb\006proto3"
+      "entLocks_Ad\032\023dstore/values.proto\032\031dstore" +
+      "/engine/error.proto\032\033dstore/engine/messa" +
+      "ge.proto\032#dstore/engine/metainformation." +
+      "proto\"e\n\nParameters\0226\n\021server_process_id" +
+      "\030\001 \001(\0132\033.dstore.values.integerValue\022\037\n\026s" +
+      "erver_process_id_null\030\351\007 \001(\010\"\266\006\n\010Respons" +
+      "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
+      "rror\022H\n\020meta_information\030\002 \003(\0132..dstore.",
+      "engine.metainformation.MetaInformation\022/" +
+      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
+      "Message\022>\n\003row\030\004 \003(\01321.dstore.engine.mi_" +
+      "GetCurrentLocks_Ad.Response.Row\032\303\004\n\003Row\022" +
+      "\017\n\006row_id\030\220N \001(\005\022-\n\007page_id\030\221N \001(\0132\033.dst" +
+      "ore.values.integerValue\022/\n\nlogin_name\030\222N" +
+      " \001(\0132\032.dstore.values.stringValue\022/\n\ntabl" +
+      "e_name\030\223N \001(\0132\032.dstore.values.stringValu" +
+      "e\0223\n\016process_status\030\224N \001(\0132\032.dstore.valu" +
+      "es.stringValue\022,\n\007command\030\225N \001(\0132\032.dstor",
+      "e.values.stringValue\0229\n\023blocking_process" +
+      "_id\030\226N \001(\0132\033.dstore.values.integerValue\022" +
+      "7\n\021server_process_id\030\227N \001(\0132\033.dstore.val" +
+      "ues.integerValue\0222\n\rdatabase_name\030\230N \001(\013" +
+      "2\032.dstore.values.stringValue\022/\n\nlock_cla" +
+      "ss\030\231N \001(\0132\032.dstore.values.stringValue\022.\n" +
+      "\tlock_type\030\232N \001(\0132\032.dstore.values.string" +
+      "Value\022.\n\thost_name\030\233N \001(\0132\032.dstore.value" +
+      "s.stringValueB\035\n\033io.dstore.engine.proced" +
+      "uresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5404,7 +5402,7 @@ public final class MiGetCurrentLocksAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -5427,7 +5425,7 @@ public final class MiGetCurrentLocksAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetCurrentLocks_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PageId", "LoginName", "TableName", "ProcessStatus", "Command", "BlockingProcessId", "ServerProcessId", "DatabaseName", "LockClass", "LockType", "HostName", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();

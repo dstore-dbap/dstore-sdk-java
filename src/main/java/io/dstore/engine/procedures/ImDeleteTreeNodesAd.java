@@ -13,17 +13,17 @@ public final class ImDeleteTreeNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
     boolean hasTreeNodeList();
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValue getTreeNodeList();
+    io.dstore.Values.stringValue getTreeNodeList();
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    io.dstore.engine.Values.stringValueOrBuilder getTreeNodeListOrBuilder();
+    io.dstore.Values.stringValueOrBuilder getTreeNodeListOrBuilder();
 
     /**
      * <code>optional bool tree_node_list_null = 1001;</code>
@@ -31,17 +31,17 @@ public final class ImDeleteTreeNodesAd {
     boolean getTreeNodeListNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+     * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
      */
     boolean hasCascadeClones();
     /**
-     * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+     * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
      */
-    io.dstore.engine.Values.booleanValue getCascadeClones();
+    io.dstore.Values.booleanValue getCascadeClones();
     /**
-     * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+     * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getCascadeClonesOrBuilder();
+    io.dstore.Values.booleanValueOrBuilder getCascadeClonesOrBuilder();
 
     /**
      * <code>optional bool cascade_clones_null = 1002;</code>
@@ -89,11 +89,11 @@ public final class ImDeleteTreeNodesAd {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              io.dstore.Values.stringValue.Builder subBuilder = null;
               if (treeNodeList_ != null) {
                 subBuilder = treeNodeList_.toBuilder();
               }
-              treeNodeList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
+              treeNodeList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeList_);
                 treeNodeList_ = subBuilder.buildPartial();
@@ -102,11 +102,11 @@ public final class ImDeleteTreeNodesAd {
               break;
             }
             case 18: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.Values.booleanValue.Builder subBuilder = null;
               if (cascadeClones_ != null) {
                 subBuilder = cascadeClones_.toBuilder();
               }
-              cascadeClones_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              cascadeClones_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cascadeClones_);
                 cascadeClones_ = subBuilder.buildPartial();
@@ -149,23 +149,23 @@ public final class ImDeleteTreeNodesAd {
     }
 
     public static final int TREE_NODE_LIST_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.stringValue treeNodeList_;
+    private io.dstore.Values.stringValue treeNodeList_;
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
     public boolean hasTreeNodeList() {
       return treeNodeList_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValue getTreeNodeList() {
-      return treeNodeList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeList_;
+    public io.dstore.Values.stringValue getTreeNodeList() {
+      return treeNodeList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeList_;
     }
     /**
-     * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+     * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
      */
-    public io.dstore.engine.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
+    public io.dstore.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
       return getTreeNodeList();
     }
 
@@ -179,23 +179,23 @@ public final class ImDeleteTreeNodesAd {
     }
 
     public static final int CASCADE_CLONES_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.booleanValue cascadeClones_;
+    private io.dstore.Values.booleanValue cascadeClones_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+     * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
      */
     public boolean hasCascadeClones() {
       return cascadeClones_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+     * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValue getCascadeClones() {
-      return cascadeClones_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : cascadeClones_;
+    public io.dstore.Values.booleanValue getCascadeClones() {
+      return cascadeClones_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : cascadeClones_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+     * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getCascadeClonesOrBuilder() {
+    public io.dstore.Values.booleanValueOrBuilder getCascadeClonesOrBuilder() {
       return getCascadeClones();
     }
 
@@ -469,29 +469,29 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.stringValue treeNodeList_ = null;
+      private io.dstore.Values.stringValue treeNodeList_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> treeNodeListBuilder_;
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> treeNodeListBuilder_;
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       public boolean hasTreeNodeList() {
         return treeNodeListBuilder_ != null || treeNodeList_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue getTreeNodeList() {
+      public io.dstore.Values.stringValue getTreeNodeList() {
         if (treeNodeListBuilder_ == null) {
-          return treeNodeList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeList_;
+          return treeNodeList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeList_;
         } else {
           return treeNodeListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public Builder setTreeNodeList(io.dstore.engine.Values.stringValue value) {
+      public Builder setTreeNodeList(io.dstore.Values.stringValue value) {
         if (treeNodeListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -505,10 +505,10 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       public Builder setTreeNodeList(
-          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+          io.dstore.Values.stringValue.Builder builderForValue) {
         if (treeNodeListBuilder_ == null) {
           treeNodeList_ = builderForValue.build();
           onChanged();
@@ -519,13 +519,13 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public Builder mergeTreeNodeList(io.dstore.engine.Values.stringValue value) {
+      public Builder mergeTreeNodeList(io.dstore.Values.stringValue value) {
         if (treeNodeListBuilder_ == null) {
           if (treeNodeList_ != null) {
             treeNodeList_ =
-              io.dstore.engine.Values.stringValue.newBuilder(treeNodeList_).mergeFrom(value).buildPartial();
+              io.dstore.Values.stringValue.newBuilder(treeNodeList_).mergeFrom(value).buildPartial();
           } else {
             treeNodeList_ = value;
           }
@@ -537,7 +537,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       public Builder clearTreeNodeList() {
         if (treeNodeListBuilder_ == null) {
@@ -551,33 +551,33 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValue.Builder getTreeNodeListBuilder() {
+      public io.dstore.Values.stringValue.Builder getTreeNodeListBuilder() {
         
         onChanged();
         return getTreeNodeListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
-      public io.dstore.engine.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
+      public io.dstore.Values.stringValueOrBuilder getTreeNodeListOrBuilder() {
         if (treeNodeListBuilder_ != null) {
           return treeNodeListBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeList_ == null ?
-              io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeList_;
+              io.dstore.Values.stringValue.getDefaultInstance() : treeNodeList_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue tree_node_list = 1;</code>
+       * <code>optional .dstore.values.stringValue tree_node_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTreeNodeListFieldBuilder() {
         if (treeNodeListBuilder_ == null) {
           treeNodeListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTreeNodeList(),
                   getParentForChildren(),
                   isClean());
@@ -612,29 +612,29 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue cascadeClones_ = null;
+      private io.dstore.Values.booleanValue cascadeClones_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> cascadeClonesBuilder_;
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> cascadeClonesBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
       public boolean hasCascadeClones() {
         return cascadeClonesBuilder_ != null || cascadeClones_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue getCascadeClones() {
+      public io.dstore.Values.booleanValue getCascadeClones() {
         if (cascadeClonesBuilder_ == null) {
-          return cascadeClones_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : cascadeClones_;
+          return cascadeClones_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : cascadeClones_;
         } else {
           return cascadeClonesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
-      public Builder setCascadeClones(io.dstore.engine.Values.booleanValue value) {
+      public Builder setCascadeClones(io.dstore.Values.booleanValue value) {
         if (cascadeClonesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
       public Builder setCascadeClones(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.Values.booleanValue.Builder builderForValue) {
         if (cascadeClonesBuilder_ == null) {
           cascadeClones_ = builderForValue.build();
           onChanged();
@@ -662,13 +662,13 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
-      public Builder mergeCascadeClones(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeCascadeClones(io.dstore.Values.booleanValue value) {
         if (cascadeClonesBuilder_ == null) {
           if (cascadeClones_ != null) {
             cascadeClones_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(cascadeClones_).mergeFrom(value).buildPartial();
+              io.dstore.Values.booleanValue.newBuilder(cascadeClones_).mergeFrom(value).buildPartial();
           } else {
             cascadeClones_ = value;
           }
@@ -680,7 +680,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
       public Builder clearCascadeClones() {
         if (cascadeClonesBuilder_ == null) {
@@ -694,33 +694,33 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getCascadeClonesBuilder() {
+      public io.dstore.Values.booleanValue.Builder getCascadeClonesBuilder() {
         
         onChanged();
         return getCascadeClonesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCascadeClonesOrBuilder() {
+      public io.dstore.Values.booleanValueOrBuilder getCascadeClonesOrBuilder() {
         if (cascadeClonesBuilder_ != null) {
           return cascadeClonesBuilder_.getMessageOrBuilder();
         } else {
           return cascadeClones_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : cascadeClones_;
+              io.dstore.Values.booleanValue.getDefaultInstance() : cascadeClones_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue cascade_clones = 2;</code>
+       * <code>optional .dstore.values.booleanValue cascade_clones = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCascadeClonesFieldBuilder() {
         if (cascadeClonesBuilder_ == null) {
           cascadeClonesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCascadeClones(),
                   getParentForChildren(),
                   isClean());
@@ -2911,22 +2911,22 @@ public final class ImDeleteTreeNodesAd {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/im_DeleteTree" +
       "Nodes_Ad.proto\022#dstore.engine.im_DeleteT" +
-      "reeNodes_Ad\032\032dstore/engine/values.proto\032" +
-      "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\032#dstore/engine/metainfor" +
-      "mation.proto\"\277\001\n\nParameters\0229\n\016tree_node" +
-      "_list\030\001 \001(\0132!.dstore.engine.values.strin" +
-      "gValue\022\034\n\023tree_node_list_null\030\351\007 \001(\010\022:\n\016" +
-      "cascade_clones\030\002 \001(\0132\".dstore.engine.val" +
-      "ues.booleanValue\022\034\n\023cascade_clones_null\030",
-      "\352\007 \001(\010\"\210\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dst" +
-      "ore.engine.error.Error\022H\n\020meta_informati" +
-      "on\030\002 \003(\0132..dstore.engine.metainformation" +
-      ".MetaInformation\022/\n\007message\030\003 \003(\0132\036.dsto" +
-      "re.engine.message.Message\022>\n\003row\030\004 \003(\01321" +
-      ".dstore.engine.im_DeleteTreeNodes_Ad.Res" +
-      "ponse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\035\n\033io." +
-      "dstore.engine.proceduresb\006proto3"
+      "reeNodes_Ad\032\023dstore/values.proto\032\031dstore" +
+      "/engine/error.proto\032\033dstore/engine/messa" +
+      "ge.proto\032#dstore/engine/metainformation." +
+      "proto\"\261\001\n\nParameters\0222\n\016tree_node_list\030\001" +
+      " \001(\0132\032.dstore.values.stringValue\022\034\n\023tree" +
+      "_node_list_null\030\351\007 \001(\010\0223\n\016cascade_clones" +
+      "\030\002 \001(\0132\033.dstore.values.booleanValue\022\034\n\023c" +
+      "ascade_clones_null\030\352\007 \001(\010\"\210\002\n\010Response\022)",
+      "\n\005error\030\001 \001(\0132\032.dstore.engine.error.Erro" +
+      "r\022H\n\020meta_information\030\002 \003(\0132..dstore.eng" +
+      "ine.metainformation.MetaInformation\022/\n\007m" +
+      "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
+      "sage\022>\n\003row\030\004 \003(\01321.dstore.engine.im_Del" +
+      "eteTreeNodes_Ad.Response.Row\032\026\n\003Row\022\017\n\006r" +
+      "ow_id\030\220N \001(\005B\035\n\033io.dstore.engine.procedu" +
+      "resb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2939,7 +2939,7 @@ public final class ImDeleteTreeNodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.engine.Values.getDescriptor(),
+          io.dstore.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
           io.dstore.engine.EngineMetaInformation.getDescriptor(),
@@ -2962,7 +2962,7 @@ public final class ImDeleteTreeNodesAd {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_DeleteTreeNodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.engine.Values.getDescriptor();
+    io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
     io.dstore.engine.EngineMetaInformation.getDescriptor();
