@@ -13,10 +13,14 @@ public final class ElasticNode {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 1;</code>
+     * <code>optional string description = 1;</code>
      */
-    java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field>
-    getFields();
+    java.lang.String getDescription();
+    /**
+     * <code>optional string description = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getDescriptionBytes();
 
     /**
      * <code>optional int32 tree_node_id = 2;</code>
@@ -34,17 +38,28 @@ public final class ElasticNode {
     int getLevelId();
 
     /**
-     * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+     * <code>optional int32 sort_no = 5;</code>
+     */
+    int getSortNo();
+
+    /**
+     * <code>repeated int32 predecessor_tree_node_id = 6;</code>
      */
     java.util.List<java.lang.Integer> getPredecessorTreeNodeIdList();
     /**
-     * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+     * <code>repeated int32 predecessor_tree_node_id = 6;</code>
      */
     int getPredecessorTreeNodeIdCount();
     /**
-     * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+     * <code>repeated int32 predecessor_tree_node_id = 6;</code>
      */
     int getPredecessorTreeNodeId(int index);
+
+    /**
+     * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 20;</code>
+     */
+    java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field>
+    getFields();
   }
   /**
    * Protobuf type {@code dstore.elastic.node.Node}
@@ -58,9 +73,11 @@ public final class ElasticNode {
       super(builder);
     }
     private Node() {
+      description_ = "";
       treeNodeId_ = 0;
       active_ = false;
       levelId_ = 0;
+      sortNo_ = 0;
       predecessorTreeNodeId_ = java.util.Collections.emptyList();
     }
 
@@ -89,15 +106,9 @@ public final class ElasticNode {
               break;
             }
             case 10: {
-              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                fields_ = com.google.protobuf.MapField.newMapField(
-                    FieldsDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
-              }
-              com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Elastic.Field>
-              fields = input.readMessage(
-                  FieldsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              fields_.getMutableMap().put(fields.getKey(), fields.getValue());
+              String s = input.readStringRequireUtf8();
+
+              description_ = s;
               break;
             }
             case 16: {
@@ -116,24 +127,41 @@ public final class ElasticNode {
               break;
             }
             case 40: {
-              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+
+              sortNo_ = input.readInt32();
+              break;
+            }
+            case 48: {
+              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
                 predecessorTreeNodeId_ = new java.util.ArrayList<java.lang.Integer>();
-                mutable_bitField0_ |= 0x00000010;
+                mutable_bitField0_ |= 0x00000020;
               }
               predecessorTreeNodeId_.add(input.readInt32());
               break;
             }
-            case 42: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020) && input.getBytesUntilLimit() > 0) {
                 predecessorTreeNodeId_ = new java.util.ArrayList<java.lang.Integer>();
-                mutable_bitField0_ |= 0x00000010;
+                mutable_bitField0_ |= 0x00000020;
               }
               while (input.getBytesUntilLimit() > 0) {
                 predecessorTreeNodeId_.add(input.readInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 162: {
+              if (!((mutable_bitField0_ & 0x00000040) == 0x00000040)) {
+                fields_ = com.google.protobuf.MapField.newMapField(
+                    FieldsDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000040;
+              }
+              com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Elastic.Field>
+              fields = input.readMessage(
+                  FieldsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              fields_.getMutableMap().put(fields.getKey(), fields.getValue());
               break;
             }
           }
@@ -145,7 +173,7 @@ public final class ElasticNode {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+        if (((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
           predecessorTreeNodeId_ = java.util.Collections.unmodifiableList(predecessorTreeNodeId_);
         }
         makeExtensionsImmutable();
@@ -160,7 +188,7 @@ public final class ElasticNode {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 1:
+        case 20:
           return internalGetFields();
         default:
           throw new RuntimeException(
@@ -175,34 +203,38 @@ public final class ElasticNode {
     }
 
     private int bitField0_;
-    public static final int FIELDS_FIELD_NUMBER = 1;
-    private static final class FieldsDefaultEntryHolder {
-      static final com.google.protobuf.MapEntry<
-          java.lang.String, io.dstore.elastic.Elastic.Field> defaultEntry =
-              com.google.protobuf.MapEntry
-              .<java.lang.String, io.dstore.elastic.Elastic.Field>newDefaultInstance(
-                  io.dstore.elastic.item.ElasticNode.internal_static_dstore_elastic_node_Node_FieldsEntry_descriptor, 
-                  com.google.protobuf.WireFormat.FieldType.STRING,
-                  "",
-                  com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  io.dstore.elastic.Elastic.Field.getDefaultInstance());
-    }
-    private com.google.protobuf.MapField<
-        java.lang.String, io.dstore.elastic.Elastic.Field> fields_;
-    private com.google.protobuf.MapField<java.lang.String, io.dstore.elastic.Elastic.Field>
-    internalGetFields() {
-      if (fields_ == null) {
-        return com.google.protobuf.MapField.emptyMapField(
-            FieldsDefaultEntryHolder.defaultEntry);
-     }
-      return fields_;
+    public static final int DESCRIPTION_FIELD_NUMBER = 1;
+    private volatile java.lang.Object description_;
+    /**
+     * <code>optional string description = 1;</code>
+     */
+    public java.lang.String getDescription() {
+      java.lang.Object ref = description_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        description_ = s;
+        return s;
+      }
     }
     /**
-     * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 1;</code>
+     * <code>optional string description = 1;</code>
      */
-
-    public java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field> getFields() {
-      return internalGetFields().getMap();
+    public com.google.protobuf.ByteString
+        getDescriptionBytes() {
+      java.lang.Object ref = description_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        description_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 2;
@@ -232,28 +264,67 @@ public final class ElasticNode {
       return levelId_;
     }
 
-    public static final int PREDECESSOR_TREE_NODE_ID_FIELD_NUMBER = 5;
+    public static final int SORT_NO_FIELD_NUMBER = 5;
+    private int sortNo_;
+    /**
+     * <code>optional int32 sort_no = 5;</code>
+     */
+    public int getSortNo() {
+      return sortNo_;
+    }
+
+    public static final int PREDECESSOR_TREE_NODE_ID_FIELD_NUMBER = 6;
     private java.util.List<java.lang.Integer> predecessorTreeNodeId_;
     /**
-     * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+     * <code>repeated int32 predecessor_tree_node_id = 6;</code>
      */
     public java.util.List<java.lang.Integer>
         getPredecessorTreeNodeIdList() {
       return predecessorTreeNodeId_;
     }
     /**
-     * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+     * <code>repeated int32 predecessor_tree_node_id = 6;</code>
      */
     public int getPredecessorTreeNodeIdCount() {
       return predecessorTreeNodeId_.size();
     }
     /**
-     * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+     * <code>repeated int32 predecessor_tree_node_id = 6;</code>
      */
     public int getPredecessorTreeNodeId(int index) {
       return predecessorTreeNodeId_.get(index);
     }
     private int predecessorTreeNodeIdMemoizedSerializedSize = -1;
+
+    public static final int FIELDS_FIELD_NUMBER = 20;
+    private static final class FieldsDefaultEntryHolder {
+      static final com.google.protobuf.MapEntry<
+          java.lang.String, io.dstore.elastic.Elastic.Field> defaultEntry =
+              com.google.protobuf.MapEntry
+              .<java.lang.String, io.dstore.elastic.Elastic.Field>newDefaultInstance(
+                  io.dstore.elastic.item.ElasticNode.internal_static_dstore_elastic_node_Node_FieldsEntry_descriptor, 
+                  com.google.protobuf.WireFormat.FieldType.STRING,
+                  "",
+                  com.google.protobuf.WireFormat.FieldType.MESSAGE,
+                  io.dstore.elastic.Elastic.Field.getDefaultInstance());
+    }
+    private com.google.protobuf.MapField<
+        java.lang.String, io.dstore.elastic.Elastic.Field> fields_;
+    private com.google.protobuf.MapField<java.lang.String, io.dstore.elastic.Elastic.Field>
+    internalGetFields() {
+      if (fields_ == null) {
+        return com.google.protobuf.MapField.emptyMapField(
+            FieldsDefaultEntryHolder.defaultEntry);
+     }
+      return fields_;
+    }
+    /**
+     * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 20;</code>
+     */
+
+    public java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field> getFields() {
+      return internalGetFields().getMap();
+    }
 
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -268,14 +339,8 @@ public final class ElasticNode {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (java.util.Map.Entry<java.lang.String, io.dstore.elastic.Elastic.Field> entry
-           : internalGetFields().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Elastic.Field>
-        fields = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        output.writeMessage(1, fields);
+      if (!getDescriptionBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, description_);
       }
       if (treeNodeId_ != 0) {
         output.writeInt32(2, treeNodeId_);
@@ -286,12 +351,24 @@ public final class ElasticNode {
       if (levelId_ != 0) {
         output.writeInt32(4, levelId_);
       }
+      if (sortNo_ != 0) {
+        output.writeInt32(5, sortNo_);
+      }
       if (getPredecessorTreeNodeIdList().size() > 0) {
-        output.writeRawVarint32(42);
+        output.writeRawVarint32(50);
         output.writeRawVarint32(predecessorTreeNodeIdMemoizedSerializedSize);
       }
       for (int i = 0; i < predecessorTreeNodeId_.size(); i++) {
         output.writeInt32NoTag(predecessorTreeNodeId_.get(i));
+      }
+      for (java.util.Map.Entry<java.lang.String, io.dstore.elastic.Elastic.Field> entry
+           : internalGetFields().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Elastic.Field>
+        fields = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        output.writeMessage(20, fields);
       }
     }
 
@@ -300,15 +377,8 @@ public final class ElasticNode {
       if (size != -1) return size;
 
       size = 0;
-      for (java.util.Map.Entry<java.lang.String, io.dstore.elastic.Elastic.Field> entry
-           : internalGetFields().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Elastic.Field>
-        fields = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1, fields);
+      if (!getDescriptionBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, description_);
       }
       if (treeNodeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -321,6 +391,10 @@ public final class ElasticNode {
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(4, levelId_);
+      }
+      if (sortNo_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(5, sortNo_);
       }
       {
         int dataSize = 0;
@@ -335,6 +409,16 @@ public final class ElasticNode {
               .computeInt32SizeNoTag(dataSize);
         }
         predecessorTreeNodeIdMemoizedSerializedSize = dataSize;
+      }
+      for (java.util.Map.Entry<java.lang.String, io.dstore.elastic.Elastic.Field> entry
+           : internalGetFields().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Elastic.Field>
+        fields = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(20, fields);
       }
       memoizedSize = size;
       return size;
@@ -428,7 +512,7 @@ public final class ElasticNode {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 1:
+          case 20:
             return internalGetFields();
           default:
             throw new RuntimeException(
@@ -439,7 +523,7 @@ public final class ElasticNode {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 1:
+          case 20:
             return internalGetMutableFields();
           default:
             throw new RuntimeException(
@@ -469,15 +553,19 @@ public final class ElasticNode {
       }
       public Builder clear() {
         super.clear();
-        internalGetMutableFields().clear();
+        description_ = "";
+
         treeNodeId_ = 0;
 
         active_ = false;
 
         levelId_ = 0;
 
+        sortNo_ = 0;
+
         predecessorTreeNodeId_ = java.util.Collections.emptyList();
-        bitField0_ = (bitField0_ & ~0x00000010);
+        bitField0_ = (bitField0_ & ~0x00000020);
+        internalGetMutableFields().clear();
         return this;
       }
 
@@ -502,16 +590,18 @@ public final class ElasticNode {
         io.dstore.elastic.item.ElasticNode.Node result = new io.dstore.elastic.item.ElasticNode.Node(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
-        result.fields_ = internalGetFields();
-        result.fields_.makeImmutable();
+        result.description_ = description_;
         result.treeNodeId_ = treeNodeId_;
         result.active_ = active_;
         result.levelId_ = levelId_;
-        if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        result.sortNo_ = sortNo_;
+        if (((bitField0_ & 0x00000020) == 0x00000020)) {
           predecessorTreeNodeId_ = java.util.Collections.unmodifiableList(predecessorTreeNodeId_);
-          bitField0_ = (bitField0_ & ~0x00000010);
+          bitField0_ = (bitField0_ & ~0x00000020);
         }
         result.predecessorTreeNodeId_ = predecessorTreeNodeId_;
+        result.fields_ = internalGetFields();
+        result.fields_.makeImmutable();
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -528,8 +618,10 @@ public final class ElasticNode {
 
       public Builder mergeFrom(io.dstore.elastic.item.ElasticNode.Node other) {
         if (other == io.dstore.elastic.item.ElasticNode.Node.getDefaultInstance()) return this;
-        internalGetMutableFields().mergeFrom(
-            other.internalGetFields());
+        if (!other.getDescription().isEmpty()) {
+          description_ = other.description_;
+          onChanged();
+        }
         if (other.getTreeNodeId() != 0) {
           setTreeNodeId(other.getTreeNodeId());
         }
@@ -539,16 +631,21 @@ public final class ElasticNode {
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
+        if (other.getSortNo() != 0) {
+          setSortNo(other.getSortNo());
+        }
         if (!other.predecessorTreeNodeId_.isEmpty()) {
           if (predecessorTreeNodeId_.isEmpty()) {
             predecessorTreeNodeId_ = other.predecessorTreeNodeId_;
-            bitField0_ = (bitField0_ & ~0x00000010);
+            bitField0_ = (bitField0_ & ~0x00000020);
           } else {
             ensurePredecessorTreeNodeIdIsMutable();
             predecessorTreeNodeId_.addAll(other.predecessorTreeNodeId_);
           }
           onChanged();
         }
+        internalGetMutableFields().mergeFrom(
+            other.internalGetFields());
         onChanged();
         return this;
       }
@@ -576,47 +673,72 @@ public final class ElasticNode {
       }
       private int bitField0_;
 
-      private com.google.protobuf.MapField<
-          java.lang.String, io.dstore.elastic.Elastic.Field> fields_;
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.elastic.Elastic.Field>
-      internalGetFields() {
-        if (fields_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              FieldsDefaultEntryHolder.defaultEntry);
-       }
-        return fields_;
-      }
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.elastic.Elastic.Field>
-      internalGetMutableFields() {
-        onChanged();;
-        if (fields_ == null) {
-          fields_ = com.google.protobuf.MapField.newMapField(
-              FieldsDefaultEntryHolder.defaultEntry);
+      private java.lang.Object description_ = "";
+      /**
+       * <code>optional string description = 1;</code>
+       */
+      public java.lang.String getDescription() {
+        java.lang.Object ref = description_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          description_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
         }
-        if (!fields_.isMutable()) {
-          fields_ = fields_.copy();
+      }
+      /**
+       * <code>optional string description = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getDescriptionBytes() {
+        java.lang.Object ref = description_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          description_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
         }
-        return fields_;
       }
       /**
-       * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 1;</code>
+       * <code>optional string description = 1;</code>
        */
-      public java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field> getFields() {
-        return internalGetFields().getMap();
+      public Builder setDescription(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        description_ = value;
+        onChanged();
+        return this;
       }
       /**
-       * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 1;</code>
+       * <code>optional string description = 1;</code>
        */
-      public java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field>
-      getMutableFields() {
-        return internalGetMutableFields().getMutableMap();
+      public Builder clearDescription() {
+        
+        description_ = getDefaultInstance().getDescription();
+        onChanged();
+        return this;
       }
       /**
-       * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 1;</code>
+       * <code>optional string description = 1;</code>
        */
-      public Builder putAllFields(
-          java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field> values) {
-        getMutableFields().putAll(values);
+      public Builder setDescriptionBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        description_ = value;
+        onChanged();
         return this;
       }
 
@@ -698,34 +820,60 @@ public final class ElasticNode {
         return this;
       }
 
+      private int sortNo_ ;
+      /**
+       * <code>optional int32 sort_no = 5;</code>
+       */
+      public int getSortNo() {
+        return sortNo_;
+      }
+      /**
+       * <code>optional int32 sort_no = 5;</code>
+       */
+      public Builder setSortNo(int value) {
+        
+        sortNo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int32 sort_no = 5;</code>
+       */
+      public Builder clearSortNo() {
+        
+        sortNo_ = 0;
+        onChanged();
+        return this;
+      }
+
       private java.util.List<java.lang.Integer> predecessorTreeNodeId_ = java.util.Collections.emptyList();
       private void ensurePredecessorTreeNodeIdIsMutable() {
-        if (!((bitField0_ & 0x00000010) == 0x00000010)) {
+        if (!((bitField0_ & 0x00000020) == 0x00000020)) {
           predecessorTreeNodeId_ = new java.util.ArrayList<java.lang.Integer>(predecessorTreeNodeId_);
-          bitField0_ |= 0x00000010;
+          bitField0_ |= 0x00000020;
          }
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public java.util.List<java.lang.Integer>
           getPredecessorTreeNodeIdList() {
         return java.util.Collections.unmodifiableList(predecessorTreeNodeId_);
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public int getPredecessorTreeNodeIdCount() {
         return predecessorTreeNodeId_.size();
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public int getPredecessorTreeNodeId(int index) {
         return predecessorTreeNodeId_.get(index);
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public Builder setPredecessorTreeNodeId(
           int index, int value) {
@@ -735,7 +883,7 @@ public final class ElasticNode {
         return this;
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public Builder addPredecessorTreeNodeId(int value) {
         ensurePredecessorTreeNodeIdIsMutable();
@@ -744,7 +892,7 @@ public final class ElasticNode {
         return this;
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public Builder addAllPredecessorTreeNodeId(
           java.lang.Iterable<? extends java.lang.Integer> values) {
@@ -755,12 +903,56 @@ public final class ElasticNode {
         return this;
       }
       /**
-       * <code>repeated int32 predecessor_tree_node_id = 5;</code>
+       * <code>repeated int32 predecessor_tree_node_id = 6;</code>
        */
       public Builder clearPredecessorTreeNodeId() {
         predecessorTreeNodeId_ = java.util.Collections.emptyList();
-        bitField0_ = (bitField0_ & ~0x00000010);
+        bitField0_ = (bitField0_ & ~0x00000020);
         onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.String, io.dstore.elastic.Elastic.Field> fields_;
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.elastic.Elastic.Field>
+      internalGetFields() {
+        if (fields_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              FieldsDefaultEntryHolder.defaultEntry);
+       }
+        return fields_;
+      }
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.elastic.Elastic.Field>
+      internalGetMutableFields() {
+        onChanged();;
+        if (fields_ == null) {
+          fields_ = com.google.protobuf.MapField.newMapField(
+              FieldsDefaultEntryHolder.defaultEntry);
+        }
+        if (!fields_.isMutable()) {
+          fields_ = fields_.copy();
+        }
+        return fields_;
+      }
+      /**
+       * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 20;</code>
+       */
+      public java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field> getFields() {
+        return internalGetFields().getMap();
+      }
+      /**
+       * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 20;</code>
+       */
+      public java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field>
+      getMutableFields() {
+        return internalGetMutableFields().getMutableMap();
+      }
+      /**
+       * <code>map&lt;string, .dstore.elastic.Field&gt; fields = 20;</code>
+       */
+      public Builder putAllFields(
+          java.util.Map<java.lang.String, io.dstore.elastic.Elastic.Field> values) {
+        getMutableFields().putAll(values);
         return this;
       }
       public final Builder setUnknownFields(
@@ -842,13 +1034,14 @@ public final class ElasticNode {
     java.lang.String[] descriptorData = {
       "\n\036dstore/elastic/item/node.proto\022\023dstore" +
       ".elastic.node\032\034dstore/elastic/elastic.pr" +
-      "oto\"\335\001\n\004Node\0225\n\006fields\030\001 \003(\0132%.dstore.el" +
-      "astic.node.Node.FieldsEntry\022\024\n\014tree_node" +
-      "_id\030\002 \001(\005\022\016\n\006active\030\003 \001(\010\022\020\n\010level_id\030\004 " +
-      "\001(\005\022 \n\030predecessor_tree_node_id\030\005 \003(\005\032D\n" +
-      "\013FieldsEntry\022\013\n\003key\030\001 \001(\t\022$\n\005value\030\002 \001(\013" +
-      "2\025.dstore.elastic.Field:\0028\001B%\n\026io.dstore" +
-      ".elastic.itemB\013ElasticNodeb\006proto3"
+      "oto\"\203\002\n\004Node\022\023\n\013description\030\001 \001(\t\022\024\n\014tre" +
+      "e_node_id\030\002 \001(\005\022\016\n\006active\030\003 \001(\010\022\020\n\010level" +
+      "_id\030\004 \001(\005\022\017\n\007sort_no\030\005 \001(\005\022 \n\030predecesso" +
+      "r_tree_node_id\030\006 \003(\005\0225\n\006fields\030\024 \003(\0132%.d" +
+      "store.elastic.node.Node.FieldsEntry\032D\n\013F" +
+      "ieldsEntry\022\013\n\003key\030\001 \001(\t\022$\n\005value\030\002 \001(\0132\025" +
+      ".dstore.elastic.Field:\0028\001B%\n\026io.dstore.e" +
+      "lastic.itemB\013ElasticNodeb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -868,7 +1061,7 @@ public final class ElasticNode {
     internal_static_dstore_elastic_node_Node_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_node_Node_descriptor,
-        new java.lang.String[] { "Fields", "TreeNodeId", "Active", "LevelId", "PredecessorTreeNodeId", });
+        new java.lang.String[] { "Description", "TreeNodeId", "Active", "LevelId", "SortNo", "PredecessorTreeNodeId", "Fields", });
     internal_static_dstore_elastic_node_Node_FieldsEntry_descriptor =
       internal_static_dstore_elastic_node_Node_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_node_Node_FieldsEntry_fieldAccessorTable = new

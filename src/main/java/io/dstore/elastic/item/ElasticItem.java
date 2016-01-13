@@ -50,22 +50,42 @@ public final class ElasticItem {
         int index);
 
     /**
-     * <code>optional double score = 3;</code>
+     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     */
+    boolean hasLastUpdated();
+    /**
+     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     */
+    io.dstore.Values.timestampValue getLastUpdated();
+    /**
+     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     */
+    io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder();
+
+    /**
+     * <code>optional double score = 10;</code>
      */
     double getScore();
 
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+     * <code>optional string index_name = 11;</code>
      */
-    boolean hasLastUpdated();
+    java.lang.String getIndexName();
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+     * <code>optional string index_name = 11;</code>
      */
-    io.dstore.Values.timestampValue getLastUpdated();
+    com.google.protobuf.ByteString
+        getIndexNameBytes();
+
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+     * <code>optional string document_id = 12;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder();
+    java.lang.String getDocumentId();
+    /**
+     * <code>optional string document_id = 12;</code>
+     */
+    com.google.protobuf.ByteString
+        getDocumentIdBytes();
   }
   /**
    * Protobuf type {@code dstore.elastic.item.Item}
@@ -81,6 +101,8 @@ public final class ElasticItem {
     private Item() {
       variantNode_ = java.util.Collections.emptyList();
       score_ = 0D;
+      indexName_ = "";
+      documentId_ = "";
     }
 
     @java.lang.Override
@@ -128,12 +150,7 @@ public final class ElasticItem {
               variantNode_.add(input.readMessage(io.dstore.elastic.item.ElasticNode.Node.parser(), extensionRegistry));
               break;
             }
-            case 25: {
-
-              score_ = input.readDouble();
-              break;
-            }
-            case 34: {
+            case 26: {
               io.dstore.Values.timestampValue.Builder subBuilder = null;
               if (lastUpdated_ != null) {
                 subBuilder = lastUpdated_.toBuilder();
@@ -144,6 +161,23 @@ public final class ElasticItem {
                 lastUpdated_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 81: {
+
+              score_ = input.readDouble();
+              break;
+            }
+            case 90: {
+              String s = input.readStringRequireUtf8();
+
+              indexName_ = s;
+              break;
+            }
+            case 98: {
+              String s = input.readStringRequireUtf8();
+
+              documentId_ = s;
               break;
             }
           }
@@ -230,34 +264,102 @@ public final class ElasticItem {
       return variantNode_.get(index);
     }
 
-    public static final int SCORE_FIELD_NUMBER = 3;
-    private double score_;
-    /**
-     * <code>optional double score = 3;</code>
-     */
-    public double getScore() {
-      return score_;
-    }
-
-    public static final int LAST_UPDATED_FIELD_NUMBER = 4;
+    public static final int LAST_UPDATED_FIELD_NUMBER = 3;
     private io.dstore.Values.timestampValue lastUpdated_;
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
      */
     public boolean hasLastUpdated() {
       return lastUpdated_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
      */
     public io.dstore.Values.timestampValue getLastUpdated() {
       return lastUpdated_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastUpdated_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
      */
     public io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder() {
       return getLastUpdated();
+    }
+
+    public static final int SCORE_FIELD_NUMBER = 10;
+    private double score_;
+    /**
+     * <code>optional double score = 10;</code>
+     */
+    public double getScore() {
+      return score_;
+    }
+
+    public static final int INDEX_NAME_FIELD_NUMBER = 11;
+    private volatile java.lang.Object indexName_;
+    /**
+     * <code>optional string index_name = 11;</code>
+     */
+    public java.lang.String getIndexName() {
+      java.lang.Object ref = indexName_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        indexName_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string index_name = 11;</code>
+     */
+    public com.google.protobuf.ByteString
+        getIndexNameBytes() {
+      java.lang.Object ref = indexName_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        indexName_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int DOCUMENT_ID_FIELD_NUMBER = 12;
+    private volatile java.lang.Object documentId_;
+    /**
+     * <code>optional string document_id = 12;</code>
+     */
+    public java.lang.String getDocumentId() {
+      java.lang.Object ref = documentId_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        documentId_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string document_id = 12;</code>
+     */
+    public com.google.protobuf.ByteString
+        getDocumentIdBytes() {
+      java.lang.Object ref = documentId_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        documentId_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
     }
 
     private byte memoizedIsInitialized = -1;
@@ -278,11 +380,17 @@ public final class ElasticItem {
       for (int i = 0; i < variantNode_.size(); i++) {
         output.writeMessage(2, variantNode_.get(i));
       }
-      if (score_ != 0D) {
-        output.writeDouble(3, score_);
-      }
       if (lastUpdated_ != null) {
-        output.writeMessage(4, getLastUpdated());
+        output.writeMessage(3, getLastUpdated());
+      }
+      if (score_ != 0D) {
+        output.writeDouble(10, score_);
+      }
+      if (!getIndexNameBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 11, indexName_);
+      }
+      if (!getDocumentIdBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 12, documentId_);
       }
     }
 
@@ -299,13 +407,19 @@ public final class ElasticItem {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, variantNode_.get(i));
       }
-      if (score_ != 0D) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(3, score_);
-      }
       if (lastUpdated_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getLastUpdated());
+          .computeMessageSize(3, getLastUpdated());
+      }
+      if (score_ != 0D) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(10, score_);
+      }
+      if (!getIndexNameBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(11, indexName_);
+      }
+      if (!getDocumentIdBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(12, documentId_);
       }
       memoizedSize = size;
       return size;
@@ -431,14 +545,18 @@ public final class ElasticItem {
         } else {
           variantNodeBuilder_.clear();
         }
-        score_ = 0D;
-
         if (lastUpdatedBuilder_ == null) {
           lastUpdated_ = null;
         } else {
           lastUpdated_ = null;
           lastUpdatedBuilder_ = null;
         }
+        score_ = 0D;
+
+        indexName_ = "";
+
+        documentId_ = "";
+
         return this;
       }
 
@@ -477,12 +595,14 @@ public final class ElasticItem {
         } else {
           result.variantNode_ = variantNodeBuilder_.build();
         }
-        result.score_ = score_;
         if (lastUpdatedBuilder_ == null) {
           result.lastUpdated_ = lastUpdated_;
         } else {
           result.lastUpdated_ = lastUpdatedBuilder_.build();
         }
+        result.score_ = score_;
+        result.indexName_ = indexName_;
+        result.documentId_ = documentId_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -528,11 +648,19 @@ public final class ElasticItem {
             }
           }
         }
+        if (other.hasLastUpdated()) {
+          mergeLastUpdated(other.getLastUpdated());
+        }
         if (other.getScore() != 0D) {
           setScore(other.getScore());
         }
-        if (other.hasLastUpdated()) {
-          mergeLastUpdated(other.getLastUpdated());
+        if (!other.getIndexName().isEmpty()) {
+          indexName_ = other.indexName_;
+          onChanged();
+        }
+        if (!other.getDocumentId().isEmpty()) {
+          documentId_ = other.documentId_;
+          onChanged();
         }
         onChanged();
         return this;
@@ -918,43 +1046,17 @@ public final class ElasticItem {
         return variantNodeBuilder_;
       }
 
-      private double score_ ;
-      /**
-       * <code>optional double score = 3;</code>
-       */
-      public double getScore() {
-        return score_;
-      }
-      /**
-       * <code>optional double score = 3;</code>
-       */
-      public Builder setScore(double value) {
-        
-        score_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional double score = 3;</code>
-       */
-      public Builder clearScore() {
-        
-        score_ = 0D;
-        onChanged();
-        return this;
-      }
-
       private io.dstore.Values.timestampValue lastUpdated_ = null;
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastUpdatedBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public boolean hasLastUpdated() {
         return lastUpdatedBuilder_ != null || lastUpdated_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public io.dstore.Values.timestampValue getLastUpdated() {
         if (lastUpdatedBuilder_ == null) {
@@ -964,7 +1066,7 @@ public final class ElasticItem {
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public Builder setLastUpdated(io.dstore.Values.timestampValue value) {
         if (lastUpdatedBuilder_ == null) {
@@ -980,7 +1082,7 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public Builder setLastUpdated(
           io.dstore.Values.timestampValue.Builder builderForValue) {
@@ -994,7 +1096,7 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public Builder mergeLastUpdated(io.dstore.Values.timestampValue value) {
         if (lastUpdatedBuilder_ == null) {
@@ -1012,7 +1114,7 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public Builder clearLastUpdated() {
         if (lastUpdatedBuilder_ == null) {
@@ -1026,7 +1128,7 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public io.dstore.Values.timestampValue.Builder getLastUpdatedBuilder() {
         
@@ -1034,7 +1136,7 @@ public final class ElasticItem {
         return getLastUpdatedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       public io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder() {
         if (lastUpdatedBuilder_ != null) {
@@ -1045,7 +1147,7 @@ public final class ElasticItem {
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue last_updated = 4;</code>
+       * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
@@ -1059,6 +1161,170 @@ public final class ElasticItem {
           lastUpdated_ = null;
         }
         return lastUpdatedBuilder_;
+      }
+
+      private double score_ ;
+      /**
+       * <code>optional double score = 10;</code>
+       */
+      public double getScore() {
+        return score_;
+      }
+      /**
+       * <code>optional double score = 10;</code>
+       */
+      public Builder setScore(double value) {
+        
+        score_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional double score = 10;</code>
+       */
+      public Builder clearScore() {
+        
+        score_ = 0D;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object indexName_ = "";
+      /**
+       * <code>optional string index_name = 11;</code>
+       */
+      public java.lang.String getIndexName() {
+        java.lang.Object ref = indexName_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          indexName_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string index_name = 11;</code>
+       */
+      public com.google.protobuf.ByteString
+          getIndexNameBytes() {
+        java.lang.Object ref = indexName_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          indexName_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string index_name = 11;</code>
+       */
+      public Builder setIndexName(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        indexName_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string index_name = 11;</code>
+       */
+      public Builder clearIndexName() {
+        
+        indexName_ = getDefaultInstance().getIndexName();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string index_name = 11;</code>
+       */
+      public Builder setIndexNameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        indexName_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object documentId_ = "";
+      /**
+       * <code>optional string document_id = 12;</code>
+       */
+      public java.lang.String getDocumentId() {
+        java.lang.Object ref = documentId_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          documentId_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string document_id = 12;</code>
+       */
+      public com.google.protobuf.ByteString
+          getDocumentIdBytes() {
+        java.lang.Object ref = documentId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          documentId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string document_id = 12;</code>
+       */
+      public Builder setDocumentId(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        documentId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string document_id = 12;</code>
+       */
+      public Builder clearDocumentId() {
+        
+        documentId_ = getDefaultInstance().getDocumentId();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string document_id = 12;</code>
+       */
+      public Builder setDocumentIdBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        documentId_ = value;
+        onChanged();
+        return this;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -2657,18 +2923,19 @@ public final class ElasticItem {
       "\n\036dstore/elastic/item/item.proto\022\023dstore" +
       ".elastic.item\032\034dstore/elastic/elastic.pr" +
       "oto\032\036dstore/elastic/item/node.proto\032\023dst" +
-      "ore/values.proto\"\244\001\n\004Item\022\'\n\004node\030\001 \001(\0132" +
+      "ore/values.proto\"\315\001\n\004Item\022\'\n\004node\030\001 \001(\0132" +
       "\031.dstore.elastic.node.Node\022/\n\014variant_no" +
-      "de\030\002 \003(\0132\031.dstore.elastic.node.Node\022\r\n\005s" +
-      "core\030\003 \001(\001\0223\n\014last_updated\030\004 \001(\0132\035.dstor" +
-      "e.values.timestampValue\"\321\001\n\005Facet\022\022\n\nfie" +
-      "ld_name\030\001 \001(\t\022:\n\013facet_value\030\002 \003(\0132%.dst" +
-      "ore.elastic.item.Facet.FacetValue\032x\n\nFac",
-      "etValue\022#\n\005value\030\001 \001(\0132\024.dstore.values.V" +
-      "alue\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023matchi" +
-      "ng_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010B%\n\026i" +
-      "o.dstore.elastic.itemB\013ElasticItemb\006prot" +
-      "o3"
+      "de\030\002 \003(\0132\031.dstore.elastic.node.Node\0223\n\014l" +
+      "ast_updated\030\003 \001(\0132\035.dstore.values.timest" +
+      "ampValue\022\r\n\005score\030\n \001(\001\022\022\n\nindex_name\030\013 " +
+      "\001(\t\022\023\n\013document_id\030\014 \001(\t\"\321\001\n\005Facet\022\022\n\nfi" +
+      "eld_name\030\001 \001(\t\022:\n\013facet_value\030\002 \003(\0132%.ds",
+      "tore.elastic.item.Facet.FacetValue\032x\n\nFa" +
+      "cetValue\022#\n\005value\030\001 \001(\0132\024.dstore.values." +
+      "Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023match" +
+      "ing_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010B%\n\026" +
+      "io.dstore.elastic.itemB\013ElasticItemb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2690,7 +2957,7 @@ public final class ElasticItem {
     internal_static_dstore_elastic_item_Item_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_item_Item_descriptor,
-        new java.lang.String[] { "Node", "VariantNode", "Score", "LastUpdated", });
+        new java.lang.String[] { "Node", "VariantNode", "LastUpdated", "Score", "IndexName", "DocumentId", });
     internal_static_dstore_elastic_item_Facet_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_elastic_item_Facet_fieldAccessorTable = new
