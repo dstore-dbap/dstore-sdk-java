@@ -60,6 +60,9 @@ public class ValuesHelper {
 
     public static Object convertToObject(Values.ValueOrBuilder value) {
 
+        if (value == null)
+            return null;
+
         switch (value.getValueCase()) {
             case BOOLEAN_VALUE:
                 return (value.getBooleanValue().getValue());
