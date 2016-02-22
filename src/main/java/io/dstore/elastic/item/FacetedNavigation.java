@@ -322,7 +322,7 @@ public final class FacetedNavigation {
                 break;
               }
               case 10: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 fieldName_ = s;
                 break;
@@ -858,7 +858,7 @@ public final class FacetedNavigation {
                   break;
                 }
                 case 10: {
-                  String s = input.readStringRequireUtf8();
+                  java.lang.String s = input.readStringRequireUtf8();
 
                   fieldName_ = s;
                   break;
@@ -3753,7 +3753,7 @@ public final class FacetedNavigation {
               break;
             }
             case 42: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               elasticQueryString_ = s;
               break;

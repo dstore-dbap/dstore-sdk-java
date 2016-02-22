@@ -93,7 +93,7 @@ public final class Elastic {
               break;
             }
             case 10: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               name_ = s;
               break;
@@ -1073,7 +1073,7 @@ public final class Elastic {
               break;
             }
             case 42: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               minimumShouldMatch_ = s;
               break;
@@ -3141,13 +3141,13 @@ public final class Elastic {
                 break;
               }
               case 10: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 fieldName_ = s;
                 break;
               }
               case 18: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
                 if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                   value_ = new com.google.protobuf.LazyStringArrayList();
                   mutable_bitField0_ |= 0x00000002;
@@ -3827,7 +3827,7 @@ public final class Elastic {
                 break;
               }
               case 10: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 type_ = s;
                 break;
@@ -4320,31 +4320,31 @@ public final class Elastic {
                 break;
               }
               case 10: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 fieldName_ = s;
                 break;
               }
               case 18: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 greaterThanOrEqal_ = s;
                 break;
               }
               case 26: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 greaterThan_ = s;
                 break;
               }
               case 34: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 lessThanOrEqual_ = s;
                 break;
               }
               case 42: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 lessThan_ = s;
                 break;
@@ -5302,13 +5302,13 @@ public final class Elastic {
                 break;
               }
               case 10: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 query_ = s;
                 break;
               }
               case 18: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
                 if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
                   field_ = new com.google.protobuf.LazyStringArrayList();
                   mutable_bitField0_ |= 0x00000002;
@@ -5322,7 +5322,7 @@ public final class Elastic {
                 break;
               }
               case 34: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 minimumShouldMatch_ = s;
                 break;
@@ -8292,7 +8292,7 @@ public final class Elastic {
                 break;
               }
               case 10: {
-                String s = input.readStringRequireUtf8();
+                java.lang.String s = input.readStringRequireUtf8();
 
                 fieldName_ = s;
                 break;

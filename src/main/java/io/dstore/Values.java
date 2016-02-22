@@ -437,7 +437,7 @@ public final class Values {
               break;
             }
             case 10: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               value_ = s;
               break;
@@ -2022,7 +2022,7 @@ public final class Values {
               break;
             }
             case 10: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               value_ = s;
               break;

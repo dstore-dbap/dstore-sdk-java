@@ -125,7 +125,7 @@ public class EngineGrpc {
     public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
         io.dstore.engine.Procedure.Call request) {
       return blockingServerStreamingCall(
-          getChannel().newCall(METHOD_EXEC_PROCEDURE, getCallOptions()), request);
+          getChannel(), METHOD_EXEC_PROCEDURE, getCallOptions(), request);
     }
   }
 
@@ -147,33 +147,64 @@ public class EngineGrpc {
     }
   }
 
+  private static final int METHODID_EXEC_PROCEDURE = 0;
+  private static final int METHODID_EXEC_BATCH = 1;
+
+  private static class MethodHandlers<Req, Resp> implements
+      io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
+      io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
+      io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
+      io.grpc.stub.ServerCalls.BidiStreamingMethod<Req, Resp> {
+    private final Engine serviceImpl;
+    private final int methodId;
+
+    public MethodHandlers(Engine serviceImpl, int methodId) {
+      this.serviceImpl = serviceImpl;
+      this.methodId = methodId;
+    }
+
+    @java.lang.SuppressWarnings("unchecked")
+    public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
+      switch (methodId) {
+        case METHODID_EXEC_PROCEDURE:
+          serviceImpl.execProcedure((io.dstore.engine.Procedure.Call) request,
+              (io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response>) responseObserver);
+          break;
+        default:
+          throw new AssertionError();
+      }
+    }
+
+    @java.lang.SuppressWarnings("unchecked")
+    public io.grpc.stub.StreamObserver<Req> invoke(
+        io.grpc.stub.StreamObserver<Resp> responseObserver) {
+      switch (methodId) {
+        case METHODID_EXEC_BATCH:
+          return (io.grpc.stub.StreamObserver<Req>) serviceImpl.execBatch(
+              (io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response>) responseObserver);
+        default:
+          throw new AssertionError();
+      }
+    }
+  }
+
   public static io.grpc.ServerServiceDefinition bindService(
       final Engine serviceImpl) {
     return io.grpc.ServerServiceDefinition.builder(SERVICE_NAME)
-      .addMethod(
-        METHOD_EXEC_PROCEDURE,
-        asyncServerStreamingCall(
-          new io.grpc.stub.ServerCalls.ServerStreamingMethod<
+        .addMethod(
+          METHOD_EXEC_PROCEDURE,
+          asyncServerStreamingCall(
+            new MethodHandlers<
               io.dstore.engine.Procedure.Call,
-              io.dstore.engine.Procedure.Response>() {
-            @java.lang.Override
-            public void invoke(
-                io.dstore.engine.Procedure.Call request,
-                io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
-              serviceImpl.execProcedure(request, responseObserver);
-            }
-          }))
-      .addMethod(
-        METHOD_EXEC_BATCH,
-        asyncBidiStreamingCall(
-          new io.grpc.stub.ServerCalls.BidiStreamingMethod<
+              io.dstore.engine.Procedure.Response>(
+                serviceImpl, METHODID_EXEC_PROCEDURE)))
+        .addMethod(
+          METHOD_EXEC_BATCH,
+          asyncBidiStreamingCall(
+            new MethodHandlers<
               io.dstore.engine.Procedure.Call,
-              io.dstore.engine.Procedure.Response>() {
-            @java.lang.Override
-            public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> invoke(
-                io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
-              return serviceImpl.execBatch(responseObserver);
-            }
-          })).build();
+              io.dstore.engine.Procedure.Response>(
+                serviceImpl, METHODID_EXEC_BATCH)))
+        .build();
   }
 }

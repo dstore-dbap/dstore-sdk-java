@@ -106,7 +106,7 @@ public final class ElasticNode {
               break;
             }
             case 10: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               description_ = s;
               break;

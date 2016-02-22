@@ -169,13 +169,13 @@ public final class ElasticItem {
               break;
             }
             case 90: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               indexName_ = s;
               break;
             }
             case 98: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               documentId_ = s;
               break;
@@ -1463,7 +1463,7 @@ public final class ElasticItem {
               break;
             }
             case 10: {
-              String s = input.readStringRequireUtf8();
+              java.lang.String s = input.readStringRequireUtf8();
 
               fieldName_ = s;
               break;

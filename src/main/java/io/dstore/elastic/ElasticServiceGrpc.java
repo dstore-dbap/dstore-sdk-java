@@ -106,7 +106,7 @@ public class ElasticServiceGrpc {
     public java.util.Iterator<io.dstore.elastic.item.FacetedNavigation.Response> facetedNavigation(
         io.dstore.elastic.item.FacetedNavigation.Request request) {
       return blockingServerStreamingCall(
-          getChannel().newCall(METHOD_FACETED_NAVIGATION, getCallOptions()), request);
+          getChannel(), METHOD_FACETED_NAVIGATION, getCallOptions(), request);
     }
   }
 
@@ -128,21 +128,53 @@ public class ElasticServiceGrpc {
     }
   }
 
+  private static final int METHODID_FACETED_NAVIGATION = 0;
+
+  private static class MethodHandlers<Req, Resp> implements
+      io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
+      io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
+      io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
+      io.grpc.stub.ServerCalls.BidiStreamingMethod<Req, Resp> {
+    private final ElasticService serviceImpl;
+    private final int methodId;
+
+    public MethodHandlers(ElasticService serviceImpl, int methodId) {
+      this.serviceImpl = serviceImpl;
+      this.methodId = methodId;
+    }
+
+    @java.lang.SuppressWarnings("unchecked")
+    public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
+      switch (methodId) {
+        case METHODID_FACETED_NAVIGATION:
+          serviceImpl.facetedNavigation((io.dstore.elastic.item.FacetedNavigation.Request) request,
+              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response>) responseObserver);
+          break;
+        default:
+          throw new AssertionError();
+      }
+    }
+
+    @java.lang.SuppressWarnings("unchecked")
+    public io.grpc.stub.StreamObserver<Req> invoke(
+        io.grpc.stub.StreamObserver<Resp> responseObserver) {
+      switch (methodId) {
+        default:
+          throw new AssertionError();
+      }
+    }
+  }
+
   public static io.grpc.ServerServiceDefinition bindService(
       final ElasticService serviceImpl) {
     return io.grpc.ServerServiceDefinition.builder(SERVICE_NAME)
-      .addMethod(
-        METHOD_FACETED_NAVIGATION,
-        asyncServerStreamingCall(
-          new io.grpc.stub.ServerCalls.ServerStreamingMethod<
+        .addMethod(
+          METHOD_FACETED_NAVIGATION,
+          asyncServerStreamingCall(
+            new MethodHandlers<
               io.dstore.elastic.item.FacetedNavigation.Request,
-              io.dstore.elastic.item.FacetedNavigation.Response>() {
-            @java.lang.Override
-            public void invoke(
-                io.dstore.elastic.item.FacetedNavigation.Request request,
-                io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver) {
-              serviceImpl.facetedNavigation(request, responseObserver);
-            }
-          })).build();
+              io.dstore.elastic.item.FacetedNavigation.Response>(
+                serviceImpl, METHODID_FACETED_NAVIGATION)))
+        .build();
   }
 }
