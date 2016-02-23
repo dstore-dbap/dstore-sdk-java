@@ -881,6 +881,588 @@ public final class Elastic {
 
   }
 
+  public interface RangeOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dstore.elastic.Range)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional string from = 1;</code>
+     */
+    java.lang.String getFrom();
+    /**
+     * <code>optional string from = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getFromBytes();
+
+    /**
+     * <code>optional string to = 2;</code>
+     */
+    java.lang.String getTo();
+    /**
+     * <code>optional string to = 2;</code>
+     */
+    com.google.protobuf.ByteString
+        getToBytes();
+  }
+  /**
+   * Protobuf type {@code dstore.elastic.Range}
+   */
+  public  static final class Range extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dstore.elastic.Range)
+      RangeOrBuilder {
+    // Use Range.newBuilder() to construct.
+    private Range(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private Range() {
+      from_ = "";
+      to_ = "";
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private Range(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              from_ = s;
+              break;
+            }
+            case 18: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              to_ = s;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw new RuntimeException(e.setUnfinishedMessage(this));
+      } catch (java.io.IOException e) {
+        throw new RuntimeException(
+            new com.google.protobuf.InvalidProtocolBufferException(
+                e.getMessage()).setUnfinishedMessage(this));
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              io.dstore.elastic.Elastic.Range.class, io.dstore.elastic.Elastic.Range.Builder.class);
+    }
+
+    public static final int FROM_FIELD_NUMBER = 1;
+    private volatile java.lang.Object from_;
+    /**
+     * <code>optional string from = 1;</code>
+     */
+    public java.lang.String getFrom() {
+      java.lang.Object ref = from_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        from_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string from = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getFromBytes() {
+      java.lang.Object ref = from_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        from_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int TO_FIELD_NUMBER = 2;
+    private volatile java.lang.Object to_;
+    /**
+     * <code>optional string to = 2;</code>
+     */
+    public java.lang.String getTo() {
+      java.lang.Object ref = to_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        to_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string to = 2;</code>
+     */
+    public com.google.protobuf.ByteString
+        getToBytes() {
+      java.lang.Object ref = to_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        to_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (!getFromBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, from_);
+      }
+      if (!getToBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 2, to_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (!getFromBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, from_);
+      }
+      if (!getToBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(2, to_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static io.dstore.elastic.Elastic.Range parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.Range parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static io.dstore.elastic.Elastic.Range parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static io.dstore.elastic.Elastic.Range parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(io.dstore.elastic.Elastic.Range prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.Range}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dstore.elastic.Range)
+        io.dstore.elastic.Elastic.RangeOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.Elastic.Range.class, io.dstore.elastic.Elastic.Range.Builder.class);
+      }
+
+      // Construct using io.dstore.elastic.Elastic.Range.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        from_ = "";
+
+        to_ = "";
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_descriptor;
+      }
+
+      public io.dstore.elastic.Elastic.Range getDefaultInstanceForType() {
+        return io.dstore.elastic.Elastic.Range.getDefaultInstance();
+      }
+
+      public io.dstore.elastic.Elastic.Range build() {
+        io.dstore.elastic.Elastic.Range result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public io.dstore.elastic.Elastic.Range buildPartial() {
+        io.dstore.elastic.Elastic.Range result = new io.dstore.elastic.Elastic.Range(this);
+        result.from_ = from_;
+        result.to_ = to_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof io.dstore.elastic.Elastic.Range) {
+          return mergeFrom((io.dstore.elastic.Elastic.Range)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(io.dstore.elastic.Elastic.Range other) {
+        if (other == io.dstore.elastic.Elastic.Range.getDefaultInstance()) return this;
+        if (!other.getFrom().isEmpty()) {
+          from_ = other.from_;
+          onChanged();
+        }
+        if (!other.getTo().isEmpty()) {
+          to_ = other.to_;
+          onChanged();
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        io.dstore.elastic.Elastic.Range parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (io.dstore.elastic.Elastic.Range) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private java.lang.Object from_ = "";
+      /**
+       * <code>optional string from = 1;</code>
+       */
+      public java.lang.String getFrom() {
+        java.lang.Object ref = from_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          from_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string from = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFromBytes() {
+        java.lang.Object ref = from_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          from_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string from = 1;</code>
+       */
+      public Builder setFrom(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        from_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string from = 1;</code>
+       */
+      public Builder clearFrom() {
+        
+        from_ = getDefaultInstance().getFrom();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string from = 1;</code>
+       */
+      public Builder setFromBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        from_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object to_ = "";
+      /**
+       * <code>optional string to = 2;</code>
+       */
+      public java.lang.String getTo() {
+        java.lang.Object ref = to_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          to_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string to = 2;</code>
+       */
+      public com.google.protobuf.ByteString
+          getToBytes() {
+        java.lang.Object ref = to_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          to_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string to = 2;</code>
+       */
+      public Builder setTo(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        to_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string to = 2;</code>
+       */
+      public Builder clearTo() {
+        
+        to_ = getDefaultInstance().getTo();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string to = 2;</code>
+       */
+      public Builder setToBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        to_ = value;
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:dstore.elastic.Range)
+    }
+
+    // @@protoc_insertion_point(class_scope:dstore.elastic.Range)
+    private static final io.dstore.elastic.Elastic.Range DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new io.dstore.elastic.Elastic.Range();
+    }
+
+    public static io.dstore.elastic.Elastic.Range getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<Range>
+        PARSER = new com.google.protobuf.AbstractParser<Range>() {
+      public Range parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        try {
+          return new Range(input, extensionRegistry);
+        } catch (RuntimeException e) {
+          if (e.getCause() instanceof
+              com.google.protobuf.InvalidProtocolBufferException) {
+            throw (com.google.protobuf.InvalidProtocolBufferException)
+                e.getCause();
+          }
+          throw e;
+        }
+      }
+    };
+
+    public static com.google.protobuf.Parser<Range> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<Range> getParserForType() {
+      return PARSER;
+    }
+
+    public io.dstore.elastic.Elastic.Range getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   public interface BoolQueryOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.elastic.BoolQuery)
       com.google.protobuf.MessageOrBuilder {
@@ -10006,6 +10588,11 @@ public final class Elastic {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Field_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_Range_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_Range_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_BoolQuery_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -10062,42 +10649,43 @@ public final class Elastic {
       "\n\034dstore/elastic/elastic.proto\022\016dstore.e" +
       "lastic\032\023dstore/values.proto\"O\n\005Field\022\014\n\004" +
       "name\030\001 \001(\t\022\023\n\013multi_field\030\002 \001(\010\022#\n\005value" +
-      "\030\003 \003(\0132\024.dstore.values.Value\"\324\001\n\tBoolQue" +
-      "ry\022%\n\006filter\030\001 \003(\0132\025.dstore.elastic.Quer" +
-      "y\022#\n\004must\030\002 \003(\0132\025.dstore.elastic.Query\022%" +
-      "\n\006should\030\003 \003(\0132\025.dstore.elastic.Query\022\'\n" +
-      "\010must_not\030\004 \003(\0132\025.dstore.elastic.Query\022\034" +
-      "\n\024minimum_should_match\030\005 \001(\t\022\r\n\005boost\030\006 " +
-      "\001(\001\"\200\005\n\005Query\0222\n\013terms_query\030\001 \001(\0132\033.dst",
-      "ore.elastic.Query.TermsH\000\0220\n\ntype_query\030" +
-      "\002 \001(\0132\032.dstore.elastic.Query.TypeH\000\022L\n\031s" +
-      "imple_query_string_query\030\003 \001(\0132\'.dstore." +
-      "elastic.Query.SimpleQueryStringH\000\0222\n\013ran" +
-      "ge_query\030\004 \001(\0132\033.dstore.elastic.Query.Ra" +
-      "ngeH\000\022/\n\nbool_query\030\024 \001(\0132\031.dstore.elast" +
-      "ic.BoolQueryH\000\032I\n\005Terms\022\022\n\nfield_name\030\001 " +
-      "\001(\t\022\r\n\005value\030\002 \003(\t\022\035\n\025allow_partial_matc" +
-      "hes\030\003 \001(\010\032\024\n\004Type\022\014\n\004type\030\001 \001(\t\032~\n\005Range" +
-      "\022\022\n\nfield_name\030\001 \001(\t\022\034\n\024greater_than_or_",
-      "eqal\030\002 \001(\t\022\024\n\014greater_than\030\003 \001(\t\022\032\n\022less" +
-      "_than_or_equal\030\004 \001(\t\022\021\n\tless_than\030\005 \001(\t\032" +
-      "t\n\021SimpleQueryString\022\r\n\005query\030\001 \001(\t\022\r\n\005f" +
-      "ield\030\002 \003(\t\022#\n\033use_and_as_default_operato" +
-      "r\030\003 \001(\010\022\034\n\024minimum_should_match\030\004 \001(\tB\007\n" +
-      "\005query\"\200\004\n\004Sort\0224\n\nfield_sort\030\001 \001(\0132\036.ds" +
-      "tore.elastic.Sort.FieldSortH\000\0224\n\nscore_s" +
-      "ort\030\002 \001(\0132\036.dstore.elastic.Sort.ScoreSor" +
-      "tH\000\032\013\n\tScoreSort\032\344\001\n\tFieldSort\022\022\n\nfield_" +
-      "name\030\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstore.",
-      "elastic.Sort.Order\0227\n\021missing_treatment\030" +
-      "\003 \001(\0162\034.dstore.elastic.Sort.Missing\022,\n\ts" +
-      "ort_mode\030\004 \001(\0162\031.dstore.elastic.Sort.Mod" +
-      "e\022,\n\rnested_filter\030\005 \003(\0132\025.dstore.elasti" +
-      "c.Query\"&\n\005Order\022\r\n\tASCENDING\020\000\022\016\n\nDESCE" +
-      "NDING\020\001\"\036\n\007Missing\022\010\n\004LAST\020\000\022\t\n\005FIRST\020\001\"" +
-      "E\n\004Mode\022\r\n\tUNDEFINED\020\000\022\007\n\003MIN\020\001\022\007\n\003MAX\020\002" +
-      "\022\007\n\003SUM\020\003\022\007\n\003AVG\020\004\022\n\n\006MEDIAN\020\005B\t\n\007sort_b" +
-      "yB\034\n\021io.dstore.elasticB\007Elasticb\006proto3"
+      "\030\003 \003(\0132\024.dstore.values.Value\"!\n\005Range\022\014\n" +
+      "\004from\030\001 \001(\t\022\n\n\002to\030\002 \001(\t\"\324\001\n\tBoolQuery\022%\n" +
+      "\006filter\030\001 \003(\0132\025.dstore.elastic.Query\022#\n\004" +
+      "must\030\002 \003(\0132\025.dstore.elastic.Query\022%\n\006sho" +
+      "uld\030\003 \003(\0132\025.dstore.elastic.Query\022\'\n\010must" +
+      "_not\030\004 \003(\0132\025.dstore.elastic.Query\022\034\n\024min" +
+      "imum_should_match\030\005 \001(\t\022\r\n\005boost\030\006 \001(\001\"\200",
+      "\005\n\005Query\0222\n\013terms_query\030\001 \001(\0132\033.dstore.e" +
+      "lastic.Query.TermsH\000\0220\n\ntype_query\030\002 \001(\013" +
+      "2\032.dstore.elastic.Query.TypeH\000\022L\n\031simple" +
+      "_query_string_query\030\003 \001(\0132\'.dstore.elast" +
+      "ic.Query.SimpleQueryStringH\000\0222\n\013range_qu" +
+      "ery\030\004 \001(\0132\033.dstore.elastic.Query.RangeH\000" +
+      "\022/\n\nbool_query\030\024 \001(\0132\031.dstore.elastic.Bo" +
+      "olQueryH\000\032I\n\005Terms\022\022\n\nfield_name\030\001 \001(\t\022\r" +
+      "\n\005value\030\002 \003(\t\022\035\n\025allow_partial_matches\030\003" +
+      " \001(\010\032\024\n\004Type\022\014\n\004type\030\001 \001(\t\032~\n\005Range\022\022\n\nf",
+      "ield_name\030\001 \001(\t\022\034\n\024greater_than_or_eqal\030" +
+      "\002 \001(\t\022\024\n\014greater_than\030\003 \001(\t\022\032\n\022less_than" +
+      "_or_equal\030\004 \001(\t\022\021\n\tless_than\030\005 \001(\t\032t\n\021Si" +
+      "mpleQueryString\022\r\n\005query\030\001 \001(\t\022\r\n\005field\030" +
+      "\002 \003(\t\022#\n\033use_and_as_default_operator\030\003 \001" +
+      "(\010\022\034\n\024minimum_should_match\030\004 \001(\tB\007\n\005quer" +
+      "y\"\200\004\n\004Sort\0224\n\nfield_sort\030\001 \001(\0132\036.dstore." +
+      "elastic.Sort.FieldSortH\000\0224\n\nscore_sort\030\002" +
+      " \001(\0132\036.dstore.elastic.Sort.ScoreSortH\000\032\013" +
+      "\n\tScoreSort\032\344\001\n\tFieldSort\022\022\n\nfield_name\030",
+      "\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstore.elast" +
+      "ic.Sort.Order\0227\n\021missing_treatment\030\003 \001(\016" +
+      "2\034.dstore.elastic.Sort.Missing\022,\n\tsort_m" +
+      "ode\030\004 \001(\0162\031.dstore.elastic.Sort.Mode\022,\n\r" +
+      "nested_filter\030\005 \003(\0132\025.dstore.elastic.Que" +
+      "ry\"&\n\005Order\022\r\n\tASCENDING\020\000\022\016\n\nDESCENDING" +
+      "\020\001\"\036\n\007Missing\022\010\n\004LAST\020\000\022\t\n\005FIRST\020\001\"E\n\004Mo" +
+      "de\022\r\n\tUNDEFINED\020\000\022\007\n\003MIN\020\001\022\007\n\003MAX\020\002\022\007\n\003S" +
+      "UM\020\003\022\007\n\003AVG\020\004\022\n\n\006MEDIAN\020\005B\t\n\007sort_byB\034\n\021" +
+      "io.dstore.elasticB\007Elasticb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -10118,14 +10706,20 @@ public final class Elastic {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Field_descriptor,
         new java.lang.String[] { "Name", "MultiField", "Value", });
-    internal_static_dstore_elastic_BoolQuery_descriptor =
+    internal_static_dstore_elastic_Range_descriptor =
       getDescriptor().getMessageTypes().get(1);
+    internal_static_dstore_elastic_Range_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_Range_descriptor,
+        new java.lang.String[] { "From", "To", });
+    internal_static_dstore_elastic_BoolQuery_descriptor =
+      getDescriptor().getMessageTypes().get(2);
     internal_static_dstore_elastic_BoolQuery_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_BoolQuery_descriptor,
         new java.lang.String[] { "Filter", "Must", "Should", "MustNot", "MinimumShouldMatch", "Boost", });
     internal_static_dstore_elastic_Query_descriptor =
-      getDescriptor().getMessageTypes().get(2);
+      getDescriptor().getMessageTypes().get(3);
     internal_static_dstore_elastic_Query_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Query_descriptor,
@@ -10155,7 +10749,7 @@ public final class Elastic {
         internal_static_dstore_elastic_Query_SimpleQueryString_descriptor,
         new java.lang.String[] { "Query", "Field", "UseAndAsDefaultOperator", "MinimumShouldMatch", });
     internal_static_dstore_elastic_Sort_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(4);
     internal_static_dstore_elastic_Sort_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Sort_descriptor,

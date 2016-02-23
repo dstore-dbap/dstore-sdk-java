@@ -87,27 +87,51 @@ public final class FacetedNavigation {
         int index);
 
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    java.util.List<io.dstore.elastic.Elastic.Sort> 
-        getSortList();
+    java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> 
+        getRangeFacetList();
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    io.dstore.elastic.Elastic.Sort getSort(int index);
+    io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getRangeFacet(int index);
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    int getSortCount();
+    int getRangeFacetCount();
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    java.util.List<? extends io.dstore.elastic.Elastic.SortOrBuilder> 
-        getSortOrBuilderList();
+    java.util.List<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+        getRangeFacetOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    io.dstore.elastic.Elastic.SortOrBuilder getSortOrBuilder(
+    io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder getRangeFacetOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> 
+        getDateRangeFacetList();
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getDateRangeFacet(int index);
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    int getDateRangeFacetCount();
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+        getDateRangeFacetOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder getDateRangeFacetOrBuilder(
         int index);
 
     /**
@@ -123,6 +147,30 @@ public final class FacetedNavigation {
      * <code>optional int32 size = 11;</code>
      */
     int getSize();
+
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    java.util.List<io.dstore.elastic.Elastic.Sort> 
+        getSortList();
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    io.dstore.elastic.Elastic.Sort getSort(int index);
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    int getSortCount();
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.Elastic.SortOrBuilder> 
+        getSortOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    io.dstore.elastic.Elastic.SortOrBuilder getSortOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code dstore.elastic.facetednavigation.Request}
@@ -137,9 +185,11 @@ public final class FacetedNavigation {
     }
     private Request() {
       facet_ = java.util.Collections.emptyList();
-      sort_ = java.util.Collections.emptyList();
+      rangeFacet_ = java.util.Collections.emptyList();
+      dateRangeFacet_ = java.util.Collections.emptyList();
       from_ = 0;
       size_ = 0;
+      sort_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -200,12 +250,20 @@ public final class FacetedNavigation {
               facet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.Facet.parser(), extensionRegistry));
               break;
             }
-            case 34: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
-                sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>();
+                rangeFacet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet>();
                 mutable_bitField0_ |= 0x00000008;
               }
-              sort_.add(input.readMessage(io.dstore.elastic.Elastic.Sort.parser(), extensionRegistry));
+              rangeFacet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
+              break;
+            }
+            case 50: {
+              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+                dateRangeFacet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet>();
+                mutable_bitField0_ |= 0x00000010;
+              }
+              dateRangeFacet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
               break;
             }
             case 80: {
@@ -216,6 +274,14 @@ public final class FacetedNavigation {
             case 88: {
 
               size_ = input.readInt32();
+              break;
+            }
+            case 162: {
+              if (!((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
+                sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              sort_.add(input.readMessage(io.dstore.elastic.Elastic.Sort.parser(), extensionRegistry));
               break;
             }
           }
@@ -231,6 +297,12 @@ public final class FacetedNavigation {
           facet_ = java.util.Collections.unmodifiableList(facet_);
         }
         if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+          rangeFacet_ = java.util.Collections.unmodifiableList(rangeFacet_);
+        }
+        if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+          dateRangeFacet_ = java.util.Collections.unmodifiableList(dateRangeFacet_);
+        }
+        if (((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
           sort_ = java.util.Collections.unmodifiableList(sort_);
         }
         makeExtensionsImmutable();
@@ -246,6 +318,820 @@ public final class FacetedNavigation {
       return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.item.FacetedNavigation.Request.class, io.dstore.elastic.item.FacetedNavigation.Request.Builder.class);
+    }
+
+    public interface RangeFacetOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.facetednavigation.Request.RangeFacet)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      java.lang.String getFieldName();
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      com.google.protobuf.ByteString
+          getFieldNameBytes();
+
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      java.util.List<io.dstore.elastic.Elastic.Range> 
+          getRangeList();
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      io.dstore.elastic.Elastic.Range getRange(int index);
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      int getRangeCount();
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      java.util.List<? extends io.dstore.elastic.Elastic.RangeOrBuilder> 
+          getRangeOrBuilderList();
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      io.dstore.elastic.Elastic.RangeOrBuilder getRangeOrBuilder(
+          int index);
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.facetednavigation.Request.RangeFacet}
+     */
+    public  static final class RangeFacet extends
+        com.google.protobuf.GeneratedMessage implements
+        // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Request.RangeFacet)
+        RangeFacetOrBuilder {
+      // Use RangeFacet.newBuilder() to construct.
+      private RangeFacet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        super(builder);
+      }
+      private RangeFacet() {
+        fieldName_ = "";
+        range_ = java.util.Collections.emptyList();
+      }
+
+      @java.lang.Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+      }
+      private RangeFacet(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        this();
+        int mutable_bitField0_ = 0;
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!input.skipField(tag)) {
+                  done = true;
+                }
+                break;
+              }
+              case 10: {
+                java.lang.String s = input.readStringRequireUtf8();
+
+                fieldName_ = s;
+                break;
+              }
+              case 18: {
+                if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                  range_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Range>();
+                  mutable_bitField0_ |= 0x00000002;
+                }
+                range_.add(input.readMessage(io.dstore.elastic.Elastic.Range.parser(), extensionRegistry));
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw new RuntimeException(e.setUnfinishedMessage(this));
+        } catch (java.io.IOException e) {
+          throw new RuntimeException(
+              new com.google.protobuf.InvalidProtocolBufferException(
+                  e.getMessage()).setUnfinishedMessage(this));
+        } finally {
+          if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+            range_ = java.util.Collections.unmodifiableList(range_);
+          }
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.class, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder.class);
+      }
+
+      private int bitField0_;
+      public static final int FIELD_NAME_FIELD_NUMBER = 1;
+      private volatile java.lang.Object fieldName_;
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      public java.lang.String getFieldName() {
+        java.lang.Object ref = fieldName_;
+        if (ref instanceof java.lang.String) {
+          return (java.lang.String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          fieldName_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFieldNameBytes() {
+        java.lang.Object ref = fieldName_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          fieldName_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      public static final int RANGE_FIELD_NUMBER = 2;
+      private java.util.List<io.dstore.elastic.Elastic.Range> range_;
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Range> getRangeList() {
+        return range_;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.RangeOrBuilder> 
+          getRangeOrBuilderList() {
+        return range_;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      public int getRangeCount() {
+        return range_.size();
+      }
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Range getRange(int index) {
+        return range_.get(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Range range = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.RangeOrBuilder getRangeOrBuilder(
+          int index) {
+        return range_.get(index);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getFieldNameBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+        }
+        for (int i = 0; i < range_.size(); i++) {
+          output.writeMessage(2, range_.get(i));
+        }
+      }
+
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getFieldNameBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+        }
+        for (int i = 0; i < range_.size(); i++) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(2, range_.get(i));
+        }
+        memoizedSize = size;
+        return size;
+      }
+
+      private static final long serialVersionUID = 0L;
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @java.lang.Override
+      protected Builder newBuilderForType(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code dstore.elastic.facetednavigation.Request.RangeFacet}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Request.RangeFacet)
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
+        }
+
+        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.class, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder.class);
+        }
+
+        // Construct using io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+            getRangeFieldBuilder();
+          }
+        }
+        public Builder clear() {
+          super.clear();
+          fieldName_ = "";
+
+          if (rangeBuilder_ == null) {
+            range_ = java.util.Collections.emptyList();
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            rangeBuilder_.clear();
+          }
+          return this;
+        }
+
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
+        }
+
+        public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getDefaultInstanceForType() {
+          return io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.getDefaultInstance();
+        }
+
+        public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet build() {
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet buildPartial() {
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet result = new io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet(this);
+          int from_bitField0_ = bitField0_;
+          int to_bitField0_ = 0;
+          result.fieldName_ = fieldName_;
+          if (rangeBuilder_ == null) {
+            if (((bitField0_ & 0x00000002) == 0x00000002)) {
+              range_ = java.util.Collections.unmodifiableList(range_);
+              bitField0_ = (bitField0_ & ~0x00000002);
+            }
+            result.range_ = range_;
+          } else {
+            result.range_ = rangeBuilder_.build();
+          }
+          result.bitField0_ = to_bitField0_;
+          onBuilt();
+          return result;
+        }
+
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet) {
+            return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet other) {
+          if (other == io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.getDefaultInstance()) return this;
+          if (!other.getFieldName().isEmpty()) {
+            fieldName_ = other.fieldName_;
+            onChanged();
+          }
+          if (rangeBuilder_ == null) {
+            if (!other.range_.isEmpty()) {
+              if (range_.isEmpty()) {
+                range_ = other.range_;
+                bitField0_ = (bitField0_ & ~0x00000002);
+              } else {
+                ensureRangeIsMutable();
+                range_.addAll(other.range_);
+              }
+              onChanged();
+            }
+          } else {
+            if (!other.range_.isEmpty()) {
+              if (rangeBuilder_.isEmpty()) {
+                rangeBuilder_.dispose();
+                rangeBuilder_ = null;
+                range_ = other.range_;
+                bitField0_ = (bitField0_ & ~0x00000002);
+                rangeBuilder_ = 
+                  com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                     getRangeFieldBuilder() : null;
+              } else {
+                rangeBuilder_.addAllMessages(other.range_);
+              }
+            }
+          }
+          onChanged();
+          return this;
+        }
+
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet) e.getUnfinishedMessage();
+            throw e;
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        private int bitField0_;
+
+        private java.lang.Object fieldName_ = "";
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public java.lang.String getFieldName() {
+          java.lang.Object ref = fieldName_;
+          if (!(ref instanceof java.lang.String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            fieldName_ = s;
+            return s;
+          } else {
+            return (java.lang.String) ref;
+          }
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public com.google.protobuf.ByteString
+            getFieldNameBytes() {
+          java.lang.Object ref = fieldName_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (java.lang.String) ref);
+            fieldName_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public Builder setFieldName(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          fieldName_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public Builder clearFieldName() {
+          
+          fieldName_ = getDefaultInstance().getFieldName();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public Builder setFieldNameBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          fieldName_ = value;
+          onChanged();
+          return this;
+        }
+
+        private java.util.List<io.dstore.elastic.Elastic.Range> range_ =
+          java.util.Collections.emptyList();
+        private void ensureRangeIsMutable() {
+          if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+            range_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Range>(range_);
+            bitField0_ |= 0x00000002;
+           }
+        }
+
+        private com.google.protobuf.RepeatedFieldBuilder<
+            io.dstore.elastic.Elastic.Range, io.dstore.elastic.Elastic.Range.Builder, io.dstore.elastic.Elastic.RangeOrBuilder> rangeBuilder_;
+
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public java.util.List<io.dstore.elastic.Elastic.Range> getRangeList() {
+          if (rangeBuilder_ == null) {
+            return java.util.Collections.unmodifiableList(range_);
+          } else {
+            return rangeBuilder_.getMessageList();
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public int getRangeCount() {
+          if (rangeBuilder_ == null) {
+            return range_.size();
+          } else {
+            return rangeBuilder_.getCount();
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public io.dstore.elastic.Elastic.Range getRange(int index) {
+          if (rangeBuilder_ == null) {
+            return range_.get(index);
+          } else {
+            return rangeBuilder_.getMessage(index);
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder setRange(
+            int index, io.dstore.elastic.Elastic.Range value) {
+          if (rangeBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureRangeIsMutable();
+            range_.set(index, value);
+            onChanged();
+          } else {
+            rangeBuilder_.setMessage(index, value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder setRange(
+            int index, io.dstore.elastic.Elastic.Range.Builder builderForValue) {
+          if (rangeBuilder_ == null) {
+            ensureRangeIsMutable();
+            range_.set(index, builderForValue.build());
+            onChanged();
+          } else {
+            rangeBuilder_.setMessage(index, builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder addRange(io.dstore.elastic.Elastic.Range value) {
+          if (rangeBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureRangeIsMutable();
+            range_.add(value);
+            onChanged();
+          } else {
+            rangeBuilder_.addMessage(value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder addRange(
+            int index, io.dstore.elastic.Elastic.Range value) {
+          if (rangeBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureRangeIsMutable();
+            range_.add(index, value);
+            onChanged();
+          } else {
+            rangeBuilder_.addMessage(index, value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder addRange(
+            io.dstore.elastic.Elastic.Range.Builder builderForValue) {
+          if (rangeBuilder_ == null) {
+            ensureRangeIsMutable();
+            range_.add(builderForValue.build());
+            onChanged();
+          } else {
+            rangeBuilder_.addMessage(builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder addRange(
+            int index, io.dstore.elastic.Elastic.Range.Builder builderForValue) {
+          if (rangeBuilder_ == null) {
+            ensureRangeIsMutable();
+            range_.add(index, builderForValue.build());
+            onChanged();
+          } else {
+            rangeBuilder_.addMessage(index, builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder addAllRange(
+            java.lang.Iterable<? extends io.dstore.elastic.Elastic.Range> values) {
+          if (rangeBuilder_ == null) {
+            ensureRangeIsMutable();
+            com.google.protobuf.AbstractMessageLite.Builder.addAll(
+                values, range_);
+            onChanged();
+          } else {
+            rangeBuilder_.addAllMessages(values);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder clearRange() {
+          if (rangeBuilder_ == null) {
+            range_ = java.util.Collections.emptyList();
+            bitField0_ = (bitField0_ & ~0x00000002);
+            onChanged();
+          } else {
+            rangeBuilder_.clear();
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public Builder removeRange(int index) {
+          if (rangeBuilder_ == null) {
+            ensureRangeIsMutable();
+            range_.remove(index);
+            onChanged();
+          } else {
+            rangeBuilder_.remove(index);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public io.dstore.elastic.Elastic.Range.Builder getRangeBuilder(
+            int index) {
+          return getRangeFieldBuilder().getBuilder(index);
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public io.dstore.elastic.Elastic.RangeOrBuilder getRangeOrBuilder(
+            int index) {
+          if (rangeBuilder_ == null) {
+            return range_.get(index);  } else {
+            return rangeBuilder_.getMessageOrBuilder(index);
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public java.util.List<? extends io.dstore.elastic.Elastic.RangeOrBuilder> 
+             getRangeOrBuilderList() {
+          if (rangeBuilder_ != null) {
+            return rangeBuilder_.getMessageOrBuilderList();
+          } else {
+            return java.util.Collections.unmodifiableList(range_);
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public io.dstore.elastic.Elastic.Range.Builder addRangeBuilder() {
+          return getRangeFieldBuilder().addBuilder(
+              io.dstore.elastic.Elastic.Range.getDefaultInstance());
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public io.dstore.elastic.Elastic.Range.Builder addRangeBuilder(
+            int index) {
+          return getRangeFieldBuilder().addBuilder(
+              index, io.dstore.elastic.Elastic.Range.getDefaultInstance());
+        }
+        /**
+         * <code>repeated .dstore.elastic.Range range = 2;</code>
+         */
+        public java.util.List<io.dstore.elastic.Elastic.Range.Builder> 
+             getRangeBuilderList() {
+          return getRangeFieldBuilder().getBuilderList();
+        }
+        private com.google.protobuf.RepeatedFieldBuilder<
+            io.dstore.elastic.Elastic.Range, io.dstore.elastic.Elastic.Range.Builder, io.dstore.elastic.Elastic.RangeOrBuilder> 
+            getRangeFieldBuilder() {
+          if (rangeBuilder_ == null) {
+            rangeBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+                io.dstore.elastic.Elastic.Range, io.dstore.elastic.Elastic.Range.Builder, io.dstore.elastic.Elastic.RangeOrBuilder>(
+                    range_,
+                    ((bitField0_ & 0x00000002) == 0x00000002),
+                    getParentForChildren(),
+                    isClean());
+            range_ = null;
+          }
+          return rangeBuilder_;
+        }
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.facetednavigation.Request.RangeFacet)
+      }
+
+      // @@protoc_insertion_point(class_scope:dstore.elastic.facetednavigation.Request.RangeFacet)
+      private static final io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet();
+      }
+
+      public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<RangeFacet>
+          PARSER = new com.google.protobuf.AbstractParser<RangeFacet>() {
+        public RangeFacet parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          try {
+            return new RangeFacet(input, extensionRegistry);
+          } catch (RuntimeException e) {
+            if (e.getCause() instanceof
+                com.google.protobuf.InvalidProtocolBufferException) {
+              throw (com.google.protobuf.InvalidProtocolBufferException)
+                  e.getCause();
+            }
+            throw e;
+          }
+        }
+      };
+
+      public static com.google.protobuf.Parser<RangeFacet> parser() {
+        return PARSER;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Parser<RangeFacet> getParserForType() {
+        return PARSER;
+      }
+
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
     }
 
     public interface FacetOrBuilder extends
@@ -2269,39 +3155,74 @@ public final class FacetedNavigation {
       return facet_.get(index);
     }
 
-    public static final int SORT_FIELD_NUMBER = 4;
-    private java.util.List<io.dstore.elastic.Elastic.Sort> sort_;
+    public static final int RANGE_FACET_FIELD_NUMBER = 5;
+    private java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> rangeFacet_;
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    public java.util.List<io.dstore.elastic.Elastic.Sort> getSortList() {
-      return sort_;
+    public java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> getRangeFacetList() {
+      return rangeFacet_;
     }
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    public java.util.List<? extends io.dstore.elastic.Elastic.SortOrBuilder> 
-        getSortOrBuilderList() {
-      return sort_;
+    public java.util.List<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+        getRangeFacetOrBuilderList() {
+      return rangeFacet_;
     }
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    public int getSortCount() {
-      return sort_.size();
+    public int getRangeFacetCount() {
+      return rangeFacet_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    public io.dstore.elastic.Elastic.Sort getSort(int index) {
-      return sort_.get(index);
+    public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getRangeFacet(int index) {
+      return rangeFacet_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
      */
-    public io.dstore.elastic.Elastic.SortOrBuilder getSortOrBuilder(
+    public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder getRangeFacetOrBuilder(
         int index) {
-      return sort_.get(index);
+      return rangeFacet_.get(index);
+    }
+
+    public static final int DATE_RANGE_FACET_FIELD_NUMBER = 6;
+    private java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> dateRangeFacet_;
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    public java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> getDateRangeFacetList() {
+      return dateRangeFacet_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+        getDateRangeFacetOrBuilderList() {
+      return dateRangeFacet_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    public int getDateRangeFacetCount() {
+      return dateRangeFacet_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getDateRangeFacet(int index) {
+      return dateRangeFacet_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+     */
+    public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder getDateRangeFacetOrBuilder(
+        int index) {
+      return dateRangeFacet_.get(index);
     }
 
     public static final int FROM_FIELD_NUMBER = 10;
@@ -2326,6 +3247,41 @@ public final class FacetedNavigation {
       return size_;
     }
 
+    public static final int SORT_FIELD_NUMBER = 20;
+    private java.util.List<io.dstore.elastic.Elastic.Sort> sort_;
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    public java.util.List<io.dstore.elastic.Elastic.Sort> getSortList() {
+      return sort_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.Elastic.SortOrBuilder> 
+        getSortOrBuilderList() {
+      return sort_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    public int getSortCount() {
+      return sort_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    public io.dstore.elastic.Elastic.Sort getSort(int index) {
+      return sort_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+     */
+    public io.dstore.elastic.Elastic.SortOrBuilder getSortOrBuilder(
+        int index) {
+      return sort_.get(index);
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -2347,14 +3303,20 @@ public final class FacetedNavigation {
       for (int i = 0; i < facet_.size(); i++) {
         output.writeMessage(3, facet_.get(i));
       }
-      for (int i = 0; i < sort_.size(); i++) {
-        output.writeMessage(4, sort_.get(i));
+      for (int i = 0; i < rangeFacet_.size(); i++) {
+        output.writeMessage(5, rangeFacet_.get(i));
+      }
+      for (int i = 0; i < dateRangeFacet_.size(); i++) {
+        output.writeMessage(6, dateRangeFacet_.get(i));
       }
       if (from_ != 0) {
         output.writeInt32(10, from_);
       }
       if (size_ != 0) {
         output.writeInt32(11, size_);
+      }
+      for (int i = 0; i < sort_.size(); i++) {
+        output.writeMessage(20, sort_.get(i));
       }
     }
 
@@ -2375,9 +3337,13 @@ public final class FacetedNavigation {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, facet_.get(i));
       }
-      for (int i = 0; i < sort_.size(); i++) {
+      for (int i = 0; i < rangeFacet_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, sort_.get(i));
+          .computeMessageSize(5, rangeFacet_.get(i));
+      }
+      for (int i = 0; i < dateRangeFacet_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, dateRangeFacet_.get(i));
       }
       if (from_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2386,6 +3352,10 @@ public final class FacetedNavigation {
       if (size_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(11, size_);
+      }
+      for (int i = 0; i < sort_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(20, sort_.get(i));
       }
       memoizedSize = size;
       return size;
@@ -2495,6 +3465,8 @@ public final class FacetedNavigation {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
           getFacetFieldBuilder();
+          getRangeFacetFieldBuilder();
+          getDateRangeFacetFieldBuilder();
           getSortFieldBuilder();
         }
       }
@@ -2518,16 +3490,28 @@ public final class FacetedNavigation {
         } else {
           facetBuilder_.clear();
         }
-        if (sortBuilder_ == null) {
-          sort_ = java.util.Collections.emptyList();
+        if (rangeFacetBuilder_ == null) {
+          rangeFacet_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000008);
         } else {
-          sortBuilder_.clear();
+          rangeFacetBuilder_.clear();
+        }
+        if (dateRangeFacetBuilder_ == null) {
+          dateRangeFacet_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000010);
+        } else {
+          dateRangeFacetBuilder_.clear();
         }
         from_ = 0;
 
         size_ = 0;
 
+        if (sortBuilder_ == null) {
+          sort_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000080);
+        } else {
+          sortBuilder_.clear();
+        }
         return this;
       }
 
@@ -2571,17 +3555,35 @@ public final class FacetedNavigation {
         } else {
           result.facet_ = facetBuilder_.build();
         }
-        if (sortBuilder_ == null) {
+        if (rangeFacetBuilder_ == null) {
           if (((bitField0_ & 0x00000008) == 0x00000008)) {
-            sort_ = java.util.Collections.unmodifiableList(sort_);
+            rangeFacet_ = java.util.Collections.unmodifiableList(rangeFacet_);
             bitField0_ = (bitField0_ & ~0x00000008);
+          }
+          result.rangeFacet_ = rangeFacet_;
+        } else {
+          result.rangeFacet_ = rangeFacetBuilder_.build();
+        }
+        if (dateRangeFacetBuilder_ == null) {
+          if (((bitField0_ & 0x00000010) == 0x00000010)) {
+            dateRangeFacet_ = java.util.Collections.unmodifiableList(dateRangeFacet_);
+            bitField0_ = (bitField0_ & ~0x00000010);
+          }
+          result.dateRangeFacet_ = dateRangeFacet_;
+        } else {
+          result.dateRangeFacet_ = dateRangeFacetBuilder_.build();
+        }
+        result.from_ = from_;
+        result.size_ = size_;
+        if (sortBuilder_ == null) {
+          if (((bitField0_ & 0x00000080) == 0x00000080)) {
+            sort_ = java.util.Collections.unmodifiableList(sort_);
+            bitField0_ = (bitField0_ & ~0x00000080);
           }
           result.sort_ = sort_;
         } else {
           result.sort_ = sortBuilder_.build();
         }
-        result.from_ = from_;
-        result.size_ = size_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -2630,11 +3632,69 @@ public final class FacetedNavigation {
             }
           }
         }
+        if (rangeFacetBuilder_ == null) {
+          if (!other.rangeFacet_.isEmpty()) {
+            if (rangeFacet_.isEmpty()) {
+              rangeFacet_ = other.rangeFacet_;
+              bitField0_ = (bitField0_ & ~0x00000008);
+            } else {
+              ensureRangeFacetIsMutable();
+              rangeFacet_.addAll(other.rangeFacet_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.rangeFacet_.isEmpty()) {
+            if (rangeFacetBuilder_.isEmpty()) {
+              rangeFacetBuilder_.dispose();
+              rangeFacetBuilder_ = null;
+              rangeFacet_ = other.rangeFacet_;
+              bitField0_ = (bitField0_ & ~0x00000008);
+              rangeFacetBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRangeFacetFieldBuilder() : null;
+            } else {
+              rangeFacetBuilder_.addAllMessages(other.rangeFacet_);
+            }
+          }
+        }
+        if (dateRangeFacetBuilder_ == null) {
+          if (!other.dateRangeFacet_.isEmpty()) {
+            if (dateRangeFacet_.isEmpty()) {
+              dateRangeFacet_ = other.dateRangeFacet_;
+              bitField0_ = (bitField0_ & ~0x00000010);
+            } else {
+              ensureDateRangeFacetIsMutable();
+              dateRangeFacet_.addAll(other.dateRangeFacet_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.dateRangeFacet_.isEmpty()) {
+            if (dateRangeFacetBuilder_.isEmpty()) {
+              dateRangeFacetBuilder_.dispose();
+              dateRangeFacetBuilder_ = null;
+              dateRangeFacet_ = other.dateRangeFacet_;
+              bitField0_ = (bitField0_ & ~0x00000010);
+              dateRangeFacetBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDateRangeFacetFieldBuilder() : null;
+            } else {
+              dateRangeFacetBuilder_.addAllMessages(other.dateRangeFacet_);
+            }
+          }
+        }
+        if (other.getFrom() != 0) {
+          setFrom(other.getFrom());
+        }
+        if (other.getSize() != 0) {
+          setSize(other.getSize());
+        }
         if (sortBuilder_ == null) {
           if (!other.sort_.isEmpty()) {
             if (sort_.isEmpty()) {
               sort_ = other.sort_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000080);
             } else {
               ensureSortIsMutable();
               sort_.addAll(other.sort_);
@@ -2647,7 +3707,7 @@ public final class FacetedNavigation {
               sortBuilder_.dispose();
               sortBuilder_ = null;
               sort_ = other.sort_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000080);
               sortBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getSortFieldBuilder() : null;
@@ -2655,12 +3715,6 @@ public final class FacetedNavigation {
               sortBuilder_.addAllMessages(other.sort_);
             }
           }
-        }
-        if (other.getFrom() != 0) {
-          setFrom(other.getFrom());
-        }
-        if (other.getSize() != 0) {
-          setSize(other.getSize());
         }
         onChanged();
         return this;
@@ -3235,244 +4289,484 @@ public final class FacetedNavigation {
         return facetBuilder_;
       }
 
-      private java.util.List<io.dstore.elastic.Elastic.Sort> sort_ =
+      private java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> rangeFacet_ =
         java.util.Collections.emptyList();
-      private void ensureSortIsMutable() {
+      private void ensureRangeFacetIsMutable() {
         if (!((bitField0_ & 0x00000008) == 0x00000008)) {
-          sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>(sort_);
+          rangeFacet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet>(rangeFacet_);
           bitField0_ |= 0x00000008;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder> sortBuilder_;
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> rangeFacetBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public java.util.List<io.dstore.elastic.Elastic.Sort> getSortList() {
-        if (sortBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(sort_);
+      public java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> getRangeFacetList() {
+        if (rangeFacetBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(rangeFacet_);
         } else {
-          return sortBuilder_.getMessageList();
+          return rangeFacetBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public int getSortCount() {
-        if (sortBuilder_ == null) {
-          return sort_.size();
+      public int getRangeFacetCount() {
+        if (rangeFacetBuilder_ == null) {
+          return rangeFacet_.size();
         } else {
-          return sortBuilder_.getCount();
+          return rangeFacetBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public io.dstore.elastic.Elastic.Sort getSort(int index) {
-        if (sortBuilder_ == null) {
-          return sort_.get(index);
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getRangeFacet(int index) {
+        if (rangeFacetBuilder_ == null) {
+          return rangeFacet_.get(index);
         } else {
-          return sortBuilder_.getMessage(index);
+          return rangeFacetBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder setSort(
-          int index, io.dstore.elastic.Elastic.Sort value) {
-        if (sortBuilder_ == null) {
+      public Builder setRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet value) {
+        if (rangeFacetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureSortIsMutable();
-          sort_.set(index, value);
+          ensureRangeFacetIsMutable();
+          rangeFacet_.set(index, value);
           onChanged();
         } else {
-          sortBuilder_.setMessage(index, value);
+          rangeFacetBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder setSort(
-          int index, io.dstore.elastic.Elastic.Sort.Builder builderForValue) {
-        if (sortBuilder_ == null) {
-          ensureSortIsMutable();
-          sort_.set(index, builderForValue.build());
+      public Builder setRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder builderForValue) {
+        if (rangeFacetBuilder_ == null) {
+          ensureRangeFacetIsMutable();
+          rangeFacet_.set(index, builderForValue.build());
           onChanged();
         } else {
-          sortBuilder_.setMessage(index, builderForValue.build());
+          rangeFacetBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder addSort(io.dstore.elastic.Elastic.Sort value) {
-        if (sortBuilder_ == null) {
+      public Builder addRangeFacet(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet value) {
+        if (rangeFacetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureSortIsMutable();
-          sort_.add(value);
+          ensureRangeFacetIsMutable();
+          rangeFacet_.add(value);
           onChanged();
         } else {
-          sortBuilder_.addMessage(value);
+          rangeFacetBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder addSort(
-          int index, io.dstore.elastic.Elastic.Sort value) {
-        if (sortBuilder_ == null) {
+      public Builder addRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet value) {
+        if (rangeFacetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureSortIsMutable();
-          sort_.add(index, value);
+          ensureRangeFacetIsMutable();
+          rangeFacet_.add(index, value);
           onChanged();
         } else {
-          sortBuilder_.addMessage(index, value);
+          rangeFacetBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder addSort(
-          io.dstore.elastic.Elastic.Sort.Builder builderForValue) {
-        if (sortBuilder_ == null) {
-          ensureSortIsMutable();
-          sort_.add(builderForValue.build());
+      public Builder addRangeFacet(
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder builderForValue) {
+        if (rangeFacetBuilder_ == null) {
+          ensureRangeFacetIsMutable();
+          rangeFacet_.add(builderForValue.build());
           onChanged();
         } else {
-          sortBuilder_.addMessage(builderForValue.build());
+          rangeFacetBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder addSort(
-          int index, io.dstore.elastic.Elastic.Sort.Builder builderForValue) {
-        if (sortBuilder_ == null) {
-          ensureSortIsMutable();
-          sort_.add(index, builderForValue.build());
+      public Builder addRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder builderForValue) {
+        if (rangeFacetBuilder_ == null) {
+          ensureRangeFacetIsMutable();
+          rangeFacet_.add(index, builderForValue.build());
           onChanged();
         } else {
-          sortBuilder_.addMessage(index, builderForValue.build());
+          rangeFacetBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder addAllSort(
-          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Sort> values) {
-        if (sortBuilder_ == null) {
-          ensureSortIsMutable();
+      public Builder addAllRangeFacet(
+          java.lang.Iterable<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> values) {
+        if (rangeFacetBuilder_ == null) {
+          ensureRangeFacetIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, sort_);
+              values, rangeFacet_);
           onChanged();
         } else {
-          sortBuilder_.addAllMessages(values);
+          rangeFacetBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder clearSort() {
-        if (sortBuilder_ == null) {
-          sort_ = java.util.Collections.emptyList();
+      public Builder clearRangeFacet() {
+        if (rangeFacetBuilder_ == null) {
+          rangeFacet_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000008);
           onChanged();
         } else {
-          sortBuilder_.clear();
+          rangeFacetBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public Builder removeSort(int index) {
-        if (sortBuilder_ == null) {
-          ensureSortIsMutable();
-          sort_.remove(index);
+      public Builder removeRangeFacet(int index) {
+        if (rangeFacetBuilder_ == null) {
+          ensureRangeFacetIsMutable();
+          rangeFacet_.remove(index);
           onChanged();
         } else {
-          sortBuilder_.remove(index);
+          rangeFacetBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public io.dstore.elastic.Elastic.Sort.Builder getSortBuilder(
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder getRangeFacetBuilder(
           int index) {
-        return getSortFieldBuilder().getBuilder(index);
+        return getRangeFacetFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public io.dstore.elastic.Elastic.SortOrBuilder getSortOrBuilder(
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder getRangeFacetOrBuilder(
           int index) {
-        if (sortBuilder_ == null) {
-          return sort_.get(index);  } else {
-          return sortBuilder_.getMessageOrBuilder(index);
+        if (rangeFacetBuilder_ == null) {
+          return rangeFacet_.get(index);  } else {
+          return rangeFacetBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public java.util.List<? extends io.dstore.elastic.Elastic.SortOrBuilder> 
-           getSortOrBuilderList() {
-        if (sortBuilder_ != null) {
-          return sortBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+           getRangeFacetOrBuilderList() {
+        if (rangeFacetBuilder_ != null) {
+          return rangeFacetBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(sort_);
+          return java.util.Collections.unmodifiableList(rangeFacet_);
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public io.dstore.elastic.Elastic.Sort.Builder addSortBuilder() {
-        return getSortFieldBuilder().addBuilder(
-            io.dstore.elastic.Elastic.Sort.getDefaultInstance());
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder addRangeFacetBuilder() {
+        return getRangeFacetFieldBuilder().addBuilder(
+            io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public io.dstore.elastic.Elastic.Sort.Builder addSortBuilder(
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder addRangeFacetBuilder(
           int index) {
-        return getSortFieldBuilder().addBuilder(
-            index, io.dstore.elastic.Elastic.Sort.getDefaultInstance());
+        return getRangeFacetFieldBuilder().addBuilder(
+            index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.Sort sort = 4;</code>
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet range_facet = 5;</code>
        */
-      public java.util.List<io.dstore.elastic.Elastic.Sort.Builder> 
-           getSortBuilderList() {
-        return getSortFieldBuilder().getBuilderList();
+      public java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder> 
+           getRangeFacetBuilderList() {
+        return getRangeFacetFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder> 
-          getSortFieldBuilder() {
-        if (sortBuilder_ == null) {
-          sortBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder>(
-                  sort_,
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+          getRangeFacetFieldBuilder() {
+        if (rangeFacetBuilder_ == null) {
+          rangeFacetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder>(
+                  rangeFacet_,
                   ((bitField0_ & 0x00000008) == 0x00000008),
                   getParentForChildren(),
                   isClean());
-          sort_ = null;
+          rangeFacet_ = null;
         }
-        return sortBuilder_;
+        return rangeFacetBuilder_;
+      }
+
+      private java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> dateRangeFacet_ =
+        java.util.Collections.emptyList();
+      private void ensureDateRangeFacetIsMutable() {
+        if (!((bitField0_ & 0x00000010) == 0x00000010)) {
+          dateRangeFacet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet>(dateRangeFacet_);
+          bitField0_ |= 0x00000010;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> dateRangeFacetBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> getDateRangeFacetList() {
+        if (dateRangeFacetBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(dateRangeFacet_);
+        } else {
+          return dateRangeFacetBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public int getDateRangeFacetCount() {
+        if (dateRangeFacetBuilder_ == null) {
+          return dateRangeFacet_.size();
+        } else {
+          return dateRangeFacetBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet getDateRangeFacet(int index) {
+        if (dateRangeFacetBuilder_ == null) {
+          return dateRangeFacet_.get(index);
+        } else {
+          return dateRangeFacetBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder setDateRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet value) {
+        if (dateRangeFacetBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.set(index, value);
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder setDateRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder builderForValue) {
+        if (dateRangeFacetBuilder_ == null) {
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder addDateRangeFacet(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet value) {
+        if (dateRangeFacetBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.add(value);
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder addDateRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet value) {
+        if (dateRangeFacetBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.add(index, value);
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder addDateRangeFacet(
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder builderForValue) {
+        if (dateRangeFacetBuilder_ == null) {
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder addDateRangeFacet(
+          int index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder builderForValue) {
+        if (dateRangeFacetBuilder_ == null) {
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder addAllDateRangeFacet(
+          java.lang.Iterable<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet> values) {
+        if (dateRangeFacetBuilder_ == null) {
+          ensureDateRangeFacetIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, dateRangeFacet_);
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder clearDateRangeFacet() {
+        if (dateRangeFacetBuilder_ == null) {
+          dateRangeFacet_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000010);
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public Builder removeDateRangeFacet(int index) {
+        if (dateRangeFacetBuilder_ == null) {
+          ensureDateRangeFacetIsMutable();
+          dateRangeFacet_.remove(index);
+          onChanged();
+        } else {
+          dateRangeFacetBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder getDateRangeFacetBuilder(
+          int index) {
+        return getDateRangeFacetFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder getDateRangeFacetOrBuilder(
+          int index) {
+        if (dateRangeFacetBuilder_ == null) {
+          return dateRangeFacet_.get(index);  } else {
+          return dateRangeFacetBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+           getDateRangeFacetOrBuilderList() {
+        if (dateRangeFacetBuilder_ != null) {
+          return dateRangeFacetBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(dateRangeFacet_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder addDateRangeFacetBuilder() {
+        return getDateRangeFacetFieldBuilder().addBuilder(
+            io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder addDateRangeFacetBuilder(
+          int index) {
+        return getDateRangeFacetFieldBuilder().addBuilder(
+            index, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.facetednavigation.Request.RangeFacet date_range_facet = 6;</code>
+       */
+      public java.util.List<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder> 
+           getDateRangeFacetBuilderList() {
+        return getDateRangeFacetFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
+          getDateRangeFacetFieldBuilder() {
+        if (dateRangeFacetBuilder_ == null) {
+          dateRangeFacetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder>(
+                  dateRangeFacet_,
+                  ((bitField0_ & 0x00000010) == 0x00000010),
+                  getParentForChildren(),
+                  isClean());
+          dateRangeFacet_ = null;
+        }
+        return dateRangeFacetBuilder_;
       }
 
       private int from_ ;
@@ -3537,6 +4831,246 @@ public final class FacetedNavigation {
         size_ = 0;
         onChanged();
         return this;
+      }
+
+      private java.util.List<io.dstore.elastic.Elastic.Sort> sort_ =
+        java.util.Collections.emptyList();
+      private void ensureSortIsMutable() {
+        if (!((bitField0_ & 0x00000080) == 0x00000080)) {
+          sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>(sort_);
+          bitField0_ |= 0x00000080;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder> sortBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Sort> getSortList() {
+        if (sortBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(sort_);
+        } else {
+          return sortBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public int getSortCount() {
+        if (sortBuilder_ == null) {
+          return sort_.size();
+        } else {
+          return sortBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort getSort(int index) {
+        if (sortBuilder_ == null) {
+          return sort_.get(index);
+        } else {
+          return sortBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder setSort(
+          int index, io.dstore.elastic.Elastic.Sort value) {
+        if (sortBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureSortIsMutable();
+          sort_.set(index, value);
+          onChanged();
+        } else {
+          sortBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder setSort(
+          int index, io.dstore.elastic.Elastic.Sort.Builder builderForValue) {
+        if (sortBuilder_ == null) {
+          ensureSortIsMutable();
+          sort_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          sortBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder addSort(io.dstore.elastic.Elastic.Sort value) {
+        if (sortBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureSortIsMutable();
+          sort_.add(value);
+          onChanged();
+        } else {
+          sortBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder addSort(
+          int index, io.dstore.elastic.Elastic.Sort value) {
+        if (sortBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureSortIsMutable();
+          sort_.add(index, value);
+          onChanged();
+        } else {
+          sortBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder addSort(
+          io.dstore.elastic.Elastic.Sort.Builder builderForValue) {
+        if (sortBuilder_ == null) {
+          ensureSortIsMutable();
+          sort_.add(builderForValue.build());
+          onChanged();
+        } else {
+          sortBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder addSort(
+          int index, io.dstore.elastic.Elastic.Sort.Builder builderForValue) {
+        if (sortBuilder_ == null) {
+          ensureSortIsMutable();
+          sort_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          sortBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder addAllSort(
+          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Sort> values) {
+        if (sortBuilder_ == null) {
+          ensureSortIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, sort_);
+          onChanged();
+        } else {
+          sortBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder clearSort() {
+        if (sortBuilder_ == null) {
+          sort_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000080);
+          onChanged();
+        } else {
+          sortBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public Builder removeSort(int index) {
+        if (sortBuilder_ == null) {
+          ensureSortIsMutable();
+          sort_.remove(index);
+          onChanged();
+        } else {
+          sortBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.Builder getSortBuilder(
+          int index) {
+        return getSortFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public io.dstore.elastic.Elastic.SortOrBuilder getSortOrBuilder(
+          int index) {
+        if (sortBuilder_ == null) {
+          return sort_.get(index);  } else {
+          return sortBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.SortOrBuilder> 
+           getSortOrBuilderList() {
+        if (sortBuilder_ != null) {
+          return sortBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(sort_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.Builder addSortBuilder() {
+        return getSortFieldBuilder().addBuilder(
+            io.dstore.elastic.Elastic.Sort.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.Builder addSortBuilder(
+          int index) {
+        return getSortFieldBuilder().addBuilder(
+            index, io.dstore.elastic.Elastic.Sort.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Sort sort = 20;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Sort.Builder> 
+           getSortBuilderList() {
+        return getSortFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder> 
+          getSortFieldBuilder() {
+        if (sortBuilder_ == null) {
+          sortBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder>(
+                  sort_,
+                  ((bitField0_ & 0x00000080) == 0x00000080),
+                  getParentForChildren(),
+                  isClean());
+          sort_ = null;
+        }
+        return sortBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -5020,6 +6554,11 @@ public final class FacetedNavigation {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -5052,29 +6591,34 @@ public final class FacetedNavigation {
       "proto\022 dstore.elastic.facetednavigation\032" +
       "\034dstore/elastic/elastic.proto\032\036dstore/el" +
       "astic/item/item.proto\032\032dstore/elastic/er" +
-      "ror.proto\"\362\004\n\007Request\022-\n\nbase_query\030\001 \001(" +
+      "ror.proto\"\325\006\n\007Request\022-\n\nbase_query\030\001 \001(" +
       "\0132\031.dstore.elastic.BoolQuery\022-\n\npost_que" +
       "ry\030\002 \001(\0132\031.dstore.elastic.BoolQuery\022>\n\005f" +
       "acet\030\003 \003(\0132/.dstore.elastic.facetednavig" +
-      "ation.Request.Facet\022\"\n\004sort\030\004 \003(\0132\024.dsto" +
-      "re.elastic.Sort\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 ",
-      "\001(\005\032\210\003\n\005Facet\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sor" +
-      "t_no_sort\030\002 \001(\0132:.dstore.elastic.faceted" +
-      "navigation.Request.Facet.SortNoSortH\000\022O\n" +
-      "\nfield_sort\030\003 \001(\01329.dstore.elastic.facet" +
-      "ednavigation.Request.Facet.FieldSortH\000\032<" +
-      "\n\nSortNoSort\022.\n\nsort_order\030\001 \001(\0162\032.dstor" +
-      "e.elastic.Sort.Order\032}\n\tFieldSort\022\022\n\nfie" +
-      "ld_name\030\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dsto" +
-      "re.elastic.Sort.Order\022,\n\tsort_mode\030\003 \001(\016" +
-      "2\031.dstore.elastic.Sort.ModeB\t\n\007sort_by\"\274",
-      "\001\n\010Response\022*\n\005error\030\001 \001(\0132\033.dstore.elas" +
-      "tic.error.Error\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004i" +
-      "tem\030\003 \003(\0132\031.dstore.elastic.item.Item\022)\n\005" +
-      "facet\030\004 \003(\0132\032.dstore.elastic.item.Facet\022" +
-      "\034\n\024elastic_query_string\030\005 \001(\tB+\n\026io.dsto" +
-      "re.elastic.itemB\021FacetedNavigationb\006prot" +
-      "o3"
+      "ation.Request.Facet\022I\n\013range_facet\030\005 \003(\013" +
+      "24.dstore.elastic.facetednavigation.Requ",
+      "est.RangeFacet\022N\n\020date_range_facet\030\006 \003(\013" +
+      "24.dstore.elastic.facetednavigation.Requ" +
+      "est.RangeFacet\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001" +
+      "(\005\022\"\n\004sort\030\024 \003(\0132\024.dstore.elastic.Sort\032F" +
+      "\n\nRangeFacet\022\022\n\nfield_name\030\001 \001(\t\022$\n\005rang" +
+      "e\030\002 \003(\0132\025.dstore.elastic.Range\032\210\003\n\005Facet" +
+      "\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sort_no_sort\030\002 \001" +
+      "(\0132:.dstore.elastic.facetednavigation.Re" +
+      "quest.Facet.SortNoSortH\000\022O\n\nfield_sort\030\003" +
+      " \001(\01329.dstore.elastic.facetednavigation.",
+      "Request.Facet.FieldSortH\000\032<\n\nSortNoSort\022" +
+      ".\n\nsort_order\030\001 \001(\0162\032.dstore.elastic.Sor" +
+      "t.Order\032}\n\tFieldSort\022\022\n\nfield_name\030\001 \001(\t" +
+      "\022.\n\nsort_order\030\002 \001(\0162\032.dstore.elastic.So" +
+      "rt.Order\022,\n\tsort_mode\030\003 \001(\0162\031.dstore.ela" +
+      "stic.Sort.ModeB\t\n\007sort_by\"\274\001\n\010Response\022*" +
+      "\n\005error\030\001 \001(\0132\033.dstore.elastic.error.Err" +
+      "or\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003 \003(\0132\031.d" +
+      "store.elastic.item.Item\022)\n\005facet\030\004 \003(\0132\032" +
+      ".dstore.elastic.item.Facet\022\034\n\024elastic_qu",
+      "ery_string\030\005 \001(\tB+\n\026io.dstore.elastic.it" +
+      "emB\021FacetedNavigationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5096,9 +6640,15 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_descriptor,
-        new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "Sort", "From", "Size", });
-    internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor =
+        new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "RangeFacet", "DateRangeFacet", "From", "Size", "Sort", });
+    internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_descriptor.getNestedTypes().get(0);
+    internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor,
+        new java.lang.String[] { "FieldName", "Range", });
+    internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor =
+      internal_static_dstore_elastic_facetednavigation_Request_descriptor.getNestedTypes().get(1);
     internal_static_dstore_elastic_facetednavigation_Request_Facet_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor,
