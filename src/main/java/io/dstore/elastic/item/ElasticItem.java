@@ -1522,10 +1522,6 @@ public final class ElasticItem {
 
       /**
        * <code>optional int32 total_item_count = 2;</code>
-       *
-       * <pre>
-       * When using a nested aggregation this may show the number of nested documents
-       * </pre>
        */
       int getTotalItemCount();
 
@@ -1538,6 +1534,24 @@ public final class ElasticItem {
        * <code>optional bool active = 4;</code>
        */
       boolean getActive();
+
+      /**
+       * <code>optional double min_value = 5;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      double getMinValue();
+
+      /**
+       * <code>optional double max_value = 6;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      double getMaxValue();
     }
     /**
      * Protobuf type {@code dstore.elastic.item.Facet.FacetValue}
@@ -1554,6 +1568,8 @@ public final class ElasticItem {
         totalItemCount_ = 0;
         matchingItemCount_ = 0;
         active_ = false;
+        minValue_ = 0D;
+        maxValue_ = 0D;
       }
 
       @java.lang.Override
@@ -1608,6 +1624,16 @@ public final class ElasticItem {
                 active_ = input.readBool();
                 break;
               }
+              case 41: {
+
+                minValue_ = input.readDouble();
+                break;
+              }
+              case 49: {
+
+                maxValue_ = input.readDouble();
+                break;
+              }
             }
           }
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
@@ -1657,10 +1683,6 @@ public final class ElasticItem {
       private int totalItemCount_;
       /**
        * <code>optional int32 total_item_count = 2;</code>
-       *
-       * <pre>
-       * When using a nested aggregation this may show the number of nested documents
-       * </pre>
        */
       public int getTotalItemCount() {
         return totalItemCount_;
@@ -1682,6 +1704,32 @@ public final class ElasticItem {
        */
       public boolean getActive() {
         return active_;
+      }
+
+      public static final int MIN_VALUE_FIELD_NUMBER = 5;
+      private double minValue_;
+      /**
+       * <code>optional double min_value = 5;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public double getMinValue() {
+        return minValue_;
+      }
+
+      public static final int MAX_VALUE_FIELD_NUMBER = 6;
+      private double maxValue_;
+      /**
+       * <code>optional double max_value = 6;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public double getMaxValue() {
+        return maxValue_;
       }
 
       private byte memoizedIsInitialized = -1;
@@ -1708,6 +1756,12 @@ public final class ElasticItem {
         if (active_ != false) {
           output.writeBool(4, active_);
         }
+        if (minValue_ != 0D) {
+          output.writeDouble(5, minValue_);
+        }
+        if (maxValue_ != 0D) {
+          output.writeDouble(6, maxValue_);
+        }
       }
 
       public int getSerializedSize() {
@@ -1730,6 +1784,14 @@ public final class ElasticItem {
         if (active_ != false) {
           size += com.google.protobuf.CodedOutputStream
             .computeBoolSize(4, active_);
+        }
+        if (minValue_ != 0D) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeDoubleSize(5, minValue_);
+        }
+        if (maxValue_ != 0D) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeDoubleSize(6, maxValue_);
         }
         memoizedSize = size;
         return size;
@@ -1854,6 +1916,10 @@ public final class ElasticItem {
 
           active_ = false;
 
+          minValue_ = 0D;
+
+          maxValue_ = 0D;
+
           return this;
         }
 
@@ -1884,6 +1950,8 @@ public final class ElasticItem {
           result.totalItemCount_ = totalItemCount_;
           result.matchingItemCount_ = matchingItemCount_;
           result.active_ = active_;
+          result.minValue_ = minValue_;
+          result.maxValue_ = maxValue_;
           onBuilt();
           return result;
         }
@@ -1910,6 +1978,12 @@ public final class ElasticItem {
           }
           if (other.getActive() != false) {
             setActive(other.getActive());
+          }
+          if (other.getMinValue() != 0D) {
+            setMinValue(other.getMinValue());
+          }
+          if (other.getMaxValue() != 0D) {
+            setMaxValue(other.getMaxValue());
           }
           onChanged();
           return this;
@@ -2057,20 +2131,12 @@ public final class ElasticItem {
         private int totalItemCount_ ;
         /**
          * <code>optional int32 total_item_count = 2;</code>
-         *
-         * <pre>
-         * When using a nested aggregation this may show the number of nested documents
-         * </pre>
          */
         public int getTotalItemCount() {
           return totalItemCount_;
         }
         /**
          * <code>optional int32 total_item_count = 2;</code>
-         *
-         * <pre>
-         * When using a nested aggregation this may show the number of nested documents
-         * </pre>
          */
         public Builder setTotalItemCount(int value) {
           
@@ -2080,10 +2146,6 @@ public final class ElasticItem {
         }
         /**
          * <code>optional int32 total_item_count = 2;</code>
-         *
-         * <pre>
-         * When using a nested aggregation this may show the number of nested documents
-         * </pre>
          */
         public Builder clearTotalItemCount() {
           
@@ -2140,6 +2202,82 @@ public final class ElasticItem {
         public Builder clearActive() {
           
           active_ = false;
+          onChanged();
+          return this;
+        }
+
+        private double minValue_ ;
+        /**
+         * <code>optional double min_value = 5;</code>
+         *
+         * <pre>
+         * Only filled when using a range-facet
+         * </pre>
+         */
+        public double getMinValue() {
+          return minValue_;
+        }
+        /**
+         * <code>optional double min_value = 5;</code>
+         *
+         * <pre>
+         * Only filled when using a range-facet
+         * </pre>
+         */
+        public Builder setMinValue(double value) {
+          
+          minValue_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional double min_value = 5;</code>
+         *
+         * <pre>
+         * Only filled when using a range-facet
+         * </pre>
+         */
+        public Builder clearMinValue() {
+          
+          minValue_ = 0D;
+          onChanged();
+          return this;
+        }
+
+        private double maxValue_ ;
+        /**
+         * <code>optional double max_value = 6;</code>
+         *
+         * <pre>
+         * Only filled when using a range-facet
+         * </pre>
+         */
+        public double getMaxValue() {
+          return maxValue_;
+        }
+        /**
+         * <code>optional double max_value = 6;</code>
+         *
+         * <pre>
+         * Only filled when using a range-facet
+         * </pre>
+         */
+        public Builder setMaxValue(double value) {
+          
+          maxValue_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional double max_value = 6;</code>
+         *
+         * <pre>
+         * Only filled when using a range-facet
+         * </pre>
+         */
+        public Builder clearMaxValue() {
+          
+          maxValue_ = 0D;
           onChanged();
           return this;
         }
@@ -2928,14 +3066,15 @@ public final class ElasticItem {
       "de\030\002 \003(\0132\031.dstore.elastic.node.Node\0223\n\014l" +
       "ast_updated\030\003 \001(\0132\035.dstore.values.timest" +
       "ampValue\022\r\n\005score\030\n \001(\001\022\022\n\nindex_name\030\013 " +
-      "\001(\t\022\023\n\013document_id\030\014 \001(\t\"\321\001\n\005Facet\022\022\n\nfi" +
+      "\001(\t\022\023\n\013document_id\030\014 \001(\t\"\370\001\n\005Facet\022\022\n\nfi" +
       "eld_name\030\001 \001(\t\022:\n\013facet_value\030\002 \003(\0132%.ds",
-      "tore.elastic.item.Facet.FacetValue\032x\n\nFa" +
-      "cetValue\022#\n\005value\030\001 \001(\0132\024.dstore.values." +
-      "Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023match" +
-      "ing_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010B%\n\026" +
-      "io.dstore.elastic.itemB\013ElasticItemb\006pro" +
-      "to3"
+      "tore.elastic.item.Facet.FacetValue\032\236\001\n\nF" +
+      "acetValue\022#\n\005value\030\001 \001(\0132\024.dstore.values" +
+      ".Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023matc" +
+      "hing_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010\022\021\n" +
+      "\tmin_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001B%\n\026i" +
+      "o.dstore.elastic.itemB\013ElasticItemb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2969,7 +3108,7 @@ public final class ElasticItem {
     internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_item_Facet_FacetValue_descriptor,
-        new java.lang.String[] { "Value", "TotalItemCount", "MatchingItemCount", "Active", });
+        new java.lang.String[] { "Value", "TotalItemCount", "MatchingItemCount", "Active", "MinValue", "MaxValue", });
     io.dstore.elastic.Elastic.getDescriptor();
     io.dstore.elastic.item.ElasticNode.getDescriptor();
     io.dstore.Values.getDescriptor();
