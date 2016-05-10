@@ -1421,6 +1421,24 @@ public final class ElasticItem {
      */
     io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder getFacetValueOrBuilder(
         int index);
+
+    /**
+     * <code>optional double range_from = 10;</code>
+     *
+     * <pre>
+     * Only filled when using a range-facet
+     * </pre>
+     */
+    double getRangeFrom();
+
+    /**
+     * <code>optional double range_to = 11;</code>
+     *
+     * <pre>
+     * Only filled when using a range-facet
+     * </pre>
+     */
+    double getRangeTo();
   }
   /**
    * Protobuf type {@code dstore.elastic.item.Facet}
@@ -1436,6 +1454,8 @@ public final class ElasticItem {
     private Facet() {
       fieldName_ = "";
       facetValue_ = java.util.Collections.emptyList();
+      rangeFrom_ = 0D;
+      rangeTo_ = 0D;
     }
 
     @java.lang.Override
@@ -1474,6 +1494,16 @@ public final class ElasticItem {
                 mutable_bitField0_ |= 0x00000002;
               }
               facetValue_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.FacetValue.parser(), extensionRegistry));
+              break;
+            }
+            case 81: {
+
+              rangeFrom_ = input.readDouble();
+              break;
+            }
+            case 89: {
+
+              rangeTo_ = input.readDouble();
               break;
             }
           }
@@ -1532,6 +1562,10 @@ public final class ElasticItem {
 
       /**
        * <code>optional bool active = 4;</code>
+       *
+       * <pre>
+       * Only filled when using a term-facet
+       * </pre>
        */
       boolean getActive();
 
@@ -1701,6 +1735,10 @@ public final class ElasticItem {
       private boolean active_;
       /**
        * <code>optional bool active = 4;</code>
+       *
+       * <pre>
+       * Only filled when using a term-facet
+       * </pre>
        */
       public boolean getActive() {
         return active_;
@@ -2183,12 +2221,20 @@ public final class ElasticItem {
         private boolean active_ ;
         /**
          * <code>optional bool active = 4;</code>
+         *
+         * <pre>
+         * Only filled when using a term-facet
+         * </pre>
          */
         public boolean getActive() {
           return active_;
         }
         /**
          * <code>optional bool active = 4;</code>
+         *
+         * <pre>
+         * Only filled when using a term-facet
+         * </pre>
          */
         public Builder setActive(boolean value) {
           
@@ -2198,6 +2244,10 @@ public final class ElasticItem {
         }
         /**
          * <code>optional bool active = 4;</code>
+         *
+         * <pre>
+         * Only filled when using a term-facet
+         * </pre>
          */
         public Builder clearActive() {
           
@@ -2409,6 +2459,32 @@ public final class ElasticItem {
       return facetValue_.get(index);
     }
 
+    public static final int RANGE_FROM_FIELD_NUMBER = 10;
+    private double rangeFrom_;
+    /**
+     * <code>optional double range_from = 10;</code>
+     *
+     * <pre>
+     * Only filled when using a range-facet
+     * </pre>
+     */
+    public double getRangeFrom() {
+      return rangeFrom_;
+    }
+
+    public static final int RANGE_TO_FIELD_NUMBER = 11;
+    private double rangeTo_;
+    /**
+     * <code>optional double range_to = 11;</code>
+     *
+     * <pre>
+     * Only filled when using a range-facet
+     * </pre>
+     */
+    public double getRangeTo() {
+      return rangeTo_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -2427,6 +2503,12 @@ public final class ElasticItem {
       for (int i = 0; i < facetValue_.size(); i++) {
         output.writeMessage(2, facetValue_.get(i));
       }
+      if (rangeFrom_ != 0D) {
+        output.writeDouble(10, rangeFrom_);
+      }
+      if (rangeTo_ != 0D) {
+        output.writeDouble(11, rangeTo_);
+      }
     }
 
     public int getSerializedSize() {
@@ -2440,6 +2522,14 @@ public final class ElasticItem {
       for (int i = 0; i < facetValue_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, facetValue_.get(i));
+      }
+      if (rangeFrom_ != 0D) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(10, rangeFrom_);
+      }
+      if (rangeTo_ != 0D) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(11, rangeTo_);
       }
       memoizedSize = size;
       return size;
@@ -2561,6 +2651,10 @@ public final class ElasticItem {
         } else {
           facetValueBuilder_.clear();
         }
+        rangeFrom_ = 0D;
+
+        rangeTo_ = 0D;
+
         return this;
       }
 
@@ -2595,6 +2689,8 @@ public final class ElasticItem {
         } else {
           result.facetValue_ = facetValueBuilder_.build();
         }
+        result.rangeFrom_ = rangeFrom_;
+        result.rangeTo_ = rangeTo_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -2640,6 +2736,12 @@ public final class ElasticItem {
               facetValueBuilder_.addAllMessages(other.facetValue_);
             }
           }
+        }
+        if (other.getRangeFrom() != 0D) {
+          setRangeFrom(other.getRangeFrom());
+        }
+        if (other.getRangeTo() != 0D) {
+          setRangeTo(other.getRangeTo());
         }
         onChanged();
         return this;
@@ -2976,6 +3078,82 @@ public final class ElasticItem {
         }
         return facetValueBuilder_;
       }
+
+      private double rangeFrom_ ;
+      /**
+       * <code>optional double range_from = 10;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public double getRangeFrom() {
+        return rangeFrom_;
+      }
+      /**
+       * <code>optional double range_from = 10;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public Builder setRangeFrom(double value) {
+        
+        rangeFrom_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional double range_from = 10;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public Builder clearRangeFrom() {
+        
+        rangeFrom_ = 0D;
+        onChanged();
+        return this;
+      }
+
+      private double rangeTo_ ;
+      /**
+       * <code>optional double range_to = 11;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public double getRangeTo() {
+        return rangeTo_;
+      }
+      /**
+       * <code>optional double range_to = 11;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public Builder setRangeTo(double value) {
+        
+        rangeTo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional double range_to = 11;</code>
+       *
+       * <pre>
+       * Only filled when using a range-facet
+       * </pre>
+       */
+      public Builder clearRangeTo() {
+        
+        rangeTo_ = 0D;
+        onChanged();
+        return this;
+      }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return this;
@@ -3066,15 +3244,15 @@ public final class ElasticItem {
       "de\030\002 \003(\0132\031.dstore.elastic.node.Node\0223\n\014l" +
       "ast_updated\030\003 \001(\0132\035.dstore.values.timest" +
       "ampValue\022\r\n\005score\030\n \001(\001\022\022\n\nindex_name\030\013 " +
-      "\001(\t\022\023\n\013document_id\030\014 \001(\t\"\370\001\n\005Facet\022\022\n\nfi" +
+      "\001(\t\022\023\n\013document_id\030\014 \001(\t\"\236\002\n\005Facet\022\022\n\nfi" +
       "eld_name\030\001 \001(\t\022:\n\013facet_value\030\002 \003(\0132%.ds",
-      "tore.elastic.item.Facet.FacetValue\032\236\001\n\nF" +
-      "acetValue\022#\n\005value\030\001 \001(\0132\024.dstore.values" +
-      ".Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023matc" +
-      "hing_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010\022\021\n" +
-      "\tmin_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001B%\n\026i" +
-      "o.dstore.elastic.itemB\013ElasticItemb\006prot" +
-      "o3"
+      "tore.elastic.item.Facet.FacetValue\022\022\n\nra" +
+      "nge_from\030\n \001(\001\022\020\n\010range_to\030\013 \001(\001\032\236\001\n\nFac" +
+      "etValue\022#\n\005value\030\001 \001(\0132\024.dstore.values.V" +
+      "alue\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023matchi" +
+      "ng_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010\022\021\n\tm" +
+      "in_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001B%\n\026io." +
+      "dstore.elastic.itemB\013ElasticItemb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3102,7 +3280,7 @@ public final class ElasticItem {
     internal_static_dstore_elastic_item_Facet_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_item_Facet_descriptor,
-        new java.lang.String[] { "FieldName", "FacetValue", });
+        new java.lang.String[] { "FieldName", "FacetValue", "RangeFrom", "RangeTo", });
     internal_static_dstore_elastic_item_Facet_FacetValue_descriptor =
       internal_static_dstore_elastic_item_Facet_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable = new

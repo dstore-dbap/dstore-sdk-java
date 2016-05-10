@@ -19,11 +19,14 @@ public final class Elasticservice {
     java.lang.String[] descriptorData = {
       "\n#dstore/elastic/elasticservice.proto\022\016d" +
       "store.elastic\032+dstore/elastic/item/facet" +
-      "ednavigation.proto2\200\001\n\016ElasticService\022n\n" +
-      "\021facetedNavigation\022).dstore.elastic.face" +
-      "tednavigation.Request\032*.dstore.elastic.f" +
-      "acetednavigation.Response\"\0000\001B\023\n\021io.dsto" +
-      "re.elasticb\006proto3"
+      "ednavigation.proto\032!dstore/elastic/item/" +
+      "suggest.proto2\324\001\n\016ElasticService\022n\n\021face" +
+      "tedNavigation\022).dstore.elastic.facetedna" +
+      "vigation.Request\032*.dstore.elastic.facete" +
+      "dnavigation.Response\"\0000\001\022R\n\013itemSuggest\022" +
+      "\037.dstore.elastic.suggest.Request\032 .dstor" +
+      "e.elastic.suggest.Response\"\000B\023\n\021io.dstor" +
+      "e.elasticb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -37,8 +40,10 @@ public final class Elasticservice {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.item.FacetedNavigation.getDescriptor(),
+          io.dstore.elastic.item.Suggest.getDescriptor(),
         }, assigner);
     io.dstore.elastic.item.FacetedNavigation.getDescriptor();
+    io.dstore.elastic.item.Suggest.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

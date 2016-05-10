@@ -12,8 +12,14 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncServerStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncClientStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncBidiStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
+import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 
-@javax.annotation.Generated("by gRPC proto compiler")
+/**
+ */
+@javax.annotation.Generated(
+    value = "by gRPC proto compiler (version 0.14.0)",
+    comments = "Source: dstore/engine/procedures/engineProc.proto")
 public class EngineProcGrpc {
 
   private EngineProcGrpc() {}
@@ -6781,4532 +6787,12065 @@ public class EngineProcGrpc {
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.StUpdateStatisticsAd.Parameters.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.procedures.StUpdateStatisticsAd.Response.getDefaultInstance()));
 
+  /**
+   * Creates a new async stub that supports all call types for the service
+   */
   public static EngineProcStub newStub(io.grpc.Channel channel) {
     return new EngineProcStub(channel);
   }
 
+  /**
+   * Creates a new blocking-style stub that supports unary and streaming output calls on the service
+   */
   public static EngineProcBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
     return new EngineProcBlockingStub(channel);
   }
 
+  /**
+   * Creates a new ListenableFuture-style stub that supports unary and streaming output calls on the service
+   */
   public static EngineProcFutureStub newFutureStub(
       io.grpc.Channel channel) {
     return new EngineProcFutureStub(channel);
   }
 
+  /**
+   */
   public static interface EngineProc {
 
+    /**
+     */
     public void acChangeActionStateAd(io.dstore.engine.procedures.AcChangeActionStateAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcChangeActionStateAd.Response> responseObserver);
 
+    /**
+     */
     public void acGetActionLogsAd(io.dstore.engine.procedures.AcGetActionLogsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionLogsAd.Response> responseObserver);
 
+    /**
+     */
     public void acGetActionStatusCategsAd(io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response> responseObserver);
 
+    /**
+     */
     public void acGetActionStatusValuesAd(io.dstore.engine.procedures.AcGetActionStatusValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionStatusValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void acGetActionsAd(io.dstore.engine.procedures.AcGetActionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionsAd.Response> responseObserver);
 
+    /**
+     */
     public void acGetCommandSettingEntry(io.dstore.engine.procedures.AcGetCommandSettingEntry.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetCommandSettingEntry.Response> responseObserver);
 
+    /**
+     */
     public void acGetCommandSettingsAd(io.dstore.engine.procedures.AcGetCommandSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetCommandSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void acGetCommandsAd(io.dstore.engine.procedures.AcGetCommandsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetCommandsAd.Response> responseObserver);
 
+    /**
+     */
     public void acInsertActionLogAd(io.dstore.engine.procedures.AcInsertActionLogAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcInsertActionLogAd.Response> responseObserver);
 
+    /**
+     */
     public void acInsertActionAd(io.dstore.engine.procedures.AcInsertActionAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcInsertActionAd.Response> responseObserver);
 
+    /**
+     */
     public void acModifyActionStatusValuesAd(io.dstore.engine.procedures.AcModifyActionStatusValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcModifyActionStatusValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void acModifyCommandSettingsAd(io.dstore.engine.procedures.AcModifyCommandSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcModifyCommandSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void acModifyCommandsAd(io.dstore.engine.procedures.AcModifyCommandsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcModifyCommandsAd.Response> responseObserver);
 
+    /**
+     */
     public void coCheckStatisticsAd(io.dstore.engine.procedures.CoCheckStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoCheckStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void coCreateNewCommunityMemberPu(io.dstore.engine.procedures.CoCreateNewCommunityMemberPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoCreateNewCommunityMemberPu.Response> responseObserver);
 
+    /**
+     */
     public void coCreateNewMessagePu(io.dstore.engine.procedures.CoCreateNewMessagePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoCreateNewMessagePu.Response> responseObserver);
 
+    /**
+     */
     public void coDeleteCommunityBinaryAd(io.dstore.engine.procedures.CoDeleteCommunityBinaryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteCommunityBinaryAd.Response> responseObserver);
 
+    /**
+     */
     public void coDeleteCommunityBinaryPu(io.dstore.engine.procedures.CoDeleteCommunityBinaryPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteCommunityBinaryPu.Response> responseObserver);
 
+    /**
+     */
     public void coDeleteInactiveMembersAd(io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response> responseObserver);
 
+    /**
+     */
     public void coDeleteMessagePu(io.dstore.engine.procedures.CoDeleteMessagePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteMessagePu.Response> responseObserver);
 
+    /**
+     */
     public void coDeleteUsersOnlineTimeAd(io.dstore.engine.procedures.CoDeleteUsersOnlineTimeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteUsersOnlineTimeAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetBinQuotaInformationPu(io.dstore.engine.procedures.CoGetBinQuotaInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinQuotaInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetBinariesOfOneMemberAd(io.dstore.engine.procedures.CoGetBinariesOfOneMemberAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinariesOfOneMemberAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetBinaryCatAccessLevels(io.dstore.engine.procedures.CoGetBinaryCatAccessLevels.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinaryCatAccessLevels.Response> responseObserver);
 
+    /**
+     */
     public void coGetBinaryCategoriesAd(io.dstore.engine.procedures.CoGetBinaryCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinaryCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunitiesAd(io.dstore.engine.procedures.CoGetCommunitiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunitiesAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunityForumsAd(io.dstore.engine.procedures.CoGetCommunityForumsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityForumsAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunityForumsPu(io.dstore.engine.procedures.CoGetCommunityForumsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityForumsPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunityMemberSettings(io.dstore.engine.procedures.CoGetCommunityMemberSettings.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityMemberSettings.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunitySettings(io.dstore.engine.procedures.CoGetCommunitySettings.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunitySettings.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunityStatisticsAd(io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetCommunityStatisticsPu(io.dstore.engine.procedures.CoGetCommunityStatisticsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityStatisticsPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetCurrentlyUsersOnlinePu(io.dstore.engine.procedures.CoGetCurrentlyUsersOnlinePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCurrentlyUsersOnlinePu.Response> responseObserver);
 
+    /**
+     */
     public void coGetLostPasswordQuestionPu(io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetLostPasswordPu(io.dstore.engine.procedures.CoGetLostPasswordPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetLostPasswordPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMD5ForBinaryIDPu(io.dstore.engine.procedures.CoGetMD5ForBinaryIDPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMD5ForBinaryIDPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMemberBinariesPu(io.dstore.engine.procedures.CoGetMemberBinariesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberBinariesPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMemberInformationPu(io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMemberPropertiesPu(io.dstore.engine.procedures.CoGetMemberPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMemberSettingsAd(io.dstore.engine.procedures.CoGetMemberSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetMemberSettingsPu(io.dstore.engine.procedures.CoGetMemberSettingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberSettingsPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMemberStatisticsPu(io.dstore.engine.procedures.CoGetMemberStatisticsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberStatisticsPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetMessagesOfOneMemberAd(io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response> responseObserver);
 
+    /**
+     */
     public void coGetMessagesPu(io.dstore.engine.procedures.CoGetMessagesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMessagesPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetNewestMembersPu(io.dstore.engine.procedures.CoGetNewestMembersPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetNewestMembersPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetOnlineStatusPu(io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetOnlineStatusPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetOnlineTimeOfMembersPu(io.dstore.engine.procedures.CoGetOnlineTimeOfMembersPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetOnlineTimeOfMembersPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetPublicCommunityStatsPu(io.dstore.engine.procedures.CoGetPublicCommunityStatsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetPublicCommunityStatsPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetRelatedMembersPu(io.dstore.engine.procedures.CoGetRelatedMembersPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetRelatedMembersPu.Response> responseObserver);
 
+    /**
+     */
     public void coGetSentMessagesPu(io.dstore.engine.procedures.CoGetSentMessagesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetSentMessagesPu.Response> responseObserver);
 
+    /**
+     */
     public void coInsertCommunityMembersAd(io.dstore.engine.procedures.CoInsertCommunityMembersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertCommunityMembersAd.Response> responseObserver);
 
+    /**
+     */
     public void coInsertCommunityMembersPu(io.dstore.engine.procedures.CoInsertCommunityMembersPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertCommunityMembersPu.Response> responseObserver);
 
+    /**
+     */
     public void coInsertNewCommunityAd(io.dstore.engine.procedures.CoInsertNewCommunityAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertNewCommunityAd.Response> responseObserver);
 
+    /**
+     */
     public void coInsertNewMemberBinaryPu(io.dstore.engine.procedures.CoInsertNewMemberBinaryPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertNewMemberBinaryPu.Response> responseObserver);
 
+    /**
+     */
     public void coLoginIntoCommunityPu(io.dstore.engine.procedures.CoLoginIntoCommunityPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoLoginIntoCommunityPu.Response> responseObserver);
 
+    /**
+     */
     public void coLogoutCommunityMemberAd(io.dstore.engine.procedures.CoLogoutCommunityMemberAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoLogoutCommunityMemberAd.Response> responseObserver);
 
+    /**
+     */
     public void coLogoutOffCommunityPu(io.dstore.engine.procedures.CoLogoutOffCommunityPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoLogoutOffCommunityPu.Response> responseObserver);
 
+    /**
+     */
     public void coModifyBinaryCategoriesAd(io.dstore.engine.procedures.CoModifyBinaryCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyBinaryCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void coModifyCommunitiesAd(io.dstore.engine.procedures.CoModifyCommunitiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyCommunitiesAd.Response> responseObserver);
 
+    /**
+     */
     public void coModifyCommunityForumsAd(io.dstore.engine.procedures.CoModifyCommunityForumsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyCommunityForumsAd.Response> responseObserver);
 
+    /**
+     */
     public void coModifyCommunitySettingsAd(io.dstore.engine.procedures.CoModifyCommunitySettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyCommunitySettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void coModifyMemberSettingsAd(io.dstore.engine.procedures.CoModifyMemberSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyMemberSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void coModifyMemberSettingsPu(io.dstore.engine.procedures.CoModifyMemberSettingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyMemberSettingsPu.Response> responseObserver);
 
+    /**
+     */
     public void coSearchMemberSettingsAd(io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void coSearchMembersAd(io.dstore.engine.procedures.CoSearchMembersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoSearchMembersAd.Response> responseObserver);
 
+    /**
+     */
     public void coSearchMembersPu(io.dstore.engine.procedures.CoSearchMembersPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoSearchMembersPu.Response> responseObserver);
 
+    /**
+     */
     public void doGetGlossaryAd(io.dstore.engine.procedures.DoGetGlossaryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetGlossaryAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcResSortConditionsAd(io.dstore.engine.procedures.DoGetProcResSortConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcResSortConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcResultConditionsAd(io.dstore.engine.procedures.DoGetProcResultConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcResultConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureCategoriesAd(io.dstore.engine.procedures.DoGetProcedureCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureDependenciesAd(io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureDocuAd(io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureHistoryAd(io.dstore.engine.procedures.DoGetProcedureHistoryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureHistoryAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureNamesAd(io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureParametersAd(io.dstore.engine.procedures.DoGetProcedureParametersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureParametersAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureResultSetsAd(io.dstore.engine.procedures.DoGetProcedureResultSetsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureResultSetsAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureReturnCodesAd(io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetProcedureTypesAd(io.dstore.engine.procedures.DoGetProcedureTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetReturnCodeCategoriesAd(io.dstore.engine.procedures.DoGetReturnCodeCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetReturnCodeCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetReturnCodesAd(io.dstore.engine.procedures.DoGetReturnCodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetReturnCodesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetSQLFunctionParametersAd(io.dstore.engine.procedures.DoGetSQLFunctionParametersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSQLFunctionParametersAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetSettingsDescriptionsAd(io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetSettingsEntryCatsAd(io.dstore.engine.procedures.DoGetSettingsEntryCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSettingsEntryCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetSortOrderForResultSetAd(io.dstore.engine.procedures.DoGetSortOrderForResultSetAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSortOrderForResultSetAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetTableCategoriesAd(io.dstore.engine.procedures.DoGetTableCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetTableCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetdStoreLanguagesAd(io.dstore.engine.procedures.DoGetdStoreLanguagesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetdStoreLanguagesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetdStoreTablesAd(io.dstore.engine.procedures.DoGetdStoreTablesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetdStoreTablesAd.Response> responseObserver);
 
+    /**
+     */
     public void doGetdStoreVersionsAd(io.dstore.engine.procedures.DoGetdStoreVersionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetdStoreVersionsAd.Response> responseObserver);
 
+    /**
+     */
     public void foCheckForumAccessPu(io.dstore.engine.procedures.FoCheckForumAccessPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoCheckForumAccessPu.Response> responseObserver);
 
+    /**
+     */
     public void foCopyPostingPu(io.dstore.engine.procedures.FoCopyPostingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoCopyPostingPu.Response> responseObserver);
 
+    /**
+     */
     public void foDeletePostingBinaryPu(io.dstore.engine.procedures.FoDeletePostingBinaryPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoDeletePostingBinaryPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumAccessLevelIDsAd(io.dstore.engine.procedures.FoGetForumAccessLevelIDsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessLevelIDsAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumAccessLevelIDsPu(io.dstore.engine.procedures.FoGetForumAccessLevelIDsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessLevelIDsPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumAccessLevels(io.dstore.engine.procedures.FoGetForumAccessLevels.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessLevels.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumAccessMatrixAd(io.dstore.engine.procedures.FoGetForumAccessMatrixAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessMatrixAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumCategoriesAd(io.dstore.engine.procedures.FoGetForumCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumCategoriesPu(io.dstore.engine.procedures.FoGetForumCategoriesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumCategoriesPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumSettingsAd(io.dstore.engine.procedures.FoGetForumSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumSettingsPu(io.dstore.engine.procedures.FoGetForumSettingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumSettingsPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumStatisticsAd(io.dstore.engine.procedures.FoGetForumStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumStatisticsPu(io.dstore.engine.procedures.FoGetForumStatisticsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumStatisticsPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumsAd(io.dstore.engine.procedures.FoGetForumsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumsAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetForumsPu(io.dstore.engine.procedures.FoGetForumsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumsPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetMainPostSortCriteriaAd(io.dstore.engine.procedures.FoGetMainPostSortCriteriaAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetMainPostSortCriteriaAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetMainPostingsPu(io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetMainPostingsPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingBinariesPu(io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingCharacsAd(io.dstore.engine.procedures.FoGetPostingCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingCharacsPu(io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingCharacsPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingPropertiesPu(io.dstore.engine.procedures.FoGetPostingPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingRepliesPu(io.dstore.engine.procedures.FoGetPostingRepliesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingRepliesPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingThreadPu(io.dstore.engine.procedures.FoGetPostingThreadPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingThreadPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingVisibilities(io.dstore.engine.procedures.FoGetPostingVisibilities.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingVisibilities.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingPu(io.dstore.engine.procedures.FoGetPostingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingsOfOnePersonAd(io.dstore.engine.procedures.FoGetPostingsOfOnePersonAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingsOfOnePersonAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetPostingsOfOnePersonPu(io.dstore.engine.procedures.FoGetPostingsOfOnePersonPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingsOfOnePersonPu.Response> responseObserver);
 
+    /**
+     */
     public void foGetPredValsForCharacsAd(io.dstore.engine.procedures.FoGetPredValsForCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPredValsForCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void foGetPredValsForCharacsPu(io.dstore.engine.procedures.FoGetPredValsForCharacsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPredValsForCharacsPu.Response> responseObserver);
 
+    /**
+     */
     public void foInsertBinaryForPostingPu(io.dstore.engine.procedures.FoInsertBinaryForPostingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoInsertBinaryForPostingPu.Response> responseObserver);
 
+    /**
+     */
     public void foInsertPostingPu(io.dstore.engine.procedures.FoInsertPostingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoInsertPostingPu.Response> responseObserver);
 
+    /**
+     */
     public void foModifyCharacForForumCatsAd(io.dstore.engine.procedures.FoModifyCharacForForumCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyCharacForForumCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyCharacsForForumsAd(io.dstore.engine.procedures.FoModifyCharacsForForumsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyCharacsForForumsAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyForumAccessAd(io.dstore.engine.procedures.FoModifyForumAccessAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumAccessAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyForumAccessPu(io.dstore.engine.procedures.FoModifyForumAccessPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumAccessPu.Response> responseObserver);
 
+    /**
+     */
     public void foModifyForumCategoriesAd(io.dstore.engine.procedures.FoModifyForumCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyForumSettingsAd(io.dstore.engine.procedures.FoModifyForumSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyForumsInCategoriesAd(io.dstore.engine.procedures.FoModifyForumsInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumsInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyForumsAd(io.dstore.engine.procedures.FoModifyForumsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumsAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyMainPostSortCritAd(io.dstore.engine.procedures.FoModifyMainPostSortCritAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyMainPostSortCritAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyPostingBinaryPu(io.dstore.engine.procedures.FoModifyPostingBinaryPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingBinaryPu.Response> responseObserver);
 
+    /**
+     */
     public void foModifyPostingCharacsAd(io.dstore.engine.procedures.FoModifyPostingCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void foModifyPostingPropertiesPu(io.dstore.engine.procedures.FoModifyPostingPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void foModifyPostingVisibilityPu(io.dstore.engine.procedures.FoModifyPostingVisibilityPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingVisibilityPu.Response> responseObserver);
 
+    /**
+     */
     public void foModifyPostingPu(io.dstore.engine.procedures.FoModifyPostingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingPu.Response> responseObserver);
 
+    /**
+     */
     public void foModifyPredValsForCharacsAd(io.dstore.engine.procedures.FoModifyPredValsForCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPredValsForCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void foMovePostingPu(io.dstore.engine.procedures.FoMovePostingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoMovePostingPu.Response> responseObserver);
 
+    /**
+     */
     public void foSearchPostingsPu(io.dstore.engine.procedures.FoSearchPostingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoSearchPostingsPu.Response> responseObserver);
 
+    /**
+     */
     public void imAddBinaryToNodesAd(io.dstore.engine.procedures.ImAddBinaryToNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImAddBinaryToNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imAddBinaryToValuesAd(io.dstore.engine.procedures.ImAddBinaryToValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImAddBinaryToValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void imAlphabetizeCharacValuesAd(io.dstore.engine.procedures.ImAlphabetizeCharacValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImAlphabetizeCharacValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void imCheckConditionsForTNIDsAd(io.dstore.engine.procedures.ImCheckConditionsForTNIDsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImCheckConditionsForTNIDsAd.Response> responseObserver);
 
+    /**
+     */
     public void imCountBinariesForTreeNode(io.dstore.engine.procedures.ImCountBinariesForTreeNode.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImCountBinariesForTreeNode.Response> responseObserver);
 
+    /**
+     */
     public void imCreateProductRatSubjectsAd(io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeActivateNodesAd(io.dstore.engine.procedures.ImDeActivateNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeActivateNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeleteBinaryForNodeAd(io.dstore.engine.procedures.ImDeleteBinaryForNodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteBinaryForNodeAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeleteInterfaceTablesAd(io.dstore.engine.procedures.ImDeleteInterfaceTablesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteInterfaceTablesAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeleteNodeCharacValueAd(io.dstore.engine.procedures.ImDeleteNodeCharacValueAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteNodeCharacValueAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeletePageTreeNodesAd(io.dstore.engine.procedures.ImDeletePageTreeNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeletePageTreeNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeleteTemplateUsageAd(io.dstore.engine.procedures.ImDeleteTemplateUsageAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteTemplateUsageAd.Response> responseObserver);
 
+    /**
+     */
     public void imDeleteTreeNodesAd(io.dstore.engine.procedures.ImDeleteTreeNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteTreeNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imFuzzySearchAd(io.dstore.engine.procedures.ImFuzzySearchAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImFuzzySearchAd.Response> responseObserver);
 
+    /**
+     */
     public void imGenerateVariantsAd(io.dstore.engine.procedures.ImGenerateVariantsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGenerateVariantsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinariesForValues(io.dstore.engine.procedures.ImGetBinariesForValues.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinariesForValues.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryCharacteristicsAd(io.dstore.engine.procedures.ImGetBinaryCharacteristicsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryCharacteristicsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryCodeIDsForNodePu(io.dstore.engine.procedures.ImGetBinaryCodeIDsForNodePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryCodeIDsForNodePu.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryCodeIDsForValuePu(io.dstore.engine.procedures.ImGetBinaryCodeIDsForValuePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryCodeIDsForValuePu.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryPredefinedValsAd(io.dstore.engine.procedures.ImGetBinaryPredefinedValsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPredefinedValsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryPredefinedValsPu(io.dstore.engine.procedures.ImGetBinaryPredefinedValsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPredefinedValsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryPropertiesAd(io.dstore.engine.procedures.ImGetBinaryPropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryPropertiesPu(io.dstore.engine.procedures.ImGetBinaryPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryAd(io.dstore.engine.procedures.ImGetBinaryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetBinaryPu(io.dstore.engine.procedures.ImGetBinaryPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetCommonNodePropertiesAd(io.dstore.engine.procedures.ImGetCommonNodePropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetCommonNodePropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetCorrespondingValuesAd(io.dstore.engine.procedures.ImGetCorrespondingValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetCorrespondingValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetDirectSuccessorsAd(io.dstore.engine.procedures.ImGetDirectSuccessorsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetDirectSuccessorsPu(io.dstore.engine.procedures.ImGetDirectSuccessorsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetDirectSuccessorsTreeAd(io.dstore.engine.procedures.ImGetDirectSuccessorsTreeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsTreeAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetDirectSuccessorsTreePu(io.dstore.engine.procedures.ImGetDirectSuccessorsTreePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsTreePu.Response> responseObserver);
 
+    /**
+     */
     public void imGetHTreeNodeIDPu(io.dstore.engine.procedures.ImGetHTreeNodeIDPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetHTreeNodeIDPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetHTreeNodeIDsAd(io.dstore.engine.procedures.ImGetHTreeNodeIDsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetHTreeNodeIDsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetImportErrorsAd(io.dstore.engine.procedures.ImGetImportErrorsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetImportErrorsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetItemConditionGroupsAd(io.dstore.engine.procedures.ImGetItemConditionGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetItemConditionGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetItemConditionPartsAd(io.dstore.engine.procedures.ImGetItemConditionPartsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetItemConditionsAd(io.dstore.engine.procedures.ImGetItemConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetItemConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetLevelForNodePu(io.dstore.engine.procedures.ImGetLevelForNodePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLevelForNodePu.Response> responseObserver);
 
+    /**
+     */
     public void imGetLevelsAd(io.dstore.engine.procedures.ImGetLevelsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLevelsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetLevelsPu(io.dstore.engine.procedures.ImGetLevelsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLevelsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetLockedNodeCharacsAd(io.dstore.engine.procedures.ImGetLockedNodeCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLockedNodeCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetModifiedNodesAd(io.dstore.engine.procedures.ImGetModifiedNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetModifiedNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNewCharacsForNodeAd(io.dstore.engine.procedures.ImGetNewCharacsForNodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNewCharacsForNodeAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacCategoriesAd(io.dstore.engine.procedures.ImGetNodeCharacCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacDescrAd(io.dstore.engine.procedures.ImGetNodeCharacDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacSettings(io.dstore.engine.procedures.ImGetNodeCharacSettings.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacSettings.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacValuesAd(io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacValuesPu(io.dstore.engine.procedures.ImGetNodeCharacValuesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacValuesPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacteristicsAd(io.dstore.engine.procedures.ImGetNodeCharacteristicsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacteristicsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeCharacteristicsPu(io.dstore.engine.procedures.ImGetNodeCharacteristicsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacteristicsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeDescriptionsPu(io.dstore.engine.procedures.ImGetNodeDescriptionsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeDescriptionsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeMetaInformationAd(io.dstore.engine.procedures.ImGetNodeMetaInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeMetaInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeProperties(io.dstore.engine.procedures.ImGetNodeProperties.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeProperties.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodePropertiesHistoryAd(io.dstore.engine.procedures.ImGetNodePropertiesHistoryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodePropertiesHistoryAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNodeSymbolsAd(io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetNumberOfNodesAd(io.dstore.engine.procedures.ImGetNumberOfNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNumberOfNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetPageTreeNodesAd(io.dstore.engine.procedures.ImGetPageTreeNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetPageTreeNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetPredecessors(io.dstore.engine.procedures.ImGetPredecessors.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetPredecessors.Response> responseObserver);
 
+    /**
+     */
     public void imGetRandomProductPu(io.dstore.engine.procedures.ImGetRandomProductPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetRandomProductPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetRootNodesAd(io.dstore.engine.procedures.ImGetRootNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetRootNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetSimpleProductInfoPu(io.dstore.engine.procedures.ImGetSimpleProductInfoPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetSimpleProductInfoPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetSuccessorsAd(io.dstore.engine.procedures.ImGetSuccessorsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetSuccessorsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetSuccessorsPu(io.dstore.engine.procedures.ImGetSuccessorsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetSuccessorsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetTNodeMetaInformationAd(io.dstore.engine.procedures.ImGetTNodeMetaInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTNodeMetaInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetTemplatesAd(io.dstore.engine.procedures.ImGetTemplatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTemplatesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetTemplatesPu(io.dstore.engine.procedures.ImGetTemplatesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTemplatesPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetThumbnailForNodeAd(io.dstore.engine.procedures.ImGetThumbnailForNodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetThumbnailForNodeAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetThumbnailForValueAd(io.dstore.engine.procedures.ImGetThumbnailForValueAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetThumbnailForValueAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetTreeNodeInformationAd(io.dstore.engine.procedures.ImGetTreeNodeInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTreeNodeInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetTreeNodeInformationPu(io.dstore.engine.procedures.ImGetTreeNodeInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTreeNodeInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetUsedValuesPu(io.dstore.engine.procedures.ImGetUsedValuesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetUsedValuesPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetValueCategories(io.dstore.engine.procedures.ImGetValueCategories.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValueCategories.Response> responseObserver);
 
+    /**
+     */
     public void imGetValueDetailsAd(io.dstore.engine.procedures.ImGetValueDetailsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValueDetailsAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetValueDetailsPu(io.dstore.engine.procedures.ImGetValueDetailsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValueDetailsPu.Response> responseObserver);
 
+    /**
+     */
     public void imGetValuesInCategoriesAd(io.dstore.engine.procedures.ImGetValuesInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValuesInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void imGetVariantMatrix(io.dstore.engine.procedures.ImGetVariantMatrix.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetVariantMatrix.Response> responseObserver);
 
+    /**
+     */
     public void imGetVariantMatrixAd(io.dstore.engine.procedures.ImGetVariantMatrixAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetVariantMatrixAd.Response> responseObserver);
 
+    /**
+     */
     public void imImportBinariesAd(io.dstore.engine.procedures.ImImportBinariesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImImportBinariesAd.Response> responseObserver);
 
+    /**
+     */
     public void imImportItemDataAd(io.dstore.engine.procedures.ImImportItemDataAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImImportItemDataAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertNewNodeAd(io.dstore.engine.procedures.ImInsertNewNodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNewNodeAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertNewValueCategoryAd(io.dstore.engine.procedures.ImInsertNewValueCategoryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNewValueCategoryAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertNodeBinaryAd(io.dstore.engine.procedures.ImInsertNodeBinaryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNodeBinaryAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertNodePredefinedValAd(io.dstore.engine.procedures.ImInsertNodePredefinedValAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNodePredefinedValAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertNodeSymbolAd(io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNodeSymbolAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertPageTreeNodeAd(io.dstore.engine.procedures.ImInsertPageTreeNodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertPageTreeNodeAd.Response> responseObserver);
 
+    /**
+     */
     public void imInsertValueBinaryAd(io.dstore.engine.procedures.ImInsertValueBinaryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertValueBinaryAd.Response> responseObserver);
 
+    /**
+     */
     public void imMaintainStatisticPropsAd(io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyBinaryCharacValuesAd(io.dstore.engine.procedures.ImModifyBinaryCharacValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyBinaryCharacValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyBinaryPropertiesAd(io.dstore.engine.procedures.ImModifyBinaryPropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyBinaryPropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyCondPartsInGroupsAd(io.dstore.engine.procedures.ImModifyCondPartsInGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyCondPartsInGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyConditionGroupsAd(io.dstore.engine.procedures.ImModifyConditionGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyConditionGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyConditionPartsAd(io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyConditionPartsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyConditionsAd(io.dstore.engine.procedures.ImModifyConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyCorrespondingValsAd(io.dstore.engine.procedures.ImModifyCorrespondingValsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyCorrespondingValsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyGroupsPerItemCondAd(io.dstore.engine.procedures.ImModifyGroupsPerItemCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyGroupsPerItemCondAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyLevelsAd(io.dstore.engine.procedures.ImModifyLevelsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyLevelsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyLockedNodeCharacsAd(io.dstore.engine.procedures.ImModifyLockedNodeCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyLockedNodeCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodeCharacCatsAd(io.dstore.engine.procedures.ImModifyNodeCharacCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodeCharacDescrAd(io.dstore.engine.procedures.ImModifyNodeCharacDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodeCharacSettingsAd(io.dstore.engine.procedures.ImModifyNodeCharacSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodeCharacsInCatAd(io.dstore.engine.procedures.ImModifyNodeCharacsInCatAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacsInCatAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodeCharacsAd(io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodeDescriptionAd(io.dstore.engine.procedures.ImModifyNodeDescriptionAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeDescriptionAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyNodePropertiesAd(io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyPredefinedValueAd(io.dstore.engine.procedures.ImModifyPredefinedValueAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyPredefinedValueAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyValueCategoriesAd(io.dstore.engine.procedures.ImModifyValueCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyValueCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyValueDetailsAd(io.dstore.engine.procedures.ImModifyValueDetailsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyValueDetailsAd.Response> responseObserver);
 
+    /**
+     */
     public void imModifyValuesInCategoriesAd(io.dstore.engine.procedures.ImModifyValuesInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyValuesInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void imMoveNodeCharacValueAd(io.dstore.engine.procedures.ImMoveNodeCharacValueAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImMoveNodeCharacValueAd.Response> responseObserver);
 
+    /**
+     */
     public void imMoveTreeNodesAd(io.dstore.engine.procedures.ImMoveTreeNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImMoveTreeNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imRemoveBinaryFromNodesAd(io.dstore.engine.procedures.ImRemoveBinaryFromNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImRemoveBinaryFromNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imRemoveBinaryFromValuesAd(io.dstore.engine.procedures.ImRemoveBinaryFromValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImRemoveBinaryFromValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void imResetSymbolIDsAd(io.dstore.engine.procedures.ImResetSymbolIDsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImResetSymbolIDsAd.Response> responseObserver);
 
+    /**
+     */
     public void imSearchBinariesAd(io.dstore.engine.procedures.ImSearchBinariesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchBinariesAd.Response> responseObserver);
 
+    /**
+     */
     public void imSearchCharacteristicsPu(io.dstore.engine.procedures.ImSearchCharacteristicsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchCharacteristicsPu.Response> responseObserver);
 
+    /**
+     */
     public void imSearchProductTreeNodesAd(io.dstore.engine.procedures.ImSearchProductTreeNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchProductTreeNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imSearchProductTreeNodesPu(io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response> responseObserver);
 
+    /**
+     */
     public void imSearchTreeNodesAd(io.dstore.engine.procedures.ImSearchTreeNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchTreeNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imSearchTreeNodesPu(io.dstore.engine.procedures.ImSearchTreeNodesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchTreeNodesPu.Response> responseObserver);
 
+    /**
+     */
     public void imSetLevelOfNodesAd(io.dstore.engine.procedures.ImSetLevelOfNodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSetLevelOfNodesAd.Response> responseObserver);
 
+    /**
+     */
     public void imSetProductDescriptionsAd(io.dstore.engine.procedures.ImSetProductDescriptionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSetProductDescriptionsAd.Response> responseObserver);
 
+    /**
+     */
     public void imSetTemplateAd(io.dstore.engine.procedures.ImSetTemplateAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSetTemplateAd.Response> responseObserver);
 
+    /**
+     */
     public void imSortNodesAlphabeticallyAd(io.dstore.engine.procedures.ImSortNodesAlphabeticallyAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSortNodesAlphabeticallyAd.Response> responseObserver);
 
+    /**
+     */
     public void imSortTreeNodesPu(io.dstore.engine.procedures.ImSortTreeNodesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSortTreeNodesPu.Response> responseObserver);
 
+    /**
+     */
     public void imSynchronizeItemBinariesAd(io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response> responseObserver);
 
+    /**
+     */
     public void imTraverseTreeViewPu(io.dstore.engine.procedures.ImTraverseTreeViewPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImTraverseTreeViewPu.Response> responseObserver);
 
+    /**
+     */
     public void imUpdateLockedTreeNodeIDsAd(io.dstore.engine.procedures.ImUpdateLockedTreeNodeIDsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImUpdateLockedTreeNodeIDsAd.Response> responseObserver);
 
+    /**
+     */
     public void miAnalyseObjectContTSQLAd(io.dstore.engine.procedures.MiAnalyseObjectContTSQLAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiAnalyseObjectContTSQLAd.Response> responseObserver);
 
+    /**
+     */
     public void miChangedStoreUserPasswordAd(io.dstore.engine.procedures.MiChangedStoreUserPasswordAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiChangedStoreUserPasswordAd.Response> responseObserver);
 
+    /**
+     */
     public void miCheckFieldTypeOfValuesAd(io.dstore.engine.procedures.MiCheckFieldTypeOfValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCheckFieldTypeOfValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void miCheckPerformanceAd(io.dstore.engine.procedures.MiCheckPerformanceAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCheckPerformanceAd.Response> responseObserver);
 
+    /**
+     */
     public void miCreatedStoreUserAd(io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCreatedStoreUserAd.Response> responseObserver);
 
+    /**
+     */
     public void miDeadlockTestAd(io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeadlockTestAd.Response> responseObserver);
 
+    /**
+     */
     public void miDeleteFromTempdbTable(io.dstore.engine.procedures.MiDeleteFromTempdbTable.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeleteFromTempdbTable.Response> responseObserver);
 
+    /**
+     */
     public void miDeletedStoreUserAd(io.dstore.engine.procedures.MiDeletedStoreUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeletedStoreUserAd.Response> responseObserver);
 
+    /**
+     */
     public void miDumpDatabaseAd(io.dstore.engine.procedures.MiDumpDatabaseAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDumpDatabaseAd.Response> responseObserver);
 
+    /**
+     */
     public void miDumpTransactionLogAd(io.dstore.engine.procedures.MiDumpTransactionLogAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDumpTransactionLogAd.Response> responseObserver);
 
+    /**
+     */
     public void miExportLoginsAd(io.dstore.engine.procedures.MiExportLoginsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiExportLoginsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGarbageCollectAd(io.dstore.engine.procedures.MiGarbageCollectAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGarbageCollectAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetAllDatabaseUsersAd(io.dstore.engine.procedures.MiGetAllDatabaseUsersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetAllDatabaseUsersAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetAppPartsTreeSettingsAd(io.dstore.engine.procedures.MiGetAppPartsTreeSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetAppPartsTreeSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetAppPartsTreeSettingsPu(io.dstore.engine.procedures.MiGetAppPartsTreeSettingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetAppPartsTreeSettingsPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicPartSettingsAd(io.dstore.engine.procedures.MiGetApplicPartSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicPartSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicPartSettingsPu(io.dstore.engine.procedures.MiGetApplicPartSettingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicPartSettingsPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationPartsTreeAd(io.dstore.engine.procedures.MiGetApplicationPartsTreeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsTreeAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationPartsTreePu(io.dstore.engine.procedures.MiGetApplicationPartsTreePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsTreePu.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationPartsAd(io.dstore.engine.procedures.MiGetApplicationPartsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationPartsPu(io.dstore.engine.procedures.MiGetApplicationPartsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationSettingsAd(io.dstore.engine.procedures.MiGetApplicationSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationSettingsPu(io.dstore.engine.procedures.MiGetApplicationSettingsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationSettingsPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationsAd(io.dstore.engine.procedures.MiGetApplicationsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetApplicationsPu(io.dstore.engine.procedures.MiGetApplicationsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationsPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetBatchJobsAd(io.dstore.engine.procedures.MiGetBatchJobsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetBatchJobsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetBinaryPropertiesAd(io.dstore.engine.procedures.MiGetBinaryPropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetBinaryPropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetBinaryPropertiesPu(io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetConvertFactor(io.dstore.engine.procedures.MiGetConvertFactor.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetConvertFactor.Response> responseObserver);
 
+    /**
+     */
     public void miGetCountries(io.dstore.engine.procedures.MiGetCountries.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCountries.Response> responseObserver);
 
+    /**
+     */
     public void miGetCurrentDate(io.dstore.engine.procedures.MiGetCurrentDate.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCurrentDate.Response> responseObserver);
 
+    /**
+     */
     public void miGetCurrentLocksAd(io.dstore.engine.procedures.MiGetCurrentLocksAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCurrentLocksAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetCurrentProcessesAd(io.dstore.engine.procedures.MiGetCurrentProcessesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCurrentProcessesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetDBObjectsAd(io.dstore.engine.procedures.MiGetDBObjectsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetDBObjectsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetDBSessionInformation(io.dstore.engine.procedures.MiGetDBSessionInformation.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetDBSessionInformation.Response> responseObserver);
 
+    /**
+     */
     public void miGetExecuteRightsAd(io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetFieldTypesAd(io.dstore.engine.procedures.MiGetFieldTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetFieldTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetFieldTypesPu(io.dstore.engine.procedures.MiGetFieldTypesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetFieldTypesPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetIndexDDLAd(io.dstore.engine.procedures.MiGetIndexDDLAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetIndexDDLAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetIndexDLLAd(io.dstore.engine.procedures.MiGetIndexDLLAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetIndexDLLAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetInformationTypesAd(io.dstore.engine.procedures.MiGetInformationTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetInformationTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetLanguageDescriptionsAd(io.dstore.engine.procedures.MiGetLanguageDescriptionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguageDescriptionsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetLanguageIconsAd(io.dstore.engine.procedures.MiGetLanguageIconsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguageIconsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetLanguageIconsPu(io.dstore.engine.procedures.MiGetLanguageIconsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguageIconsPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetLanguages(io.dstore.engine.procedures.MiGetLanguages.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguages.Response> responseObserver);
 
+    /**
+     */
     public void miGetLicenceKeyData(io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLicenceKeyData.Response> responseObserver);
 
+    /**
+     */
     public void miGetLocales(io.dstore.engine.procedures.MiGetLocales.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLocales.Response> responseObserver);
 
+    /**
+     */
     public void miGetLockDependenciesAd(io.dstore.engine.procedures.MiGetLockDependenciesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLockDependenciesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetMetaInformationTypesAd(io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcExecRestrForGroupAd(io.dstore.engine.procedures.MiGetProcExecRestrForGroupAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRestrForGroupAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcExecRestrForUsersAd(io.dstore.engine.procedures.MiGetProcExecRestrForUsersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRestrForUsersAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcExecRightsGroupAd(io.dstore.engine.procedures.MiGetProcExecRightsGroupAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRightsGroupAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcExecRightsUserAd(io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcMetaPropertiesAd(io.dstore.engine.procedures.MiGetProcMetaPropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcMetaPropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcedureCodeAd(io.dstore.engine.procedures.MiGetProcedureCodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureCodeAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcedureDependenciesAd(io.dstore.engine.procedures.MiGetProcedureDependenciesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureDependenciesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcedureExecutionLogAd(io.dstore.engine.procedures.MiGetProcedureExecutionLogAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureExecutionLogAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetProcedureParameters(io.dstore.engine.procedures.MiGetProcedureParameters.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureParameters.Response> responseObserver);
 
+    /**
+     */
     public void miGetRegions(io.dstore.engine.procedures.MiGetRegions.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetRegions.Response> responseObserver);
 
+    /**
+     */
     public void miGetRegisteredProceduresAd(io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetRessourceUsage(io.dstore.engine.procedures.MiGetRessourceUsage.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetRessourceUsage.Response> responseObserver);
 
+    /**
+     */
     public void miGetReturnCodeMessage(io.dstore.engine.procedures.MiGetReturnCodeMessage.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetReturnCodeMessage.Response> responseObserver);
 
+    /**
+     */
     public void miGetSQLFunctMetaPropsAd(io.dstore.engine.procedures.MiGetSQLFunctMetaPropsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSQLFunctMetaPropsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetSQLFunctionCodeAd(io.dstore.engine.procedures.MiGetSQLFunctionCodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSQLFunctionCodeAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetSQLFunctionParameters(io.dstore.engine.procedures.MiGetSQLFunctionParameters.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSQLFunctionParameters.Response> responseObserver);
 
+    /**
+     */
     public void miGetSearchItemLacksAd(io.dstore.engine.procedures.MiGetSearchItemLacksAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSearchItemLacksAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetSearchItemsAd(io.dstore.engine.procedures.MiGetSearchItemsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSearchItemsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetSessionManagementPu(io.dstore.engine.procedures.MiGetSessionManagementPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSessionManagementPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetSettingEntry(io.dstore.engine.procedures.MiGetSettingEntry.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSettingEntry.Response> responseObserver);
 
+    /**
+     */
     public void miGetSettingsAd(io.dstore.engine.procedures.MiGetSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetSourceCodeHistoryAd(io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetSourceTemplatesAd(io.dstore.engine.procedures.MiGetSourceTemplatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSourceTemplatesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetStorageAllocInfoAd(io.dstore.engine.procedures.MiGetStorageAllocInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetStorageAllocInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerCodeAd(io.dstore.engine.procedures.MiGetTRITriggerCodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerCodeAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerConditionsAd(io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerReplFunctsAd(io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerToDosAd(io.dstore.engine.procedures.MiGetTRITriggerToDosAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerToDosAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerTypesAd(io.dstore.engine.procedures.MiGetTRITriggerTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerWorkflowAd(io.dstore.engine.procedures.MiGetTRITriggerWorkflowAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerWorkflowAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTRITriggerAd(io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTableDDLAd(io.dstore.engine.procedures.MiGetTableDDLAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTableDDLAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTableDLLAd(io.dstore.engine.procedures.MiGetTableDLLAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTableDLLAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTabsRefInOtherTabsAd(io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTaxRates(io.dstore.engine.procedures.MiGetTaxRates.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTaxRates.Response> responseObserver);
 
+    /**
+     */
     public void miGetTemplateCombinationsAd(io.dstore.engine.procedures.MiGetTemplateCombinationsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTemplateCombinationsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTemplatesAd(io.dstore.engine.procedures.MiGetTemplatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTemplatesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetTriggerCodeAd(io.dstore.engine.procedures.MiGetTriggerCodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTriggerCodeAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetUnitCategoriesAd(io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetUnitConvertsAd(io.dstore.engine.procedures.MiGetUnitConvertsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnitConvertsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetUnits(io.dstore.engine.procedures.MiGetUnits.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnits.Response> responseObserver);
 
+    /**
+     */
     public void miGetUnitsAd(io.dstore.engine.procedures.MiGetUnitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnitsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetUsageOfTablesAd(io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetUserGroupsAd(io.dstore.engine.procedures.MiGetUserGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUserGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetUserInfo(io.dstore.engine.procedures.MiGetUserInfo.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUserInfo.Response> responseObserver);
 
+    /**
+     */
     public void miGetUserInfoAd(io.dstore.engine.procedures.MiGetUserInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUserInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void miGetVisitorInformationPu(io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetVisitorInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetVisitorPropertiesPu(io.dstore.engine.procedures.MiGetVisitorPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetVisitorPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void miGetdStoreUserAd(io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> responseObserver);
 
+    /**
+     */
     public void miInsertPerformancePu(io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertPerformancePu.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempCharacConditions(io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempCharacConditions.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbAdditionalInfo(io.dstore.engine.procedures.MiInsertTempdbAdditionalInfo.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbAdditionalInfo.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbAnyValues(io.dstore.engine.procedures.MiInsertTempdbAnyValues.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbAnyValues.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbCharacValues(io.dstore.engine.procedures.MiInsertTempdbCharacValues.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbCharacValues.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbImageData(io.dstore.engine.procedures.MiInsertTempdbImageData.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbImageData.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbOneID(io.dstore.engine.procedures.MiInsertTempdbOneID.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbOneID.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbTextData(io.dstore.engine.procedures.MiInsertTempdbTextData.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbTextData.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbThreeIDs(io.dstore.engine.procedures.MiInsertTempdbThreeIDs.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbThreeIDs.Response> responseObserver);
 
+    /**
+     */
     public void miInsertTempdbTwoIDs(io.dstore.engine.procedures.MiInsertTempdbTwoIDs.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbTwoIDs.Response> responseObserver);
 
+    /**
+     */
     public void miInsertVisitorInformationPu(io.dstore.engine.procedures.MiInsertVisitorInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertVisitorInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void miLoadDatabaseAd(io.dstore.engine.procedures.MiLoadDatabaseAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiLoadDatabaseAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyAppPartSettingsAd(io.dstore.engine.procedures.MiModifyAppPartSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyAppPartSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyAppPartTreeSettsAd(io.dstore.engine.procedures.MiModifyAppPartTreeSettsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyAppPartTreeSettsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyAppSettingsAd(io.dstore.engine.procedures.MiModifyAppSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyAppSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyApplicPartsTreeAd(io.dstore.engine.procedures.MiModifyApplicPartsTreeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyApplicPartsTreeAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyApplicationPartsAd(io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyApplicationPartsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyApplicationsAd(io.dstore.engine.procedures.MiModifyApplicationsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyApplicationsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyCountriesInRegionsAd(io.dstore.engine.procedures.MiModifyCountriesInRegionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyCountriesInRegionsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyCountriesAd(io.dstore.engine.procedures.MiModifyCountriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyCountriesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyInformationTypesAd(io.dstore.engine.procedures.MiModifyInformationTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyInformationTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyLanguageDescrAd(io.dstore.engine.procedures.MiModifyLanguageDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyLanguageDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyLanguagesAd(io.dstore.engine.procedures.MiModifyLanguagesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyLanguagesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyLocalesAd(io.dstore.engine.procedures.MiModifyLocalesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyLocalesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyProcExRestForGroupAd(io.dstore.engine.procedures.MiModifyProcExRestForGroupAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRestForGroupAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyProcExRestForUserAd(io.dstore.engine.procedures.MiModifyProcExRestForUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRestForUserAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyProcExRightGroupAd(io.dstore.engine.procedures.MiModifyProcExRightGroupAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRightGroupAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyProcExRightUserAd(io.dstore.engine.procedures.MiModifyProcExRightUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRightUserAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyRegionsAd(io.dstore.engine.procedures.MiModifyRegionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyRegionsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyRegisteredProcsAd(io.dstore.engine.procedures.MiModifyRegisteredProcsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyRegisteredProcsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifySearchItemsAd(io.dstore.engine.procedures.MiModifySearchItemsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifySearchItemsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifySessionManagementPu(io.dstore.engine.procedures.MiModifySessionManagementPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifySessionManagementPu.Response> responseObserver);
 
+    /**
+     */
     public void miModifySettingsAd(io.dstore.engine.procedures.MiModifySettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifySettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTRITriggerCondsAd(io.dstore.engine.procedures.MiModifyTRITriggerCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTRITriggerReplFuncAd(io.dstore.engine.procedures.MiModifyTRITriggerReplFuncAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerReplFuncAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTRITriggerToDosAd(io.dstore.engine.procedures.MiModifyTRITriggerToDosAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerToDosAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTRITriggerWorkflowAd(io.dstore.engine.procedures.MiModifyTRITriggerWorkflowAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerWorkflowAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTRITriggerAd(io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTaxRatesAd(io.dstore.engine.procedures.MiModifyTaxRatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTaxRatesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyTemplatesAd(io.dstore.engine.procedures.MiModifyTemplatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTemplatesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUnitCategoryDescrAd(io.dstore.engine.procedures.MiModifyUnitCategoryDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitCategoryDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUnitConvertsAd(io.dstore.engine.procedures.MiModifyUnitConvertsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitConvertsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUnitsInCategoriesAd(io.dstore.engine.procedures.MiModifyUnitsInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitsInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUnitsAd(io.dstore.engine.procedures.MiModifyUnitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUserGroupsAd(io.dstore.engine.procedures.MiModifyUserGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUserGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUserInfoAd(io.dstore.engine.procedures.MiModifyUserInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUserInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void miModifyUsersInGroupsAd(io.dstore.engine.procedures.MiModifyUsersInGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUsersInGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void miResetBatchJobAd(io.dstore.engine.procedures.MiResetBatchJobAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiResetBatchJobAd.Response> responseObserver);
 
+    /**
+     */
     public void miRestoreDefaultValuesAd(io.dstore.engine.procedures.MiRestoreDefaultValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiRestoreDefaultValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void miSearchBinariesAd(io.dstore.engine.procedures.MiSearchBinariesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiSearchBinariesAd.Response> responseObserver);
 
+    /**
+     */
     public void miSearchSourceCodeAd(io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiSearchSourceCodeAd.Response> responseObserver);
 
+    /**
+     */
     public void miUpdateVisitorPropertiesPu(io.dstore.engine.procedures.MiUpdateVisitorPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiUpdateVisitorPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void miValidateTRITriggerAd(io.dstore.engine.procedures.MiValidateTRITriggerAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiValidateTRITriggerAd.Response> responseObserver);
 
+    /**
+     */
     public void omAcknowledgeOrdersAd(io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response> responseObserver);
 
+    /**
+     */
     public void omChangeOrderStateAd(io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmChangeOrderStateAd.Response> responseObserver);
 
+    /**
+     */
     public void omChangeOrderStatePu(io.dstore.engine.procedures.OmChangeOrderStatePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmChangeOrderStatePu.Response> responseObserver);
 
+    /**
+     */
     public void omCheckCampCondsForTNIDsAd(io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response> responseObserver);
 
+    /**
+     */
     public void omClearTrolleyPu(io.dstore.engine.procedures.OmClearTrolleyPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmClearTrolleyPu.Response> responseObserver);
 
+    /**
+     */
     public void omConvertCurrency(io.dstore.engine.procedures.OmConvertCurrency.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmConvertCurrency.Response> responseObserver);
 
+    /**
+     */
     public void omCopyFromPOQueueToOrderAd(io.dstore.engine.procedures.OmCopyFromPOQueueToOrderAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCopyFromPOQueueToOrderAd.Response> responseObserver);
 
+    /**
+     */
     public void omCopyFromTrolleyToOrderPu(io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response> responseObserver);
 
+    /**
+     */
     public void omCreateCustomerCashAccPu(io.dstore.engine.procedures.OmCreateCustomerCashAccPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateCustomerCashAccPu.Response> responseObserver);
 
+    /**
+     */
     public void omCreateNewBillAd(io.dstore.engine.procedures.OmCreateNewBillAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateNewBillAd.Response> responseObserver);
 
+    /**
+     */
     public void omCreateSimpleCampItemCondAd(io.dstore.engine.procedures.OmCreateSimpleCampItemCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateSimpleCampItemCondAd.Response> responseObserver);
 
+    /**
+     */
     public void omCreateVoucherCodesAd(io.dstore.engine.procedures.OmCreateVoucherCodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateVoucherCodesAd.Response> responseObserver);
 
+    /**
+     */
     public void omCustomerWhoBoughtAlsoBought(io.dstore.engine.procedures.OmCustomerWhoBoughtAlsoBought.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCustomerWhoBoughtAlsoBought.Response> responseObserver);
 
+    /**
+     */
     public void omExportOrdersAd(io.dstore.engine.procedures.OmExportOrdersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmExportOrdersAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetAllowedOrderStates(io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetAllowedOrderStates.Response> responseObserver);
 
+    /**
+     */
     public void omGetBenefitTypesAd(io.dstore.engine.procedures.OmGetBenefitTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBenefitTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBillContentInfoRulesAd(io.dstore.engine.procedures.OmGetBillContentInfoRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillContentInfoRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBillContentInfoTypesAd(io.dstore.engine.procedures.OmGetBillContentInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillContentInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBillContentInfoAd(io.dstore.engine.procedures.OmGetBillContentInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillContentInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBillInformationRulesAd(io.dstore.engine.procedures.OmGetBillInformationRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillInformationRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBillInformationTypesAd(io.dstore.engine.procedures.OmGetBillInformationTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillInformationTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBillInformationAd(io.dstore.engine.procedures.OmGetBillInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBonusItemSetsAd(io.dstore.engine.procedures.OmGetBonusItemSetsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBonusItemSetsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBundleItemSetsAd(io.dstore.engine.procedures.OmGetBundleItemSetsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBundleItemSetsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetBundlePricingTypesAd(io.dstore.engine.procedures.OmGetBundlePricingTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBundlePricingTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCamPeriodStatusValuesAd(io.dstore.engine.procedures.OmGetCamPeriodStatusValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCamPeriodStatusValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampCondCriteriaTypesAd(io.dstore.engine.procedures.OmGetCampCondCriteriaTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampCondCriteriaTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampOrderSurchDiscAd(io.dstore.engine.procedures.OmGetCampOrderSurchDiscAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampOrderSurchDiscAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampPaymentTypeCondsAd(io.dstore.engine.procedures.OmGetCampPaymentTypeCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampPaymentTypeCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampPersonGroupCondsAd(io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampShippingTypeCondsAd(io.dstore.engine.procedures.OmGetCampShippingTypeCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampShippingTypeCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampTrolleyValueCondAd(io.dstore.engine.procedures.OmGetCampTrolleyValueCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampTrolleyValueCondAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampVoucherCodeCondsAd(io.dstore.engine.procedures.OmGetCampVoucherCodeCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampVoucherCodeCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignBenefitsAd(io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignBonusItemsAd(io.dstore.engine.procedures.OmGetCampaignBonusItemsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBonusItemsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignBonusItemsPu(io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignBundlePricingAd(io.dstore.engine.procedures.OmGetCampaignBundlePricingAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBundlePricingAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignBundlePricingPu(io.dstore.engine.procedures.OmGetCampaignBundlePricingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBundlePricingPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignCategoriesAd(io.dstore.engine.procedures.OmGetCampaignCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignConditionsAd(io.dstore.engine.procedures.OmGetCampaignConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignItemConGroupsAd(io.dstore.engine.procedures.OmGetCampaignItemConGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignItemConGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignItemCondPartsAd(io.dstore.engine.procedures.OmGetCampaignItemCondPartsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignItemCondPartsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignItemCondsAd(io.dstore.engine.procedures.OmGetCampaignItemCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignItemCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignPeriodDefsAd(io.dstore.engine.procedures.OmGetCampaignPeriodDefsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignPeriodDefsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignPeriodsAd(io.dstore.engine.procedures.OmGetCampaignPeriodsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignPeriodsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignSettingEntry(io.dstore.engine.procedures.OmGetCampaignSettingEntry.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignSettingEntry.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignSurchargesAd(io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignTypeRulesAd(io.dstore.engine.procedures.OmGetCampaignTypeRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignTypeRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignTypesAd(io.dstore.engine.procedures.OmGetCampaignTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignsInCategoriesAd(io.dstore.engine.procedures.OmGetCampaignsInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignsInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCampaignsAd(io.dstore.engine.procedures.OmGetCampaignsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCashAccTransactTypesAd(io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCashAccTransactionsAd(io.dstore.engine.procedures.OmGetCashAccTransactionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccTransactionsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCashAccTransactionsPu(io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetCashAccountTypes(io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccountTypes.Response> responseObserver);
 
+    /**
+     */
     public void omGetChangeOStateTriggerAd(io.dstore.engine.procedures.OmGetChangeOStateTriggerAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetChangeOStateTriggerAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCurrentCampaigns(io.dstore.engine.procedures.OmGetCurrentCampaigns.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCurrentCampaigns.Response> responseObserver);
 
+    /**
+     */
     public void omGetCustomerCashAccountsAd(io.dstore.engine.procedures.OmGetCustomerCashAccountsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCustomerCashAccountsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetCustomerCashAccountsPu(io.dstore.engine.procedures.OmGetCustomerCashAccountsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCustomerCashAccountsPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetGroupPaymentForShipAd(io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetGroupSurchargesAd(io.dstore.engine.procedures.OmGetGroupSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetGroupSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetNodePaymentForShipAd(io.dstore.engine.procedures.OmGetNodePaymentForShipAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetNodePaymentForShipAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderContentInfoRulesAd(io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderContentInfoTypesAd(io.dstore.engine.procedures.OmGetOrderContentInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderContentInfoAd(io.dstore.engine.procedures.OmGetOrderContentInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderContentInfoPu(io.dstore.engine.procedures.OmGetOrderContentInfoPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderInformationRulesAd(io.dstore.engine.procedures.OmGetOrderInformationRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderInformationTypesAd(io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderInformationAd(io.dstore.engine.procedures.OmGetOrderInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderInformationPu(io.dstore.engine.procedures.OmGetOrderInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStateCategoriesAd(io.dstore.engine.procedures.OmGetOrderStateCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStateDescrAd(io.dstore.engine.procedures.OmGetOrderStateDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStateHistoryAd(io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStateHistoryPu(io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStateRulesAd(io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStatesInCats(io.dstore.engine.procedures.OmGetOrderStatesInCats.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStatesInCats.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStatesInCatsAd(io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderStatesAd(io.dstore.engine.procedures.OmGetOrderStatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStatesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderSurchInfoTypesAd(io.dstore.engine.procedures.OmGetOrderSurchInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderSurchargeInfoAd(io.dstore.engine.procedures.OmGetOrderSurchargeInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargeInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderSurchargeInfoPu(io.dstore.engine.procedures.OmGetOrderSurchargeInfoPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargeInfoPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderSurchargesAd(io.dstore.engine.procedures.OmGetOrderSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrderSurchargesPu(io.dstore.engine.procedures.OmGetOrderSurchargesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargesPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrdersAd(io.dstore.engine.procedures.OmGetOrdersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrdersAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrdersConditionsAd(io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOrdersPu(io.dstore.engine.procedures.OmGetOrdersPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrdersPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetOtherBillContInfRulesAd(io.dstore.engine.procedures.OmGetOtherBillContInfRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOtherBillContInfRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetOtherBillContInfTypesAd(io.dstore.engine.procedures.OmGetOtherBillContInfTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOtherBillContInfTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentAndShippingPu(io.dstore.engine.procedures.OmGetPaymentAndShippingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentAndShippingPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentCostPu(io.dstore.engine.procedures.OmGetPaymentCostPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentCostPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentForShippingAd(io.dstore.engine.procedures.OmGetPaymentForShippingAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentForShippingAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentForShippingPu(io.dstore.engine.procedures.OmGetPaymentForShippingPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentForShippingPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentTypeDescrAd(io.dstore.engine.procedures.OmGetPaymentTypeDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentTypeDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentTypeSurchargesAd(io.dstore.engine.procedures.OmGetPaymentTypeSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentTypeSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPaymentTypesAd(io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPersonInfoForOrdersAd(io.dstore.engine.procedures.OmGetPersonInfoForOrdersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPersonInfoForOrdersAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPersonSurchargesAd(io.dstore.engine.procedures.OmGetPersonSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPersonSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPredefinedBillContentAd(io.dstore.engine.procedures.OmGetPredefinedBillContentAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPredefinedBillContentAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPrepaidCodesAd(io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPricesAd(io.dstore.engine.procedures.OmGetPricesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPricesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPricesPu(io.dstore.engine.procedures.OmGetPricesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPricesPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetPurchaseOrderQueuesAd(io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPurchaseOrderTypesAd(io.dstore.engine.procedures.OmGetPurchaseOrderTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPurchaseOrderTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetPurchasePricesAd(io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPurchasePricesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetRequiredInfoForPayAd(io.dstore.engine.procedures.OmGetRequiredInfoForPayAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetRequiredInfoForPayAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetSetsForBonItBenefitsAd(io.dstore.engine.procedures.OmGetSetsForBonItBenefitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSetsForBonItBenefitsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetSetsForBundleBenefitsAd(io.dstore.engine.procedures.OmGetSetsForBundleBenefitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSetsForBundleBenefitsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetShippTypeSurchargesAd(io.dstore.engine.procedures.OmGetShippTypeSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippTypeSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetShippingCostPu(io.dstore.engine.procedures.OmGetShippingCostPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippingCostPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetShippingTypeDescrAd(io.dstore.engine.procedures.OmGetShippingTypeDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippingTypeDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetShippingTypesAd(io.dstore.engine.procedures.OmGetShippingTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippingTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetSupplierConfigurationAd(io.dstore.engine.procedures.OmGetSupplierConfigurationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSupplierConfigurationAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetSurchargeTypeCategories(io.dstore.engine.procedures.OmGetSurchargeTypeCategories.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargeTypeCategories.Response> responseObserver);
 
+    /**
+     */
     public void omGetSurchargeTypeTaxes(io.dstore.engine.procedures.OmGetSurchargeTypeTaxes.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargeTypeTaxes.Response> responseObserver);
 
+    /**
+     */
     public void omGetSurchargeTypesAd(io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetSurchargesPu(io.dstore.engine.procedures.OmGetSurchargesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargesPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTaxTypes(io.dstore.engine.procedures.OmGetTaxTypes.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTaxTypes.Response> responseObserver);
 
+    /**
+     */
     public void omGetTaxes(io.dstore.engine.procedures.OmGetTaxes.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTaxes.Response> responseObserver);
 
+    /**
+     */
     public void omGetTimeUnitsForCPeriodsAd(io.dstore.engine.procedures.OmGetTimeUnitsForCPeriodsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTimeUnitsForCPeriodsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetTransactionMetaInfoAd(io.dstore.engine.procedures.OmGetTransactionMetaInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTransactionMetaInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleyAsMatrixPu(io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleyContInfoTypesAd(io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleyContentInfoPu(io.dstore.engine.procedures.OmGetTrolleyContentInfoPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyContentInfoPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleyInfoTypesAd(io.dstore.engine.procedures.OmGetTrolleyInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleyInformationPu(io.dstore.engine.procedures.OmGetTrolleyInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleySurchInfoTypesAd(io.dstore.engine.procedures.OmGetTrolleySurchInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleySurchInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleySurchargeInfoPu(io.dstore.engine.procedures.OmGetTrolleySurchargeInfoPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleySurchargeInfoPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleySurchargesPu(io.dstore.engine.procedures.OmGetTrolleySurchargesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleySurchargesPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleyPu(io.dstore.engine.procedures.OmGetTrolleyPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyPu.Response> responseObserver);
 
+    /**
+     */
     public void omGetTrolleysAd(io.dstore.engine.procedures.OmGetTrolleysAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleysAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetUsedVoucherCodesAd(io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetVCodeOriginTypesAd(io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetVoucherCodesAd(io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherCodesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetVoucherTypeStatisticsAd(io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetVoucherTypeSurchargesAd(io.dstore.engine.procedures.OmGetVoucherTypeSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherTypeSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omGetVoucherTypesAd(io.dstore.engine.procedures.OmGetVoucherTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omInsertIntoTrolleyPu(io.dstore.engine.procedures.OmInsertIntoTrolleyPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmInsertIntoTrolleyPu.Response> responseObserver);
 
+    /**
+     */
     public void omModifyBonusItemSetsAd(io.dstore.engine.procedures.OmModifyBonusItemSetsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyBonusItemSetsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyBundleItemSetsAd(io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampBundlePricingAd(io.dstore.engine.procedures.OmModifyCampBundlePricingAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampBundlePricingAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampItemConGroupsAd(io.dstore.engine.procedures.OmModifyCampItemConGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampItemConGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampItemCondPartsAd(io.dstore.engine.procedures.OmModifyCampItemCondPartsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampItemCondPartsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampOrderSurchDiscAd(io.dstore.engine.procedures.OmModifyCampOrderSurchDiscAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampOrderSurchDiscAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampPaymentCondAd(io.dstore.engine.procedures.OmModifyCampPaymentCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampPaymentCondAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampPersGroupCondAd(io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampShippingCondAd(io.dstore.engine.procedures.OmModifyCampShippingCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampShippingCondAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampTrolleyValCondAd(io.dstore.engine.procedures.OmModifyCampTrolleyValCondAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampTrolleyValCondAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampVouchCodeCondsAd(io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignBenefitsAd(io.dstore.engine.procedures.OmModifyCampaignBenefitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignBenefitsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignBonusItemsAd(io.dstore.engine.procedures.OmModifyCampaignBonusItemsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignBonusItemsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignCategoriesAd(io.dstore.engine.procedures.OmModifyCampaignCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignConditionsAd(io.dstore.engine.procedures.OmModifyCampaignConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignItemCondsAd(io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignPeriodDefsAd(io.dstore.engine.procedures.OmModifyCampaignPeriodDefsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignPeriodDefsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignSettingsAd(io.dstore.engine.procedures.OmModifyCampaignSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignSurchargesAd(io.dstore.engine.procedures.OmModifyCampaignSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignTypeRulesAd(io.dstore.engine.procedures.OmModifyCampaignTypeRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignTypeRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignTypesAd(io.dstore.engine.procedures.OmModifyCampaignTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampaignsAd(io.dstore.engine.procedures.OmModifyCampaignsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCampsInCategoriesAd(io.dstore.engine.procedures.OmModifyCampsInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampsInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyChangeOStatTriggerAd(io.dstore.engine.procedures.OmModifyChangeOStatTriggerAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyChangeOStatTriggerAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyCustomerCashAccAd(io.dstore.engine.procedures.OmModifyCustomerCashAccAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCustomerCashAccAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyGroupPayForShipAd(io.dstore.engine.procedures.OmModifyGroupPayForShipAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyGroupPayForShipAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyGroupSurchargesAd(io.dstore.engine.procedures.OmModifyGroupSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyGroupSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyNodePaymentForShipAd(io.dstore.engine.procedures.OmModifyNodePaymentForShipAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyNodePaymentForShipAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderContInfoRulesAd(io.dstore.engine.procedures.OmModifyOrderContInfoRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContInfoRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderContInfoTypesAd(io.dstore.engine.procedures.OmModifyOrderContInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderContentInfoAd(io.dstore.engine.procedures.OmModifyOrderContentInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContentInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderContentAd(io.dstore.engine.procedures.OmModifyOrderContentAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContentAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderInfoRulesAd(io.dstore.engine.procedures.OmModifyOrderInfoRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInfoRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderInfoTypesAd(io.dstore.engine.procedures.OmModifyOrderInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderInformationAd(io.dstore.engine.procedures.OmModifyOrderInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderInformationPu(io.dstore.engine.procedures.OmModifyOrderInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderStateCatsAd(io.dstore.engine.procedures.OmModifyOrderStateCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStateCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderStateDescTranAd(io.dstore.engine.procedures.OmModifyOrderStateDescTranAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStateDescTranAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderStateRulesAd(io.dstore.engine.procedures.OmModifyOrderStateRulesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStateRulesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderStatesInCatsAd(io.dstore.engine.procedures.OmModifyOrderStatesInCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStatesInCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderStatesAd(io.dstore.engine.procedures.OmModifyOrderStatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStatesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderSurchInfTypesAd(io.dstore.engine.procedures.OmModifyOrderSurchInfTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderSurchInfTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyOrderAd(io.dstore.engine.procedures.OmModifyOrderAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPayForShipDescrAd(io.dstore.engine.procedures.OmModifyPayForShipDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPayForShipDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPaymentForShippingAd(io.dstore.engine.procedures.OmModifyPaymentForShippingAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentForShippingAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPaymentTypeDescrAd(io.dstore.engine.procedures.OmModifyPaymentTypeDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentTypeDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPaymentTypeSurchAd(io.dstore.engine.procedures.OmModifyPaymentTypeSurchAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentTypeSurchAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPaymentTypesAd(io.dstore.engine.procedures.OmModifyPaymentTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPersonSurchargesAd(io.dstore.engine.procedures.OmModifyPersonSurchargesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPersonSurchargesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPredefBillContentAd(io.dstore.engine.procedures.OmModifyPredefBillContentAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPredefBillContentAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPurchaseOrderQueueAd(io.dstore.engine.procedures.OmModifyPurchaseOrderQueueAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPurchaseOrderQueueAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyPurchaseOrderTypesAd(io.dstore.engine.procedures.OmModifyPurchaseOrderTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPurchaseOrderTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyRequiredInfoForPayAd(io.dstore.engine.procedures.OmModifyRequiredInfoForPayAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyRequiredInfoForPayAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifySetsForBonItBenefsAd(io.dstore.engine.procedures.OmModifySetsForBonItBenefsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySetsForBonItBenefsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifySetsForBunBenefitsAd(io.dstore.engine.procedures.OmModifySetsForBunBenefitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySetsForBunBenefitsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyShippingTypeDescrAd(io.dstore.engine.procedures.OmModifyShippingTypeDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyShippingTypeDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyShippingTypeSurchAd(io.dstore.engine.procedures.OmModifyShippingTypeSurchAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyShippingTypeSurchAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyShippingTypesAd(io.dstore.engine.procedures.OmModifyShippingTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyShippingTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifySurchargeTypeCatsAd(io.dstore.engine.procedures.OmModifySurchargeTypeCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypeCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifySurchargeTypeDescrAd(io.dstore.engine.procedures.OmModifySurchargeTypeDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypeDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifySurchargeTypeTaxesAd(io.dstore.engine.procedures.OmModifySurchargeTypeTaxesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypeTaxesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifySurchargeTypesAd(io.dstore.engine.procedures.OmModifySurchargeTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTaxTypesAd(io.dstore.engine.procedures.OmModifyTaxTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTaxTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTaxesAd(io.dstore.engine.procedures.OmModifyTaxesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTaxesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTrolleyCInfoTypesAd(io.dstore.engine.procedures.OmModifyTrolleyCInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyCInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTrolleyContentInfoPu(io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTrolleyInfoTypesAd(io.dstore.engine.procedures.OmModifyTrolleyInfoTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyInfoTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTrolleyInformationPu(io.dstore.engine.procedures.OmModifyTrolleyInformationPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyInformationPu.Response> responseObserver);
 
+    /**
+     */
     public void omModifyTrolleySurInfTypesAd(io.dstore.engine.procedures.OmModifyTrolleySurInfTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleySurInfTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyVoucherCodeValidAd(io.dstore.engine.procedures.OmModifyVoucherCodeValidAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyVoucherCodeValidAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyVoucherTypeSurchAd(io.dstore.engine.procedures.OmModifyVoucherTypeSurchAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyVoucherTypeSurchAd.Response> responseObserver);
 
+    /**
+     */
     public void omModifyVoucherTypesAd(io.dstore.engine.procedures.OmModifyVoucherTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyVoucherTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void omPerformCashAccTransactAd(io.dstore.engine.procedures.OmPerformCashAccTransactAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmPerformCashAccTransactAd.Response> responseObserver);
 
+    /**
+     */
     public void omRedeemPrepaidCodePu(io.dstore.engine.procedures.OmRedeemPrepaidCodePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmRedeemPrepaidCodePu.Response> responseObserver);
 
+    /**
+     */
     public void omRemoveVoucherFromTrolleyPu(io.dstore.engine.procedures.OmRemoveVoucherFromTrolleyPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmRemoveVoucherFromTrolleyPu.Response> responseObserver);
 
+    /**
+     */
     public void omSearchOrderNoAd(io.dstore.engine.procedures.OmSearchOrderNoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmSearchOrderNoAd.Response> responseObserver);
 
+    /**
+     */
     public void omUpdateTrolleyPu(io.dstore.engine.procedures.OmUpdateTrolleyPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmUpdateTrolleyPu.Response> responseObserver);
 
+    /**
+     */
     public void omValidateVoucherCodePu(io.dstore.engine.procedures.OmValidateVoucherCodePu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmValidateVoucherCodePu.Response> responseObserver);
 
+    /**
+     */
     public void pmAdressenCheckPu(io.dstore.engine.procedures.PmAdressenCheckPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmAdressenCheckPu.Response> responseObserver);
 
+    /**
+     */
     public void pmAlphabetizeCharacValuesAd(io.dstore.engine.procedures.PmAlphabetizeCharacValuesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmAlphabetizeCharacValuesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmCheckPersonIdentityPu(io.dstore.engine.procedures.PmCheckPersonIdentityPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmCheckPersonIdentityPu.Response> responseObserver);
 
+    /**
+     */
     public void pmCloseARelationshipPu(io.dstore.engine.procedures.PmCloseARelationshipPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmCloseARelationshipPu.Response> responseObserver);
 
+    /**
+     */
     public void pmCloseVisitorPersonsPu(io.dstore.engine.procedures.PmCloseVisitorPersonsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmCloseVisitorPersonsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmConfigureValueColumnsAd(io.dstore.engine.procedures.PmConfigureValueColumnsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmConfigureValueColumnsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmConsistencyCheckAd(io.dstore.engine.procedures.PmConsistencyCheckAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmConsistencyCheckAd.Response> responseObserver);
 
+    /**
+     */
     public void pmDeleteAllPersonsOfPTypeAd(io.dstore.engine.procedures.PmDeleteAllPersonsOfPTypeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeleteAllPersonsOfPTypeAd.Response> responseObserver);
 
+    /**
+     */
     public void pmDeleteDispensablePersonsAd(io.dstore.engine.procedures.PmDeleteDispensablePersonsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeleteDispensablePersonsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmDeleteInterfaceTablesAd(io.dstore.engine.procedures.PmDeleteInterfaceTablesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeleteInterfaceTablesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmDeletePersonAd(io.dstore.engine.procedures.PmDeletePersonAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeletePersonAd.Response> responseObserver);
 
+    /**
+     */
     public void pmDeletePersonPu(io.dstore.engine.procedures.PmDeletePersonPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeletePersonPu.Response> responseObserver);
 
+    /**
+     */
     public void pmExportPersonDataAd(io.dstore.engine.procedures.PmExportPersonDataAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmExportPersonDataAd.Response> responseObserver);
 
+    /**
+     */
     public void pmFormARelationshipPu(io.dstore.engine.procedures.PmFormARelationshipPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmFormARelationshipPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetEncryptionAlgorithmPu(io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetGroupConditionsAd(io.dstore.engine.procedures.PmGetGroupConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetGroupConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetGroupsForOnePersonPu(io.dstore.engine.procedures.PmGetGroupsForOnePersonPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetGroupsForOnePersonPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetGroupsAd(io.dstore.engine.procedures.PmGetGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetImportErrorsAd(io.dstore.engine.procedures.PmGetImportErrorsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetImportErrorsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetLockedPersonTypesAd(io.dstore.engine.procedures.PmGetLockedPersonTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetLockedPersonTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetMostRecentUniqueIDPu(io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPChAccRestrForGroupsAd(io.dstore.engine.procedures.PmGetPChAccRestrForGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPChAccRestrForGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPChAccRestrForUsersAd(io.dstore.engine.procedures.PmGetPChAccRestrForUsersAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPChAccRestrForUsersAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPeriodsForPredefValsAd(io.dstore.engine.procedures.PmGetPeriodsForPredefValsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPeriodsForPredefValsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonAccessCharacsPu(io.dstore.engine.procedures.PmGetPersonAccessCharacsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonAccessCharacsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonBinariesAd(io.dstore.engine.procedures.PmGetPersonBinariesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonBinariesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonBinariesPu(io.dstore.engine.procedures.PmGetPersonBinariesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonBinariesPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonCharacCatsAd(io.dstore.engine.procedures.PmGetPersonCharacCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonCharacDescrAd(io.dstore.engine.procedures.PmGetPersonCharacDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonCharacValueIDAd(io.dstore.engine.procedures.PmGetPersonCharacValueIDAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacValueIDAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonCharacsInCatsAd(io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonCharacteristicsAd(io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonCharacteristicsPu(io.dstore.engine.procedures.PmGetPersonCharacteristicsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacteristicsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonDetailsAd(io.dstore.engine.procedures.PmGetPersonDetailsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonDetailsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonDetailsPu(io.dstore.engine.procedures.PmGetPersonDetailsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonDetailsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonIdentCharacsPu(io.dstore.engine.procedures.PmGetPersonIdentCharacsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonIdentCharacsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonMetaInformationAd(io.dstore.engine.procedures.PmGetPersonMetaInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonMetaInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonOutputCharacsAd(io.dstore.engine.procedures.PmGetPersonOutputCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonOutputCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonPredefinedValsAd(io.dstore.engine.procedures.PmGetPersonPredefinedValsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPredefinedValsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonPredefinedValsPu(io.dstore.engine.procedures.PmGetPersonPredefinedValsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPredefinedValsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonPropertiesHistAd(io.dstore.engine.procedures.PmGetPersonPropertiesHistAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPropertiesHistAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonPropertiesAd(io.dstore.engine.procedures.PmGetPersonPropertiesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPropertiesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonPropertiesPu(io.dstore.engine.procedures.PmGetPersonPropertiesPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPropertiesPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonRelationshipsAd(io.dstore.engine.procedures.PmGetPersonRelationshipsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonRelationshipsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonRelationshipsPu(io.dstore.engine.procedures.PmGetPersonRelationshipsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonRelationshipsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonTypeMetaInfoAd(io.dstore.engine.procedures.PmGetPersonTypeMetaInfoAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypeMetaInfoAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonTypeSettingEntry(io.dstore.engine.procedures.PmGetPersonTypeSettingEntry.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypeSettingEntry.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonTypeSettingsAd(io.dstore.engine.procedures.PmGetPersonTypeSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypeSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonTypesAd(io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonsAd(io.dstore.engine.procedures.PmGetPersonsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPersonsConditionsAd(io.dstore.engine.procedures.PmGetPersonsConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonsConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetPossibleDuplicatesAd(io.dstore.engine.procedures.PmGetPossibleDuplicatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPossibleDuplicatesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetRelationAccessLevels(io.dstore.engine.procedures.PmGetRelationAccessLevels.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationAccessLevels.Response> responseObserver);
 
+    /**
+     */
     public void pmGetRelationshipSettingEntry(io.dstore.engine.procedures.PmGetRelationshipSettingEntry.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationshipSettingEntry.Response> responseObserver);
 
+    /**
+     */
     public void pmGetRelationshipSettingsAd(io.dstore.engine.procedures.PmGetRelationshipSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationshipSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmGetRelationshipsAd(io.dstore.engine.procedures.PmGetRelationshipsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationshipsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmImportPersonDataAd(io.dstore.engine.procedures.PmImportPersonDataAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmImportPersonDataAd.Response> responseObserver);
 
+    /**
+     */
     public void pmInsertNewPersonAd(io.dstore.engine.procedures.PmInsertNewPersonAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmInsertNewPersonAd.Response> responseObserver);
 
+    /**
+     */
     public void pmInsertNewPersonPu(io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmInsertNewPersonPu.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyBinariesForPersonsAd(io.dstore.engine.procedures.PmModifyBinariesForPersonsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyBinariesForPersonsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyBinariesForPersonsPu(io.dstore.engine.procedures.PmModifyBinariesForPersonsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyBinariesForPersonsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyConditionsAd(io.dstore.engine.procedures.PmModifyConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyGroupConditionsAd(io.dstore.engine.procedures.PmModifyGroupConditionsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyGroupConditionsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyGroupsAd(io.dstore.engine.procedures.PmModifyGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyLockedPersonTypesAd(io.dstore.engine.procedures.PmModifyLockedPersonTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyLockedPersonTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPChAccResForGroupAd(io.dstore.engine.procedures.PmModifyPChAccResForGroupAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPChAccResForGroupAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPChAccResForUserAd(io.dstore.engine.procedures.PmModifyPChAccResForUserAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPChAccResForUserAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPeriodsForPredValsAd(io.dstore.engine.procedures.PmModifyPeriodsForPredValsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPeriodsForPredValsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonCharacCatsAd(io.dstore.engine.procedures.PmModifyPersonCharacCatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacCatsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonCharacDescrAd(io.dstore.engine.procedures.PmModifyPersonCharacDescrAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacDescrAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonCharacsInCatAd(io.dstore.engine.procedures.PmModifyPersonCharacsInCatAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacsInCatAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonCharacsAd(io.dstore.engine.procedures.PmModifyPersonCharacsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonDataAd(io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDataAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonDataPu(io.dstore.engine.procedures.PmModifyPersonDataPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDataPu.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonDetailsAd(io.dstore.engine.procedures.PmModifyPersonDetailsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDetailsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonDetailsPu(io.dstore.engine.procedures.PmModifyPersonDetailsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDetailsPu.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonPredefValsAd(io.dstore.engine.procedures.PmModifyPersonPredefValsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonPredefValsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonRelationshipAd(io.dstore.engine.procedures.PmModifyPersonRelationshipAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonRelationshipAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonRelationshipPu(io.dstore.engine.procedures.PmModifyPersonRelationshipPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonRelationshipPu.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonTypeSettingsAd(io.dstore.engine.procedures.PmModifyPersonTypeSettingsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonTypeSettingsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonTypesAd(io.dstore.engine.procedures.PmModifyPersonTypesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonTypesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyPersonsInGroupsAd(io.dstore.engine.procedures.PmModifyPersonsInGroupsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonsInGroupsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyRelationshipSettsAd(io.dstore.engine.procedures.PmModifyRelationshipSettsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyRelationshipSettsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmModifyRelationshipsAd(io.dstore.engine.procedures.PmModifyRelationshipsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyRelationshipsAd.Response> responseObserver);
 
+    /**
+     */
     public void pmMovePersonCharacValueAd(io.dstore.engine.procedures.PmMovePersonCharacValueAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmMovePersonCharacValueAd.Response> responseObserver);
 
+    /**
+     */
     public void pmPostleitzahlenZumOrtPu(io.dstore.engine.procedures.PmPostleitzahlenZumOrtPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmPostleitzahlenZumOrtPu.Response> responseObserver);
 
+    /**
+     */
     public void pmPrioritizeARelationshipPu(io.dstore.engine.procedures.PmPrioritizeARelationshipPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmPrioritizeARelationshipPu.Response> responseObserver);
 
+    /**
+     */
     public void pmRemoveDuplicateAd(io.dstore.engine.procedures.PmRemoveDuplicateAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmRemoveDuplicateAd.Response> responseObserver);
 
+    /**
+     */
     public void pmRemovePossibleDuplicatesAd(io.dstore.engine.procedures.PmRemovePossibleDuplicatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmRemovePossibleDuplicatesAd.Response> responseObserver);
 
+    /**
+     */
     public void pmSetPropertyOfOnePersonPu(io.dstore.engine.procedures.PmSetPropertyOfOnePersonPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmSetPropertyOfOnePersonPu.Response> responseObserver);
 
+    /**
+     */
     public void pmUpdatePossibleDuplicatesAd(io.dstore.engine.procedures.PmUpdatePossibleDuplicatesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmUpdatePossibleDuplicatesAd.Response> responseObserver);
 
+    /**
+     */
     public void stCopyFromOLTPtoDSSAd(io.dstore.engine.procedures.StCopyFromOLTPtoDSSAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StCopyFromOLTPtoDSSAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetBasicCharacteristicsAd(io.dstore.engine.procedures.StGetBasicCharacteristicsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetBasicCharacteristicsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetClickStreamAd(io.dstore.engine.procedures.StGetClickStreamAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetClickStreamAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetDSSIndexFrequencyAd(io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetDSSIndexTrendAd(io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetDirectSuccessorsTreeAd(io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetHTreeNodeStatisticsAd(io.dstore.engine.procedures.StGetHTreeNodeStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetHTreeNodeStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPHStatisticsAd(io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPHStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPageCategoriesAd(io.dstore.engine.procedures.StGetPageCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPageCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPageVisitsAd(io.dstore.engine.procedures.StGetPageVisitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPageVisitsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPagesInCategoriesAd(io.dstore.engine.procedures.StGetPagesInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPagesInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPagesAd(io.dstore.engine.procedures.StGetPagesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPagesAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPeriodsToKeepStatsAd(io.dstore.engine.procedures.StGetPeriodsToKeepStatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPeriodsToKeepStatsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPersonPDStatisticsAd(io.dstore.engine.procedures.StGetPersonPDStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPersonPDStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetPersonPMStatisticsAd(io.dstore.engine.procedures.StGetPersonPMStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPersonPMStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetSalesByInformationAd(io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetSalesByInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetTreeNodePDStatisticsAd(io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetTreeNodePMStatisticsAd(io.dstore.engine.procedures.StGetTreeNodePMStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetTreeNodePMStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetTreeNodePWStatisticsAd(io.dstore.engine.procedures.StGetTreeNodePWStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetTreeNodePWStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetVisitorInfoStatisticsAd(io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetVisitorInformationAd(io.dstore.engine.procedures.StGetVisitorInformationAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitorInformationAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetVisitorPersonsAd(io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response> responseObserver);
 
+    /**
+     */
     public void stGetVisitsAd(io.dstore.engine.procedures.StGetVisitsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitsAd.Response> responseObserver);
 
+    /**
+     */
     public void stInsertPageHitPu(io.dstore.engine.procedures.StInsertPageHitPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StInsertPageHitPu.Response> responseObserver);
 
+    /**
+     */
     public void stInsertTreeNodeHitsPu(io.dstore.engine.procedures.StInsertTreeNodeHitsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StInsertTreeNodeHitsPu.Response> responseObserver);
 
+    /**
+     */
     public void stLogPageVisitsPu(io.dstore.engine.procedures.StLogPageVisitsPu.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StLogPageVisitsPu.Response> responseObserver);
 
+    /**
+     */
     public void stModifyPageCategoriesAd(io.dstore.engine.procedures.StModifyPageCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPageCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void stModifyPagesInCategoriesAd(io.dstore.engine.procedures.StModifyPagesInCategoriesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPagesInCategoriesAd.Response> responseObserver);
 
+    /**
+     */
     public void stModifyPagesAd(io.dstore.engine.procedures.StModifyPagesAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPagesAd.Response> responseObserver);
 
+    /**
+     */
     public void stModifyPeriodsToKeepStatsAd(io.dstore.engine.procedures.StModifyPeriodsToKeepStatsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPeriodsToKeepStatsAd.Response> responseObserver);
 
+    /**
+     */
     public void stUpdateStatisticsAd(io.dstore.engine.procedures.StUpdateStatisticsAd.Parameters request,
         io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StUpdateStatisticsAd.Response> responseObserver);
   }
 
+  @io.grpc.ExperimentalApi
+  public static abstract class AbstractEngineProc implements EngineProc, io.grpc.BindableService {
+
+    @java.lang.Override
+    public void acChangeActionStateAd(io.dstore.engine.procedures.AcChangeActionStateAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcChangeActionStateAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_CHANGE_ACTION_STATE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetActionLogsAd(io.dstore.engine.procedures.AcGetActionLogsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionLogsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_ACTION_LOGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetActionStatusCategsAd(io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_ACTION_STATUS_CATEGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetActionStatusValuesAd(io.dstore.engine.procedures.AcGetActionStatusValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionStatusValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_ACTION_STATUS_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetActionsAd(io.dstore.engine.procedures.AcGetActionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetActionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_ACTIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetCommandSettingEntry(io.dstore.engine.procedures.AcGetCommandSettingEntry.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetCommandSettingEntry.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_COMMAND_SETTING_ENTRY, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetCommandSettingsAd(io.dstore.engine.procedures.AcGetCommandSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetCommandSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_COMMAND_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acGetCommandsAd(io.dstore.engine.procedures.AcGetCommandsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcGetCommandsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_GET_COMMANDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acInsertActionLogAd(io.dstore.engine.procedures.AcInsertActionLogAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcInsertActionLogAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_INSERT_ACTION_LOG_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acInsertActionAd(io.dstore.engine.procedures.AcInsertActionAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcInsertActionAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_INSERT_ACTION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acModifyActionStatusValuesAd(io.dstore.engine.procedures.AcModifyActionStatusValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcModifyActionStatusValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_MODIFY_ACTION_STATUS_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acModifyCommandSettingsAd(io.dstore.engine.procedures.AcModifyCommandSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcModifyCommandSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_MODIFY_COMMAND_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void acModifyCommandsAd(io.dstore.engine.procedures.AcModifyCommandsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.AcModifyCommandsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_AC_MODIFY_COMMANDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coCheckStatisticsAd(io.dstore.engine.procedures.CoCheckStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoCheckStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_CHECK_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coCreateNewCommunityMemberPu(io.dstore.engine.procedures.CoCreateNewCommunityMemberPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoCreateNewCommunityMemberPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_CREATE_NEW_COMMUNITY_MEMBER_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coCreateNewMessagePu(io.dstore.engine.procedures.CoCreateNewMessagePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoCreateNewMessagePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_CREATE_NEW_MESSAGE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coDeleteCommunityBinaryAd(io.dstore.engine.procedures.CoDeleteCommunityBinaryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteCommunityBinaryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_DELETE_COMMUNITY_BINARY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coDeleteCommunityBinaryPu(io.dstore.engine.procedures.CoDeleteCommunityBinaryPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteCommunityBinaryPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_DELETE_COMMUNITY_BINARY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coDeleteInactiveMembersAd(io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_DELETE_INACTIVE_MEMBERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coDeleteMessagePu(io.dstore.engine.procedures.CoDeleteMessagePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteMessagePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_DELETE_MESSAGE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coDeleteUsersOnlineTimeAd(io.dstore.engine.procedures.CoDeleteUsersOnlineTimeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoDeleteUsersOnlineTimeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_DELETE_USERS_ONLINE_TIME_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetBinQuotaInformationPu(io.dstore.engine.procedures.CoGetBinQuotaInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinQuotaInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_BIN_QUOTA_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetBinariesOfOneMemberAd(io.dstore.engine.procedures.CoGetBinariesOfOneMemberAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinariesOfOneMemberAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_BINARIES_OF_ONE_MEMBER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetBinaryCatAccessLevels(io.dstore.engine.procedures.CoGetBinaryCatAccessLevels.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinaryCatAccessLevels.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_BINARY_CAT_ACCESS_LEVELS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetBinaryCategoriesAd(io.dstore.engine.procedures.CoGetBinaryCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetBinaryCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_BINARY_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunitiesAd(io.dstore.engine.procedures.CoGetCommunitiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunitiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunityForumsAd(io.dstore.engine.procedures.CoGetCommunityForumsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityForumsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITY_FORUMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunityForumsPu(io.dstore.engine.procedures.CoGetCommunityForumsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityForumsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITY_FORUMS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunityMemberSettings(io.dstore.engine.procedures.CoGetCommunityMemberSettings.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityMemberSettings.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITY_MEMBER_SETTINGS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunitySettings(io.dstore.engine.procedures.CoGetCommunitySettings.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunitySettings.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITY_SETTINGS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunityStatisticsAd(io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITY_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCommunityStatisticsPu(io.dstore.engine.procedures.CoGetCommunityStatisticsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCommunityStatisticsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_COMMUNITY_STATISTICS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetCurrentlyUsersOnlinePu(io.dstore.engine.procedures.CoGetCurrentlyUsersOnlinePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetCurrentlyUsersOnlinePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_CURRENTLY_USERS_ONLINE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetLostPasswordQuestionPu(io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_LOST_PASSWORD_QUESTION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetLostPasswordPu(io.dstore.engine.procedures.CoGetLostPasswordPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetLostPasswordPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_LOST_PASSWORD_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMD5ForBinaryIDPu(io.dstore.engine.procedures.CoGetMD5ForBinaryIDPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMD5ForBinaryIDPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MD5FOR_BINARY_ID_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMemberBinariesPu(io.dstore.engine.procedures.CoGetMemberBinariesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberBinariesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MEMBER_BINARIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMemberInformationPu(io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MEMBER_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMemberPropertiesPu(io.dstore.engine.procedures.CoGetMemberPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MEMBER_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMemberSettingsAd(io.dstore.engine.procedures.CoGetMemberSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MEMBER_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMemberSettingsPu(io.dstore.engine.procedures.CoGetMemberSettingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberSettingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MEMBER_SETTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMemberStatisticsPu(io.dstore.engine.procedures.CoGetMemberStatisticsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMemberStatisticsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MEMBER_STATISTICS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMessagesOfOneMemberAd(io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MESSAGES_OF_ONE_MEMBER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetMessagesPu(io.dstore.engine.procedures.CoGetMessagesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetMessagesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_MESSAGES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetNewestMembersPu(io.dstore.engine.procedures.CoGetNewestMembersPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetNewestMembersPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_NEWEST_MEMBERS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetOnlineStatusPu(io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetOnlineStatusPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_ONLINE_STATUS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetOnlineTimeOfMembersPu(io.dstore.engine.procedures.CoGetOnlineTimeOfMembersPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetOnlineTimeOfMembersPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_ONLINE_TIME_OF_MEMBERS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetPublicCommunityStatsPu(io.dstore.engine.procedures.CoGetPublicCommunityStatsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetPublicCommunityStatsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_PUBLIC_COMMUNITY_STATS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetRelatedMembersPu(io.dstore.engine.procedures.CoGetRelatedMembersPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetRelatedMembersPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_RELATED_MEMBERS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coGetSentMessagesPu(io.dstore.engine.procedures.CoGetSentMessagesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoGetSentMessagesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_GET_SENT_MESSAGES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coInsertCommunityMembersAd(io.dstore.engine.procedures.CoInsertCommunityMembersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertCommunityMembersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_INSERT_COMMUNITY_MEMBERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coInsertCommunityMembersPu(io.dstore.engine.procedures.CoInsertCommunityMembersPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertCommunityMembersPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_INSERT_COMMUNITY_MEMBERS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coInsertNewCommunityAd(io.dstore.engine.procedures.CoInsertNewCommunityAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertNewCommunityAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_INSERT_NEW_COMMUNITY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coInsertNewMemberBinaryPu(io.dstore.engine.procedures.CoInsertNewMemberBinaryPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoInsertNewMemberBinaryPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_INSERT_NEW_MEMBER_BINARY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coLoginIntoCommunityPu(io.dstore.engine.procedures.CoLoginIntoCommunityPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoLoginIntoCommunityPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_LOGIN_INTO_COMMUNITY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coLogoutCommunityMemberAd(io.dstore.engine.procedures.CoLogoutCommunityMemberAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoLogoutCommunityMemberAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_LOGOUT_COMMUNITY_MEMBER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coLogoutOffCommunityPu(io.dstore.engine.procedures.CoLogoutOffCommunityPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoLogoutOffCommunityPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_LOGOUT_OFF_COMMUNITY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coModifyBinaryCategoriesAd(io.dstore.engine.procedures.CoModifyBinaryCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyBinaryCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_MODIFY_BINARY_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coModifyCommunitiesAd(io.dstore.engine.procedures.CoModifyCommunitiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyCommunitiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_MODIFY_COMMUNITIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coModifyCommunityForumsAd(io.dstore.engine.procedures.CoModifyCommunityForumsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyCommunityForumsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_MODIFY_COMMUNITY_FORUMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coModifyCommunitySettingsAd(io.dstore.engine.procedures.CoModifyCommunitySettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyCommunitySettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_MODIFY_COMMUNITY_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coModifyMemberSettingsAd(io.dstore.engine.procedures.CoModifyMemberSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyMemberSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_MODIFY_MEMBER_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coModifyMemberSettingsPu(io.dstore.engine.procedures.CoModifyMemberSettingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoModifyMemberSettingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_MODIFY_MEMBER_SETTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coSearchMemberSettingsAd(io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_SEARCH_MEMBER_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coSearchMembersAd(io.dstore.engine.procedures.CoSearchMembersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoSearchMembersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_SEARCH_MEMBERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void coSearchMembersPu(io.dstore.engine.procedures.CoSearchMembersPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.CoSearchMembersPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CO_SEARCH_MEMBERS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetGlossaryAd(io.dstore.engine.procedures.DoGetGlossaryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetGlossaryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_GLOSSARY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcResSortConditionsAd(io.dstore.engine.procedures.DoGetProcResSortConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcResSortConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROC_RES_SORT_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcResultConditionsAd(io.dstore.engine.procedures.DoGetProcResultConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcResultConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROC_RESULT_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureCategoriesAd(io.dstore.engine.procedures.DoGetProcedureCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureDependenciesAd(io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_DEPENDENCIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureDocuAd(io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_DOCU_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureHistoryAd(io.dstore.engine.procedures.DoGetProcedureHistoryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureHistoryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_HISTORY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureNamesAd(io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_NAMES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureParametersAd(io.dstore.engine.procedures.DoGetProcedureParametersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureParametersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_PARAMETERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureResultSetsAd(io.dstore.engine.procedures.DoGetProcedureResultSetsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureResultSetsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_RESULT_SETS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureReturnCodesAd(io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_RETURN_CODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetProcedureTypesAd(io.dstore.engine.procedures.DoGetProcedureTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetProcedureTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_PROCEDURE_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetReturnCodeCategoriesAd(io.dstore.engine.procedures.DoGetReturnCodeCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetReturnCodeCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_RETURN_CODE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetReturnCodesAd(io.dstore.engine.procedures.DoGetReturnCodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetReturnCodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_RETURN_CODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetSQLFunctionParametersAd(io.dstore.engine.procedures.DoGetSQLFunctionParametersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSQLFunctionParametersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_SQLFUNCTION_PARAMETERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetSettingsDescriptionsAd(io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_SETTINGS_DESCRIPTIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetSettingsEntryCatsAd(io.dstore.engine.procedures.DoGetSettingsEntryCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSettingsEntryCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_SETTINGS_ENTRY_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetSortOrderForResultSetAd(io.dstore.engine.procedures.DoGetSortOrderForResultSetAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetSortOrderForResultSetAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_SORT_ORDER_FOR_RESULT_SET_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetTableCategoriesAd(io.dstore.engine.procedures.DoGetTableCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetTableCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GET_TABLE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetdStoreLanguagesAd(io.dstore.engine.procedures.DoGetdStoreLanguagesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetdStoreLanguagesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GETD_STORE_LANGUAGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetdStoreTablesAd(io.dstore.engine.procedures.DoGetdStoreTablesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetdStoreTablesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GETD_STORE_TABLES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void doGetdStoreVersionsAd(io.dstore.engine.procedures.DoGetdStoreVersionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.DoGetdStoreVersionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_DO_GETD_STORE_VERSIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foCheckForumAccessPu(io.dstore.engine.procedures.FoCheckForumAccessPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoCheckForumAccessPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_CHECK_FORUM_ACCESS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foCopyPostingPu(io.dstore.engine.procedures.FoCopyPostingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoCopyPostingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_COPY_POSTING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foDeletePostingBinaryPu(io.dstore.engine.procedures.FoDeletePostingBinaryPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoDeletePostingBinaryPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_DELETE_POSTING_BINARY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumAccessLevelIDsAd(io.dstore.engine.procedures.FoGetForumAccessLevelIDsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessLevelIDsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_ACCESS_LEVEL_IDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumAccessLevelIDsPu(io.dstore.engine.procedures.FoGetForumAccessLevelIDsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessLevelIDsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_ACCESS_LEVEL_IDS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumAccessLevels(io.dstore.engine.procedures.FoGetForumAccessLevels.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessLevels.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_ACCESS_LEVELS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumAccessMatrixAd(io.dstore.engine.procedures.FoGetForumAccessMatrixAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumAccessMatrixAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_ACCESS_MATRIX_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumCategoriesAd(io.dstore.engine.procedures.FoGetForumCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumCategoriesPu(io.dstore.engine.procedures.FoGetForumCategoriesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumCategoriesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_CATEGORIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumSettingsAd(io.dstore.engine.procedures.FoGetForumSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumSettingsPu(io.dstore.engine.procedures.FoGetForumSettingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumSettingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_SETTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumStatisticsAd(io.dstore.engine.procedures.FoGetForumStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumStatisticsPu(io.dstore.engine.procedures.FoGetForumStatisticsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumStatisticsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUM_STATISTICS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumsAd(io.dstore.engine.procedures.FoGetForumsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetForumsPu(io.dstore.engine.procedures.FoGetForumsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetForumsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_FORUMS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetMainPostSortCriteriaAd(io.dstore.engine.procedures.FoGetMainPostSortCriteriaAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetMainPostSortCriteriaAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_MAIN_POST_SORT_CRITERIA_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetMainPostingsPu(io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetMainPostingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_MAIN_POSTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingBinariesPu(io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_BINARIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingCharacsAd(io.dstore.engine.procedures.FoGetPostingCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingCharacsPu(io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingCharacsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_CHARACS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingPropertiesPu(io.dstore.engine.procedures.FoGetPostingPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingRepliesPu(io.dstore.engine.procedures.FoGetPostingRepliesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingRepliesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_REPLIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingThreadPu(io.dstore.engine.procedures.FoGetPostingThreadPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingThreadPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_THREAD_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingVisibilities(io.dstore.engine.procedures.FoGetPostingVisibilities.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingVisibilities.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_VISIBILITIES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingPu(io.dstore.engine.procedures.FoGetPostingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingsOfOnePersonAd(io.dstore.engine.procedures.FoGetPostingsOfOnePersonAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingsOfOnePersonAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTINGS_OF_ONE_PERSON_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPostingsOfOnePersonPu(io.dstore.engine.procedures.FoGetPostingsOfOnePersonPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPostingsOfOnePersonPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_POSTINGS_OF_ONE_PERSON_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPredValsForCharacsAd(io.dstore.engine.procedures.FoGetPredValsForCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPredValsForCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_PRED_VALS_FOR_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foGetPredValsForCharacsPu(io.dstore.engine.procedures.FoGetPredValsForCharacsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoGetPredValsForCharacsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_GET_PRED_VALS_FOR_CHARACS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foInsertBinaryForPostingPu(io.dstore.engine.procedures.FoInsertBinaryForPostingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoInsertBinaryForPostingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_INSERT_BINARY_FOR_POSTING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foInsertPostingPu(io.dstore.engine.procedures.FoInsertPostingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoInsertPostingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_INSERT_POSTING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyCharacForForumCatsAd(io.dstore.engine.procedures.FoModifyCharacForForumCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyCharacForForumCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_CHARAC_FOR_FORUM_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyCharacsForForumsAd(io.dstore.engine.procedures.FoModifyCharacsForForumsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyCharacsForForumsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_CHARACS_FOR_FORUMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyForumAccessAd(io.dstore.engine.procedures.FoModifyForumAccessAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumAccessAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_FORUM_ACCESS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyForumAccessPu(io.dstore.engine.procedures.FoModifyForumAccessPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumAccessPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_FORUM_ACCESS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyForumCategoriesAd(io.dstore.engine.procedures.FoModifyForumCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_FORUM_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyForumSettingsAd(io.dstore.engine.procedures.FoModifyForumSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_FORUM_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyForumsInCategoriesAd(io.dstore.engine.procedures.FoModifyForumsInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumsInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_FORUMS_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyForumsAd(io.dstore.engine.procedures.FoModifyForumsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyForumsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_FORUMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyMainPostSortCritAd(io.dstore.engine.procedures.FoModifyMainPostSortCritAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyMainPostSortCritAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_MAIN_POST_SORT_CRIT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyPostingBinaryPu(io.dstore.engine.procedures.FoModifyPostingBinaryPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingBinaryPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_POSTING_BINARY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyPostingCharacsAd(io.dstore.engine.procedures.FoModifyPostingCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_POSTING_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyPostingPropertiesPu(io.dstore.engine.procedures.FoModifyPostingPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_POSTING_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyPostingVisibilityPu(io.dstore.engine.procedures.FoModifyPostingVisibilityPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingVisibilityPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_POSTING_VISIBILITY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyPostingPu(io.dstore.engine.procedures.FoModifyPostingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPostingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_POSTING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foModifyPredValsForCharacsAd(io.dstore.engine.procedures.FoModifyPredValsForCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoModifyPredValsForCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MODIFY_PRED_VALS_FOR_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foMovePostingPu(io.dstore.engine.procedures.FoMovePostingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoMovePostingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_MOVE_POSTING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void foSearchPostingsPu(io.dstore.engine.procedures.FoSearchPostingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.FoSearchPostingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_FO_SEARCH_POSTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imAddBinaryToNodesAd(io.dstore.engine.procedures.ImAddBinaryToNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImAddBinaryToNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_ADD_BINARY_TO_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imAddBinaryToValuesAd(io.dstore.engine.procedures.ImAddBinaryToValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImAddBinaryToValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_ADD_BINARY_TO_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imAlphabetizeCharacValuesAd(io.dstore.engine.procedures.ImAlphabetizeCharacValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImAlphabetizeCharacValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_ALPHABETIZE_CHARAC_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imCheckConditionsForTNIDsAd(io.dstore.engine.procedures.ImCheckConditionsForTNIDsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImCheckConditionsForTNIDsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_CHECK_CONDITIONS_FOR_TNIDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imCountBinariesForTreeNode(io.dstore.engine.procedures.ImCountBinariesForTreeNode.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImCountBinariesForTreeNode.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_COUNT_BINARIES_FOR_TREE_NODE, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imCreateProductRatSubjectsAd(io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_CREATE_PRODUCT_RAT_SUBJECTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeActivateNodesAd(io.dstore.engine.procedures.ImDeActivateNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeActivateNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DE_ACTIVATE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeleteBinaryForNodeAd(io.dstore.engine.procedures.ImDeleteBinaryForNodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteBinaryForNodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DELETE_BINARY_FOR_NODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeleteInterfaceTablesAd(io.dstore.engine.procedures.ImDeleteInterfaceTablesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteInterfaceTablesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DELETE_INTERFACE_TABLES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeleteNodeCharacValueAd(io.dstore.engine.procedures.ImDeleteNodeCharacValueAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteNodeCharacValueAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DELETE_NODE_CHARAC_VALUE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeletePageTreeNodesAd(io.dstore.engine.procedures.ImDeletePageTreeNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeletePageTreeNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DELETE_PAGE_TREE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeleteTemplateUsageAd(io.dstore.engine.procedures.ImDeleteTemplateUsageAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteTemplateUsageAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DELETE_TEMPLATE_USAGE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imDeleteTreeNodesAd(io.dstore.engine.procedures.ImDeleteTreeNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImDeleteTreeNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_DELETE_TREE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imFuzzySearchAd(io.dstore.engine.procedures.ImFuzzySearchAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImFuzzySearchAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_FUZZY_SEARCH_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGenerateVariantsAd(io.dstore.engine.procedures.ImGenerateVariantsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGenerateVariantsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GENERATE_VARIANTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinariesForValues(io.dstore.engine.procedures.ImGetBinariesForValues.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinariesForValues.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARIES_FOR_VALUES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryCharacteristicsAd(io.dstore.engine.procedures.ImGetBinaryCharacteristicsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryCharacteristicsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_CHARACTERISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryCodeIDsForNodePu(io.dstore.engine.procedures.ImGetBinaryCodeIDsForNodePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryCodeIDsForNodePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_CODE_IDS_FOR_NODE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryCodeIDsForValuePu(io.dstore.engine.procedures.ImGetBinaryCodeIDsForValuePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryCodeIDsForValuePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_CODE_IDS_FOR_VALUE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryPredefinedValsAd(io.dstore.engine.procedures.ImGetBinaryPredefinedValsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPredefinedValsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_PREDEFINED_VALS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryPredefinedValsPu(io.dstore.engine.procedures.ImGetBinaryPredefinedValsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPredefinedValsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_PREDEFINED_VALS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryPropertiesAd(io.dstore.engine.procedures.ImGetBinaryPropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryPropertiesPu(io.dstore.engine.procedures.ImGetBinaryPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryAd(io.dstore.engine.procedures.ImGetBinaryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetBinaryPu(io.dstore.engine.procedures.ImGetBinaryPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetBinaryPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_BINARY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetCommonNodePropertiesAd(io.dstore.engine.procedures.ImGetCommonNodePropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetCommonNodePropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_COMMON_NODE_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetCorrespondingValuesAd(io.dstore.engine.procedures.ImGetCorrespondingValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetCorrespondingValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_CORRESPONDING_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetDirectSuccessorsAd(io.dstore.engine.procedures.ImGetDirectSuccessorsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_DIRECT_SUCCESSORS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetDirectSuccessorsPu(io.dstore.engine.procedures.ImGetDirectSuccessorsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_DIRECT_SUCCESSORS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetDirectSuccessorsTreeAd(io.dstore.engine.procedures.ImGetDirectSuccessorsTreeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsTreeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_DIRECT_SUCCESSORS_TREE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetDirectSuccessorsTreePu(io.dstore.engine.procedures.ImGetDirectSuccessorsTreePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetDirectSuccessorsTreePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_DIRECT_SUCCESSORS_TREE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetHTreeNodeIDPu(io.dstore.engine.procedures.ImGetHTreeNodeIDPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetHTreeNodeIDPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_HTREE_NODE_ID_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetHTreeNodeIDsAd(io.dstore.engine.procedures.ImGetHTreeNodeIDsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetHTreeNodeIDsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_HTREE_NODE_IDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetImportErrorsAd(io.dstore.engine.procedures.ImGetImportErrorsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetImportErrorsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_IMPORT_ERRORS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetItemConditionGroupsAd(io.dstore.engine.procedures.ImGetItemConditionGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetItemConditionGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_ITEM_CONDITION_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetItemConditionPartsAd(io.dstore.engine.procedures.ImGetItemConditionPartsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_ITEM_CONDITION_PARTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetItemConditionsAd(io.dstore.engine.procedures.ImGetItemConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetItemConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_ITEM_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetLevelForNodePu(io.dstore.engine.procedures.ImGetLevelForNodePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLevelForNodePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_LEVEL_FOR_NODE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetLevelsAd(io.dstore.engine.procedures.ImGetLevelsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLevelsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_LEVELS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetLevelsPu(io.dstore.engine.procedures.ImGetLevelsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLevelsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_LEVELS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetLockedNodeCharacsAd(io.dstore.engine.procedures.ImGetLockedNodeCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetLockedNodeCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_LOCKED_NODE_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetModifiedNodesAd(io.dstore.engine.procedures.ImGetModifiedNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetModifiedNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_MODIFIED_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNewCharacsForNodeAd(io.dstore.engine.procedures.ImGetNewCharacsForNodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNewCharacsForNodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NEW_CHARACS_FOR_NODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacCategoriesAd(io.dstore.engine.procedures.ImGetNodeCharacCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARAC_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacDescrAd(io.dstore.engine.procedures.ImGetNodeCharacDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARAC_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacSettings(io.dstore.engine.procedures.ImGetNodeCharacSettings.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacSettings.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARAC_SETTINGS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacValuesAd(io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARAC_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacValuesPu(io.dstore.engine.procedures.ImGetNodeCharacValuesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacValuesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARAC_VALUES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacteristicsAd(io.dstore.engine.procedures.ImGetNodeCharacteristicsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacteristicsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARACTERISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeCharacteristicsPu(io.dstore.engine.procedures.ImGetNodeCharacteristicsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeCharacteristicsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_CHARACTERISTICS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeDescriptionsPu(io.dstore.engine.procedures.ImGetNodeDescriptionsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeDescriptionsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_DESCRIPTIONS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeMetaInformationAd(io.dstore.engine.procedures.ImGetNodeMetaInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeMetaInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_META_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeProperties(io.dstore.engine.procedures.ImGetNodeProperties.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeProperties.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_PROPERTIES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodePropertiesHistoryAd(io.dstore.engine.procedures.ImGetNodePropertiesHistoryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodePropertiesHistoryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_PROPERTIES_HISTORY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNodeSymbolsAd(io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NODE_SYMBOLS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetNumberOfNodesAd(io.dstore.engine.procedures.ImGetNumberOfNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetNumberOfNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_NUMBER_OF_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetPageTreeNodesAd(io.dstore.engine.procedures.ImGetPageTreeNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetPageTreeNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_PAGE_TREE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetPredecessors(io.dstore.engine.procedures.ImGetPredecessors.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetPredecessors.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_PREDECESSORS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetRandomProductPu(io.dstore.engine.procedures.ImGetRandomProductPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetRandomProductPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_RANDOM_PRODUCT_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetRootNodesAd(io.dstore.engine.procedures.ImGetRootNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetRootNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_ROOT_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetSimpleProductInfoPu(io.dstore.engine.procedures.ImGetSimpleProductInfoPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetSimpleProductInfoPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_SIMPLE_PRODUCT_INFO_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetSuccessorsAd(io.dstore.engine.procedures.ImGetSuccessorsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetSuccessorsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_SUCCESSORS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetSuccessorsPu(io.dstore.engine.procedures.ImGetSuccessorsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetSuccessorsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_SUCCESSORS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetTNodeMetaInformationAd(io.dstore.engine.procedures.ImGetTNodeMetaInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTNodeMetaInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_TNODE_META_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetTemplatesAd(io.dstore.engine.procedures.ImGetTemplatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTemplatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_TEMPLATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetTemplatesPu(io.dstore.engine.procedures.ImGetTemplatesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTemplatesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_TEMPLATES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetThumbnailForNodeAd(io.dstore.engine.procedures.ImGetThumbnailForNodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetThumbnailForNodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_THUMBNAIL_FOR_NODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetThumbnailForValueAd(io.dstore.engine.procedures.ImGetThumbnailForValueAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetThumbnailForValueAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_THUMBNAIL_FOR_VALUE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetTreeNodeInformationAd(io.dstore.engine.procedures.ImGetTreeNodeInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTreeNodeInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_TREE_NODE_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetTreeNodeInformationPu(io.dstore.engine.procedures.ImGetTreeNodeInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetTreeNodeInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_TREE_NODE_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetUsedValuesPu(io.dstore.engine.procedures.ImGetUsedValuesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetUsedValuesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_USED_VALUES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetValueCategories(io.dstore.engine.procedures.ImGetValueCategories.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValueCategories.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_VALUE_CATEGORIES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetValueDetailsAd(io.dstore.engine.procedures.ImGetValueDetailsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValueDetailsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_VALUE_DETAILS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetValueDetailsPu(io.dstore.engine.procedures.ImGetValueDetailsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValueDetailsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_VALUE_DETAILS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetValuesInCategoriesAd(io.dstore.engine.procedures.ImGetValuesInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetValuesInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_VALUES_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetVariantMatrix(io.dstore.engine.procedures.ImGetVariantMatrix.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetVariantMatrix.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_VARIANT_MATRIX, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imGetVariantMatrixAd(io.dstore.engine.procedures.ImGetVariantMatrixAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImGetVariantMatrixAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_GET_VARIANT_MATRIX_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imImportBinariesAd(io.dstore.engine.procedures.ImImportBinariesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImImportBinariesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_IMPORT_BINARIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imImportItemDataAd(io.dstore.engine.procedures.ImImportItemDataAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImImportItemDataAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_IMPORT_ITEM_DATA_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertNewNodeAd(io.dstore.engine.procedures.ImInsertNewNodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNewNodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_NEW_NODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertNewValueCategoryAd(io.dstore.engine.procedures.ImInsertNewValueCategoryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNewValueCategoryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_NEW_VALUE_CATEGORY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertNodeBinaryAd(io.dstore.engine.procedures.ImInsertNodeBinaryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNodeBinaryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_NODE_BINARY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertNodePredefinedValAd(io.dstore.engine.procedures.ImInsertNodePredefinedValAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNodePredefinedValAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_NODE_PREDEFINED_VAL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertNodeSymbolAd(io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertNodeSymbolAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_NODE_SYMBOL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertPageTreeNodeAd(io.dstore.engine.procedures.ImInsertPageTreeNodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertPageTreeNodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_PAGE_TREE_NODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imInsertValueBinaryAd(io.dstore.engine.procedures.ImInsertValueBinaryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImInsertValueBinaryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_INSERT_VALUE_BINARY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imMaintainStatisticPropsAd(io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MAINTAIN_STATISTIC_PROPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyBinaryCharacValuesAd(io.dstore.engine.procedures.ImModifyBinaryCharacValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyBinaryCharacValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_BINARY_CHARAC_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyBinaryPropertiesAd(io.dstore.engine.procedures.ImModifyBinaryPropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyBinaryPropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_BINARY_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyCondPartsInGroupsAd(io.dstore.engine.procedures.ImModifyCondPartsInGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyCondPartsInGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_COND_PARTS_IN_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyConditionGroupsAd(io.dstore.engine.procedures.ImModifyConditionGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyConditionGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_CONDITION_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyConditionPartsAd(io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyConditionPartsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_CONDITION_PARTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyConditionsAd(io.dstore.engine.procedures.ImModifyConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyCorrespondingValsAd(io.dstore.engine.procedures.ImModifyCorrespondingValsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyCorrespondingValsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_CORRESPONDING_VALS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyGroupsPerItemCondAd(io.dstore.engine.procedures.ImModifyGroupsPerItemCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyGroupsPerItemCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_GROUPS_PER_ITEM_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyLevelsAd(io.dstore.engine.procedures.ImModifyLevelsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyLevelsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_LEVELS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyLockedNodeCharacsAd(io.dstore.engine.procedures.ImModifyLockedNodeCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyLockedNodeCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_LOCKED_NODE_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodeCharacCatsAd(io.dstore.engine.procedures.ImModifyNodeCharacCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_CHARAC_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodeCharacDescrAd(io.dstore.engine.procedures.ImModifyNodeCharacDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_CHARAC_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodeCharacSettingsAd(io.dstore.engine.procedures.ImModifyNodeCharacSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_CHARAC_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodeCharacsInCatAd(io.dstore.engine.procedures.ImModifyNodeCharacsInCatAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacsInCatAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_CHARACS_IN_CAT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodeCharacsAd(io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodeDescriptionAd(io.dstore.engine.procedures.ImModifyNodeDescriptionAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodeDescriptionAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_DESCRIPTION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyNodePropertiesAd(io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_NODE_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyPredefinedValueAd(io.dstore.engine.procedures.ImModifyPredefinedValueAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyPredefinedValueAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_PREDEFINED_VALUE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyValueCategoriesAd(io.dstore.engine.procedures.ImModifyValueCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyValueCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_VALUE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyValueDetailsAd(io.dstore.engine.procedures.ImModifyValueDetailsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyValueDetailsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_VALUE_DETAILS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imModifyValuesInCategoriesAd(io.dstore.engine.procedures.ImModifyValuesInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImModifyValuesInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MODIFY_VALUES_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imMoveNodeCharacValueAd(io.dstore.engine.procedures.ImMoveNodeCharacValueAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImMoveNodeCharacValueAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MOVE_NODE_CHARAC_VALUE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imMoveTreeNodesAd(io.dstore.engine.procedures.ImMoveTreeNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImMoveTreeNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_MOVE_TREE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imRemoveBinaryFromNodesAd(io.dstore.engine.procedures.ImRemoveBinaryFromNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImRemoveBinaryFromNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_REMOVE_BINARY_FROM_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imRemoveBinaryFromValuesAd(io.dstore.engine.procedures.ImRemoveBinaryFromValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImRemoveBinaryFromValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_REMOVE_BINARY_FROM_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imResetSymbolIDsAd(io.dstore.engine.procedures.ImResetSymbolIDsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImResetSymbolIDsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_RESET_SYMBOL_IDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSearchBinariesAd(io.dstore.engine.procedures.ImSearchBinariesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchBinariesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SEARCH_BINARIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSearchCharacteristicsPu(io.dstore.engine.procedures.ImSearchCharacteristicsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchCharacteristicsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SEARCH_CHARACTERISTICS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSearchProductTreeNodesAd(io.dstore.engine.procedures.ImSearchProductTreeNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchProductTreeNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SEARCH_PRODUCT_TREE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSearchProductTreeNodesPu(io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SEARCH_PRODUCT_TREE_NODES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSearchTreeNodesAd(io.dstore.engine.procedures.ImSearchTreeNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchTreeNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SEARCH_TREE_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSearchTreeNodesPu(io.dstore.engine.procedures.ImSearchTreeNodesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSearchTreeNodesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SEARCH_TREE_NODES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSetLevelOfNodesAd(io.dstore.engine.procedures.ImSetLevelOfNodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSetLevelOfNodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SET_LEVEL_OF_NODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSetProductDescriptionsAd(io.dstore.engine.procedures.ImSetProductDescriptionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSetProductDescriptionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SET_PRODUCT_DESCRIPTIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSetTemplateAd(io.dstore.engine.procedures.ImSetTemplateAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSetTemplateAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SET_TEMPLATE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSortNodesAlphabeticallyAd(io.dstore.engine.procedures.ImSortNodesAlphabeticallyAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSortNodesAlphabeticallyAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SORT_NODES_ALPHABETICALLY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSortTreeNodesPu(io.dstore.engine.procedures.ImSortTreeNodesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSortTreeNodesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SORT_TREE_NODES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imSynchronizeItemBinariesAd(io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_SYNCHRONIZE_ITEM_BINARIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imTraverseTreeViewPu(io.dstore.engine.procedures.ImTraverseTreeViewPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImTraverseTreeViewPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_TRAVERSE_TREE_VIEW_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void imUpdateLockedTreeNodeIDsAd(io.dstore.engine.procedures.ImUpdateLockedTreeNodeIDsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.ImUpdateLockedTreeNodeIDsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IM_UPDATE_LOCKED_TREE_NODE_IDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miAnalyseObjectContTSQLAd(io.dstore.engine.procedures.MiAnalyseObjectContTSQLAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiAnalyseObjectContTSQLAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_ANALYSE_OBJECT_CONT_TSQL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miChangedStoreUserPasswordAd(io.dstore.engine.procedures.MiChangedStoreUserPasswordAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiChangedStoreUserPasswordAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_CHANGED_STORE_USER_PASSWORD_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miCheckFieldTypeOfValuesAd(io.dstore.engine.procedures.MiCheckFieldTypeOfValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCheckFieldTypeOfValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_CHECK_FIELD_TYPE_OF_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miCheckPerformanceAd(io.dstore.engine.procedures.MiCheckPerformanceAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCheckPerformanceAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_CHECK_PERFORMANCE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miCreatedStoreUserAd(io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiCreatedStoreUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_CREATED_STORE_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miDeadlockTestAd(io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeadlockTestAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_DEADLOCK_TEST_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miDeleteFromTempdbTable(io.dstore.engine.procedures.MiDeleteFromTempdbTable.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeleteFromTempdbTable.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_DELETE_FROM_TEMPDB_TABLE, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miDeletedStoreUserAd(io.dstore.engine.procedures.MiDeletedStoreUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDeletedStoreUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_DELETED_STORE_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miDumpDatabaseAd(io.dstore.engine.procedures.MiDumpDatabaseAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDumpDatabaseAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_DUMP_DATABASE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miDumpTransactionLogAd(io.dstore.engine.procedures.MiDumpTransactionLogAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiDumpTransactionLogAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_DUMP_TRANSACTION_LOG_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miExportLoginsAd(io.dstore.engine.procedures.MiExportLoginsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiExportLoginsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_EXPORT_LOGINS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGarbageCollectAd(io.dstore.engine.procedures.MiGarbageCollectAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGarbageCollectAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GARBAGE_COLLECT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetAllDatabaseUsersAd(io.dstore.engine.procedures.MiGetAllDatabaseUsersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetAllDatabaseUsersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_ALL_DATABASE_USERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetAppPartsTreeSettingsAd(io.dstore.engine.procedures.MiGetAppPartsTreeSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetAppPartsTreeSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APP_PARTS_TREE_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetAppPartsTreeSettingsPu(io.dstore.engine.procedures.MiGetAppPartsTreeSettingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetAppPartsTreeSettingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APP_PARTS_TREE_SETTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicPartSettingsAd(io.dstore.engine.procedures.MiGetApplicPartSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicPartSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLIC_PART_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicPartSettingsPu(io.dstore.engine.procedures.MiGetApplicPartSettingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicPartSettingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLIC_PART_SETTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationPartsTreeAd(io.dstore.engine.procedures.MiGetApplicationPartsTreeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsTreeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATION_PARTS_TREE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationPartsTreePu(io.dstore.engine.procedures.MiGetApplicationPartsTreePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsTreePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATION_PARTS_TREE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationPartsAd(io.dstore.engine.procedures.MiGetApplicationPartsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATION_PARTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationPartsPu(io.dstore.engine.procedures.MiGetApplicationPartsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationPartsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATION_PARTS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationSettingsAd(io.dstore.engine.procedures.MiGetApplicationSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATION_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationSettingsPu(io.dstore.engine.procedures.MiGetApplicationSettingsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationSettingsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATION_SETTINGS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationsAd(io.dstore.engine.procedures.MiGetApplicationsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetApplicationsPu(io.dstore.engine.procedures.MiGetApplicationsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetApplicationsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_APPLICATIONS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetBatchJobsAd(io.dstore.engine.procedures.MiGetBatchJobsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetBatchJobsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_BATCH_JOBS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetBinaryPropertiesAd(io.dstore.engine.procedures.MiGetBinaryPropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetBinaryPropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_BINARY_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetBinaryPropertiesPu(io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_BINARY_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetConvertFactor(io.dstore.engine.procedures.MiGetConvertFactor.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetConvertFactor.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_CONVERT_FACTOR, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetCountries(io.dstore.engine.procedures.MiGetCountries.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCountries.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_COUNTRIES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetCurrentDate(io.dstore.engine.procedures.MiGetCurrentDate.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCurrentDate.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_CURRENT_DATE, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetCurrentLocksAd(io.dstore.engine.procedures.MiGetCurrentLocksAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCurrentLocksAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_CURRENT_LOCKS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetCurrentProcessesAd(io.dstore.engine.procedures.MiGetCurrentProcessesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetCurrentProcessesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_CURRENT_PROCESSES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetDBObjectsAd(io.dstore.engine.procedures.MiGetDBObjectsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetDBObjectsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_DBOBJECTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetDBSessionInformation(io.dstore.engine.procedures.MiGetDBSessionInformation.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetDBSessionInformation.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_DBSESSION_INFORMATION, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetExecuteRightsAd(io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_EXECUTE_RIGHTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetFieldTypesAd(io.dstore.engine.procedures.MiGetFieldTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetFieldTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_FIELD_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetFieldTypesPu(io.dstore.engine.procedures.MiGetFieldTypesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetFieldTypesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_FIELD_TYPES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetIndexDDLAd(io.dstore.engine.procedures.MiGetIndexDDLAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetIndexDDLAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_INDEX_DDL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetIndexDLLAd(io.dstore.engine.procedures.MiGetIndexDLLAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetIndexDLLAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_INDEX_DLL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetInformationTypesAd(io.dstore.engine.procedures.MiGetInformationTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetInformationTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_INFORMATION_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLanguageDescriptionsAd(io.dstore.engine.procedures.MiGetLanguageDescriptionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguageDescriptionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LANGUAGE_DESCRIPTIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLanguageIconsAd(io.dstore.engine.procedures.MiGetLanguageIconsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguageIconsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LANGUAGE_ICONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLanguageIconsPu(io.dstore.engine.procedures.MiGetLanguageIconsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguageIconsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LANGUAGE_ICONS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLanguages(io.dstore.engine.procedures.MiGetLanguages.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLanguages.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LANGUAGES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLicenceKeyData(io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLicenceKeyData.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LICENCE_KEY_DATA, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLocales(io.dstore.engine.procedures.MiGetLocales.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLocales.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LOCALES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetLockDependenciesAd(io.dstore.engine.procedures.MiGetLockDependenciesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetLockDependenciesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_LOCK_DEPENDENCIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetMetaInformationTypesAd(io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_META_INFORMATION_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcExecRestrForGroupAd(io.dstore.engine.procedures.MiGetProcExecRestrForGroupAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRestrForGroupAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROC_EXEC_RESTR_FOR_GROUP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcExecRestrForUsersAd(io.dstore.engine.procedures.MiGetProcExecRestrForUsersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRestrForUsersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROC_EXEC_RESTR_FOR_USERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcExecRightsGroupAd(io.dstore.engine.procedures.MiGetProcExecRightsGroupAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRightsGroupAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROC_EXEC_RIGHTS_GROUP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcExecRightsUserAd(io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROC_EXEC_RIGHTS_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcMetaPropertiesAd(io.dstore.engine.procedures.MiGetProcMetaPropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcMetaPropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROC_META_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcedureCodeAd(io.dstore.engine.procedures.MiGetProcedureCodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureCodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROCEDURE_CODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcedureDependenciesAd(io.dstore.engine.procedures.MiGetProcedureDependenciesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureDependenciesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROCEDURE_DEPENDENCIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcedureExecutionLogAd(io.dstore.engine.procedures.MiGetProcedureExecutionLogAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureExecutionLogAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROCEDURE_EXECUTION_LOG_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetProcedureParameters(io.dstore.engine.procedures.MiGetProcedureParameters.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetProcedureParameters.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_PROCEDURE_PARAMETERS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetRegions(io.dstore.engine.procedures.MiGetRegions.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetRegions.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_REGIONS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetRegisteredProceduresAd(io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_REGISTERED_PROCEDURES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetRessourceUsage(io.dstore.engine.procedures.MiGetRessourceUsage.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetRessourceUsage.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_RESSOURCE_USAGE, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetReturnCodeMessage(io.dstore.engine.procedures.MiGetReturnCodeMessage.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetReturnCodeMessage.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_RETURN_CODE_MESSAGE, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSQLFunctMetaPropsAd(io.dstore.engine.procedures.MiGetSQLFunctMetaPropsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSQLFunctMetaPropsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SQLFUNCT_META_PROPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSQLFunctionCodeAd(io.dstore.engine.procedures.MiGetSQLFunctionCodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSQLFunctionCodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SQLFUNCTION_CODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSQLFunctionParameters(io.dstore.engine.procedures.MiGetSQLFunctionParameters.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSQLFunctionParameters.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SQLFUNCTION_PARAMETERS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSearchItemLacksAd(io.dstore.engine.procedures.MiGetSearchItemLacksAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSearchItemLacksAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SEARCH_ITEM_LACKS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSearchItemsAd(io.dstore.engine.procedures.MiGetSearchItemsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSearchItemsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SEARCH_ITEMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSessionManagementPu(io.dstore.engine.procedures.MiGetSessionManagementPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSessionManagementPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SESSION_MANAGEMENT_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSettingEntry(io.dstore.engine.procedures.MiGetSettingEntry.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSettingEntry.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SETTING_ENTRY, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSettingsAd(io.dstore.engine.procedures.MiGetSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSourceCodeHistoryAd(io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SOURCE_CODE_HISTORY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetSourceTemplatesAd(io.dstore.engine.procedures.MiGetSourceTemplatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetSourceTemplatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_SOURCE_TEMPLATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetStorageAllocInfoAd(io.dstore.engine.procedures.MiGetStorageAllocInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetStorageAllocInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_STORAGE_ALLOC_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerCodeAd(io.dstore.engine.procedures.MiGetTRITriggerCodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerCodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_CODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerConditionsAd(io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerReplFunctsAd(io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_REPL_FUNCTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerToDosAd(io.dstore.engine.procedures.MiGetTRITriggerToDosAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerToDosAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_TO_DOS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerTypesAd(io.dstore.engine.procedures.MiGetTRITriggerTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerWorkflowAd(io.dstore.engine.procedures.MiGetTRITriggerWorkflowAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerWorkflowAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_WORKFLOW_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTRITriggerAd(io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTRITriggerAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRITRIGGER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTableDDLAd(io.dstore.engine.procedures.MiGetTableDDLAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTableDDLAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TABLE_DDL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTableDLLAd(io.dstore.engine.procedures.MiGetTableDLLAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTableDLLAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TABLE_DLL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTabsRefInOtherTabsAd(io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TABS_REF_IN_OTHER_TABS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTaxRates(io.dstore.engine.procedures.MiGetTaxRates.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTaxRates.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TAX_RATES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTemplateCombinationsAd(io.dstore.engine.procedures.MiGetTemplateCombinationsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTemplateCombinationsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TEMPLATE_COMBINATIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTemplatesAd(io.dstore.engine.procedures.MiGetTemplatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTemplatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TEMPLATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetTriggerCodeAd(io.dstore.engine.procedures.MiGetTriggerCodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetTriggerCodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_TRIGGER_CODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUnitCategoriesAd(io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_UNIT_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUnitConvertsAd(io.dstore.engine.procedures.MiGetUnitConvertsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnitConvertsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_UNIT_CONVERTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUnits(io.dstore.engine.procedures.MiGetUnits.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnits.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_UNITS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUnitsAd(io.dstore.engine.procedures.MiGetUnitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUnitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_UNITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUsageOfTablesAd(io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_USAGE_OF_TABLES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUserGroupsAd(io.dstore.engine.procedures.MiGetUserGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUserGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_USER_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUserInfo(io.dstore.engine.procedures.MiGetUserInfo.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUserInfo.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_USER_INFO, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetUserInfoAd(io.dstore.engine.procedures.MiGetUserInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetUserInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_USER_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetVisitorInformationPu(io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetVisitorInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_VISITOR_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetVisitorPropertiesPu(io.dstore.engine.procedures.MiGetVisitorPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetVisitorPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GET_VISITOR_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miGetdStoreUserAd(io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_GETD_STORE_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertPerformancePu(io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertPerformancePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_PERFORMANCE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempCharacConditions(io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempCharacConditions.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMP_CHARAC_CONDITIONS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbAdditionalInfo(io.dstore.engine.procedures.MiInsertTempdbAdditionalInfo.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbAdditionalInfo.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_ADDITIONAL_INFO, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbAnyValues(io.dstore.engine.procedures.MiInsertTempdbAnyValues.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbAnyValues.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_ANY_VALUES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbCharacValues(io.dstore.engine.procedures.MiInsertTempdbCharacValues.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbCharacValues.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_CHARAC_VALUES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbImageData(io.dstore.engine.procedures.MiInsertTempdbImageData.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbImageData.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_IMAGE_DATA, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbOneID(io.dstore.engine.procedures.MiInsertTempdbOneID.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbOneID.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_ONE_ID, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbTextData(io.dstore.engine.procedures.MiInsertTempdbTextData.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbTextData.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_TEXT_DATA, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbThreeIDs(io.dstore.engine.procedures.MiInsertTempdbThreeIDs.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbThreeIDs.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_THREE_IDS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertTempdbTwoIDs(io.dstore.engine.procedures.MiInsertTempdbTwoIDs.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertTempdbTwoIDs.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_TEMPDB_TWO_IDS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miInsertVisitorInformationPu(io.dstore.engine.procedures.MiInsertVisitorInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiInsertVisitorInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_INSERT_VISITOR_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miLoadDatabaseAd(io.dstore.engine.procedures.MiLoadDatabaseAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiLoadDatabaseAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_LOAD_DATABASE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyAppPartSettingsAd(io.dstore.engine.procedures.MiModifyAppPartSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyAppPartSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_APP_PART_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyAppPartTreeSettsAd(io.dstore.engine.procedures.MiModifyAppPartTreeSettsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyAppPartTreeSettsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_APP_PART_TREE_SETTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyAppSettingsAd(io.dstore.engine.procedures.MiModifyAppSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyAppSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_APP_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyApplicPartsTreeAd(io.dstore.engine.procedures.MiModifyApplicPartsTreeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyApplicPartsTreeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_APPLIC_PARTS_TREE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyApplicationPartsAd(io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyApplicationPartsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_APPLICATION_PARTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyApplicationsAd(io.dstore.engine.procedures.MiModifyApplicationsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyApplicationsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_APPLICATIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyCountriesInRegionsAd(io.dstore.engine.procedures.MiModifyCountriesInRegionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyCountriesInRegionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_COUNTRIES_IN_REGIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyCountriesAd(io.dstore.engine.procedures.MiModifyCountriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyCountriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_COUNTRIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyInformationTypesAd(io.dstore.engine.procedures.MiModifyInformationTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyInformationTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_INFORMATION_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyLanguageDescrAd(io.dstore.engine.procedures.MiModifyLanguageDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyLanguageDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_LANGUAGE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyLanguagesAd(io.dstore.engine.procedures.MiModifyLanguagesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyLanguagesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_LANGUAGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyLocalesAd(io.dstore.engine.procedures.MiModifyLocalesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyLocalesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_LOCALES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyProcExRestForGroupAd(io.dstore.engine.procedures.MiModifyProcExRestForGroupAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRestForGroupAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_PROC_EX_REST_FOR_GROUP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyProcExRestForUserAd(io.dstore.engine.procedures.MiModifyProcExRestForUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRestForUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_PROC_EX_REST_FOR_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyProcExRightGroupAd(io.dstore.engine.procedures.MiModifyProcExRightGroupAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRightGroupAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_PROC_EX_RIGHT_GROUP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyProcExRightUserAd(io.dstore.engine.procedures.MiModifyProcExRightUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyProcExRightUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_PROC_EX_RIGHT_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyRegionsAd(io.dstore.engine.procedures.MiModifyRegionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyRegionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_REGIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyRegisteredProcsAd(io.dstore.engine.procedures.MiModifyRegisteredProcsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyRegisteredProcsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_REGISTERED_PROCS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifySearchItemsAd(io.dstore.engine.procedures.MiModifySearchItemsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifySearchItemsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_SEARCH_ITEMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifySessionManagementPu(io.dstore.engine.procedures.MiModifySessionManagementPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifySessionManagementPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_SESSION_MANAGEMENT_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifySettingsAd(io.dstore.engine.procedures.MiModifySettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifySettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTRITriggerCondsAd(io.dstore.engine.procedures.MiModifyTRITriggerCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TRITRIGGER_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTRITriggerReplFuncAd(io.dstore.engine.procedures.MiModifyTRITriggerReplFuncAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerReplFuncAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TRITRIGGER_REPL_FUNC_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTRITriggerToDosAd(io.dstore.engine.procedures.MiModifyTRITriggerToDosAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerToDosAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TRITRIGGER_TO_DOS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTRITriggerWorkflowAd(io.dstore.engine.procedures.MiModifyTRITriggerWorkflowAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerWorkflowAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TRITRIGGER_WORKFLOW_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTRITriggerAd(io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTRITriggerAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TRITRIGGER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTaxRatesAd(io.dstore.engine.procedures.MiModifyTaxRatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTaxRatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TAX_RATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyTemplatesAd(io.dstore.engine.procedures.MiModifyTemplatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyTemplatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_TEMPLATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUnitCategoryDescrAd(io.dstore.engine.procedures.MiModifyUnitCategoryDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitCategoryDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_UNIT_CATEGORY_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUnitConvertsAd(io.dstore.engine.procedures.MiModifyUnitConvertsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitConvertsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_UNIT_CONVERTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUnitsInCategoriesAd(io.dstore.engine.procedures.MiModifyUnitsInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitsInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_UNITS_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUnitsAd(io.dstore.engine.procedures.MiModifyUnitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUnitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_UNITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUserGroupsAd(io.dstore.engine.procedures.MiModifyUserGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUserGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_USER_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUserInfoAd(io.dstore.engine.procedures.MiModifyUserInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUserInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_USER_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miModifyUsersInGroupsAd(io.dstore.engine.procedures.MiModifyUsersInGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiModifyUsersInGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_MODIFY_USERS_IN_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miResetBatchJobAd(io.dstore.engine.procedures.MiResetBatchJobAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiResetBatchJobAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_RESET_BATCH_JOB_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miRestoreDefaultValuesAd(io.dstore.engine.procedures.MiRestoreDefaultValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiRestoreDefaultValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_RESTORE_DEFAULT_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miSearchBinariesAd(io.dstore.engine.procedures.MiSearchBinariesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiSearchBinariesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_SEARCH_BINARIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miSearchSourceCodeAd(io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiSearchSourceCodeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_SEARCH_SOURCE_CODE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miUpdateVisitorPropertiesPu(io.dstore.engine.procedures.MiUpdateVisitorPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiUpdateVisitorPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_UPDATE_VISITOR_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void miValidateTRITriggerAd(io.dstore.engine.procedures.MiValidateTRITriggerAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.MiValidateTRITriggerAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_MI_VALIDATE_TRITRIGGER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omAcknowledgeOrdersAd(io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_ACKNOWLEDGE_ORDERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omChangeOrderStateAd(io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmChangeOrderStateAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CHANGE_ORDER_STATE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omChangeOrderStatePu(io.dstore.engine.procedures.OmChangeOrderStatePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmChangeOrderStatePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CHANGE_ORDER_STATE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCheckCampCondsForTNIDsAd(io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CHECK_CAMP_CONDS_FOR_TNIDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omClearTrolleyPu(io.dstore.engine.procedures.OmClearTrolleyPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmClearTrolleyPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CLEAR_TROLLEY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omConvertCurrency(io.dstore.engine.procedures.OmConvertCurrency.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmConvertCurrency.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CONVERT_CURRENCY, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCopyFromPOQueueToOrderAd(io.dstore.engine.procedures.OmCopyFromPOQueueToOrderAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCopyFromPOQueueToOrderAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_COPY_FROM_POQUEUE_TO_ORDER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCopyFromTrolleyToOrderPu(io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_COPY_FROM_TROLLEY_TO_ORDER_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCreateCustomerCashAccPu(io.dstore.engine.procedures.OmCreateCustomerCashAccPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateCustomerCashAccPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CREATE_CUSTOMER_CASH_ACC_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCreateNewBillAd(io.dstore.engine.procedures.OmCreateNewBillAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateNewBillAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CREATE_NEW_BILL_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCreateSimpleCampItemCondAd(io.dstore.engine.procedures.OmCreateSimpleCampItemCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateSimpleCampItemCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CREATE_SIMPLE_CAMP_ITEM_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCreateVoucherCodesAd(io.dstore.engine.procedures.OmCreateVoucherCodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCreateVoucherCodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CREATE_VOUCHER_CODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omCustomerWhoBoughtAlsoBought(io.dstore.engine.procedures.OmCustomerWhoBoughtAlsoBought.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmCustomerWhoBoughtAlsoBought.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_CUSTOMER_WHO_BOUGHT_ALSO_BOUGHT, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omExportOrdersAd(io.dstore.engine.procedures.OmExportOrdersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmExportOrdersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_EXPORT_ORDERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetAllowedOrderStates(io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetAllowedOrderStates.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ALLOWED_ORDER_STATES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBenefitTypesAd(io.dstore.engine.procedures.OmGetBenefitTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBenefitTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BENEFIT_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBillContentInfoRulesAd(io.dstore.engine.procedures.OmGetBillContentInfoRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillContentInfoRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BILL_CONTENT_INFO_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBillContentInfoTypesAd(io.dstore.engine.procedures.OmGetBillContentInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillContentInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BILL_CONTENT_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBillContentInfoAd(io.dstore.engine.procedures.OmGetBillContentInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillContentInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BILL_CONTENT_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBillInformationRulesAd(io.dstore.engine.procedures.OmGetBillInformationRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillInformationRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BILL_INFORMATION_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBillInformationTypesAd(io.dstore.engine.procedures.OmGetBillInformationTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillInformationTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BILL_INFORMATION_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBillInformationAd(io.dstore.engine.procedures.OmGetBillInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBillInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BILL_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBonusItemSetsAd(io.dstore.engine.procedures.OmGetBonusItemSetsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBonusItemSetsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BONUS_ITEM_SETS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBundleItemSetsAd(io.dstore.engine.procedures.OmGetBundleItemSetsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBundleItemSetsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BUNDLE_ITEM_SETS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetBundlePricingTypesAd(io.dstore.engine.procedures.OmGetBundlePricingTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetBundlePricingTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_BUNDLE_PRICING_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCamPeriodStatusValuesAd(io.dstore.engine.procedures.OmGetCamPeriodStatusValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCamPeriodStatusValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAM_PERIOD_STATUS_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampCondCriteriaTypesAd(io.dstore.engine.procedures.OmGetCampCondCriteriaTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampCondCriteriaTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_COND_CRITERIA_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampOrderSurchDiscAd(io.dstore.engine.procedures.OmGetCampOrderSurchDiscAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampOrderSurchDiscAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_ORDER_SURCH_DISC_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampPaymentTypeCondsAd(io.dstore.engine.procedures.OmGetCampPaymentTypeCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampPaymentTypeCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_PAYMENT_TYPE_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampPersonGroupCondsAd(io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_PERSON_GROUP_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampShippingTypeCondsAd(io.dstore.engine.procedures.OmGetCampShippingTypeCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampShippingTypeCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_SHIPPING_TYPE_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampTrolleyValueCondAd(io.dstore.engine.procedures.OmGetCampTrolleyValueCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampTrolleyValueCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_TROLLEY_VALUE_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampVoucherCodeCondsAd(io.dstore.engine.procedures.OmGetCampVoucherCodeCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampVoucherCodeCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMP_VOUCHER_CODE_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignBenefitsAd(io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_BENEFITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignBonusItemsAd(io.dstore.engine.procedures.OmGetCampaignBonusItemsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBonusItemsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_BONUS_ITEMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignBonusItemsPu(io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_BONUS_ITEMS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignBundlePricingAd(io.dstore.engine.procedures.OmGetCampaignBundlePricingAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBundlePricingAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_BUNDLE_PRICING_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignBundlePricingPu(io.dstore.engine.procedures.OmGetCampaignBundlePricingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignBundlePricingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_BUNDLE_PRICING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignCategoriesAd(io.dstore.engine.procedures.OmGetCampaignCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignConditionsAd(io.dstore.engine.procedures.OmGetCampaignConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignItemConGroupsAd(io.dstore.engine.procedures.OmGetCampaignItemConGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignItemConGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_ITEM_CON_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignItemCondPartsAd(io.dstore.engine.procedures.OmGetCampaignItemCondPartsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignItemCondPartsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_ITEM_COND_PARTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignItemCondsAd(io.dstore.engine.procedures.OmGetCampaignItemCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignItemCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_ITEM_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignPeriodDefsAd(io.dstore.engine.procedures.OmGetCampaignPeriodDefsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignPeriodDefsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_PERIOD_DEFS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignPeriodsAd(io.dstore.engine.procedures.OmGetCampaignPeriodsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignPeriodsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_PERIODS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignSettingEntry(io.dstore.engine.procedures.OmGetCampaignSettingEntry.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignSettingEntry.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_SETTING_ENTRY, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignSurchargesAd(io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignTypeRulesAd(io.dstore.engine.procedures.OmGetCampaignTypeRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignTypeRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_TYPE_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignTypesAd(io.dstore.engine.procedures.OmGetCampaignTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGN_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignsInCategoriesAd(io.dstore.engine.procedures.OmGetCampaignsInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignsInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGNS_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCampaignsAd(io.dstore.engine.procedures.OmGetCampaignsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCampaignsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CAMPAIGNS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCashAccTransactTypesAd(io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CASH_ACC_TRANSACT_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCashAccTransactionsAd(io.dstore.engine.procedures.OmGetCashAccTransactionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccTransactionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CASH_ACC_TRANSACTIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCashAccTransactionsPu(io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CASH_ACC_TRANSACTIONS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCashAccountTypes(io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCashAccountTypes.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CASH_ACCOUNT_TYPES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetChangeOStateTriggerAd(io.dstore.engine.procedures.OmGetChangeOStateTriggerAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetChangeOStateTriggerAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CHANGE_OSTATE_TRIGGER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCurrentCampaigns(io.dstore.engine.procedures.OmGetCurrentCampaigns.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCurrentCampaigns.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CURRENT_CAMPAIGNS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCustomerCashAccountsAd(io.dstore.engine.procedures.OmGetCustomerCashAccountsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCustomerCashAccountsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CUSTOMER_CASH_ACCOUNTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetCustomerCashAccountsPu(io.dstore.engine.procedures.OmGetCustomerCashAccountsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetCustomerCashAccountsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_CUSTOMER_CASH_ACCOUNTS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetGroupPaymentForShipAd(io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_GROUP_PAYMENT_FOR_SHIP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetGroupSurchargesAd(io.dstore.engine.procedures.OmGetGroupSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetGroupSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_GROUP_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetNodePaymentForShipAd(io.dstore.engine.procedures.OmGetNodePaymentForShipAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetNodePaymentForShipAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_NODE_PAYMENT_FOR_SHIP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderContentInfoRulesAd(io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_CONTENT_INFO_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderContentInfoTypesAd(io.dstore.engine.procedures.OmGetOrderContentInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_CONTENT_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderContentInfoAd(io.dstore.engine.procedures.OmGetOrderContentInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_CONTENT_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderContentInfoPu(io.dstore.engine.procedures.OmGetOrderContentInfoPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderContentInfoPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_CONTENT_INFO_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderInformationRulesAd(io.dstore.engine.procedures.OmGetOrderInformationRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_INFORMATION_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderInformationTypesAd(io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_INFORMATION_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderInformationAd(io.dstore.engine.procedures.OmGetOrderInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderInformationPu(io.dstore.engine.procedures.OmGetOrderInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStateCategoriesAd(io.dstore.engine.procedures.OmGetOrderStateCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStateDescrAd(io.dstore.engine.procedures.OmGetOrderStateDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStateHistoryAd(io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATE_HISTORY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStateHistoryPu(io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATE_HISTORY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStateRulesAd(io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATE_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStatesInCats(io.dstore.engine.procedures.OmGetOrderStatesInCats.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStatesInCats.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATES_IN_CATS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStatesInCatsAd(io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATES_IN_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderStatesAd(io.dstore.engine.procedures.OmGetOrderStatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderStatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_STATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderSurchInfoTypesAd(io.dstore.engine.procedures.OmGetOrderSurchInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_SURCH_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderSurchargeInfoAd(io.dstore.engine.procedures.OmGetOrderSurchargeInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargeInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_SURCHARGE_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderSurchargeInfoPu(io.dstore.engine.procedures.OmGetOrderSurchargeInfoPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargeInfoPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_SURCHARGE_INFO_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderSurchargesAd(io.dstore.engine.procedures.OmGetOrderSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrderSurchargesPu(io.dstore.engine.procedures.OmGetOrderSurchargesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrderSurchargesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDER_SURCHARGES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrdersAd(io.dstore.engine.procedures.OmGetOrdersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrdersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrdersConditionsAd(io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDERS_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOrdersPu(io.dstore.engine.procedures.OmGetOrdersPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOrdersPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_ORDERS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOtherBillContInfRulesAd(io.dstore.engine.procedures.OmGetOtherBillContInfRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOtherBillContInfRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_OTHER_BILL_CONT_INF_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetOtherBillContInfTypesAd(io.dstore.engine.procedures.OmGetOtherBillContInfTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetOtherBillContInfTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_OTHER_BILL_CONT_INF_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentAndShippingPu(io.dstore.engine.procedures.OmGetPaymentAndShippingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentAndShippingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_AND_SHIPPING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentCostPu(io.dstore.engine.procedures.OmGetPaymentCostPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentCostPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_COST_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentForShippingAd(io.dstore.engine.procedures.OmGetPaymentForShippingAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentForShippingAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_FOR_SHIPPING_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentForShippingPu(io.dstore.engine.procedures.OmGetPaymentForShippingPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentForShippingPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_FOR_SHIPPING_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentTypeDescrAd(io.dstore.engine.procedures.OmGetPaymentTypeDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentTypeDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_TYPE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentTypeSurchargesAd(io.dstore.engine.procedures.OmGetPaymentTypeSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentTypeSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_TYPE_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPaymentTypesAd(io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPaymentTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PAYMENT_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPersonInfoForOrdersAd(io.dstore.engine.procedures.OmGetPersonInfoForOrdersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPersonInfoForOrdersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PERSON_INFO_FOR_ORDERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPersonSurchargesAd(io.dstore.engine.procedures.OmGetPersonSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPersonSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PERSON_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPredefinedBillContentAd(io.dstore.engine.procedures.OmGetPredefinedBillContentAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPredefinedBillContentAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PREDEFINED_BILL_CONTENT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPrepaidCodesAd(io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PREPAID_CODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPricesAd(io.dstore.engine.procedures.OmGetPricesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPricesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PRICES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPricesPu(io.dstore.engine.procedures.OmGetPricesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPricesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PRICES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPurchaseOrderQueuesAd(io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PURCHASE_ORDER_QUEUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPurchaseOrderTypesAd(io.dstore.engine.procedures.OmGetPurchaseOrderTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPurchaseOrderTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PURCHASE_ORDER_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetPurchasePricesAd(io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetPurchasePricesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_PURCHASE_PRICES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetRequiredInfoForPayAd(io.dstore.engine.procedures.OmGetRequiredInfoForPayAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetRequiredInfoForPayAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_REQUIRED_INFO_FOR_PAY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSetsForBonItBenefitsAd(io.dstore.engine.procedures.OmGetSetsForBonItBenefitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSetsForBonItBenefitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SETS_FOR_BON_IT_BENEFITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSetsForBundleBenefitsAd(io.dstore.engine.procedures.OmGetSetsForBundleBenefitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSetsForBundleBenefitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SETS_FOR_BUNDLE_BENEFITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetShippTypeSurchargesAd(io.dstore.engine.procedures.OmGetShippTypeSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippTypeSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SHIPP_TYPE_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetShippingCostPu(io.dstore.engine.procedures.OmGetShippingCostPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippingCostPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SHIPPING_COST_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetShippingTypeDescrAd(io.dstore.engine.procedures.OmGetShippingTypeDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippingTypeDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SHIPPING_TYPE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetShippingTypesAd(io.dstore.engine.procedures.OmGetShippingTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetShippingTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SHIPPING_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSupplierConfigurationAd(io.dstore.engine.procedures.OmGetSupplierConfigurationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSupplierConfigurationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SUPPLIER_CONFIGURATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSurchargeTypeCategories(io.dstore.engine.procedures.OmGetSurchargeTypeCategories.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargeTypeCategories.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SURCHARGE_TYPE_CATEGORIES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSurchargeTypeTaxes(io.dstore.engine.procedures.OmGetSurchargeTypeTaxes.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargeTypeTaxes.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SURCHARGE_TYPE_TAXES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSurchargeTypesAd(io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SURCHARGE_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetSurchargesPu(io.dstore.engine.procedures.OmGetSurchargesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetSurchargesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_SURCHARGES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTaxTypes(io.dstore.engine.procedures.OmGetTaxTypes.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTaxTypes.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TAX_TYPES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTaxes(io.dstore.engine.procedures.OmGetTaxes.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTaxes.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TAXES, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTimeUnitsForCPeriodsAd(io.dstore.engine.procedures.OmGetTimeUnitsForCPeriodsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTimeUnitsForCPeriodsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TIME_UNITS_FOR_CPERIODS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTransactionMetaInfoAd(io.dstore.engine.procedures.OmGetTransactionMetaInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTransactionMetaInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TRANSACTION_META_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleyAsMatrixPu(io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_AS_MATRIX_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleyContInfoTypesAd(io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_CONT_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleyContentInfoPu(io.dstore.engine.procedures.OmGetTrolleyContentInfoPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyContentInfoPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_CONTENT_INFO_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleyInfoTypesAd(io.dstore.engine.procedures.OmGetTrolleyInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleyInformationPu(io.dstore.engine.procedures.OmGetTrolleyInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleySurchInfoTypesAd(io.dstore.engine.procedures.OmGetTrolleySurchInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleySurchInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_SURCH_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleySurchargeInfoPu(io.dstore.engine.procedures.OmGetTrolleySurchargeInfoPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleySurchargeInfoPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_SURCHARGE_INFO_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleySurchargesPu(io.dstore.engine.procedures.OmGetTrolleySurchargesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleySurchargesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_SURCHARGES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleyPu(io.dstore.engine.procedures.OmGetTrolleyPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleyPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetTrolleysAd(io.dstore.engine.procedures.OmGetTrolleysAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetTrolleysAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_TROLLEYS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetUsedVoucherCodesAd(io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_USED_VOUCHER_CODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetVCodeOriginTypesAd(io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_VCODE_ORIGIN_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetVoucherCodesAd(io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherCodesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_VOUCHER_CODES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetVoucherTypeStatisticsAd(io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_VOUCHER_TYPE_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetVoucherTypeSurchargesAd(io.dstore.engine.procedures.OmGetVoucherTypeSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherTypeSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_VOUCHER_TYPE_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omGetVoucherTypesAd(io.dstore.engine.procedures.OmGetVoucherTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmGetVoucherTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_GET_VOUCHER_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omInsertIntoTrolleyPu(io.dstore.engine.procedures.OmInsertIntoTrolleyPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmInsertIntoTrolleyPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_INSERT_INTO_TROLLEY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyBonusItemSetsAd(io.dstore.engine.procedures.OmModifyBonusItemSetsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyBonusItemSetsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_BONUS_ITEM_SETS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyBundleItemSetsAd(io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_BUNDLE_ITEM_SETS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampBundlePricingAd(io.dstore.engine.procedures.OmModifyCampBundlePricingAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampBundlePricingAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_BUNDLE_PRICING_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampItemConGroupsAd(io.dstore.engine.procedures.OmModifyCampItemConGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampItemConGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_ITEM_CON_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampItemCondPartsAd(io.dstore.engine.procedures.OmModifyCampItemCondPartsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampItemCondPartsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_ITEM_COND_PARTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampOrderSurchDiscAd(io.dstore.engine.procedures.OmModifyCampOrderSurchDiscAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampOrderSurchDiscAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_ORDER_SURCH_DISC_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampPaymentCondAd(io.dstore.engine.procedures.OmModifyCampPaymentCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampPaymentCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_PAYMENT_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampPersGroupCondAd(io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_PERS_GROUP_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampShippingCondAd(io.dstore.engine.procedures.OmModifyCampShippingCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampShippingCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_SHIPPING_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampTrolleyValCondAd(io.dstore.engine.procedures.OmModifyCampTrolleyValCondAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampTrolleyValCondAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_TROLLEY_VAL_COND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampVouchCodeCondsAd(io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMP_VOUCH_CODE_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignBenefitsAd(io.dstore.engine.procedures.OmModifyCampaignBenefitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignBenefitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_BENEFITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignBonusItemsAd(io.dstore.engine.procedures.OmModifyCampaignBonusItemsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignBonusItemsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_BONUS_ITEMS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignCategoriesAd(io.dstore.engine.procedures.OmModifyCampaignCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignConditionsAd(io.dstore.engine.procedures.OmModifyCampaignConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignItemCondsAd(io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_ITEM_CONDS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignPeriodDefsAd(io.dstore.engine.procedures.OmModifyCampaignPeriodDefsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignPeriodDefsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_PERIOD_DEFS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignSettingsAd(io.dstore.engine.procedures.OmModifyCampaignSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignSurchargesAd(io.dstore.engine.procedures.OmModifyCampaignSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignTypeRulesAd(io.dstore.engine.procedures.OmModifyCampaignTypeRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignTypeRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_TYPE_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignTypesAd(io.dstore.engine.procedures.OmModifyCampaignTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGN_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampaignsAd(io.dstore.engine.procedures.OmModifyCampaignsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampaignsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPAIGNS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCampsInCategoriesAd(io.dstore.engine.procedures.OmModifyCampsInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCampsInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CAMPS_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyChangeOStatTriggerAd(io.dstore.engine.procedures.OmModifyChangeOStatTriggerAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyChangeOStatTriggerAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CHANGE_OSTAT_TRIGGER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyCustomerCashAccAd(io.dstore.engine.procedures.OmModifyCustomerCashAccAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyCustomerCashAccAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_CUSTOMER_CASH_ACC_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyGroupPayForShipAd(io.dstore.engine.procedures.OmModifyGroupPayForShipAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyGroupPayForShipAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_GROUP_PAY_FOR_SHIP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyGroupSurchargesAd(io.dstore.engine.procedures.OmModifyGroupSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyGroupSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_GROUP_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyNodePaymentForShipAd(io.dstore.engine.procedures.OmModifyNodePaymentForShipAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyNodePaymentForShipAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_NODE_PAYMENT_FOR_SHIP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderContInfoRulesAd(io.dstore.engine.procedures.OmModifyOrderContInfoRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContInfoRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_CONT_INFO_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderContInfoTypesAd(io.dstore.engine.procedures.OmModifyOrderContInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_CONT_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderContentInfoAd(io.dstore.engine.procedures.OmModifyOrderContentInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContentInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_CONTENT_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderContentAd(io.dstore.engine.procedures.OmModifyOrderContentAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderContentAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_CONTENT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderInfoRulesAd(io.dstore.engine.procedures.OmModifyOrderInfoRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInfoRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_INFO_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderInfoTypesAd(io.dstore.engine.procedures.OmModifyOrderInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderInformationAd(io.dstore.engine.procedures.OmModifyOrderInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderInformationPu(io.dstore.engine.procedures.OmModifyOrderInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderStateCatsAd(io.dstore.engine.procedures.OmModifyOrderStateCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStateCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_STATE_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderStateDescTranAd(io.dstore.engine.procedures.OmModifyOrderStateDescTranAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStateDescTranAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_STATE_DESC_TRAN_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderStateRulesAd(io.dstore.engine.procedures.OmModifyOrderStateRulesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStateRulesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_STATE_RULES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderStatesInCatsAd(io.dstore.engine.procedures.OmModifyOrderStatesInCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStatesInCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_STATES_IN_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderStatesAd(io.dstore.engine.procedures.OmModifyOrderStatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderStatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_STATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderSurchInfTypesAd(io.dstore.engine.procedures.OmModifyOrderSurchInfTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderSurchInfTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_SURCH_INF_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyOrderAd(io.dstore.engine.procedures.OmModifyOrderAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyOrderAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_ORDER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPayForShipDescrAd(io.dstore.engine.procedures.OmModifyPayForShipDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPayForShipDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PAY_FOR_SHIP_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPaymentForShippingAd(io.dstore.engine.procedures.OmModifyPaymentForShippingAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentForShippingAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PAYMENT_FOR_SHIPPING_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPaymentTypeDescrAd(io.dstore.engine.procedures.OmModifyPaymentTypeDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentTypeDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PAYMENT_TYPE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPaymentTypeSurchAd(io.dstore.engine.procedures.OmModifyPaymentTypeSurchAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentTypeSurchAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PAYMENT_TYPE_SURCH_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPaymentTypesAd(io.dstore.engine.procedures.OmModifyPaymentTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPaymentTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PAYMENT_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPersonSurchargesAd(io.dstore.engine.procedures.OmModifyPersonSurchargesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPersonSurchargesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PERSON_SURCHARGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPredefBillContentAd(io.dstore.engine.procedures.OmModifyPredefBillContentAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPredefBillContentAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PREDEF_BILL_CONTENT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPurchaseOrderQueueAd(io.dstore.engine.procedures.OmModifyPurchaseOrderQueueAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPurchaseOrderQueueAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PURCHASE_ORDER_QUEUE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyPurchaseOrderTypesAd(io.dstore.engine.procedures.OmModifyPurchaseOrderTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyPurchaseOrderTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_PURCHASE_ORDER_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyRequiredInfoForPayAd(io.dstore.engine.procedures.OmModifyRequiredInfoForPayAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyRequiredInfoForPayAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_REQUIRED_INFO_FOR_PAY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifySetsForBonItBenefsAd(io.dstore.engine.procedures.OmModifySetsForBonItBenefsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySetsForBonItBenefsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SETS_FOR_BON_IT_BENEFS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifySetsForBunBenefitsAd(io.dstore.engine.procedures.OmModifySetsForBunBenefitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySetsForBunBenefitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SETS_FOR_BUN_BENEFITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyShippingTypeDescrAd(io.dstore.engine.procedures.OmModifyShippingTypeDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyShippingTypeDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SHIPPING_TYPE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyShippingTypeSurchAd(io.dstore.engine.procedures.OmModifyShippingTypeSurchAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyShippingTypeSurchAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SHIPPING_TYPE_SURCH_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyShippingTypesAd(io.dstore.engine.procedures.OmModifyShippingTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyShippingTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SHIPPING_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifySurchargeTypeCatsAd(io.dstore.engine.procedures.OmModifySurchargeTypeCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypeCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SURCHARGE_TYPE_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifySurchargeTypeDescrAd(io.dstore.engine.procedures.OmModifySurchargeTypeDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypeDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SURCHARGE_TYPE_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifySurchargeTypeTaxesAd(io.dstore.engine.procedures.OmModifySurchargeTypeTaxesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypeTaxesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SURCHARGE_TYPE_TAXES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifySurchargeTypesAd(io.dstore.engine.procedures.OmModifySurchargeTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifySurchargeTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_SURCHARGE_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTaxTypesAd(io.dstore.engine.procedures.OmModifyTaxTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTaxTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TAX_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTaxesAd(io.dstore.engine.procedures.OmModifyTaxesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTaxesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TAXES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTrolleyCInfoTypesAd(io.dstore.engine.procedures.OmModifyTrolleyCInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyCInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TROLLEY_CINFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTrolleyContentInfoPu(io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TROLLEY_CONTENT_INFO_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTrolleyInfoTypesAd(io.dstore.engine.procedures.OmModifyTrolleyInfoTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyInfoTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TROLLEY_INFO_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTrolleyInformationPu(io.dstore.engine.procedures.OmModifyTrolleyInformationPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleyInformationPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TROLLEY_INFORMATION_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyTrolleySurInfTypesAd(io.dstore.engine.procedures.OmModifyTrolleySurInfTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyTrolleySurInfTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_TROLLEY_SUR_INF_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyVoucherCodeValidAd(io.dstore.engine.procedures.OmModifyVoucherCodeValidAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyVoucherCodeValidAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_VOUCHER_CODE_VALID_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyVoucherTypeSurchAd(io.dstore.engine.procedures.OmModifyVoucherTypeSurchAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyVoucherTypeSurchAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_VOUCHER_TYPE_SURCH_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omModifyVoucherTypesAd(io.dstore.engine.procedures.OmModifyVoucherTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmModifyVoucherTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_MODIFY_VOUCHER_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omPerformCashAccTransactAd(io.dstore.engine.procedures.OmPerformCashAccTransactAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmPerformCashAccTransactAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_PERFORM_CASH_ACC_TRANSACT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omRedeemPrepaidCodePu(io.dstore.engine.procedures.OmRedeemPrepaidCodePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmRedeemPrepaidCodePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_REDEEM_PREPAID_CODE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omRemoveVoucherFromTrolleyPu(io.dstore.engine.procedures.OmRemoveVoucherFromTrolleyPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmRemoveVoucherFromTrolleyPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_REMOVE_VOUCHER_FROM_TROLLEY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omSearchOrderNoAd(io.dstore.engine.procedures.OmSearchOrderNoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmSearchOrderNoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_SEARCH_ORDER_NO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omUpdateTrolleyPu(io.dstore.engine.procedures.OmUpdateTrolleyPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmUpdateTrolleyPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_UPDATE_TROLLEY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void omValidateVoucherCodePu(io.dstore.engine.procedures.OmValidateVoucherCodePu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.OmValidateVoucherCodePu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_OM_VALIDATE_VOUCHER_CODE_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmAdressenCheckPu(io.dstore.engine.procedures.PmAdressenCheckPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmAdressenCheckPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_ADRESSEN_CHECK_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmAlphabetizeCharacValuesAd(io.dstore.engine.procedures.PmAlphabetizeCharacValuesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmAlphabetizeCharacValuesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_ALPHABETIZE_CHARAC_VALUES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmCheckPersonIdentityPu(io.dstore.engine.procedures.PmCheckPersonIdentityPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmCheckPersonIdentityPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_CHECK_PERSON_IDENTITY_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmCloseARelationshipPu(io.dstore.engine.procedures.PmCloseARelationshipPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmCloseARelationshipPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_CLOSE_ARELATIONSHIP_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmCloseVisitorPersonsPu(io.dstore.engine.procedures.PmCloseVisitorPersonsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmCloseVisitorPersonsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_CLOSE_VISITOR_PERSONS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmConfigureValueColumnsAd(io.dstore.engine.procedures.PmConfigureValueColumnsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmConfigureValueColumnsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_CONFIGURE_VALUE_COLUMNS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmConsistencyCheckAd(io.dstore.engine.procedures.PmConsistencyCheckAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmConsistencyCheckAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_CONSISTENCY_CHECK_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmDeleteAllPersonsOfPTypeAd(io.dstore.engine.procedures.PmDeleteAllPersonsOfPTypeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeleteAllPersonsOfPTypeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_DELETE_ALL_PERSONS_OF_PTYPE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmDeleteDispensablePersonsAd(io.dstore.engine.procedures.PmDeleteDispensablePersonsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeleteDispensablePersonsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_DELETE_DISPENSABLE_PERSONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmDeleteInterfaceTablesAd(io.dstore.engine.procedures.PmDeleteInterfaceTablesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeleteInterfaceTablesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_DELETE_INTERFACE_TABLES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmDeletePersonAd(io.dstore.engine.procedures.PmDeletePersonAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeletePersonAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_DELETE_PERSON_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmDeletePersonPu(io.dstore.engine.procedures.PmDeletePersonPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmDeletePersonPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_DELETE_PERSON_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmExportPersonDataAd(io.dstore.engine.procedures.PmExportPersonDataAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmExportPersonDataAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_EXPORT_PERSON_DATA_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmFormARelationshipPu(io.dstore.engine.procedures.PmFormARelationshipPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmFormARelationshipPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_FORM_ARELATIONSHIP_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetEncryptionAlgorithmPu(io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_ENCRYPTION_ALGORITHM_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetGroupConditionsAd(io.dstore.engine.procedures.PmGetGroupConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetGroupConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_GROUP_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetGroupsForOnePersonPu(io.dstore.engine.procedures.PmGetGroupsForOnePersonPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetGroupsForOnePersonPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_GROUPS_FOR_ONE_PERSON_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetGroupsAd(io.dstore.engine.procedures.PmGetGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetImportErrorsAd(io.dstore.engine.procedures.PmGetImportErrorsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetImportErrorsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_IMPORT_ERRORS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetLockedPersonTypesAd(io.dstore.engine.procedures.PmGetLockedPersonTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetLockedPersonTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_LOCKED_PERSON_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetMostRecentUniqueIDPu(io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_MOST_RECENT_UNIQUE_ID_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPChAccRestrForGroupsAd(io.dstore.engine.procedures.PmGetPChAccRestrForGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPChAccRestrForGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PCH_ACC_RESTR_FOR_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPChAccRestrForUsersAd(io.dstore.engine.procedures.PmGetPChAccRestrForUsersAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPChAccRestrForUsersAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PCH_ACC_RESTR_FOR_USERS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPeriodsForPredefValsAd(io.dstore.engine.procedures.PmGetPeriodsForPredefValsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPeriodsForPredefValsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERIODS_FOR_PREDEF_VALS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonAccessCharacsPu(io.dstore.engine.procedures.PmGetPersonAccessCharacsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonAccessCharacsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_ACCESS_CHARACS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonBinariesAd(io.dstore.engine.procedures.PmGetPersonBinariesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonBinariesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_BINARIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonBinariesPu(io.dstore.engine.procedures.PmGetPersonBinariesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonBinariesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_BINARIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonCharacCatsAd(io.dstore.engine.procedures.PmGetPersonCharacCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_CHARAC_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonCharacDescrAd(io.dstore.engine.procedures.PmGetPersonCharacDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_CHARAC_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonCharacValueIDAd(io.dstore.engine.procedures.PmGetPersonCharacValueIDAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacValueIDAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_CHARAC_VALUE_ID_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonCharacsInCatsAd(io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_CHARACS_IN_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonCharacteristicsAd(io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_CHARACTERISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonCharacteristicsPu(io.dstore.engine.procedures.PmGetPersonCharacteristicsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonCharacteristicsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_CHARACTERISTICS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonDetailsAd(io.dstore.engine.procedures.PmGetPersonDetailsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonDetailsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_DETAILS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonDetailsPu(io.dstore.engine.procedures.PmGetPersonDetailsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonDetailsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_DETAILS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonIdentCharacsPu(io.dstore.engine.procedures.PmGetPersonIdentCharacsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonIdentCharacsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_IDENT_CHARACS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonMetaInformationAd(io.dstore.engine.procedures.PmGetPersonMetaInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonMetaInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_META_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonOutputCharacsAd(io.dstore.engine.procedures.PmGetPersonOutputCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonOutputCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_OUTPUT_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonPredefinedValsAd(io.dstore.engine.procedures.PmGetPersonPredefinedValsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPredefinedValsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_PREDEFINED_VALS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonPredefinedValsPu(io.dstore.engine.procedures.PmGetPersonPredefinedValsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPredefinedValsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_PREDEFINED_VALS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonPropertiesHistAd(io.dstore.engine.procedures.PmGetPersonPropertiesHistAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPropertiesHistAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_PROPERTIES_HIST_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonPropertiesAd(io.dstore.engine.procedures.PmGetPersonPropertiesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPropertiesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_PROPERTIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonPropertiesPu(io.dstore.engine.procedures.PmGetPersonPropertiesPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonPropertiesPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_PROPERTIES_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonRelationshipsAd(io.dstore.engine.procedures.PmGetPersonRelationshipsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonRelationshipsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_RELATIONSHIPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonRelationshipsPu(io.dstore.engine.procedures.PmGetPersonRelationshipsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonRelationshipsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_RELATIONSHIPS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonTypeMetaInfoAd(io.dstore.engine.procedures.PmGetPersonTypeMetaInfoAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypeMetaInfoAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_TYPE_META_INFO_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonTypeSettingEntry(io.dstore.engine.procedures.PmGetPersonTypeSettingEntry.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypeSettingEntry.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_TYPE_SETTING_ENTRY, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonTypeSettingsAd(io.dstore.engine.procedures.PmGetPersonTypeSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypeSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_TYPE_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonTypesAd(io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSON_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonsAd(io.dstore.engine.procedures.PmGetPersonsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPersonsConditionsAd(io.dstore.engine.procedures.PmGetPersonsConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPersonsConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_PERSONS_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetPossibleDuplicatesAd(io.dstore.engine.procedures.PmGetPossibleDuplicatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetPossibleDuplicatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_POSSIBLE_DUPLICATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetRelationAccessLevels(io.dstore.engine.procedures.PmGetRelationAccessLevels.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationAccessLevels.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_RELATION_ACCESS_LEVELS, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetRelationshipSettingEntry(io.dstore.engine.procedures.PmGetRelationshipSettingEntry.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationshipSettingEntry.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_RELATIONSHIP_SETTING_ENTRY, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetRelationshipSettingsAd(io.dstore.engine.procedures.PmGetRelationshipSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationshipSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_RELATIONSHIP_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmGetRelationshipsAd(io.dstore.engine.procedures.PmGetRelationshipsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmGetRelationshipsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_GET_RELATIONSHIPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmImportPersonDataAd(io.dstore.engine.procedures.PmImportPersonDataAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmImportPersonDataAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_IMPORT_PERSON_DATA_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmInsertNewPersonAd(io.dstore.engine.procedures.PmInsertNewPersonAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmInsertNewPersonAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_INSERT_NEW_PERSON_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmInsertNewPersonPu(io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmInsertNewPersonPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_INSERT_NEW_PERSON_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyBinariesForPersonsAd(io.dstore.engine.procedures.PmModifyBinariesForPersonsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyBinariesForPersonsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_BINARIES_FOR_PERSONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyBinariesForPersonsPu(io.dstore.engine.procedures.PmModifyBinariesForPersonsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyBinariesForPersonsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_BINARIES_FOR_PERSONS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyConditionsAd(io.dstore.engine.procedures.PmModifyConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyGroupConditionsAd(io.dstore.engine.procedures.PmModifyGroupConditionsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyGroupConditionsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_GROUP_CONDITIONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyGroupsAd(io.dstore.engine.procedures.PmModifyGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyLockedPersonTypesAd(io.dstore.engine.procedures.PmModifyLockedPersonTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyLockedPersonTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_LOCKED_PERSON_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPChAccResForGroupAd(io.dstore.engine.procedures.PmModifyPChAccResForGroupAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPChAccResForGroupAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PCH_ACC_RES_FOR_GROUP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPChAccResForUserAd(io.dstore.engine.procedures.PmModifyPChAccResForUserAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPChAccResForUserAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PCH_ACC_RES_FOR_USER_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPeriodsForPredValsAd(io.dstore.engine.procedures.PmModifyPeriodsForPredValsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPeriodsForPredValsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERIODS_FOR_PRED_VALS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonCharacCatsAd(io.dstore.engine.procedures.PmModifyPersonCharacCatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacCatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_CHARAC_CATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonCharacDescrAd(io.dstore.engine.procedures.PmModifyPersonCharacDescrAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacDescrAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_CHARAC_DESCR_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonCharacsInCatAd(io.dstore.engine.procedures.PmModifyPersonCharacsInCatAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacsInCatAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_CHARACS_IN_CAT_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonCharacsAd(io.dstore.engine.procedures.PmModifyPersonCharacsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonCharacsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_CHARACS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonDataAd(io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDataAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_DATA_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonDataPu(io.dstore.engine.procedures.PmModifyPersonDataPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDataPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_DATA_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonDetailsAd(io.dstore.engine.procedures.PmModifyPersonDetailsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDetailsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_DETAILS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonDetailsPu(io.dstore.engine.procedures.PmModifyPersonDetailsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonDetailsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_DETAILS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonPredefValsAd(io.dstore.engine.procedures.PmModifyPersonPredefValsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonPredefValsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_PREDEF_VALS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonRelationshipAd(io.dstore.engine.procedures.PmModifyPersonRelationshipAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonRelationshipAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_RELATIONSHIP_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonRelationshipPu(io.dstore.engine.procedures.PmModifyPersonRelationshipPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonRelationshipPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_RELATIONSHIP_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonTypeSettingsAd(io.dstore.engine.procedures.PmModifyPersonTypeSettingsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonTypeSettingsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_TYPE_SETTINGS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonTypesAd(io.dstore.engine.procedures.PmModifyPersonTypesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonTypesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSON_TYPES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyPersonsInGroupsAd(io.dstore.engine.procedures.PmModifyPersonsInGroupsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyPersonsInGroupsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_PERSONS_IN_GROUPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyRelationshipSettsAd(io.dstore.engine.procedures.PmModifyRelationshipSettsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyRelationshipSettsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_RELATIONSHIP_SETTS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmModifyRelationshipsAd(io.dstore.engine.procedures.PmModifyRelationshipsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmModifyRelationshipsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MODIFY_RELATIONSHIPS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmMovePersonCharacValueAd(io.dstore.engine.procedures.PmMovePersonCharacValueAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmMovePersonCharacValueAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_MOVE_PERSON_CHARAC_VALUE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmPostleitzahlenZumOrtPu(io.dstore.engine.procedures.PmPostleitzahlenZumOrtPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmPostleitzahlenZumOrtPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_POSTLEITZAHLEN_ZUM_ORT_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmPrioritizeARelationshipPu(io.dstore.engine.procedures.PmPrioritizeARelationshipPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmPrioritizeARelationshipPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_PRIORITIZE_ARELATIONSHIP_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmRemoveDuplicateAd(io.dstore.engine.procedures.PmRemoveDuplicateAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmRemoveDuplicateAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_REMOVE_DUPLICATE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmRemovePossibleDuplicatesAd(io.dstore.engine.procedures.PmRemovePossibleDuplicatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmRemovePossibleDuplicatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_REMOVE_POSSIBLE_DUPLICATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmSetPropertyOfOnePersonPu(io.dstore.engine.procedures.PmSetPropertyOfOnePersonPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmSetPropertyOfOnePersonPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_SET_PROPERTY_OF_ONE_PERSON_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void pmUpdatePossibleDuplicatesAd(io.dstore.engine.procedures.PmUpdatePossibleDuplicatesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.PmUpdatePossibleDuplicatesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_PM_UPDATE_POSSIBLE_DUPLICATES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stCopyFromOLTPtoDSSAd(io.dstore.engine.procedures.StCopyFromOLTPtoDSSAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StCopyFromOLTPtoDSSAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_COPY_FROM_OLTPTO_DSS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetBasicCharacteristicsAd(io.dstore.engine.procedures.StGetBasicCharacteristicsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetBasicCharacteristicsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_BASIC_CHARACTERISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetClickStreamAd(io.dstore.engine.procedures.StGetClickStreamAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetClickStreamAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_CLICK_STREAM_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetDSSIndexFrequencyAd(io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_DSS_INDEX_FREQUENCY_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetDSSIndexTrendAd(io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_DSS_INDEX_TREND_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetDirectSuccessorsTreeAd(io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_DIRECT_SUCCESSORS_TREE_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetHTreeNodeStatisticsAd(io.dstore.engine.procedures.StGetHTreeNodeStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetHTreeNodeStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_HTREE_NODE_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPHStatisticsAd(io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPHStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PHSTATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPageCategoriesAd(io.dstore.engine.procedures.StGetPageCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPageCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PAGE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPageVisitsAd(io.dstore.engine.procedures.StGetPageVisitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPageVisitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PAGE_VISITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPagesInCategoriesAd(io.dstore.engine.procedures.StGetPagesInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPagesInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PAGES_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPagesAd(io.dstore.engine.procedures.StGetPagesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPagesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PAGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPeriodsToKeepStatsAd(io.dstore.engine.procedures.StGetPeriodsToKeepStatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPeriodsToKeepStatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PERIODS_TO_KEEP_STATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPersonPDStatisticsAd(io.dstore.engine.procedures.StGetPersonPDStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPersonPDStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PERSON_PDSTATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetPersonPMStatisticsAd(io.dstore.engine.procedures.StGetPersonPMStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetPersonPMStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_PERSON_PMSTATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetSalesByInformationAd(io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetSalesByInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_SALES_BY_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetTreeNodePDStatisticsAd(io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_TREE_NODE_PDSTATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetTreeNodePMStatisticsAd(io.dstore.engine.procedures.StGetTreeNodePMStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetTreeNodePMStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_TREE_NODE_PMSTATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetTreeNodePWStatisticsAd(io.dstore.engine.procedures.StGetTreeNodePWStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetTreeNodePWStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_TREE_NODE_PWSTATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetVisitorInfoStatisticsAd(io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_VISITOR_INFO_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetVisitorInformationAd(io.dstore.engine.procedures.StGetVisitorInformationAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitorInformationAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_VISITOR_INFORMATION_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetVisitorPersonsAd(io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_VISITOR_PERSONS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stGetVisitsAd(io.dstore.engine.procedures.StGetVisitsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StGetVisitsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_GET_VISITS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stInsertPageHitPu(io.dstore.engine.procedures.StInsertPageHitPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StInsertPageHitPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_INSERT_PAGE_HIT_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stInsertTreeNodeHitsPu(io.dstore.engine.procedures.StInsertTreeNodeHitsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StInsertTreeNodeHitsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_INSERT_TREE_NODE_HITS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stLogPageVisitsPu(io.dstore.engine.procedures.StLogPageVisitsPu.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StLogPageVisitsPu.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_LOG_PAGE_VISITS_PU, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stModifyPageCategoriesAd(io.dstore.engine.procedures.StModifyPageCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPageCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_MODIFY_PAGE_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stModifyPagesInCategoriesAd(io.dstore.engine.procedures.StModifyPagesInCategoriesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPagesInCategoriesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_MODIFY_PAGES_IN_CATEGORIES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stModifyPagesAd(io.dstore.engine.procedures.StModifyPagesAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPagesAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_MODIFY_PAGES_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stModifyPeriodsToKeepStatsAd(io.dstore.engine.procedures.StModifyPeriodsToKeepStatsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StModifyPeriodsToKeepStatsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_MODIFY_PERIODS_TO_KEEP_STATS_AD, responseObserver);
+    }
+
+    @java.lang.Override
+    public void stUpdateStatisticsAd(io.dstore.engine.procedures.StUpdateStatisticsAd.Parameters request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.procedures.StUpdateStatisticsAd.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ST_UPDATE_STATISTICS_AD, responseObserver);
+    }
+
+    @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
+      return EngineProcGrpc.bindService(this);
+    }
+  }
+
+  /**
+   */
   public static interface EngineProcBlockingClient {
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcChangeActionStateAd.Response> acChangeActionStateAd(
         io.dstore.engine.procedures.AcChangeActionStateAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetActionLogsAd.Response> acGetActionLogsAd(
         io.dstore.engine.procedures.AcGetActionLogsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetActionStatusCategsAd.Response> acGetActionStatusCategsAd(
         io.dstore.engine.procedures.AcGetActionStatusCategsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetActionStatusValuesAd.Response> acGetActionStatusValuesAd(
         io.dstore.engine.procedures.AcGetActionStatusValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetActionsAd.Response> acGetActionsAd(
         io.dstore.engine.procedures.AcGetActionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetCommandSettingEntry.Response> acGetCommandSettingEntry(
         io.dstore.engine.procedures.AcGetCommandSettingEntry.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetCommandSettingsAd.Response> acGetCommandSettingsAd(
         io.dstore.engine.procedures.AcGetCommandSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcGetCommandsAd.Response> acGetCommandsAd(
         io.dstore.engine.procedures.AcGetCommandsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcInsertActionLogAd.Response> acInsertActionLogAd(
         io.dstore.engine.procedures.AcInsertActionLogAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcInsertActionAd.Response> acInsertActionAd(
         io.dstore.engine.procedures.AcInsertActionAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcModifyActionStatusValuesAd.Response> acModifyActionStatusValuesAd(
         io.dstore.engine.procedures.AcModifyActionStatusValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcModifyCommandSettingsAd.Response> acModifyCommandSettingsAd(
         io.dstore.engine.procedures.AcModifyCommandSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.AcModifyCommandsAd.Response> acModifyCommandsAd(
         io.dstore.engine.procedures.AcModifyCommandsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoCheckStatisticsAd.Response> coCheckStatisticsAd(
         io.dstore.engine.procedures.CoCheckStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoCreateNewCommunityMemberPu.Response> coCreateNewCommunityMemberPu(
         io.dstore.engine.procedures.CoCreateNewCommunityMemberPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoCreateNewMessagePu.Response> coCreateNewMessagePu(
         io.dstore.engine.procedures.CoCreateNewMessagePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoDeleteCommunityBinaryAd.Response> coDeleteCommunityBinaryAd(
         io.dstore.engine.procedures.CoDeleteCommunityBinaryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoDeleteCommunityBinaryPu.Response> coDeleteCommunityBinaryPu(
         io.dstore.engine.procedures.CoDeleteCommunityBinaryPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response> coDeleteInactiveMembersAd(
         io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoDeleteMessagePu.Response> coDeleteMessagePu(
         io.dstore.engine.procedures.CoDeleteMessagePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoDeleteUsersOnlineTimeAd.Response> coDeleteUsersOnlineTimeAd(
         io.dstore.engine.procedures.CoDeleteUsersOnlineTimeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetBinQuotaInformationPu.Response> coGetBinQuotaInformationPu(
         io.dstore.engine.procedures.CoGetBinQuotaInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetBinariesOfOneMemberAd.Response> coGetBinariesOfOneMemberAd(
         io.dstore.engine.procedures.CoGetBinariesOfOneMemberAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetBinaryCatAccessLevels.Response> coGetBinaryCatAccessLevels(
         io.dstore.engine.procedures.CoGetBinaryCatAccessLevels.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetBinaryCategoriesAd.Response> coGetBinaryCategoriesAd(
         io.dstore.engine.procedures.CoGetBinaryCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunitiesAd.Response> coGetCommunitiesAd(
         io.dstore.engine.procedures.CoGetCommunitiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunityForumsAd.Response> coGetCommunityForumsAd(
         io.dstore.engine.procedures.CoGetCommunityForumsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunityForumsPu.Response> coGetCommunityForumsPu(
         io.dstore.engine.procedures.CoGetCommunityForumsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunityMemberSettings.Response> coGetCommunityMemberSettings(
         io.dstore.engine.procedures.CoGetCommunityMemberSettings.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunitySettings.Response> coGetCommunitySettings(
         io.dstore.engine.procedures.CoGetCommunitySettings.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response> coGetCommunityStatisticsAd(
         io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCommunityStatisticsPu.Response> coGetCommunityStatisticsPu(
         io.dstore.engine.procedures.CoGetCommunityStatisticsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetCurrentlyUsersOnlinePu.Response> coGetCurrentlyUsersOnlinePu(
         io.dstore.engine.procedures.CoGetCurrentlyUsersOnlinePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response> coGetLostPasswordQuestionPu(
         io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetLostPasswordPu.Response> coGetLostPasswordPu(
         io.dstore.engine.procedures.CoGetLostPasswordPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMD5ForBinaryIDPu.Response> coGetMD5ForBinaryIDPu(
         io.dstore.engine.procedures.CoGetMD5ForBinaryIDPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMemberBinariesPu.Response> coGetMemberBinariesPu(
         io.dstore.engine.procedures.CoGetMemberBinariesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMemberInformationPu.Response> coGetMemberInformationPu(
         io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMemberPropertiesPu.Response> coGetMemberPropertiesPu(
         io.dstore.engine.procedures.CoGetMemberPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMemberSettingsAd.Response> coGetMemberSettingsAd(
         io.dstore.engine.procedures.CoGetMemberSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMemberSettingsPu.Response> coGetMemberSettingsPu(
         io.dstore.engine.procedures.CoGetMemberSettingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMemberStatisticsPu.Response> coGetMemberStatisticsPu(
         io.dstore.engine.procedures.CoGetMemberStatisticsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Response> coGetMessagesOfOneMemberAd(
         io.dstore.engine.procedures.CoGetMessagesOfOneMemberAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetMessagesPu.Response> coGetMessagesPu(
         io.dstore.engine.procedures.CoGetMessagesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetNewestMembersPu.Response> coGetNewestMembersPu(
         io.dstore.engine.procedures.CoGetNewestMembersPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetOnlineStatusPu.Response> coGetOnlineStatusPu(
         io.dstore.engine.procedures.CoGetOnlineStatusPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetOnlineTimeOfMembersPu.Response> coGetOnlineTimeOfMembersPu(
         io.dstore.engine.procedures.CoGetOnlineTimeOfMembersPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetPublicCommunityStatsPu.Response> coGetPublicCommunityStatsPu(
         io.dstore.engine.procedures.CoGetPublicCommunityStatsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetRelatedMembersPu.Response> coGetRelatedMembersPu(
         io.dstore.engine.procedures.CoGetRelatedMembersPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoGetSentMessagesPu.Response> coGetSentMessagesPu(
         io.dstore.engine.procedures.CoGetSentMessagesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoInsertCommunityMembersAd.Response> coInsertCommunityMembersAd(
         io.dstore.engine.procedures.CoInsertCommunityMembersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoInsertCommunityMembersPu.Response> coInsertCommunityMembersPu(
         io.dstore.engine.procedures.CoInsertCommunityMembersPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoInsertNewCommunityAd.Response> coInsertNewCommunityAd(
         io.dstore.engine.procedures.CoInsertNewCommunityAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoInsertNewMemberBinaryPu.Response> coInsertNewMemberBinaryPu(
         io.dstore.engine.procedures.CoInsertNewMemberBinaryPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoLoginIntoCommunityPu.Response> coLoginIntoCommunityPu(
         io.dstore.engine.procedures.CoLoginIntoCommunityPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoLogoutCommunityMemberAd.Response> coLogoutCommunityMemberAd(
         io.dstore.engine.procedures.CoLogoutCommunityMemberAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoLogoutOffCommunityPu.Response> coLogoutOffCommunityPu(
         io.dstore.engine.procedures.CoLogoutOffCommunityPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoModifyBinaryCategoriesAd.Response> coModifyBinaryCategoriesAd(
         io.dstore.engine.procedures.CoModifyBinaryCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoModifyCommunitiesAd.Response> coModifyCommunitiesAd(
         io.dstore.engine.procedures.CoModifyCommunitiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoModifyCommunityForumsAd.Response> coModifyCommunityForumsAd(
         io.dstore.engine.procedures.CoModifyCommunityForumsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoModifyCommunitySettingsAd.Response> coModifyCommunitySettingsAd(
         io.dstore.engine.procedures.CoModifyCommunitySettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoModifyMemberSettingsAd.Response> coModifyMemberSettingsAd(
         io.dstore.engine.procedures.CoModifyMemberSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoModifyMemberSettingsPu.Response> coModifyMemberSettingsPu(
         io.dstore.engine.procedures.CoModifyMemberSettingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoSearchMemberSettingsAd.Response> coSearchMemberSettingsAd(
         io.dstore.engine.procedures.CoSearchMemberSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoSearchMembersAd.Response> coSearchMembersAd(
         io.dstore.engine.procedures.CoSearchMembersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.CoSearchMembersPu.Response> coSearchMembersPu(
         io.dstore.engine.procedures.CoSearchMembersPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetGlossaryAd.Response> doGetGlossaryAd(
         io.dstore.engine.procedures.DoGetGlossaryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcResSortConditionsAd.Response> doGetProcResSortConditionsAd(
         io.dstore.engine.procedures.DoGetProcResSortConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcResultConditionsAd.Response> doGetProcResultConditionsAd(
         io.dstore.engine.procedures.DoGetProcResultConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureCategoriesAd.Response> doGetProcedureCategoriesAd(
         io.dstore.engine.procedures.DoGetProcedureCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Response> doGetProcedureDependenciesAd(
         io.dstore.engine.procedures.DoGetProcedureDependenciesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureDocuAd.Response> doGetProcedureDocuAd(
         io.dstore.engine.procedures.DoGetProcedureDocuAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureHistoryAd.Response> doGetProcedureHistoryAd(
         io.dstore.engine.procedures.DoGetProcedureHistoryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureNamesAd.Response> doGetProcedureNamesAd(
         io.dstore.engine.procedures.DoGetProcedureNamesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureParametersAd.Response> doGetProcedureParametersAd(
         io.dstore.engine.procedures.DoGetProcedureParametersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureResultSetsAd.Response> doGetProcedureResultSetsAd(
         io.dstore.engine.procedures.DoGetProcedureResultSetsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Response> doGetProcedureReturnCodesAd(
         io.dstore.engine.procedures.DoGetProcedureReturnCodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetProcedureTypesAd.Response> doGetProcedureTypesAd(
         io.dstore.engine.procedures.DoGetProcedureTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetReturnCodeCategoriesAd.Response> doGetReturnCodeCategoriesAd(
         io.dstore.engine.procedures.DoGetReturnCodeCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetReturnCodesAd.Response> doGetReturnCodesAd(
         io.dstore.engine.procedures.DoGetReturnCodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetSQLFunctionParametersAd.Response> doGetSQLFunctionParametersAd(
         io.dstore.engine.procedures.DoGetSQLFunctionParametersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Response> doGetSettingsDescriptionsAd(
         io.dstore.engine.procedures.DoGetSettingsDescriptionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetSettingsEntryCatsAd.Response> doGetSettingsEntryCatsAd(
         io.dstore.engine.procedures.DoGetSettingsEntryCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetSortOrderForResultSetAd.Response> doGetSortOrderForResultSetAd(
         io.dstore.engine.procedures.DoGetSortOrderForResultSetAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetTableCategoriesAd.Response> doGetTableCategoriesAd(
         io.dstore.engine.procedures.DoGetTableCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetdStoreLanguagesAd.Response> doGetdStoreLanguagesAd(
         io.dstore.engine.procedures.DoGetdStoreLanguagesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetdStoreTablesAd.Response> doGetdStoreTablesAd(
         io.dstore.engine.procedures.DoGetdStoreTablesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.DoGetdStoreVersionsAd.Response> doGetdStoreVersionsAd(
         io.dstore.engine.procedures.DoGetdStoreVersionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoCheckForumAccessPu.Response> foCheckForumAccessPu(
         io.dstore.engine.procedures.FoCheckForumAccessPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoCopyPostingPu.Response> foCopyPostingPu(
         io.dstore.engine.procedures.FoCopyPostingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoDeletePostingBinaryPu.Response> foDeletePostingBinaryPu(
         io.dstore.engine.procedures.FoDeletePostingBinaryPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumAccessLevelIDsAd.Response> foGetForumAccessLevelIDsAd(
         io.dstore.engine.procedures.FoGetForumAccessLevelIDsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumAccessLevelIDsPu.Response> foGetForumAccessLevelIDsPu(
         io.dstore.engine.procedures.FoGetForumAccessLevelIDsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumAccessLevels.Response> foGetForumAccessLevels(
         io.dstore.engine.procedures.FoGetForumAccessLevels.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumAccessMatrixAd.Response> foGetForumAccessMatrixAd(
         io.dstore.engine.procedures.FoGetForumAccessMatrixAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumCategoriesAd.Response> foGetForumCategoriesAd(
         io.dstore.engine.procedures.FoGetForumCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumCategoriesPu.Response> foGetForumCategoriesPu(
         io.dstore.engine.procedures.FoGetForumCategoriesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumSettingsAd.Response> foGetForumSettingsAd(
         io.dstore.engine.procedures.FoGetForumSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumSettingsPu.Response> foGetForumSettingsPu(
         io.dstore.engine.procedures.FoGetForumSettingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumStatisticsAd.Response> foGetForumStatisticsAd(
         io.dstore.engine.procedures.FoGetForumStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumStatisticsPu.Response> foGetForumStatisticsPu(
         io.dstore.engine.procedures.FoGetForumStatisticsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumsAd.Response> foGetForumsAd(
         io.dstore.engine.procedures.FoGetForumsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetForumsPu.Response> foGetForumsPu(
         io.dstore.engine.procedures.FoGetForumsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetMainPostSortCriteriaAd.Response> foGetMainPostSortCriteriaAd(
         io.dstore.engine.procedures.FoGetMainPostSortCriteriaAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetMainPostingsPu.Response> foGetMainPostingsPu(
         io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingBinariesPu.Response> foGetPostingBinariesPu(
         io.dstore.engine.procedures.FoGetPostingBinariesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingCharacsAd.Response> foGetPostingCharacsAd(
         io.dstore.engine.procedures.FoGetPostingCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingCharacsPu.Response> foGetPostingCharacsPu(
         io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingPropertiesPu.Response> foGetPostingPropertiesPu(
         io.dstore.engine.procedures.FoGetPostingPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingRepliesPu.Response> foGetPostingRepliesPu(
         io.dstore.engine.procedures.FoGetPostingRepliesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingThreadPu.Response> foGetPostingThreadPu(
         io.dstore.engine.procedures.FoGetPostingThreadPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingVisibilities.Response> foGetPostingVisibilities(
         io.dstore.engine.procedures.FoGetPostingVisibilities.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingPu.Response> foGetPostingPu(
         io.dstore.engine.procedures.FoGetPostingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingsOfOnePersonAd.Response> foGetPostingsOfOnePersonAd(
         io.dstore.engine.procedures.FoGetPostingsOfOnePersonAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPostingsOfOnePersonPu.Response> foGetPostingsOfOnePersonPu(
         io.dstore.engine.procedures.FoGetPostingsOfOnePersonPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPredValsForCharacsAd.Response> foGetPredValsForCharacsAd(
         io.dstore.engine.procedures.FoGetPredValsForCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoGetPredValsForCharacsPu.Response> foGetPredValsForCharacsPu(
         io.dstore.engine.procedures.FoGetPredValsForCharacsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoInsertBinaryForPostingPu.Response> foInsertBinaryForPostingPu(
         io.dstore.engine.procedures.FoInsertBinaryForPostingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoInsertPostingPu.Response> foInsertPostingPu(
         io.dstore.engine.procedures.FoInsertPostingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyCharacForForumCatsAd.Response> foModifyCharacForForumCatsAd(
         io.dstore.engine.procedures.FoModifyCharacForForumCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyCharacsForForumsAd.Response> foModifyCharacsForForumsAd(
         io.dstore.engine.procedures.FoModifyCharacsForForumsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyForumAccessAd.Response> foModifyForumAccessAd(
         io.dstore.engine.procedures.FoModifyForumAccessAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyForumAccessPu.Response> foModifyForumAccessPu(
         io.dstore.engine.procedures.FoModifyForumAccessPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyForumCategoriesAd.Response> foModifyForumCategoriesAd(
         io.dstore.engine.procedures.FoModifyForumCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyForumSettingsAd.Response> foModifyForumSettingsAd(
         io.dstore.engine.procedures.FoModifyForumSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyForumsInCategoriesAd.Response> foModifyForumsInCategoriesAd(
         io.dstore.engine.procedures.FoModifyForumsInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyForumsAd.Response> foModifyForumsAd(
         io.dstore.engine.procedures.FoModifyForumsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyMainPostSortCritAd.Response> foModifyMainPostSortCritAd(
         io.dstore.engine.procedures.FoModifyMainPostSortCritAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyPostingBinaryPu.Response> foModifyPostingBinaryPu(
         io.dstore.engine.procedures.FoModifyPostingBinaryPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyPostingCharacsAd.Response> foModifyPostingCharacsAd(
         io.dstore.engine.procedures.FoModifyPostingCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyPostingPropertiesPu.Response> foModifyPostingPropertiesPu(
         io.dstore.engine.procedures.FoModifyPostingPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyPostingVisibilityPu.Response> foModifyPostingVisibilityPu(
         io.dstore.engine.procedures.FoModifyPostingVisibilityPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyPostingPu.Response> foModifyPostingPu(
         io.dstore.engine.procedures.FoModifyPostingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoModifyPredValsForCharacsAd.Response> foModifyPredValsForCharacsAd(
         io.dstore.engine.procedures.FoModifyPredValsForCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoMovePostingPu.Response> foMovePostingPu(
         io.dstore.engine.procedures.FoMovePostingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.FoSearchPostingsPu.Response> foSearchPostingsPu(
         io.dstore.engine.procedures.FoSearchPostingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImAddBinaryToNodesAd.Response> imAddBinaryToNodesAd(
         io.dstore.engine.procedures.ImAddBinaryToNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImAddBinaryToValuesAd.Response> imAddBinaryToValuesAd(
         io.dstore.engine.procedures.ImAddBinaryToValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImAlphabetizeCharacValuesAd.Response> imAlphabetizeCharacValuesAd(
         io.dstore.engine.procedures.ImAlphabetizeCharacValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImCheckConditionsForTNIDsAd.Response> imCheckConditionsForTNIDsAd(
         io.dstore.engine.procedures.ImCheckConditionsForTNIDsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImCountBinariesForTreeNode.Response> imCountBinariesForTreeNode(
         io.dstore.engine.procedures.ImCountBinariesForTreeNode.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response> imCreateProductRatSubjectsAd(
         io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeActivateNodesAd.Response> imDeActivateNodesAd(
         io.dstore.engine.procedures.ImDeActivateNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeleteBinaryForNodeAd.Response> imDeleteBinaryForNodeAd(
         io.dstore.engine.procedures.ImDeleteBinaryForNodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeleteInterfaceTablesAd.Response> imDeleteInterfaceTablesAd(
         io.dstore.engine.procedures.ImDeleteInterfaceTablesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeleteNodeCharacValueAd.Response> imDeleteNodeCharacValueAd(
         io.dstore.engine.procedures.ImDeleteNodeCharacValueAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeletePageTreeNodesAd.Response> imDeletePageTreeNodesAd(
         io.dstore.engine.procedures.ImDeletePageTreeNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeleteTemplateUsageAd.Response> imDeleteTemplateUsageAd(
         io.dstore.engine.procedures.ImDeleteTemplateUsageAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImDeleteTreeNodesAd.Response> imDeleteTreeNodesAd(
         io.dstore.engine.procedures.ImDeleteTreeNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImFuzzySearchAd.Response> imFuzzySearchAd(
         io.dstore.engine.procedures.ImFuzzySearchAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGenerateVariantsAd.Response> imGenerateVariantsAd(
         io.dstore.engine.procedures.ImGenerateVariantsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinariesForValues.Response> imGetBinariesForValues(
         io.dstore.engine.procedures.ImGetBinariesForValues.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryCharacteristicsAd.Response> imGetBinaryCharacteristicsAd(
         io.dstore.engine.procedures.ImGetBinaryCharacteristicsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryCodeIDsForNodePu.Response> imGetBinaryCodeIDsForNodePu(
         io.dstore.engine.procedures.ImGetBinaryCodeIDsForNodePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryCodeIDsForValuePu.Response> imGetBinaryCodeIDsForValuePu(
         io.dstore.engine.procedures.ImGetBinaryCodeIDsForValuePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryPredefinedValsAd.Response> imGetBinaryPredefinedValsAd(
         io.dstore.engine.procedures.ImGetBinaryPredefinedValsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryPredefinedValsPu.Response> imGetBinaryPredefinedValsPu(
         io.dstore.engine.procedures.ImGetBinaryPredefinedValsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryPropertiesAd.Response> imGetBinaryPropertiesAd(
         io.dstore.engine.procedures.ImGetBinaryPropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryPropertiesPu.Response> imGetBinaryPropertiesPu(
         io.dstore.engine.procedures.ImGetBinaryPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryAd.Response> imGetBinaryAd(
         io.dstore.engine.procedures.ImGetBinaryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetBinaryPu.Response> imGetBinaryPu(
         io.dstore.engine.procedures.ImGetBinaryPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetCommonNodePropertiesAd.Response> imGetCommonNodePropertiesAd(
         io.dstore.engine.procedures.ImGetCommonNodePropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetCorrespondingValuesAd.Response> imGetCorrespondingValuesAd(
         io.dstore.engine.procedures.ImGetCorrespondingValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetDirectSuccessorsAd.Response> imGetDirectSuccessorsAd(
         io.dstore.engine.procedures.ImGetDirectSuccessorsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetDirectSuccessorsPu.Response> imGetDirectSuccessorsPu(
         io.dstore.engine.procedures.ImGetDirectSuccessorsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetDirectSuccessorsTreeAd.Response> imGetDirectSuccessorsTreeAd(
         io.dstore.engine.procedures.ImGetDirectSuccessorsTreeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetDirectSuccessorsTreePu.Response> imGetDirectSuccessorsTreePu(
         io.dstore.engine.procedures.ImGetDirectSuccessorsTreePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetHTreeNodeIDPu.Response> imGetHTreeNodeIDPu(
         io.dstore.engine.procedures.ImGetHTreeNodeIDPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetHTreeNodeIDsAd.Response> imGetHTreeNodeIDsAd(
         io.dstore.engine.procedures.ImGetHTreeNodeIDsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetImportErrorsAd.Response> imGetImportErrorsAd(
         io.dstore.engine.procedures.ImGetImportErrorsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetItemConditionGroupsAd.Response> imGetItemConditionGroupsAd(
         io.dstore.engine.procedures.ImGetItemConditionGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetItemConditionPartsAd.Response> imGetItemConditionPartsAd(
         io.dstore.engine.procedures.ImGetItemConditionPartsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetItemConditionsAd.Response> imGetItemConditionsAd(
         io.dstore.engine.procedures.ImGetItemConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetLevelForNodePu.Response> imGetLevelForNodePu(
         io.dstore.engine.procedures.ImGetLevelForNodePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetLevelsAd.Response> imGetLevelsAd(
         io.dstore.engine.procedures.ImGetLevelsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetLevelsPu.Response> imGetLevelsPu(
         io.dstore.engine.procedures.ImGetLevelsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetLockedNodeCharacsAd.Response> imGetLockedNodeCharacsAd(
         io.dstore.engine.procedures.ImGetLockedNodeCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetModifiedNodesAd.Response> imGetModifiedNodesAd(
         io.dstore.engine.procedures.ImGetModifiedNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNewCharacsForNodeAd.Response> imGetNewCharacsForNodeAd(
         io.dstore.engine.procedures.ImGetNewCharacsForNodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacCategoriesAd.Response> imGetNodeCharacCategoriesAd(
         io.dstore.engine.procedures.ImGetNodeCharacCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacDescrAd.Response> imGetNodeCharacDescrAd(
         io.dstore.engine.procedures.ImGetNodeCharacDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacSettings.Response> imGetNodeCharacSettings(
         io.dstore.engine.procedures.ImGetNodeCharacSettings.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response> imGetNodeCharacValuesAd(
         io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacValuesPu.Response> imGetNodeCharacValuesPu(
         io.dstore.engine.procedures.ImGetNodeCharacValuesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacteristicsAd.Response> imGetNodeCharacteristicsAd(
         io.dstore.engine.procedures.ImGetNodeCharacteristicsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeCharacteristicsPu.Response> imGetNodeCharacteristicsPu(
         io.dstore.engine.procedures.ImGetNodeCharacteristicsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeDescriptionsPu.Response> imGetNodeDescriptionsPu(
         io.dstore.engine.procedures.ImGetNodeDescriptionsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeMetaInformationAd.Response> imGetNodeMetaInformationAd(
         io.dstore.engine.procedures.ImGetNodeMetaInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeProperties.Response> imGetNodeProperties(
         io.dstore.engine.procedures.ImGetNodeProperties.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodePropertiesHistoryAd.Response> imGetNodePropertiesHistoryAd(
         io.dstore.engine.procedures.ImGetNodePropertiesHistoryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNodeSymbolsAd.Response> imGetNodeSymbolsAd(
         io.dstore.engine.procedures.ImGetNodeSymbolsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetNumberOfNodesAd.Response> imGetNumberOfNodesAd(
         io.dstore.engine.procedures.ImGetNumberOfNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetPageTreeNodesAd.Response> imGetPageTreeNodesAd(
         io.dstore.engine.procedures.ImGetPageTreeNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetPredecessors.Response> imGetPredecessors(
         io.dstore.engine.procedures.ImGetPredecessors.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetRandomProductPu.Response> imGetRandomProductPu(
         io.dstore.engine.procedures.ImGetRandomProductPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetRootNodesAd.Response> imGetRootNodesAd(
         io.dstore.engine.procedures.ImGetRootNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetSimpleProductInfoPu.Response> imGetSimpleProductInfoPu(
         io.dstore.engine.procedures.ImGetSimpleProductInfoPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetSuccessorsAd.Response> imGetSuccessorsAd(
         io.dstore.engine.procedures.ImGetSuccessorsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetSuccessorsPu.Response> imGetSuccessorsPu(
         io.dstore.engine.procedures.ImGetSuccessorsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetTNodeMetaInformationAd.Response> imGetTNodeMetaInformationAd(
         io.dstore.engine.procedures.ImGetTNodeMetaInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetTemplatesAd.Response> imGetTemplatesAd(
         io.dstore.engine.procedures.ImGetTemplatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetTemplatesPu.Response> imGetTemplatesPu(
         io.dstore.engine.procedures.ImGetTemplatesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetThumbnailForNodeAd.Response> imGetThumbnailForNodeAd(
         io.dstore.engine.procedures.ImGetThumbnailForNodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetThumbnailForValueAd.Response> imGetThumbnailForValueAd(
         io.dstore.engine.procedures.ImGetThumbnailForValueAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetTreeNodeInformationAd.Response> imGetTreeNodeInformationAd(
         io.dstore.engine.procedures.ImGetTreeNodeInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetTreeNodeInformationPu.Response> imGetTreeNodeInformationPu(
         io.dstore.engine.procedures.ImGetTreeNodeInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetUsedValuesPu.Response> imGetUsedValuesPu(
         io.dstore.engine.procedures.ImGetUsedValuesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetValueCategories.Response> imGetValueCategories(
         io.dstore.engine.procedures.ImGetValueCategories.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetValueDetailsAd.Response> imGetValueDetailsAd(
         io.dstore.engine.procedures.ImGetValueDetailsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetValueDetailsPu.Response> imGetValueDetailsPu(
         io.dstore.engine.procedures.ImGetValueDetailsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetValuesInCategoriesAd.Response> imGetValuesInCategoriesAd(
         io.dstore.engine.procedures.ImGetValuesInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetVariantMatrix.Response> imGetVariantMatrix(
         io.dstore.engine.procedures.ImGetVariantMatrix.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImGetVariantMatrixAd.Response> imGetVariantMatrixAd(
         io.dstore.engine.procedures.ImGetVariantMatrixAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImImportBinariesAd.Response> imImportBinariesAd(
         io.dstore.engine.procedures.ImImportBinariesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImImportItemDataAd.Response> imImportItemDataAd(
         io.dstore.engine.procedures.ImImportItemDataAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertNewNodeAd.Response> imInsertNewNodeAd(
         io.dstore.engine.procedures.ImInsertNewNodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertNewValueCategoryAd.Response> imInsertNewValueCategoryAd(
         io.dstore.engine.procedures.ImInsertNewValueCategoryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertNodeBinaryAd.Response> imInsertNodeBinaryAd(
         io.dstore.engine.procedures.ImInsertNodeBinaryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertNodePredefinedValAd.Response> imInsertNodePredefinedValAd(
         io.dstore.engine.procedures.ImInsertNodePredefinedValAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertNodeSymbolAd.Response> imInsertNodeSymbolAd(
         io.dstore.engine.procedures.ImInsertNodeSymbolAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertPageTreeNodeAd.Response> imInsertPageTreeNodeAd(
         io.dstore.engine.procedures.ImInsertPageTreeNodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImInsertValueBinaryAd.Response> imInsertValueBinaryAd(
         io.dstore.engine.procedures.ImInsertValueBinaryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response> imMaintainStatisticPropsAd(
         io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyBinaryCharacValuesAd.Response> imModifyBinaryCharacValuesAd(
         io.dstore.engine.procedures.ImModifyBinaryCharacValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyBinaryPropertiesAd.Response> imModifyBinaryPropertiesAd(
         io.dstore.engine.procedures.ImModifyBinaryPropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyCondPartsInGroupsAd.Response> imModifyCondPartsInGroupsAd(
         io.dstore.engine.procedures.ImModifyCondPartsInGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyConditionGroupsAd.Response> imModifyConditionGroupsAd(
         io.dstore.engine.procedures.ImModifyConditionGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyConditionPartsAd.Response> imModifyConditionPartsAd(
         io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyConditionsAd.Response> imModifyConditionsAd(
         io.dstore.engine.procedures.ImModifyConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyCorrespondingValsAd.Response> imModifyCorrespondingValsAd(
         io.dstore.engine.procedures.ImModifyCorrespondingValsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyGroupsPerItemCondAd.Response> imModifyGroupsPerItemCondAd(
         io.dstore.engine.procedures.ImModifyGroupsPerItemCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyLevelsAd.Response> imModifyLevelsAd(
         io.dstore.engine.procedures.ImModifyLevelsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyLockedNodeCharacsAd.Response> imModifyLockedNodeCharacsAd(
         io.dstore.engine.procedures.ImModifyLockedNodeCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodeCharacCatsAd.Response> imModifyNodeCharacCatsAd(
         io.dstore.engine.procedures.ImModifyNodeCharacCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodeCharacDescrAd.Response> imModifyNodeCharacDescrAd(
         io.dstore.engine.procedures.ImModifyNodeCharacDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodeCharacSettingsAd.Response> imModifyNodeCharacSettingsAd(
         io.dstore.engine.procedures.ImModifyNodeCharacSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodeCharacsInCatAd.Response> imModifyNodeCharacsInCatAd(
         io.dstore.engine.procedures.ImModifyNodeCharacsInCatAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodeCharacsAd.Response> imModifyNodeCharacsAd(
         io.dstore.engine.procedures.ImModifyNodeCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodeDescriptionAd.Response> imModifyNodeDescriptionAd(
         io.dstore.engine.procedures.ImModifyNodeDescriptionAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response> imModifyNodePropertiesAd(
         io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyPredefinedValueAd.Response> imModifyPredefinedValueAd(
         io.dstore.engine.procedures.ImModifyPredefinedValueAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyValueCategoriesAd.Response> imModifyValueCategoriesAd(
         io.dstore.engine.procedures.ImModifyValueCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyValueDetailsAd.Response> imModifyValueDetailsAd(
         io.dstore.engine.procedures.ImModifyValueDetailsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImModifyValuesInCategoriesAd.Response> imModifyValuesInCategoriesAd(
         io.dstore.engine.procedures.ImModifyValuesInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImMoveNodeCharacValueAd.Response> imMoveNodeCharacValueAd(
         io.dstore.engine.procedures.ImMoveNodeCharacValueAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImMoveTreeNodesAd.Response> imMoveTreeNodesAd(
         io.dstore.engine.procedures.ImMoveTreeNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImRemoveBinaryFromNodesAd.Response> imRemoveBinaryFromNodesAd(
         io.dstore.engine.procedures.ImRemoveBinaryFromNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImRemoveBinaryFromValuesAd.Response> imRemoveBinaryFromValuesAd(
         io.dstore.engine.procedures.ImRemoveBinaryFromValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImResetSymbolIDsAd.Response> imResetSymbolIDsAd(
         io.dstore.engine.procedures.ImResetSymbolIDsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSearchBinariesAd.Response> imSearchBinariesAd(
         io.dstore.engine.procedures.ImSearchBinariesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSearchCharacteristicsPu.Response> imSearchCharacteristicsPu(
         io.dstore.engine.procedures.ImSearchCharacteristicsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSearchProductTreeNodesAd.Response> imSearchProductTreeNodesAd(
         io.dstore.engine.procedures.ImSearchProductTreeNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Response> imSearchProductTreeNodesPu(
         io.dstore.engine.procedures.ImSearchProductTreeNodesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSearchTreeNodesAd.Response> imSearchTreeNodesAd(
         io.dstore.engine.procedures.ImSearchTreeNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSearchTreeNodesPu.Response> imSearchTreeNodesPu(
         io.dstore.engine.procedures.ImSearchTreeNodesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSetLevelOfNodesAd.Response> imSetLevelOfNodesAd(
         io.dstore.engine.procedures.ImSetLevelOfNodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSetProductDescriptionsAd.Response> imSetProductDescriptionsAd(
         io.dstore.engine.procedures.ImSetProductDescriptionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSetTemplateAd.Response> imSetTemplateAd(
         io.dstore.engine.procedures.ImSetTemplateAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSortNodesAlphabeticallyAd.Response> imSortNodesAlphabeticallyAd(
         io.dstore.engine.procedures.ImSortNodesAlphabeticallyAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSortTreeNodesPu.Response> imSortTreeNodesPu(
         io.dstore.engine.procedures.ImSortTreeNodesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response> imSynchronizeItemBinariesAd(
         io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImTraverseTreeViewPu.Response> imTraverseTreeViewPu(
         io.dstore.engine.procedures.ImTraverseTreeViewPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.ImUpdateLockedTreeNodeIDsAd.Response> imUpdateLockedTreeNodeIDsAd(
         io.dstore.engine.procedures.ImUpdateLockedTreeNodeIDsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiAnalyseObjectContTSQLAd.Response> miAnalyseObjectContTSQLAd(
         io.dstore.engine.procedures.MiAnalyseObjectContTSQLAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiChangedStoreUserPasswordAd.Response> miChangedStoreUserPasswordAd(
         io.dstore.engine.procedures.MiChangedStoreUserPasswordAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiCheckFieldTypeOfValuesAd.Response> miCheckFieldTypeOfValuesAd(
         io.dstore.engine.procedures.MiCheckFieldTypeOfValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiCheckPerformanceAd.Response> miCheckPerformanceAd(
         io.dstore.engine.procedures.MiCheckPerformanceAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiCreatedStoreUserAd.Response> miCreatedStoreUserAd(
         io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiDeadlockTestAd.Response> miDeadlockTestAd(
         io.dstore.engine.procedures.MiDeadlockTestAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiDeleteFromTempdbTable.Response> miDeleteFromTempdbTable(
         io.dstore.engine.procedures.MiDeleteFromTempdbTable.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiDeletedStoreUserAd.Response> miDeletedStoreUserAd(
         io.dstore.engine.procedures.MiDeletedStoreUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiDumpDatabaseAd.Response> miDumpDatabaseAd(
         io.dstore.engine.procedures.MiDumpDatabaseAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiDumpTransactionLogAd.Response> miDumpTransactionLogAd(
         io.dstore.engine.procedures.MiDumpTransactionLogAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiExportLoginsAd.Response> miExportLoginsAd(
         io.dstore.engine.procedures.MiExportLoginsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGarbageCollectAd.Response> miGarbageCollectAd(
         io.dstore.engine.procedures.MiGarbageCollectAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetAllDatabaseUsersAd.Response> miGetAllDatabaseUsersAd(
         io.dstore.engine.procedures.MiGetAllDatabaseUsersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetAppPartsTreeSettingsAd.Response> miGetAppPartsTreeSettingsAd(
         io.dstore.engine.procedures.MiGetAppPartsTreeSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetAppPartsTreeSettingsPu.Response> miGetAppPartsTreeSettingsPu(
         io.dstore.engine.procedures.MiGetAppPartsTreeSettingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicPartSettingsAd.Response> miGetApplicPartSettingsAd(
         io.dstore.engine.procedures.MiGetApplicPartSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicPartSettingsPu.Response> miGetApplicPartSettingsPu(
         io.dstore.engine.procedures.MiGetApplicPartSettingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationPartsTreeAd.Response> miGetApplicationPartsTreeAd(
         io.dstore.engine.procedures.MiGetApplicationPartsTreeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationPartsTreePu.Response> miGetApplicationPartsTreePu(
         io.dstore.engine.procedures.MiGetApplicationPartsTreePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationPartsAd.Response> miGetApplicationPartsAd(
         io.dstore.engine.procedures.MiGetApplicationPartsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationPartsPu.Response> miGetApplicationPartsPu(
         io.dstore.engine.procedures.MiGetApplicationPartsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationSettingsAd.Response> miGetApplicationSettingsAd(
         io.dstore.engine.procedures.MiGetApplicationSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationSettingsPu.Response> miGetApplicationSettingsPu(
         io.dstore.engine.procedures.MiGetApplicationSettingsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationsAd.Response> miGetApplicationsAd(
         io.dstore.engine.procedures.MiGetApplicationsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetApplicationsPu.Response> miGetApplicationsPu(
         io.dstore.engine.procedures.MiGetApplicationsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetBatchJobsAd.Response> miGetBatchJobsAd(
         io.dstore.engine.procedures.MiGetBatchJobsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetBinaryPropertiesAd.Response> miGetBinaryPropertiesAd(
         io.dstore.engine.procedures.MiGetBinaryPropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Response> miGetBinaryPropertiesPu(
         io.dstore.engine.procedures.MiGetBinaryPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetConvertFactor.Response> miGetConvertFactor(
         io.dstore.engine.procedures.MiGetConvertFactor.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetCountries.Response> miGetCountries(
         io.dstore.engine.procedures.MiGetCountries.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetCurrentDate.Response> miGetCurrentDate(
         io.dstore.engine.procedures.MiGetCurrentDate.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetCurrentLocksAd.Response> miGetCurrentLocksAd(
         io.dstore.engine.procedures.MiGetCurrentLocksAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetCurrentProcessesAd.Response> miGetCurrentProcessesAd(
         io.dstore.engine.procedures.MiGetCurrentProcessesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetDBObjectsAd.Response> miGetDBObjectsAd(
         io.dstore.engine.procedures.MiGetDBObjectsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetDBSessionInformation.Response> miGetDBSessionInformation(
         io.dstore.engine.procedures.MiGetDBSessionInformation.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetExecuteRightsAd.Response> miGetExecuteRightsAd(
         io.dstore.engine.procedures.MiGetExecuteRightsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetFieldTypesAd.Response> miGetFieldTypesAd(
         io.dstore.engine.procedures.MiGetFieldTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetFieldTypesPu.Response> miGetFieldTypesPu(
         io.dstore.engine.procedures.MiGetFieldTypesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetIndexDDLAd.Response> miGetIndexDDLAd(
         io.dstore.engine.procedures.MiGetIndexDDLAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetIndexDLLAd.Response> miGetIndexDLLAd(
         io.dstore.engine.procedures.MiGetIndexDLLAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetInformationTypesAd.Response> miGetInformationTypesAd(
         io.dstore.engine.procedures.MiGetInformationTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLanguageDescriptionsAd.Response> miGetLanguageDescriptionsAd(
         io.dstore.engine.procedures.MiGetLanguageDescriptionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLanguageIconsAd.Response> miGetLanguageIconsAd(
         io.dstore.engine.procedures.MiGetLanguageIconsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLanguageIconsPu.Response> miGetLanguageIconsPu(
         io.dstore.engine.procedures.MiGetLanguageIconsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLanguages.Response> miGetLanguages(
         io.dstore.engine.procedures.MiGetLanguages.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLicenceKeyData.Response> miGetLicenceKeyData(
         io.dstore.engine.procedures.MiGetLicenceKeyData.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLocales.Response> miGetLocales(
         io.dstore.engine.procedures.MiGetLocales.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetLockDependenciesAd.Response> miGetLockDependenciesAd(
         io.dstore.engine.procedures.MiGetLockDependenciesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response> miGetMetaInformationTypesAd(
         io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcExecRestrForGroupAd.Response> miGetProcExecRestrForGroupAd(
         io.dstore.engine.procedures.MiGetProcExecRestrForGroupAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcExecRestrForUsersAd.Response> miGetProcExecRestrForUsersAd(
         io.dstore.engine.procedures.MiGetProcExecRestrForUsersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcExecRightsGroupAd.Response> miGetProcExecRightsGroupAd(
         io.dstore.engine.procedures.MiGetProcExecRightsGroupAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Response> miGetProcExecRightsUserAd(
         io.dstore.engine.procedures.MiGetProcExecRightsUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcMetaPropertiesAd.Response> miGetProcMetaPropertiesAd(
         io.dstore.engine.procedures.MiGetProcMetaPropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcedureCodeAd.Response> miGetProcedureCodeAd(
         io.dstore.engine.procedures.MiGetProcedureCodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcedureDependenciesAd.Response> miGetProcedureDependenciesAd(
         io.dstore.engine.procedures.MiGetProcedureDependenciesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcedureExecutionLogAd.Response> miGetProcedureExecutionLogAd(
         io.dstore.engine.procedures.MiGetProcedureExecutionLogAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetProcedureParameters.Response> miGetProcedureParameters(
         io.dstore.engine.procedures.MiGetProcedureParameters.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetRegions.Response> miGetRegions(
         io.dstore.engine.procedures.MiGetRegions.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Response> miGetRegisteredProceduresAd(
         io.dstore.engine.procedures.MiGetRegisteredProceduresAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetRessourceUsage.Response> miGetRessourceUsage(
         io.dstore.engine.procedures.MiGetRessourceUsage.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetReturnCodeMessage.Response> miGetReturnCodeMessage(
         io.dstore.engine.procedures.MiGetReturnCodeMessage.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSQLFunctMetaPropsAd.Response> miGetSQLFunctMetaPropsAd(
         io.dstore.engine.procedures.MiGetSQLFunctMetaPropsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSQLFunctionCodeAd.Response> miGetSQLFunctionCodeAd(
         io.dstore.engine.procedures.MiGetSQLFunctionCodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSQLFunctionParameters.Response> miGetSQLFunctionParameters(
         io.dstore.engine.procedures.MiGetSQLFunctionParameters.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSearchItemLacksAd.Response> miGetSearchItemLacksAd(
         io.dstore.engine.procedures.MiGetSearchItemLacksAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSearchItemsAd.Response> miGetSearchItemsAd(
         io.dstore.engine.procedures.MiGetSearchItemsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSessionManagementPu.Response> miGetSessionManagementPu(
         io.dstore.engine.procedures.MiGetSessionManagementPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSettingEntry.Response> miGetSettingEntry(
         io.dstore.engine.procedures.MiGetSettingEntry.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSettingsAd.Response> miGetSettingsAd(
         io.dstore.engine.procedures.MiGetSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Response> miGetSourceCodeHistoryAd(
         io.dstore.engine.procedures.MiGetSourceCodeHistoryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetSourceTemplatesAd.Response> miGetSourceTemplatesAd(
         io.dstore.engine.procedures.MiGetSourceTemplatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetStorageAllocInfoAd.Response> miGetStorageAllocInfoAd(
         io.dstore.engine.procedures.MiGetStorageAllocInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerCodeAd.Response> miGetTRITriggerCodeAd(
         io.dstore.engine.procedures.MiGetTRITriggerCodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Response> miGetTRITriggerConditionsAd(
         io.dstore.engine.procedures.MiGetTRITriggerConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response> miGetTRITriggerReplFunctsAd(
         io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerToDosAd.Response> miGetTRITriggerToDosAd(
         io.dstore.engine.procedures.MiGetTRITriggerToDosAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerTypesAd.Response> miGetTRITriggerTypesAd(
         io.dstore.engine.procedures.MiGetTRITriggerTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerWorkflowAd.Response> miGetTRITriggerWorkflowAd(
         io.dstore.engine.procedures.MiGetTRITriggerWorkflowAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTRITriggerAd.Response> miGetTRITriggerAd(
         io.dstore.engine.procedures.MiGetTRITriggerAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTableDDLAd.Response> miGetTableDDLAd(
         io.dstore.engine.procedures.MiGetTableDDLAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTableDLLAd.Response> miGetTableDLLAd(
         io.dstore.engine.procedures.MiGetTableDLLAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response> miGetTabsRefInOtherTabsAd(
         io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTaxRates.Response> miGetTaxRates(
         io.dstore.engine.procedures.MiGetTaxRates.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTemplateCombinationsAd.Response> miGetTemplateCombinationsAd(
         io.dstore.engine.procedures.MiGetTemplateCombinationsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTemplatesAd.Response> miGetTemplatesAd(
         io.dstore.engine.procedures.MiGetTemplatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetTriggerCodeAd.Response> miGetTriggerCodeAd(
         io.dstore.engine.procedures.MiGetTriggerCodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUnitCategoriesAd.Response> miGetUnitCategoriesAd(
         io.dstore.engine.procedures.MiGetUnitCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUnitConvertsAd.Response> miGetUnitConvertsAd(
         io.dstore.engine.procedures.MiGetUnitConvertsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUnits.Response> miGetUnits(
         io.dstore.engine.procedures.MiGetUnits.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUnitsAd.Response> miGetUnitsAd(
         io.dstore.engine.procedures.MiGetUnitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUsageOfTablesAd.Response> miGetUsageOfTablesAd(
         io.dstore.engine.procedures.MiGetUsageOfTablesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUserGroupsAd.Response> miGetUserGroupsAd(
         io.dstore.engine.procedures.MiGetUserGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUserInfo.Response> miGetUserInfo(
         io.dstore.engine.procedures.MiGetUserInfo.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetUserInfoAd.Response> miGetUserInfoAd(
         io.dstore.engine.procedures.MiGetUserInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetVisitorInformationPu.Response> miGetVisitorInformationPu(
         io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetVisitorPropertiesPu.Response> miGetVisitorPropertiesPu(
         io.dstore.engine.procedures.MiGetVisitorPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiGetdStoreUserAd.Response> miGetdStoreUserAd(
         io.dstore.engine.procedures.MiGetdStoreUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertPerformancePu.Response> miInsertPerformancePu(
         io.dstore.engine.procedures.MiInsertPerformancePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempCharacConditions.Response> miInsertTempCharacConditions(
         io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbAdditionalInfo.Response> miInsertTempdbAdditionalInfo(
         io.dstore.engine.procedures.MiInsertTempdbAdditionalInfo.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbAnyValues.Response> miInsertTempdbAnyValues(
         io.dstore.engine.procedures.MiInsertTempdbAnyValues.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbCharacValues.Response> miInsertTempdbCharacValues(
         io.dstore.engine.procedures.MiInsertTempdbCharacValues.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbImageData.Response> miInsertTempdbImageData(
         io.dstore.engine.procedures.MiInsertTempdbImageData.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbOneID.Response> miInsertTempdbOneID(
         io.dstore.engine.procedures.MiInsertTempdbOneID.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbTextData.Response> miInsertTempdbTextData(
         io.dstore.engine.procedures.MiInsertTempdbTextData.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbThreeIDs.Response> miInsertTempdbThreeIDs(
         io.dstore.engine.procedures.MiInsertTempdbThreeIDs.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertTempdbTwoIDs.Response> miInsertTempdbTwoIDs(
         io.dstore.engine.procedures.MiInsertTempdbTwoIDs.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiInsertVisitorInformationPu.Response> miInsertVisitorInformationPu(
         io.dstore.engine.procedures.MiInsertVisitorInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiLoadDatabaseAd.Response> miLoadDatabaseAd(
         io.dstore.engine.procedures.MiLoadDatabaseAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyAppPartSettingsAd.Response> miModifyAppPartSettingsAd(
         io.dstore.engine.procedures.MiModifyAppPartSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyAppPartTreeSettsAd.Response> miModifyAppPartTreeSettsAd(
         io.dstore.engine.procedures.MiModifyAppPartTreeSettsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyAppSettingsAd.Response> miModifyAppSettingsAd(
         io.dstore.engine.procedures.MiModifyAppSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyApplicPartsTreeAd.Response> miModifyApplicPartsTreeAd(
         io.dstore.engine.procedures.MiModifyApplicPartsTreeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyApplicationPartsAd.Response> miModifyApplicationPartsAd(
         io.dstore.engine.procedures.MiModifyApplicationPartsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyApplicationsAd.Response> miModifyApplicationsAd(
         io.dstore.engine.procedures.MiModifyApplicationsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyCountriesInRegionsAd.Response> miModifyCountriesInRegionsAd(
         io.dstore.engine.procedures.MiModifyCountriesInRegionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyCountriesAd.Response> miModifyCountriesAd(
         io.dstore.engine.procedures.MiModifyCountriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyInformationTypesAd.Response> miModifyInformationTypesAd(
         io.dstore.engine.procedures.MiModifyInformationTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyLanguageDescrAd.Response> miModifyLanguageDescrAd(
         io.dstore.engine.procedures.MiModifyLanguageDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyLanguagesAd.Response> miModifyLanguagesAd(
         io.dstore.engine.procedures.MiModifyLanguagesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyLocalesAd.Response> miModifyLocalesAd(
         io.dstore.engine.procedures.MiModifyLocalesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyProcExRestForGroupAd.Response> miModifyProcExRestForGroupAd(
         io.dstore.engine.procedures.MiModifyProcExRestForGroupAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyProcExRestForUserAd.Response> miModifyProcExRestForUserAd(
         io.dstore.engine.procedures.MiModifyProcExRestForUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyProcExRightGroupAd.Response> miModifyProcExRightGroupAd(
         io.dstore.engine.procedures.MiModifyProcExRightGroupAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyProcExRightUserAd.Response> miModifyProcExRightUserAd(
         io.dstore.engine.procedures.MiModifyProcExRightUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyRegionsAd.Response> miModifyRegionsAd(
         io.dstore.engine.procedures.MiModifyRegionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyRegisteredProcsAd.Response> miModifyRegisteredProcsAd(
         io.dstore.engine.procedures.MiModifyRegisteredProcsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifySearchItemsAd.Response> miModifySearchItemsAd(
         io.dstore.engine.procedures.MiModifySearchItemsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifySessionManagementPu.Response> miModifySessionManagementPu(
         io.dstore.engine.procedures.MiModifySessionManagementPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifySettingsAd.Response> miModifySettingsAd(
         io.dstore.engine.procedures.MiModifySettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTRITriggerCondsAd.Response> miModifyTRITriggerCondsAd(
         io.dstore.engine.procedures.MiModifyTRITriggerCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTRITriggerReplFuncAd.Response> miModifyTRITriggerReplFuncAd(
         io.dstore.engine.procedures.MiModifyTRITriggerReplFuncAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTRITriggerToDosAd.Response> miModifyTRITriggerToDosAd(
         io.dstore.engine.procedures.MiModifyTRITriggerToDosAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTRITriggerWorkflowAd.Response> miModifyTRITriggerWorkflowAd(
         io.dstore.engine.procedures.MiModifyTRITriggerWorkflowAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTRITriggerAd.Response> miModifyTRITriggerAd(
         io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTaxRatesAd.Response> miModifyTaxRatesAd(
         io.dstore.engine.procedures.MiModifyTaxRatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyTemplatesAd.Response> miModifyTemplatesAd(
         io.dstore.engine.procedures.MiModifyTemplatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUnitCategoryDescrAd.Response> miModifyUnitCategoryDescrAd(
         io.dstore.engine.procedures.MiModifyUnitCategoryDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUnitConvertsAd.Response> miModifyUnitConvertsAd(
         io.dstore.engine.procedures.MiModifyUnitConvertsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUnitsInCategoriesAd.Response> miModifyUnitsInCategoriesAd(
         io.dstore.engine.procedures.MiModifyUnitsInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUnitsAd.Response> miModifyUnitsAd(
         io.dstore.engine.procedures.MiModifyUnitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUserGroupsAd.Response> miModifyUserGroupsAd(
         io.dstore.engine.procedures.MiModifyUserGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUserInfoAd.Response> miModifyUserInfoAd(
         io.dstore.engine.procedures.MiModifyUserInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiModifyUsersInGroupsAd.Response> miModifyUsersInGroupsAd(
         io.dstore.engine.procedures.MiModifyUsersInGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiResetBatchJobAd.Response> miResetBatchJobAd(
         io.dstore.engine.procedures.MiResetBatchJobAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiRestoreDefaultValuesAd.Response> miRestoreDefaultValuesAd(
         io.dstore.engine.procedures.MiRestoreDefaultValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiSearchBinariesAd.Response> miSearchBinariesAd(
         io.dstore.engine.procedures.MiSearchBinariesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiSearchSourceCodeAd.Response> miSearchSourceCodeAd(
         io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiUpdateVisitorPropertiesPu.Response> miUpdateVisitorPropertiesPu(
         io.dstore.engine.procedures.MiUpdateVisitorPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.MiValidateTRITriggerAd.Response> miValidateTRITriggerAd(
         io.dstore.engine.procedures.MiValidateTRITriggerAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response> omAcknowledgeOrdersAd(
         io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmChangeOrderStateAd.Response> omChangeOrderStateAd(
         io.dstore.engine.procedures.OmChangeOrderStateAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmChangeOrderStatePu.Response> omChangeOrderStatePu(
         io.dstore.engine.procedures.OmChangeOrderStatePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Response> omCheckCampCondsForTNIDsAd(
         io.dstore.engine.procedures.OmCheckCampCondsForTNIDsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmClearTrolleyPu.Response> omClearTrolleyPu(
         io.dstore.engine.procedures.OmClearTrolleyPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmConvertCurrency.Response> omConvertCurrency(
         io.dstore.engine.procedures.OmConvertCurrency.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCopyFromPOQueueToOrderAd.Response> omCopyFromPOQueueToOrderAd(
         io.dstore.engine.procedures.OmCopyFromPOQueueToOrderAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Response> omCopyFromTrolleyToOrderPu(
         io.dstore.engine.procedures.OmCopyFromTrolleyToOrderPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCreateCustomerCashAccPu.Response> omCreateCustomerCashAccPu(
         io.dstore.engine.procedures.OmCreateCustomerCashAccPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCreateNewBillAd.Response> omCreateNewBillAd(
         io.dstore.engine.procedures.OmCreateNewBillAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCreateSimpleCampItemCondAd.Response> omCreateSimpleCampItemCondAd(
         io.dstore.engine.procedures.OmCreateSimpleCampItemCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCreateVoucherCodesAd.Response> omCreateVoucherCodesAd(
         io.dstore.engine.procedures.OmCreateVoucherCodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmCustomerWhoBoughtAlsoBought.Response> omCustomerWhoBoughtAlsoBought(
         io.dstore.engine.procedures.OmCustomerWhoBoughtAlsoBought.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmExportOrdersAd.Response> omExportOrdersAd(
         io.dstore.engine.procedures.OmExportOrdersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetAllowedOrderStates.Response> omGetAllowedOrderStates(
         io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBenefitTypesAd.Response> omGetBenefitTypesAd(
         io.dstore.engine.procedures.OmGetBenefitTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBillContentInfoRulesAd.Response> omGetBillContentInfoRulesAd(
         io.dstore.engine.procedures.OmGetBillContentInfoRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBillContentInfoTypesAd.Response> omGetBillContentInfoTypesAd(
         io.dstore.engine.procedures.OmGetBillContentInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBillContentInfoAd.Response> omGetBillContentInfoAd(
         io.dstore.engine.procedures.OmGetBillContentInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBillInformationRulesAd.Response> omGetBillInformationRulesAd(
         io.dstore.engine.procedures.OmGetBillInformationRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBillInformationTypesAd.Response> omGetBillInformationTypesAd(
         io.dstore.engine.procedures.OmGetBillInformationTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBillInformationAd.Response> omGetBillInformationAd(
         io.dstore.engine.procedures.OmGetBillInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBonusItemSetsAd.Response> omGetBonusItemSetsAd(
         io.dstore.engine.procedures.OmGetBonusItemSetsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBundleItemSetsAd.Response> omGetBundleItemSetsAd(
         io.dstore.engine.procedures.OmGetBundleItemSetsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetBundlePricingTypesAd.Response> omGetBundlePricingTypesAd(
         io.dstore.engine.procedures.OmGetBundlePricingTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCamPeriodStatusValuesAd.Response> omGetCamPeriodStatusValuesAd(
         io.dstore.engine.procedures.OmGetCamPeriodStatusValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampCondCriteriaTypesAd.Response> omGetCampCondCriteriaTypesAd(
         io.dstore.engine.procedures.OmGetCampCondCriteriaTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampOrderSurchDiscAd.Response> omGetCampOrderSurchDiscAd(
         io.dstore.engine.procedures.OmGetCampOrderSurchDiscAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampPaymentTypeCondsAd.Response> omGetCampPaymentTypeCondsAd(
         io.dstore.engine.procedures.OmGetCampPaymentTypeCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Response> omGetCampPersonGroupCondsAd(
         io.dstore.engine.procedures.OmGetCampPersonGroupCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampShippingTypeCondsAd.Response> omGetCampShippingTypeCondsAd(
         io.dstore.engine.procedures.OmGetCampShippingTypeCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampTrolleyValueCondAd.Response> omGetCampTrolleyValueCondAd(
         io.dstore.engine.procedures.OmGetCampTrolleyValueCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampVoucherCodeCondsAd.Response> omGetCampVoucherCodeCondsAd(
         io.dstore.engine.procedures.OmGetCampVoucherCodeCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Response> omGetCampaignBenefitsAd(
         io.dstore.engine.procedures.OmGetCampaignBenefitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignBonusItemsAd.Response> omGetCampaignBonusItemsAd(
         io.dstore.engine.procedures.OmGetCampaignBonusItemsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response> omGetCampaignBonusItemsPu(
         io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignBundlePricingAd.Response> omGetCampaignBundlePricingAd(
         io.dstore.engine.procedures.OmGetCampaignBundlePricingAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignBundlePricingPu.Response> omGetCampaignBundlePricingPu(
         io.dstore.engine.procedures.OmGetCampaignBundlePricingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignCategoriesAd.Response> omGetCampaignCategoriesAd(
         io.dstore.engine.procedures.OmGetCampaignCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignConditionsAd.Response> omGetCampaignConditionsAd(
         io.dstore.engine.procedures.OmGetCampaignConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignItemConGroupsAd.Response> omGetCampaignItemConGroupsAd(
         io.dstore.engine.procedures.OmGetCampaignItemConGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignItemCondPartsAd.Response> omGetCampaignItemCondPartsAd(
         io.dstore.engine.procedures.OmGetCampaignItemCondPartsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignItemCondsAd.Response> omGetCampaignItemCondsAd(
         io.dstore.engine.procedures.OmGetCampaignItemCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignPeriodDefsAd.Response> omGetCampaignPeriodDefsAd(
         io.dstore.engine.procedures.OmGetCampaignPeriodDefsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignPeriodsAd.Response> omGetCampaignPeriodsAd(
         io.dstore.engine.procedures.OmGetCampaignPeriodsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignSettingEntry.Response> omGetCampaignSettingEntry(
         io.dstore.engine.procedures.OmGetCampaignSettingEntry.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Response> omGetCampaignSurchargesAd(
         io.dstore.engine.procedures.OmGetCampaignSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignTypeRulesAd.Response> omGetCampaignTypeRulesAd(
         io.dstore.engine.procedures.OmGetCampaignTypeRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignTypesAd.Response> omGetCampaignTypesAd(
         io.dstore.engine.procedures.OmGetCampaignTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignsInCategoriesAd.Response> omGetCampaignsInCategoriesAd(
         io.dstore.engine.procedures.OmGetCampaignsInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCampaignsAd.Response> omGetCampaignsAd(
         io.dstore.engine.procedures.OmGetCampaignsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Response> omGetCashAccTransactTypesAd(
         io.dstore.engine.procedures.OmGetCashAccTransactTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCashAccTransactionsAd.Response> omGetCashAccTransactionsAd(
         io.dstore.engine.procedures.OmGetCashAccTransactionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response> omGetCashAccTransactionsPu(
         io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCashAccountTypes.Response> omGetCashAccountTypes(
         io.dstore.engine.procedures.OmGetCashAccountTypes.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetChangeOStateTriggerAd.Response> omGetChangeOStateTriggerAd(
         io.dstore.engine.procedures.OmGetChangeOStateTriggerAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCurrentCampaigns.Response> omGetCurrentCampaigns(
         io.dstore.engine.procedures.OmGetCurrentCampaigns.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCustomerCashAccountsAd.Response> omGetCustomerCashAccountsAd(
         io.dstore.engine.procedures.OmGetCustomerCashAccountsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetCustomerCashAccountsPu.Response> omGetCustomerCashAccountsPu(
         io.dstore.engine.procedures.OmGetCustomerCashAccountsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Response> omGetGroupPaymentForShipAd(
         io.dstore.engine.procedures.OmGetGroupPaymentForShipAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetGroupSurchargesAd.Response> omGetGroupSurchargesAd(
         io.dstore.engine.procedures.OmGetGroupSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetNodePaymentForShipAd.Response> omGetNodePaymentForShipAd(
         io.dstore.engine.procedures.OmGetNodePaymentForShipAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Response> omGetOrderContentInfoRulesAd(
         io.dstore.engine.procedures.OmGetOrderContentInfoRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderContentInfoTypesAd.Response> omGetOrderContentInfoTypesAd(
         io.dstore.engine.procedures.OmGetOrderContentInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderContentInfoAd.Response> omGetOrderContentInfoAd(
         io.dstore.engine.procedures.OmGetOrderContentInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderContentInfoPu.Response> omGetOrderContentInfoPu(
         io.dstore.engine.procedures.OmGetOrderContentInfoPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderInformationRulesAd.Response> omGetOrderInformationRulesAd(
         io.dstore.engine.procedures.OmGetOrderInformationRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Response> omGetOrderInformationTypesAd(
         io.dstore.engine.procedures.OmGetOrderInformationTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderInformationAd.Response> omGetOrderInformationAd(
         io.dstore.engine.procedures.OmGetOrderInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderInformationPu.Response> omGetOrderInformationPu(
         io.dstore.engine.procedures.OmGetOrderInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStateCategoriesAd.Response> omGetOrderStateCategoriesAd(
         io.dstore.engine.procedures.OmGetOrderStateCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStateDescrAd.Response> omGetOrderStateDescrAd(
         io.dstore.engine.procedures.OmGetOrderStateDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Response> omGetOrderStateHistoryAd(
         io.dstore.engine.procedures.OmGetOrderStateHistoryAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response> omGetOrderStateHistoryPu(
         io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStateRulesAd.Response> omGetOrderStateRulesAd(
         io.dstore.engine.procedures.OmGetOrderStateRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStatesInCats.Response> omGetOrderStatesInCats(
         io.dstore.engine.procedures.OmGetOrderStatesInCats.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Response> omGetOrderStatesInCatsAd(
         io.dstore.engine.procedures.OmGetOrderStatesInCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderStatesAd.Response> omGetOrderStatesAd(
         io.dstore.engine.procedures.OmGetOrderStatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderSurchInfoTypesAd.Response> omGetOrderSurchInfoTypesAd(
         io.dstore.engine.procedures.OmGetOrderSurchInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderSurchargeInfoAd.Response> omGetOrderSurchargeInfoAd(
         io.dstore.engine.procedures.OmGetOrderSurchargeInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderSurchargeInfoPu.Response> omGetOrderSurchargeInfoPu(
         io.dstore.engine.procedures.OmGetOrderSurchargeInfoPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderSurchargesAd.Response> omGetOrderSurchargesAd(
         io.dstore.engine.procedures.OmGetOrderSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrderSurchargesPu.Response> omGetOrderSurchargesPu(
         io.dstore.engine.procedures.OmGetOrderSurchargesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrdersAd.Response> omGetOrdersAd(
         io.dstore.engine.procedures.OmGetOrdersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response> omGetOrdersConditionsAd(
         io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOrdersPu.Response> omGetOrdersPu(
         io.dstore.engine.procedures.OmGetOrdersPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOtherBillContInfRulesAd.Response> omGetOtherBillContInfRulesAd(
         io.dstore.engine.procedures.OmGetOtherBillContInfRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetOtherBillContInfTypesAd.Response> omGetOtherBillContInfTypesAd(
         io.dstore.engine.procedures.OmGetOtherBillContInfTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentAndShippingPu.Response> omGetPaymentAndShippingPu(
         io.dstore.engine.procedures.OmGetPaymentAndShippingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentCostPu.Response> omGetPaymentCostPu(
         io.dstore.engine.procedures.OmGetPaymentCostPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentForShippingAd.Response> omGetPaymentForShippingAd(
         io.dstore.engine.procedures.OmGetPaymentForShippingAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentForShippingPu.Response> omGetPaymentForShippingPu(
         io.dstore.engine.procedures.OmGetPaymentForShippingPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentTypeDescrAd.Response> omGetPaymentTypeDescrAd(
         io.dstore.engine.procedures.OmGetPaymentTypeDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentTypeSurchargesAd.Response> omGetPaymentTypeSurchargesAd(
         io.dstore.engine.procedures.OmGetPaymentTypeSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPaymentTypesAd.Response> omGetPaymentTypesAd(
         io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPersonInfoForOrdersAd.Response> omGetPersonInfoForOrdersAd(
         io.dstore.engine.procedures.OmGetPersonInfoForOrdersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPersonSurchargesAd.Response> omGetPersonSurchargesAd(
         io.dstore.engine.procedures.OmGetPersonSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPredefinedBillContentAd.Response> omGetPredefinedBillContentAd(
         io.dstore.engine.procedures.OmGetPredefinedBillContentAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response> omGetPrepaidCodesAd(
         io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPricesAd.Response> omGetPricesAd(
         io.dstore.engine.procedures.OmGetPricesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPricesPu.Response> omGetPricesPu(
         io.dstore.engine.procedures.OmGetPricesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Response> omGetPurchaseOrderQueuesAd(
         io.dstore.engine.procedures.OmGetPurchaseOrderQueuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPurchaseOrderTypesAd.Response> omGetPurchaseOrderTypesAd(
         io.dstore.engine.procedures.OmGetPurchaseOrderTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetPurchasePricesAd.Response> omGetPurchasePricesAd(
         io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetRequiredInfoForPayAd.Response> omGetRequiredInfoForPayAd(
         io.dstore.engine.procedures.OmGetRequiredInfoForPayAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSetsForBonItBenefitsAd.Response> omGetSetsForBonItBenefitsAd(
         io.dstore.engine.procedures.OmGetSetsForBonItBenefitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSetsForBundleBenefitsAd.Response> omGetSetsForBundleBenefitsAd(
         io.dstore.engine.procedures.OmGetSetsForBundleBenefitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetShippTypeSurchargesAd.Response> omGetShippTypeSurchargesAd(
         io.dstore.engine.procedures.OmGetShippTypeSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetShippingCostPu.Response> omGetShippingCostPu(
         io.dstore.engine.procedures.OmGetShippingCostPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetShippingTypeDescrAd.Response> omGetShippingTypeDescrAd(
         io.dstore.engine.procedures.OmGetShippingTypeDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetShippingTypesAd.Response> omGetShippingTypesAd(
         io.dstore.engine.procedures.OmGetShippingTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSupplierConfigurationAd.Response> omGetSupplierConfigurationAd(
         io.dstore.engine.procedures.OmGetSupplierConfigurationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSurchargeTypeCategories.Response> omGetSurchargeTypeCategories(
         io.dstore.engine.procedures.OmGetSurchargeTypeCategories.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSurchargeTypeTaxes.Response> omGetSurchargeTypeTaxes(
         io.dstore.engine.procedures.OmGetSurchargeTypeTaxes.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSurchargeTypesAd.Response> omGetSurchargeTypesAd(
         io.dstore.engine.procedures.OmGetSurchargeTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetSurchargesPu.Response> omGetSurchargesPu(
         io.dstore.engine.procedures.OmGetSurchargesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTaxTypes.Response> omGetTaxTypes(
         io.dstore.engine.procedures.OmGetTaxTypes.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTaxes.Response> omGetTaxes(
         io.dstore.engine.procedures.OmGetTaxes.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTimeUnitsForCPeriodsAd.Response> omGetTimeUnitsForCPeriodsAd(
         io.dstore.engine.procedures.OmGetTimeUnitsForCPeriodsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTransactionMetaInfoAd.Response> omGetTransactionMetaInfoAd(
         io.dstore.engine.procedures.OmGetTransactionMetaInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response> omGetTrolleyAsMatrixPu(
         io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Response> omGetTrolleyContInfoTypesAd(
         io.dstore.engine.procedures.OmGetTrolleyContInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleyContentInfoPu.Response> omGetTrolleyContentInfoPu(
         io.dstore.engine.procedures.OmGetTrolleyContentInfoPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleyInfoTypesAd.Response> omGetTrolleyInfoTypesAd(
         io.dstore.engine.procedures.OmGetTrolleyInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleyInformationPu.Response> omGetTrolleyInformationPu(
         io.dstore.engine.procedures.OmGetTrolleyInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleySurchInfoTypesAd.Response> omGetTrolleySurchInfoTypesAd(
         io.dstore.engine.procedures.OmGetTrolleySurchInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleySurchargeInfoPu.Response> omGetTrolleySurchargeInfoPu(
         io.dstore.engine.procedures.OmGetTrolleySurchargeInfoPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleySurchargesPu.Response> omGetTrolleySurchargesPu(
         io.dstore.engine.procedures.OmGetTrolleySurchargesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleyPu.Response> omGetTrolleyPu(
         io.dstore.engine.procedures.OmGetTrolleyPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetTrolleysAd.Response> omGetTrolleysAd(
         io.dstore.engine.procedures.OmGetTrolleysAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Response> omGetUsedVoucherCodesAd(
         io.dstore.engine.procedures.OmGetUsedVoucherCodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Response> omGetVCodeOriginTypesAd(
         io.dstore.engine.procedures.OmGetVCodeOriginTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetVoucherCodesAd.Response> omGetVoucherCodesAd(
         io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Response> omGetVoucherTypeStatisticsAd(
         io.dstore.engine.procedures.OmGetVoucherTypeStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetVoucherTypeSurchargesAd.Response> omGetVoucherTypeSurchargesAd(
         io.dstore.engine.procedures.OmGetVoucherTypeSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmGetVoucherTypesAd.Response> omGetVoucherTypesAd(
         io.dstore.engine.procedures.OmGetVoucherTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmInsertIntoTrolleyPu.Response> omInsertIntoTrolleyPu(
         io.dstore.engine.procedures.OmInsertIntoTrolleyPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyBonusItemSetsAd.Response> omModifyBonusItemSetsAd(
         io.dstore.engine.procedures.OmModifyBonusItemSetsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Response> omModifyBundleItemSetsAd(
         io.dstore.engine.procedures.OmModifyBundleItemSetsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampBundlePricingAd.Response> omModifyCampBundlePricingAd(
         io.dstore.engine.procedures.OmModifyCampBundlePricingAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampItemConGroupsAd.Response> omModifyCampItemConGroupsAd(
         io.dstore.engine.procedures.OmModifyCampItemConGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampItemCondPartsAd.Response> omModifyCampItemCondPartsAd(
         io.dstore.engine.procedures.OmModifyCampItemCondPartsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampOrderSurchDiscAd.Response> omModifyCampOrderSurchDiscAd(
         io.dstore.engine.procedures.OmModifyCampOrderSurchDiscAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampPaymentCondAd.Response> omModifyCampPaymentCondAd(
         io.dstore.engine.procedures.OmModifyCampPaymentCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Response> omModifyCampPersGroupCondAd(
         io.dstore.engine.procedures.OmModifyCampPersGroupCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampShippingCondAd.Response> omModifyCampShippingCondAd(
         io.dstore.engine.procedures.OmModifyCampShippingCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampTrolleyValCondAd.Response> omModifyCampTrolleyValCondAd(
         io.dstore.engine.procedures.OmModifyCampTrolleyValCondAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Response> omModifyCampVouchCodeCondsAd(
         io.dstore.engine.procedures.OmModifyCampVouchCodeCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignBenefitsAd.Response> omModifyCampaignBenefitsAd(
         io.dstore.engine.procedures.OmModifyCampaignBenefitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignBonusItemsAd.Response> omModifyCampaignBonusItemsAd(
         io.dstore.engine.procedures.OmModifyCampaignBonusItemsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignCategoriesAd.Response> omModifyCampaignCategoriesAd(
         io.dstore.engine.procedures.OmModifyCampaignCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignConditionsAd.Response> omModifyCampaignConditionsAd(
         io.dstore.engine.procedures.OmModifyCampaignConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response> omModifyCampaignItemCondsAd(
         io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignPeriodDefsAd.Response> omModifyCampaignPeriodDefsAd(
         io.dstore.engine.procedures.OmModifyCampaignPeriodDefsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignSettingsAd.Response> omModifyCampaignSettingsAd(
         io.dstore.engine.procedures.OmModifyCampaignSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignSurchargesAd.Response> omModifyCampaignSurchargesAd(
         io.dstore.engine.procedures.OmModifyCampaignSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignTypeRulesAd.Response> omModifyCampaignTypeRulesAd(
         io.dstore.engine.procedures.OmModifyCampaignTypeRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignTypesAd.Response> omModifyCampaignTypesAd(
         io.dstore.engine.procedures.OmModifyCampaignTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampaignsAd.Response> omModifyCampaignsAd(
         io.dstore.engine.procedures.OmModifyCampaignsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCampsInCategoriesAd.Response> omModifyCampsInCategoriesAd(
         io.dstore.engine.procedures.OmModifyCampsInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyChangeOStatTriggerAd.Response> omModifyChangeOStatTriggerAd(
         io.dstore.engine.procedures.OmModifyChangeOStatTriggerAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyCustomerCashAccAd.Response> omModifyCustomerCashAccAd(
         io.dstore.engine.procedures.OmModifyCustomerCashAccAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyGroupPayForShipAd.Response> omModifyGroupPayForShipAd(
         io.dstore.engine.procedures.OmModifyGroupPayForShipAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyGroupSurchargesAd.Response> omModifyGroupSurchargesAd(
         io.dstore.engine.procedures.OmModifyGroupSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyNodePaymentForShipAd.Response> omModifyNodePaymentForShipAd(
         io.dstore.engine.procedures.OmModifyNodePaymentForShipAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderContInfoRulesAd.Response> omModifyOrderContInfoRulesAd(
         io.dstore.engine.procedures.OmModifyOrderContInfoRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderContInfoTypesAd.Response> omModifyOrderContInfoTypesAd(
         io.dstore.engine.procedures.OmModifyOrderContInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderContentInfoAd.Response> omModifyOrderContentInfoAd(
         io.dstore.engine.procedures.OmModifyOrderContentInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderContentAd.Response> omModifyOrderContentAd(
         io.dstore.engine.procedures.OmModifyOrderContentAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderInfoRulesAd.Response> omModifyOrderInfoRulesAd(
         io.dstore.engine.procedures.OmModifyOrderInfoRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderInfoTypesAd.Response> omModifyOrderInfoTypesAd(
         io.dstore.engine.procedures.OmModifyOrderInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderInformationAd.Response> omModifyOrderInformationAd(
         io.dstore.engine.procedures.OmModifyOrderInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderInformationPu.Response> omModifyOrderInformationPu(
         io.dstore.engine.procedures.OmModifyOrderInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderStateCatsAd.Response> omModifyOrderStateCatsAd(
         io.dstore.engine.procedures.OmModifyOrderStateCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderStateDescTranAd.Response> omModifyOrderStateDescTranAd(
         io.dstore.engine.procedures.OmModifyOrderStateDescTranAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderStateRulesAd.Response> omModifyOrderStateRulesAd(
         io.dstore.engine.procedures.OmModifyOrderStateRulesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderStatesInCatsAd.Response> omModifyOrderStatesInCatsAd(
         io.dstore.engine.procedures.OmModifyOrderStatesInCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderStatesAd.Response> omModifyOrderStatesAd(
         io.dstore.engine.procedures.OmModifyOrderStatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderSurchInfTypesAd.Response> omModifyOrderSurchInfTypesAd(
         io.dstore.engine.procedures.OmModifyOrderSurchInfTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyOrderAd.Response> omModifyOrderAd(
         io.dstore.engine.procedures.OmModifyOrderAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPayForShipDescrAd.Response> omModifyPayForShipDescrAd(
         io.dstore.engine.procedures.OmModifyPayForShipDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPaymentForShippingAd.Response> omModifyPaymentForShippingAd(
         io.dstore.engine.procedures.OmModifyPaymentForShippingAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPaymentTypeDescrAd.Response> omModifyPaymentTypeDescrAd(
         io.dstore.engine.procedures.OmModifyPaymentTypeDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPaymentTypeSurchAd.Response> omModifyPaymentTypeSurchAd(
         io.dstore.engine.procedures.OmModifyPaymentTypeSurchAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPaymentTypesAd.Response> omModifyPaymentTypesAd(
         io.dstore.engine.procedures.OmModifyPaymentTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPersonSurchargesAd.Response> omModifyPersonSurchargesAd(
         io.dstore.engine.procedures.OmModifyPersonSurchargesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPredefBillContentAd.Response> omModifyPredefBillContentAd(
         io.dstore.engine.procedures.OmModifyPredefBillContentAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPurchaseOrderQueueAd.Response> omModifyPurchaseOrderQueueAd(
         io.dstore.engine.procedures.OmModifyPurchaseOrderQueueAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyPurchaseOrderTypesAd.Response> omModifyPurchaseOrderTypesAd(
         io.dstore.engine.procedures.OmModifyPurchaseOrderTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyRequiredInfoForPayAd.Response> omModifyRequiredInfoForPayAd(
         io.dstore.engine.procedures.OmModifyRequiredInfoForPayAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifySetsForBonItBenefsAd.Response> omModifySetsForBonItBenefsAd(
         io.dstore.engine.procedures.OmModifySetsForBonItBenefsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifySetsForBunBenefitsAd.Response> omModifySetsForBunBenefitsAd(
         io.dstore.engine.procedures.OmModifySetsForBunBenefitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyShippingTypeDescrAd.Response> omModifyShippingTypeDescrAd(
         io.dstore.engine.procedures.OmModifyShippingTypeDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyShippingTypeSurchAd.Response> omModifyShippingTypeSurchAd(
         io.dstore.engine.procedures.OmModifyShippingTypeSurchAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyShippingTypesAd.Response> omModifyShippingTypesAd(
         io.dstore.engine.procedures.OmModifyShippingTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifySurchargeTypeCatsAd.Response> omModifySurchargeTypeCatsAd(
         io.dstore.engine.procedures.OmModifySurchargeTypeCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifySurchargeTypeDescrAd.Response> omModifySurchargeTypeDescrAd(
         io.dstore.engine.procedures.OmModifySurchargeTypeDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifySurchargeTypeTaxesAd.Response> omModifySurchargeTypeTaxesAd(
         io.dstore.engine.procedures.OmModifySurchargeTypeTaxesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifySurchargeTypesAd.Response> omModifySurchargeTypesAd(
         io.dstore.engine.procedures.OmModifySurchargeTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTaxTypesAd.Response> omModifyTaxTypesAd(
         io.dstore.engine.procedures.OmModifyTaxTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTaxesAd.Response> omModifyTaxesAd(
         io.dstore.engine.procedures.OmModifyTaxesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTrolleyCInfoTypesAd.Response> omModifyTrolleyCInfoTypesAd(
         io.dstore.engine.procedures.OmModifyTrolleyCInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response> omModifyTrolleyContentInfoPu(
         io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTrolleyInfoTypesAd.Response> omModifyTrolleyInfoTypesAd(
         io.dstore.engine.procedures.OmModifyTrolleyInfoTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTrolleyInformationPu.Response> omModifyTrolleyInformationPu(
         io.dstore.engine.procedures.OmModifyTrolleyInformationPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyTrolleySurInfTypesAd.Response> omModifyTrolleySurInfTypesAd(
         io.dstore.engine.procedures.OmModifyTrolleySurInfTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyVoucherCodeValidAd.Response> omModifyVoucherCodeValidAd(
         io.dstore.engine.procedures.OmModifyVoucherCodeValidAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyVoucherTypeSurchAd.Response> omModifyVoucherTypeSurchAd(
         io.dstore.engine.procedures.OmModifyVoucherTypeSurchAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmModifyVoucherTypesAd.Response> omModifyVoucherTypesAd(
         io.dstore.engine.procedures.OmModifyVoucherTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmPerformCashAccTransactAd.Response> omPerformCashAccTransactAd(
         io.dstore.engine.procedures.OmPerformCashAccTransactAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmRedeemPrepaidCodePu.Response> omRedeemPrepaidCodePu(
         io.dstore.engine.procedures.OmRedeemPrepaidCodePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmRemoveVoucherFromTrolleyPu.Response> omRemoveVoucherFromTrolleyPu(
         io.dstore.engine.procedures.OmRemoveVoucherFromTrolleyPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmSearchOrderNoAd.Response> omSearchOrderNoAd(
         io.dstore.engine.procedures.OmSearchOrderNoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmUpdateTrolleyPu.Response> omUpdateTrolleyPu(
         io.dstore.engine.procedures.OmUpdateTrolleyPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.OmValidateVoucherCodePu.Response> omValidateVoucherCodePu(
         io.dstore.engine.procedures.OmValidateVoucherCodePu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmAdressenCheckPu.Response> pmAdressenCheckPu(
         io.dstore.engine.procedures.PmAdressenCheckPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmAlphabetizeCharacValuesAd.Response> pmAlphabetizeCharacValuesAd(
         io.dstore.engine.procedures.PmAlphabetizeCharacValuesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmCheckPersonIdentityPu.Response> pmCheckPersonIdentityPu(
         io.dstore.engine.procedures.PmCheckPersonIdentityPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmCloseARelationshipPu.Response> pmCloseARelationshipPu(
         io.dstore.engine.procedures.PmCloseARelationshipPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmCloseVisitorPersonsPu.Response> pmCloseVisitorPersonsPu(
         io.dstore.engine.procedures.PmCloseVisitorPersonsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmConfigureValueColumnsAd.Response> pmConfigureValueColumnsAd(
         io.dstore.engine.procedures.PmConfigureValueColumnsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmConsistencyCheckAd.Response> pmConsistencyCheckAd(
         io.dstore.engine.procedures.PmConsistencyCheckAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmDeleteAllPersonsOfPTypeAd.Response> pmDeleteAllPersonsOfPTypeAd(
         io.dstore.engine.procedures.PmDeleteAllPersonsOfPTypeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmDeleteDispensablePersonsAd.Response> pmDeleteDispensablePersonsAd(
         io.dstore.engine.procedures.PmDeleteDispensablePersonsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmDeleteInterfaceTablesAd.Response> pmDeleteInterfaceTablesAd(
         io.dstore.engine.procedures.PmDeleteInterfaceTablesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmDeletePersonAd.Response> pmDeletePersonAd(
         io.dstore.engine.procedures.PmDeletePersonAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmDeletePersonPu.Response> pmDeletePersonPu(
         io.dstore.engine.procedures.PmDeletePersonPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmExportPersonDataAd.Response> pmExportPersonDataAd(
         io.dstore.engine.procedures.PmExportPersonDataAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmFormARelationshipPu.Response> pmFormARelationshipPu(
         io.dstore.engine.procedures.PmFormARelationshipPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Response> pmGetEncryptionAlgorithmPu(
         io.dstore.engine.procedures.PmGetEncryptionAlgorithmPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetGroupConditionsAd.Response> pmGetGroupConditionsAd(
         io.dstore.engine.procedures.PmGetGroupConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetGroupsForOnePersonPu.Response> pmGetGroupsForOnePersonPu(
         io.dstore.engine.procedures.PmGetGroupsForOnePersonPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetGroupsAd.Response> pmGetGroupsAd(
         io.dstore.engine.procedures.PmGetGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetImportErrorsAd.Response> pmGetImportErrorsAd(
         io.dstore.engine.procedures.PmGetImportErrorsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetLockedPersonTypesAd.Response> pmGetLockedPersonTypesAd(
         io.dstore.engine.procedures.PmGetLockedPersonTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Response> pmGetMostRecentUniqueIDPu(
         io.dstore.engine.procedures.PmGetMostRecentUniqueIDPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPChAccRestrForGroupsAd.Response> pmGetPChAccRestrForGroupsAd(
         io.dstore.engine.procedures.PmGetPChAccRestrForGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPChAccRestrForUsersAd.Response> pmGetPChAccRestrForUsersAd(
         io.dstore.engine.procedures.PmGetPChAccRestrForUsersAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPeriodsForPredefValsAd.Response> pmGetPeriodsForPredefValsAd(
         io.dstore.engine.procedures.PmGetPeriodsForPredefValsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonAccessCharacsPu.Response> pmGetPersonAccessCharacsPu(
         io.dstore.engine.procedures.PmGetPersonAccessCharacsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonBinariesAd.Response> pmGetPersonBinariesAd(
         io.dstore.engine.procedures.PmGetPersonBinariesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonBinariesPu.Response> pmGetPersonBinariesPu(
         io.dstore.engine.procedures.PmGetPersonBinariesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonCharacCatsAd.Response> pmGetPersonCharacCatsAd(
         io.dstore.engine.procedures.PmGetPersonCharacCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonCharacDescrAd.Response> pmGetPersonCharacDescrAd(
         io.dstore.engine.procedures.PmGetPersonCharacDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonCharacValueIDAd.Response> pmGetPersonCharacValueIDAd(
         io.dstore.engine.procedures.PmGetPersonCharacValueIDAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response> pmGetPersonCharacsInCatsAd(
         io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Response> pmGetPersonCharacteristicsAd(
         io.dstore.engine.procedures.PmGetPersonCharacteristicsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonCharacteristicsPu.Response> pmGetPersonCharacteristicsPu(
         io.dstore.engine.procedures.PmGetPersonCharacteristicsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonDetailsAd.Response> pmGetPersonDetailsAd(
         io.dstore.engine.procedures.PmGetPersonDetailsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonDetailsPu.Response> pmGetPersonDetailsPu(
         io.dstore.engine.procedures.PmGetPersonDetailsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonIdentCharacsPu.Response> pmGetPersonIdentCharacsPu(
         io.dstore.engine.procedures.PmGetPersonIdentCharacsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonMetaInformationAd.Response> pmGetPersonMetaInformationAd(
         io.dstore.engine.procedures.PmGetPersonMetaInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonOutputCharacsAd.Response> pmGetPersonOutputCharacsAd(
         io.dstore.engine.procedures.PmGetPersonOutputCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonPredefinedValsAd.Response> pmGetPersonPredefinedValsAd(
         io.dstore.engine.procedures.PmGetPersonPredefinedValsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonPredefinedValsPu.Response> pmGetPersonPredefinedValsPu(
         io.dstore.engine.procedures.PmGetPersonPredefinedValsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonPropertiesHistAd.Response> pmGetPersonPropertiesHistAd(
         io.dstore.engine.procedures.PmGetPersonPropertiesHistAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonPropertiesAd.Response> pmGetPersonPropertiesAd(
         io.dstore.engine.procedures.PmGetPersonPropertiesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonPropertiesPu.Response> pmGetPersonPropertiesPu(
         io.dstore.engine.procedures.PmGetPersonPropertiesPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonRelationshipsAd.Response> pmGetPersonRelationshipsAd(
         io.dstore.engine.procedures.PmGetPersonRelationshipsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonRelationshipsPu.Response> pmGetPersonRelationshipsPu(
         io.dstore.engine.procedures.PmGetPersonRelationshipsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonTypeMetaInfoAd.Response> pmGetPersonTypeMetaInfoAd(
         io.dstore.engine.procedures.PmGetPersonTypeMetaInfoAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonTypeSettingEntry.Response> pmGetPersonTypeSettingEntry(
         io.dstore.engine.procedures.PmGetPersonTypeSettingEntry.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonTypeSettingsAd.Response> pmGetPersonTypeSettingsAd(
         io.dstore.engine.procedures.PmGetPersonTypeSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonTypesAd.Response> pmGetPersonTypesAd(
         io.dstore.engine.procedures.PmGetPersonTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonsAd.Response> pmGetPersonsAd(
         io.dstore.engine.procedures.PmGetPersonsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPersonsConditionsAd.Response> pmGetPersonsConditionsAd(
         io.dstore.engine.procedures.PmGetPersonsConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetPossibleDuplicatesAd.Response> pmGetPossibleDuplicatesAd(
         io.dstore.engine.procedures.PmGetPossibleDuplicatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetRelationAccessLevels.Response> pmGetRelationAccessLevels(
         io.dstore.engine.procedures.PmGetRelationAccessLevels.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetRelationshipSettingEntry.Response> pmGetRelationshipSettingEntry(
         io.dstore.engine.procedures.PmGetRelationshipSettingEntry.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetRelationshipSettingsAd.Response> pmGetRelationshipSettingsAd(
         io.dstore.engine.procedures.PmGetRelationshipSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmGetRelationshipsAd.Response> pmGetRelationshipsAd(
         io.dstore.engine.procedures.PmGetRelationshipsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmImportPersonDataAd.Response> pmImportPersonDataAd(
         io.dstore.engine.procedures.PmImportPersonDataAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmInsertNewPersonAd.Response> pmInsertNewPersonAd(
         io.dstore.engine.procedures.PmInsertNewPersonAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmInsertNewPersonPu.Response> pmInsertNewPersonPu(
         io.dstore.engine.procedures.PmInsertNewPersonPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyBinariesForPersonsAd.Response> pmModifyBinariesForPersonsAd(
         io.dstore.engine.procedures.PmModifyBinariesForPersonsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyBinariesForPersonsPu.Response> pmModifyBinariesForPersonsPu(
         io.dstore.engine.procedures.PmModifyBinariesForPersonsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyConditionsAd.Response> pmModifyConditionsAd(
         io.dstore.engine.procedures.PmModifyConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyGroupConditionsAd.Response> pmModifyGroupConditionsAd(
         io.dstore.engine.procedures.PmModifyGroupConditionsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyGroupsAd.Response> pmModifyGroupsAd(
         io.dstore.engine.procedures.PmModifyGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyLockedPersonTypesAd.Response> pmModifyLockedPersonTypesAd(
         io.dstore.engine.procedures.PmModifyLockedPersonTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPChAccResForGroupAd.Response> pmModifyPChAccResForGroupAd(
         io.dstore.engine.procedures.PmModifyPChAccResForGroupAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPChAccResForUserAd.Response> pmModifyPChAccResForUserAd(
         io.dstore.engine.procedures.PmModifyPChAccResForUserAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPeriodsForPredValsAd.Response> pmModifyPeriodsForPredValsAd(
         io.dstore.engine.procedures.PmModifyPeriodsForPredValsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonCharacCatsAd.Response> pmModifyPersonCharacCatsAd(
         io.dstore.engine.procedures.PmModifyPersonCharacCatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonCharacDescrAd.Response> pmModifyPersonCharacDescrAd(
         io.dstore.engine.procedures.PmModifyPersonCharacDescrAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonCharacsInCatAd.Response> pmModifyPersonCharacsInCatAd(
         io.dstore.engine.procedures.PmModifyPersonCharacsInCatAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonCharacsAd.Response> pmModifyPersonCharacsAd(
         io.dstore.engine.procedures.PmModifyPersonCharacsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonDataAd.Response> pmModifyPersonDataAd(
         io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonDataPu.Response> pmModifyPersonDataPu(
         io.dstore.engine.procedures.PmModifyPersonDataPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonDetailsAd.Response> pmModifyPersonDetailsAd(
         io.dstore.engine.procedures.PmModifyPersonDetailsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonDetailsPu.Response> pmModifyPersonDetailsPu(
         io.dstore.engine.procedures.PmModifyPersonDetailsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonPredefValsAd.Response> pmModifyPersonPredefValsAd(
         io.dstore.engine.procedures.PmModifyPersonPredefValsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonRelationshipAd.Response> pmModifyPersonRelationshipAd(
         io.dstore.engine.procedures.PmModifyPersonRelationshipAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonRelationshipPu.Response> pmModifyPersonRelationshipPu(
         io.dstore.engine.procedures.PmModifyPersonRelationshipPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonTypeSettingsAd.Response> pmModifyPersonTypeSettingsAd(
         io.dstore.engine.procedures.PmModifyPersonTypeSettingsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonTypesAd.Response> pmModifyPersonTypesAd(
         io.dstore.engine.procedures.PmModifyPersonTypesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyPersonsInGroupsAd.Response> pmModifyPersonsInGroupsAd(
         io.dstore.engine.procedures.PmModifyPersonsInGroupsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyRelationshipSettsAd.Response> pmModifyRelationshipSettsAd(
         io.dstore.engine.procedures.PmModifyRelationshipSettsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmModifyRelationshipsAd.Response> pmModifyRelationshipsAd(
         io.dstore.engine.procedures.PmModifyRelationshipsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmMovePersonCharacValueAd.Response> pmMovePersonCharacValueAd(
         io.dstore.engine.procedures.PmMovePersonCharacValueAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmPostleitzahlenZumOrtPu.Response> pmPostleitzahlenZumOrtPu(
         io.dstore.engine.procedures.PmPostleitzahlenZumOrtPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmPrioritizeARelationshipPu.Response> pmPrioritizeARelationshipPu(
         io.dstore.engine.procedures.PmPrioritizeARelationshipPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmRemoveDuplicateAd.Response> pmRemoveDuplicateAd(
         io.dstore.engine.procedures.PmRemoveDuplicateAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmRemovePossibleDuplicatesAd.Response> pmRemovePossibleDuplicatesAd(
         io.dstore.engine.procedures.PmRemovePossibleDuplicatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmSetPropertyOfOnePersonPu.Response> pmSetPropertyOfOnePersonPu(
         io.dstore.engine.procedures.PmSetPropertyOfOnePersonPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.PmUpdatePossibleDuplicatesAd.Response> pmUpdatePossibleDuplicatesAd(
         io.dstore.engine.procedures.PmUpdatePossibleDuplicatesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StCopyFromOLTPtoDSSAd.Response> stCopyFromOLTPtoDSSAd(
         io.dstore.engine.procedures.StCopyFromOLTPtoDSSAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetBasicCharacteristicsAd.Response> stGetBasicCharacteristicsAd(
         io.dstore.engine.procedures.StGetBasicCharacteristicsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetClickStreamAd.Response> stGetClickStreamAd(
         io.dstore.engine.procedures.StGetClickStreamAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Response> stGetDSSIndexFrequencyAd(
         io.dstore.engine.procedures.StGetDSSIndexFrequencyAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response> stGetDSSIndexTrendAd(
         io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response> stGetDirectSuccessorsTreeAd(
         io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetHTreeNodeStatisticsAd.Response> stGetHTreeNodeStatisticsAd(
         io.dstore.engine.procedures.StGetHTreeNodeStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPHStatisticsAd.Response> stGetPHStatisticsAd(
         io.dstore.engine.procedures.StGetPHStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPageCategoriesAd.Response> stGetPageCategoriesAd(
         io.dstore.engine.procedures.StGetPageCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPageVisitsAd.Response> stGetPageVisitsAd(
         io.dstore.engine.procedures.StGetPageVisitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPagesInCategoriesAd.Response> stGetPagesInCategoriesAd(
         io.dstore.engine.procedures.StGetPagesInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPagesAd.Response> stGetPagesAd(
         io.dstore.engine.procedures.StGetPagesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPeriodsToKeepStatsAd.Response> stGetPeriodsToKeepStatsAd(
         io.dstore.engine.procedures.StGetPeriodsToKeepStatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPersonPDStatisticsAd.Response> stGetPersonPDStatisticsAd(
         io.dstore.engine.procedures.StGetPersonPDStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetPersonPMStatisticsAd.Response> stGetPersonPMStatisticsAd(
         io.dstore.engine.procedures.StGetPersonPMStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetSalesByInformationAd.Response> stGetSalesByInformationAd(
         io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Response> stGetTreeNodePDStatisticsAd(
         io.dstore.engine.procedures.StGetTreeNodePDStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetTreeNodePMStatisticsAd.Response> stGetTreeNodePMStatisticsAd(
         io.dstore.engine.procedures.StGetTreeNodePMStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetTreeNodePWStatisticsAd.Response> stGetTreeNodePWStatisticsAd(
         io.dstore.engine.procedures.StGetTreeNodePWStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Response> stGetVisitorInfoStatisticsAd(
         io.dstore.engine.procedures.StGetVisitorInfoStatisticsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetVisitorInformationAd.Response> stGetVisitorInformationAd(
         io.dstore.engine.procedures.StGetVisitorInformationAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetVisitorPersonsAd.Response> stGetVisitorPersonsAd(
         io.dstore.engine.procedures.StGetVisitorPersonsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StGetVisitsAd.Response> stGetVisitsAd(
         io.dstore.engine.procedures.StGetVisitsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StInsertPageHitPu.Response> stInsertPageHitPu(
         io.dstore.engine.procedures.StInsertPageHitPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StInsertTreeNodeHitsPu.Response> stInsertTreeNodeHitsPu(
         io.dstore.engine.procedures.StInsertTreeNodeHitsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StLogPageVisitsPu.Response> stLogPageVisitsPu(
         io.dstore.engine.procedures.StLogPageVisitsPu.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StModifyPageCategoriesAd.Response> stModifyPageCategoriesAd(
         io.dstore.engine.procedures.StModifyPageCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StModifyPagesInCategoriesAd.Response> stModifyPagesInCategoriesAd(
         io.dstore.engine.procedures.StModifyPagesInCategoriesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StModifyPagesAd.Response> stModifyPagesAd(
         io.dstore.engine.procedures.StModifyPagesAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StModifyPeriodsToKeepStatsAd.Response> stModifyPeriodsToKeepStatsAd(
         io.dstore.engine.procedures.StModifyPeriodsToKeepStatsAd.Parameters request);
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.procedures.StUpdateStatisticsAd.Response> stUpdateStatisticsAd(
         io.dstore.engine.procedures.StUpdateStatisticsAd.Parameters request);
   }
 
+  /**
+   */
   public static interface EngineProcFutureClient {
   }
 
@@ -22643,6 +30182,7 @@ public class EngineProcGrpc {
       this.methodId = methodId;
     }
 
+    @java.lang.Override
     @java.lang.SuppressWarnings("unchecked")
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
@@ -25655,6 +33195,7 @@ public class EngineProcGrpc {
       }
     }
 
+    @java.lang.Override
     @java.lang.SuppressWarnings("unchecked")
     public io.grpc.stub.StreamObserver<Req> invoke(
         io.grpc.stub.StreamObserver<Resp> responseObserver) {

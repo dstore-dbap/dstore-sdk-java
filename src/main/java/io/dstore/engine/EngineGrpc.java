@@ -12,8 +12,14 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncServerStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncClientStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncBidiStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
+import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 
-@javax.annotation.Generated("by gRPC proto compiler")
+/**
+ */
+@javax.annotation.Generated(
+    value = "by gRPC proto compiler (version 0.14.0)",
+    comments = "Source: dstore/engine/engine.proto")
 public class EngineGrpc {
 
   private EngineGrpc() {}
@@ -40,35 +46,76 @@ public class EngineGrpc {
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
 
+  /**
+   * Creates a new async stub that supports all call types for the service
+   */
   public static EngineStub newStub(io.grpc.Channel channel) {
     return new EngineStub(channel);
   }
 
+  /**
+   * Creates a new blocking-style stub that supports unary and streaming output calls on the service
+   */
   public static EngineBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
     return new EngineBlockingStub(channel);
   }
 
+  /**
+   * Creates a new ListenableFuture-style stub that supports unary and streaming output calls on the service
+   */
   public static EngineFutureStub newFutureStub(
       io.grpc.Channel channel) {
     return new EngineFutureStub(channel);
   }
 
+  /**
+   */
   public static interface Engine {
 
+    /**
+     */
     public void execProcedure(io.dstore.engine.Procedure.Call request,
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
 
+    /**
+     */
     public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
   }
 
+  @io.grpc.ExperimentalApi
+  public static abstract class AbstractEngine implements Engine, io.grpc.BindableService {
+
+    @java.lang.Override
+    public void execProcedure(io.dstore.engine.Procedure.Call request,
+        io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_EXEC_PROCEDURE, responseObserver);
+    }
+
+    @java.lang.Override
+    public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
+        io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
+      return asyncUnimplementedStreamingCall(METHOD_EXEC_BATCH, responseObserver);
+    }
+
+    @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
+      return EngineGrpc.bindService(this);
+    }
+  }
+
+  /**
+   */
   public static interface EngineBlockingClient {
 
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
         io.dstore.engine.Procedure.Call request);
   }
 
+  /**
+   */
   public static interface EngineFutureClient {
   }
 
@@ -163,6 +210,7 @@ public class EngineGrpc {
       this.methodId = methodId;
     }
 
+    @java.lang.Override
     @java.lang.SuppressWarnings("unchecked")
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
@@ -175,6 +223,7 @@ public class EngineGrpc {
       }
     }
 
+    @java.lang.Override
     @java.lang.SuppressWarnings("unchecked")
     public io.grpc.stub.StreamObserver<Req> invoke(
         io.grpc.stub.StreamObserver<Resp> responseObserver) {
