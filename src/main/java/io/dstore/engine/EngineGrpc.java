@@ -45,6 +45,24 @@ public class EngineGrpc {
               "dstore.engine.Engine", "execBatch"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
+  @io.grpc.ExperimentalApi
+  public static final io.grpc.MethodDescriptor<io.dstore.Values.stringValue,
+      io.dstore.Values.stringValue> METHOD_CREATE_UNIQUE_ID =
+      io.grpc.MethodDescriptor.create(
+          io.grpc.MethodDescriptor.MethodType.UNARY,
+          generateFullMethodName(
+              "dstore.engine.Engine", "createUniqueID"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()));
+  @io.grpc.ExperimentalApi
+  public static final io.grpc.MethodDescriptor<io.dstore.Values.stringValue,
+      io.dstore.Values.booleanValue> METHOD_IS_VALID_UNIQUE_ID =
+      io.grpc.MethodDescriptor.create(
+          io.grpc.MethodDescriptor.MethodType.UNARY,
+          generateFullMethodName(
+              "dstore.engine.Engine", "isValidUniqueID"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.booleanValue.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -82,6 +100,16 @@ public class EngineGrpc {
      */
     public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
+
+    /**
+     */
+    public void createUniqueID(io.dstore.Values.stringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver);
+
+    /**
+     */
+    public void isValidUniqueID(io.dstore.Values.stringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver);
   }
 
   @io.grpc.ExperimentalApi
@@ -99,6 +127,18 @@ public class EngineGrpc {
       return asyncUnimplementedStreamingCall(METHOD_EXEC_BATCH, responseObserver);
     }
 
+    @java.lang.Override
+    public void createUniqueID(io.dstore.Values.stringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_CREATE_UNIQUE_ID, responseObserver);
+    }
+
+    @java.lang.Override
+    public void isValidUniqueID(io.dstore.Values.stringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_IS_VALID_UNIQUE_ID, responseObserver);
+    }
+
     @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
       return EngineGrpc.bindService(this);
     }
@@ -112,11 +152,29 @@ public class EngineGrpc {
      */
     public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
         io.dstore.engine.Procedure.Call request);
+
+    /**
+     */
+    public io.dstore.Values.stringValue createUniqueID(io.dstore.Values.stringValue request);
+
+    /**
+     */
+    public io.dstore.Values.booleanValue isValidUniqueID(io.dstore.Values.stringValue request);
   }
 
   /**
    */
   public static interface EngineFutureClient {
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.stringValue> createUniqueID(
+        io.dstore.Values.stringValue request);
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.booleanValue> isValidUniqueID(
+        io.dstore.Values.stringValue request);
   }
 
   public static class EngineStub extends io.grpc.stub.AbstractStub<EngineStub>
@@ -149,6 +207,20 @@ public class EngineGrpc {
       return asyncBidiStreamingCall(
           getChannel().newCall(METHOD_EXEC_BATCH, getCallOptions()), responseObserver);
     }
+
+    @java.lang.Override
+    public void createUniqueID(io.dstore.Values.stringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(METHOD_CREATE_UNIQUE_ID, getCallOptions()), request, responseObserver);
+    }
+
+    @java.lang.Override
+    public void isValidUniqueID(io.dstore.Values.stringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(METHOD_IS_VALID_UNIQUE_ID, getCallOptions()), request, responseObserver);
+    }
   }
 
   public static class EngineBlockingStub extends io.grpc.stub.AbstractStub<EngineBlockingStub>
@@ -174,6 +246,18 @@ public class EngineGrpc {
       return blockingServerStreamingCall(
           getChannel(), METHOD_EXEC_PROCEDURE, getCallOptions(), request);
     }
+
+    @java.lang.Override
+    public io.dstore.Values.stringValue createUniqueID(io.dstore.Values.stringValue request) {
+      return blockingUnaryCall(
+          getChannel(), METHOD_CREATE_UNIQUE_ID, getCallOptions(), request);
+    }
+
+    @java.lang.Override
+    public io.dstore.Values.booleanValue isValidUniqueID(io.dstore.Values.stringValue request) {
+      return blockingUnaryCall(
+          getChannel(), METHOD_IS_VALID_UNIQUE_ID, getCallOptions(), request);
+    }
   }
 
   public static class EngineFutureStub extends io.grpc.stub.AbstractStub<EngineFutureStub>
@@ -192,10 +276,26 @@ public class EngineGrpc {
         io.grpc.CallOptions callOptions) {
       return new EngineFutureStub(channel, callOptions);
     }
+
+    @java.lang.Override
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.stringValue> createUniqueID(
+        io.dstore.Values.stringValue request) {
+      return futureUnaryCall(
+          getChannel().newCall(METHOD_CREATE_UNIQUE_ID, getCallOptions()), request);
+    }
+
+    @java.lang.Override
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.booleanValue> isValidUniqueID(
+        io.dstore.Values.stringValue request) {
+      return futureUnaryCall(
+          getChannel().newCall(METHOD_IS_VALID_UNIQUE_ID, getCallOptions()), request);
+    }
   }
 
   private static final int METHODID_EXEC_PROCEDURE = 0;
-  private static final int METHODID_EXEC_BATCH = 1;
+  private static final int METHODID_CREATE_UNIQUE_ID = 1;
+  private static final int METHODID_IS_VALID_UNIQUE_ID = 2;
+  private static final int METHODID_EXEC_BATCH = 3;
 
   private static class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -217,6 +317,14 @@ public class EngineGrpc {
         case METHODID_EXEC_PROCEDURE:
           serviceImpl.execProcedure((io.dstore.engine.Procedure.Call) request,
               (io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response>) responseObserver);
+          break;
+        case METHODID_CREATE_UNIQUE_ID:
+          serviceImpl.createUniqueID((io.dstore.Values.stringValue) request,
+              (io.grpc.stub.StreamObserver<io.dstore.Values.stringValue>) responseObserver);
+          break;
+        case METHODID_IS_VALID_UNIQUE_ID:
+          serviceImpl.isValidUniqueID((io.dstore.Values.stringValue) request,
+              (io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -254,6 +362,20 @@ public class EngineGrpc {
               io.dstore.engine.Procedure.Call,
               io.dstore.engine.Procedure.Response>(
                 serviceImpl, METHODID_EXEC_BATCH)))
+        .addMethod(
+          METHOD_CREATE_UNIQUE_ID,
+          asyncUnaryCall(
+            new MethodHandlers<
+              io.dstore.Values.stringValue,
+              io.dstore.Values.stringValue>(
+                serviceImpl, METHODID_CREATE_UNIQUE_ID)))
+        .addMethod(
+          METHOD_IS_VALID_UNIQUE_ID,
+          asyncUnaryCall(
+            new MethodHandlers<
+              io.dstore.Values.stringValue,
+              io.dstore.Values.booleanValue>(
+                serviceImpl, METHODID_IS_VALID_UNIQUE_ID)))
         .build();
   }
 }
