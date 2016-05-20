@@ -1336,7 +1336,32 @@ public final class OmGetSurchargesPu {
       io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+       *
+       * <pre>
+       * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+       * </pre>
+       */
+      boolean hasBrutto();
+      /**
+       * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+       *
+       * <pre>
+       * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+       * </pre>
+       */
+      io.dstore.Values.booleanValue getBrutto();
+      /**
+       * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+       *
+       * <pre>
+       * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+       * </pre>
+       */
+      io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.integerValue node_id = 10004;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -1344,7 +1369,7 @@ public final class OmGetSurchargesPu {
        */
       boolean hasNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10004;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -1352,7 +1377,7 @@ public final class OmGetSurchargesPu {
        */
       io.dstore.Values.integerValue getNodeId();
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10004;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -1361,7 +1386,7 @@ public final class OmGetSurchargesPu {
       io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -1369,7 +1394,7 @@ public final class OmGetSurchargesPu {
        */
       boolean hasUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -1377,7 +1402,7 @@ public final class OmGetSurchargesPu {
        */
       io.dstore.Values.stringValue getUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -1386,7 +1411,7 @@ public final class OmGetSurchargesPu {
       io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1394,7 +1419,7 @@ public final class OmGetSurchargesPu {
        */
       boolean hasSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1402,7 +1427,7 @@ public final class OmGetSurchargesPu {
        */
       io.dstore.Values.stringValue getSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1411,7 +1436,7 @@ public final class OmGetSurchargesPu {
       io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
        *
        * <pre>
        * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -1419,7 +1444,7 @@ public final class OmGetSurchargesPu {
        */
       boolean hasSurchargeValue();
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
        *
        * <pre>
        * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -1427,7 +1452,7 @@ public final class OmGetSurchargesPu {
        */
       io.dstore.Values.decimalValue getSurchargeValue();
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
        *
        * <pre>
        * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -1436,7 +1461,7 @@ public final class OmGetSurchargesPu {
       io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
        *
        * <pre>
        * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -1444,7 +1469,7 @@ public final class OmGetSurchargesPu {
        */
       boolean hasSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
        *
        * <pre>
        * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -1452,7 +1477,7 @@ public final class OmGetSurchargesPu {
        */
       io.dstore.Values.integerValue getSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
        *
        * <pre>
        * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -1531,6 +1556,19 @@ public final class OmGetSurchargesPu {
                 break;
               }
               case 80026: {
+                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                if (brutto_ != null) {
+                  subBuilder = brutto_.toBuilder();
+                }
+                brutto_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(brutto_);
+                  brutto_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 80034: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
@@ -1543,7 +1581,7 @@ public final class OmGetSurchargesPu {
 
                 break;
               }
-              case 80034: {
+              case 80042: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
@@ -1556,7 +1594,7 @@ public final class OmGetSurchargesPu {
 
                 break;
               }
-              case 80042: {
+              case 80050: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
@@ -1569,7 +1607,7 @@ public final class OmGetSurchargesPu {
 
                 break;
               }
-              case 80050: {
+              case 80058: {
                 io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
@@ -1582,7 +1620,7 @@ public final class OmGetSurchargesPu {
 
                 break;
               }
-              case 80058: {
+              case 80066: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
@@ -1694,10 +1732,43 @@ public final class OmGetSurchargesPu {
         return getUnitId();
       }
 
-      public static final int NODE_ID_FIELD_NUMBER = 10003;
+      public static final int BRUTTO_FIELD_NUMBER = 10003;
+      private io.dstore.Values.booleanValue brutto_;
+      /**
+       * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+       *
+       * <pre>
+       * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+       * </pre>
+       */
+      public boolean hasBrutto() {
+        return brutto_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+       *
+       * <pre>
+       * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+       * </pre>
+       */
+      public io.dstore.Values.booleanValue getBrutto() {
+        return brutto_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
+      }
+      /**
+       * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+       *
+       * <pre>
+       * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+       * </pre>
+       */
+      public io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder() {
+        return getBrutto();
+      }
+
+      public static final int NODE_ID_FIELD_NUMBER = 10004;
       private io.dstore.Values.integerValue nodeId_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10004;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -1707,7 +1778,7 @@ public final class OmGetSurchargesPu {
         return nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10004;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -1717,7 +1788,7 @@ public final class OmGetSurchargesPu {
         return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.integerValue node_id = 10004;</code>
        *
        * <pre>
        * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -1727,10 +1798,10 @@ public final class OmGetSurchargesPu {
         return getNodeId();
       }
 
-      public static final int UNIT_SYMBOL_FIELD_NUMBER = 10004;
+      public static final int UNIT_SYMBOL_FIELD_NUMBER = 10005;
       private io.dstore.Values.stringValue unitSymbol_;
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -1740,7 +1811,7 @@ public final class OmGetSurchargesPu {
         return unitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -1750,7 +1821,7 @@ public final class OmGetSurchargesPu {
         return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+       * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -1760,10 +1831,10 @@ public final class OmGetSurchargesPu {
         return getUnitSymbol();
       }
 
-      public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10005;
+      public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10006;
       private io.dstore.Values.stringValue surchargeTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1773,7 +1844,7 @@ public final class OmGetSurchargesPu {
         return surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1783,7 +1854,7 @@ public final class OmGetSurchargesPu {
         return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1793,10 +1864,10 @@ public final class OmGetSurchargesPu {
         return getSurchargeTypeDescription();
       }
 
-      public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10006;
+      public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10007;
       private io.dstore.Values.decimalValue surchargeValue_;
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
        *
        * <pre>
        * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -1806,7 +1877,7 @@ public final class OmGetSurchargesPu {
         return surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
        *
        * <pre>
        * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -1816,7 +1887,7 @@ public final class OmGetSurchargesPu {
         return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
        *
        * <pre>
        * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -1826,10 +1897,10 @@ public final class OmGetSurchargesPu {
         return getSurchargeValue();
       }
 
-      public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10007;
+      public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10008;
       private io.dstore.Values.integerValue surchargeTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
        *
        * <pre>
        * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -1839,7 +1910,7 @@ public final class OmGetSurchargesPu {
         return surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
        *
        * <pre>
        * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -1849,7 +1920,7 @@ public final class OmGetSurchargesPu {
         return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
        *
        * <pre>
        * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -1880,20 +1951,23 @@ public final class OmGetSurchargesPu {
         if (unitId_ != null) {
           output.writeMessage(10002, getUnitId());
         }
+        if (brutto_ != null) {
+          output.writeMessage(10003, getBrutto());
+        }
         if (nodeId_ != null) {
-          output.writeMessage(10003, getNodeId());
+          output.writeMessage(10004, getNodeId());
         }
         if (unitSymbol_ != null) {
-          output.writeMessage(10004, getUnitSymbol());
+          output.writeMessage(10005, getUnitSymbol());
         }
         if (surchargeTypeDescription_ != null) {
-          output.writeMessage(10005, getSurchargeTypeDescription());
+          output.writeMessage(10006, getSurchargeTypeDescription());
         }
         if (surchargeValue_ != null) {
-          output.writeMessage(10006, getSurchargeValue());
+          output.writeMessage(10007, getSurchargeValue());
         }
         if (surchargeTypeId_ != null) {
-          output.writeMessage(10007, getSurchargeTypeId());
+          output.writeMessage(10008, getSurchargeTypeId());
         }
       }
 
@@ -1914,25 +1988,29 @@ public final class OmGetSurchargesPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10002, getUnitId());
         }
+        if (brutto_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10003, getBrutto());
+        }
         if (nodeId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10003, getNodeId());
+            .computeMessageSize(10004, getNodeId());
         }
         if (unitSymbol_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10004, getUnitSymbol());
+            .computeMessageSize(10005, getUnitSymbol());
         }
         if (surchargeTypeDescription_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10005, getSurchargeTypeDescription());
+            .computeMessageSize(10006, getSurchargeTypeDescription());
         }
         if (surchargeValue_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10006, getSurchargeValue());
+            .computeMessageSize(10007, getSurchargeValue());
         }
         if (surchargeTypeId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10007, getSurchargeTypeId());
+            .computeMessageSize(10008, getSurchargeTypeId());
         }
         memoizedSize = size;
         return size;
@@ -2059,6 +2137,12 @@ public final class OmGetSurchargesPu {
             unitId_ = null;
             unitIdBuilder_ = null;
           }
+          if (bruttoBuilder_ == null) {
+            brutto_ = null;
+          } else {
+            brutto_ = null;
+            bruttoBuilder_ = null;
+          }
           if (nodeIdBuilder_ == null) {
             nodeId_ = null;
           } else {
@@ -2122,6 +2206,11 @@ public final class OmGetSurchargesPu {
           } else {
             result.unitId_ = unitIdBuilder_.build();
           }
+          if (bruttoBuilder_ == null) {
+            result.brutto_ = brutto_;
+          } else {
+            result.brutto_ = bruttoBuilder_.build();
+          }
           if (nodeIdBuilder_ == null) {
             result.nodeId_ = nodeId_;
           } else {
@@ -2170,6 +2259,9 @@ public final class OmGetSurchargesPu {
           }
           if (other.hasUnitId()) {
             mergeUnitId(other.getUnitId());
+          }
+          if (other.hasBrutto()) {
+            mergeBrutto(other.getBrutto());
           }
           if (other.hasNodeId()) {
             mergeNodeId(other.getNodeId());
@@ -2544,11 +2636,164 @@ public final class OmGetSurchargesPu {
           return unitIdBuilder_;
         }
 
+        private io.dstore.Values.booleanValue brutto_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bruttoBuilder_;
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public boolean hasBrutto() {
+          return bruttoBuilder_ != null || brutto_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public io.dstore.Values.booleanValue getBrutto() {
+          if (bruttoBuilder_ == null) {
+            return brutto_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
+          } else {
+            return bruttoBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public Builder setBrutto(io.dstore.Values.booleanValue value) {
+          if (bruttoBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            brutto_ = value;
+            onChanged();
+          } else {
+            bruttoBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public Builder setBrutto(
+            io.dstore.Values.booleanValue.Builder builderForValue) {
+          if (bruttoBuilder_ == null) {
+            brutto_ = builderForValue.build();
+            onChanged();
+          } else {
+            bruttoBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public Builder mergeBrutto(io.dstore.Values.booleanValue value) {
+          if (bruttoBuilder_ == null) {
+            if (brutto_ != null) {
+              brutto_ =
+                io.dstore.Values.booleanValue.newBuilder(brutto_).mergeFrom(value).buildPartial();
+            } else {
+              brutto_ = value;
+            }
+            onChanged();
+          } else {
+            bruttoBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public Builder clearBrutto() {
+          if (bruttoBuilder_ == null) {
+            brutto_ = null;
+            onChanged();
+          } else {
+            brutto_ = null;
+            bruttoBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public io.dstore.Values.booleanValue.Builder getBruttoBuilder() {
+          
+          onChanged();
+          return getBruttoFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        public io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder() {
+          if (bruttoBuilder_ != null) {
+            return bruttoBuilder_.getMessageOrBuilder();
+          } else {
+            return brutto_ == null ?
+                io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
+         *
+         * <pre>
+         * Dieser Wert hat nur Bedeutung, wenn "Relative = 0" ist. Er gibt an, ob "SurchargeValue" als Brutto- oder Nettobetrag zu verstehen ist.
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            getBruttoFieldBuilder() {
+          if (bruttoBuilder_ == null) {
+            bruttoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                    getBrutto(),
+                    getParentForChildren(),
+                    isClean());
+            brutto_ = null;
+          }
+          return bruttoBuilder_;
+        }
+
         private io.dstore.Values.integerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2558,7 +2803,7 @@ public final class OmGetSurchargesPu {
           return nodeIdBuilder_ != null || nodeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2572,7 +2817,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2592,7 +2837,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2610,7 +2855,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2632,7 +2877,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2650,7 +2895,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2662,7 +2907,7 @@ public final class OmGetSurchargesPu {
           return getNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2677,7 +2922,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          *
          * <pre>
          * ID eines Artikel-Elementes, auf das sich der Rabatt/-Aufschlag "SurchargeValue" zur "Surcharge"-Art "SurchargeTypeID" für die Person "&#64;PersonID" bezieht (ein Element also, daß in "&#64;NodeIDs" angegeben wurde)
@@ -2701,7 +2946,7 @@ public final class OmGetSurchargesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2711,7 +2956,7 @@ public final class OmGetSurchargesPu {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2725,7 +2970,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2745,7 +2990,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2763,7 +3008,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2785,7 +3030,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2803,7 +3048,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2815,7 +3060,7 @@ public final class OmGetSurchargesPu {
           return getUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2830,7 +3075,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue unit_symbol = 10004;</code>
+         * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "UnitID"
@@ -2854,7 +3099,7 @@ public final class OmGetSurchargesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2864,7 +3109,7 @@ public final class OmGetSurchargesPu {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2878,7 +3123,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2898,7 +3143,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2916,7 +3161,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2938,7 +3183,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2956,7 +3201,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2968,7 +3213,7 @@ public final class OmGetSurchargesPu {
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -2983,7 +3228,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -3007,7 +3252,7 @@ public final class OmGetSurchargesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3017,7 +3262,7 @@ public final class OmGetSurchargesPu {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3031,7 +3276,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3051,7 +3296,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3069,7 +3314,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3091,7 +3336,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3109,7 +3354,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3121,7 +3366,7 @@ public final class OmGetSurchargesPu {
           return getSurchargeValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3136,7 +3381,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          *
          * <pre>
          * Der Wert (also der konkrete Rabatt/Aufschlag) der für das Element "NodeID" zur Person "&#64;PersonID" hinterlegt ist
@@ -3160,7 +3405,7 @@ public final class OmGetSurchargesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3170,7 +3415,7 @@ public final class OmGetSurchargesPu {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3184,7 +3429,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3204,7 +3449,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3222,7 +3467,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3244,7 +3489,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3262,7 +3507,7 @@ public final class OmGetSurchargesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3274,7 +3519,7 @@ public final class OmGetSurchargesPu {
           return getSurchargeTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -3289,7 +3534,7 @@ public final class OmGetSurchargesPu {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          *
          * <pre>
          * ID einer Aufschlags/Rabatt-Art (wie z.B. "Sonder-Rabatt" o.ä.), auf das sich "SurchargeValue" bezieht
@@ -4878,24 +5123,25 @@ public final class OmGetSurchargesPu {
       "\351\007 \001(\010\0220\n\013currency_id\030\002 \001(\0132\033.dstore.val" +
       "ues.integerValue\022\031\n\020currency_id_null\030\352\007 " +
       "\001(\010\022.\n\tperson_id\030\003 \001(\0132\033.dstore.values.i",
-      "ntegerValue\022\027\n\016person_id_null\030\353\007 \001(\010\"\370\004\n" +
+      "ntegerValue\022\027\n\016person_id_null\030\353\007 \001(\010\"\246\005\n" +
       "\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine" +
       ".error.Error\022H\n\020meta_information\030\002 \003(\0132." +
       ".dstore.engine.metainformation.MetaInfor" +
       "mation\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
       "message.Message\022<\n\003row\030\004 \003(\0132/.dstore.en" +
-      "gine.om_GetSurcharges_Pu.Response.Row\032\207\003" +
+      "gine.om_GetSurcharges_Pu.Response.Row\032\265\003" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n\010relative\030\221N \001(" +
       "\0132\033.dstore.values.booleanValue\022-\n\007unit_i" +
-      "d\030\222N \001(\0132\033.dstore.values.integerValue\022-\n",
-      "\007node_id\030\223N \001(\0132\033.dstore.values.integerV" +
-      "alue\0220\n\013unit_symbol\030\224N \001(\0132\032.dstore.valu" +
-      "es.stringValue\022?\n\032surcharge_type_descrip" +
-      "tion\030\225N \001(\0132\032.dstore.values.stringValue\022" +
-      "5\n\017surcharge_value\030\226N \001(\0132\033.dstore.value" +
-      "s.decimalValue\0227\n\021surcharge_type_id\030\227N \001" +
-      "(\0132\033.dstore.values.integerValueB\035\n\033io.ds" +
-      "tore.engine.proceduresb\006proto3"
+      "d\030\222N \001(\0132\033.dstore.values.integerValue\022,\n",
+      "\006brutto\030\223N \001(\0132\033.dstore.values.booleanVa" +
+      "lue\022-\n\007node_id\030\224N \001(\0132\033.dstore.values.in" +
+      "tegerValue\0220\n\013unit_symbol\030\225N \001(\0132\032.dstor" +
+      "e.values.stringValue\022?\n\032surcharge_type_d" +
+      "escription\030\226N \001(\0132\032.dstore.values.string" +
+      "Value\0225\n\017surcharge_value\030\227N \001(\0132\033.dstore" +
+      ".values.decimalValue\0227\n\021surcharge_type_i" +
+      "d\030\230N \001(\0132\033.dstore.values.integerValueB\035\n" +
+      "\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4930,7 +5176,7 @@ public final class OmGetSurchargesPu {
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "Relative", "UnitId", "NodeId", "UnitSymbol", "SurchargeTypeDescription", "SurchargeValue", "SurchargeTypeId", });
+        new java.lang.String[] { "RowId", "Relative", "UnitId", "Brutto", "NodeId", "UnitSymbol", "SurchargeTypeDescription", "SurchargeValue", "SurchargeTypeId", });
     io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();

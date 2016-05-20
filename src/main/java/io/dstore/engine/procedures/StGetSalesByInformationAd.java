@@ -2531,6 +2531,31 @@ public final class StGetSalesByInformationAd {
       io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
 
       /**
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       *
+       * <pre>
+       * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+       * </pre>
+       */
+      boolean hasNettoOrderSales();
+      /**
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       *
+       * <pre>
+       * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getNettoOrderSales();
+      /**
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       *
+       * <pre>
+       * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder();
+
+      /**
        * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
        *
        * <pre>
@@ -2581,7 +2606,32 @@ public final class StGetSalesByInformationAd {
       io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       *
+       * <pre>
+       * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+       * </pre>
+       */
+      boolean hasNettoSum();
+      /**
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       *
+       * <pre>
+       * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getNettoSum();
+      /**
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       *
+       * <pre>
+       * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -2589,7 +2639,7 @@ public final class StGetSalesByInformationAd {
        */
       boolean hasOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -2597,7 +2647,7 @@ public final class StGetSalesByInformationAd {
        */
       io.dstore.Values.integerValue getOrderId();
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -2662,6 +2712,19 @@ public final class StGetSalesByInformationAd {
 
                 break;
               }
+              case 80018: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (nettoOrderSales_ != null) {
+                  subBuilder = nettoOrderSales_.toBuilder();
+                }
+                nettoOrderSales_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(nettoOrderSales_);
+                  nettoOrderSales_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
               case 160010: {
                 io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (orderDateAndTime_ != null) {
@@ -2688,7 +2751,20 @@ public final class StGetSalesByInformationAd {
 
                 break;
               }
-              case 160034: {
+              case 160026: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (nettoSum_ != null) {
+                  subBuilder = nettoSum_.toBuilder();
+                }
+                nettoSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(nettoSum_);
+                  nettoSum_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 160042: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (orderId_ != null) {
                   subBuilder = orderId_.toBuilder();
@@ -2767,6 +2843,39 @@ public final class StGetSalesByInformationAd {
         return getInformation();
       }
 
+      public static final int NETTO_ORDER_SALES_FIELD_NUMBER = 10002;
+      private io.dstore.Values.decimalValue nettoOrderSales_;
+      /**
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       *
+       * <pre>
+       * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+       * </pre>
+       */
+      public boolean hasNettoOrderSales() {
+        return nettoOrderSales_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       *
+       * <pre>
+       * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getNettoOrderSales() {
+        return nettoOrderSales_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       *
+       * <pre>
+       * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder() {
+        return getNettoOrderSales();
+      }
+
       public static final int ORDER_DATE_AND_TIME_FIELD_NUMBER = 20001;
       private io.dstore.Values.timestampValue orderDateAndTime_;
       /**
@@ -2833,10 +2942,43 @@ public final class StGetSalesByInformationAd {
         return getPersonId();
       }
 
-      public static final int ORDER_ID_FIELD_NUMBER = 20004;
+      public static final int NETTO_SUM_FIELD_NUMBER = 20003;
+      private io.dstore.Values.decimalValue nettoSum_;
+      /**
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       *
+       * <pre>
+       * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+       * </pre>
+       */
+      public boolean hasNettoSum() {
+        return nettoSum_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       *
+       * <pre>
+       * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getNettoSum() {
+        return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       *
+       * <pre>
+       * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
+        return getNettoSum();
+      }
+
+      public static final int ORDER_ID_FIELD_NUMBER = 20005;
       private io.dstore.Values.integerValue orderId_;
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -2846,7 +2988,7 @@ public final class StGetSalesByInformationAd {
         return orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -2856,7 +2998,7 @@ public final class StGetSalesByInformationAd {
         return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
        *
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -2884,14 +3026,20 @@ public final class StGetSalesByInformationAd {
         if (information_ != null) {
           output.writeMessage(10001, getInformation());
         }
+        if (nettoOrderSales_ != null) {
+          output.writeMessage(10002, getNettoOrderSales());
+        }
         if (orderDateAndTime_ != null) {
           output.writeMessage(20001, getOrderDateAndTime());
         }
         if (personId_ != null) {
           output.writeMessage(20002, getPersonId());
         }
+        if (nettoSum_ != null) {
+          output.writeMessage(20003, getNettoSum());
+        }
         if (orderId_ != null) {
-          output.writeMessage(20004, getOrderId());
+          output.writeMessage(20005, getOrderId());
         }
       }
 
@@ -2908,6 +3056,10 @@ public final class StGetSalesByInformationAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10001, getInformation());
         }
+        if (nettoOrderSales_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10002, getNettoOrderSales());
+        }
         if (orderDateAndTime_ != null) {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20001, getOrderDateAndTime());
@@ -2916,9 +3068,13 @@ public final class StGetSalesByInformationAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20002, getPersonId());
         }
+        if (nettoSum_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(20003, getNettoSum());
+        }
         if (orderId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(20004, getOrderId());
+            .computeMessageSize(20005, getOrderId());
         }
         memoizedSize = size;
         return size;
@@ -3039,6 +3195,12 @@ public final class StGetSalesByInformationAd {
             information_ = null;
             informationBuilder_ = null;
           }
+          if (nettoOrderSalesBuilder_ == null) {
+            nettoOrderSales_ = null;
+          } else {
+            nettoOrderSales_ = null;
+            nettoOrderSalesBuilder_ = null;
+          }
           if (orderDateAndTimeBuilder_ == null) {
             orderDateAndTime_ = null;
           } else {
@@ -3050,6 +3212,12 @@ public final class StGetSalesByInformationAd {
           } else {
             personId_ = null;
             personIdBuilder_ = null;
+          }
+          if (nettoSumBuilder_ == null) {
+            nettoSum_ = null;
+          } else {
+            nettoSum_ = null;
+            nettoSumBuilder_ = null;
           }
           if (orderIdBuilder_ == null) {
             orderId_ = null;
@@ -3085,6 +3253,11 @@ public final class StGetSalesByInformationAd {
           } else {
             result.information_ = informationBuilder_.build();
           }
+          if (nettoOrderSalesBuilder_ == null) {
+            result.nettoOrderSales_ = nettoOrderSales_;
+          } else {
+            result.nettoOrderSales_ = nettoOrderSalesBuilder_.build();
+          }
           if (orderDateAndTimeBuilder_ == null) {
             result.orderDateAndTime_ = orderDateAndTime_;
           } else {
@@ -3094,6 +3267,11 @@ public final class StGetSalesByInformationAd {
             result.personId_ = personId_;
           } else {
             result.personId_ = personIdBuilder_.build();
+          }
+          if (nettoSumBuilder_ == null) {
+            result.nettoSum_ = nettoSum_;
+          } else {
+            result.nettoSum_ = nettoSumBuilder_.build();
           }
           if (orderIdBuilder_ == null) {
             result.orderId_ = orderId_;
@@ -3121,11 +3299,17 @@ public final class StGetSalesByInformationAd {
           if (other.hasInformation()) {
             mergeInformation(other.getInformation());
           }
+          if (other.hasNettoOrderSales()) {
+            mergeNettoOrderSales(other.getNettoOrderSales());
+          }
           if (other.hasOrderDateAndTime()) {
             mergeOrderDateAndTime(other.getOrderDateAndTime());
           }
           if (other.hasPersonId()) {
             mergePersonId(other.getPersonId());
+          }
+          if (other.hasNettoSum()) {
+            mergeNettoSum(other.getNettoSum());
           }
           if (other.hasOrderId()) {
             mergeOrderId(other.getOrderId());
@@ -3333,6 +3517,159 @@ public final class StGetSalesByInformationAd {
             information_ = null;
           }
           return informationBuilder_;
+        }
+
+        private io.dstore.Values.decimalValue nettoOrderSales_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoOrderSalesBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public boolean hasNettoOrderSales() {
+          return nettoOrderSalesBuilder_ != null || nettoOrderSales_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getNettoOrderSales() {
+          if (nettoOrderSalesBuilder_ == null) {
+            return nettoOrderSales_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
+          } else {
+            return nettoOrderSalesBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public Builder setNettoOrderSales(io.dstore.Values.decimalValue value) {
+          if (nettoOrderSalesBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            nettoOrderSales_ = value;
+            onChanged();
+          } else {
+            nettoOrderSalesBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public Builder setNettoOrderSales(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (nettoOrderSalesBuilder_ == null) {
+            nettoOrderSales_ = builderForValue.build();
+            onChanged();
+          } else {
+            nettoOrderSalesBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public Builder mergeNettoOrderSales(io.dstore.Values.decimalValue value) {
+          if (nettoOrderSalesBuilder_ == null) {
+            if (nettoOrderSales_ != null) {
+              nettoOrderSales_ =
+                io.dstore.Values.decimalValue.newBuilder(nettoOrderSales_).mergeFrom(value).buildPartial();
+            } else {
+              nettoOrderSales_ = value;
+            }
+            onChanged();
+          } else {
+            nettoOrderSalesBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public Builder clearNettoOrderSales() {
+          if (nettoOrderSalesBuilder_ == null) {
+            nettoOrderSales_ = null;
+            onChanged();
+          } else {
+            nettoOrderSales_ = null;
+            nettoOrderSalesBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getNettoOrderSalesBuilder() {
+          
+          onChanged();
+          return getNettoOrderSalesFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder() {
+          if (nettoOrderSalesBuilder_ != null) {
+            return nettoOrderSalesBuilder_.getMessageOrBuilder();
+          } else {
+            return nettoOrderSales_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         *
+         * <pre>
+         * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getNettoOrderSalesFieldBuilder() {
+          if (nettoOrderSalesBuilder_ == null) {
+            nettoOrderSalesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getNettoOrderSales(),
+                    getParentForChildren(),
+                    isClean());
+            nettoOrderSales_ = null;
+          }
+          return nettoOrderSalesBuilder_;
         }
 
         private io.dstore.Values.timestampValue orderDateAndTime_ = null;
@@ -3641,11 +3978,164 @@ public final class StGetSalesByInformationAd {
           return personIdBuilder_;
         }
 
+        private io.dstore.Values.decimalValue nettoSum_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoSumBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public boolean hasNettoSum() {
+          return nettoSumBuilder_ != null || nettoSum_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getNettoSum() {
+          if (nettoSumBuilder_ == null) {
+            return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+          } else {
+            return nettoSumBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public Builder setNettoSum(io.dstore.Values.decimalValue value) {
+          if (nettoSumBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            nettoSum_ = value;
+            onChanged();
+          } else {
+            nettoSumBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public Builder setNettoSum(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (nettoSumBuilder_ == null) {
+            nettoSum_ = builderForValue.build();
+            onChanged();
+          } else {
+            nettoSumBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public Builder mergeNettoSum(io.dstore.Values.decimalValue value) {
+          if (nettoSumBuilder_ == null) {
+            if (nettoSum_ != null) {
+              nettoSum_ =
+                io.dstore.Values.decimalValue.newBuilder(nettoSum_).mergeFrom(value).buildPartial();
+            } else {
+              nettoSum_ = value;
+            }
+            onChanged();
+          } else {
+            nettoSumBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public Builder clearNettoSum() {
+          if (nettoSumBuilder_ == null) {
+            nettoSum_ = null;
+            onChanged();
+          } else {
+            nettoSum_ = null;
+            nettoSumBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getNettoSumBuilder() {
+          
+          onChanged();
+          return getNettoSumFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
+          if (nettoSumBuilder_ != null) {
+            return nettoSumBuilder_.getMessageOrBuilder();
+          } else {
+            return nettoSum_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         *
+         * <pre>
+         * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getNettoSumFieldBuilder() {
+          if (nettoSumBuilder_ == null) {
+            nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getNettoSum(),
+                    getParentForChildren(),
+                    isClean());
+            nettoSum_ = null;
+          }
+          return nettoSumBuilder_;
+        }
+
         private io.dstore.Values.integerValue orderId_ = null;
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3655,7 +4145,7 @@ public final class StGetSalesByInformationAd {
           return orderIdBuilder_ != null || orderId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3669,7 +4159,7 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3689,7 +4179,7 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3707,7 +4197,7 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3729,7 +4219,7 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3747,7 +4237,7 @@ public final class StGetSalesByInformationAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3759,7 +4249,7 @@ public final class StGetSalesByInformationAd {
           return getOrderIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -3774,7 +4264,7 @@ public final class StGetSalesByInformationAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue order_id = 20004;</code>
+         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          *
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
@@ -5376,20 +5866,22 @@ public final class StGetSalesByInformationAd {
       "ues.stringValue\022\031\n\020information_null\030\357\007 \001" +
       "(\010\0223\n\016purchase_order\030\010 \001(\0132\033.dstore.valu" +
       "es.booleanValue\022\034\n\023purchase_order_null\030\360" +
-      "\007 \001(\010\"\343\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
+      "\007 \001(\010\"\316\004\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
       "re.engine.error.Error\022H\n\020meta_informatio" +
       "n\030\002 \003(\0132..dstore.engine.metainformation." +
       "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor" +
       "e.engine.message.Message\022E\n\003row\030\004 \003(\01328." +
       "dstore.engine.st_GetSales_ByInformation_" +
-      "Ad.Response.Row\032\351\001\n\003Row\022\017\n\006row_id\030\220N \001(\005",
+      "Ad.Response.Row\032\324\002\n\003Row\022\017\n\006row_id\030\220N \001(\005",
       "\0220\n\013information\030\221N \001(\0132\032.dstore.values.s" +
-      "tringValue\022<\n\023order_date_and_time\030\241\234\001 \001(" +
-      "\0132\035.dstore.values.timestampValue\0220\n\tpers" +
-      "on_id\030\242\234\001 \001(\0132\033.dstore.values.integerVal" +
-      "ue\022/\n\010order_id\030\244\234\001 \001(\0132\033.dstore.values.i" +
-      "ntegerValueB\035\n\033io.dstore.engine.procedur" +
-      "esb\006proto3"
+      "tringValue\0227\n\021netto_order_sales\030\222N \001(\0132\033" +
+      ".dstore.values.decimalValue\022<\n\023order_dat" +
+      "e_and_time\030\241\234\001 \001(\0132\035.dstore.values.times" +
+      "tampValue\0220\n\tperson_id\030\242\234\001 \001(\0132\033.dstore." +
+      "values.integerValue\0220\n\tnetto_sum\030\243\234\001 \001(\013" +
+      "2\033.dstore.values.decimalValue\022/\n\010order_i" +
+      "d\030\245\234\001 \001(\0132\033.dstore.values.integerValueB\035" +
+      "\n\033io.dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5424,7 +5916,7 @@ public final class StGetSalesByInformationAd {
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "Information", "OrderDateAndTime", "PersonId", "OrderId", });
+        new java.lang.String[] { "RowId", "Information", "NettoOrderSales", "OrderDateAndTime", "PersonId", "NettoSum", "OrderId", });
     io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();

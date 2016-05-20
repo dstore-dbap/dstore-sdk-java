@@ -3293,6 +3293,31 @@ public final class OmGetPaymentCostPu {
        * </pre>
        */
       io.dstore.Values.decimalValueOrBuilder getPaymentCostOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+       *
+       * <pre>
+       * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+       * </pre>
+       */
+      boolean hasPaymentCostBrutto();
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+       *
+       * <pre>
+       * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getPaymentCostBrutto();
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+       *
+       * <pre>
+       * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getPaymentCostBruttoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPaymentCost_Pu.Response.Row}
@@ -3347,6 +3372,19 @@ public final class OmGetPaymentCostPu {
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentCost_);
                   paymentCost_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 80018: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (paymentCostBrutto_ != null) {
+                  subBuilder = paymentCostBrutto_.toBuilder();
+                }
+                paymentCostBrutto_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(paymentCostBrutto_);
+                  paymentCostBrutto_ = subBuilder.buildPartial();
                 }
 
                 break;
@@ -3417,6 +3455,39 @@ public final class OmGetPaymentCostPu {
         return getPaymentCost();
       }
 
+      public static final int PAYMENT_COST_BRUTTO_FIELD_NUMBER = 10002;
+      private io.dstore.Values.decimalValue paymentCostBrutto_;
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+       *
+       * <pre>
+       * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+       * </pre>
+       */
+      public boolean hasPaymentCostBrutto() {
+        return paymentCostBrutto_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+       *
+       * <pre>
+       * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getPaymentCostBrutto() {
+        return paymentCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : paymentCostBrutto_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+       *
+       * <pre>
+       * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getPaymentCostBruttoOrBuilder() {
+        return getPaymentCostBrutto();
+      }
+
       private byte memoizedIsInitialized = -1;
       public final boolean isInitialized() {
         byte isInitialized = memoizedIsInitialized;
@@ -3435,6 +3506,9 @@ public final class OmGetPaymentCostPu {
         if (paymentCost_ != null) {
           output.writeMessage(10001, getPaymentCost());
         }
+        if (paymentCostBrutto_ != null) {
+          output.writeMessage(10002, getPaymentCostBrutto());
+        }
       }
 
       public int getSerializedSize() {
@@ -3449,6 +3523,10 @@ public final class OmGetPaymentCostPu {
         if (paymentCost_ != null) {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10001, getPaymentCost());
+        }
+        if (paymentCostBrutto_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10002, getPaymentCostBrutto());
         }
         memoizedSize = size;
         return size;
@@ -3569,6 +3647,12 @@ public final class OmGetPaymentCostPu {
             paymentCost_ = null;
             paymentCostBuilder_ = null;
           }
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBrutto_ = null;
+          } else {
+            paymentCostBrutto_ = null;
+            paymentCostBruttoBuilder_ = null;
+          }
           return this;
         }
 
@@ -3597,6 +3681,11 @@ public final class OmGetPaymentCostPu {
           } else {
             result.paymentCost_ = paymentCostBuilder_.build();
           }
+          if (paymentCostBruttoBuilder_ == null) {
+            result.paymentCostBrutto_ = paymentCostBrutto_;
+          } else {
+            result.paymentCostBrutto_ = paymentCostBruttoBuilder_.build();
+          }
           onBuilt();
           return result;
         }
@@ -3617,6 +3706,9 @@ public final class OmGetPaymentCostPu {
           }
           if (other.hasPaymentCost()) {
             mergePaymentCost(other.getPaymentCost());
+          }
+          if (other.hasPaymentCostBrutto()) {
+            mergePaymentCostBrutto(other.getPaymentCostBrutto());
           }
           onChanged();
           return this;
@@ -3821,6 +3913,159 @@ public final class OmGetPaymentCostPu {
             paymentCost_ = null;
           }
           return paymentCostBuilder_;
+        }
+
+        private io.dstore.Values.decimalValue paymentCostBrutto_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> paymentCostBruttoBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public boolean hasPaymentCostBrutto() {
+          return paymentCostBruttoBuilder_ != null || paymentCostBrutto_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getPaymentCostBrutto() {
+          if (paymentCostBruttoBuilder_ == null) {
+            return paymentCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : paymentCostBrutto_;
+          } else {
+            return paymentCostBruttoBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public Builder setPaymentCostBrutto(io.dstore.Values.decimalValue value) {
+          if (paymentCostBruttoBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            paymentCostBrutto_ = value;
+            onChanged();
+          } else {
+            paymentCostBruttoBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public Builder setPaymentCostBrutto(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBrutto_ = builderForValue.build();
+            onChanged();
+          } else {
+            paymentCostBruttoBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public Builder mergePaymentCostBrutto(io.dstore.Values.decimalValue value) {
+          if (paymentCostBruttoBuilder_ == null) {
+            if (paymentCostBrutto_ != null) {
+              paymentCostBrutto_ =
+                io.dstore.Values.decimalValue.newBuilder(paymentCostBrutto_).mergeFrom(value).buildPartial();
+            } else {
+              paymentCostBrutto_ = value;
+            }
+            onChanged();
+          } else {
+            paymentCostBruttoBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public Builder clearPaymentCostBrutto() {
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBrutto_ = null;
+            onChanged();
+          } else {
+            paymentCostBrutto_ = null;
+            paymentCostBruttoBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getPaymentCostBruttoBuilder() {
+          
+          onChanged();
+          return getPaymentCostBruttoFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getPaymentCostBruttoOrBuilder() {
+          if (paymentCostBruttoBuilder_ != null) {
+            return paymentCostBruttoBuilder_.getMessageOrBuilder();
+          } else {
+            return paymentCostBrutto_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : paymentCostBrutto_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 10002;</code>
+         *
+         * <pre>
+         * Die zusätzlich anfallenden Brutto-Kosten, wenn "&#64;PaymentTypeID" als Zahlungsart gewählt wird
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getPaymentCostBruttoFieldBuilder() {
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBruttoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getPaymentCostBrutto(),
+                    getParentForChildren(),
+                    isClean());
+            paymentCostBrutto_ = null;
+          }
+          return paymentCostBruttoBuilder_;
         }
         public final Builder setUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -5636,7 +5881,7 @@ public final class OmGetPaymentCostPu {
       "egerValue\022*\n!price_node_characteristic_i" +
       "d_null\030\362\007 \001(\010\0225\n\020shipping_type_id\030\013 \001(\0132" +
       "\033.dstore.values.integerValue\022\036\n\025shipping" +
-      "_type_id_null\030\363\007 \001(\010\"\250\003\n\010Response\022)\n\005err" +
+      "_type_id_null\030\363\007 \001(\010\"\344\003\n\010Response\022)\n\005err" +
       "or\030\001 \001(\0132\032.dstore.engine.error.Error\022H\n\020",
       "meta_information\030\002 \003(\0132..dstore.engine.m" +
       "etainformation.MetaInformation\022/\n\007messag" +
@@ -5645,10 +5890,11 @@ public final class OmGetPaymentCostPu {
       "ntCost_Pu.Response.Row\0221\n\014payment_cost\030e" +
       " \001(\0132\033.dstore.values.decimalValue\0228\n\023pay" +
       "ment_cost_brutto\030f \001(\0132\033.dstore.values.d" +
-      "ecimalValue\032J\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014p" +
-      "ayment_cost\030\221N \001(\0132\033.dstore.values.decim" +
-      "alValueB\035\n\033io.dstore.engine.proceduresb\006",
-      "proto3"
+      "ecimalValue\032\205\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\014" +
+      "payment_cost\030\221N \001(\0132\033.dstore.values.deci" +
+      "malValue\0229\n\023payment_cost_brutto\030\222N \001(\0132\033",
+      ".dstore.values.decimalValueB\035\n\033io.dstore" +
+      ".engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5683,7 +5929,7 @@ public final class OmGetPaymentCostPu {
     internal_static_dstore_engine_om_GetPaymentCost_Pu_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentCost_Pu_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "PaymentCost", });
+        new java.lang.String[] { "RowId", "PaymentCost", "PaymentCostBrutto", });
     io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();

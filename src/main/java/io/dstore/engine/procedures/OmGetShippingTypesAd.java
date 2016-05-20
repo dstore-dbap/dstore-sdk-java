@@ -1530,7 +1530,32 @@ public final class OmGetShippingTypesAd {
       int getRowId();
 
       /**
-       * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+       * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumTo"
+       * </pre>
+       */
+      boolean hasBruttoSumTo();
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumTo"
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getBruttoSumTo();
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumTo"
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getBruttoSumToOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -1538,7 +1563,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasPriorityNo();
       /**
-       * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -1546,7 +1571,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getPriorityNo();
       /**
-       * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -1555,7 +1580,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getPriorityNoOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
@@ -1563,7 +1588,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasShippingTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
@@ -1571,7 +1596,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getShippingTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
@@ -1580,7 +1605,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -1588,7 +1613,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasSurchargeUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -1596,7 +1621,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getSurchargeUnitSymbol();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -1605,7 +1630,32 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getSurchargeUnitSymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumFrom"
+       * </pre>
+       */
+      boolean hasBruttoSumFrom();
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumFrom"
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getBruttoSumFrom();
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumFrom"
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getBruttoSumFromOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
        *
        * <pre>
        * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -1613,7 +1663,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasSurchargeValue();
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
        *
        * <pre>
        * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -1621,7 +1671,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.decimalValue getSurchargeValue();
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
        *
        * <pre>
        * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -1630,7 +1680,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+       * <code>optional .dstore.values.decimalValue cost = 10007;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -1638,7 +1688,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasCost();
       /**
-       * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+       * <code>optional .dstore.values.decimalValue cost = 10007;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -1646,7 +1696,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.decimalValue getCost();
       /**
-       * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+       * <code>optional .dstore.values.decimalValue cost = 10007;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -1655,7 +1705,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.decimalValueOrBuilder getCostOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -1663,7 +1713,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasGrossSumTo();
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -1671,7 +1721,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.decimalValue getGrossSumTo();
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -1680,7 +1730,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.decimalValueOrBuilder getGrossSumToOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
        *
        * <pre>
        * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -1688,7 +1738,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasCurrencyId();
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
        *
        * <pre>
        * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -1696,7 +1746,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getCurrencyId();
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
        *
        * <pre>
        * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -1705,7 +1755,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -1713,7 +1763,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasCurrencySymbol();
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -1721,7 +1771,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getCurrencySymbol();
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -1730,7 +1780,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
        *
        * <pre>
        * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -1738,7 +1788,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
        *
        * <pre>
        * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -1746,7 +1796,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.timestampValue getCreatedAtDateAndTime();
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
        *
        * <pre>
        * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -1755,7 +1805,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10012;</code>
        *
        * <pre>
        * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -1763,7 +1813,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasActive();
       /**
-       * <code>optional .dstore.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10012;</code>
        *
        * <pre>
        * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -1771,7 +1821,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.booleanValue getActive();
       /**
-       * <code>optional .dstore.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10012;</code>
        *
        * <pre>
        * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -1780,7 +1830,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -1788,7 +1838,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasCostCurrencyId();
       /**
-       * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -1796,7 +1846,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getCostCurrencyId();
       /**
-       * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -1805,7 +1855,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getCostCurrencyIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
        *
        * <pre>
        * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -1813,7 +1863,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasTranslatedDescription();
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
        *
        * <pre>
        * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -1821,7 +1871,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getTranslatedDescription();
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
        *
        * <pre>
        * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -1830,7 +1880,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -1838,7 +1888,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasGrossSumFrom();
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -1846,7 +1896,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.decimalValue getGrossSumFrom();
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -1855,7 +1905,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.decimalValueOrBuilder getGrossSumFromOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue region = 10014;</code>
+       * <code>optional .dstore.values.stringValue region = 10016;</code>
        *
        * <pre>
        * Bezeichnung der Region "RegionID"
@@ -1863,7 +1913,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasRegion();
       /**
-       * <code>optional .dstore.values.stringValue region = 10014;</code>
+       * <code>optional .dstore.values.stringValue region = 10016;</code>
        *
        * <pre>
        * Bezeichnung der Region "RegionID"
@@ -1871,7 +1921,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getRegion();
       /**
-       * <code>optional .dstore.values.stringValue region = 10014;</code>
+       * <code>optional .dstore.values.stringValue region = 10016;</code>
        *
        * <pre>
        * Bezeichnung der Region "RegionID"
@@ -1880,7 +1930,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getRegionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -1888,7 +1938,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasSurchargeIsAbsoluteValue();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -1896,7 +1946,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getSurchargeIsAbsoluteValue();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -1905,7 +1955,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -1913,7 +1963,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasCostCurrencySymbol();
       /**
-       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -1921,7 +1971,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getCostCurrencySymbol();
       /**
-       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -1930,7 +1980,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getCostCurrencySymbolOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
        *
        * <pre>
        * ID einer Versandart
@@ -1938,7 +1988,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasShippingTypeId();
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
        *
        * <pre>
        * ID einer Versandart
@@ -1946,7 +1996,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getShippingTypeId();
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
        *
        * <pre>
        * ID einer Versandart
@@ -1955,7 +2005,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue region_id = 10020;</code>
        *
        * <pre>
        * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -1963,7 +2013,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasRegionId();
       /**
-       * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue region_id = 10020;</code>
        *
        * <pre>
        * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -1971,7 +2021,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getRegionId();
       /**
-       * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue region_id = 10020;</code>
        *
        * <pre>
        * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -1980,7 +2030,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1988,7 +2038,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -1996,7 +2046,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.stringValue getSurchargeTypeDescription();
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -2005,7 +2055,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -2013,7 +2063,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -2021,7 +2071,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getSurchargeTypeId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -2030,7 +2080,7 @@ public final class OmGetShippingTypesAd {
       io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -2038,7 +2088,7 @@ public final class OmGetShippingTypesAd {
        */
       boolean hasSurchargeUnitId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -2046,7 +2096,7 @@ public final class OmGetShippingTypesAd {
        */
       io.dstore.Values.integerValue getSurchargeUnitId();
       /**
-       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -2099,6 +2149,19 @@ public final class OmGetShippingTypesAd {
                 break;
               }
               case 80010: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (bruttoSumTo_ != null) {
+                  subBuilder = bruttoSumTo_.toBuilder();
+                }
+                bruttoSumTo_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(bruttoSumTo_);
+                  bruttoSumTo_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 80018: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (priorityNo_ != null) {
                   subBuilder = priorityNo_.toBuilder();
@@ -2111,7 +2174,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80018: {
+              case 80026: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (shippingTypeDescription_ != null) {
                   subBuilder = shippingTypeDescription_.toBuilder();
@@ -2124,7 +2187,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80026: {
+              case 80034: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (surchargeUnitSymbol_ != null) {
                   subBuilder = surchargeUnitSymbol_.toBuilder();
@@ -2137,7 +2200,20 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80034: {
+              case 80042: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (bruttoSumFrom_ != null) {
+                  subBuilder = bruttoSumFrom_.toBuilder();
+                }
+                bruttoSumFrom_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(bruttoSumFrom_);
+                  bruttoSumFrom_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 80050: {
                 io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
@@ -2150,7 +2226,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80042: {
+              case 80058: {
                 io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (cost_ != null) {
                   subBuilder = cost_.toBuilder();
@@ -2163,7 +2239,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80050: {
+              case 80066: {
                 io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (grossSumTo_ != null) {
                   subBuilder = grossSumTo_.toBuilder();
@@ -2176,7 +2252,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80058: {
+              case 80074: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
@@ -2189,7 +2265,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80066: {
+              case 80082: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
@@ -2202,7 +2278,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80074: {
+              case 80090: {
                 io.dstore.Values.timestampValue.Builder subBuilder = null;
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
@@ -2215,7 +2291,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80082: {
+              case 80098: {
                 io.dstore.Values.booleanValue.Builder subBuilder = null;
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
@@ -2228,7 +2304,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80090: {
+              case 80106: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (costCurrencyId_ != null) {
                   subBuilder = costCurrencyId_.toBuilder();
@@ -2241,7 +2317,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80098: {
+              case 80114: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (translatedDescription_ != null) {
                   subBuilder = translatedDescription_.toBuilder();
@@ -2254,7 +2330,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80106: {
+              case 80122: {
                 io.dstore.Values.decimalValue.Builder subBuilder = null;
                 if (grossSumFrom_ != null) {
                   subBuilder = grossSumFrom_.toBuilder();
@@ -2267,7 +2343,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80114: {
+              case 80130: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (region_ != null) {
                   subBuilder = region_.toBuilder();
@@ -2280,7 +2356,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80122: {
+              case 80138: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeIsAbsoluteValue_ != null) {
                   subBuilder = surchargeIsAbsoluteValue_.toBuilder();
@@ -2293,7 +2369,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80130: {
+              case 80146: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (costCurrencySymbol_ != null) {
                   subBuilder = costCurrencySymbol_.toBuilder();
@@ -2306,7 +2382,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80138: {
+              case 80154: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (shippingTypeId_ != null) {
                   subBuilder = shippingTypeId_.toBuilder();
@@ -2319,7 +2395,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80146: {
+              case 80162: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (regionId_ != null) {
                   subBuilder = regionId_.toBuilder();
@@ -2332,7 +2408,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80154: {
+              case 80170: {
                 io.dstore.Values.stringValue.Builder subBuilder = null;
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
@@ -2345,7 +2421,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80162: {
+              case 80178: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
@@ -2358,7 +2434,7 @@ public final class OmGetShippingTypesAd {
 
                 break;
               }
-              case 80170: {
+              case 80186: {
                 io.dstore.Values.integerValue.Builder subBuilder = null;
                 if (surchargeUnitId_ != null) {
                   subBuilder = surchargeUnitId_.toBuilder();
@@ -2404,10 +2480,43 @@ public final class OmGetShippingTypesAd {
         return rowId_;
       }
 
-      public static final int PRIORITY_NO_FIELD_NUMBER = 10001;
+      public static final int BRUTTO_SUM_TO_FIELD_NUMBER = 10001;
+      private io.dstore.Values.decimalValue bruttoSumTo_;
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumTo"
+       * </pre>
+       */
+      public boolean hasBruttoSumTo() {
+        return bruttoSumTo_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumTo"
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getBruttoSumTo() {
+        return bruttoSumTo_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSumTo_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumTo"
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getBruttoSumToOrBuilder() {
+        return getBruttoSumTo();
+      }
+
+      public static final int PRIORITY_NO_FIELD_NUMBER = 10002;
       private io.dstore.Values.integerValue priorityNo_;
       /**
-       * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -2417,7 +2526,7 @@ public final class OmGetShippingTypesAd {
         return priorityNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -2427,7 +2536,7 @@ public final class OmGetShippingTypesAd {
         return priorityNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priorityNo_;
       }
       /**
-       * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+       * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
        *
        * <pre>
        * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -2437,10 +2546,10 @@ public final class OmGetShippingTypesAd {
         return getPriorityNo();
       }
 
-      public static final int SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
+      public static final int SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER = 10003;
       private io.dstore.Values.stringValue shippingTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
@@ -2450,7 +2559,7 @@ public final class OmGetShippingTypesAd {
         return shippingTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
@@ -2460,7 +2569,7 @@ public final class OmGetShippingTypesAd {
         return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
        *
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
@@ -2470,10 +2579,10 @@ public final class OmGetShippingTypesAd {
         return getShippingTypeDescription();
       }
 
-      public static final int SURCHARGE_UNIT_SYMBOL_FIELD_NUMBER = 10003;
+      public static final int SURCHARGE_UNIT_SYMBOL_FIELD_NUMBER = 10004;
       private io.dstore.Values.stringValue surchargeUnitSymbol_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -2483,7 +2592,7 @@ public final class OmGetShippingTypesAd {
         return surchargeUnitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -2493,7 +2602,7 @@ public final class OmGetShippingTypesAd {
         return surchargeUnitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeUnitSymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
        *
        * <pre>
        * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -2503,10 +2612,43 @@ public final class OmGetShippingTypesAd {
         return getSurchargeUnitSymbol();
       }
 
-      public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10004;
+      public static final int BRUTTO_SUM_FROM_FIELD_NUMBER = 10005;
+      private io.dstore.Values.decimalValue bruttoSumFrom_;
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumFrom"
+       * </pre>
+       */
+      public boolean hasBruttoSumFrom() {
+        return bruttoSumFrom_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumFrom"
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getBruttoSumFrom() {
+        return bruttoSumFrom_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSumFrom_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+       *
+       * <pre>
+       * Nicht verwenden, stattdessen : "GrossSumFrom"
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getBruttoSumFromOrBuilder() {
+        return getBruttoSumFrom();
+      }
+
+      public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10006;
       private io.dstore.Values.decimalValue surchargeValue_;
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
        *
        * <pre>
        * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -2516,7 +2658,7 @@ public final class OmGetShippingTypesAd {
         return surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
        *
        * <pre>
        * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -2526,7 +2668,7 @@ public final class OmGetShippingTypesAd {
         return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
        *
        * <pre>
        * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -2536,10 +2678,10 @@ public final class OmGetShippingTypesAd {
         return getSurchargeValue();
       }
 
-      public static final int COST_FIELD_NUMBER = 10005;
+      public static final int COST_FIELD_NUMBER = 10007;
       private io.dstore.Values.decimalValue cost_;
       /**
-       * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+       * <code>optional .dstore.values.decimalValue cost = 10007;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -2549,7 +2691,7 @@ public final class OmGetShippingTypesAd {
         return cost_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+       * <code>optional .dstore.values.decimalValue cost = 10007;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -2559,7 +2701,7 @@ public final class OmGetShippingTypesAd {
         return cost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : cost_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+       * <code>optional .dstore.values.decimalValue cost = 10007;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -2569,10 +2711,10 @@ public final class OmGetShippingTypesAd {
         return getCost();
       }
 
-      public static final int GROSS_SUM_TO_FIELD_NUMBER = 10006;
+      public static final int GROSS_SUM_TO_FIELD_NUMBER = 10008;
       private io.dstore.Values.decimalValue grossSumTo_;
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -2582,7 +2724,7 @@ public final class OmGetShippingTypesAd {
         return grossSumTo_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -2592,7 +2734,7 @@ public final class OmGetShippingTypesAd {
         return grossSumTo_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossSumTo_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -2602,10 +2744,10 @@ public final class OmGetShippingTypesAd {
         return getGrossSumTo();
       }
 
-      public static final int CURRENCY_ID_FIELD_NUMBER = 10007;
+      public static final int CURRENCY_ID_FIELD_NUMBER = 10009;
       private io.dstore.Values.integerValue currencyId_;
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
        *
        * <pre>
        * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -2615,7 +2757,7 @@ public final class OmGetShippingTypesAd {
         return currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
        *
        * <pre>
        * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -2625,7 +2767,7 @@ public final class OmGetShippingTypesAd {
         return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
        *
        * <pre>
        * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -2635,10 +2777,10 @@ public final class OmGetShippingTypesAd {
         return getCurrencyId();
       }
 
-      public static final int CURRENCY_SYMBOL_FIELD_NUMBER = 10008;
+      public static final int CURRENCY_SYMBOL_FIELD_NUMBER = 10010;
       private io.dstore.Values.stringValue currencySymbol_;
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -2648,7 +2790,7 @@ public final class OmGetShippingTypesAd {
         return currencySymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -2658,7 +2800,7 @@ public final class OmGetShippingTypesAd {
         return currencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
        *
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -2668,10 +2810,10 @@ public final class OmGetShippingTypesAd {
         return getCurrencySymbol();
       }
 
-      public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10009;
+      public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10011;
       private io.dstore.Values.timestampValue createdAtDateAndTime_;
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
        *
        * <pre>
        * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -2681,7 +2823,7 @@ public final class OmGetShippingTypesAd {
         return createdAtDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
        *
        * <pre>
        * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -2691,7 +2833,7 @@ public final class OmGetShippingTypesAd {
         return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
        *
        * <pre>
        * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -2701,10 +2843,10 @@ public final class OmGetShippingTypesAd {
         return getCreatedAtDateAndTime();
       }
 
-      public static final int ACTIVE_FIELD_NUMBER = 10010;
+      public static final int ACTIVE_FIELD_NUMBER = 10012;
       private io.dstore.Values.booleanValue active_;
       /**
-       * <code>optional .dstore.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10012;</code>
        *
        * <pre>
        * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -2714,7 +2856,7 @@ public final class OmGetShippingTypesAd {
         return active_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10012;</code>
        *
        * <pre>
        * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -2724,7 +2866,7 @@ public final class OmGetShippingTypesAd {
         return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 10010;</code>
+       * <code>optional .dstore.values.booleanValue active = 10012;</code>
        *
        * <pre>
        * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -2734,10 +2876,10 @@ public final class OmGetShippingTypesAd {
         return getActive();
       }
 
-      public static final int COST_CURRENCY_ID_FIELD_NUMBER = 10011;
+      public static final int COST_CURRENCY_ID_FIELD_NUMBER = 10013;
       private io.dstore.Values.integerValue costCurrencyId_;
       /**
-       * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -2747,7 +2889,7 @@ public final class OmGetShippingTypesAd {
         return costCurrencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -2757,7 +2899,7 @@ public final class OmGetShippingTypesAd {
         return costCurrencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : costCurrencyId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+       * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -2767,10 +2909,10 @@ public final class OmGetShippingTypesAd {
         return getCostCurrencyId();
       }
 
-      public static final int TRANSLATED_DESCRIPTION_FIELD_NUMBER = 10012;
+      public static final int TRANSLATED_DESCRIPTION_FIELD_NUMBER = 10014;
       private io.dstore.Values.stringValue translatedDescription_;
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
        *
        * <pre>
        * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -2780,7 +2922,7 @@ public final class OmGetShippingTypesAd {
         return translatedDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
        *
        * <pre>
        * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -2790,7 +2932,7 @@ public final class OmGetShippingTypesAd {
         return translatedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+       * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
        *
        * <pre>
        * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -2800,10 +2942,10 @@ public final class OmGetShippingTypesAd {
         return getTranslatedDescription();
       }
 
-      public static final int GROSS_SUM_FROM_FIELD_NUMBER = 10013;
+      public static final int GROSS_SUM_FROM_FIELD_NUMBER = 10015;
       private io.dstore.Values.decimalValue grossSumFrom_;
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -2813,7 +2955,7 @@ public final class OmGetShippingTypesAd {
         return grossSumFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -2823,7 +2965,7 @@ public final class OmGetShippingTypesAd {
         return grossSumFrom_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossSumFrom_;
       }
       /**
-       * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+       * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
        *
        * <pre>
        * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -2833,10 +2975,10 @@ public final class OmGetShippingTypesAd {
         return getGrossSumFrom();
       }
 
-      public static final int REGION_FIELD_NUMBER = 10014;
+      public static final int REGION_FIELD_NUMBER = 10016;
       private io.dstore.Values.stringValue region_;
       /**
-       * <code>optional .dstore.values.stringValue region = 10014;</code>
+       * <code>optional .dstore.values.stringValue region = 10016;</code>
        *
        * <pre>
        * Bezeichnung der Region "RegionID"
@@ -2846,7 +2988,7 @@ public final class OmGetShippingTypesAd {
         return region_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 10014;</code>
+       * <code>optional .dstore.values.stringValue region = 10016;</code>
        *
        * <pre>
        * Bezeichnung der Region "RegionID"
@@ -2856,7 +2998,7 @@ public final class OmGetShippingTypesAd {
         return region_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : region_;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 10014;</code>
+       * <code>optional .dstore.values.stringValue region = 10016;</code>
        *
        * <pre>
        * Bezeichnung der Region "RegionID"
@@ -2866,10 +3008,10 @@ public final class OmGetShippingTypesAd {
         return getRegion();
       }
 
-      public static final int SURCHARGE_IS_ABSOLUTE_VALUE_FIELD_NUMBER = 10015;
+      public static final int SURCHARGE_IS_ABSOLUTE_VALUE_FIELD_NUMBER = 10017;
       private io.dstore.Values.integerValue surchargeIsAbsoluteValue_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -2879,7 +3021,7 @@ public final class OmGetShippingTypesAd {
         return surchargeIsAbsoluteValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -2889,7 +3031,7 @@ public final class OmGetShippingTypesAd {
         return surchargeIsAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
        *
        * <pre>
        * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -2899,10 +3041,10 @@ public final class OmGetShippingTypesAd {
         return getSurchargeIsAbsoluteValue();
       }
 
-      public static final int COST_CURRENCY_SYMBOL_FIELD_NUMBER = 10016;
+      public static final int COST_CURRENCY_SYMBOL_FIELD_NUMBER = 10018;
       private io.dstore.Values.stringValue costCurrencySymbol_;
       /**
-       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -2912,7 +3054,7 @@ public final class OmGetShippingTypesAd {
         return costCurrencySymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -2922,7 +3064,7 @@ public final class OmGetShippingTypesAd {
         return costCurrencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : costCurrencySymbol_;
       }
       /**
-       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+       * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
        *
        * <pre>
        * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -2932,10 +3074,10 @@ public final class OmGetShippingTypesAd {
         return getCostCurrencySymbol();
       }
 
-      public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 10017;
+      public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 10019;
       private io.dstore.Values.integerValue shippingTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
        *
        * <pre>
        * ID einer Versandart
@@ -2945,7 +3087,7 @@ public final class OmGetShippingTypesAd {
         return shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
        *
        * <pre>
        * ID einer Versandart
@@ -2955,7 +3097,7 @@ public final class OmGetShippingTypesAd {
         return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+       * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
        *
        * <pre>
        * ID einer Versandart
@@ -2965,10 +3107,10 @@ public final class OmGetShippingTypesAd {
         return getShippingTypeId();
       }
 
-      public static final int REGION_ID_FIELD_NUMBER = 10018;
+      public static final int REGION_ID_FIELD_NUMBER = 10020;
       private io.dstore.Values.integerValue regionId_;
       /**
-       * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue region_id = 10020;</code>
        *
        * <pre>
        * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -2978,7 +3120,7 @@ public final class OmGetShippingTypesAd {
         return regionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue region_id = 10020;</code>
        *
        * <pre>
        * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -2988,7 +3130,7 @@ public final class OmGetShippingTypesAd {
         return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+       * <code>optional .dstore.values.integerValue region_id = 10020;</code>
        *
        * <pre>
        * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -2998,10 +3140,10 @@ public final class OmGetShippingTypesAd {
         return getRegionId();
       }
 
-      public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10019;
+      public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10021;
       private io.dstore.Values.stringValue surchargeTypeDescription_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -3011,7 +3153,7 @@ public final class OmGetShippingTypesAd {
         return surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -3021,7 +3163,7 @@ public final class OmGetShippingTypesAd {
         return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+       * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
        *
        * <pre>
        * Bezeichnung der "SurchargeTypeID"
@@ -3031,10 +3173,10 @@ public final class OmGetShippingTypesAd {
         return getSurchargeTypeDescription();
       }
 
-      public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10020;
+      public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10022;
       private io.dstore.Values.integerValue surchargeTypeId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -3044,7 +3186,7 @@ public final class OmGetShippingTypesAd {
         return surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -3054,7 +3196,7 @@ public final class OmGetShippingTypesAd {
         return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+       * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
        *
        * <pre>
        * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -3064,10 +3206,10 @@ public final class OmGetShippingTypesAd {
         return getSurchargeTypeId();
       }
 
-      public static final int SURCHARGE_UNIT_ID_FIELD_NUMBER = 10021;
+      public static final int SURCHARGE_UNIT_ID_FIELD_NUMBER = 10023;
       private io.dstore.Values.integerValue surchargeUnitId_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -3077,7 +3219,7 @@ public final class OmGetShippingTypesAd {
         return surchargeUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -3087,7 +3229,7 @@ public final class OmGetShippingTypesAd {
         return surchargeUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeUnitId_;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+       * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
        *
        * <pre>
        * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -3112,68 +3254,74 @@ public final class OmGetShippingTypesAd {
         if (rowId_ != 0) {
           output.writeInt32(10000, rowId_);
         }
+        if (bruttoSumTo_ != null) {
+          output.writeMessage(10001, getBruttoSumTo());
+        }
         if (priorityNo_ != null) {
-          output.writeMessage(10001, getPriorityNo());
+          output.writeMessage(10002, getPriorityNo());
         }
         if (shippingTypeDescription_ != null) {
-          output.writeMessage(10002, getShippingTypeDescription());
+          output.writeMessage(10003, getShippingTypeDescription());
         }
         if (surchargeUnitSymbol_ != null) {
-          output.writeMessage(10003, getSurchargeUnitSymbol());
+          output.writeMessage(10004, getSurchargeUnitSymbol());
+        }
+        if (bruttoSumFrom_ != null) {
+          output.writeMessage(10005, getBruttoSumFrom());
         }
         if (surchargeValue_ != null) {
-          output.writeMessage(10004, getSurchargeValue());
+          output.writeMessage(10006, getSurchargeValue());
         }
         if (cost_ != null) {
-          output.writeMessage(10005, getCost());
+          output.writeMessage(10007, getCost());
         }
         if (grossSumTo_ != null) {
-          output.writeMessage(10006, getGrossSumTo());
+          output.writeMessage(10008, getGrossSumTo());
         }
         if (currencyId_ != null) {
-          output.writeMessage(10007, getCurrencyId());
+          output.writeMessage(10009, getCurrencyId());
         }
         if (currencySymbol_ != null) {
-          output.writeMessage(10008, getCurrencySymbol());
+          output.writeMessage(10010, getCurrencySymbol());
         }
         if (createdAtDateAndTime_ != null) {
-          output.writeMessage(10009, getCreatedAtDateAndTime());
+          output.writeMessage(10011, getCreatedAtDateAndTime());
         }
         if (active_ != null) {
-          output.writeMessage(10010, getActive());
+          output.writeMessage(10012, getActive());
         }
         if (costCurrencyId_ != null) {
-          output.writeMessage(10011, getCostCurrencyId());
+          output.writeMessage(10013, getCostCurrencyId());
         }
         if (translatedDescription_ != null) {
-          output.writeMessage(10012, getTranslatedDescription());
+          output.writeMessage(10014, getTranslatedDescription());
         }
         if (grossSumFrom_ != null) {
-          output.writeMessage(10013, getGrossSumFrom());
+          output.writeMessage(10015, getGrossSumFrom());
         }
         if (region_ != null) {
-          output.writeMessage(10014, getRegion());
+          output.writeMessage(10016, getRegion());
         }
         if (surchargeIsAbsoluteValue_ != null) {
-          output.writeMessage(10015, getSurchargeIsAbsoluteValue());
+          output.writeMessage(10017, getSurchargeIsAbsoluteValue());
         }
         if (costCurrencySymbol_ != null) {
-          output.writeMessage(10016, getCostCurrencySymbol());
+          output.writeMessage(10018, getCostCurrencySymbol());
         }
         if (shippingTypeId_ != null) {
-          output.writeMessage(10017, getShippingTypeId());
+          output.writeMessage(10019, getShippingTypeId());
         }
         if (regionId_ != null) {
-          output.writeMessage(10018, getRegionId());
+          output.writeMessage(10020, getRegionId());
         }
         if (surchargeTypeDescription_ != null) {
-          output.writeMessage(10019, getSurchargeTypeDescription());
+          output.writeMessage(10021, getSurchargeTypeDescription());
         }
         if (surchargeTypeId_ != null) {
-          output.writeMessage(10020, getSurchargeTypeId());
+          output.writeMessage(10022, getSurchargeTypeId());
         }
         if (surchargeUnitId_ != null) {
-          output.writeMessage(10021, getSurchargeUnitId());
+          output.writeMessage(10023, getSurchargeUnitId());
         }
       }
 
@@ -3186,89 +3334,97 @@ public final class OmGetShippingTypesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
+        if (bruttoSumTo_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10001, getBruttoSumTo());
+        }
         if (priorityNo_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10001, getPriorityNo());
+            .computeMessageSize(10002, getPriorityNo());
         }
         if (shippingTypeDescription_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10002, getShippingTypeDescription());
+            .computeMessageSize(10003, getShippingTypeDescription());
         }
         if (surchargeUnitSymbol_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10003, getSurchargeUnitSymbol());
+            .computeMessageSize(10004, getSurchargeUnitSymbol());
+        }
+        if (bruttoSumFrom_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10005, getBruttoSumFrom());
         }
         if (surchargeValue_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10004, getSurchargeValue());
+            .computeMessageSize(10006, getSurchargeValue());
         }
         if (cost_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10005, getCost());
+            .computeMessageSize(10007, getCost());
         }
         if (grossSumTo_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10006, getGrossSumTo());
+            .computeMessageSize(10008, getGrossSumTo());
         }
         if (currencyId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10007, getCurrencyId());
+            .computeMessageSize(10009, getCurrencyId());
         }
         if (currencySymbol_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10008, getCurrencySymbol());
+            .computeMessageSize(10010, getCurrencySymbol());
         }
         if (createdAtDateAndTime_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10009, getCreatedAtDateAndTime());
+            .computeMessageSize(10011, getCreatedAtDateAndTime());
         }
         if (active_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10010, getActive());
+            .computeMessageSize(10012, getActive());
         }
         if (costCurrencyId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10011, getCostCurrencyId());
+            .computeMessageSize(10013, getCostCurrencyId());
         }
         if (translatedDescription_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10012, getTranslatedDescription());
+            .computeMessageSize(10014, getTranslatedDescription());
         }
         if (grossSumFrom_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10013, getGrossSumFrom());
+            .computeMessageSize(10015, getGrossSumFrom());
         }
         if (region_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10014, getRegion());
+            .computeMessageSize(10016, getRegion());
         }
         if (surchargeIsAbsoluteValue_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10015, getSurchargeIsAbsoluteValue());
+            .computeMessageSize(10017, getSurchargeIsAbsoluteValue());
         }
         if (costCurrencySymbol_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10016, getCostCurrencySymbol());
+            .computeMessageSize(10018, getCostCurrencySymbol());
         }
         if (shippingTypeId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10017, getShippingTypeId());
+            .computeMessageSize(10019, getShippingTypeId());
         }
         if (regionId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10018, getRegionId());
+            .computeMessageSize(10020, getRegionId());
         }
         if (surchargeTypeDescription_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10019, getSurchargeTypeDescription());
+            .computeMessageSize(10021, getSurchargeTypeDescription());
         }
         if (surchargeTypeId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10020, getSurchargeTypeId());
+            .computeMessageSize(10022, getSurchargeTypeId());
         }
         if (surchargeUnitId_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10021, getSurchargeUnitId());
+            .computeMessageSize(10023, getSurchargeUnitId());
         }
         memoizedSize = size;
         return size;
@@ -3383,6 +3539,12 @@ public final class OmGetShippingTypesAd {
           super.clear();
           rowId_ = 0;
 
+          if (bruttoSumToBuilder_ == null) {
+            bruttoSumTo_ = null;
+          } else {
+            bruttoSumTo_ = null;
+            bruttoSumToBuilder_ = null;
+          }
           if (priorityNoBuilder_ == null) {
             priorityNo_ = null;
           } else {
@@ -3400,6 +3562,12 @@ public final class OmGetShippingTypesAd {
           } else {
             surchargeUnitSymbol_ = null;
             surchargeUnitSymbolBuilder_ = null;
+          }
+          if (bruttoSumFromBuilder_ == null) {
+            bruttoSumFrom_ = null;
+          } else {
+            bruttoSumFrom_ = null;
+            bruttoSumFromBuilder_ = null;
           }
           if (surchargeValueBuilder_ == null) {
             surchargeValue_ = null;
@@ -3532,6 +3700,11 @@ public final class OmGetShippingTypesAd {
         public io.dstore.engine.procedures.OmGetShippingTypesAd.Response.Row buildPartial() {
           io.dstore.engine.procedures.OmGetShippingTypesAd.Response.Row result = new io.dstore.engine.procedures.OmGetShippingTypesAd.Response.Row(this);
           result.rowId_ = rowId_;
+          if (bruttoSumToBuilder_ == null) {
+            result.bruttoSumTo_ = bruttoSumTo_;
+          } else {
+            result.bruttoSumTo_ = bruttoSumToBuilder_.build();
+          }
           if (priorityNoBuilder_ == null) {
             result.priorityNo_ = priorityNo_;
           } else {
@@ -3546,6 +3719,11 @@ public final class OmGetShippingTypesAd {
             result.surchargeUnitSymbol_ = surchargeUnitSymbol_;
           } else {
             result.surchargeUnitSymbol_ = surchargeUnitSymbolBuilder_.build();
+          }
+          if (bruttoSumFromBuilder_ == null) {
+            result.bruttoSumFrom_ = bruttoSumFrom_;
+          } else {
+            result.bruttoSumFrom_ = bruttoSumFromBuilder_.build();
           }
           if (surchargeValueBuilder_ == null) {
             result.surchargeValue_ = surchargeValue_;
@@ -3655,6 +3833,9 @@ public final class OmGetShippingTypesAd {
           if (other.getRowId() != 0) {
             setRowId(other.getRowId());
           }
+          if (other.hasBruttoSumTo()) {
+            mergeBruttoSumTo(other.getBruttoSumTo());
+          }
           if (other.hasPriorityNo()) {
             mergePriorityNo(other.getPriorityNo());
           }
@@ -3663,6 +3844,9 @@ public final class OmGetShippingTypesAd {
           }
           if (other.hasSurchargeUnitSymbol()) {
             mergeSurchargeUnitSymbol(other.getSurchargeUnitSymbol());
+          }
+          if (other.hasBruttoSumFrom()) {
+            mergeBruttoSumFrom(other.getBruttoSumFrom());
           }
           if (other.hasSurchargeValue()) {
             mergeSurchargeValue(other.getSurchargeValue());
@@ -3770,11 +3954,164 @@ public final class OmGetShippingTypesAd {
           return this;
         }
 
+        private io.dstore.Values.decimalValue bruttoSumTo_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoSumToBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public boolean hasBruttoSumTo() {
+          return bruttoSumToBuilder_ != null || bruttoSumTo_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getBruttoSumTo() {
+          if (bruttoSumToBuilder_ == null) {
+            return bruttoSumTo_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSumTo_;
+          } else {
+            return bruttoSumToBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public Builder setBruttoSumTo(io.dstore.Values.decimalValue value) {
+          if (bruttoSumToBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            bruttoSumTo_ = value;
+            onChanged();
+          } else {
+            bruttoSumToBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public Builder setBruttoSumTo(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (bruttoSumToBuilder_ == null) {
+            bruttoSumTo_ = builderForValue.build();
+            onChanged();
+          } else {
+            bruttoSumToBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public Builder mergeBruttoSumTo(io.dstore.Values.decimalValue value) {
+          if (bruttoSumToBuilder_ == null) {
+            if (bruttoSumTo_ != null) {
+              bruttoSumTo_ =
+                io.dstore.Values.decimalValue.newBuilder(bruttoSumTo_).mergeFrom(value).buildPartial();
+            } else {
+              bruttoSumTo_ = value;
+            }
+            onChanged();
+          } else {
+            bruttoSumToBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public Builder clearBruttoSumTo() {
+          if (bruttoSumToBuilder_ == null) {
+            bruttoSumTo_ = null;
+            onChanged();
+          } else {
+            bruttoSumTo_ = null;
+            bruttoSumToBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getBruttoSumToBuilder() {
+          
+          onChanged();
+          return getBruttoSumToFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getBruttoSumToOrBuilder() {
+          if (bruttoSumToBuilder_ != null) {
+            return bruttoSumToBuilder_.getMessageOrBuilder();
+          } else {
+            return bruttoSumTo_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSumTo_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumTo"
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getBruttoSumToFieldBuilder() {
+          if (bruttoSumToBuilder_ == null) {
+            bruttoSumToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getBruttoSumTo(),
+                    getParentForChildren(),
+                    isClean());
+            bruttoSumTo_ = null;
+          }
+          return bruttoSumToBuilder_;
+        }
+
         private io.dstore.Values.integerValue priorityNo_ = null;
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priorityNoBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3784,7 +4121,7 @@ public final class OmGetShippingTypesAd {
           return priorityNoBuilder_ != null || priorityNo_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3798,7 +4135,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3818,7 +4155,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3836,7 +4173,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3858,7 +4195,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3876,7 +4213,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3888,7 +4225,7 @@ public final class OmGetShippingTypesAd {
           return getPriorityNoFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3903,7 +4240,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue priority_no = 10001;</code>
+         * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          *
          * <pre>
          * Bestimmt die Reihenfolge bei der Berechnung aller "ShippingTypeID" zugeordneten "Surcharges"
@@ -3927,7 +4264,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> shippingTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -3937,7 +4274,7 @@ public final class OmGetShippingTypesAd {
           return shippingTypeDescriptionBuilder_ != null || shippingTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -3951,7 +4288,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -3971,7 +4308,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -3989,7 +4326,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -4011,7 +4348,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -4029,7 +4366,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -4041,7 +4378,7 @@ public final class OmGetShippingTypesAd {
           return getShippingTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -4056,7 +4393,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.stringValue shipping_type_description = 10003;</code>
          *
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
@@ -4080,7 +4417,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeUnitSymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4090,7 +4427,7 @@ public final class OmGetShippingTypesAd {
           return surchargeUnitSymbolBuilder_ != null || surchargeUnitSymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4104,7 +4441,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4124,7 +4461,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4142,7 +4479,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4164,7 +4501,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4182,7 +4519,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4194,7 +4531,7 @@ public final class OmGetShippingTypesAd {
           return getSurchargeUnitSymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4209,7 +4546,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10004;</code>
          *
          * <pre>
          * Symbol/Abkürzung der Einheit "SurchargeUnitID"
@@ -4229,11 +4566,164 @@ public final class OmGetShippingTypesAd {
           return surchargeUnitSymbolBuilder_;
         }
 
+        private io.dstore.Values.decimalValue bruttoSumFrom_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoSumFromBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public boolean hasBruttoSumFrom() {
+          return bruttoSumFromBuilder_ != null || bruttoSumFrom_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getBruttoSumFrom() {
+          if (bruttoSumFromBuilder_ == null) {
+            return bruttoSumFrom_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSumFrom_;
+          } else {
+            return bruttoSumFromBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public Builder setBruttoSumFrom(io.dstore.Values.decimalValue value) {
+          if (bruttoSumFromBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            bruttoSumFrom_ = value;
+            onChanged();
+          } else {
+            bruttoSumFromBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public Builder setBruttoSumFrom(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (bruttoSumFromBuilder_ == null) {
+            bruttoSumFrom_ = builderForValue.build();
+            onChanged();
+          } else {
+            bruttoSumFromBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public Builder mergeBruttoSumFrom(io.dstore.Values.decimalValue value) {
+          if (bruttoSumFromBuilder_ == null) {
+            if (bruttoSumFrom_ != null) {
+              bruttoSumFrom_ =
+                io.dstore.Values.decimalValue.newBuilder(bruttoSumFrom_).mergeFrom(value).buildPartial();
+            } else {
+              bruttoSumFrom_ = value;
+            }
+            onChanged();
+          } else {
+            bruttoSumFromBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public Builder clearBruttoSumFrom() {
+          if (bruttoSumFromBuilder_ == null) {
+            bruttoSumFrom_ = null;
+            onChanged();
+          } else {
+            bruttoSumFrom_ = null;
+            bruttoSumFromBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getBruttoSumFromBuilder() {
+          
+          onChanged();
+          return getBruttoSumFromFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getBruttoSumFromOrBuilder() {
+          if (bruttoSumFromBuilder_ != null) {
+            return bruttoSumFromBuilder_.getMessageOrBuilder();
+          } else {
+            return bruttoSumFrom_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSumFrom_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue brutto_sum_from = 10005;</code>
+         *
+         * <pre>
+         * Nicht verwenden, stattdessen : "GrossSumFrom"
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getBruttoSumFromFieldBuilder() {
+          if (bruttoSumFromBuilder_ == null) {
+            bruttoSumFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getBruttoSumFrom(),
+                    getParentForChildren(),
+                    isClean());
+            bruttoSumFrom_ = null;
+          }
+          return bruttoSumFromBuilder_;
+        }
+
         private io.dstore.Values.decimalValue surchargeValue_ = null;
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4243,7 +4733,7 @@ public final class OmGetShippingTypesAd {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4257,7 +4747,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4277,7 +4767,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4295,7 +4785,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4317,7 +4807,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4335,7 +4825,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4347,7 +4837,7 @@ public final class OmGetShippingTypesAd {
           return getSurchargeValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4362,7 +4852,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10004;</code>
+         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
          *
          * <pre>
          * Aufschlag/Rabatt, der bei Wahl der "ShippingTypeID" in einem Auftrag berechnet/gewährt wird
@@ -4386,7 +4876,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> costBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4396,7 +4886,7 @@ public final class OmGetShippingTypesAd {
           return costBuilder_ != null || cost_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4410,7 +4900,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4430,7 +4920,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4448,7 +4938,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4470,7 +4960,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4488,7 +4978,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4500,7 +4990,7 @@ public final class OmGetShippingTypesAd {
           return getCostFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4515,7 +5005,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue cost = 10005;</code>
+         * <code>optional .dstore.values.decimalValue cost = 10007;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeValue"
@@ -4539,7 +5029,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumToBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4549,7 +5039,7 @@ public final class OmGetShippingTypesAd {
           return grossSumToBuilder_ != null || grossSumTo_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4563,7 +5053,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4583,7 +5073,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4601,7 +5091,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4623,7 +5113,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4641,7 +5131,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4653,7 +5143,7 @@ public final class OmGetShippingTypesAd {
           return getGrossSumToFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4668,7 +5158,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_to = 10006;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_to = 10008;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) höchstens so hoch wie dieser Betrag ist
@@ -4692,7 +5182,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4702,7 +5192,7 @@ public final class OmGetShippingTypesAd {
           return currencyIdBuilder_ != null || currencyId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4716,7 +5206,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4736,7 +5226,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4754,7 +5244,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4776,7 +5266,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4794,7 +5284,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4806,7 +5296,7 @@ public final class OmGetShippingTypesAd {
           return getCurrencyIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4821,7 +5311,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.integerValue currency_id = 10009;</code>
          *
          * <pre>
          * ID einer Währung, in der "GrossSumFrom" und "GrossSumTo" angegeben sind
@@ -4845,7 +5335,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currencySymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4855,7 +5345,7 @@ public final class OmGetShippingTypesAd {
           return currencySymbolBuilder_ != null || currencySymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4869,7 +5359,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4889,7 +5379,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4907,7 +5397,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4929,7 +5419,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4947,7 +5437,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4959,7 +5449,7 @@ public final class OmGetShippingTypesAd {
           return getCurrencySymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4974,7 +5464,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.stringValue currency_symbol = 10010;</code>
          *
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
@@ -4998,7 +5488,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5008,7 +5498,7 @@ public final class OmGetShippingTypesAd {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5022,7 +5512,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5042,7 +5532,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5060,7 +5550,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5082,7 +5572,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5100,7 +5590,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5112,7 +5602,7 @@ public final class OmGetShippingTypesAd {
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5127,7 +5617,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10009;</code>
+         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10011;</code>
          *
          * <pre>
          * Wann wurde die Versandsart angelegt. Anmerkung : Kann "NULL" sein, da diese Spalte erst seit Version 5.0.2 der Tabelle "PaymentTypes" hinzugefügt wurde !
@@ -5151,7 +5641,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5161,7 +5651,7 @@ public final class OmGetShippingTypesAd {
           return activeBuilder_ != null || active_ != null;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5175,7 +5665,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5195,7 +5685,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5213,7 +5703,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5235,7 +5725,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5253,7 +5743,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5265,7 +5755,7 @@ public final class OmGetShippingTypesAd {
           return getActiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5280,7 +5770,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.booleanValue active = 10010;</code>
+         * <code>optional .dstore.values.booleanValue active = 10012;</code>
          *
          * <pre>
          * "0" : Die Versandart ist nicht mehr aktiv, d.h. kann für neue Aufträge nicht mehr verwendet werden (wird aber noch in alten Aufträgen referenziert und kann daher nicht gelöscht werden)"1" : "ShippingTypeID" ist aktiv, also aktuell auswählbar
@@ -5304,7 +5794,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> costCurrencyIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5314,7 +5804,7 @@ public final class OmGetShippingTypesAd {
           return costCurrencyIdBuilder_ != null || costCurrencyId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5328,7 +5818,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5348,7 +5838,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5366,7 +5856,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5388,7 +5878,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5406,7 +5896,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5418,7 +5908,7 @@ public final class OmGetShippingTypesAd {
           return getCostCurrencyIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5433,7 +5923,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue cost_currency_id = 10011;</code>
+         * <code>optional .dstore.values.integerValue cost_currency_id = 10013;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitID"
@@ -5457,7 +5947,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> translatedDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5467,7 +5957,7 @@ public final class OmGetShippingTypesAd {
           return translatedDescriptionBuilder_ != null || translatedDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5481,7 +5971,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5501,7 +5991,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5519,7 +6009,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5541,7 +6031,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5559,7 +6049,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5571,7 +6061,7 @@ public final class OmGetShippingTypesAd {
           return getTranslatedDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5586,7 +6076,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue translated_description = 10012;</code>
+         * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          *
          * <pre>
          * Übersetzung von "ShippingTypeDescription" in der durch "&#64;LanguageID" angegebenen Sprache. Immer "NULL", wenn "&#64;LanguageID" "0" oder "NULL" ist, oder ein Wert für "&#64;ValidAtDateAndTime" gesetzt ist (da es für die Übersetzungen KEINE Historie gibt) !
@@ -5610,7 +6100,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumFromBuilder_;
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5620,7 +6110,7 @@ public final class OmGetShippingTypesAd {
           return grossSumFromBuilder_ != null || grossSumFrom_ != null;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5634,7 +6124,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5654,7 +6144,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5672,7 +6162,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5694,7 +6184,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5712,7 +6202,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5724,7 +6214,7 @@ public final class OmGetShippingTypesAd {
           return getGrossSumFromFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5739,7 +6229,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.decimalValue gross_sum_from = 10013;</code>
+         * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          *
          * <pre>
          * om_GetPaymentAndShipping_Pu bietet die Versandart ShippingTypeID nur dann an, wenn der Brutto-Bestellwert (in der Einheit CurrencyID) mindestens so hoch wie dieser Betrag ist
@@ -5763,7 +6253,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> regionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5773,7 +6263,7 @@ public final class OmGetShippingTypesAd {
           return regionBuilder_ != null || region_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5787,7 +6277,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5807,7 +6297,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5825,7 +6315,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5847,7 +6337,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5865,7 +6355,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5877,7 +6367,7 @@ public final class OmGetShippingTypesAd {
           return getRegionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5892,7 +6382,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue region = 10014;</code>
+         * <code>optional .dstore.values.stringValue region = 10016;</code>
          *
          * <pre>
          * Bezeichnung der Region "RegionID"
@@ -5916,7 +6406,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -5926,7 +6416,7 @@ public final class OmGetShippingTypesAd {
           return surchargeIsAbsoluteValueBuilder_ != null || surchargeIsAbsoluteValue_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -5940,7 +6430,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -5960,7 +6450,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -5978,7 +6468,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -6000,7 +6490,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -6018,7 +6508,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -6030,7 +6520,7 @@ public final class OmGetShippingTypesAd {
           return getSurchargeIsAbsoluteValueFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -6045,7 +6535,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10015;</code>
+         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          *
          * <pre>
          * Gibt an, wie "SurchargeValue" zu verstehen ist :"0" : Es ist eine relative (d.h. prozentuale) Angabe"1" : Es ist eine absolute Währungs-Angabe in der Einheit SurchargeUnitID, und zwar ein als NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
@@ -6069,7 +6559,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> costCurrencySymbolBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6079,7 +6569,7 @@ public final class OmGetShippingTypesAd {
           return costCurrencySymbolBuilder_ != null || costCurrencySymbol_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6093,7 +6583,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6113,7 +6603,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6131,7 +6621,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6153,7 +6643,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6171,7 +6661,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6183,7 +6673,7 @@ public final class OmGetShippingTypesAd {
           return getCostCurrencySymbolFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6198,7 +6688,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10016;</code>
+         * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          *
          * <pre>
          * Nicht verwenden, stattdessen : "SurchargeUnitSymbol"
@@ -6222,7 +6712,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6232,7 +6722,7 @@ public final class OmGetShippingTypesAd {
           return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6246,7 +6736,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6266,7 +6756,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6284,7 +6774,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6306,7 +6796,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6324,7 +6814,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6336,7 +6826,7 @@ public final class OmGetShippingTypesAd {
           return getShippingTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6351,7 +6841,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10017;</code>
+         * <code>optional .dstore.values.integerValue shipping_type_id = 10019;</code>
          *
          * <pre>
          * ID einer Versandart
@@ -6375,7 +6865,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> regionIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6385,7 +6875,7 @@ public final class OmGetShippingTypesAd {
           return regionIdBuilder_ != null || regionId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6399,7 +6889,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6419,7 +6909,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6437,7 +6927,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6459,7 +6949,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6477,7 +6967,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6489,7 +6979,7 @@ public final class OmGetShippingTypesAd {
           return getRegionIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6504,7 +6994,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue region_id = 10018;</code>
+         * <code>optional .dstore.values.integerValue region_id = 10020;</code>
          *
          * <pre>
          * ID einer Region, die bestimmte Länder ("Countries") zusammenfaßt. "om_GetPaymentAndShipping_Pu" bietet die Versandart "ShippingTypeID" nur dann an, wenn die Person, an die die Ware geliefert werden soll, aus einem Land kommt, das dieser Region angehört.
@@ -6528,7 +7018,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6538,7 +7028,7 @@ public final class OmGetShippingTypesAd {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6552,7 +7042,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6572,7 +7062,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6590,7 +7080,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6612,7 +7102,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6630,7 +7120,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6642,7 +7132,7 @@ public final class OmGetShippingTypesAd {
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6657,7 +7147,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10019;</code>
+         * <code>optional .dstore.values.stringValue surcharge_type_description = 10021;</code>
          *
          * <pre>
          * Bezeichnung der "SurchargeTypeID"
@@ -6681,7 +7171,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6691,7 +7181,7 @@ public final class OmGetShippingTypesAd {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6705,7 +7195,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6725,7 +7215,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6743,7 +7233,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6765,7 +7255,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6783,7 +7273,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6795,7 +7285,7 @@ public final class OmGetShippingTypesAd {
           return getSurchargeTypeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6810,7 +7300,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10020;</code>
+         * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          *
          * <pre>
          * ID einer Preis-Aufschlags/Rabatt-Art, die bei der Versandart "ShippingTypeID" anfällt, wie z.B. "Versandkosten Inland" o.ä.
@@ -6834,7 +7324,7 @@ public final class OmGetShippingTypesAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeUnitIdBuilder_;
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6844,7 +7334,7 @@ public final class OmGetShippingTypesAd {
           return surchargeUnitIdBuilder_ != null || surchargeUnitId_ != null;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6858,7 +7348,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6878,7 +7368,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6896,7 +7386,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6918,7 +7408,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6936,7 +7426,7 @@ public final class OmGetShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6948,7 +7438,7 @@ public final class OmGetShippingTypesAd {
           return getSurchargeUnitIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -6963,7 +7453,7 @@ public final class OmGetShippingTypesAd {
           }
         }
         /**
-         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10021;</code>
+         * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          *
          * <pre>
          * ID der Einheit, in der "SurchargeValue" angegeben ist
@@ -8556,44 +9046,46 @@ public final class OmGetShippingTypesAd {
       "only_active_null\030\353\007 \001(\010\022=\n\026valid_at_date" +
       "_and_time\030\004 \001(\0132\035.dstore.values.timestam" +
       "pValue\022$\n\033valid_at_date_and_time_null\030\354\007" +
-      " \001(\010\"\233\013\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
+      " \001(\010\"\207\014\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor" +
       "e.engine.error.Error\022H\n\020meta_information" +
       "\030\002 \003(\0132..dstore.engine.metainformation.M" +
       "etaInformation\022/\n\007message\030\003 \003(\0132\036.dstore" +
       ".engine.message.Message\022?\n\003row\030\004 \003(\01322.d" +
       "store.engine.om_GetShippingTypes_Ad.Resp",
-      "onse.Row\032\247\t\n\003Row\022\017\n\006row_id\030\220N \001(\005\0221\n\013pri" +
-      "ority_no\030\221N \001(\0132\033.dstore.values.integerV" +
-      "alue\022>\n\031shipping_type_description\030\222N \001(\013" +
-      "2\032.dstore.values.stringValue\022:\n\025surcharg" +
-      "e_unit_symbol\030\223N \001(\0132\032.dstore.values.str" +
-      "ingValue\0225\n\017surcharge_value\030\224N \001(\0132\033.dst" +
-      "ore.values.decimalValue\022*\n\004cost\030\225N \001(\0132\033" +
-      ".dstore.values.decimalValue\0222\n\014gross_sum" +
-      "_to\030\226N \001(\0132\033.dstore.values.decimalValue\022" +
-      "1\n\013currency_id\030\227N \001(\0132\033.dstore.values.in",
-      "tegerValue\0224\n\017currency_symbol\030\230N \001(\0132\032.d" +
-      "store.values.stringValue\022@\n\030created_at_d" +
-      "ate_and_time\030\231N \001(\0132\035.dstore.values.time" +
-      "stampValue\022,\n\006active\030\232N \001(\0132\033.dstore.val" +
-      "ues.booleanValue\0226\n\020cost_currency_id\030\233N " +
-      "\001(\0132\033.dstore.values.integerValue\022;\n\026tran" +
-      "slated_description\030\234N \001(\0132\032.dstore.value" +
-      "s.stringValue\0224\n\016gross_sum_from\030\235N \001(\0132\033" +
-      ".dstore.values.decimalValue\022+\n\006region\030\236N" +
-      " \001(\0132\032.dstore.values.stringValue\022A\n\033surc",
-      "harge_is_absolute_value\030\237N \001(\0132\033.dstore." +
-      "values.integerValue\0229\n\024cost_currency_sym" +
-      "bol\030\240N \001(\0132\032.dstore.values.stringValue\0226" +
-      "\n\020shipping_type_id\030\241N \001(\0132\033.dstore.value" +
-      "s.integerValue\022/\n\tregion_id\030\242N \001(\0132\033.dst" +
-      "ore.values.integerValue\022?\n\032surcharge_typ" +
-      "e_description\030\243N \001(\0132\032.dstore.values.str" +
-      "ingValue\0227\n\021surcharge_type_id\030\244N \001(\0132\033.d" +
-      "store.values.integerValue\0227\n\021surcharge_u" +
-      "nit_id\030\245N \001(\0132\033.dstore.values.integerVal",
-      "ueB\035\n\033io.dstore.engine.proceduresb\006proto" +
-      "3"
+      "onse.Row\032\223\n\n\003Row\022\017\n\006row_id\030\220N \001(\005\0223\n\rbru" +
+      "tto_sum_to\030\221N \001(\0132\033.dstore.values.decima" +
+      "lValue\0221\n\013priority_no\030\222N \001(\0132\033.dstore.va" +
+      "lues.integerValue\022>\n\031shipping_type_descr" +
+      "iption\030\223N \001(\0132\032.dstore.values.stringValu" +
+      "e\022:\n\025surcharge_unit_symbol\030\224N \001(\0132\032.dsto" +
+      "re.values.stringValue\0225\n\017brutto_sum_from" +
+      "\030\225N \001(\0132\033.dstore.values.decimalValue\0225\n\017" +
+      "surcharge_value\030\226N \001(\0132\033.dstore.values.d" +
+      "ecimalValue\022*\n\004cost\030\227N \001(\0132\033.dstore.valu",
+      "es.decimalValue\0222\n\014gross_sum_to\030\230N \001(\0132\033" +
+      ".dstore.values.decimalValue\0221\n\013currency_" +
+      "id\030\231N \001(\0132\033.dstore.values.integerValue\0224" +
+      "\n\017currency_symbol\030\232N \001(\0132\032.dstore.values" +
+      ".stringValue\022@\n\030created_at_date_and_time" +
+      "\030\233N \001(\0132\035.dstore.values.timestampValue\022," +
+      "\n\006active\030\234N \001(\0132\033.dstore.values.booleanV" +
+      "alue\0226\n\020cost_currency_id\030\235N \001(\0132\033.dstore" +
+      ".values.integerValue\022;\n\026translated_descr" +
+      "iption\030\236N \001(\0132\032.dstore.values.stringValu",
+      "e\0224\n\016gross_sum_from\030\237N \001(\0132\033.dstore.valu" +
+      "es.decimalValue\022+\n\006region\030\240N \001(\0132\032.dstor" +
+      "e.values.stringValue\022A\n\033surcharge_is_abs" +
+      "olute_value\030\241N \001(\0132\033.dstore.values.integ" +
+      "erValue\0229\n\024cost_currency_symbol\030\242N \001(\0132\032" +
+      ".dstore.values.stringValue\0226\n\020shipping_t" +
+      "ype_id\030\243N \001(\0132\033.dstore.values.integerVal" +
+      "ue\022/\n\tregion_id\030\244N \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022?\n\032surcharge_type_descriptio" +
+      "n\030\245N \001(\0132\032.dstore.values.stringValue\0227\n\021",
+      "surcharge_type_id\030\246N \001(\0132\033.dstore.values" +
+      ".integerValue\0227\n\021surcharge_unit_id\030\247N \001(" +
+      "\0132\033.dstore.values.integerValueB\035\n\033io.dst" +
+      "ore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8628,7 +9120,7 @@ public final class OmGetShippingTypesAd {
     internal_static_dstore_engine_om_GetShippingTypes_Ad_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetShippingTypes_Ad_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "PriorityNo", "ShippingTypeDescription", "SurchargeUnitSymbol", "SurchargeValue", "Cost", "GrossSumTo", "CurrencyId", "CurrencySymbol", "CreatedAtDateAndTime", "Active", "CostCurrencyId", "TranslatedDescription", "GrossSumFrom", "Region", "SurchargeIsAbsoluteValue", "CostCurrencySymbol", "ShippingTypeId", "RegionId", "SurchargeTypeDescription", "SurchargeTypeId", "SurchargeUnitId", });
+        new java.lang.String[] { "RowId", "BruttoSumTo", "PriorityNo", "ShippingTypeDescription", "SurchargeUnitSymbol", "BruttoSumFrom", "SurchargeValue", "Cost", "GrossSumTo", "CurrencyId", "CurrencySymbol", "CreatedAtDateAndTime", "Active", "CostCurrencyId", "TranslatedDescription", "GrossSumFrom", "Region", "SurchargeIsAbsoluteValue", "CostCurrencySymbol", "ShippingTypeId", "RegionId", "SurchargeTypeDescription", "SurchargeTypeId", "SurchargeUnitId", });
     io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();

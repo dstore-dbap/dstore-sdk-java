@@ -3242,6 +3242,56 @@ public final class OmGetPaymentAndShippingPu {
        * </pre>
        */
       io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      boolean hasShippingCostBrutto();
+      /**
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getShippingCostBrutto();
+      /**
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder();
+
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      boolean hasPaymentCostBrutto();
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      io.dstore.Values.decimalValue getPaymentCostBrutto();
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      io.dstore.Values.decimalValueOrBuilder getPaymentCostBruttoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPaymentAndShipping_Pu.Response.Row}
@@ -3413,6 +3463,32 @@ public final class OmGetPaymentAndShippingPu {
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingCost_);
                   shippingCost_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 240074: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (shippingCostBrutto_ != null) {
+                  subBuilder = shippingCostBrutto_.toBuilder();
+                }
+                shippingCostBrutto_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(shippingCostBrutto_);
+                  shippingCostBrutto_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 240082: {
+                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                if (paymentCostBrutto_ != null) {
+                  subBuilder = paymentCostBrutto_.toBuilder();
+                }
+                paymentCostBrutto_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(paymentCostBrutto_);
+                  paymentCostBrutto_ = subBuilder.buildPartial();
                 }
 
                 break;
@@ -3780,6 +3856,72 @@ public final class OmGetPaymentAndShippingPu {
         return getShippingCost();
       }
 
+      public static final int SHIPPING_COST_BRUTTO_FIELD_NUMBER = 30009;
+      private io.dstore.Values.decimalValue shippingCostBrutto_;
+      /**
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      public boolean hasShippingCostBrutto() {
+        return shippingCostBrutto_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getShippingCostBrutto() {
+        return shippingCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder() {
+        return getShippingCostBrutto();
+      }
+
+      public static final int PAYMENT_COST_BRUTTO_FIELD_NUMBER = 30010;
+      private io.dstore.Values.decimalValue paymentCostBrutto_;
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      public boolean hasPaymentCostBrutto() {
+        return paymentCostBrutto_ != null;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      public io.dstore.Values.decimalValue getPaymentCostBrutto() {
+        return paymentCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : paymentCostBrutto_;
+      }
+      /**
+       * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+       *
+       * <pre>
+       * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+       * </pre>
+       */
+      public io.dstore.Values.decimalValueOrBuilder getPaymentCostBruttoOrBuilder() {
+        return getPaymentCostBrutto();
+      }
+
       private byte memoizedIsInitialized = -1;
       public final boolean isInitialized() {
         byte isInitialized = memoizedIsInitialized;
@@ -3824,6 +3966,12 @@ public final class OmGetPaymentAndShippingPu {
         }
         if (shippingCost_ != null) {
           output.writeMessage(30004, getShippingCost());
+        }
+        if (shippingCostBrutto_ != null) {
+          output.writeMessage(30009, getShippingCostBrutto());
+        }
+        if (paymentCostBrutto_ != null) {
+          output.writeMessage(30010, getPaymentCostBrutto());
         }
       }
 
@@ -3875,6 +4023,14 @@ public final class OmGetPaymentAndShippingPu {
         if (shippingCost_ != null) {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30004, getShippingCost());
+        }
+        if (shippingCostBrutto_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(30009, getShippingCostBrutto());
+        }
+        if (paymentCostBrutto_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(30010, getPaymentCostBrutto());
         }
         memoizedSize = size;
         return size;
@@ -4049,6 +4205,18 @@ public final class OmGetPaymentAndShippingPu {
             shippingCost_ = null;
             shippingCostBuilder_ = null;
           }
+          if (shippingCostBruttoBuilder_ == null) {
+            shippingCostBrutto_ = null;
+          } else {
+            shippingCostBrutto_ = null;
+            shippingCostBruttoBuilder_ = null;
+          }
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBrutto_ = null;
+          } else {
+            paymentCostBrutto_ = null;
+            paymentCostBruttoBuilder_ = null;
+          }
           return this;
         }
 
@@ -4122,6 +4290,16 @@ public final class OmGetPaymentAndShippingPu {
           } else {
             result.shippingCost_ = shippingCostBuilder_.build();
           }
+          if (shippingCostBruttoBuilder_ == null) {
+            result.shippingCostBrutto_ = shippingCostBrutto_;
+          } else {
+            result.shippingCostBrutto_ = shippingCostBruttoBuilder_.build();
+          }
+          if (paymentCostBruttoBuilder_ == null) {
+            result.paymentCostBrutto_ = paymentCostBrutto_;
+          } else {
+            result.paymentCostBrutto_ = paymentCostBruttoBuilder_.build();
+          }
           onBuilt();
           return result;
         }
@@ -4169,6 +4347,12 @@ public final class OmGetPaymentAndShippingPu {
           }
           if (other.hasShippingCost()) {
             mergeShippingCost(other.getShippingCost());
+          }
+          if (other.hasShippingCostBrutto()) {
+            mergeShippingCostBrutto(other.getShippingCostBrutto());
+          }
+          if (other.hasPaymentCostBrutto()) {
+            mergePaymentCostBrutto(other.getPaymentCostBrutto());
           }
           onChanged();
           return this;
@@ -5750,6 +5934,312 @@ public final class OmGetPaymentAndShippingPu {
             shippingCost_ = null;
           }
           return shippingCostBuilder_;
+        }
+
+        private io.dstore.Values.decimalValue shippingCostBrutto_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> shippingCostBruttoBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public boolean hasShippingCostBrutto() {
+          return shippingCostBruttoBuilder_ != null || shippingCostBrutto_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getShippingCostBrutto() {
+          if (shippingCostBruttoBuilder_ == null) {
+            return shippingCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
+          } else {
+            return shippingCostBruttoBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder setShippingCostBrutto(io.dstore.Values.decimalValue value) {
+          if (shippingCostBruttoBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            shippingCostBrutto_ = value;
+            onChanged();
+          } else {
+            shippingCostBruttoBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder setShippingCostBrutto(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (shippingCostBruttoBuilder_ == null) {
+            shippingCostBrutto_ = builderForValue.build();
+            onChanged();
+          } else {
+            shippingCostBruttoBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder mergeShippingCostBrutto(io.dstore.Values.decimalValue value) {
+          if (shippingCostBruttoBuilder_ == null) {
+            if (shippingCostBrutto_ != null) {
+              shippingCostBrutto_ =
+                io.dstore.Values.decimalValue.newBuilder(shippingCostBrutto_).mergeFrom(value).buildPartial();
+            } else {
+              shippingCostBrutto_ = value;
+            }
+            onChanged();
+          } else {
+            shippingCostBruttoBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder clearShippingCostBrutto() {
+          if (shippingCostBruttoBuilder_ == null) {
+            shippingCostBrutto_ = null;
+            onChanged();
+          } else {
+            shippingCostBrutto_ = null;
+            shippingCostBruttoBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getShippingCostBruttoBuilder() {
+          
+          onChanged();
+          return getShippingCostBruttoFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getShippingCostBruttoOrBuilder() {
+          if (shippingCostBruttoBuilder_ != null) {
+            return shippingCostBruttoBuilder_.getMessageOrBuilder();
+          } else {
+            return shippingCostBrutto_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : shippingCostBrutto_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue shipping_cost_brutto = 30009;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getShippingCostBruttoFieldBuilder() {
+          if (shippingCostBruttoBuilder_ == null) {
+            shippingCostBruttoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getShippingCostBrutto(),
+                    getParentForChildren(),
+                    isClean());
+            shippingCostBrutto_ = null;
+          }
+          return shippingCostBruttoBuilder_;
+        }
+
+        private io.dstore.Values.decimalValue paymentCostBrutto_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> paymentCostBruttoBuilder_;
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public boolean hasPaymentCostBrutto() {
+          return paymentCostBruttoBuilder_ != null || paymentCostBrutto_ != null;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue getPaymentCostBrutto() {
+          if (paymentCostBruttoBuilder_ == null) {
+            return paymentCostBrutto_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : paymentCostBrutto_;
+          } else {
+            return paymentCostBruttoBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder setPaymentCostBrutto(io.dstore.Values.decimalValue value) {
+          if (paymentCostBruttoBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            paymentCostBrutto_ = value;
+            onChanged();
+          } else {
+            paymentCostBruttoBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder setPaymentCostBrutto(
+            io.dstore.Values.decimalValue.Builder builderForValue) {
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBrutto_ = builderForValue.build();
+            onChanged();
+          } else {
+            paymentCostBruttoBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder mergePaymentCostBrutto(io.dstore.Values.decimalValue value) {
+          if (paymentCostBruttoBuilder_ == null) {
+            if (paymentCostBrutto_ != null) {
+              paymentCostBrutto_ =
+                io.dstore.Values.decimalValue.newBuilder(paymentCostBrutto_).mergeFrom(value).buildPartial();
+            } else {
+              paymentCostBrutto_ = value;
+            }
+            onChanged();
+          } else {
+            paymentCostBruttoBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public Builder clearPaymentCostBrutto() {
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBrutto_ = null;
+            onChanged();
+          } else {
+            paymentCostBrutto_ = null;
+            paymentCostBruttoBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public io.dstore.Values.decimalValue.Builder getPaymentCostBruttoBuilder() {
+          
+          onChanged();
+          return getPaymentCostBruttoFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        public io.dstore.Values.decimalValueOrBuilder getPaymentCostBruttoOrBuilder() {
+          if (paymentCostBruttoBuilder_ != null) {
+            return paymentCostBruttoBuilder_.getMessageOrBuilder();
+          } else {
+            return paymentCostBrutto_ == null ?
+                io.dstore.Values.decimalValue.getDefaultInstance() : paymentCostBrutto_;
+          }
+        }
+        /**
+         * <code>optional .dstore.values.decimalValue payment_cost_brutto = 30010;</code>
+         *
+         * <pre>
+         * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            getPaymentCostBruttoFieldBuilder() {
+          if (paymentCostBruttoBuilder_ == null) {
+            paymentCostBruttoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                    getPaymentCostBrutto(),
+                    getParentForChildren(),
+                    isClean());
+            paymentCostBrutto_ = null;
+          }
+          return paymentCostBruttoBuilder_;
         }
         public final Builder setUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -7337,13 +7827,13 @@ public final class OmGetPaymentAndShippingPu {
       "select_missing_result_reason_null\030\361\007 \001(\010" +
       "\0224\n\017calculate_costs\030\n \001(\0132\033.dstore.value" +
       "s.booleanValue\022\035\n\024calculate_costs_null\030\362" +
-      "\007 \001(\010\"\340\006\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
+      "\007 \001(\010\"\331\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
       "re.engine.error.Error\022H\n\020meta_informatio" +
       "n\030\002 \003(\0132..dstore.engine.metainformation." +
       "MetaInformation\022/\n\007message\030\003 \003(\0132\036.dstor",
       "e.engine.message.Message\022D\n\003row\030\004 \003(\01327." +
       "dstore.engine.om_GetPaymentAndShipping_P" +
-      "u.Response.Row\032\347\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
+      "u.Response.Row\032\340\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022" +
       "<\n\026region_id_payment_type\030\221N \001(\0132\033.dstor" +
       "e.values.integerValue\022=\n\027payment_for_shi" +
       "pping_id\030\222N \001(\0132\033.dstore.values.integerV" +
@@ -7358,8 +7848,11 @@ public final class OmGetPaymentAndShippingPu {
       "ror_code\030\241\234\001 \001(\0132\033.dstore.values.integer" +
       "Value\0223\n\014payment_cost\030\261\352\001 \001(\0132\033.dstore.v" +
       "alues.decimalValue\0224\n\rshipping_cost\030\264\352\001 " +
-      "\001(\0132\033.dstore.values.decimalValueB\035\n\033io.d" +
-      "store.engine.proceduresb\006proto3"
+      "\001(\0132\033.dstore.values.decimalValue\022;\n\024ship" +
+      "ping_cost_brutto\030\271\352\001 \001(\0132\033.dstore.values" +
+      ".decimalValue\022:\n\023payment_cost_brutto\030\272\352\001",
+      " \001(\0132\033.dstore.values.decimalValueB\035\n\033io." +
+      "dstore.engine.proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7394,7 +7887,7 @@ public final class OmGetPaymentAndShippingPu {
     internal_static_dstore_engine_om_GetPaymentAndShipping_Pu_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentAndShipping_Pu_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "RegionIdPaymentType", "PaymentForShippingId", "ShippingTypeId", "PaymentForShippingDescription", "PaymentTypeId", "RegionIdShippingType", "PersonCharacCategoryId", "ErrorCode", "PaymentCost", "ShippingCost", });
+        new java.lang.String[] { "RowId", "RegionIdPaymentType", "PaymentForShippingId", "ShippingTypeId", "PaymentForShippingDescription", "PaymentTypeId", "RegionIdShippingType", "PersonCharacCategoryId", "ErrorCode", "PaymentCost", "ShippingCost", "ShippingCostBrutto", "PaymentCostBrutto", });
     io.dstore.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
